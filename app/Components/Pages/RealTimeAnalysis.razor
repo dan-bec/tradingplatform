@@ -1,0 +1,219 @@
+@page "/"
+@using BullseyeDesktop.Shared.Data
+@using BullseyeDesktop.Shared.Tasks;
+@using BullseyeDesktop.Shared.Analyzers;
+@using System.Text.Json;
+@using System.Diagnostics;
+
+<h1>Real-Time Analysis</h1>
+
+Analysis for tickers in Real-Time. This feed currently pulls in per-second data
+
+<div class="form-check form-switch">
+    <input class="form-check-input" @onchange="RealTimeToggleChanged" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+    <label class="form-check-label" for="flexSwitchCheckDefault">@RealTimeToggleStatus</label>
+</div>
+
+@if (IsRealTimeToggled)
+{
+    <br />
+    <div class="container mt-4">
+        <input type="text" class="form-control me-2" maxlength="6" placeholder="Enter ticker" aria-label="Ticker" @bind=Ticker>
+        <button class="btn btn-success btn-sm" @onclick="OnNewTickerAdded">+ Add Ticker</button>
+    </div>
+    <hr />
+    <br />
+    <div class="card">
+        <h5 class="card-header">Trends</h5>
+        <div class="card-body">
+            <!-- Trends are a table of all added tickers -->
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Ticker</th>
+                        <th>Price</th>
+                        <th>Last Price Change</th>
+                        <th>Last Price Change %</th>
+                        <th>Upward Trends</th>
+                        <th>Downward Trends</th>
+                        <th>Neutral Trends</th>
+                        <th>Upward Trends Last 30</th>
+                        <th>Downward Trends Last 30</th>
+                        <th>Neutral Trends Last 30</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in PriceAnalyzers)
+                    {
+                        <tr>
+                            <td class="text-primary"><b>@item.Ticker</b></td>
+                            <td class="text-@PriceStyle">@item.CurrentPrice</td>
+                            <td>@item.LastPriceChange</td>
+                            <td>@item.LastPriceChangePercentage</td>
+                            <td class="text-success">@item.UpwardTrendTotal</td>
+                            <td class="text-danger">@item.DownwardTrendTotal</td>
+                            <td class="text-secondary">@item.NeutralTrendTotal</td>
+                            <td class="text-success">@item.UpwardTrendLast30</td>
+                            <td class="text-danger">@item.DownwardTrendLast30</td>
+                            <td class="text-secondary">@item.NeutralTrendLast30</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="container text-center mt-4">
+            <i class="fas fa-arrow-up text-success fs-2"></i> <!-- Green up arrow -->
+            <i class="fas fa-arrow-down text-danger fs-2 mx-3"></i> <!-- Red down arrow -->
+            <i class="fas fa-arrow-right text-secondary fs-2"></i> <!-- Gray sideways arrow -->
+        </div>
+    </div>
+}
+else
+{
+    <br />
+    <h4>-OR-</h4>
+    <input type="date" class="form-control" size="20" @onchange = "OnDateChanged" /><br/>
+    <button class="btn btn-primary" @onclick="OnSimulationClicked" disabled="@IsSimulationProcessing">
+        @(IsSimulationProcessing ? "Processing..." : "Simulate")
+        @if (IsSimulationProcessing)
+        {
+            <span class="spinner-border spinner-border-sm"></span>
+        }
+    </button>
+}
+
+
+@inject BackgroundTask BackgroundTask
+
+@code {
+
+    private string RealTimeToggleStatus = "Turn on real-time data analysis";
+
+    private bool IsRealTimeToggled = false;
+
+    private bool IsSimulationProcessing = false;
+
+    private string PriceStyle = "secondary";
+
+    private DateTime SimulationDate;
+
+    private string Ticker = string.Empty;
+
+    private List<PriceAnalyzer> PriceAnalyzers = new List<PriceAnalyzer>();
+
+    private void OnDateChanged(ChangeEventArgs e)
+    {
+        if (DateTime.TryParse(e.Value?.ToString(), out DateTime newDate))
+        {
+            SimulationDate = newDate;
+        }
+    }
+
+    private async Task OnSimulationClicked()
+    {
+        if (!IsRealTimeToggled)
+        {
+            IsSimulationProcessing = true;
+            PolygonWebSocketSimulation simulation = new PolygonWebSocketSimulation();
+            simulation.OnMessageReceived += HandleMessage;
+            await simulation.Main("SPY", 1, "second", SimulationDate, SimulationDate, "asc");
+        }
+    }
+
+    private PriceAnalyzer GetAnalyzer(string ticker)
+    {
+        foreach (var entry in PriceAnalyzers)
+        {
+            if (entry.Ticker == ticker)
+            {
+                return entry;
+            }
+        }
+        return null;
+    }
+
+    private void HandleMessage(string ticker, string msg)
+    {
+        string jsonString = msg;
+        if (msg.Length == 0)
+        {
+            return;
+        }
+
+        PriceAnalyzer analyzer = GetAnalyzer(ticker);
+        if (analyzer != null)
+        {
+            try
+            {
+                var jsonDoc = JsonDocument.Parse(jsonString);
+                var quotesArray = jsonDoc.RootElement;
+
+                var jsonObject = quotesArray[quotesArray.GetArrayLength() - 1];
+
+                // Get the last bid price
+                if (jsonObject.GetProperty("ev").ToString() == "A")
+                {
+                    if (jsonObject.TryGetProperty("op", out JsonElement bidPrice))
+                    {
+                        double lastBidPrice = jsonObject.GetProperty("o").GetDouble();
+
+                        analyzer.CurrentPrice = lastBidPrice.ToString("F2"); // F2 formats to 2 decimal places, adding a 0 at the end if not already
+                        Debug.WriteLine(analyzer.CurrentPrice);
+                        if (quotesArray[quotesArray.GetArrayLength() - 1].TryGetProperty("s", out var timestampProp))
+                        {
+                            long timestampMs = timestampProp.GetInt64();
+                            DateTime timestamp = DateTimeOffset.FromUnixTimeMilliseconds(timestampMs).UtcDateTime;
+                            analyzer.AddPrice(lastBidPrice, timestamp);
+                        }
+                    }
+                }
+
+                string trend = analyzer.GetTrend();
+                if (trend == PriceAnalyzer.UpwardTrend)
+                {
+                    analyzer.TextStyle = "success";
+                }
+                else if (trend == PriceAnalyzer.DownwardTrend)
+                {
+                    analyzer.TextStyle = "danger";
+                }
+                else
+                {
+                    analyzer.TextStyle = "secondary";
+                }
+
+                // At this point we should update the list in the UI
+                InvokeAsync(StateHasChanged); // Ensure UI updates
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine("Exception: " + e.Message.ToString());
+            }
+        }
+    }
+
+    private async Task RealTimeToggleChanged(ChangeEventArgs e)
+    {
+        IsRealTimeToggled = Convert.ToBoolean(e.Value);
+        await InvokeAsync(StateHasChanged);
+    }
+
+    private void OnNewTickerAdded()
+    {
+        string? ticker = Convert.ToString(Ticker);
+
+        if (ticker != null)
+        {
+            ticker = ticker.ToUpper();
+            PriceAnalyzer analyzer = GetAnalyzer(ticker);
+            if (analyzer == null)
+            {
+                // create a new analyzer
+                PriceAnalyzer newAnalyzer = new PriceAnalyzer(ticker, 30);
+                newAnalyzer.PriceAnalyzerMessageReceived += HandleMessage;
+                PriceAnalyzers.Add(newAnalyzer);
+            }
+        }
+        Ticker = string.Empty;
+    }
+}
