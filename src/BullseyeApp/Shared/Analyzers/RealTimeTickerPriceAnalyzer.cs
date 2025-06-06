@@ -161,8 +161,8 @@ namespace Bullseye.Shared.Analyzers
 
                     Console.WriteLine($"[{Ticker}]: {index - 1}:{lastEntry.Price} {index}:{entry.Price} ");
                     double priceChange = (entry.Price - lastEntry.Price);
-                    LastPriceChange = priceChange.ToString("F2");
-                    LastPriceChangePercentage = CalculateChangePercentage(entry.Price, lastEntry.Price).ToString("F2");
+                    LastPriceChange = priceChange.ToString("F3");
+                    LastPriceChangePercentage = CalculateChangePercentage(entry.Price, lastEntry.Price).ToString("F3");
                     double absoluteChange = Math.Abs(priceChange);
                     if (absoluteChange > 0.03)
                     {
@@ -203,7 +203,7 @@ namespace Bullseye.Shared.Analyzers
 
                 double downwardTrendPercentage = (double)(totalDecreases / totalIncreases);
                     
-                if (downwardTrendPercentage < 2.5) // downward trend
+                if (downwardTrendPercentage > 2.5) // downward trend
                 {
                     DownwardTrendTotal++;
                     return DownwardTrend;
