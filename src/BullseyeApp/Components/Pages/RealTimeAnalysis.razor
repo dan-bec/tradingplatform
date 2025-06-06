@@ -1,4 +1,4 @@
-@page "/"
+@page "/rta"
 @using Bullseye.Shared.Data
 @using Bullseye.Shared.Tasks;
 @using Bullseye.Shared.Analyzers;
@@ -43,10 +43,10 @@ Analysis for tickers in Real-Time. This feed currently pulls in per-second data
                         <th>Up</th>
                         <th>Down</th>
                         <th>Neutral</th>
-                        <th>Up Last 30</th>
-                        <th>Down Last 30</th>
-                        <th>Neutral Last 30</th>
-                        <th></th>
+                        <!-- <th>Chg Up (L30)</th>
+                        <th>Chg Down (L30)</th>
+                        <th>No Chg</th>
+                        <th></th> -->
                     </tr>
                 </thead>
                 <tbody>
@@ -61,9 +61,6 @@ Analysis for tickers in Real-Time. This feed currently pulls in per-second data
                             <td class="text-success">@item.UpwardTrendTotal</td>
                             <td class="text-danger">@item.DownwardTrendTotal</td>
                             <td class="text-secondary">@item.NeutralTrendTotal</td>
-                            <td class="text-success">@item.PriceIncreaseAboveThresholdLast30</td>
-                            <td class="text-danger">@item.PriceDecreaseAboveThresholdLast30</td>
-                            <td class="text-secondary">@item.BelowThresholdLast30</td>
                             <button class="btn btn-danger btn-sm" @onclick="() => OnTickerRemoved(ticker)">X</button>
                         </tr>
                     }
@@ -76,19 +73,6 @@ Analysis for tickers in Real-Time. This feed currently pulls in per-second data
             <i class="fas fa-arrow-right text-secondary fs-2"></i> <!-- Gray sideways arrow -->
         </div>
     </div>
-}
-else
-{
-    <br />
-    <h4>-OR-</h4>
-    <input type="date" class="form-control" size="20" @onchange = "OnDateChanged" /><br/>
-    <button class="btn btn-primary" @onclick="OnSimulationClicked" disabled="@IsSimulationProcessing">
-        @(IsSimulationProcessing ? "Processing..." : "Simulate")
-        @if (IsSimulationProcessing)
-        {
-            <span class="spinner-border spinner-border-sm"></span>
-        }
-    </button>
 }
 
 
