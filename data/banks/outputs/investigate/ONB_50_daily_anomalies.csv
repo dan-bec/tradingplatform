@@ -1,0 +1,3 @@
+data_date,security,option_ticker,expiration,option_type,strike_price,volume,transactions,anomaly_category,anomaly_volume,day_rank
+2025-04-22,ONB,O:ONB250620C00025000,2025-06-20,C,25.0,500,2,50,444.381,33
+2025-04-22,ONB,O:ONB250620P00020000,2025-06-20,P,20.0,1000,3,50,444.381,33

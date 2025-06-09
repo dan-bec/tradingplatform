@@ -1,0 +1,2 @@
+data_date,options_ticker,size,price,trade_value,trade_value_bracket,sip_timestamp,conditions,correction,exchange,id,name,type,data_types,security,option_ticker,expiration,option_type,strike_price,volume,transactions,anomaly_category,anomaly_volume,day_rank
+2025-05-06,O:CFR250718C00130000,100,3.7,37000.0,<$0.1M,1746541476622000000,209,0,323,209,Automatic Execution,sale_condition,trade,CFR,O:CFR250718C00130000,2025-07-18,C,130.0,104,4,50,76.02199999999999,23

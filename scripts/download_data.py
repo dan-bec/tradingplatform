@@ -6,6 +6,8 @@ import pandas as pd
 import re
 from datetime import datetime, timedelta
 from pathlib import Path
+import gzip
+import shutil
 
 # Function to extract static string variables from DataServices.cs
 def get_static_string(file_path, var_name):
@@ -27,11 +29,11 @@ def get_static_string(file_path, var_name):
 script_dir = os.path.dirname(os.path.abspath(__file__))
 banks_csv_path = os.path.join(script_dir, "..", "data", "banks", "banks.csv")
 banks_option_volume_csv_path = os.path.join(script_dir, "..", "data", "banks", "banks_daily_option_volume.csv")
-dataservices_path = os.path.join(script_dir, "..", "app", "Shared", "Data", "DataService.cs")
+dataservices_path = os.path.join(script_dir, "..", "src", "BullseyeApp", "Shared", "Data", "DataService.cs")
 S3_ENDPOINT = "https://files.polygon.io"  # Polygon S3-compatible endpoint
 BUCKET_NAME = "flatfiles"  # Polygon bucket name
-START_DATE = datetime(2024, 1, 1).date()
-END_DATE = (datetime.now() - timedelta(days=1)).date()
+START_DATE = datetime(2025, 1, 1).date()
+END_DATE = datetime.now().date()  # Updated to include today
 
 # Define multiple passes with their respective configurations
 PASSES = [
@@ -53,26 +55,16 @@ AWS_SECRET_KEY = get_static_string(dataservices_path, "AWS_SECRET_KEY")
 
 # Initialize a session using your credentials
 session = boto3.Session(
-  aws_access_key_id=AWS_ACCESS_KEY,
-  aws_secret_access_key=AWS_SECRET_KEY,
+    aws_access_key_id=AWS_ACCESS_KEY,
+    aws_secret_access_key=AWS_SECRET_KEY,
 )
 
 # Create a client with your session and specify the endpoint
 s3 = session.client(
-  's3',
-  endpoint_url=S3_ENDPOINT,
-  config=Config(signature_version='s3v4'),
+    's3',
+    endpoint_url=S3_ENDPOINT,
+    config=Config(signature_version='s3v4'),
 )
-
-''' # Preview Files
-paginator = s3.get_paginator('list_objects_v2')
-prefix = 'us_options_opra/day_aggs_v'  # Example: Change this prefix to match your data need
-
-# List objects using the selected prefix
-for page in paginator.paginate(Bucket='flatfiles', Prefix=prefix):
-  for obj in page['Contents']:
-    print(obj['Key'])
-'''
 
 def generate_date_list(start, end):
     """Generate a list of dates between start and end (inclusive) as strings."""
@@ -84,29 +76,40 @@ def generate_date_list(start, end):
     return date_list
 
 def download_file(date, s3_prefix, download_dir):
-    """Download the options file for a given date, prefix, and local directory, skipping if it exists."""
-    # File naming convention (assumed as YYYY-MM-DD.csv.gz)
-    file_name = f"{date}.csv.gz"
+    """Download and unarchive the options file for a given date, prefix, and local directory, skipping if .csv exists."""
+    # File naming convention
+    gz_file_name = f"{date}.csv.gz"
+    csv_file_name = f"{date}.csv"
     # S3 key: {prefix}/YYYY/MM/YYYY-MM-DD.csv.gz
-    s3_key = f"{s3_prefix}/{date[:4]}/{date[5:7]}/{file_name}"
+    s3_key = f"{s3_prefix}/{date[:4]}/{date[5:7]}/{gz_file_name}"
+    # Local paths
+    local_csv_path = download_dir / csv_file_name
+    local_gz_path = download_dir / gz_file_name
     
-    local_file_path = download_dir / file_name
-    
-    # Check if file already exists
-    if local_file_path.exists():
-        print(f"Skipping {s3_key}: File already exists at {local_file_path}")
+    # Check if .csv file already exists
+    if local_csv_path.exists():
+        print(f"Skipping {s3_key}: Corresponding .csv file already exists at {local_csv_path}")
         return
     
     try:
-        s3.download_file(BUCKET_NAME, s3_key, str(local_file_path))
-        print(f"Successfully downloaded: {s3_key} to {local_file_path}")
+        # Download .csv.gz file
+        s3.download_file(BUCKET_NAME, s3_key, str(local_gz_path))
+        print(f"Successfully downloaded: {s3_key} to {local_gz_path}")
+        # Unarchive .csv.gz to .csv
+        with gzip.open(local_gz_path, 'rb') as f_in:
+            with open(local_csv_path, 'wb') as f_out:
+                shutil.copyfileobj(f_in, f_out) # type: ignore
+        print(f"Successfully unarchived to {local_csv_path}")
+        # Delete .csv.gz file
+        os.remove(local_gz_path)
+        print(f"Deleted {local_gz_path}")
     except s3.exceptions.ClientError as e:
         if e.response['Error']['Code'] == '404':
             print(f"Skipping {s3_key}: File not found on S3")
         else:
             print(f"Failed to download {s3_key}: {e}")
     except Exception as e:
-        print(f"Failed to download {s3_key}: {e}")
+        print(f"Failed to process {s3_key}: {e}")
 
 def process_pass(pass_config, start_date, end_date):
     """Process a single pass for downloading files with given configuration."""
