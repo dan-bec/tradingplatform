@@ -1,0 +1,2 @@
+data_date,option_ticker,size,price,trade_value,trade_value_bracket,sip_timestamp,conditions,correction,exchange,id,name,type,data_types,security,expiration,option_type,strike_price,volume,transactions,anomaly_category,anomaly_volume,day_rank
+2025-04-04,O:AUB250718P00025000,26,2.15,5590.0,<$0.1M,1743779033762000000,209,0,302,209,Automatic Execution,sale_condition,trade,AUB,2025-07-18,P,25.0,75,6,100,68.814,44

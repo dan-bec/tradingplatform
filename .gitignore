@@ -406,3 +406,4 @@ FodyWeavers.xsd
 *.sln.iml
 data/options/daily/*
 data/options/trades/*
+data/banks/outputs/banks_database.db

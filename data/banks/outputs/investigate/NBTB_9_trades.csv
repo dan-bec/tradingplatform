@@ -1,2 +1,1 @@
-data_date,options_ticker,size,price,trade_value,trade_value_bracket,sip_timestamp,conditions,correction,exchange,id,name,type,data_types,security,option_ticker,expiration,option_type,strike_price,volume,transactions,anomaly_category,anomaly_volume,day_rank
-2025-06-02,O:NBTB250620C00040000,30,1.77,5310.0,<$0.1M,1748883330441000000,227,0,304,227,Single Leg Auction Non ISO,sale_condition,trade,NBTB,O:NBTB250620C00040000,2025-06-20,C,40.0,100,8,9,65.299,5
+data_date,option_ticker,size,price,trade_value,trade_value_bracket,sip_timestamp,conditions,correction,exchange,id,name,type,data_types,security,expiration,option_type,strike_price,volume,transactions,anomaly_category,anomaly_volume,day_rank

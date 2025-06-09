@@ -1,0 +1,4 @@
+data_date,security,option_ticker,expiration,option_type,strike_price,volume,transactions,anomaly_category,anomaly_volume,day_rank
+2025-03-03,WSFS,O:WSFS250321C00055000,2025-03-21,C,55.0,11,2,0,11.0,1
+2025-01-28,WSFS,O:WSFS250221C00050000,2025-02-21,C,50.0,11,2,0,11.0,1
+2025-01-27,WSFS,O:WSFS250221C00050000,2025-02-21,C,50.0,11,2,0,11.0,2

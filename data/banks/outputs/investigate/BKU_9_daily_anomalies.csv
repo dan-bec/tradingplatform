@@ -1,0 +1,3 @@
+data_date,security,option_ticker,expiration,option_type,strike_price,volume,transactions,anomaly_category,anomaly_volume,day_rank
+2025-03-05,BKU,O:BKU250321P00040000,2025-03-21,P,40.0,120,12,9,51.975,1
+2025-02-21,BKU,O:BKU250321P00040000,2025-03-21,P,40.0,60,5,9,51.975,9
