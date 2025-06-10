@@ -49,24 +49,16 @@ investigate_dir.mkdir(parents=True, exist_ok=True)
 baseline_dir = output_dir / "baseline"
 baseline_dir.mkdir(parents=True, exist_ok=True)
 
-# Export for anomaly_category > 0 to "investigate" folder
-securities_anomaly = con.execute("SELECT DISTINCT security, anomaly_category FROM investigate_daily_data").fetchall()
+# Export to "investigate" folder
+securities_anomaly = con.execute("SELECT DISTINCT security, anomaly_category FROM full_daily_data").fetchall()
 for security, category in securities_anomaly:
     file_path = investigate_dir / f"{security}_{category}_daily_anomalies.csv"
-    con.execute(f"COPY (SELECT * FROM investigate_daily_data WHERE security = ?) TO '{str(file_path)}' (HEADER, DELIMITER ',')", (security,))
+    con.execute(f"COPY (SELECT * FROM full_daily_data WHERE security = ?) TO '{str(file_path)}' (HEADER, DELIMITER ',')", (security,))
 print(f"Created securities_anomaly list")
 
-# Export for anomaly_category = 0 to "baseline" folder
-securities_baseline = con.execute("SELECT DISTINCT security FROM baseline_daily_data").fetchall()
-for security, in securities_baseline:
-    file_path = baseline_dir / f"{security}_0_daily_anomalies.csv"
-    con.execute(f"COPY (SELECT * FROM baseline_daily_data WHERE security = ?) TO '{str(file_path)}' (HEADER, DELIMITER ',')", (security,))
-print(f"Created securities_baseline list")
-# Additional Trade Data Processing
-
-# Get unique dates from investigate_daily_data
-dates = [row[0] for row in con.execute("SELECT DISTINCT data_date FROM investigate_daily_data order by data_date").fetchall()]
-print("Distinct dates from investigate_daily_data, sorted:")
+# Get unique dates from full_daily_data
+dates = [row[0] for row in con.execute("SELECT DISTINCT data_date FROM full_daily_data order by data_date").fetchall()]
+print("Distinct dates from full_daily_data, sorted:")
 for date in dates:
     print(date)
 print(f"Created trade dates list")
@@ -137,7 +129,7 @@ print(f"Created filtered_trades db table")
 
 # Export filtered trades per security to "investigate" folder
 for security, category in securities_anomaly:
-    file_path = investigate_dir / f"{security}_{category}_trades.csv"
+    file_path = investigate_dir / f"{security}_trades.csv"
     con.execute(f"COPY (SELECT * FROM filtered_trades WHERE security = ?) TO '{str(file_path)}' (HEADER, DELIMITER ',')", (security,))
     print(f"Large trade data written to '{str(file_path)}/{security}_{category}_trades.csv")
 

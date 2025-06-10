@@ -1,3 +1,0 @@
-data_date,option_ticker,size,price,trade_value,trade_value_bracket,sip_timestamp,conditions,correction,exchange,id,name,type,data_types,security,expiration,option_type,strike_price,volume,transactions,anomaly_category,anomaly_volume,day_rank
-2025-04-24,O:FIBK250620C00030000,29,1.0,2900.0,<$0.1M,1745520774340000000,219,0,320,219,Intermarket Sweep Order,sale_condition,trade,FIBK,2025-06-20,C,30.0,165,16,50,97.281,31
-2025-04-24,O:FIBK250620C00030000,60,1.0,6000.0,<$0.1M,1745520774238000000,219,0,318,219,Intermarket Sweep Order,sale_condition,trade,FIBK,2025-06-20,C,30.0,165,16,50,97.281,31

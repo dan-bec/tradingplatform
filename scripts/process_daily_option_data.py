@@ -20,11 +20,7 @@ output_dir = Path("data/banks/outputs")
 full_db_path = output_dir / "banks_database.db"
 pre_aggregated_file = output_dir / "pre_aggregated_data.csv"
 post_aggregated_file = output_dir / "post_aggregated_data.csv"
-stddev_9_file = output_dir / "_stddev_9_file.csv"
-stddev_21_file = output_dir / "_stddev_21_file.csv"
-stddev_50_file = output_dir / "_stddev_50_file.csv"
-stddev_100_file = output_dir / "_stddev_100_file.csv"
-baseline_file = output_dir / "_baseline_file.csv"
+stddev_file = output_dir / "_stddev_file.csv"
 expiration_days_out = 40
 
 # Function to extract static string variables from DataServices.cs
@@ -52,9 +48,11 @@ API_KEY = get_static_string(dataservices_path, "API_KEY")
 # Create output directory if it doesn’t exist
 os.makedirs(output_dir, exist_ok=True)
 
-# Delete the database file if it exists
 if full_db_path.exists():
+    print("File exists, deleting...")
     full_db_path.unlink()
+else:
+    print("File does not exist at the specified path.")
 
 # Connect to DuckDB
 con = duckdb.connect(str(full_db_path))
@@ -315,49 +313,9 @@ con.execute(f"""
         FROM aggregated_data a
         JOIN anomaly_recency ar ON a.security = ar.security
         WHERE ar.anomaly_category = 9 AND a.last_9_count > 0
-    ) TO '{stddev_9_file}' (HEADER, DELIMITER ',')
+    ) TO '{stddev_file}' (HEADER, DELIMITER ',')
 """)
-print(f"Sorted pre-aggregated data written to {stddev_9_file}")
-
-con.execute(f"""
-    COPY (
-        SELECT a.*, ar.anomaly_category, ar.anomaly_volume
-        FROM aggregated_data a
-        JOIN anomaly_recency ar ON a.security = ar.security
-        WHERE ar.anomaly_category = 21 AND a.last_21_count > 0
-    ) TO '{stddev_21_file}' (HEADER, DELIMITER ',')
-""")
-print(f"Sorted pre-aggregated data written to {stddev_21_file}")
-
-con.execute(f"""
-    COPY (
-        SELECT a.*, ar.anomaly_category, ar.anomaly_volume
-        FROM aggregated_data a
-        JOIN anomaly_recency ar ON a.security = ar.security
-        WHERE ar.anomaly_category = 50 AND a.last_50_count > 0
-    ) TO '{stddev_50_file}' (HEADER, DELIMITER ',')
-""")
-print(f"Sorted pre-aggregated data written to {stddev_50_file}")
-
-con.execute(f"""
-    COPY (
-        SELECT a.*, ar.anomaly_category, ar.anomaly_volume
-        FROM aggregated_data a
-        JOIN anomaly_recency ar ON a.security = ar.security
-        WHERE ar.anomaly_category = 100 AND a.last_100_count > 0
-    ) TO '{stddev_100_file}' (HEADER, DELIMITER ',')
-""")
-print(f"Sorted pre-aggregated data written to {stddev_100_file}")
-
-con.execute(f"""
-    COPY (
-        SELECT a.*, ar.anomaly_category, ar.anomaly_volume
-        FROM aggregated_data a
-        JOIN anomaly_recency ar ON a.security = ar.security
-        WHERE ar.anomaly_category = 0
-    ) TO '{baseline_file}' (HEADER, DELIMITER ',')
-""")
-print(f"Sorted pre-aggregated data written to {baseline_file}")
+print(f"Sorted pre-aggregated data written to {stddev_file}")
 
 # Capture and print end time, then calculate duration
 end_time = time.time()

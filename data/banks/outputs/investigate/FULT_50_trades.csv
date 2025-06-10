@@ -1,6 +1,0 @@
-data_date,option_ticker,size,price,trade_value,trade_value_bracket,sip_timestamp,conditions,correction,exchange,id,name,type,data_types,security,expiration,option_type,strike_price,volume,transactions,anomaly_category,anomaly_volume,day_rank
-2025-04-29,O:FULT250620C00017500,10,0.55,550.0,<$0.1M,1745942351926000000,227,0,323,227,Single Leg Auction Non ISO,sale_condition,trade,FULT,2025-06-20,C,17.5,80,28,50,38.826,28
-2025-04-29,O:FULT250620C00017500,12,0.6,719.9999999999999,<$0.1M,1745941666448000000,209,0,316,209,Automatic Execution,sale_condition,trade,FULT,2025-06-20,C,17.5,80,28,50,38.826,28
-2025-04-04,O:FULT250620C00020000,20,0.1,200.0,<$0.1M,1743795578179000000,227,0,301,227,Single Leg Auction Non ISO,sale_condition,trade,FULT,2025-06-20,C,20.0,40,5,50,38.826,44
-2025-01-21,O:FULT250620C00022500,39,1.0,3900.0,<$0.1M,1737486720172000000,209,0,316,209,Automatic Execution,sale_condition,trade,FULT,2025-06-20,C,22.5,70,5,50,38.826,96
-2025-03-04,O:FULT250620C00022500,25,0.35,875.0,<$0.1M,1741109891852000000,209,0,322,209,Automatic Execution,sale_condition,trade,FULT,2025-06-20,C,22.5,40,6,50,38.826,67
