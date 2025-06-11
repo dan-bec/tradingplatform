@@ -1,7 +1,0 @@
-data_date,option_ticker,size,price,trade_value,trade_value_bracket,sip_timestamp,conditions,correction,exchange,id,name,type,data_types,security,expiration,option_type,strike_price,volume,transactions,anomaly_category,anomaly_volume,day_rank
-2025-03-04,O:CMA250307P00063000,1350,3.75,506250.0,$0.3M-$1.0M,1741100745413000000,235,0,313,235,Multi Leg floor trade,sale_condition,trade,CMA,2025-03-07,P,63.0,3701,65,9,141.334,3
-2025-03-04,O:CMA250307P00063000,1350,3.75,506250.0,$0.3M-$1.0M,1741101648651000000,235,0,313,235,Multi Leg floor trade,sale_condition,trade,CMA,2025-03-07,P,63.0,3701,65,9,141.334,3
-2025-03-04,O:CMA250307P00063000,1350,3.8,513000.0,$0.3M-$1.0M,1741101648651000000,202,0,313,202,Late and Out Of Sequence,sale_condition,trade,CMA,2025-03-07,P,63.0,3701,65,9,141.334,3
-2025-03-04,O:CMA250307P00063000,1000,3.9,390000.0,$0.3M-$1.0M,1741105939091000000,202,0,313,202,Late and Out Of Sequence,sale_condition,trade,CMA,2025-03-07,P,63.0,3701,65,9,141.334,3
-2025-03-04,O:CMA250307P00063000,1350,3.8,513000.0,$0.3M-$1.0M,1741105939250000000,202,0,313,202,Late and Out Of Sequence,sale_condition,trade,CMA,2025-03-07,P,63.0,3701,65,9,141.334,3
-2025-06-02,O:CMA250620P00075000,329,19.06,627074.0,$0.3M-$1.0M,1748886278870000000,232,0,308,232,Multi Leg auto-electronic trade,sale_condition,trade,CMA,2025-06-20,P,75.0,442,4,9,141.334,1

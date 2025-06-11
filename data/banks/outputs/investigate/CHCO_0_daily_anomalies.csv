@@ -1,2 +1,0 @@
-data_date,security,option_ticker,expiration,option_type,strike_price,volume,transactions,anomaly_category,anomaly_volume,day_rank
-2025-04-22,CHCO,O:CHCO250516P00110000,2025-05-16,P,110.0,25,3,0,21.5535,4

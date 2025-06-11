@@ -1,3 +1,0 @@
-data_date,security,option_ticker,expiration,option_type,strike_price,volume,transactions,anomaly_category,anomaly_volume,day_rank
-2025-04-03,RNST,O:RNST250417P00035000,2025-04-17,P,35.0,80,2,0,21.243000000000002,1
-2025-03-31,RNST,O:RNST250417P00035000,2025-04-17,P,35.0,80,3,0,21.243000000000002,4

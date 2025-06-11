@@ -1,3 +1,0 @@
-data_date,security,option_ticker,expiration,option_type,strike_price,volume,transactions,anomaly_category,anomaly_volume,day_rank
-2025-02-21,EBC,O:EBC250321P00017500,2025-03-21,P,17.5,483,21,9,345.725,1
-2025-03-24,EBC,O:EBC250417C00017500,2025-04-17,C,17.5,1075,61,9,345.725,4
