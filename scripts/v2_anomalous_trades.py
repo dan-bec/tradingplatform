@@ -25,7 +25,12 @@ projects_path = 'projects'
 project = 'banks'
 securities_file = Path(f"{projects_path}/{project}/securities.csv")
 output_dir = Path(f"{projects_path}/{project}/outputs")
+min_trade_value = 3_000
+# pharma = 10_000
+# banks = 3_000
 expiration_days_out = 30
+custom_range_filter = .985
+number_of_bins = 10
 
 # Create output directory if it doesn’t exist
 os.makedirs(output_dir, exist_ok=True)
@@ -300,62 +305,37 @@ con.executemany(f"INSERT INTO {project}.securities VALUES (?)", [(ticker,) for t
 print(f"Loaded {project}.securities db table")
 
 con.execute(f"""
-    CREATE OR REPLACE TABLE {project}.filtered_option_trade_data AS
+    CREATE OR REPLACE TABLE {project}.project_filtered_options_trades AS
     SELECT atd.*
         , round(atd.price * atd.size * 100,2) as trade_value
         , std.open as security_open
         , std.high as security_high
         , std.low as security_low
         , std.close as security_close
-        , CASE 
-            WHEN trade_value < 1_000 THEN '12. <$0.001M'
-            WHEN trade_value < 3_000 THEN '11. $0.001M-$0.003M'
-            WHEN trade_value < 10_000 THEN '10. $0.003M-$0.01M'
-            WHEN trade_value < 30_000 THEN '09. $0.01M-$0.03M'
-            WHEN trade_value < 100_000 THEN '08. $0.03M-$0.1M'
-            WHEN trade_value < 300_000 THEN '07. $0.1M-$0.3M'
-            WHEN trade_value < 1_000_000 THEN '06. $0.3M-$1.0M'
-            WHEN trade_value < 3_000_000 THEN '05. $1.0M-$3.0M'
-            WHEN trade_value < 10_000_000 THEN '04. $3.0M-$10.0M'
-            WHEN trade_value < 30_000_000 THEN '03. $10M-30M'
-            WHEN trade_value < 100_000_000 THEN '02. $30M-100M'
-            WHEN trade_value >= 100_000_000 THEN '01. +$100M'
-         END as trade_value_bracket
         , row_number() OVER (PARTITION BY atd.security ORDER BY trade_value DESC) AS trade_rank
-        , occ.name
+        , occ.name as option_condition_name
     FROM raw_data.all_options_trades_data atd
     JOIN raw_data.stock_daily_data std ON std.security = atd.security AND std.data_date = atd.data_date
     JOIN raw_data.option_condition_codes occ ON occ.id = atd.conditions
     JOIN {project}.securities ps ON ps.security = atd.security
     WHERE 1=1
-    AND atd.expiration < atd.data_date + INTERVAL {expiration_days_out}  DAYS -- Options Expiring in N days
+    AND atd.expiration > atd.data_date -- Options Purchased before Expiration
+    AND atd.expiration <= atd.data_date + INTERVAL {expiration_days_out}  DAYS -- Options Expiring in N days
     AND atd.conditions >= 209 -- Filters out Late, Canceled trades
     AND atd.conditions < 248 -- Filters out after market trading
-    AND trade_value > 3_000 -- minmum contract size of $3,000
+    AND trade_value > {min_trade_value} -- minmum contract size of N
     AND (
-        -- Strike within 5% of open
-        (atd.option_type = 'C' AND atd.strike_price > (security_open * .95)) 
-        OR (atd.option_type = 'P' AND (atd.strike_price * .95) < security_open)
-        )
+        -- (atd.option_type = 'C' AND atd.strike_price > security_low) OR (atd.option_type = 'P' AND atd.strike_price < security_high) -- LOOSE: PARTIALLY OTM FOR DAY
+        (atd.option_type = 'C' AND atd.strike_price > security_high) OR (atd.option_type = 'P' AND atd.strike_price < security_low) -- STRICT: FULLY OTM FOR DAY
+       )
     ORDER BY atd.security, atd.option_ticker, atd.data_date
 """)
-print(f"Created and Loaded {project}.filtered_option_trade_data db table")
-print("!!!ROWS IN TABLE!!!:", con.execute(f"SELECT COUNT(*) FROM {project}.filtered_option_trade_data").fetchone()[0]) # type: ignore
-
-# Output Bins
-bin_output = Path(f"{output_dir}/bins.csv")
-result = con.execute(f"""
-    COPY (
-        SELECT security, trade_value_bracket, count(*) cnt, sum(count(*)) OVER (PARTITION BY security ORDER BY trade_value_bracket desc) running_count
-        FROM  {project}.filtered_option_trade_data
-        GROUP BY 1,2
-        ORDER BY 1,2
-    ) TO '{bin_output}' (HEADER, DELIMITER ',')
-""")
-print(f"Bin data written to {bin_output}")
+print(f"Created and Loaded {project}.project_filtered_options_trades db table")
+print("!!!ROWS IN TABLE!!!:", con.execute(f"SELECT COUNT(*) FROM {project}.project_filtered_options_trades").fetchone()[0]) # type: ignore
 
 con.execute(f"""
     CREATE OR REPLACE TABLE {project}.security_percentiles AS
+    /* Determining Interquartile Range https://en.wikipedia.org/wiki/Interquartile_range */
     SELECT ftd.security
         , min(ftd.expiration - ftd.data_date) AS min_date_from_expiration
         , max(ftd.expiration - ftd.data_date)  max_date_from_expiration
@@ -363,44 +343,24 @@ con.execute(f"""
         , ROUND(PERCENTILE_CONT(0.25) WITHIN GROUP (ORDER BY size),2) AS q1_size
         , ROUND(PERCENTILE_CONT(0.75) WITHIN GROUP (ORDER BY size),2)  AS q3_size
         , q3_size - q1_size AS iqr_size
-        , q3_size + (1.5 * iqr_size) AS trad_k_size_threshold
-        , ROUND(PERCENTILE_CONT(0.90) WITHIN GROUP (ORDER BY size),2)  AS p90_size
-        , ROUND(PERCENTILE_CONT(0.95) WITHIN GROUP (ORDER BY size),2)  AS p95_size
-        , ROUND(PERCENTILE_CONT(0.97) WITHIN GROUP (ORDER BY size),2)  AS p97_size
-        , ROUND(PERCENTILE_CONT(0.98) WITHIN GROUP (ORDER BY size),2)  AS p98_size
-        , ROUND(PERCENTILE_CONT(0.99) WITHIN GROUP (ORDER BY size),2)  AS p99_size
-        , 1.5::DECIMAL AS trad_k_size
-        , (p90_size - q3_size) / iqr_size AS p90_k_size
-        , (p95_size - q3_size) / iqr_size AS p95_k_size
-        , (p97_size - q3_size) / iqr_size AS p97_k_size
-        , (p98_size - q3_size) / iqr_size AS p98_k_size
-        , (p99_size - q3_size) / iqr_size AS p99_k_size
+        , q3_size + (1.5 * iqr_size) AS trad_iqr_size
         , ROUND(PERCENTILE_CONT(0.25) WITHIN GROUP (ORDER BY trade_value),2)  AS q1_trade_value
         , ROUND(PERCENTILE_CONT(0.75) WITHIN GROUP (ORDER BY trade_value),2)  AS q3_trade_value
         , q3_trade_value - q1_trade_value AS iqr_trade_value
-        , q3_trade_value + (1.5 * iqr_trade_value) AS trad_k_trade_value_threshold
-        , ROUND(PERCENTILE_CONT(0.90) WITHIN GROUP (ORDER BY trade_value),2)  AS p90_trade_value
-        , ROUND(PERCENTILE_CONT(0.95) WITHIN GROUP (ORDER BY trade_value),2)  AS p95_trade_value
-        , ROUND(PERCENTILE_CONT(0.97) WITHIN GROUP (ORDER BY trade_value),2)  AS p97_trade_value
-        , ROUND(PERCENTILE_CONT(0.98) WITHIN GROUP (ORDER BY trade_value),2)  AS p98_trade_value
-        , ROUND(PERCENTILE_CONT(0.99) WITHIN GROUP (ORDER BY trade_value),2)  AS p99_trade_value
-        , 1.5::DECIMAL AS trad_k_trade_value
-        , (p90_trade_value - q3_trade_value) / iqr_trade_value AS p90_k_trade_value
-        , (p95_trade_value - q3_trade_value) / iqr_trade_value AS p95_k_trade_value
-        , (p97_trade_value - q3_trade_value) / iqr_trade_value AS p97_k_trade_value
-        , (p98_trade_value - q3_trade_value) / iqr_trade_value AS p98_k_trade_value
-        , (p99_trade_value - q3_trade_value) / iqr_trade_value AS p99_k_trade_value
-        , GREATEST(trad_k_size_threshold, p90_size) as large_trade_size_filter
-        , LEAST(1_000_000, GREATEST(trad_k_trade_value_threshold, p97_trade_value, 30_000)) as large_trade_value_filter
-    FROM {project}.filtered_option_trade_data ftd
-    WHERE trade_rank <= 500 -- top 500 trades matching the previous filtering criteria
+        , q3_trade_value + (1.5 * iqr_trade_value) AS trad_iqr_trade_value
+        , {custom_range_filter} as n_range
+        , ROUND(PERCENTILE_CONT({custom_range_filter}) WITHIN GROUP (ORDER BY size),2)  AS n_size
+        , ROUND(PERCENTILE_CONT({custom_range_filter}) WITHIN GROUP (ORDER BY trade_value),2)  AS n_trade_value
+        , ROUND((n_trade_value - q3_trade_value) / iqr_trade_value, 2) AS custom_k
+    FROM {project}.project_filtered_options_trades ftd
+    WHERE trade_rank <= 1000 -- top N trades matching the previous filtering criteria
     GROUP BY ftd.security
 """)
 print(f"Created and Loaded {project}.security_percentiles db table")
 print("!!!ROWS IN TABLE!!!:", con.execute(f"SELECT COUNT(*) FROM {project}.security_percentiles").fetchone()[0]) # type: ignore
 
 # Output {project}_percentiles files and baseline file
-perc_output = Path(f"{output_dir}/percentiles.csv")
+perc_output = Path(f"{output_dir}/security_percentiles.csv")
 con.execute(f"""
     COPY (
         SELECT *
@@ -408,33 +368,99 @@ con.execute(f"""
         ORDER BY security
     ) TO '{perc_output}' (HEADER, DELIMITER ',')
 """)
-print(f"Percentile data written to {perc_output}")
+print(f"Security percentiles data written to {perc_output}")
+
+### WHAT TRADES AFFECT PRICE ###
+
+#### FIND TRADES THAT ACHIEVED STRIKE ####
 
 con.execute(f"""
-    CREATE OR REPLACE TABLE {project}._large_trades AS
-    SELECT ftd.*
-        , sp.large_trade_size_filter
-        , sp.large_trade_value_filter
-    FROM {project}.filtered_option_trade_data ftd
+    CREATE OR REPLACE TABLE {project}.notable_options_trades AS
+    SELECT ftd.security
+        , ftd.option_ticker
+        , ftd.data_date as trade_date
+        , ftd.option_type
+        , ftd.expiration
+        , ftd.option_condition_name
+        , max(ftd.strike_price) as option_strike_price
+        , max(ftd.size) as option_size
+        , max(sp.trad_iqr_size) as trad_iqr_size
+        , max(sp.n_range) as n_range
+        , max(sp.n_size) as security_n_size
+        , max(ftd.price) as option_price
+        , max(ftd.trade_value) as option_trade_value
+        , NTILE({number_of_bins}) OVER (PARTITION BY ftd.security ORDER BY option_trade_value desc) as option_trade_value_bin
+        , max(sp.trad_iqr_trade_value) as trad_iqr_trade_value
+        , max(sp.n_trade_value) as security_n_trade_value
+        , min(CASE WHEN sdd.data_date > ftd.data_date THEN sdd.data_date END) as stock_min_date
+        , max(CASE WHEN sdd.data_date > ftd.data_date THEN sdd.data_date END) as stock_max_date
+        , max(CASE WHEN sdd.data_date > ftd.data_date THEN sdd.high END) as highest_price_in_period
+        , min(CASE WHEN sdd.data_date > ftd.data_date THEN sdd.low END) as lowest_price_in_period
+        , max(CASE WHEN sdd.data_date = ftd.expiration THEN sdd.high END) as expiration_high
+        , min(CASE WHEN sdd.data_date = ftd.expiration THEN sdd.low END) as expiration_low
+        , max(CASE WHEN sdd.data_date = ftd.expiration THEN sdd.close END) as expiration_close
+        , CASE
+            WHEN ftd.option_type = 'C' THEN
+                CASE
+                    WHEN option_strike_price <= expiration_close THEN '1C. Option Close ITM'
+                    WHEN option_strike_price <= expiration_high THEN '2C. Option Close Temp ITM'
+                    WHEN option_strike_price <= highest_price_in_period THEN '3C. Option Temp ITM'
+                    ELSE '4C. Option Stay OTM'
+                END
+            WHEN ftd.option_type = 'P' THEN
+                CASE
+                    WHEN option_strike_price >= expiration_close THEN '1P. Option Close ITM'
+                    WHEN option_strike_price >= expiration_low THEN '2P. Option Close Temp ITM'
+                    WHEN option_strike_price >= lowest_price_in_period THEN '3P. Option Temp ITM'
+                    ELSE '4P. Option Stay OTM'
+                END
+          END as itm_otm_category
+    FROM {project}.project_filtered_options_trades ftd
     JOIN {project}.security_percentiles sp on sp.security = ftd.security
+    JOIN raw_data.stock_daily_data sdd ON sdd.security = ftd.security AND sdd.data_date >= ftd.data_date AND sdd.data_date <= ftd.expiration
     WHERE 1=1
-    AND (
-        ftd.size >= sp.large_trade_size_filter
-        AND ftd.trade_value >= sp.large_trade_value_filter
-        )
-    AND (
-        (ftd.option_type = 'C' AND ftd.strike_price > (ftd.security_open * 1.05)) 
-        OR (ftd.option_type = 'P' AND (ftd.strike_price * 1.05) < ftd.security_open)
-        )
+        AND ftd.trade_value >= sp.q3_trade_value
+        -- AND ftd.trade_value >= sp.trad_iqr_trade_value
+    GROUP BY ftd.security
+        , ftd.option_ticker
+        , ftd.data_date
+        , ftd.option_type
+        , ftd.expiration
+        , ftd.option_condition_name
 """)
+print(f"Created and Loaded {project}.notable_options_trades db table")
+print("!!!ROWS IN TABLE!!!:", con.execute(f"SELECT COUNT(*) FROM {project}.notable_options_trades").fetchone()[0]) # type: ignore
 
 # Output {project}_percentiles files and baseline file
-large_trade_output = Path(f"{output_dir}/_large_trades.csv")
+notable_options_trades_output = Path(f"{output_dir}/notable_options_trades.csv")
 con.execute(f"""
     COPY (
         SELECT *
-        FROM {project}._large_trades ftd
-        ORDER BY security, expiration, trade_value desc
-    ) TO '{large_trade_output}' (HEADER, DELIMITER ',')
+        FROM {project}.notable_options_trades ftd
+        ORDER BY security, expiration, itm_otm_category, trade_date, option_trade_value desc
+    ) TO '{notable_options_trades_output}' (HEADER, DELIMITER ',')
 """)
-print(f"Percentile data written to {large_trade_output}")
+print(f"Notable trade data written to {notable_options_trades_output}")
+
+# Output {project}_percentiles files and baseline file
+trade_bins_output = Path(f"{output_dir}/security_options_bins.csv")
+con.execute(f"""
+    COPY (
+    SELECT  security
+            , option_trade_value_bin
+            , count(CASE WHEN itm_otm_category ilike '%ITM' THEN 1 END) * 1.0 as itm
+            , count(CASE WHEN itm_otm_category ilike '%OTM' THEN 1 END) * 1.0 as otm
+            , count(*) * 1.0 as cnt
+            , count(CASE WHEN itm_otm_category[1] = '1' THEN 1 END) * 1.0 as itm_1
+            , count(CASE WHEN itm_otm_category[1] = '2' THEN 1 END) * 1.0 as itm_2
+            , count(CASE WHEN itm_otm_category[1] = '3' THEN 1 END) * 1.0 as itm_3
+            , round(itm / cnt, 2) as itm_pct
+            , min(option_trade_value) as min_trade_value
+            , median(option_trade_value) as med_trade_value
+            , round(stddev(option_trade_value),2) as stddev_trade_value
+    FROM  {project}.notable_options_trades
+    GROUP BY 1,2
+    ORDER BY 1,2
+    ) TO '{trade_bins_output}' (HEADER, DELIMITER ',')
+""")
+print(f"Notable trade bin data written to {trade_bins_output}")

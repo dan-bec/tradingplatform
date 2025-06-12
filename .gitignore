@@ -404,6 +404,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
-data/options/*
-data/stocks/*
 *.db
+/data
+/data

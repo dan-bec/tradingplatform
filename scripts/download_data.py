@@ -32,7 +32,7 @@ banks_option_volume_csv_path = os.path.join(script_dir, "..", "data", "banks", "
 dataservices_path = os.path.join(script_dir, "..", "src", "BullseyeApp", "Shared", "Data", "DataService.cs")
 S3_ENDPOINT = "https://files.polygon.io"  # Polygon S3-compatible endpoint
 BUCKET_NAME = "flatfiles"  # Polygon bucket name
-START_DATE = datetime(2025, 1, 1).date()
+START_DATE = datetime(2024, 8, 1).date()
 END_DATE = datetime.now().date()  # Updated to include today
 
 # Define multiple passes with their respective configurations

@@ -18,7 +18,7 @@ print(f"Start time: {start_time:.2f} seconds")
 # Define file paths
 data_path = 'data'
 full_db_path = Path(f"{data_path}/master_database.db")
-project = 'banks'
+project = 'pharma'
 
 # Connect to DuckDB
 con = duckdb.connect(str(full_db_path))
@@ -40,15 +40,34 @@ con.execute("DROP TABLE pharma.filtered_trade_data")
     FROM raw_data.all_trades_data atd
     WHERE 
     ORDER BY 1
+
+SELECT 'DROP TABLE ' || table_schema || '.' || table_name || ';'
+FROM information_schema.tables
+where table_schema = 'pharma'
+
+DROP TABLE pharma.filtered_option_trade_data;                       
+DROP TABLE pharma.notable_options_trades;                           
+DROP TABLE pharma.securities;                                       
+DROP TABLE pharma.security_percentiles;                             
+DROP TABLE pharma.successful_options_trades;                        
+DROP TABLE pharma.targeted_options_trades;                          
+DROP TABLE pharma._large_trades;  
+
+ DROP TABLE banks.filtered_option_trade_data;                        
+ DROP TABLE banks.securities;                                        
+ DROP TABLE banks.security_percentiles;                              
+ DROP TABLE banks._large_trades;    
 '''
 # Get unique rows from query
 result = con.execute(f"""
-    SELECT security, trade_value_bracket, count(*), sum(count(*)) OVER (PARTITION BY security ORDER BY trade_value_bracket desc) running_count
-    FROM  {project}.filtered_trade_data
-    GROUP BY 1,2
-    ORDER BY 1,2 desc
+select security,max(trade_date)
+from pharma.notable_options_trades
+where security = 'MRK'
+group by 1
+                     ;  
 """).fetchdf()
 print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
+# result.to_csv(sys.stdout, index=False)
 
 # Capture and print end time, then calculate duration
 end_time = time.time()
