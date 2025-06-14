@@ -1,4 +1,4 @@
-import config
+import config as config
 from datetime import datetime, date, timedelta
 from pathlib import Path
 import time

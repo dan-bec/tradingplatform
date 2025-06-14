@@ -1,5 +1,15 @@
-import config
+import sys
 from pathlib import Path
+
+# Determine the project root dynamically
+TASK_SCRIPT_DIR = Path(__file__).parent
+PROJECT_ROOT = TASK_SCRIPT_DIR.parents[2]  
+
+# Insert the project root into sys.path if not already present
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+    
+import scripts.unusual_baselining.config as config
 import time
 import duckdb
 import pandas as pd
@@ -17,6 +27,7 @@ full_db_path = config.FULL_DB_PATH
 prep_schema = config.PREP
 compiled_schema = config.COMPILED
 itm_threshold = args.itm_threshold  # Target ITM rate
+itm_threshold_100 = str(int(itm_threshold * 100))
 compiled_dir = config.COMPILED_OUTPUT_DIR
 compiled_dir.mkdir(parents=True, exist_ok=True)
 
@@ -33,7 +44,7 @@ print(f"CREATE OR REPLACE SCHEMA {compiled_schema};")
 
 # Combine Prep Analysis
 con.execute(f"""
-    CREATE OR REPLACE TABLE {compiled_schema}.all_securities_stats AS
+    CREATE OR REPLACE TABLE {compiled_schema}.all_securities_stats_{itm_threshold_100} AS
     SELECT si.security, si.sector, si.industry
     , {itm_threshold} as itm_threshold
     , ub.unusual_baseline
@@ -51,20 +62,20 @@ con.execute(f"""
     , sp.p99999_trade_value
     , sp.p999999_trade_value
     FROM raw_data.sector_industry si
-    JOIN {prep_schema}.unusual_baselines ub on ub.security = si.security
+    JOIN {prep_schema}.unusual_baselines_{itm_threshold_100} ub on ub.security = si.security
     JOIN {prep_schema}.security_percentiles sp on sp.security = si.security
     JOIN {prep_schema}.clustered_securities cs on cs.security = si.security
     ORDER BY si.security
 """)
-print(f"Created and Loaded {compiled_schema}.all_securities_stats db table")
-print(f"!!!ROWS IN {compiled_schema}.all_securities_stats!!!:", con.execute(f"SELECT COUNT(*) FROM {compiled_schema}.all_securities_stats").fetchone()[0]) # type: ignore
+print(f"Created and Loaded {compiled_schema}.all_securities_stats_{itm_threshold_100}  db table")
+print(f"!!!ROWS IN {compiled_schema}.all_securities_stats_{itm_threshold_100} !!!:", con.execute(f"SELECT COUNT(*) FROM {compiled_schema}.all_securities_stats_{itm_threshold_100} ").fetchone()[0]) # type: ignore
 
 # Output {project}_percentiles files and baseline file
 all_stats_output = Path(f"{compiled_dir}/1_all_stats.csv")
 con.execute(f"""
     COPY (
         SELECT *
-        FROM {compiled_schema}.all_securities_stats
+        FROM {compiled_schema}.all_securities_stats_{itm_threshold_100}
         ORDER BY security
     ) TO '{all_stats_output}' (HEADER, DELIMITER ',')
 """)
@@ -72,7 +83,7 @@ print(f"All securities stats data written to {all_stats_output}")
 
 # Combine Prep Analysis for trade categories
 con.execute(f"""
-    CREATE OR REPLACE TABLE {compiled_schema}.all_securities_trade_value_category AS
+    CREATE OR REPLACE TABLE {compiled_schema}.all_securities_trade_value_category_{itm_threshold_100}  AS
     SELECT si.security, si.sector, si.industry
     , cs.final_cluster
     , cs.trade_volume_bin
@@ -90,18 +101,18 @@ con.execute(f"""
     FROM raw_data.sector_industry si
     JOIN {prep_schema}.itm_percentages ip on ip.security = si.security
     JOIN {prep_schema}.clustered_securities cs on cs.security = si.security
-    LEFT JOIN {prep_schema}.unusual_baselines ub on ub.security = si.security and ip.min_trade_value >= ub.unusual_baseline
+    LEFT JOIN {prep_schema}.unusual_baselines_{itm_threshold_100} ub on ub.security = si.security and ip.min_trade_value >= ub.unusual_baseline
     ORDER BY si.security,ip.trade_value_category
 """)
-print(f"Created and Loaded {compiled_schema}.all_securities_trade_value_category db table")
-print(f"!!!ROWS IN {compiled_schema}.all_securities_trade_value_category!!!:", con.execute(f"SELECT COUNT(*) FROM {compiled_schema}.all_securities_trade_value_category").fetchone()[0]) # type: ignore
+print(f"Created and Loaded {compiled_schema}.all_securities_trade_value_category_{itm_threshold_100} db table")
+print(f"!!!ROWS IN {compiled_schema}.all_securities_trade_value_category_{itm_threshold_100}!!!:", con.execute(f"SELECT COUNT(*) FROM {compiled_schema}.all_securities_trade_value_category_{itm_threshold_100}").fetchone()[0]) # type: ignore
 
 # Output {project}_percentiles files and baseline file
 all_trade_categories_output = Path(f"{compiled_dir}/2_all_trade_value_categories.csv")
 con.execute(f"""
     COPY (
         SELECT *
-        FROM {compiled_schema}.all_securities_trade_value_category
+        FROM {compiled_schema}.all_securities_trade_value_category_{itm_threshold_100}
         ORDER BY security
     ) TO '{all_trade_categories_output}' (HEADER, DELIMITER ',')
 """)
@@ -109,7 +120,7 @@ print(f"All securities trade value categories stats data written to {all_trade_c
 
 # Combine Prep Analysis for trade categories
 con.execute(f"""
-    CREATE OR REPLACE TABLE {compiled_schema}.all_options_trades_above_baseline AS
+    CREATE OR REPLACE TABLE {compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100} AS
     SELECT  si.security, si.sector, si.industry
     , cs.final_cluster
     , cs.trade_volume_bin
@@ -120,20 +131,20 @@ con.execute(f"""
     , fstoot.*
     FROM raw_data.sector_industry si
     JOIN {prep_schema}.filtered_short_term_otm_options_trades fstoot on fstoot.security = si.security
-    JOIN {prep_schema}.unusual_baselines ub on ub.security = si.security and fstoot.trade_value >= ub.unusual_baseline
+    JOIN {prep_schema}.unusual_baselines_{itm_threshold_100} ub on ub.security = si.security and fstoot.trade_value >= ub.unusual_baseline
     JOIN {prep_schema}.clustered_securities cs on cs.security = si.security
     JOIN {prep_schema}.itm_percentages ip on ip.security = si.security and fstoot.trade_value >= ip.min_trade_value and fstoot.trade_value <= ip.max_trade_value
     ORDER BY fstoot.security, fstoot.data_date, fstoot.expiration, fstoot.option_ticker
 """)
-print(f"Created and Loaded {compiled_schema}.all_options_trades_above_baseline db table")
-print(f"!!!ROWS IN {compiled_schema}.all_options_trades_above_baseline!!!:", con.execute(f"SELECT COUNT(*) FROM {compiled_schema}.all_options_trades_above_baseline").fetchone()[0]) # type: ignore
+print(f"Created and Loaded {compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100} db table")
+print(f"!!!ROWS IN {compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100}!!!:", con.execute(f"SELECT COUNT(*) FROM {compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100}").fetchone()[0]) # type: ignore
 
 # Output {project}_percentiles files and baseline file
 all_trade_categories_output = Path(f"{compiled_dir}/3_all_trades_above_baseline.csv")
 con.execute(f"""
     COPY (
         SELECT *
-        FROM {compiled_schema}.all_options_trades_above_baseline
+        FROM {compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100}
         ORDER BY security
     ) TO '{all_trade_categories_output}' (HEADER, DELIMITER ',')
 """)
@@ -156,7 +167,7 @@ def process_industry(industry):
     return processed
 
 # Get all unique sectors
-sectors = con.execute("SELECT DISTINCT sector FROM raw_data.sector_industry").fetchall()
+sectors = con.execute(f"SELECT DISTINCT sector FROM raw_data.sector_industry").fetchall()
 sectors = [row[0] for row in sectors]
 
 for sector in sectors:
@@ -166,9 +177,9 @@ for sector in sectors:
     
     # Generate sector-level outputs
     for table, descriptor in [
-        ('all_securities_stats', '1_stats'),
-        ('all_securities_trade_value_category', '2_trade_value_category'),
-        ('all_options_trades_above_baseline', '3_trades_above_baseline')
+        (f'all_securities_stats_{itm_threshold_100}', '1_stats'),
+        (f'all_securities_trade_value_category_{itm_threshold_100}', '2_trade_value_category'),
+        (f'all_options_trades_above_baseline_{itm_threshold_100}', '3_trades_above_baseline')
     ]:
         query = f"SELECT * FROM {compiled_schema}.{table} WHERE sector = ?"
         df = con.execute(query, [sector]).fetchdf()
@@ -194,9 +205,9 @@ for sector in sectors:
         
         # Generate industry-level outputs
         for table, descriptor in [
-            ('all_securities_stats', '1_stats'),
-            ('all_securities_trade_value_category', '2_trade_value_category'),
-            ('all_options_trades_above_baseline', '3_trades_above_baseline')
+            (f'all_securities_stats_{itm_threshold_100}', '1_stats'),
+            (f'all_securities_trade_value_category_{itm_threshold_100}', '2_trade_value_category'),
+            (f'all_options_trades_above_baseline_{itm_threshold_100}', '3_trades_above_baseline')
         ]:
             query = f"SELECT * FROM {compiled_schema}.{table} WHERE sector = ? AND industry IN ({','.join(['?' for _ in industry_list])})"
             params = [sector] + industry_list
@@ -208,7 +219,7 @@ for sector in sectors:
                 # print(f"File written: {file_path}")
         
         # Get distinct trade_volume_bins for this sector and industry list
-        query = f"SELECT DISTINCT trade_volume_bin FROM {compiled_schema}.all_securities_stats WHERE sector = ? AND industry IN ({','.join(['?' for _ in industry_list])})"
+        query = f"SELECT DISTINCT trade_volume_bin FROM {compiled_schema}.all_securities_stats_{itm_threshold_100} WHERE sector = ? AND industry IN ({','.join(['?' for _ in industry_list])})"
         params = [sector] + industry_list
         trade_volume_bins = con.execute(query, params).fetchall()
         trade_volume_bins = [row[0] for row in trade_volume_bins]
@@ -219,9 +230,9 @@ for sector in sectors:
             tvb_folder.mkdir(parents=True, exist_ok=True)
             
             for table, descriptor in [
-                ('all_securities_stats', '1_stats'),
-                ('all_securities_trade_value_category', '2_trade_value_category'),
-                ('all_options_trades_above_baseline', '3_trades_above_baseline')
+                (f'all_securities_stats_{itm_threshold_100}', '1_stats'),
+                (f'all_securities_trade_value_category_{itm_threshold_100}', '2_trade_value_category'),
+                (f'all_options_trades_above_baseline_{itm_threshold_100}', '3_trades_above_baseline')
             ]:
                 query = f"SELECT * FROM {compiled_schema}.{table} WHERE sector = ? AND industry IN ({','.join(['?' for _ in industry_list])}) AND trade_volume_bin = ?"
                 params = [sector] + industry_list + [trade_volume_bin]

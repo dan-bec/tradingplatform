@@ -1,5 +1,15 @@
-import config
+import sys
 from pathlib import Path
+
+# Determine the project root dynamically
+TASK_SCRIPT_DIR = Path(__file__).parent
+PROJECT_ROOT = TASK_SCRIPT_DIR.parents[2]  
+
+# Insert the project root into sys.path if not already present
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+    
+import scripts.unusual_baselining.config as config
 import time
 import duckdb
 import pandas as pd
@@ -13,6 +23,7 @@ args = parser.parse_args()
 full_db_path = config.FULL_DB_PATH
 prep_schema = config.PREP
 itm_threshold = args.itm_threshold
+itm_threshold_100 = str(int(itm_threshold * 100))
 output_dir = config.PREP_OUTPUT_DIR
 output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -139,12 +150,13 @@ unusual_baselines = unusual_baselines.reset_index(drop=True)
 # Step 3: Merge the results
 result = security_info.merge(unusual_baselines, on='security')
 
-
 # Save to a new table in DuckDB
-con.execute(f"CREATE OR REPLACE TABLE {prep_schema}.unusual_baselines AS SELECT * FROM result")
+con.execute(f"CREATE OR REPLACE TABLE {prep_schema}.unusual_baselines_{itm_threshold_100} AS SELECT * FROM result")
+print(f"Created and Loaded {prep_schema}.unusual_baselines_{itm_threshold_100} db table")
+print(f"!!!ROWS IN {prep_schema}.unusual_baselines_{itm_threshold_100}!!!:", con.execute(f"SELECT COUNT(*) FROM {prep_schema}.unusual_baselines_{itm_threshold_100}").fetchone()[0]) # type: ignore
 
 # Optionally save to CSV
-result.to_csv(f"{output_dir}/unusual_baselines.csv", index=False)
+result.to_csv(f"{output_dir}/unusual_baselines_{itm_threshold_100}.csv", index=False)
 
 # Close connection
 con.close()

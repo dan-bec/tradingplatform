@@ -3,13 +3,10 @@ import subprocess
 import os
 from datetime import datetime
 import time
-import config
-import upload_to_drive
+import config as config
+import upload_to_drive as upload_to_drive
 import logging
-
-# Capture and print start time
-start_time = time.time()
-print(f"Start time: {start_time:.2f} seconds")
+from pathlib import Path
 
 def str_to_bool(value):
     if str(value).lower() in ('yes', 'true', 't', 'y', '1'):
@@ -21,7 +18,7 @@ def str_to_bool(value):
     
 def run_script(script_name, args_list):
     """Helper function to run a script with given arguments."""
-    cmd = ["python3", config.SCRIPT_DIR / script_name] + args_list
+    cmd = ["python3", config.APP_DIR / script_name] + args_list
     subprocess.run(cmd, check=True)
 
 def export_settings():
@@ -78,7 +75,7 @@ def push_to_drive():
 def main():
     # Capture and print start time
     start_time = time.time()
-    print(f"RUN_ALL Start time: {start_time:.2f} seconds")
+    print(f"Main Start time: {start_time:.2f} seconds")
 
     # Define command-line arguments
     parser = argparse.ArgumentParser(description="Run all scripts with specified parameters")
@@ -99,13 +96,13 @@ def main():
     end_date = args.end_date if args.end_date else datetime.now().strftime("%Y-%m-%d")
 
     # Run scripts in order with appropriate arguments
-    run_script("download_data.py", ["--start-date", args.start_date, "--end-date", end_date])
+    run_script("tasks/0_download_data.py", ["--start-date", args.start_date, "--end-date", end_date])
 
-    run_script("v3_1_raw_data_load.py", [
+    run_script("tasks/1_raw_data_load.py", [
         "--num-files-to-load", str(args.num_files_to_load)
     ])
 
-    v3_2_args = [
+    task2_args = [
         "--strict-otm", str(args.strict_otm),
         "--min-trade-value", str(args.min_trade_value),
         "--top-trades", str(args.top_trades),
@@ -113,32 +110,36 @@ def main():
         "--number-of-bins", str(args.number_of_bins)
     ]
 
-    run_script("v3_2_option_baselining.py", v3_2_args)
+    run_script("tasks/2_prep_data_filtering.py", task2_args)
 
-    v3_3_args = [
+    task3_args = [
         "--number-of-bins", str(args.number_of_bins),
         "--max-k", str(args.max_k)
     ]
 
-    run_script("v3_3_per_security_clustering.py", v3_3_args)
+    run_script("tasks/3_per_security_clustering.py", task3_args)
 
-    run_script("v3_4_optimal_itm_p_value.py", ["--itm-threshold", str(args.itm_threshold)])
+    run_script("tasks/4_optimal_itm_p_value.py", ["--itm-threshold", str(args.itm_threshold)])
 
-    run_script("v3_5_combined_analysis_and_output.py", ["--itm-threshold", str(args.itm_threshold)])
+    run_script("tasks/5_combined_analysis_and_output.py", ["--itm-threshold", str(args.itm_threshold)])
 
     export_settings()
-    
+
     # push results to GitHub
     # push_to_github()
 
     # push results to Google Drive
     # push_to_drive()
 
+if __name__ == "__main__":
+    # Capture and print start time
+    start_time = time.time()
+    print(f"Main Start time: {start_time:.2f} seconds")
+
+    push_to_github()
+
     # Print execution time
     end_time = time.time()
-    print(f"RUN_ALL End time: {end_time:.2f} seconds")
+    print(f"Main End time: {end_time:.2f} seconds")
     duration = end_time - start_time
-    print(f"RUN_ALL Execution time: {duration:.2f} seconds")
-
-if __name__ == "__main__":
-    main()
+    print(f"Main Execution time: {duration:.2f} seconds")

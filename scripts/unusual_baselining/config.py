@@ -15,7 +15,10 @@ def cache_and_handle_errors(func):
     return wrapper
 
 # Base directory (assumes config.py is in the /scripts folder)
-SCRIPT_DIR = Path(__file__).parent
+APP_DIR = Path(__file__).parent
+APP_NAME = APP_DIR.name
+TASKS_DIR = APP_DIR / "tasks"
+SCRIPT_DIR = APP_DIR.parent
 REPO_ROOT = SCRIPT_DIR.parent
 
 # Common paths used across scripts
@@ -27,7 +30,7 @@ GDRIVE_CREDS = SHARED_DATA_PATH / "Credentials.json"
 GDRIVE_FOLDER = "1ItSs-28eBoL1zGSKXwoKwnlHTZeQRcJQ"
 DATA_PATH = REPO_ROOT / "data"
 FULL_DB_PATH = DATA_PATH / "master_database.db"
-PROJECTS_PATH = REPO_ROOT / "projects"
+PROJECTS_PATH = REPO_ROOT / "projects" / APP_NAME
 RAW = "raw_data"
 PREP = "prep"
 COMPILED = "compiled"
@@ -54,6 +57,7 @@ MAX_K = 10
 
 # OPTIMAL ITM
 ITM_THRESHOLD = 0.65
+ITM_THRESHOLD_100 = str(int(ITM_THRESHOLD*100))
 
 @cache_and_handle_errors
 def latest_db_date():
@@ -63,6 +67,6 @@ def latest_db_date():
     con.close()
     return result
 
-PREP_OUTPUT_DIR = PROJECTS_PATH / latest_db_date() / str(int(ITM_THRESHOLD*100)) / PREP
-COMPILED_OUTPUT_DIR = PROJECTS_PATH / latest_db_date() / str(int(ITM_THRESHOLD*100)) / COMPILED
-SEGMENTED_OUTPUT_DIR = PROJECTS_PATH / latest_db_date() / str(int(ITM_THRESHOLD*100)) / SEGMENTED
+PREP_OUTPUT_DIR = PROJECTS_PATH / latest_db_date() / ITM_THRESHOLD_100/ PREP
+COMPILED_OUTPUT_DIR = PROJECTS_PATH / latest_db_date() / ITM_THRESHOLD_100 / COMPILED
+SEGMENTED_OUTPUT_DIR = PROJECTS_PATH / latest_db_date() / ITM_THRESHOLD_100 / SEGMENTED

@@ -1,4 +1,15 @@
-import config
+import sys
+from pathlib import Path
+
+# Determine the project root dynamically
+TASK_SCRIPT_DIR = Path(__file__).parent
+PROJECT_ROOT = TASK_SCRIPT_DIR.parents[2]  
+
+# Insert the project root into sys.path if not already present
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+    
+import scripts.unusual_baselining.config as config
 import os
 import boto3
 from botocore.config import Config
