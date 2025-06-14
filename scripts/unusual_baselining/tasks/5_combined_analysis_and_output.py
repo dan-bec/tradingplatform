@@ -38,8 +38,7 @@ print(f"Start time: {start_time:.2f} seconds")
 # Connect to DuckDB
 con = duckdb.connect(full_db_path)
 
-con.execute(f"DROP SCHEMA IF EXISTS {compiled_schema} CASCADE;")
-con.execute(f"CREATE SCHEMA {compiled_schema};")
+con.execute(f"CREATE SCHEMA IF NOT EXISTS {compiled_schema};")
 print(f"CREATE OR REPLACE SCHEMA {compiled_schema};")
 
 # Combine Prep Analysis

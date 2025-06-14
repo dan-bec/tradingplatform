@@ -23,7 +23,7 @@ def run_script(script_name, args_list):
 
 def export_settings():
     # Define the output directory and file
-    output_dir = config.PROJECTS_PATH
+    output_dir = config.ITM_PATH
     os.makedirs(output_dir, exist_ok=True)  # Create directory if it doesn't exist
     output_file = os.path.join(output_dir, 'settings.txt')
 
