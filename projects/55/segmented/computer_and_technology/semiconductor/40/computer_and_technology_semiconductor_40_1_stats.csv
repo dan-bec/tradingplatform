@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+TXN,Computer and Technology,Semiconductor - General,0.55,388500.0,4. p999_trade_value,8.0,7518,40__3,40,3.0,13977.4,21166.5,55991.8,381520.5,1095444.64,1144337.46,1149226.75

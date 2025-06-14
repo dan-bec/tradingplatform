@@ -1,0 +1,14 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ADT,Industrial Products,Security and Safety Services,0.55,,,,13,10__0,10,0.0,16620.0,17840.0,17840.0,17840.0,17840.0,17840.0,17840.0
+ALLE,Industrial Products,Security and Safety Services,0.55,,,,6,10__0,10,0.0,6220.0,7130.0,7858.0,8021.8,8038.18,8039.82,8039.98
+ALRM,Industrial Products,Security and Safety Services,0.55,45500.0,1. p999999_trade_value,1.0,14,10__0,10,0.0,31440.0,43225.0,45045.0,45454.5,45495.45,45499.55,45499.95
+BRC,Industrial Products,Security and Safety Services,0.55,,,,1,0__2,0,2.0,3400.0,3400.0,3400.0,3400.0,3400.0,3400.0,3400.0
+DMRC,Industrial Products,Security and Safety Services,0.55,,,,40,15__0,15,0.0,8190.0,9604.0,14982.0,17158.2,17375.82,17397.58,17399.76
+IDN,Industrial Products,Security and Safety Services,0.55,4080.0000000000005,1. p999999_trade_value,1.0,1,0__2,0,2.0,4080.0,4080.0,4080.0,4080.0,4080.0,4080.0,4080.0
+ITRN,Industrial Products,Security and Safety Services,0.55,6000.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,5960.0,5980.0,5996.0,5999.6,5999.96,6000.0,6000.0
+LAKE,Industrial Products,Security and Safety Services,0.55,,,,7,10__0,10,0.0,12232.0,12991.0,13598.2,13734.82,13748.48,13749.85,13749.98
+LIF,Industrial Products,Security and Safety Services,0.55,,,,15,10__0,10,0.0,17870.4,37900.2,73210.44,81155.24,81949.72,82029.17,82037.12
+NSSC,Industrial Products,Security and Safety Services,0.55,,,,40,15__0,15,0.0,10050.0,10985.5,43422.0,61042.2,62804.22,62980.42,62998.04
+REZI,Industrial Products,Security and Safety Services,0.55,5070.0,1. p999999_trade_value,1.0,1,0__2,0,2.0,5070.0,5070.0,5070.0,5070.0,5070.0,5070.0,5070.0
+SSTI,Industrial Products,Security and Safety Services,0.55,20875.0,1. p999999_trade_value,1.0,2,5__3,5,3.0,20383.5,20629.25,20825.85,20870.09,20874.51,20874.95,20875.0
+WRAP,Industrial Products,Security and Safety Services,0.55,5000.0,1. p999999_trade_value,1.0,1,0__2,0,2.0,5000.0,5000.0,5000.0,5000.0,5000.0,5000.0,5000.0

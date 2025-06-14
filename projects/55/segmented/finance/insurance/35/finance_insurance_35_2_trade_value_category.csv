@@ -1,0 +1,13 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+LMND,Finance,Insurance - Multi line,35__0,35,0.0,1. p999999_trade_value,190000.0,190000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+LMND,Finance,Insurance - Multi line,35__0,35,0.0,4. p999_trade_value,155376.0,142500.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+LMND,Finance,Insurance - Multi line,35__0,35,0.0,5. p99_trade_value,142215.0,59469.99999999999,13.0,32.0,0.40625,0.55,2. BELOW BASELINE,14.0,36.0,0.3888888888888889
+LMND,Finance,Insurance - Multi line,35__0,35,0.0,6. p95_trade_value,58140.0,24300.000000000004,76.0,139.0,0.5467625899280576,0.55,2. BELOW BASELINE,90.0,175.0,0.5142857142857142
+LMND,Finance,Insurance - Multi line,35__0,35,0.0,7. p90_trade_value,24149.999999999996,16650.0,88.0,178.0,0.4943820224719101,0.55,2. BELOW BASELINE,178.0,353.0,0.5042492917847026
+LMND,Finance,Insurance - Multi line,35__0,35,0.0,8. p75_trade_value,16632.0,8880.000000000002,267.0,525.0,0.5085714285714286,0.55,2. BELOW BASELINE,445.0,878.0,0.5068337129840547
+ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,1. p999999_trade_value,158400.0,158400.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,4. p999_trade_value,113400.0,112239.99999999999,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,5. p99_trade_value,99449.99999999999,46530.0,12.0,25.0,0.48,0.55,2. BELOW BASELINE,14.0,28.0,0.5
+ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,6. p95_trade_value,46500.00000000001,22100.0,60.0,110.0,0.5454545454545454,0.55,2. BELOW BASELINE,74.0,138.0,0.5362318840579711
+ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,7. p90_trade_value,22000.0,15190.0,62.0,138.0,0.4492753623188406,0.55,2. BELOW BASELINE,136.0,276.0,0.4927536231884058
+ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,8. p75_trade_value,15000.0,8325.0,217.0,410.0,0.5292682926829269,0.55,2. BELOW BASELINE,353.0,686.0,0.5145772594752187

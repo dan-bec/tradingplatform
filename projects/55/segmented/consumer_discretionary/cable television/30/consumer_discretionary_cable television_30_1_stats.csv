@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+CMCSA,Consumer Discretionary,Cable Television,0.55,,,,1038,30__0,30,0.0,21594.8,34785.2,96780.0,1113693.0,1624002.0,1674400.2,1679440.02

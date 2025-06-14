@@ -1,0 +1,9 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ABR,Finance,REIT and Equity Trust,0.55,315000.0,1. p999999_trade_value,1.0,259,25__2,25,2.0,29251.2,72613.5,170644.5,290490.0,312549.0,314754.9,314975.49
+AGNC,Finance,REIT and Equity Trust,0.55,100000.0,5. p99_trade_value,4.0,378,25__0,25,0.0,16363.9,34993.0,92300.0,116230.0,119623.0,119962.3,119996.23
+CCI,Finance,REIT and Equity Trust - Other,0.55,340000.0,1. p999999_trade_value,1.0,390,25__0,25,0.0,15144.9,19773.0,36405.82,271925.0,333192.5,339319.25,339931.93
+NLY,Finance,REIT and Equity Trust,0.55,31500.0,1. p999999_trade_value,1.0,253,25__0,25,0.0,8361.8,11536.8,16733.52,28349.24,31184.92,31468.49,31496.85
+PLD,Finance,REIT and Equity Trust - Other,0.55,108500.0,5. p99_trade_value,4.0,339,25__0,25,0.0,19768.0,36150.0,105270.0,181270.0,207127.0,209712.7,209971.27
+SLG,Finance,REIT and Equity Trust - Other,0.55,14700.0,7. p90_trade_value,20.0,197,25__0,25,0.0,14366.4,21012.0,211200.0,260847.72,265421.77,265879.18,265924.92
+SPG,Finance,REIT and Equity Trust - Retail,0.55,,,,354,25__0,25,0.0,16434.0,20263.7,29675.8,35817.81,36219.38,36259.54,36263.55
+SUI,Finance,REIT and Equity Trust - Residential,0.55,280000.0,1. p999999_trade_value,1.0,214,25__0,25,0.0,25337.4,38800.0,142840.35,261362.5,278136.25,279813.63,279981.36

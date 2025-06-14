@@ -1,0 +1,399 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+AAOI,Computer and Technology,Electronics - Semiconductors,35__0,35,0.0,1. p999999_trade_value,384784.99999999994,384784.99999999994,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AAOI,Computer and Technology,Electronics - Semiconductors,35__0,35,0.0,4. p999_trade_value,278160.0,278160.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+AAOI,Computer and Technology,Electronics - Semiconductors,35__0,35,0.0,5. p99_trade_value,276020.0,51840.00000000001,8.0,17.0,0.47058823529411764,0.55,2. BELOW BASELINE,10.0,19.0,0.5263157894736842
+AAOI,Computer and Technology,Electronics - Semiconductors,35__0,35,0.0,6. p95_trade_value,51740.0,26865.000000000004,44.0,73.0,0.6027397260273972,0.55,2. BELOW BASELINE,54.0,92.0,0.5869565217391305
+AAOI,Computer and Technology,Electronics - Semiconductors,35__0,35,0.0,7. p90_trade_value,26620.000000000004,18000.0,39.0,92.0,0.42391304347826086,0.55,2. BELOW BASELINE,93.0,184.0,0.5054347826086957
+AAOI,Computer and Technology,Electronics - Semiconductors,35__0,35,0.0,8. p75_trade_value,17935.0,9100.0,132.0,273.0,0.4835164835164835,0.55,2. BELOW BASELINE,225.0,457.0,0.4923413566739606
+ABAT,Computer and Technology,Electronics - Miscellaneous Products,15__0,15,0.0,1. p999999_trade_value,8000.0,8000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ABAT,Computer and Technology,Electronics - Miscellaneous Products,15__0,15,0.0,6. p95_trade_value,7000.0,7000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+ABAT,Computer and Technology,Electronics - Miscellaneous Products,15__0,15,0.0,8. p75_trade_value,6894.999999999999,5215.0,0.0,4.0,0.0,0.55,2. BELOW BASELINE,1.0,6.0,0.16666666666666666
+ACLS,Computer and Technology,Electronics - Manufacturing Machinery,25__0,25,0.0,1. p999999_trade_value,249000.0,249000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ACLS,Computer and Technology,Electronics - Manufacturing Machinery,25__0,25,0.0,5. p99_trade_value,203159.0,126075.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+ACLS,Computer and Technology,Electronics - Manufacturing Machinery,25__0,25,0.0,6. p95_trade_value,82745.0,39035.0,9.0,13.0,0.6923076923076923,0.55,2. BELOW BASELINE,11.0,17.0,0.6470588235294118
+ACLS,Computer and Technology,Electronics - Manufacturing Machinery,25__0,25,0.0,7. p90_trade_value,37995.0,20700.0,12.0,16.0,0.75,0.55,2. BELOW BASELINE,23.0,33.0,0.696969696969697
+ACLS,Computer and Technology,Electronics - Manufacturing Machinery,25__0,25,0.0,8. p75_trade_value,19635.0,9380.0,32.0,50.0,0.64,0.55,2. BELOW BASELINE,55.0,83.0,0.6626506024096386
+AEHR,Computer and Technology,Electronics - Measuring Instruments,20__0,20,0.0,1. p999999_trade_value,26070.000000000004,26070.000000000004,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AEHR,Computer and Technology,Electronics - Measuring Instruments,20__0,20,0.0,5. p99_trade_value,22000.0,22000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+AEHR,Computer and Technology,Electronics - Measuring Instruments,20__0,20,0.0,6. p95_trade_value,17135.0,11299.999999999998,4.0,7.0,0.5714285714285714,0.55,2. BELOW BASELINE,5.0,9.0,0.5555555555555556
+AEHR,Computer and Technology,Electronics - Measuring Instruments,20__0,20,0.0,7. p90_trade_value,11235.0,10000.0,6.0,10.0,0.6,0.55,2. BELOW BASELINE,11.0,19.0,0.5789473684210527
+AEHR,Computer and Technology,Electronics - Measuring Instruments,20__0,20,0.0,8. p75_trade_value,9450.0,6750.0,12.0,25.0,0.48,0.55,2. BELOW BASELINE,23.0,44.0,0.5227272727272727
+ALGM,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,1. p999999_trade_value,675000.0,675000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ALGM,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,5. p99_trade_value,630000.0,81000.0,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+ALGM,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,6. p95_trade_value,80280.0,23180.0,7.0,12.0,0.5833333333333334,0.55,2. BELOW BASELINE,9.0,16.0,0.5625
+ALGM,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,7. p90_trade_value,22500.0,15865.0,10.0,16.0,0.625,0.55,2. BELOW BASELINE,19.0,32.0,0.59375
+ALGM,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,8. p75_trade_value,15200.0,9000.0,31.0,49.0,0.6326530612244898,0.55,2. BELOW BASELINE,50.0,81.0,0.6172839506172839
+AMAT,Computer and Technology,Electronics - Semiconductors,40__0,40,0.0,1. p999999_trade_value,1005000.0,1005000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AMAT,Computer and Technology,Electronics - Semiconductors,40__0,40,0.0,3. p9999_trade_value,922350.0,922350.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+AMAT,Computer and Technology,Electronics - Semiconductors,40__0,40,0.0,4. p999_trade_value,480000.0,220275.0,7.0,13.0,0.5384615384615384,0.55,2. BELOW BASELINE,9.0,15.0,0.6
+AMAT,Computer and Technology,Electronics - Semiconductors,40__0,40,0.0,5. p99_trade_value,200490.0,76608.0,71.0,130.0,0.5461538461538461,0.55,2. BELOW BASELINE,80.0,145.0,0.5517241379310345
+AMAT,Computer and Technology,Electronics - Semiconductors,40__0,40,0.0,6. p95_trade_value,75945.0,24745.0,354.0,577.0,0.6135181975736569,0.55,2. BELOW BASELINE,434.0,722.0,0.6011080332409973
+AMAT,Computer and Technology,Electronics - Semiconductors,40__0,40,0.0,7. p90_trade_value,24720.0,16000.0,403.0,728.0,0.5535714285714286,0.55,2. BELOW BASELINE,837.0,1450.0,0.5772413793103448
+AMAT,Computer and Technology,Electronics - Semiconductors,40__0,40,0.0,8. p75_trade_value,15989.999999999998,8405.0,1057.0,2157.0,0.4900324524802967,0.55,2. BELOW BASELINE,1894.0,3607.0,0.5250901025783199
+AMBA,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,1. p999999_trade_value,502500.0,502500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AMBA,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,5. p99_trade_value,140700.0,32500.0,5.0,5.0,1.0,0.55,1. ABOVE BASELINE,6.0,6.0,1.0
+AMBA,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,6. p95_trade_value,28750.0,19240.0,21.0,21.0,1.0,0.55,1. ABOVE BASELINE,27.0,27.0,1.0
+AMBA,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,7. p90_trade_value,18467.0,12000.0,24.0,31.0,0.7741935483870968,0.55,1. ABOVE BASELINE,51.0,58.0,0.8793103448275862
+AMBA,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,8. p75_trade_value,11900.0,7439.999999999999,64.0,77.0,0.8311688311688312,0.55,1. ABOVE BASELINE,115.0,135.0,0.8518518518518519
+AME,Computer and Technology,Electronics - Testing Equipment,20__0,20,0.0,1. p999999_trade_value,108000.0,108000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+AME,Computer and Technology,Electronics - Testing Equipment,20__0,20,0.0,6. p95_trade_value,107100.0,55000.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,1.0,5.0,0.2
+AME,Computer and Technology,Electronics - Testing Equipment,20__0,20,0.0,7. p90_trade_value,37500.0,20200.0,2.0,5.0,0.4,0.55,2. BELOW BASELINE,3.0,10.0,0.3
+AME,Computer and Technology,Electronics - Testing Equipment,20__0,20,0.0,8. p75_trade_value,20000.0,15700.0,2.0,13.0,0.15384615384615385,0.55,2. BELOW BASELINE,5.0,23.0,0.21739130434782608
+AMKR,Computer and Technology,Electronics - Semiconductors,20__2,20,2.0,1. p999999_trade_value,314800.0,314800.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+AMKR,Computer and Technology,Electronics - Semiconductors,20__2,20,2.0,6. p95_trade_value,275200.0,39355.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+AMKR,Computer and Technology,Electronics - Semiconductors,20__2,20,2.0,7. p90_trade_value,31159.999999999996,17500.0,1.0,5.0,0.2,0.55,2. BELOW BASELINE,4.0,10.0,0.4
+AMKR,Computer and Technology,Electronics - Semiconductors,20__2,20,2.0,8. p75_trade_value,15400.0,9017.0,5.0,14.0,0.35714285714285715,0.55,2. BELOW BASELINE,9.0,24.0,0.375
+AMSC,Computer and Technology,Electronics - Miscellaneous Components,25__0,25,0.0,1. p999999_trade_value,159103.0,159103.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+AMSC,Computer and Technology,Electronics - Miscellaneous Components,25__0,25,0.0,5. p99_trade_value,84915.0,44955.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+AMSC,Computer and Technology,Electronics - Miscellaneous Components,25__0,25,0.0,6. p95_trade_value,44000.00000000001,16235.999999999998,5.0,13.0,0.38461538461538464,0.55,2. BELOW BASELINE,5.0,17.0,0.29411764705882354
+AMSC,Computer and Technology,Electronics - Miscellaneous Components,25__0,25,0.0,7. p90_trade_value,15750.0,11120.0,12.0,16.0,0.75,0.55,2. BELOW BASELINE,17.0,33.0,0.5151515151515151
+AMSC,Computer and Technology,Electronics - Miscellaneous Components,25__0,25,0.0,8. p75_trade_value,11040.0,7000.0,23.0,48.0,0.4791666666666667,0.55,2. BELOW BASELINE,40.0,81.0,0.49382716049382713
+AOSL,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,1. p999999_trade_value,53460.0,53460.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AOSL,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,5. p99_trade_value,52200.0,52200.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+AOSL,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,6. p95_trade_value,42330.0,20000.0,3.0,6.0,0.5,0.55,2. BELOW BASELINE,5.0,8.0,0.625
+AOSL,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,7. p90_trade_value,18368.0,14500.0,4.0,7.0,0.5714285714285714,0.55,2. BELOW BASELINE,9.0,15.0,0.6
+AOSL,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,8. p75_trade_value,14400.0,8235.0,8.0,21.0,0.38095238095238093,0.55,2. BELOW BASELINE,17.0,36.0,0.4722222222222222
+APH,Computer and Technology,Electronics - Connectors,30__1,30,1.0,1. p999999_trade_value,330000.0,330000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+APH,Computer and Technology,Electronics - Connectors,30__1,30,1.0,5. p99_trade_value,240000.0,113575.0,4.0,9.0,0.4444444444444444,0.55,2. BELOW BASELINE,5.0,10.0,0.5
+APH,Computer and Technology,Electronics - Connectors,30__1,30,1.0,6. p95_trade_value,100000.0,32912.0,24.0,36.0,0.6666666666666666,0.55,2. BELOW BASELINE,29.0,46.0,0.6304347826086957
+APH,Computer and Technology,Electronics - Connectors,30__1,30,1.0,7. p90_trade_value,32000.0,19780.0,23.0,45.0,0.5111111111111111,0.55,2. BELOW BASELINE,52.0,91.0,0.5714285714285714
+APH,Computer and Technology,Electronics - Connectors,30__1,30,1.0,8. p75_trade_value,19739.999999999996,9750.0,76.0,138.0,0.5507246376811594,0.55,2. BELOW BASELINE,128.0,229.0,0.5589519650655022
+ARM,Computer and Technology,Electronics - Semiconductors,45__1,45,1.0,1. p999999_trade_value,820000.0,820000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ARM,Computer and Technology,Electronics - Semiconductors,45__1,45,1.0,3. p9999_trade_value,766000.0,713642.9999999999,2.0,4.0,0.5,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+ARM,Computer and Technology,Electronics - Semiconductors,45__1,45,1.0,4. p999_trade_value,656000.0,182484.0,17.0,36.0,0.4722222222222222,0.55,2. BELOW BASELINE,20.0,41.0,0.4878048780487805
+ARM,Computer and Technology,Electronics - Semiconductors,45__1,45,1.0,5. p99_trade_value,180000.0,57500.0,197.0,365.0,0.5397260273972603,0.55,2. BELOW BASELINE,217.0,406.0,0.5344827586206896
+ARM,Computer and Technology,Electronics - Semiconductors,45__1,45,1.0,6. p95_trade_value,57419.99999999999,23316.000000000004,809.0,1622.0,0.49876695437731194,0.55,2. BELOW BASELINE,1026.0,2028.0,0.5059171597633136
+ARM,Computer and Technology,Electronics - Semiconductors,45__1,45,1.0,7. p90_trade_value,23310.0,15435.0,955.0,2029.0,0.47067520946278957,0.55,2. BELOW BASELINE,1981.0,4057.0,0.48829184126201625
+ARM,Computer and Technology,Electronics - Semiconductors,45__1,45,1.0,8. p75_trade_value,15425.0,8370.0,2965.0,6090.0,0.48686371100164205,0.55,2. BELOW BASELINE,4946.0,10147.0,0.48743470976643344
+ARW,Computer and Technology,Electronics - Parts Distribution,10__0,10,0.0,1. p999999_trade_value,25000.0,25000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ARW,Computer and Technology,Electronics - Parts Distribution,10__0,10,0.0,8. p75_trade_value,24750.0,24750.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+ATOM,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,1. p999999_trade_value,46500.0,46500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ATOM,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,5. p99_trade_value,20000.0,20000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+ATOM,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,6. p95_trade_value,19000.0,15500.0,4.0,4.0,1.0,0.55,1. ABOVE BASELINE,6.0,6.0,1.0
+ATOM,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,7. p90_trade_value,15345.000000000002,11088.000000000002,5.0,6.0,0.8333333333333334,0.55,1. ABOVE BASELINE,11.0,12.0,0.9166666666666666
+ATOM,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,8. p75_trade_value,10735.0,7960.000000000001,8.0,18.0,0.4444444444444444,0.55,2. BELOW BASELINE,19.0,30.0,0.6333333333333333
+AVGO,Computer and Technology,Electronics - Semiconductors,55__0,55,0.0,1. p999999_trade_value,4075000.0,4075000.0,0.0,1.0,0.0,0.55,1. ABOVE BASELINE,0.0,1.0,0.0
+AVGO,Computer and Technology,Electronics - Semiconductors,55__0,55,0.0,2. p99999_trade_value,3228100.0,1906000.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,2.0,3.0,0.6666666666666666
+AVGO,Computer and Technology,Electronics - Semiconductors,55__0,55,0.0,3. p9999_trade_value,1524000.0,763500.0,12.0,18.0,0.6666666666666666,0.55,1. ABOVE BASELINE,14.0,21.0,0.6666666666666666
+AVGO,Computer and Technology,Electronics - Semiconductors,55__0,55,0.0,4. p999_trade_value,750000.0,231000.0,92.0,188.0,0.48936170212765956,0.55,2. BELOW BASELINE,106.0,209.0,0.507177033492823
+AVGO,Computer and Technology,Electronics - Semiconductors,55__0,55,0.0,5. p99_trade_value,230640.0,71000.0,964.0,1883.0,0.5119490175252257,0.55,2. BELOW BASELINE,1070.0,2092.0,0.511472275334608
+AVGO,Computer and Technology,Electronics - Semiconductors,55__0,55,0.0,6. p95_trade_value,70950.00000000001,26950.0,4065.0,8358.0,0.48636037329504667,0.55,2. BELOW BASELINE,5135.0,10450.0,0.49138755980861243
+AVGO,Computer and Technology,Electronics - Semiconductors,55__0,55,0.0,7. p90_trade_value,26945.0,17250.0,5067.0,10460.0,0.4844168260038241,0.55,2. BELOW BASELINE,10202.0,20910.0,0.4879005260640842
+AVGO,Computer and Technology,Electronics - Semiconductors,55__0,55,0.0,8. p75_trade_value,17248.0,9060.0,15353.0,31339.0,0.48990076262803534,0.55,2. BELOW BASELINE,25555.0,52249.0,0.48910026986162414
+AVT,Computer and Technology,Electronics - Parts Distribution,5__0,5,0.0,1. p999999_trade_value,4823.0,4823.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+AXTI,Computer and Technology,Electronics - Semiconductors,0__2,0,2.0,1. p999999_trade_value,4800.0,4800.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BELFB,Computer and Technology,Electronics - Miscellaneous Products,0__2,0,2.0,1. p999999_trade_value,4440.000000000001,4440.000000000001,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BHE,Computer and Technology,Electronics - Manufacturing Services,5__0,5,0.0,1. p999999_trade_value,6210.0,6210.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BLNK,Computer and Technology,Electronics - Miscellaneous Services,10__0,10,0.0,1. p999999_trade_value,12000.0,12000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BLNK,Computer and Technology,Electronics - Miscellaneous Services,10__0,10,0.0,8. p75_trade_value,7280.0,7280.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+BW,Computer and Technology,Electronics - Power Generation,0__2,0,2.0,1. p999999_trade_value,5210.0,5210.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CAMT,Computer and Technology,Electronics - Measuring Instruments,25__0,25,0.0,1. p999999_trade_value,40999.99999999999,40999.99999999999,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CAMT,Computer and Technology,Electronics - Measuring Instruments,25__0,25,0.0,5. p99_trade_value,33000.0,26000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+CAMT,Computer and Technology,Electronics - Measuring Instruments,25__0,25,0.0,6. p95_trade_value,25480.0,16800.0,6.0,9.0,0.6666666666666666,0.55,2. BELOW BASELINE,8.0,12.0,0.6666666666666666
+CAMT,Computer and Technology,Electronics - Measuring Instruments,25__0,25,0.0,7. p90_trade_value,16000.0,11760.0,8.0,11.0,0.7272727272727273,0.55,2. BELOW BASELINE,16.0,23.0,0.6956521739130435
+CAMT,Computer and Technology,Electronics - Measuring Instruments,25__0,25,0.0,8. p75_trade_value,11488.0,6930.0,25.0,33.0,0.7575757575757576,0.55,2. BELOW BASELINE,41.0,56.0,0.7321428571428571
+CEVA,Computer and Technology,Electronics - Semiconductors,10__0,10,0.0,1. p999999_trade_value,4950.0,4950.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CEVA,Computer and Technology,Electronics - Semiconductors,10__0,10,0.0,8. p75_trade_value,4500.0,4500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+CGNX,Computer and Technology,Electronics - Testing Equipment,10__0,10,0.0,1. p999999_trade_value,9360.0,9360.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CGNX,Computer and Technology,Electronics - Testing Equipment,10__0,10,0.0,8. p75_trade_value,6930.0,5520.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+GRMN,Computer and Technology,Electronics - Miscellaneous Products,30__2,30,2.0,6. p95_trade_value,76725.0,23265.0,17.0,23.0,0.7391304347826086,0.55,1. ABOVE BASELINE,21.0,29.0,0.7241379310344828
+GRMN,Computer and Technology,Electronics - Miscellaneous Products,30__2,30,2.0,7. p90_trade_value,22999.999999999996,15750.0,11.0,31.0,0.3548387096774194,0.55,2. BELOW BASELINE,32.0,60.0,0.5333333333333333
+GRMN,Computer and Technology,Electronics - Miscellaneous Products,30__2,30,2.0,8. p75_trade_value,15500.0,8820.0,55.0,89.0,0.6179775280898876,0.55,2. BELOW BASELINE,87.0,149.0,0.5838926174496645
+HAYW,Computer and Technology,Electronics - Miscellaneous Products,10__0,10,0.0,1. p999999_trade_value,16000.0,16000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+HAYW,Computer and Technology,Electronics - Miscellaneous Products,10__0,10,0.0,8. p75_trade_value,8000.0,8000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+HIMX,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,1. p999999_trade_value,54400.0,54400.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+HIMX,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,5. p99_trade_value,32000.0,29900.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+HIMX,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,6. p95_trade_value,25000.0,17760.000000000004,2.0,10.0,0.2,0.55,2. BELOW BASELINE,3.0,13.0,0.23076923076923078
+HIMX,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,7. p90_trade_value,17408.0,13695.000000000002,3.0,12.0,0.25,0.55,2. BELOW BASELINE,6.0,25.0,0.24
+HIMX,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,8. p75_trade_value,13500.0,8400.0,17.0,36.0,0.4722222222222222,0.55,2. BELOW BASELINE,23.0,61.0,0.3770491803278688
+ICHR,Computer and Technology,Electronics - Semiconductors,5__3,5,3.0,1. p999999_trade_value,23900.0,23900.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ICHR,Computer and Technology,Electronics - Semiconductors,5__3,5,3.0,8. p75_trade_value,17290.0,17290.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+IESC,Computer and Technology,Electronics - Miscellaneous Services,25__0,25,0.0,1. p999999_trade_value,225000.0,225000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+IESC,Computer and Technology,Electronics - Miscellaneous Services,25__0,25,0.0,5. p99_trade_value,214600.0,126000.0,3.0,4.0,0.75,0.55,1. ABOVE BASELINE,4.0,5.0,0.8
+IESC,Computer and Technology,Electronics - Miscellaneous Services,25__0,25,0.0,6. p95_trade_value,120000.0,26000.0,13.0,18.0,0.7222222222222222,0.55,1. ABOVE BASELINE,17.0,23.0,0.7391304347826086
+IESC,Computer and Technology,Electronics - Miscellaneous Services,25__0,25,0.0,7. p90_trade_value,25950.0,19720.0,12.0,22.0,0.5454545454545454,0.55,2. BELOW BASELINE,29.0,45.0,0.6444444444444445
+IESC,Computer and Technology,Electronics - Miscellaneous Services,25__0,25,0.0,8. p75_trade_value,19400.0,11000.0,34.0,67.0,0.5074626865671642,0.55,2. BELOW BASELINE,63.0,112.0,0.5625
+INDI,Computer and Technology,Electronics - Semiconductors,15__0,15,0.0,1. p999999_trade_value,20000.0,20000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+INDI,Computer and Technology,Electronics - Semiconductors,15__0,15,0.0,6. p95_trade_value,17150.0,17150.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+INDI,Computer and Technology,Electronics - Semiconductors,15__0,15,0.0,7. p90_trade_value,15700.0,15700.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+INDI,Computer and Technology,Electronics - Semiconductors,15__0,15,0.0,8. p75_trade_value,13619.999999999998,6600.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,5.0,7.0,0.7142857142857143
+INTT,Computer and Technology,Electronics - Measuring Instruments,5__0,5,0.0,1. p999999_trade_value,5445.0,5445.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ITRI,Computer and Technology,Electronics - Testing Equipment,15__0,15,0.0,1. p999999_trade_value,13000.0,13000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ITRI,Computer and Technology,Electronics - Testing Equipment,15__0,15,0.0,6. p95_trade_value,9890.0,9890.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+ITRI,Computer and Technology,Electronics - Testing Equipment,15__0,15,0.0,7. p90_trade_value,9700.0,9000.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+ITRI,Computer and Technology,Electronics - Testing Equipment,15__0,15,0.0,8. p75_trade_value,7819.999999999999,5174.999999999999,0.0,4.0,0.0,0.55,2. BELOW BASELINE,1.0,8.0,0.125
+JBL,Computer and Technology,Electronics - Manufacturing Services,30__2,30,2.0,1. p999999_trade_value,640000.0,640000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+JBL,Computer and Technology,Electronics - Manufacturing Services,30__2,30,2.0,4. p999_trade_value,449000.0,449000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+JBL,Computer and Technology,Electronics - Manufacturing Services,30__2,30,2.0,5. p99_trade_value,317500.0,52920.00000000001,3.0,10.0,0.3,0.55,2. BELOW BASELINE,5.0,12.0,0.4166666666666667
+JBL,Computer and Technology,Electronics - Manufacturing Services,30__2,30,2.0,6. p95_trade_value,49220.0,25026.000000000004,26.0,45.0,0.5777777777777777,0.55,2. BELOW BASELINE,31.0,57.0,0.543859649122807
+JBL,Computer and Technology,Electronics - Manufacturing Services,30__2,30,2.0,7. p90_trade_value,25025.0,14396.0,32.0,55.0,0.5818181818181818,0.55,2. BELOW BASELINE,63.0,112.0,0.5625
+JBL,Computer and Technology,Electronics - Manufacturing Services,30__2,30,2.0,8. p75_trade_value,14279.999999999998,7680.0,95.0,176.0,0.5397727272727273,0.55,2. BELOW BASELINE,158.0,288.0,0.5486111111111112
+KEYS,Computer and Technology,Electronics - Measuring Instruments,25__0,25,0.0,1. p999999_trade_value,270000.0,270000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+KEYS,Computer and Technology,Electronics - Measuring Instruments,25__0,25,0.0,5. p99_trade_value,194010.0,194010.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+KEYS,Computer and Technology,Electronics - Measuring Instruments,25__0,25,0.0,6. p95_trade_value,182745.0,19360.000000000004,3.0,8.0,0.375,0.55,2. BELOW BASELINE,4.0,10.0,0.4
+KEYS,Computer and Technology,Electronics - Measuring Instruments,25__0,25,0.0,7. p90_trade_value,18850.0,11340.0,4.0,10.0,0.4,0.55,2. BELOW BASELINE,8.0,20.0,0.4
+KEYS,Computer and Technology,Electronics - Measuring Instruments,25__0,25,0.0,8. p75_trade_value,10500.0,6740.000000000001,19.0,29.0,0.6551724137931034,0.55,2. BELOW BASELINE,27.0,49.0,0.5510204081632653
+KLAC,Computer and Technology,Electronics - Miscellaneous Products,35__2,35,2.0,1. p999999_trade_value,798560.0,798560.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+KLAC,Computer and Technology,Electronics - Miscellaneous Products,35__2,35,2.0,4. p999_trade_value,486500.0,334600.0,4.0,4.0,1.0,0.55,2. BELOW BASELINE,4.0,5.0,0.8
+KLAC,Computer and Technology,Electronics - Miscellaneous Products,35__2,35,2.0,5. p99_trade_value,330000.0,86880.0,24.0,36.0,0.6666666666666666,0.55,2. BELOW BASELINE,28.0,41.0,0.6829268292682927
+KLAC,Computer and Technology,Electronics - Miscellaneous Products,35__2,35,2.0,6. p95_trade_value,86699.99999999999,29620.0,119.0,164.0,0.725609756097561,0.55,2. BELOW BASELINE,147.0,205.0,0.7170731707317073
+KLAC,Computer and Technology,Electronics - Miscellaneous Products,35__2,35,2.0,7. p90_trade_value,29120.0,18990.0,149.0,205.0,0.7268292682926829,0.55,2. BELOW BASELINE,296.0,410.0,0.7219512195121951
+KLAC,Computer and Technology,Electronics - Miscellaneous Products,35__2,35,2.0,8. p75_trade_value,18989.999999999996,10260.0,423.0,615.0,0.6878048780487804,0.55,2. BELOW BASELINE,719.0,1025.0,0.7014634146341463
+KLIC,Computer and Technology,Electronics - Manufacturing Machinery,15__0,15,0.0,1. p999999_trade_value,54779.99999999999,54779.99999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+KLIC,Computer and Technology,Electronics - Manufacturing Machinery,15__0,15,0.0,6. p95_trade_value,42141.0,42141.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+KLIC,Computer and Technology,Electronics - Manufacturing Machinery,15__0,15,0.0,7. p90_trade_value,31000.0,31000.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+KLIC,Computer and Technology,Electronics - Manufacturing Machinery,15__0,15,0.0,8. p75_trade_value,26611.0,22000.000000000004,3.0,3.0,1.0,0.55,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
+KODK,Computer and Technology,Electronics - Miscellaneous Products,20__0,20,0.0,1. p999999_trade_value,59969.99999999999,59969.99999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+KODK,Computer and Technology,Electronics - Miscellaneous Products,20__0,20,0.0,5. p99_trade_value,37500.0,37500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+KODK,Computer and Technology,Electronics - Miscellaneous Products,20__0,20,0.0,6. p95_trade_value,30059.999999999996,18375.0,3.0,5.0,0.6,0.55,2. BELOW BASELINE,3.0,7.0,0.42857142857142855
+KODK,Computer and Technology,Electronics - Miscellaneous Products,20__0,20,0.0,7. p90_trade_value,14220.000000000002,12990.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,4.0,11.0,0.36363636363636365
+KODK,Computer and Technology,Electronics - Miscellaneous Products,20__0,20,0.0,8. p75_trade_value,12920.000000000002,7200.0,9.0,16.0,0.5625,0.55,2. BELOW BASELINE,13.0,27.0,0.48148148148148145
+KOPN,Computer and Technology,Electronics - Miscellaneous Products,15__0,15,0.0,1. p999999_trade_value,20000.0,20000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+KOPN,Computer and Technology,Electronics - Miscellaneous Products,15__0,15,0.0,6. p95_trade_value,19750.0,19750.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+KOPN,Computer and Technology,Electronics - Miscellaneous Products,15__0,15,0.0,7. p90_trade_value,15000.0,13469.999999999998,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+KOPN,Computer and Technology,Electronics - Miscellaneous Products,15__0,15,0.0,8. p75_trade_value,10000.0,7500.0,4.0,5.0,0.8,0.55,2. BELOW BASELINE,6.0,9.0,0.6666666666666666
+KULR,Computer and Technology,Electronics - Semiconductors,30__2,30,2.0,1. p999999_trade_value,89838.0,89838.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+KULR,Computer and Technology,Electronics - Semiconductors,30__2,30,2.0,5. p99_trade_value,75000.0,37425.0,5.0,6.0,0.8333333333333334,0.55,1. ABOVE BASELINE,6.0,7.0,0.8571428571428571
+KULR,Computer and Technology,Electronics - Semiconductors,30__2,30,2.0,6. p95_trade_value,35000.0,19234.0,16.0,24.0,0.6666666666666666,0.55,1. ABOVE BASELINE,22.0,31.0,0.7096774193548387
+KULR,Computer and Technology,Electronics - Semiconductors,30__2,30,2.0,7. p90_trade_value,19070.999999999996,12110.0,17.0,30.0,0.5666666666666667,0.55,1. ABOVE BASELINE,39.0,61.0,0.639344262295082
+KULR,Computer and Technology,Electronics - Semiconductors,30__2,30,2.0,8. p75_trade_value,12000.0,7400.0,54.0,91.0,0.5934065934065934,0.55,1. ABOVE BASELINE,93.0,152.0,0.6118421052631579
+LAES,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,1. p999999_trade_value,43600.0,43600.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+LAES,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,5. p99_trade_value,38675.0,36800.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+LAES,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,6. p95_trade_value,26950.0,20000.0,0.0,10.0,0.0,0.55,2. BELOW BASELINE,2.0,13.0,0.15384615384615385
+LAES,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,7. p90_trade_value,19960.000000000004,14400.0,1.0,11.0,0.09090909090909091,0.55,2. BELOW BASELINE,3.0,24.0,0.125
+LAES,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,8. p75_trade_value,14000.0,7363.0,6.0,36.0,0.16666666666666666,0.55,2. BELOW BASELINE,9.0,60.0,0.15
+LASR,Computer and Technology,Electronics - Semiconductors,0__2,0,2.0,1. p999999_trade_value,6000.0,6000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+LFUS,Computer and Technology,Electronics - Miscellaneous Components,5__3,5,3.0,1. p999999_trade_value,20400.0,20400.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+LRCX,Computer and Technology,Electronics - Semiconductors,40__3,40,3.0,1. p999999_trade_value,336932.0,336932.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+LRCX,Computer and Technology,Electronics - Semiconductors,40__3,40,3.0,3. p9999_trade_value,296000.0,296000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+LRCX,Computer and Technology,Electronics - Semiconductors,40__3,40,3.0,4. p999_trade_value,262500.0,159100.0,11.0,12.0,0.9166666666666666,0.55,1. ABOVE BASELINE,13.0,14.0,0.9285714285714286
+LRCX,Computer and Technology,Electronics - Semiconductors,40__3,40,3.0,5. p99_trade_value,154449.0,60319.99999999999,89.0,121.0,0.7355371900826446,0.55,1. ABOVE BASELINE,102.0,135.0,0.7555555555555555
+LRCX,Computer and Technology,Electronics - Semiconductors,40__3,40,3.0,6. p95_trade_value,60060.0,24276.0,289.0,538.0,0.5371747211895911,0.55,2. BELOW BASELINE,391.0,673.0,0.5809806835066865
+LRCX,Computer and Technology,Electronics - Semiconductors,40__3,40,3.0,7. p90_trade_value,24257.0,15000.0,412.0,678.0,0.6076696165191741,0.55,2. BELOW BASELINE,803.0,1351.0,0.5943745373797187
+LRCX,Computer and Technology,Electronics - Semiconductors,40__3,40,3.0,8. p75_trade_value,14990.0,8030.0,1061.0,2014.0,0.5268123138033763,0.55,2. BELOW BASELINE,1864.0,3365.0,0.5539375928677563
+LSCC,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,1. p999999_trade_value,994725.0,994725.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+LSCC,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,5. p99_trade_value,65170.00000000001,37500.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+LSCC,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,6. p95_trade_value,34825.0,19072.0,7.0,15.0,0.4666666666666667,0.55,2. BELOW BASELINE,9.0,19.0,0.47368421052631576
+LSCC,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,7. p90_trade_value,18720.0,14175.0,9.0,18.0,0.5,0.55,2. BELOW BASELINE,18.0,37.0,0.4864864864864865
+LSCC,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,8. p75_trade_value,13680.000000000002,8330.0,31.0,54.0,0.5740740740740741,0.55,2. BELOW BASELINE,49.0,91.0,0.5384615384615384
+MEI,Computer and Technology,Electronics - Connectors,5__3,5,3.0,1. p999999_trade_value,23500.0,23500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MG,Computer and Technology,Electronics - Miscellaneous Products,10__0,10,0.0,1. p999999_trade_value,10710.0,10710.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+MKSI,Computer and Technology,Electronics - Miscellaneous Products,20__2,20,2.0,1. p999999_trade_value,403200.0,403200.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MKSI,Computer and Technology,Electronics - Miscellaneous Products,20__2,20,2.0,6. p95_trade_value,90720.0,48345.00000000001,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+MKSI,Computer and Technology,Electronics - Miscellaneous Products,20__2,20,2.0,7. p90_trade_value,46500.0,30250.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,6.0,7.0,0.8571428571428571
+MKSI,Computer and Technology,Electronics - Miscellaneous Products,20__2,20,2.0,8. p75_trade_value,26845.0,11610.0,11.0,11.0,1.0,0.55,1. ABOVE BASELINE,17.0,18.0,0.9444444444444444
+MRVL,Computer and Technology,Electronics - Semiconductors,45__0,45,0.0,1. p999999_trade_value,2220000.0000000005,2220000.0000000005,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MRVL,Computer and Technology,Electronics - Semiconductors,45__0,45,0.0,3. p9999_trade_value,1979604.0,1856000.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
+MRVL,Computer and Technology,Electronics - Semiconductors,45__0,45,0.0,4. p999_trade_value,1114777.0,377128.0,17.0,25.0,0.68,0.55,1. ABOVE BASELINE,20.0,29.0,0.6896551724137931
+MRVL,Computer and Technology,Electronics - Semiconductors,45__0,45,0.0,5. p99_trade_value,370120.0,73850.0,170.0,260.0,0.6538461538461539,0.55,1. ABOVE BASELINE,190.0,289.0,0.657439446366782
+MRVL,Computer and Technology,Electronics - Semiconductors,45__0,45,0.0,6. p95_trade_value,73800.0,27244.0,698.0,1154.0,0.6048526863084922,0.55,1. ABOVE BASELINE,888.0,1443.0,0.6153846153846154
+MRVL,Computer and Technology,Electronics - Semiconductors,45__0,45,0.0,7. p90_trade_value,27225.0,17650.0,913.0,1443.0,0.6327096327096328,0.55,1. ABOVE BASELINE,1801.0,2886.0,0.624047124047124
+MRVL,Computer and Technology,Electronics - Semiconductors,45__0,45,0.0,8. p75_trade_value,17646.0,9100.0,2434.0,4340.0,0.5608294930875576,0.55,1. ABOVE BASELINE,4235.0,7226.0,0.5860780514807639
+NA,Computer and Technology,Electronics - Semiconductors,0__2,0,2.0,1. p999999_trade_value,5000.0,5000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+NOVT,Computer and Technology,Electronics - Miscellaneous Components,10__0,10,0.0,1. p999999_trade_value,81885.0,81885.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+NOVT,Computer and Technology,Electronics - Miscellaneous Components,10__0,10,0.0,7. p90_trade_value,24500.000000000004,24500.000000000004,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+NOVT,Computer and Technology,Electronics - Miscellaneous Components,10__0,10,0.0,8. p75_trade_value,24000.0,20000.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+NVMI,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,1. p999999_trade_value,72250.0,72250.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+NVMI,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,5. p99_trade_value,57540.0,48300.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+NVMI,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,6. p95_trade_value,40500.0,30000.0,8.0,9.0,0.8888888888888888,0.55,1. ABOVE BASELINE,11.0,12.0,0.9166666666666666
+NVMI,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,7. p90_trade_value,28600.0,15065.0,4.0,10.0,0.4,0.55,2. BELOW BASELINE,15.0,22.0,0.6818181818181818
+NVMI,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,8. p75_trade_value,15000.0,10500.0,24.0,33.0,0.7272727272727273,0.55,2. BELOW BASELINE,39.0,55.0,0.7090909090909091
+NVT,Computer and Technology,Electronics - Miscellaneous Components,20__3,20,3.0,1. p999999_trade_value,2117820.0,2117820.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+NVT,Computer and Technology,Electronics - Miscellaneous Components,20__3,20,3.0,5. p99_trade_value,205000.0,205000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+NVT,Computer and Technology,Electronics - Miscellaneous Components,20__3,20,3.0,6. p95_trade_value,202438.0,97305.0,3.0,5.0,0.6,0.55,2. BELOW BASELINE,3.0,7.0,0.42857142857142855
+NVT,Computer and Technology,Electronics - Miscellaneous Components,20__3,20,3.0,7. p90_trade_value,92500.0,43725.0,5.0,7.0,0.7142857142857143,0.55,2. BELOW BASELINE,8.0,14.0,0.5714285714285714
+NVT,Computer and Technology,Electronics - Miscellaneous Components,20__3,20,3.0,8. p75_trade_value,38400.0,10530.000000000002,5.0,19.0,0.2631578947368421,0.55,2. BELOW BASELINE,13.0,33.0,0.3939393939393939
+NVTS,Computer and Technology,Electronics - Semiconductors,30__2,30,2.0,1. p999999_trade_value,87075.0,87075.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+NVTS,Computer and Technology,Electronics - Semiconductors,30__2,30,2.0,5. p99_trade_value,65000.0,43875.0,7.0,7.0,1.0,0.55,1. ABOVE BASELINE,8.0,8.0,1.0
+NVTS,Computer and Technology,Electronics - Semiconductors,30__2,30,2.0,6. p95_trade_value,42840.0,18180.0,26.0,32.0,0.8125,0.55,1. ABOVE BASELINE,34.0,40.0,0.85
+NVTS,Computer and Technology,Electronics - Semiconductors,30__2,30,2.0,7. p90_trade_value,17930.0,12420.0,29.0,39.0,0.7435897435897436,0.55,1. ABOVE BASELINE,63.0,79.0,0.7974683544303798
+NVTS,Computer and Technology,Electronics - Semiconductors,30__2,30,2.0,8. p75_trade_value,12375.0,8000.0,78.0,119.0,0.6554621848739496,0.55,1. ABOVE BASELINE,141.0,198.0,0.7121212121212122
+OLED,Computer and Technology,Electronics - Miscellaneous Components,25__0,25,0.0,1. p999999_trade_value,399839.99999999994,399839.99999999994,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+OLED,Computer and Technology,Electronics - Miscellaneous Components,25__0,25,0.0,5. p99_trade_value,238000.0,117809.99999999999,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+OLED,Computer and Technology,Electronics - Miscellaneous Components,25__0,25,0.0,6. p95_trade_value,116000.0,27300.0,9.0,14.0,0.6428571428571429,0.55,2. BELOW BASELINE,11.0,18.0,0.6111111111111112
+OLED,Computer and Technology,Electronics - Miscellaneous Components,25__0,25,0.0,7. p90_trade_value,25000.0,15840.0,13.0,17.0,0.7647058823529411,0.55,2. BELOW BASELINE,24.0,35.0,0.6857142857142857
+OLED,Computer and Technology,Electronics - Miscellaneous Components,25__0,25,0.0,8. p75_trade_value,15800.0,8225.0,35.0,51.0,0.6862745098039216,0.55,2. BELOW BASELINE,59.0,86.0,0.686046511627907
+OSIS,Computer and Technology,Electronics - Miscellaneous Components,20__0,20,0.0,1. p999999_trade_value,112500.0,112500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+OSIS,Computer and Technology,Electronics - Miscellaneous Components,20__0,20,0.0,5. p99_trade_value,71700.0,71700.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+OSIS,Computer and Technology,Electronics - Miscellaneous Components,20__0,20,0.0,6. p95_trade_value,67450.0,48600.0,3.0,4.0,0.75,0.55,1. ABOVE BASELINE,5.0,6.0,0.8333333333333334
+OSIS,Computer and Technology,Electronics - Miscellaneous Components,20__0,20,0.0,7. p90_trade_value,44180.0,34684.0,5.0,6.0,0.8333333333333334,0.55,1. ABOVE BASELINE,10.0,12.0,0.8333333333333334
+OSIS,Computer and Technology,Electronics - Miscellaneous Components,20__0,20,0.0,8. p75_trade_value,33600.0,15000.0,14.0,18.0,0.7777777777777778,0.55,1. ABOVE BASELINE,24.0,30.0,0.8
+OSS,Computer and Technology,Electronics - Miscellaneous Products,0__0,0,0.0,1. p999999_trade_value,9950.0,9950.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+OUST,Computer and Technology,Electronics - Miscellaneous Components,20__0,20,0.0,1. p999999_trade_value,41840.0,41840.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+OUST,Computer and Technology,Electronics - Miscellaneous Components,20__0,20,0.0,5. p99_trade_value,34929.99999999999,34929.99999999999,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+OUST,Computer and Technology,Electronics - Miscellaneous Components,20__0,20,0.0,6. p95_trade_value,29100.0,15554.0,4.0,6.0,0.6666666666666666,0.55,1. ABOVE BASELINE,6.0,8.0,0.75
+OUST,Computer and Technology,Electronics - Miscellaneous Components,20__0,20,0.0,7. p90_trade_value,14760.0,9800.0,4.0,9.0,0.4444444444444444,0.55,2. BELOW BASELINE,10.0,17.0,0.5882352941176471
+OUST,Computer and Technology,Electronics - Miscellaneous Components,20__0,20,0.0,8. p75_trade_value,9000.0,6900.0,17.0,21.0,0.8095238095238095,0.55,2. BELOW BASELINE,27.0,38.0,0.7105263157894737
+PI,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,1. p999999_trade_value,61020.00000000001,61020.00000000001,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PI,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,5. p99_trade_value,57240.00000000001,46250.0,4.0,4.0,1.0,0.55,1. ABOVE BASELINE,5.0,5.0,1.0
+PI,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,6. p95_trade_value,42434.0,22999.999999999996,10.0,16.0,0.625,0.55,1. ABOVE BASELINE,15.0,21.0,0.7142857142857143
+PI,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,7. p90_trade_value,22500.0,15179.999999999998,9.0,20.0,0.45,0.55,2. BELOW BASELINE,24.0,41.0,0.5853658536585366
+PI,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,8. p75_trade_value,15060.0,7800.0,24.0,61.0,0.39344262295081966,0.55,2. BELOW BASELINE,48.0,102.0,0.47058823529411764
+PLXS,Computer and Technology,Electronics - Manufacturing Services,5__0,5,0.0,2. p99999_trade_value,7589.999999999999,7589.999999999999,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+POET,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,1. p999999_trade_value,40950.0,40950.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+POET,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,5. p99_trade_value,38922.0,38922.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+POET,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,6. p95_trade_value,36400.0,19080.0,0.0,6.0,0.0,0.55,2. BELOW BASELINE,0.0,8.0,0.0
+POET,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,7. p90_trade_value,17600.0,13150.0,2.0,7.0,0.2857142857142857,0.55,2. BELOW BASELINE,2.0,15.0,0.13333333333333333
+POET,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,8. p75_trade_value,12600.0,8490.0,5.0,21.0,0.23809523809523808,0.55,2. BELOW BASELINE,7.0,36.0,0.19444444444444445
+QCOM,Computer and Technology,Electronics - Semiconductors,45__1,45,1.0,1. p999999_trade_value,675675.0,675675.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+QCOM,Computer and Technology,Electronics - Semiconductors,45__1,45,1.0,3. p9999_trade_value,530000.0,427572.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+QCOM,Computer and Technology,Electronics - Semiconductors,45__1,45,1.0,4. p999_trade_value,403000.00000000006,202860.0,11.0,19.0,0.5789473684210527,0.55,2. BELOW BASELINE,13.0,22.0,0.5909090909090909
+QCOM,Computer and Technology,Electronics - Semiconductors,45__1,45,1.0,5. p99_trade_value,199545.0,64350.0,106.0,197.0,0.5380710659898477,0.55,2. BELOW BASELINE,119.0,219.0,0.54337899543379
+QCOM,Computer and Technology,Electronics - Semiconductors,45__1,45,1.0,6. p95_trade_value,64092.00000000001,27720.0,474.0,873.0,0.5429553264604811,0.55,2. BELOW BASELINE,593.0,1092.0,0.543040293040293
+QCOM,Computer and Technology,Electronics - Semiconductors,45__1,45,1.0,7. p90_trade_value,27702.000000000004,17500.0,519.0,1093.0,0.47483989021043,0.55,2. BELOW BASELINE,1112.0,2185.0,0.5089244851258581
+QCOM,Computer and Technology,Electronics - Semiconductors,45__1,45,1.0,8. p75_trade_value,17490.0,9152.0,1462.0,3271.0,0.44695811678385816,0.55,2. BELOW BASELINE,2574.0,5456.0,0.4717741935483871
+QSI,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,1. p999999_trade_value,47808.0,47808.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+QSI,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,5. p99_trade_value,34510.0,30000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+QSI,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,6. p95_trade_value,25652.0,16000.0,7.0,12.0,0.5833333333333334,0.55,2. BELOW BASELINE,8.0,15.0,0.5333333333333333
+QSI,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,7. p90_trade_value,14025.0,10050.0,9.0,15.0,0.6,0.55,2. BELOW BASELINE,17.0,30.0,0.5666666666666667
+QSI,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,8. p75_trade_value,10000.0,6614.999999999999,26.0,43.0,0.6046511627906976,0.55,2. BELOW BASELINE,43.0,73.0,0.589041095890411
+QUIK,Computer and Technology,Electronics - Semiconductors,10__0,10,0.0,1. p999999_trade_value,7398.999999999999,7398.999999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+QUIK,Computer and Technology,Electronics - Semiconductors,10__0,10,0.0,7. p90_trade_value,5600.000000000001,5600.000000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+QUIK,Computer and Technology,Electronics - Semiconductors,10__0,10,0.0,8. p75_trade_value,4628.0,4400.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+RELL,Computer and Technology,Electronics - Parts Distribution,0__2,0,2.0,1. p999999_trade_value,7000.0,7000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+RMBS,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,1. p999999_trade_value,149400.0,149400.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+RMBS,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,5. p99_trade_value,60000.0,37840.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+RMBS,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,6. p95_trade_value,37275.0,19500.0,6.0,8.0,0.75,0.55,1. ABOVE BASELINE,9.0,11.0,0.8181818181818182
+RMBS,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,7. p90_trade_value,16675.0,12980.000000000002,5.0,10.0,0.5,0.55,2. BELOW BASELINE,14.0,21.0,0.6666666666666666
+RMBS,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,8. p75_trade_value,12582.0,6720.0,22.0,31.0,0.7096774193548387,0.55,2. BELOW BASELINE,36.0,52.0,0.6923076923076923
+ROG,Computer and Technology,Electronics - Miscellaneous Components,10__0,10,0.0,1. p999999_trade_value,48500.0,48500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ROG,Computer and Technology,Electronics - Miscellaneous Components,10__0,10,0.0,7. p90_trade_value,40000.0,40000.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+ROG,Computer and Technology,Electronics - Miscellaneous Components,10__0,10,0.0,8. p75_trade_value,31000.0,31000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,3.0,4.0,0.75
+ROK,Computer and Technology,Electronics - Miscellaneous Products,25__0,25,0.0,1. p999999_trade_value,350000.0,350000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ROK,Computer and Technology,Electronics - Miscellaneous Products,25__0,25,0.0,5. p99_trade_value,156000.0,116550.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,1.0,5.0,0.2
+ROK,Computer and Technology,Electronics - Miscellaneous Products,25__0,25,0.0,6. p95_trade_value,115269.0,37520.0,7.0,18.0,0.3888888888888889,0.55,2. BELOW BASELINE,8.0,23.0,0.34782608695652173
+ROK,Computer and Technology,Electronics - Miscellaneous Products,25__0,25,0.0,7. p90_trade_value,35280.0,16280.000000000002,15.0,23.0,0.6521739130434783,0.55,2. BELOW BASELINE,23.0,46.0,0.5
+ROK,Computer and Technology,Electronics - Miscellaneous Products,25__0,25,0.0,8. p75_trade_value,15750.0,8320.0,50.0,69.0,0.7246376811594203,0.55,2. BELOW BASELINE,73.0,115.0,0.6347826086956522
+SANM,Computer and Technology,Electronics - Manufacturing Services,15__0,15,0.0,1. p999999_trade_value,23400.0,23400.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SANM,Computer and Technology,Electronics - Manufacturing Services,15__0,15,0.0,6. p95_trade_value,15860.0,15589.000000000002,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+SANM,Computer and Technology,Electronics - Manufacturing Services,15__0,15,0.0,7. p90_trade_value,15368.0,15367.000000000002,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,5.0,0.2
+SANM,Computer and Technology,Electronics - Manufacturing Services,15__0,15,0.0,8. p75_trade_value,15255.000000000002,15029.000000000002,0.0,9.0,0.0,0.55,2. BELOW BASELINE,1.0,14.0,0.07142857142857142
+SGML,Computer and Technology,Electronics - Miscellaneous Products,15__0,15,0.0,1. p999999_trade_value,119000.0,119000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+SGML,Computer and Technology,Electronics - Miscellaneous Products,15__0,15,0.0,6. p95_trade_value,59600.0,59600.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+SGML,Computer and Technology,Electronics - Miscellaneous Products,15__0,15,0.0,7. p90_trade_value,59000.0,51300.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+SGML,Computer and Technology,Electronics - Miscellaneous Products,15__0,15,0.0,8. p75_trade_value,50000.0,38000.0,4.0,5.0,0.8,0.55,2. BELOW BASELINE,6.0,9.0,0.6666666666666666
+SGU,Computer and Technology,Electronics - Miscellaneous Products,0__2,0,2.0,1. p999999_trade_value,4990.000000000001,4990.000000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+SITM,Computer and Technology,Electronics - Miscellaneous Products,20__0,20,0.0,1. p999999_trade_value,139500.0,139500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+SITM,Computer and Technology,Electronics - Miscellaneous Products,20__0,20,0.0,5. p99_trade_value,102408.0,102408.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+SITM,Computer and Technology,Electronics - Miscellaneous Products,20__0,20,0.0,6. p95_trade_value,56256.00000000001,22940.0,2.0,6.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,8.0,0.25
+SITM,Computer and Technology,Electronics - Miscellaneous Products,20__0,20,0.0,7. p90_trade_value,22600.0,16379.999999999998,2.0,8.0,0.25,0.55,2. BELOW BASELINE,4.0,16.0,0.25
+SITM,Computer and Technology,Electronics - Miscellaneous Products,20__0,20,0.0,8. p75_trade_value,14300.0,10400.0,8.0,24.0,0.3333333333333333,0.55,2. BELOW BASELINE,12.0,40.0,0.3
+SKYT,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,1. p999999_trade_value,57300.0,57300.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+SKYT,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,5. p99_trade_value,52000.0,52000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+SKYT,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,6. p95_trade_value,43875.0,24500.000000000004,1.0,5.0,0.2,0.55,2. BELOW BASELINE,1.0,7.0,0.14285714285714285
+SKYT,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,7. p90_trade_value,21375.0,16000.0,2.0,6.0,0.3333333333333333,0.55,2. BELOW BASELINE,3.0,13.0,0.23076923076923078
+SKYT,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,8. p75_trade_value,15600.0,8300.0,5.0,19.0,0.2631578947368421,0.55,2. BELOW BASELINE,8.0,32.0,0.25
+SMR,Computer and Technology,Electronics - Power Generation,35__2,35,2.0,1. p999999_trade_value,1033500.0,1033500.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,1.0,1.0
+SMR,Computer and Technology,Electronics - Power Generation,35__2,35,2.0,4. p999_trade_value,828000.0,443610.00000000006,1.0,4.0,0.25,0.55,2. BELOW BASELINE,2.0,5.0,0.4
+SMR,Computer and Technology,Electronics - Power Generation,35__2,35,2.0,5. p99_trade_value,400000.0,140140.0,24.0,40.0,0.6,0.55,2. BELOW BASELINE,26.0,45.0,0.5777777777777777
+SMR,Computer and Technology,Electronics - Power Generation,35__2,35,2.0,6. p95_trade_value,138000.0,32109.999999999996,87.0,177.0,0.4915254237288136,0.55,2. BELOW BASELINE,113.0,222.0,0.509009009009009
+SMR,Computer and Technology,Electronics - Power Generation,35__2,35,2.0,7. p90_trade_value,32000.0,18000.0,140.0,222.0,0.6306306306306306,0.55,2. BELOW BASELINE,253.0,444.0,0.5698198198198198
+SMR,Computer and Technology,Electronics - Power Generation,35__2,35,2.0,8. p75_trade_value,17994.0,8819.999999999998,381.0,662.0,0.5755287009063444,0.55,2. BELOW BASELINE,634.0,1106.0,0.5732368896925859
+SNX,Computer and Technology,Electronics - Miscellaneous Products,15__0,15,0.0,1. p999999_trade_value,12000.0,12000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+SNX,Computer and Technology,Electronics - Miscellaneous Products,15__0,15,0.0,6. p95_trade_value,10200.0,9280.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+SNX,Computer and Technology,Electronics - Miscellaneous Products,15__0,15,0.0,7. p90_trade_value,8960.0,8100.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,1.0,6.0,0.16666666666666666
+SNX,Computer and Technology,Electronics - Miscellaneous Products,15__0,15,0.0,8. p75_trade_value,7500.0,6480.000000000001,1.0,8.0,0.125,0.55,2. BELOW BASELINE,2.0,14.0,0.14285714285714285
+SYNA,Computer and Technology,Electronics - Semiconductors,15__0,15,0.0,1. p999999_trade_value,189000.00000000003,189000.00000000003,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+SYNA,Computer and Technology,Electronics - Semiconductors,15__0,15,0.0,6. p95_trade_value,26500.0,17000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+SYNA,Computer and Technology,Electronics - Semiconductors,15__0,15,0.0,7. p90_trade_value,14619.999999999998,13800.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,5.0,0.4
+SYNA,Computer and Technology,Electronics - Semiconductors,15__0,15,0.0,8. p75_trade_value,13500.0,9375.0,4.0,6.0,0.6666666666666666,0.55,2. BELOW BASELINE,6.0,11.0,0.5454545454545454
+SYPR,Computer and Technology,Electronics - Miscellaneous Services,0__2,0,2.0,1. p999999_trade_value,7000.0,7000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+TEL,Computer and Technology,Electronics - Miscellaneous Components,25__0,25,0.0,1. p999999_trade_value,61495.00000000001,61495.00000000001,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+TEL,Computer and Technology,Electronics - Miscellaneous Components,25__0,25,0.0,5. p99_trade_value,31960.000000000004,31960.000000000004,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+TEL,Computer and Technology,Electronics - Miscellaneous Components,25__0,25,0.0,6. p95_trade_value,30359.999999999996,12285.0,6.0,7.0,0.8571428571428571,0.55,2. BELOW BASELINE,7.0,9.0,0.7777777777777778
+TEL,Computer and Technology,Electronics - Miscellaneous Components,25__0,25,0.0,7. p90_trade_value,12000.0,9240.0,8.0,9.0,0.8888888888888888,0.55,2. BELOW BASELINE,15.0,18.0,0.8333333333333334
+TEL,Computer and Technology,Electronics - Miscellaneous Components,25__0,25,0.0,8. p75_trade_value,8820.0,5550.999999999999,19.0,27.0,0.7037037037037037,0.55,2. BELOW BASELINE,34.0,45.0,0.7555555555555555
+TER,Computer and Technology,Electronics - Miscellaneous Products,30__1,30,1.0,1. p999999_trade_value,1184526.0,1184526.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,1.0,1.0
+TER,Computer and Technology,Electronics - Miscellaneous Products,30__1,30,1.0,5. p99_trade_value,529803.0000000001,91600.0,3.0,8.0,0.375,0.55,2. BELOW BASELINE,4.0,9.0,0.4444444444444444
+TER,Computer and Technology,Electronics - Miscellaneous Products,30__1,30,1.0,6. p95_trade_value,74400.0,27839.999999999996,11.0,35.0,0.3142857142857143,0.55,2. BELOW BASELINE,15.0,44.0,0.3409090909090909
+TER,Computer and Technology,Electronics - Miscellaneous Products,30__1,30,1.0,7. p90_trade_value,27456.0,16080.000000000002,28.0,44.0,0.6363636363636364,0.55,2. BELOW BASELINE,43.0,88.0,0.48863636363636365
+TER,Computer and Technology,Electronics - Miscellaneous Products,30__1,30,1.0,8. p75_trade_value,15950.0,9027.0,68.0,133.0,0.5112781954887218,0.55,2. BELOW BASELINE,111.0,221.0,0.502262443438914
+TKR,Computer and Technology,Electronics - Miscellaneous Products,15__0,15,0.0,1. p999999_trade_value,150000.0,150000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+TKR,Computer and Technology,Electronics - Miscellaneous Products,15__0,15,0.0,6. p95_trade_value,73920.0,73920.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+TKR,Computer and Technology,Electronics - Miscellaneous Products,15__0,15,0.0,7. p90_trade_value,12749.999999999998,12749.999999999998,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+TKR,Computer and Technology,Electronics - Miscellaneous Products,15__0,15,0.0,8. p75_trade_value,7400.0,4930.0,5.0,6.0,0.8333333333333334,0.55,2. BELOW BASELINE,6.0,10.0,0.6
+TSEM,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,1. p999999_trade_value,487500.0,487500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+TSEM,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,5. p99_trade_value,269136.0,189000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+TSEM,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,6. p95_trade_value,132600.0,37924.99999999999,9.0,11.0,0.8181818181818182,0.55,2. BELOW BASELINE,11.0,14.0,0.7857142857142857
+TSEM,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,7. p90_trade_value,36465.0,20580.0,12.0,13.0,0.9230769230769231,0.55,2. BELOW BASELINE,23.0,27.0,0.8518518518518519
+TSEM,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,8. p75_trade_value,20520.0,11970.0,27.0,41.0,0.6585365853658537,0.55,2. BELOW BASELINE,50.0,68.0,0.7352941176470589
+TTMI,Computer and Technology,Electronics - Miscellaneous Components,0__2,0,2.0,1. p999999_trade_value,5070.0,5070.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+UCTT,Computer and Technology,Electronics - Manufacturing Machinery,10__0,10,0.0,1. p999999_trade_value,5700.0,5700.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+UCTT,Computer and Technology,Electronics - Manufacturing Machinery,10__0,10,0.0,8. p75_trade_value,5600.0,5445.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+UMC,Computer and Technology,Electronics - Semiconductors,15__0,15,0.0,1. p999999_trade_value,125000.0,125000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+UMC,Computer and Technology,Electronics - Semiconductors,15__0,15,0.0,6. p95_trade_value,45000.0,45000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+UMC,Computer and Technology,Electronics - Semiconductors,15__0,15,0.0,7. p90_trade_value,35315.0,35315.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+UMC,Computer and Technology,Electronics - Semiconductors,15__0,15,0.0,8. p75_trade_value,31500.0,22500.0,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
+VECO,Computer and Technology,Electronics - Manufacturing Machinery,15__0,15,0.0,1. p999999_trade_value,42840.0,42840.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+VECO,Computer and Technology,Electronics - Manufacturing Machinery,15__0,15,0.0,6. p95_trade_value,34300.0,34300.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+VECO,Computer and Technology,Electronics - Manufacturing Machinery,15__0,15,0.0,7. p90_trade_value,32500.0,32500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+VECO,Computer and Technology,Electronics - Manufacturing Machinery,15__0,15,0.0,8. p75_trade_value,25000.0,20520.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,5.0,6.0,0.8333333333333334
+VICR,Computer and Technology,Electronics - Miscellaneous Components,25__0,25,0.0,1. p999999_trade_value,250000.0,250000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+VICR,Computer and Technology,Electronics - Miscellaneous Components,25__0,25,0.0,5. p99_trade_value,76670.0,45140.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+VICR,Computer and Technology,Electronics - Miscellaneous Components,25__0,25,0.0,6. p95_trade_value,43371.0,23680.0,8.0,12.0,0.6666666666666666,0.55,2. BELOW BASELINE,10.0,16.0,0.625
+VICR,Computer and Technology,Electronics - Miscellaneous Components,25__0,25,0.0,7. p90_trade_value,22940.0,18960.0,12.0,16.0,0.75,0.55,2. BELOW BASELINE,22.0,32.0,0.6875
+VICR,Computer and Technology,Electronics - Miscellaneous Components,25__0,25,0.0,8. p75_trade_value,18800.0,10440.0,30.0,48.0,0.625,0.55,2. BELOW BASELINE,52.0,80.0,0.65
+VLN,Computer and Technology,Electronics - Semiconductors,0__2,0,2.0,1. p999999_trade_value,3240.0,3240.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+VPG,Computer and Technology,Electronics - Miscellaneous Components,15__0,15,0.0,1. p999999_trade_value,21000.0,21000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+VPG,Computer and Technology,Electronics - Miscellaneous Components,15__0,15,0.0,6. p95_trade_value,16887.0,16887.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+VPG,Computer and Technology,Electronics - Miscellaneous Components,15__0,15,0.0,7. p90_trade_value,16000.0,14935.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+VPG,Computer and Technology,Electronics - Miscellaneous Components,15__0,15,0.0,8. p75_trade_value,14000.0,9680.000000000002,0.0,5.0,0.0,0.55,2. BELOW BASELINE,0.0,9.0,0.0
+WCC,Computer and Technology,Electronics - Parts Distribution,25__0,25,0.0,1. p999999_trade_value,602000.0,602000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+WCC,Computer and Technology,Electronics - Parts Distribution,25__0,25,0.0,5. p99_trade_value,532999.9999999999,113600.0,4.0,5.0,0.8,0.55,1. ABOVE BASELINE,5.0,6.0,0.8333333333333334
+WCC,Computer and Technology,Electronics - Parts Distribution,25__0,25,0.0,6. p95_trade_value,75000.0,20460.0,16.0,21.0,0.7619047619047619,0.55,1. ABOVE BASELINE,21.0,27.0,0.7777777777777778
+WCC,Computer and Technology,Electronics - Parts Distribution,25__0,25,0.0,7. p90_trade_value,20400.0,14575.0,19.0,26.0,0.7307692307692307,0.55,1. ABOVE BASELINE,40.0,53.0,0.7547169811320755
+WCC,Computer and Technology,Electronics - Parts Distribution,25__0,25,0.0,8. p75_trade_value,14300.0,8280.0,61.0,80.0,0.7625,0.55,1. ABOVE BASELINE,101.0,133.0,0.7593984962406015
+CLS,Computer and Technology,Electronics - Manufacturing Services,40__0,40,0.0,1. p999999_trade_value,1215000.0,1215000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CLS,Computer and Technology,Electronics - Manufacturing Services,40__0,40,0.0,4. p999_trade_value,1038375.0,815999.9999999999,4.0,5.0,0.8,0.55,1. ABOVE BASELINE,5.0,6.0,0.8333333333333334
+CLS,Computer and Technology,Electronics - Manufacturing Services,40__0,40,0.0,5. p99_trade_value,740346.0,100650.0,39.0,51.0,0.7647058823529411,0.55,1. ABOVE BASELINE,44.0,57.0,0.7719298245614035
+CLS,Computer and Technology,Electronics - Manufacturing Services,40__0,40,0.0,6. p95_trade_value,99000.0,26909.999999999996,156.0,227.0,0.6872246696035242,0.55,1. ABOVE BASELINE,200.0,284.0,0.704225352112676
+CLS,Computer and Technology,Electronics - Manufacturing Services,40__0,40,0.0,7. p90_trade_value,26865.000000000004,17000.0,199.0,284.0,0.7007042253521126,0.55,1. ABOVE BASELINE,399.0,568.0,0.7024647887323944
+CLS,Computer and Technology,Electronics - Manufacturing Services,40__0,40,0.0,8. p75_trade_value,16983.0,8576.0,503.0,848.0,0.5931603773584906,0.55,1. ABOVE BASELINE,902.0,1416.0,0.6370056497175142
+COHU,Computer and Technology,Electronics - Manufacturing Machinery,0__2,0,2.0,1. p999999_trade_value,5445.0,5445.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CRDO,Computer and Technology,Electronics - Semiconductors,35__2,35,2.0,1. p999999_trade_value,572565.0,572565.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+CRDO,Computer and Technology,Electronics - Semiconductors,35__2,35,2.0,4. p999_trade_value,299410.0,218484.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+CRDO,Computer and Technology,Electronics - Semiconductors,35__2,35,2.0,5. p99_trade_value,207480.00000000003,85250.0,10.0,30.0,0.3333333333333333,0.55,2. BELOW BASELINE,12.0,34.0,0.35294117647058826
+CRDO,Computer and Technology,Electronics - Semiconductors,35__2,35,2.0,6. p95_trade_value,83580.0,27839.999999999996,67.0,133.0,0.5037593984962406,0.55,2. BELOW BASELINE,79.0,167.0,0.47305389221556887
+CRDO,Computer and Technology,Electronics - Semiconductors,35__2,35,2.0,7. p90_trade_value,27783.0,18020.0,109.0,166.0,0.6566265060240963,0.55,2. BELOW BASELINE,188.0,333.0,0.5645645645645646
+CRDO,Computer and Technology,Electronics - Semiconductors,35__2,35,2.0,8. p75_trade_value,18000.0,9300.0,292.0,504.0,0.5793650793650794,0.55,2. BELOW BASELINE,480.0,837.0,0.5734767025089605
+CRUS,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,1. p999999_trade_value,1197000.0,1197000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CRUS,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,5. p99_trade_value,287164.0,259870.00000000003,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+CRUS,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,6. p95_trade_value,200000.0,33210.0,6.0,12.0,0.5,0.55,2. BELOW BASELINE,9.0,15.0,0.6
+CRUS,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,7. p90_trade_value,26730.0,17000.0,9.0,15.0,0.6,0.55,2. BELOW BASELINE,18.0,30.0,0.6
+CRUS,Computer and Technology,Electronics - Semiconductors,25__0,25,0.0,8. p75_trade_value,16239.999999999998,8159.999999999999,27.0,45.0,0.6,0.55,2. BELOW BASELINE,45.0,75.0,0.6
+DAKT,Computer and Technology,Electronics - Miscellaneous Products,15__0,15,0.0,1. p999999_trade_value,89910.0,89910.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+DAKT,Computer and Technology,Electronics - Miscellaneous Products,15__0,15,0.0,6. p95_trade_value,42500.0,42500.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+DAKT,Computer and Technology,Electronics - Miscellaneous Products,15__0,15,0.0,8. p75_trade_value,35000.0,8060.000000000001,0.0,3.0,0.0,0.55,2. BELOW BASELINE,3.0,6.0,0.5
+DIOD,Computer and Technology,Electronics - Semiconductors,10__0,10,0.0,1. p999999_trade_value,37800.0,37800.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+DIOD,Computer and Technology,Electronics - Semiconductors,10__0,10,0.0,7. p90_trade_value,11019.999999999998,11019.999999999998,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+DIOD,Computer and Technology,Electronics - Semiconductors,10__0,10,0.0,8. p75_trade_value,8000.0,7500.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+ENTG,Computer and Technology,Electronics - Manufacturing Machinery,25__2,25,2.0,1. p999999_trade_value,412500.0,412500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ENTG,Computer and Technology,Electronics - Manufacturing Machinery,25__2,25,2.0,5. p99_trade_value,350000.0,340000.0,4.0,4.0,1.0,0.55,2. BELOW BASELINE,4.0,5.0,0.8
+ENTG,Computer and Technology,Electronics - Manufacturing Machinery,25__2,25,2.0,6. p95_trade_value,256500.0,48000.0,7.0,11.0,0.6363636363636364,0.55,2. BELOW BASELINE,11.0,16.0,0.6875
+ENTG,Computer and Technology,Electronics - Manufacturing Machinery,25__2,25,2.0,7. p90_trade_value,43860.0,20475.0,7.0,16.0,0.4375,0.55,2. BELOW BASELINE,18.0,32.0,0.5625
+ENTG,Computer and Technology,Electronics - Manufacturing Machinery,25__2,25,2.0,8. p75_trade_value,19470.0,8750.0,24.0,48.0,0.5,0.55,2. BELOW BASELINE,42.0,80.0,0.525
+FLEX,Computer and Technology,Electronics - Miscellaneous Products,25__2,25,2.0,1. p999999_trade_value,170170.0,170170.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FLEX,Computer and Technology,Electronics - Miscellaneous Products,25__2,25,2.0,5. p99_trade_value,135000.0,118335.00000000001,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+FLEX,Computer and Technology,Electronics - Miscellaneous Products,25__2,25,2.0,6. p95_trade_value,108000.0,65000.0,6.0,9.0,0.6666666666666666,0.55,2. BELOW BASELINE,8.0,12.0,0.6666666666666666
+FLEX,Computer and Technology,Electronics - Miscellaneous Products,25__2,25,2.0,7. p90_trade_value,63300.0,30040.000000000004,5.0,10.0,0.5,0.55,2. BELOW BASELINE,13.0,22.0,0.5909090909090909
+FLEX,Computer and Technology,Electronics - Miscellaneous Products,25__2,25,2.0,8. p75_trade_value,29760.000000000004,9135.0,20.0,32.0,0.625,0.55,2. BELOW BASELINE,33.0,54.0,0.6111111111111112
+FN,Computer and Technology,Electronics - Miscellaneous Components,25__2,25,2.0,1. p999999_trade_value,1587200.0,1587200.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,1.0,1.0
+FN,Computer and Technology,Electronics - Miscellaneous Components,25__2,25,2.0,5. p99_trade_value,921600.0,588800.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+FN,Computer and Technology,Electronics - Miscellaneous Components,25__2,25,2.0,6. p95_trade_value,252000.0,46500.0,10.0,13.0,0.7692307692307693,0.55,2. BELOW BASELINE,12.0,17.0,0.7058823529411765
+FN,Computer and Technology,Electronics - Miscellaneous Components,25__2,25,2.0,7. p90_trade_value,41650.0,21080.0,11.0,20.0,0.55,0.55,2. BELOW BASELINE,23.0,37.0,0.6216216216216216
+FN,Computer and Technology,Electronics - Miscellaneous Components,25__2,25,2.0,8. p75_trade_value,21000.0,10208.0,35.0,47.0,0.7446808510638298,0.55,2. BELOW BASELINE,58.0,84.0,0.6904761904761905
+FORM,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,1. p999999_trade_value,222125.0,222125.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+FORM,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,5. p99_trade_value,165760.0,165760.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+FORM,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,6. p95_trade_value,78000.0,29580.0,3.0,7.0,0.42857142857142855,0.55,2. BELOW BASELINE,3.0,9.0,0.3333333333333333
+FORM,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,7. p90_trade_value,28130.0,16632.000000000004,1.0,8.0,0.125,0.55,2. BELOW BASELINE,4.0,17.0,0.23529411764705882
+FORM,Computer and Technology,Electronics - Semiconductors,20__0,20,0.0,8. p75_trade_value,15300.0,8750.0,1.0,26.0,0.038461538461538464,0.55,2. BELOW BASELINE,5.0,43.0,0.11627906976744186
+FTV,Computer and Technology,Electronics - Testing Equipment,15__0,15,0.0,6. p95_trade_value,86134.99999999999,82390.00000000001,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+FTV,Computer and Technology,Electronics - Testing Equipment,15__0,15,0.0,7. p90_trade_value,36000.0,12825.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+FTV,Computer and Technology,Electronics - Testing Equipment,15__0,15,0.0,8. p75_trade_value,11430.0,6000.0,0.0,10.0,0.0,0.55,2. BELOW BASELINE,3.0,15.0,0.2
+GFS,Computer and Technology,Electronics - Semiconductors,20__2,20,2.0,1. p999999_trade_value,308500.0,308500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+GFS,Computer and Technology,Electronics - Semiconductors,20__2,20,2.0,5. p99_trade_value,184960.0,184960.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+GFS,Computer and Technology,Electronics - Semiconductors,20__2,20,2.0,6. p95_trade_value,77100.0,35000.0,1.0,6.0,0.16666666666666666,0.55,2. BELOW BASELINE,2.0,8.0,0.25
+GFS,Computer and Technology,Electronics - Semiconductors,20__2,20,2.0,7. p90_trade_value,27455.0,17370.0,1.0,8.0,0.125,0.55,2. BELOW BASELINE,3.0,16.0,0.1875
+GFS,Computer and Technology,Electronics - Semiconductors,20__2,20,2.0,8. p75_trade_value,14619.999999999998,8500.0,8.0,23.0,0.34782608695652173,0.55,2. BELOW BASELINE,11.0,39.0,0.28205128205128205
+GRMN,Computer and Technology,Electronics - Miscellaneous Products,30__2,30,2.0,1. p999999_trade_value,166870.0,166870.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+GRMN,Computer and Technology,Electronics - Miscellaneous Products,30__2,30,2.0,5. p99_trade_value,140000.0,86100.0,3.0,5.0,0.6,0.55,1. ABOVE BASELINE,4.0,6.0,0.6666666666666666

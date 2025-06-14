@@ -1,0 +1,16 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+BYON,Retail-Wholesale,Internet - Commerce,25__0,25,0.0,1. p999999_trade_value,125000.0,125000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BYON,Retail-Wholesale,Internet - Commerce,25__0,25,0.0,5. p99_trade_value,75000.0,52500.0,3.0,4.0,0.75,0.55,1. ABOVE BASELINE,4.0,5.0,0.8
+BYON,Retail-Wholesale,Internet - Commerce,25__0,25,0.0,6. p95_trade_value,51870.00000000001,16200.0,8.0,16.0,0.5,0.55,2. BELOW BASELINE,12.0,21.0,0.5714285714285714
+BYON,Retail-Wholesale,Internet - Commerce,25__0,25,0.0,7. p90_trade_value,15419.999999999998,10320.0,12.0,20.0,0.6,0.55,2. BELOW BASELINE,24.0,41.0,0.5853658536585366
+BYON,Retail-Wholesale,Internet - Commerce,25__0,25,0.0,8. p75_trade_value,10000.0,6850.0,31.0,60.0,0.5166666666666667,0.55,2. BELOW BASELINE,55.0,101.0,0.5445544554455446
+FVRR,Retail-Wholesale,Internet - Commerce,25__0,25,0.0,1. p999999_trade_value,136640.0,136640.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FVRR,Retail-Wholesale,Internet - Commerce,25__0,25,0.0,5. p99_trade_value,40754.99999999999,39600.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+FVRR,Retail-Wholesale,Internet - Commerce,25__0,25,0.0,6. p95_trade_value,38800.0,17000.0,6.0,11.0,0.5454545454545454,0.55,2. BELOW BASELINE,8.0,14.0,0.5714285714285714
+FVRR,Retail-Wholesale,Internet - Commerce,25__0,25,0.0,7. p90_trade_value,16905.0,13280.000000000002,12.0,13.0,0.9230769230769231,0.55,2. BELOW BASELINE,20.0,27.0,0.7407407407407407
+FVRR,Retail-Wholesale,Internet - Commerce,25__0,25,0.0,8. p75_trade_value,12240.0,6360.0,24.0,40.0,0.6,0.55,2. BELOW BASELINE,44.0,67.0,0.6567164179104478
+GLBE,Retail-Wholesale,Internet - Commerce,25__0,25,0.0,1. p999999_trade_value,434025.0,434025.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+GLBE,Retail-Wholesale,Internet - Commerce,25__0,25,0.0,5. p99_trade_value,40320.0,40320.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+GLBE,Retail-Wholesale,Internet - Commerce,25__0,25,0.0,6. p95_trade_value,30810.000000000004,18000.0,1.0,8.0,0.125,0.55,2. BELOW BASELINE,2.0,10.0,0.2
+GLBE,Retail-Wholesale,Internet - Commerce,25__0,25,0.0,7. p90_trade_value,14000.0,12360.0,3.0,11.0,0.2727272727272727,0.55,2. BELOW BASELINE,5.0,21.0,0.23809523809523808
+GLBE,Retail-Wholesale,Internet - Commerce,25__0,25,0.0,8. p75_trade_value,12000.0,9000.0,13.0,30.0,0.43333333333333335,0.55,2. BELOW BASELINE,18.0,51.0,0.35294117647058826

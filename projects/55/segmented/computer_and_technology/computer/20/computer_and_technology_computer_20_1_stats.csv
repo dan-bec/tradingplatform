@@ -1,0 +1,7 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+NEON,Computer and Technology,Computer - Software,0.55,13529.999999999998,6. p95_trade_value,4.0,80,20__0,20,0.0,9906.0,11981.5,23625.6,27436.56,27817.66,27855.77,27859.58
+NTGR,Computer and Technology,Computer - Networking,0.55,,,,66,20__0,20,0.0,35780.0,47654.0,71095.0,79109.5,79910.95,79991.1,79999.11
+PEGA,Computer and Technology,Computer - Software,0.55,197105.00000000003,1. p999999_trade_value,1.0,91,20__0,20,0.0,12540.0,15332.5,61290.5,183523.55,195746.86,196969.19,197091.42
+SIMO,Computer and Technology,Computer - Integrated Systems,0.55,210000.0,5. p99_trade_value,2.0,103,20__2,20,2.0,19746.0,21769.5,209361.6,254900.0,259490.0,259949.0,259994.9
+TDC,Computer and Technology,Computer- Storage Devices,0.55,5780.0,8. p75_trade_value,47.0,141,20__0,20,0.0,7030.0,9821.0,17272.0,97050.8,108615.08,109771.51,109887.15
+VRNT,Computer and Technology,Computer - Software,0.55,,,,106,20__0,20,0.0,11835.0,18506.75,69440.25,115213.0,119881.3,120348.13,120394.81

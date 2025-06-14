@@ -1,0 +1,14 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+AI,Computer and Technology,Computers - IT Services,40__2,40,2.0,1. p999999_trade_value,2464150.0,2464150.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,1.0,1.0
+AI,Computer and Technology,Computers - IT Services,40__2,40,2.0,4. p999_trade_value,2334600.0,1437780.0,2.0,7.0,0.2857142857142857,0.55,2. BELOW BASELINE,3.0,8.0,0.375
+AI,Computer and Technology,Computers - IT Services,40__2,40,2.0,5. p99_trade_value,1216800.0,325000.0,29.0,71.0,0.4084507042253521,0.55,2. BELOW BASELINE,32.0,79.0,0.4050632911392405
+AI,Computer and Technology,Computers - IT Services,40__2,40,2.0,6. p95_trade_value,319410.0,39072.0,120.0,314.0,0.3821656050955414,0.55,2. BELOW BASELINE,152.0,393.0,0.38676844783715014
+AI,Computer and Technology,Computers - IT Services,40__2,40,2.0,7. p90_trade_value,38640.0,18400.0,226.0,394.0,0.5736040609137056,0.55,2. BELOW BASELINE,378.0,787.0,0.48030495552731894
+AI,Computer and Technology,Computers - IT Services,40__2,40,2.0,8. p75_trade_value,18354.0,8600.0,542.0,1176.0,0.4608843537414966,0.55,2. BELOW BASELINE,920.0,1963.0,0.4686704024452369
+SOUN,Computer and Technology,Computers - IT Services,40__3,40,3.0,1. p999999_trade_value,1860000.0,1860000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+SOUN,Computer and Technology,Computers - IT Services,40__3,40,3.0,3. p9999_trade_value,1207000.0,1207000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+SOUN,Computer and Technology,Computers - IT Services,40__3,40,3.0,4. p999_trade_value,875000.0,179640.0,3.0,11.0,0.2727272727272727,0.55,2. BELOW BASELINE,3.0,13.0,0.23076923076923078
+SOUN,Computer and Technology,Computers - IT Services,40__3,40,3.0,5. p99_trade_value,177500.0,61440.00000000001,23.0,115.0,0.2,0.55,2. BELOW BASELINE,26.0,128.0,0.203125
+SOUN,Computer and Technology,Computers - IT Services,40__3,40,3.0,6. p95_trade_value,60885.0,22770.0,226.0,508.0,0.4448818897637795,0.55,2. BELOW BASELINE,252.0,636.0,0.39622641509433965
+SOUN,Computer and Technology,Computers - IT Services,40__3,40,3.0,7. p90_trade_value,22750.0,14700.0,264.0,639.0,0.4131455399061033,0.55,2. BELOW BASELINE,516.0,1275.0,0.4047058823529412
+SOUN,Computer and Technology,Computers - IT Services,40__3,40,3.0,8. p75_trade_value,14697.0,8127.0,892.0,1902.0,0.46898002103049424,0.55,2. BELOW BASELINE,1408.0,3177.0,0.4431853950267548

@@ -1,0 +1,9 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+APP,Business Services,Technology Services,50__2,50,2.0,1. p999999_trade_value,5540000.0,5540000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+APP,Business Services,Technology Services,50__2,50,2.0,2. p99999_trade_value,5193040.0,5193040.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+APP,Business Services,Technology Services,50__2,50,2.0,3. p9999_trade_value,4357820.0,2145000.0,9.0,10.0,0.9,0.55,1. ABOVE BASELINE,11.0,12.0,0.9166666666666666
+APP,Business Services,Technology Services,50__2,50,2.0,4. p999_trade_value,2136700.0,392035.00000000006,66.0,99.0,0.6666666666666666,0.55,1. ABOVE BASELINE,77.0,111.0,0.6936936936936937
+APP,Business Services,Technology Services,50__2,50,2.0,5. p99_trade_value,392000.00000000006,94000.0,628.0,1000.0,0.628,0.55,1. ABOVE BASELINE,705.0,1111.0,0.6345634563456346
+APP,Business Services,Technology Services,50__2,50,2.0,6. p95_trade_value,93940.0,32500.0,2410.0,4443.0,0.5424262885437767,0.55,2. BELOW BASELINE,3115.0,5554.0,0.560857039971192
+APP,Business Services,Technology Services,50__2,50,2.0,7. p90_trade_value,32480.0,20250.0,3012.0,5551.0,0.542604936047559,0.55,2. BELOW BASELINE,6127.0,11105.0,0.5517334533993696
+APP,Business Services,Technology Services,50__2,50,2.0,8. p75_trade_value,20240.0,10230.0,8454.0,16627.0,0.5084501112648102,0.55,2. BELOW BASELINE,14581.0,27732.0,0.5257824895427665

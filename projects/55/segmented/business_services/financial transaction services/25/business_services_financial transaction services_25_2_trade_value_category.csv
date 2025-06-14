@@ -1,0 +1,16 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CPAY,Business Services,Financial Transaction Services,25__0,25,0.0,1. p999999_trade_value,137100.0,137100.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CPAY,Business Services,Financial Transaction Services,25__0,25,0.0,5. p99_trade_value,75000.0,43499.99999999999,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+CPAY,Business Services,Financial Transaction Services,25__0,25,0.0,6. p95_trade_value,25000.0,11340.0,10.0,12.0,0.8333333333333334,0.55,2. BELOW BASELINE,11.0,15.0,0.7333333333333333
+CPAY,Business Services,Financial Transaction Services,25__0,25,0.0,7. p90_trade_value,10200.0,8800.0,8.0,14.0,0.5714285714285714,0.55,2. BELOW BASELINE,19.0,29.0,0.6551724137931034
+CPAY,Business Services,Financial Transaction Services,25__0,25,0.0,8. p75_trade_value,8685.0,4820.0,36.0,44.0,0.8181818181818182,0.55,2. BELOW BASELINE,55.0,73.0,0.7534246575342466
+FIS,Business Services,Financial Transaction Services,25__0,25,0.0,1. p999999_trade_value,375000.0,375000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+FIS,Business Services,Financial Transaction Services,25__0,25,0.0,5. p99_trade_value,185625.0,89010.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,1.0,5.0,0.2
+FIS,Business Services,Financial Transaction Services,25__0,25,0.0,6. p95_trade_value,71344.0,22935.000000000004,7.0,20.0,0.35,0.55,2. BELOW BASELINE,8.0,25.0,0.32
+FIS,Business Services,Financial Transaction Services,25__0,25,0.0,7. p90_trade_value,20685.0,16082.0,5.0,25.0,0.2,0.55,2. BELOW BASELINE,13.0,50.0,0.26
+FIS,Business Services,Financial Transaction Services,25__0,25,0.0,8. p75_trade_value,15930.000000000002,7680.000000000001,21.0,75.0,0.28,0.55,2. BELOW BASELINE,34.0,125.0,0.272
+SEZL,Business Services,Financial Transaction Services,25__0,25,0.0,1. p999999_trade_value,56536.0,56536.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SEZL,Business Services,Financial Transaction Services,25__0,25,0.0,5. p99_trade_value,55000.0,49400.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+SEZL,Business Services,Financial Transaction Services,25__0,25,0.0,6. p95_trade_value,44958.0,31850.0,15.0,15.0,1.0,0.55,1. ABOVE BASELINE,19.0,19.0,1.0
+SEZL,Business Services,Financial Transaction Services,25__0,25,0.0,7. p90_trade_value,31529.000000000004,17220.0,14.0,19.0,0.7368421052631579,0.55,1. ABOVE BASELINE,33.0,38.0,0.868421052631579
+SEZL,Business Services,Financial Transaction Services,25__0,25,0.0,8. p75_trade_value,16225.0,8550.0,46.0,56.0,0.8214285714285714,0.55,1. ABOVE BASELINE,79.0,94.0,0.8404255319148937

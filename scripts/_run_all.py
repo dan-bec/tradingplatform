@@ -4,6 +4,8 @@ import os
 from datetime import datetime
 import time
 import config
+import upload_to_drive
+import logging
 
 # Capture and print start time
 start_time = time.time()
@@ -32,6 +34,25 @@ def push_to_github():
     subprocess.run(["git", "-C", repo_root, "commit", "-m", commit_message], check=True)
     # Push to the specified branch (adjust 'main' to your branch name)
     subprocess.run(["git", "-C", repo_root, "push", "origin", "main"], check=True)
+
+def push_to_drive():
+    # Authenticate with Google Drive
+    service = upload_to_drive.authenticate_google_drive(config.GDRIVE_CREDS)
+    if service is None:
+        logging.error("Failed to authenticate with Google Drive. Skipping upload.")
+        return
+    
+    # Define target folder and create a date-based subfolder
+    target_folder_id = "1ItSs-28eBoL1zGSKXwoKwnlHTZeQRcJQ"  # Replace with your folder ID
+    date_folder_name = datetime.now().strftime("%Y-%m-%d")
+    date_folder_id = upload_to_drive.create_folder(service, date_folder_name, target_folder_id)
+    
+    if date_folder_id is None:
+        logging.error("Failed to create date folder. Skipping upload.")
+        return
+    
+    # Proceed with upload (add your file upload logic here)
+    logging.info(f"Created folder with ID: {date_folder_id}")
 
 def main():
     # Capture and print start time
@@ -84,7 +105,11 @@ def main():
 
     run_script("v3_5_combined_analysis_and_output.py", ["--itm-threshold", str(args.itm_threshold)])
 
+    # push results to GitHub
     # push_to_github()
+
+    # push results to Google Drive
+    # push_to_drive()
 
     # Print execution time
     end_time = time.time()
@@ -93,4 +118,4 @@ def main():
     print(f"RUN_ALL Execution time: {duration:.2f} seconds")
 
 if __name__ == "__main__":
-    push_to_github()
+    main()

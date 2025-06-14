@@ -1,0 +1,16 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+FDS,Business Services,Business - Information Services,25__0,25,0.0,1. p999999_trade_value,34629.0,34629.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FDS,Business Services,Business - Information Services,25__0,25,0.0,5. p99_trade_value,20880.0,20880.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+FDS,Business Services,Business - Information Services,25__0,25,0.0,6. p95_trade_value,18139.0,14000.0,0.0,9.0,0.0,0.55,2. BELOW BASELINE,2.0,11.0,0.18181818181818182
+FDS,Business Services,Business - Information Services,25__0,25,0.0,7. p90_trade_value,13630.000000000002,10400.0,5.0,10.0,0.5,0.55,2. BELOW BASELINE,7.0,21.0,0.3333333333333333
+FDS,Business Services,Business - Information Services,25__0,25,0.0,8. p75_trade_value,10080.000000000002,6875.999999999999,18.0,27.0,0.6666666666666666,0.55,2. BELOW BASELINE,25.0,48.0,0.5208333333333334
+IRM,Business Services,Business - Information Services,25__0,25,0.0,1. p999999_trade_value,276675.0,276675.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+IRM,Business Services,Business - Information Services,25__0,25,0.0,5. p99_trade_value,102885.00000000001,62729.99999999999,0.0,3.0,0.0,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+IRM,Business Services,Business - Information Services,25__0,25,0.0,6. p95_trade_value,59241.0,20817.0,8.0,15.0,0.5333333333333333,0.55,2. BELOW BASELINE,9.0,19.0,0.47368421052631576
+IRM,Business Services,Business - Information Services,25__0,25,0.0,7. p90_trade_value,20475.0,15860.0,8.0,19.0,0.42105263157894735,0.55,2. BELOW BASELINE,17.0,38.0,0.4473684210526316
+IRM,Business Services,Business - Information Services,25__0,25,0.0,8. p75_trade_value,15600.0,8120.0,19.0,56.0,0.3392857142857143,0.55,2. BELOW BASELINE,36.0,94.0,0.3829787234042553
+TRU,Business Services,Business - Information Services,25__0,25,0.0,1. p999999_trade_value,352500.0,352500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+TRU,Business Services,Business - Information Services,25__0,25,0.0,5. p99_trade_value,247500.0,87500.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+TRU,Business Services,Business - Information Services,25__0,25,0.0,6. p95_trade_value,77500.0,21420.0,5.0,16.0,0.3125,0.55,2. BELOW BASELINE,8.0,21.0,0.38095238095238093
+TRU,Business Services,Business - Information Services,25__0,25,0.0,7. p90_trade_value,20640.0,12180.000000000002,15.0,21.0,0.7142857142857143,0.55,2. BELOW BASELINE,23.0,42.0,0.5476190476190477
+TRU,Business Services,Business - Information Services,25__0,25,0.0,8. p75_trade_value,12000.0,7470.0,33.0,58.0,0.5689655172413793,0.55,2. BELOW BASELINE,56.0,100.0,0.56

@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+IMAX,Consumer Discretionary,Film and Television Production and Distribution,0.55,10764.0,8. p75_trade_value,3.0,10,10__0,10,0.0,37700.0,58850.0,75770.0,79577.0,79957.7,79995.77,79999.58
+NWSA,Consumer Discretionary,Film and Television Production and Distribution,0.55,10600.0,8. p75_trade_value,2.0,7,10__0,10,0.0,10840.0,11020.0,11164.0,11196.4,11199.64,11199.96,11200.0
+WMG,Consumer Discretionary,Film and Television Production and Distribution,0.55,,,,14,10__0,10,0.0,10046.5,12747.0,15669.4,16326.94,16392.69,16399.27,16399.93

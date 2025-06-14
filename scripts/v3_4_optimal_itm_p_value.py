@@ -12,9 +12,9 @@ args = parser.parse_args()
 ### SETTINGS ###
 full_db_path = config.FULL_DB_PATH
 prep_schema = config.PREP
+itm_threshold = args.itm_threshold
 output_dir = config.PREP_OUTPUT_DIR
 output_dir.mkdir(parents=True, exist_ok=True)
-itm_threshold = args.itm_threshold
 
 # Capture and print start time
 start_time = time.time()

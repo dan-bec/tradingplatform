@@ -16,9 +16,9 @@ projects_path = config.PROJECTS_PATH
 full_db_path = config.FULL_DB_PATH
 prep_schema = config.PREP
 compiled_schema = config.COMPILED
-output_dir = config.COMPILED_OUTPUT_DIR
-output_dir.mkdir(parents=True, exist_ok=True)
-itm_threshold = itm_threshold = args.itm_threshold  # Target ITM rate
+itm_threshold = args.itm_threshold  # Target ITM rate
+compiled_dir = config.COMPILED_OUTPUT_DIR
+compiled_dir.mkdir(parents=True, exist_ok=True)
 
 # Capture and print start time
 start_time = time.time()
@@ -60,7 +60,7 @@ print(f"Created and Loaded {compiled_schema}.all_securities_stats db table")
 print(f"!!!ROWS IN {compiled_schema}.all_securities_stats!!!:", con.execute(f"SELECT COUNT(*) FROM {compiled_schema}.all_securities_stats").fetchone()[0]) # type: ignore
 
 # Output {project}_percentiles files and baseline file
-all_stats_output = Path(f"{output_dir}/1_all_stats.csv")
+all_stats_output = Path(f"{compiled_dir}/1_all_stats.csv")
 con.execute(f"""
     COPY (
         SELECT *
@@ -97,7 +97,7 @@ print(f"Created and Loaded {compiled_schema}.all_securities_trade_value_category
 print(f"!!!ROWS IN {compiled_schema}.all_securities_trade_value_category!!!:", con.execute(f"SELECT COUNT(*) FROM {compiled_schema}.all_securities_trade_value_category").fetchone()[0]) # type: ignore
 
 # Output {project}_percentiles files and baseline file
-all_trade_categories_output = Path(f"{output_dir}/2_all_trade_value_categories.csv")
+all_trade_categories_output = Path(f"{compiled_dir}/2_all_trade_value_categories.csv")
 con.execute(f"""
     COPY (
         SELECT *
@@ -129,7 +129,7 @@ print(f"Created and Loaded {compiled_schema}.all_options_trades_above_baseline d
 print(f"!!!ROWS IN {compiled_schema}.all_options_trades_above_baseline!!!:", con.execute(f"SELECT COUNT(*) FROM {compiled_schema}.all_options_trades_above_baseline").fetchone()[0]) # type: ignore
 
 # Output {project}_percentiles files and baseline file
-all_trade_categories_output = Path(f"{output_dir}/3_all_trades_above_baseline.csv")
+all_trade_categories_output = Path(f"{compiled_dir}/3_all_trades_above_baseline.csv")
 con.execute(f"""
     COPY (
         SELECT *
@@ -142,7 +142,7 @@ print(f"All options trades above baseline written to {all_trade_categories_outpu
 ### SEGMENTED OUTPUTS ###
 
 # Create segmented outputs
-segmented_dir = Path(f"{projects_path}/segmented")
+segmented_dir = config.SEGMENTED_OUTPUT_DIR
 segmented_dir.mkdir(parents=True, exist_ok=True)
 
 # Function to modify sector name

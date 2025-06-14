@@ -1,0 +1,8 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+APOG,Industrial Products,Glass Products,10__0,10,0.0,1. p999999_trade_value,15000.0,15000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+APOG,Industrial Products,Glass Products,10__0,10,0.0,7. p90_trade_value,13500.0,13500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+APOG,Industrial Products,Glass Products,10__0,10,0.0,8. p75_trade_value,11880.0,10005.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+OI,Industrial Products,Glass Products,15__0,15,0.0,1. p999999_trade_value,37500.0,37500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+OI,Industrial Products,Glass Products,15__0,15,0.0,6. p95_trade_value,26145.0,26145.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+OI,Industrial Products,Glass Products,15__0,15,0.0,7. p90_trade_value,23199.999999999996,23199.999999999996,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+OI,Industrial Products,Glass Products,15__0,15,0.0,8. p75_trade_value,20000.0,15000.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,4.0,6.0,0.6666666666666666

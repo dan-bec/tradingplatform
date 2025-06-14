@@ -1,0 +1,15 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+BBY,Retail-Wholesale,Retail - Consumer Electronics,0.55,,,,2920,35__2,35,2.0,15763.2,26201.75,102265.38,254424.36,961691.67,1151639.67,1170634.47
+BROS,Retail-Wholesale,Retail - Restaurants,0.55,,,,2144,35__0,35,0.0,13421.1,19104.9,62569.65,517996.0,925427.2,943942.72,945794.27
+BURL,Retail-Wholesale,Retail - Discount Stores,0.55,950000.0,4. p999_trade_value,4.0,3664,35__1,35,1.0,14463.0,23671.75,122387.2,847235.0,1658421.31,1718342.13,1724334.21
+CPRI,Retail-Wholesale,Retail - Apparel and Shoes,0.55,,,,2965,35__1,35,1.0,18784.0,36920.0,277200.0,930000.0,2300000.0,2300000.0,2300000.0
+DKS,Retail-Wholesale,Retail - Miscellaneous,0.55,,,,4283,35__1,35,1.0,17392.0,26780.0,90900.0,584840.67,1639831.8,1909983.18,1936998.32
+DPZ,Retail-Wholesale,Retail - Restaurants,0.55,623700.0,1. p999999_trade_value,1.0,2687,35__2,35,2.0,17844.0,27988.0,72062.0,192287.76,612268.38,622556.84,623585.68
+EAT,Retail-Wholesale,Retail - Restaurants,0.55,,,,1920,35__2,35,2.0,17510.0,28515.0,85607.5,286388.28,688329.37,723582.94,727108.29
+FIVE,Retail-Wholesale,Retail - Miscellaneous,0.55,777000.0,1. p999999_trade_value,1.0,2943,35__2,35,2.0,15800.0,34272.0,222217.6,611873.83,732595.22,772559.52,776555.95
+KSS,Retail-Wholesale,Retail - Regional Department Stores,0.55,,,,1985,35__2,35,2.0,15465.2,29500.0,283190.4,761647.49,1239393.95,1241486.5,1241695.75
+LOW,Retail-Wholesale,Retail - Home Furnishings,0.55,20559.0,6. p95_trade_value,160.0,3181,35__0,35,0.0,12800.0,20559.0,52398.0,237252.35,574850.0,696485.0,708648.5
+ONON,Retail-Wholesale,Retail - Apparel and Shoes,0.55,654454.9999999999,1. p999999_trade_value,1.0,2528,35__0,35,0.0,14822.9,22243.5,54525.6,309062.74,632127.69,652222.27,654231.73
+TJX,Retail-Wholesale,Retail - Discount Stores,0.55,,,,1893,35__2,35,2.0,20691.0,28672.0,84237.0,209865.6,648771.54,735197.15,743839.72
+WING,Retail-Wholesale,Retail - Restaurants,0.55,670680.0,4. p999_trade_value,2.0,1800,35__1,35,1.0,15001.0,24702.5,83835.0,626191.68,1760855.33,1976085.53,1997608.55
+WSM,Retail-Wholesale,Retail - Home Furnishings,0.55,362000.0,4. p999_trade_value,3.0,2425,35__2,35,2.0,16800.0,25200.0,128560.0,356383.27,470912.0,497091.2,499709.12

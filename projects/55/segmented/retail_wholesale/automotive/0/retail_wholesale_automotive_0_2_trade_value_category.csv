@@ -1,0 +1,2 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+WKSP,Retail-Wholesale,Automotive - Retail and Whole Sales,0__2,0,2.0,1. p999999_trade_value,4140.000000000001,4140.000000000001,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
