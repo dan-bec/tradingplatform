@@ -17,7 +17,6 @@ import requests
 import pandas as pd
 import re
 from datetime import datetime, timedelta
-from pathlib import Path
 import gzip
 import shutil
 import argparse
