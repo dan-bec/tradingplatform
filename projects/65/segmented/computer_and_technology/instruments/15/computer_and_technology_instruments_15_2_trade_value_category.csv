@@ -1,0 +1,4 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+BMI,Computer and Technology,Instruments - Control,15__0,15,0.0,1. p999999_trade_value,18720.0,18720.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+BMI,Computer and Technology,Instruments - Control,15__0,15,0.0,7. p90_trade_value,12179.999999999998,12179.999999999998,0.0,1.0,0.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+BMI,Computer and Technology,Instruments - Control,15__0,15,0.0,8. p75_trade_value,11400.0,7400.0,0.0,3.0,0.0,0.65,2. BELOW BASELINE,1.0,5.0,0.2

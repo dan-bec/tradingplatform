@@ -1,0 +1,9 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+CAG,Consumer Staples,Food - Miscellaneous,0.65,8710.0,8. p75_trade_value,34.0,133,20__0,20,0.0,16304.0,22800.0,37500.0,48350.0,49835.0,49983.5,49998.35
+DAR,Consumer Staples,Food - Miscellaneous,0.65,8064.0,8. p75_trade_value,43.0,170,20__0,20,0.0,14063.0,29345.55,62108.0,76107.2,77810.72,77981.07,77998.11
+HRL,Consumer Staples,Food - Meat Products,0.65,6800.0,8. p75_trade_value,21.0,81,20__2,20,2.0,15000.0,63000.0,319916.0,372416.6,377666.66,378191.67,378244.17
+MKC,Consumer Staples,Food - Miscellaneous,0.65,312500.0,1. p999999_trade_value,1.0,117,20__2,20,2.0,12031.2,22294.8,215732.0,302152.8,311465.28,312396.53,312489.65
+PPC,Consumer Staples,Food - Meat Products,0.65,,,,61,20__0,20,0.0,8800.0,16356.0,30150.0,44865.0,46336.5,46483.65,46498.36
+UNFI,Consumer Staples,Food - Miscellaneous,0.65,54466.0,1. p999999_trade_value,1.0,146,20__0,20,0.0,17423.0,21681.5,34360.5,51623.13,54181.71,54437.57,54463.16
+USFD,Consumer Staples,Food - Miscellaneous,0.65,84525.0,1. p999999_trade_value,1.0,87,20__0,20,0.0,12240.0,15908.6,50533.5,81125.85,84185.08,84491.01,84521.6
+VITL,Consumer Staples,Food - Miscellaneous,0.65,30480.0,6. p95_trade_value,8.0,156,20__2,20,2.0,13945.0,27667.5,58654.25,268445.42,301920.54,305268.05,305602.81

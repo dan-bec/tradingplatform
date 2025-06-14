@@ -1,0 +1,5 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+VMI,Industrial Products,Steel - Pipe and Tube,15__0,15,0.0,1. p999999_trade_value,45000.0,45000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+VMI,Industrial Products,Steel - Pipe and Tube,15__0,15,0.0,6. p95_trade_value,25900.0,25900.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,2.0,0.0
+VMI,Industrial Products,Steel - Pipe and Tube,15__0,15,0.0,7. p90_trade_value,21660.0,21660.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+VMI,Industrial Products,Steel - Pipe and Tube,15__0,15,0.0,8. p75_trade_value,19550.0,15360.0,1.0,3.0,0.3333333333333333,0.65,2. BELOW BASELINE,2.0,6.0,0.3333333333333333

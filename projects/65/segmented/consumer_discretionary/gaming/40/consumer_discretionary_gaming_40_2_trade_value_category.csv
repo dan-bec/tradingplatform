@@ -1,0 +1,13 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+DKNG,Consumer Discretionary,Gaming,40__0,40,0.0,1. p999999_trade_value,733248.0,733248.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+DKNG,Consumer Discretionary,Gaming,40__0,40,0.0,4. p999_trade_value,711822.0,382839.00000000006,4.0,8.0,0.5,0.65,2. BELOW BASELINE,4.0,9.0,0.4444444444444444
+DKNG,Consumer Discretionary,Gaming,40__0,40,0.0,5. p99_trade_value,370000.0,90000.0,43.0,78.0,0.5512820512820513,0.65,2. BELOW BASELINE,47.0,87.0,0.5402298850574713
+DKNG,Consumer Discretionary,Gaming,40__0,40,0.0,6. p95_trade_value,89280.0,24650.0,208.0,347.0,0.5994236311239193,0.65,2. BELOW BASELINE,255.0,434.0,0.5875576036866359
+DKNG,Consumer Discretionary,Gaming,40__0,40,0.0,7. p90_trade_value,24600.0,15582.000000000002,243.0,434.0,0.5599078341013825,0.65,2. BELOW BASELINE,498.0,868.0,0.5737327188940092
+DKNG,Consumer Discretionary,Gaming,40__0,40,0.0,8. p75_trade_value,15560.999999999998,8284.0,688.0,1301.0,0.5288239815526518,0.65,2. BELOW BASELINE,1186.0,2169.0,0.5467957584140156
+RBLX,Consumer Discretionary,Gaming,40__0,40,0.0,1. p999999_trade_value,775500.0,775500.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+RBLX,Consumer Discretionary,Gaming,40__0,40,0.0,4. p999_trade_value,772200.0,376000.0,5.0,9.0,0.5555555555555556,0.65,2. BELOW BASELINE,6.0,10.0,0.6
+RBLX,Consumer Discretionary,Gaming,40__0,40,0.0,5. p99_trade_value,369000.0,75646.99999999999,67.0,88.0,0.7613636363636364,0.65,2. BELOW BASELINE,73.0,98.0,0.7448979591836735
+RBLX,Consumer Discretionary,Gaming,40__0,40,0.0,6. p95_trade_value,75000.0,23970.0,244.0,389.0,0.6272493573264781,0.65,2. BELOW BASELINE,317.0,487.0,0.6509240246406571
+RBLX,Consumer Discretionary,Gaming,40__0,40,0.0,7. p90_trade_value,23901.0,15000.0,272.0,489.0,0.556237218813906,0.65,2. BELOW BASELINE,589.0,976.0,0.6034836065573771
+RBLX,Consumer Discretionary,Gaming,40__0,40,0.0,8. p75_trade_value,14999.0,8100.0,822.0,1458.0,0.5637860082304527,0.65,2. BELOW BASELINE,1411.0,2434.0,0.5797041906327034

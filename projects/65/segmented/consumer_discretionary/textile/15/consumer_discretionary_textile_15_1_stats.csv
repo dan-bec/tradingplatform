@@ -1,0 +1,6 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+COLM,Consumer Discretionary,Textile - Apparel,0.65,5670.0,8. p75_trade_value,6.0,21,15__0,15,0.0,12250.0,12505.0,14101.0,14460.1,14496.01,14499.6,14499.96
+GES,Consumer Discretionary,Textile - Apparel,0.65,,,,56,15__0,15,0.0,14265.0,16475.0,25668.0,27766.8,27976.68,27997.67,27999.77
+GIII,Consumer Discretionary,Textile - Apparel,0.65,8900.0,7. p90_trade_value,3.0,27,15__0,15,0.0,8360.0,12470.0,22494.46,25180.55,25449.15,25476.02,25478.7
+HBI,Consumer Discretionary,Textile - Apparel,0.65,,,,33,15__0,15,0.0,14016.0,26715.0,42568.32,43698.43,43811.44,43822.74,43823.87
+KTB,Consumer Discretionary,Textile - Apparel,0.65,,,,24,15__0,15,0.0,11400.0,14677.5,59309.5,71180.95,72368.1,72486.81,72498.68

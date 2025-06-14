@@ -1,0 +1,12 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+EIX,Utilities,Utility - Electric Power,30__2,30,2.0,1. p999999_trade_value,434759.99999999994,434759.99999999994,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+EIX,Utilities,Utility - Electric Power,30__2,30,2.0,5. p99_trade_value,320220.0,106640.00000000001,6.0,7.0,0.8571428571428571,0.65,2. BELOW BASELINE,6.0,8.0,0.75
+EIX,Utilities,Utility - Electric Power,30__2,30,2.0,6. p95_trade_value,104000.0,22660.000000000004,22.0,28.0,0.7857142857142857,0.65,2. BELOW BASELINE,28.0,36.0,0.7777777777777778
+EIX,Utilities,Utility - Electric Power,30__2,30,2.0,7. p90_trade_value,21870.0,16275.0,27.0,36.0,0.75,0.65,2. BELOW BASELINE,55.0,72.0,0.7638888888888888
+EIX,Utilities,Utility - Electric Power,30__2,30,2.0,8. p75_trade_value,16064.999999999998,8580.0,74.0,107.0,0.6915887850467289,0.65,2. BELOW BASELINE,129.0,179.0,0.7206703910614525
+NRG,Utilities,Utility - Electric Power,30__2,30,2.0,1. p999999_trade_value,257136.0,257136.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+NRG,Utilities,Utility - Electric Power,30__2,30,2.0,4. p999_trade_value,225000.0,225000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+NRG,Utilities,Utility - Electric Power,30__2,30,2.0,5. p99_trade_value,200999.99999999997,90000.0,7.0,11.0,0.6363636363636364,0.65,2. BELOW BASELINE,9.0,13.0,0.6923076923076923
+NRG,Utilities,Utility - Electric Power,30__2,30,2.0,6. p95_trade_value,79600.0,30239.999999999996,40.0,52.0,0.7692307692307693,0.65,2. BELOW BASELINE,49.0,65.0,0.7538461538461538
+NRG,Utilities,Utility - Electric Power,30__2,30,2.0,7. p90_trade_value,30095.999999999996,18000.0,41.0,64.0,0.640625,0.65,2. BELOW BASELINE,90.0,129.0,0.6976744186046512
+NRG,Utilities,Utility - Electric Power,30__2,30,2.0,8. p75_trade_value,17920.0,9500.0,107.0,193.0,0.5544041450777202,0.65,2. BELOW BASELINE,197.0,322.0,0.6118012422360248

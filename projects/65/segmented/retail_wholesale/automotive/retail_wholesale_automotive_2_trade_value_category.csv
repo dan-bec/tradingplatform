@@ -1,0 +1,59 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+AAP,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,30__2,30,2.0,1. p999999_trade_value,322500.0,322500.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+AAP,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,30__2,30,2.0,4. p999_trade_value,240396.0,240396.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+AAP,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,30__2,30,2.0,5. p99_trade_value,238008.0,69000.0,8.0,15.0,0.5333333333333333,0.65,2. BELOW BASELINE,9.0,17.0,0.5294117647058824
+AAP,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,30__2,30,2.0,6. p95_trade_value,66834.0,24206.000000000004,36.0,67.0,0.5373134328358209,0.65,2. BELOW BASELINE,45.0,84.0,0.5357142857142857
+AAP,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,30__2,30,2.0,7. p90_trade_value,24070.0,14310.0,39.0,83.0,0.46987951807228917,0.65,2. BELOW BASELINE,84.0,167.0,0.5029940119760479
+AAP,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,30__2,30,2.0,8. p75_trade_value,14213.0,8000.0,146.0,250.0,0.584,0.65,2. BELOW BASELINE,230.0,417.0,0.5515587529976019
+ABG,Retail-Wholesale,Automotive - Retail and Whole Sales,15__0,15,0.0,1. p999999_trade_value,59000.0,59000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+ABG,Retail-Wholesale,Automotive - Retail and Whole Sales,15__0,15,0.0,6. p95_trade_value,50399.99999999999,50399.99999999999,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+ABG,Retail-Wholesale,Automotive - Retail and Whole Sales,15__0,15,0.0,7. p90_trade_value,31500.0,31500.0,2.0,2.0,1.0,0.65,1. ABOVE BASELINE,4.0,4.0,1.0
+ABG,Retail-Wholesale,Automotive - Retail and Whole Sales,15__0,15,0.0,8. p75_trade_value,19200.0,8800.0,3.0,3.0,1.0,0.65,1. ABOVE BASELINE,7.0,7.0,1.0
+AN,Retail-Wholesale,Automotive - Retail and Whole Sales,20__0,20,0.0,1. p999999_trade_value,57000.0,57000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+AN,Retail-Wholesale,Automotive - Retail and Whole Sales,20__0,20,0.0,5. p99_trade_value,37014.0,37014.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+AN,Retail-Wholesale,Automotive - Retail and Whole Sales,20__0,20,0.0,6. p95_trade_value,31784.000000000004,16554.0,4.0,6.0,0.6666666666666666,0.65,1. ABOVE BASELINE,6.0,8.0,0.75
+AN,Retail-Wholesale,Automotive - Retail and Whole Sales,20__0,20,0.0,7. p90_trade_value,15000.0,10080.0,4.0,7.0,0.5714285714285714,0.65,2. BELOW BASELINE,10.0,15.0,0.6666666666666666
+AN,Retail-Wholesale,Automotive - Retail and Whole Sales,20__0,20,0.0,8. p75_trade_value,9660.0,6955.0,21.0,22.0,0.9545454545454546,0.65,2. BELOW BASELINE,31.0,37.0,0.8378378378378378
+AZO,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,35__0,35,0.0,1. p999999_trade_value,291200.0,291200.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+AZO,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,35__0,35,0.0,4. p999_trade_value,269200.0,173485.0,2.0,4.0,0.5,0.65,2. BELOW BASELINE,2.0,5.0,0.4
+AZO,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,35__0,35,0.0,5. p99_trade_value,167400.0,62460.0,31.0,40.0,0.775,0.65,2. BELOW BASELINE,33.0,45.0,0.7333333333333333
+AZO,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,35__0,35,0.0,6. p95_trade_value,61979.99999999999,19300.0,75.0,177.0,0.423728813559322,0.65,2. BELOW BASELINE,108.0,222.0,0.4864864864864865
+AZO,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,35__0,35,0.0,7. p90_trade_value,19250.0,12600.0,117.0,222.0,0.527027027027027,0.65,2. BELOW BASELINE,225.0,444.0,0.5067567567567568
+AZO,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,35__0,35,0.0,8. p75_trade_value,12560.0,7500.0,359.0,678.0,0.5294985250737463,0.65,2. BELOW BASELINE,584.0,1122.0,0.5204991087344029
+DRVN,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,5__0,5,0.0,1. p999999_trade_value,4320.0,4320.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+GPC,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,25__0,25,0.0,1. p999999_trade_value,565000.0,565000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+GPC,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,25__0,25,0.0,5. p99_trade_value,317240.0,307450.0,1.0,3.0,0.3333333333333333,0.65,2. BELOW BASELINE,2.0,4.0,0.5
+GPC,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,25__0,25,0.0,6. p95_trade_value,186250.0,25345.0,6.0,13.0,0.46153846153846156,0.65,2. BELOW BASELINE,8.0,17.0,0.47058823529411764
+GPC,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,25__0,25,0.0,7. p90_trade_value,24080.0,14160.0,8.0,16.0,0.5,0.65,2. BELOW BASELINE,16.0,33.0,0.48484848484848486
+GPC,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,25__0,25,0.0,8. p75_trade_value,13860.0,7480.000000000001,19.0,50.0,0.38,0.65,2. BELOW BASELINE,35.0,83.0,0.42168674698795183
+GPI,Retail-Wholesale,Automotive - Retail and Whole Sales,20__0,20,0.0,1. p999999_trade_value,85000.0,85000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+GPI,Retail-Wholesale,Automotive - Retail and Whole Sales,20__0,20,0.0,6. p95_trade_value,72000.0,59400.0,1.0,4.0,0.25,0.65,2. BELOW BASELINE,1.0,5.0,0.2
+GPI,Retail-Wholesale,Automotive - Retail and Whole Sales,20__0,20,0.0,7. p90_trade_value,54000.0,40000.0,2.0,5.0,0.4,0.65,2. BELOW BASELINE,3.0,10.0,0.3
+GPI,Retail-Wholesale,Automotive - Retail and Whole Sales,20__0,20,0.0,8. p75_trade_value,37620.0,10500.0,3.0,13.0,0.23076923076923078,0.65,2. BELOW BASELINE,6.0,23.0,0.2608695652173913
+KMX,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,30__1,30,1.0,1. p999999_trade_value,1050000.0,1050000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+KMX,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,30__1,30,1.0,4. p999_trade_value,645000.0,645000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+KMX,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,30__1,30,1.0,5. p99_trade_value,420000.0,50399.99999999999,2.0,10.0,0.2,0.65,2. BELOW BASELINE,4.0,12.0,0.3333333333333333
+KMX,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,30__1,30,1.0,6. p95_trade_value,50310.0,24080.0,23.0,44.0,0.5227272727272727,0.65,2. BELOW BASELINE,27.0,56.0,0.48214285714285715
+KMX,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,30__1,30,1.0,7. p90_trade_value,23980.0,14720.000000000002,29.0,56.0,0.5178571428571429,0.65,2. BELOW BASELINE,56.0,112.0,0.5
+KMX,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,30__1,30,1.0,8. p75_trade_value,14560.0,8625.0,97.0,166.0,0.5843373493975904,0.65,2. BELOW BASELINE,153.0,278.0,0.5503597122302158
+LAD,Retail-Wholesale,Automotive - Retail and Whole Sales,20__0,20,0.0,1. p999999_trade_value,192030.00000000003,192030.00000000003,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+LAD,Retail-Wholesale,Automotive - Retail and Whole Sales,20__0,20,0.0,5. p99_trade_value,117000.0,117000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+LAD,Retail-Wholesale,Automotive - Retail and Whole Sales,20__0,20,0.0,6. p95_trade_value,72659.99999999999,35910.0,3.0,5.0,0.6,0.65,2. BELOW BASELINE,4.0,7.0,0.5714285714285714
+LAD,Retail-Wholesale,Automotive - Retail and Whole Sales,20__0,20,0.0,7. p90_trade_value,35500.0,21120.0,4.0,7.0,0.5714285714285714,0.65,2. BELOW BASELINE,8.0,14.0,0.5714285714285714
+LAD,Retail-Wholesale,Automotive - Retail and Whole Sales,20__0,20,0.0,8. p75_trade_value,20580.0,12160.0,20.0,24.0,0.8333333333333334,0.65,2. BELOW BASELINE,28.0,38.0,0.7368421052631579
+ORLY,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,30__2,30,2.0,1. p999999_trade_value,219410.0,219410.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+ORLY,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,30__2,30,2.0,4. p999_trade_value,217500.0,217500.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+ORLY,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,30__2,30,2.0,5. p99_trade_value,150450.0,62692.00000000001,5.0,10.0,0.5,0.65,2. BELOW BASELINE,6.0,12.0,0.5
+ORLY,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,30__2,30,2.0,6. p95_trade_value,61740.0,27360.000000000004,39.0,47.0,0.8297872340425532,0.65,2. BELOW BASELINE,45.0,59.0,0.7627118644067796
+ORLY,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,30__2,30,2.0,7. p90_trade_value,26770.0,16950.0,38.0,58.0,0.6551724137931034,0.65,2. BELOW BASELINE,83.0,117.0,0.7094017094017094
+ORLY,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,30__2,30,2.0,8. p75_trade_value,16875.0,8890.0,96.0,175.0,0.5485714285714286,0.65,2. BELOW BASELINE,179.0,292.0,0.613013698630137
+PAG,Retail-Wholesale,Automotive - Retail and Whole Sales,15__0,15,0.0,1. p999999_trade_value,82225.0,82225.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+PAG,Retail-Wholesale,Automotive - Retail and Whole Sales,15__0,15,0.0,6. p95_trade_value,26790.000000000004,26790.000000000004,0.0,1.0,0.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+PAG,Retail-Wholesale,Automotive - Retail and Whole Sales,15__0,15,0.0,7. p90_trade_value,25298.0,25298.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+PAG,Retail-Wholesale,Automotive - Retail and Whole Sales,15__0,15,0.0,8. p75_trade_value,22725.0,9360.0,2.0,5.0,0.4,0.65,2. BELOW BASELINE,4.0,8.0,0.5
+SAH,Retail-Wholesale,Automotive - Retail and Whole Sales,5__3,5,3.0,1. p999999_trade_value,15960.0,15960.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+SAH,Retail-Wholesale,Automotive - Retail and Whole Sales,5__3,5,3.0,8. p75_trade_value,4030.0000000000005,4030.0000000000005,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+TITN,Retail-Wholesale,Automotive - Retail and Whole Sales,10__0,10,0.0,1. p999999_trade_value,20910.0,20910.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+TITN,Retail-Wholesale,Automotive - Retail and Whole Sales,10__0,10,0.0,7. p90_trade_value,15000.0,15000.0,0.0,2.0,0.0,0.65,2. BELOW BASELINE,0.0,3.0,0.0
+VVV,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,5__0,5,0.0,1. p999999_trade_value,6000.0,6000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+WKSP,Retail-Wholesale,Automotive - Retail and Whole Sales,0__2,0,2.0,1. p999999_trade_value,4140.000000000001,4140.000000000001,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0

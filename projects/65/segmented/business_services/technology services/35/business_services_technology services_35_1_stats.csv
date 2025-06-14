@@ -1,0 +1,6 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+COHR,Business Services,Technology Services,0.65,19210.0,7. p90_trade_value,333.0,3327,35__2,35,2.0,19207.0,32000.0,128101.94,607882.28,1150357.5,1296285.75,1310878.57
+DUOL,Business Services,Technology Services,0.65,70112.0,5. p99_trade_value,37.0,3610,35__2,35,2.0,17202.0,27191.0,70078.61,285578.88,815151.2,987518.12,1004754.81
+GRRR,Business Services,Technology Services,0.65,,,,1980,35__0,35,0.0,13522.0,23020.0,71250.0,200179.55,279014.49,294661.45,296226.14
+RCAT,Business Services,Technology Services,0.65,,,,1988,35__0,35,0.0,12630.0,17891.25,35080.6,76094.51,79150.68,79519.07,79555.91
+ZETA,Business Services,Technology Services,0.65,641760.0,4. p999_trade_value,4.0,2085,35__2,35,2.0,16368.0,29249.6,105800.0,641760.0,717185.0,724218.5,724921.85

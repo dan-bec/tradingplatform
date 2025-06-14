@@ -1,0 +1,10 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ASC,Transportation,Transportation - Shipping,0.65,4428.0,8. p75_trade_value,3.0,10,10__0,10,0.0,4517.6,4758.8,4951.76,4995.18,4999.52,4999.95,5000.0
+DAC,Transportation,Transportation - Shipping,0.65,5050.0,8. p75_trade_value,4.0,16,10__0,10,0.0,5250.0,6375.0,8715.0,9241.5,9294.15,9299.42,9299.94
+EXPD,Transportation,Transportation - Services,0.65,,,,12,10__3,10,3.0,104066.0,132956.5,154679.3,159566.93,160055.69,160104.57,160109.46
+GBX,Transportation,Transportation - Equipment and Leasing,0.65,50745.0,1. p999999_trade_value,1.0,17,10__0,10,0.0,8583.0,17541.0,44104.2,50080.92,50678.59,50738.36,50744.34
+GSL,Transportation,Transportation - Shipping,0.65,,,,7,10__0,10,0.0,35240.8,36049.9,36697.18,36842.82,36857.38,36858.84,36858.98
+RAIL,Transportation,Transportation - Equipment and Leasing,0.65,13000.0,1. p999999_trade_value,1.0,8,10__0,10,0.0,7834.0,10417.0,12483.4,12948.34,12994.83,12999.48,12999.95
+REVG,Transportation,Transportation - Services,0.65,,,,7,10__0,10,0.0,8304.8,8752.4,9110.48,9191.05,9199.1,9199.91,9199.99
+RXO,Transportation,Transportation - Services,0.65,14700.0,8. p75_trade_value,3.0,12,10__3,10,3.0,15834.0,71778.0,126355.6,138635.56,139863.56,139986.36,139998.64
+SNCY,Transportation,Transportation - Airline,0.65,6560.000000000001,8. p75_trade_value,2.0,8,10__0,10,0.0,8456.0,10668.0,12437.6,12835.76,12875.58,12879.56,12879.96

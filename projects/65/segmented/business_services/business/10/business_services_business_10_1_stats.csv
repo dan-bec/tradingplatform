@@ -1,0 +1,6 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ABM,Business Services,Business - Services,0.65,,,,17,10__3,10,3.0,14300.0,44000.0,120800.0,138080.0,139808.0,139980.8,139998.08
+MORN,Business Services,Business - Information Services,0.65,,,,11,10__0,10,0.0,6600.0,7135.0,7563.0,7659.3,7668.93,7669.89,7669.99
+RTO,Business Services,Business - Services,0.65,,,,16,10__0,10,0.0,15880.0,26290.0,51178.0,56777.8,57337.78,57393.78,57399.38
+TRI,Business Services,Business - Services,0.65,,,,17,10__0,10,0.0,20620.8,27241.6,35848.32,37784.83,37978.48,37997.85,37999.78
+ULS,Business Services,Business - Services,0.65,53000.0,7. p90_trade_value,3.0,17,10__0,10,0.0,53000.0,58021.6,74090.72,77706.27,78067.83,78103.98,78107.6

@@ -1,0 +1,5 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+COP,Oils-Energy,Oil and Gas - Integrated - United States,0.65,,,,2520,35__0,35,0.0,16168.2,25001.2,95906.02,344504.48,540341.59,567476.96,570190.5
+DVN,Oils-Energy,Oil and Gas - Exploration and Production - United States,0.65,,,,1891,35__0,35,0.0,13206.0,18330.0,36553.2,100000.0,134467.5,141696.75,142419.67
+LNG,Oils-Energy,Oil and Gas - Exploration and Production - United States,0.65,902870.0000000001,1. p999999_trade_value,1.0,2450,35__2,35,2.0,22443.0,40000.0,205487.1,626955.78,857820.64,898365.06,902419.51
+VLO,Oils-Energy,Oil and Gas - Refining and Marketing,0.65,,,,2173,35__0,35,0.0,15464.0,23120.0,73704.0,319278.84,650904.0,686090.4,689609.04

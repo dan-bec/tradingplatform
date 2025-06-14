@@ -1,0 +1,7 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+DSGX,Computer and Technology,Computer - Software,0.65,7103.999999999999,8. p75_trade_value,6.0,24,15__0,15,0.0,13777.5,24546.15,29156.9,29978.69,30060.87,30069.09,30069.91
+EXTR,Computer and Technology,Computer - Networking,0.65,78771.99999999999,1. p999999_trade_value,1.0,20,15__0,15,0.0,17292.8,48520.2,72721.64,78166.96,78711.5,78765.95,78771.39
+PRGS,Computer and Technology,Computer - Software,0.65,,,,51,15__0,15,0.0,10000.0,22275.0,39300.0,39570.0,39597.0,39599.7,39599.97
+SSNC,Computer and Technology,Computer - Software,0.65,17550.0,1. p999999_trade_value,1.0,52,15__0,15,0.0,11684.0,16403.15,17147.61,17509.76,17545.98,17549.6,17549.96
+TBCH,Computer and Technology,Computer - Peripheral Equipment,0.65,,,,33,15__0,15,0.0,20596.0,32656.0,38036.8,39047.68,39148.77,39158.88,39159.89
+VUZI,Computer and Technology,Computer - Peripheral Equipment,0.65,18600.0,6. p95_trade_value,2.0,35,15__0,15,0.0,11800.0,14956.5,59124.0,77912.4,79791.24,79979.12,79997.91

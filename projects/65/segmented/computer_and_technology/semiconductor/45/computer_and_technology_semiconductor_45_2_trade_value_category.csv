@@ -1,0 +1,8 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+INTC,Computer and Technology,Semiconductor - General,45__1,45,1.0,1. p999999_trade_value,1971000.0,1971000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+INTC,Computer and Technology,Semiconductor - General,45__1,45,1.0,3. p9999_trade_value,1296000.0,826200.0,2.0,3.0,0.6666666666666666,0.65,1. ABOVE BASELINE,3.0,4.0,0.75
+INTC,Computer and Technology,Semiconductor - General,45__1,45,1.0,4. p999_trade_value,569999.9999999999,178500.0,19.0,35.0,0.5428571428571428,0.65,2. BELOW BASELINE,22.0,39.0,0.5641025641025641
+INTC,Computer and Technology,Semiconductor - General,45__1,45,1.0,5. p99_trade_value,178364.0,56869.99999999999,184.0,349.0,0.5272206303724928,0.65,2. BELOW BASELINE,206.0,388.0,0.5309278350515464
+INTC,Computer and Technology,Semiconductor - General,45__1,45,1.0,6. p95_trade_value,56862.0,22294.0,790.0,1552.0,0.509020618556701,0.65,2. BELOW BASELINE,996.0,1940.0,0.51340206185567
+INTC,Computer and Technology,Semiconductor - General,45__1,45,1.0,7. p90_trade_value,22275.0,14500.0,966.0,1942.0,0.49742533470648814,0.65,2. BELOW BASELINE,1962.0,3882.0,0.5054095826893354
+INTC,Computer and Technology,Semiconductor - General,45__1,45,1.0,8. p75_trade_value,14496.0,8100.0,2972.0,5839.0,0.5089912656276759,0.65,2. BELOW BASELINE,4934.0,9721.0,0.5075609505194939

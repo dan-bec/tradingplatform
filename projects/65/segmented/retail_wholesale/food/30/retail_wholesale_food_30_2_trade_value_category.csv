@@ -1,0 +1,7 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+SFM,Retail-Wholesale,Food - Natural Foods Products,30__2,30,2.0,1. p999999_trade_value,205000.0,205000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+SFM,Retail-Wholesale,Food - Natural Foods Products,30__2,30,2.0,4. p999_trade_value,164124.0,164124.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+SFM,Retail-Wholesale,Food - Natural Foods Products,30__2,30,2.0,5. p99_trade_value,147726.0,74860.0,7.0,10.0,0.7,0.65,2. BELOW BASELINE,8.0,12.0,0.6666666666666666
+SFM,Retail-Wholesale,Food - Natural Foods Products,30__2,30,2.0,6. p95_trade_value,74250.0,22620.0,15.0,47.0,0.3191489361702128,0.65,2. BELOW BASELINE,23.0,59.0,0.3898305084745763
+SFM,Retail-Wholesale,Food - Natural Foods Products,30__2,30,2.0,7. p90_trade_value,22035.0,14070.000000000002,30.0,59.0,0.5084745762711864,0.65,2. BELOW BASELINE,53.0,118.0,0.4491525423728814
+SFM,Retail-Wholesale,Food - Natural Foods Products,30__2,30,2.0,8. p75_trade_value,14000.0,7680.000000000001,109.0,176.0,0.6193181818181818,0.65,2. BELOW BASELINE,162.0,294.0,0.5510204081632653

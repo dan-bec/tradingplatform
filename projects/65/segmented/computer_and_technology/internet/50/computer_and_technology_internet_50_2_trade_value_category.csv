@@ -1,0 +1,23 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+DJT,Computer and Technology,Internet - Software,50__4,50,4.0,1. p999999_trade_value,3627000.0,3627000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+DJT,Computer and Technology,Internet - Software,50__4,50,4.0,3. p9999_trade_value,2592499.9999999995,1268950.0,3.0,6.0,0.5,0.65,2. BELOW BASELINE,3.0,7.0,0.42857142857142855
+DJT,Computer and Technology,Internet - Software,50__4,50,4.0,4. p999_trade_value,1241999.9999999998,428909.99999999994,17.0,58.0,0.29310344827586204,0.65,2. BELOW BASELINE,20.0,65.0,0.3076923076923077
+DJT,Computer and Technology,Internet - Software,50__4,50,4.0,5. p99_trade_value,425000.0,74100.0,266.0,578.0,0.4602076124567474,0.65,2. BELOW BASELINE,286.0,643.0,0.4447900466562986
+DJT,Computer and Technology,Internet - Software,50__4,50,4.0,6. p95_trade_value,74080.0,28370.999999999996,1110.0,2571.0,0.43173862310385064,0.65,2. BELOW BASELINE,1396.0,3214.0,0.4343497199751089
+DJT,Computer and Technology,Internet - Software,50__4,50,4.0,7. p90_trade_value,28360.000000000004,17600.0,1403.0,3217.0,0.43612060926328877,0.65,2. BELOW BASELINE,2799.0,6431.0,0.43523557767065774
+DJT,Computer and Technology,Internet - Software,50__4,50,4.0,8. p75_trade_value,17595.0,9150.0,3846.0,9653.0,0.3984253599917124,0.65,2. BELOW BASELINE,6645.0,16084.0,0.41314349664262623
+GOOG,Computer and Technology,Internet - Services,50__1,50,1.0,1. p999999_trade_value,5751756.0,5751756.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+GOOG,Computer and Technology,Internet - Services,50__1,50,1.0,3. p9999_trade_value,5296320.0,994300.0,0.0,7.0,0.0,0.65,2. BELOW BASELINE,0.0,8.0,0.0
+GOOG,Computer and Technology,Internet - Services,50__1,50,1.0,4. p999_trade_value,978000.0,183582.0,37.0,66.0,0.5606060606060606,0.65,2. BELOW BASELINE,37.0,74.0,0.5
+GOOG,Computer and Technology,Internet - Services,50__1,50,1.0,5. p99_trade_value,181050.0,56355.00000000001,406.0,662.0,0.6132930513595166,0.65,2. BELOW BASELINE,443.0,736.0,0.6019021739130435
+GOOG,Computer and Technology,Internet - Services,50__1,50,1.0,6. p95_trade_value,56354.99999999999,23528.0,1680.0,2942.0,0.5710401087695445,0.65,2. BELOW BASELINE,2123.0,3678.0,0.577215878194671
+GOOG,Computer and Technology,Internet - Services,50__1,50,1.0,7. p90_trade_value,23520.0,15794.0,2025.0,3678.0,0.5505709624796085,0.65,2. BELOW BASELINE,4148.0,7356.0,0.5638934203371397
+GOOG,Computer and Technology,Internet - Services,50__1,50,1.0,8. p75_trade_value,15791.999999999998,8640.0,5974.0,11069.0,0.5397054837835397,0.65,2. BELOW BASELINE,10122.0,18425.0,0.5493622795115333
+GOOGL,Computer and Technology,Internet - Services,50__3,50,3.0,1. p999999_trade_value,1148862.0,1148862.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,1.0,1.0
+GOOGL,Computer and Technology,Internet - Services,50__3,50,3.0,2. p99999_trade_value,1088274.0,1088274.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,2.0,2.0,1.0
+GOOGL,Computer and Technology,Internet - Services,50__3,50,3.0,3. p9999_trade_value,965390.0,693000.0,4.0,14.0,0.2857142857142857,0.65,2. BELOW BASELINE,6.0,16.0,0.375
+GOOGL,Computer and Technology,Internet - Services,50__3,50,3.0,4. p999_trade_value,685440.0,265600.0,83.0,135.0,0.6148148148148148,0.65,2. BELOW BASELINE,89.0,151.0,0.5894039735099338
+GOOGL,Computer and Technology,Internet - Services,50__3,50,3.0,5. p99_trade_value,264655.0,64416.0,793.0,1353.0,0.5861049519586105,0.65,2. BELOW BASELINE,882.0,1504.0,0.586436170212766
+GOOGL,Computer and Technology,Internet - Services,50__3,50,3.0,6. p95_trade_value,64350.0,25550.0,3425.0,6014.0,0.569504489524443,0.65,2. BELOW BASELINE,4307.0,7518.0,0.5728917265230115
+GOOGL,Computer and Technology,Internet - Services,50__3,50,3.0,7. p90_trade_value,25537.999999999996,16740.0,4142.0,7520.0,0.5507978723404255,0.65,2. BELOW BASELINE,8449.0,15038.0,0.5618433302300838
+GOOGL,Computer and Technology,Internet - Services,50__3,50,3.0,8. p75_trade_value,16732.0,9000.0,12387.0,22612.0,0.5478064744383513,0.65,2. BELOW BASELINE,20836.0,37650.0,0.5534130146082338

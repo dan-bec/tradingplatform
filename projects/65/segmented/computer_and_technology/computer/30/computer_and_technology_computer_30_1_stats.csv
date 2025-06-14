@@ -1,0 +1,9 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+CVLT,Computer and Technology,Computer - Software,0.65,765000.0,4. p999_trade_value,2.0,1488,30__1,30,1.0,19810.0,27440.0,59964.6,635214.5,880606.54,898780.65,900598.07
+HPE,Computer and Technology,Computer - Integrated Systems,0.65,235000.0,4. p999_trade_value,2.0,1302,30__2,30,2.0,14230.6,21221.05,49980.0,229444.44,324164.75,336166.48,337366.65
+HPQ,Computer and Technology,Computer - Micro Computers,0.65,,,,1117,30__2,30,2.0,14913.2,21600.0,54364.48,280438.9,298936.97,299834.3,299924.03
+INOD,Computer and Technology,Computer - Services,0.65,,,,1235,30__2,30,2.0,16000.0,26853.0,75630.0,160642.7,236089.53,245305.95,246227.6
+NTAP,Computer and Technology,Computer- Storage Devices,0.65,292500.0,1. p999999_trade_value,1.0,989,30__2,30,2.0,13800.0,22184.8,52353.4,140446.8,277294.68,290979.47,292347.95
+PSTG,Computer and Technology,Computer- Storage Devices,0.65,,,,983,30__2,30,2.0,15546.0,22000.0,48360.0,132002.98,211200.3,219120.03,219912.0
+SAP,Computer and Technology,Computer - Software,0.65,310000.0,1. p999999_trade_value,1.0,1186,30__2,30,2.0,13107.5,20442.5,60450.0,239819.03,304067.3,309406.73,309940.67
+STX,Computer and Technology,Computer - Integrated Systems,0.65,419244.00000000006,1. p999999_trade_value,1.0,1745,30__2,30,2.0,17976.0,27391.0,86874.88,293280.0,414143.85,418733.98,419193.0

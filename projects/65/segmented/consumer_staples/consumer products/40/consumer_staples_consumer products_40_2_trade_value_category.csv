@@ -1,0 +1,8 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+RH,Consumer Staples,Consumer Products - Staples,40__4,40,4.0,1. p999999_trade_value,3175000.0,3175000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+RH,Consumer Staples,Consumer Products - Staples,40__4,40,4.0,3. p9999_trade_value,2587200.0000000005,2587200.0000000005,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,2.0,0.0
+RH,Consumer Staples,Consumer Products - Staples,40__4,40,4.0,4. p999_trade_value,1805000.0,460000.0,6.0,13.0,0.46153846153846156,0.65,2. BELOW BASELINE,6.0,15.0,0.4
+RH,Consumer Staples,Consumer Products - Staples,40__4,40,4.0,5. p99_trade_value,430000.0,84672.0,60.0,129.0,0.46511627906976744,0.65,2. BELOW BASELINE,66.0,144.0,0.4583333333333333
+RH,Consumer Staples,Consumer Products - Staples,40__4,40,4.0,6. p95_trade_value,84499.99999999999,28700.0,297.0,581.0,0.5111876075731497,0.65,2. BELOW BASELINE,363.0,725.0,0.5006896551724138
+RH,Consumer Staples,Consumer Products - Staples,40__4,40,4.0,7. p90_trade_value,28675.0,17500.0,374.0,727.0,0.5144429160935351,0.65,2. BELOW BASELINE,737.0,1452.0,0.5075757575757576
+RH,Consumer Staples,Consumer Products - Staples,40__4,40,4.0,8. p75_trade_value,17489.999999999996,9144.0,1137.0,2170.0,0.523963133640553,0.65,2. BELOW BASELINE,1874.0,3622.0,0.5173937051352844

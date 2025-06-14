@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+LOPE,Consumer Discretionary,Schools,0.65,,,,14,10__0,10,0.0,8745.0,33357.5,68431.5,76323.15,77112.31,77191.23,77199.12
+STRA,Consumer Discretionary,Schools,0.65,17000.0,1. p999999_trade_value,1.0,6,10__0,10,0.0,12700.0,14850.0,16570.0,16957.0,16995.7,16999.57,16999.96
+UTI,Consumer Discretionary,Schools,0.65,38592.0,7. p90_trade_value,2.0,13,10__0,10,0.0,38373.6,43637.2,49691.44,51053.64,51189.86,51203.49,51204.85

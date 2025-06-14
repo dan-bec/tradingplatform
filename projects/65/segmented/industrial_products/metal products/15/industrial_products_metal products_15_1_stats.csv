@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+CSTM,Industrial Products,Metal Products - Distribution,0.65,,,,42,15__0,15,0.0,94800.0,149193.0,223000.38,249893.84,252583.18,252852.12,252879.01

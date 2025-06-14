@@ -1,0 +1,17 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ADI,Computer and Technology,Semiconductor - Analog and Mixed,0.65,,,,2514,35__2,35,2.0,20735.0,34823.25,90978.75,368288.22,452128.43,461012.84,461901.28
+INTC,Computer and Technology,Semiconductor - General,0.65,826200.0,3. p9999_trade_value,4.0,38781,45__1,45,1.0,14500.0,22294.0,56863.6,178393.92,601256.4,1709235.0,1944823.5
+MCHP,Computer and Technology,Semiconductor - Analog and Mixed,0.65,,,,2178,35__2,35,2.0,17280.0,28013.15,90276.0,348336.0,555371.5,595537.15,599553.72
+MPWR,Computer and Technology,Semiconductor - Analog and Mixed,0.65,380000.0,1. p999999_trade_value,1.0,3887,35__2,35,2.0,20470.0,31801.0,68656.0,193651.8,372694.32,379269.43,379926.94
+MTSI,Computer and Technology,Semiconductor - Analog and Mixed,0.65,451248.00000000006,1. p999999_trade_value,1.0,154,20__2,20,2.0,19165.0,51387.0,242820.65,424296.59,448552.86,450978.49,451221.05
+MXL,Computer and Technology,Semiconductor - Analog and Mixed,0.65,,,,88,20__0,20,0.0,24000.0,32062.5,43952.03,66135.2,68353.52,68575.35,68597.54
+NVDA,Computer and Technology,Semiconductor - General,0.65,,,,1756131,60__0,60,0.0,19800.0,31500.0,86800.0,396000.0,2248358.36,8151374.44,22006195.09
+NXPI,Computer and Technology,Semiconductor - Analog and Mixed,0.65,,,,2383,35__0,35,0.0,16798.0,25191.0,55786.06,222663.0,615192.0,709519.2,718951.92
+ON,Computer and Technology,Semiconductor - Analog and Mixed,0.65,,,,3233,35__0,35,0.0,15679.4,26136.0,69680.0,397932.8,876850.01,951685.0,959168.5
+SLAB,Computer and Technology,Semiconductor - Analog and Mixed,0.65,,,,67,20__0,20,0.0,9856.0,13573.0,17075.6,17277.56,17297.76,17299.78,17299.98
+SMTC,Computer and Technology,Semiconductor - Analog and Mixed,0.65,234000.0,1. p999999_trade_value,1.0,708,30__2,30,2.0,21000.0,34048.75,75994.68,226025.04,233202.5,233920.25,233992.03
+STM,Computer and Technology,Semiconductor - General,0.65,30560.000000000004,6. p95_trade_value,12.0,240,25__0,25,0.0,20746.0,30028.0,151792.9,220000.0,220000.0,220000.0,220000.0
+TSM,Computer and Technology,Semiconductor - Circuit Foundry,0.65,,,,90162,50__4,50,4.0,18531.8,29998.75,91817.55,429678.0,1220982.11,2109345.26,2136934.53
+TXN,Computer and Technology,Semiconductor - General,0.65,388500.0,4. p999_trade_value,8.0,7518,40__3,40,3.0,13977.4,21166.5,55991.8,381520.5,1095444.64,1144337.46,1149226.75
+VSH,Computer and Technology,Semiconductor - Discretes,0.65,6435.000000000001,8. p75_trade_value,18.0,69,20__0,20,0.0,8755.0,13078.0,146400.0,158640.0,159864.0,159986.4,159998.64
+WOLF,Computer and Technology,Semiconductor - Discretes,0.65,450000.0,4. p999_trade_value,4.0,3636,35__2,35,2.0,17840.0,33885.0,145060.0,421425.0,781332.79,815940.68,819401.47

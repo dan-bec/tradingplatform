@@ -1,0 +1,8 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+UNH,Medical,Medical - HMOs,50__3,50,3.0,1. p999999_trade_value,1591795.0,1591795.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,1.0,1.0
+UNH,Medical,Medical - HMOs,50__3,50,3.0,3. p9999_trade_value,1426503.0,565000.0,5.0,8.0,0.625,0.65,2. BELOW BASELINE,6.0,9.0,0.6666666666666666
+UNH,Medical,Medical - HMOs,50__3,50,3.0,4. p999_trade_value,552000.0,229104.0,59.0,74.0,0.7972972972972973,0.65,2. BELOW BASELINE,65.0,83.0,0.7831325301204819
+UNH,Medical,Medical - HMOs,50__3,50,3.0,5. p99_trade_value,227500.0,69500.0,436.0,741.0,0.5883940620782726,0.65,2. BELOW BASELINE,501.0,824.0,0.6080097087378641
+UNH,Medical,Medical - HMOs,50__3,50,3.0,6. p95_trade_value,69495.0,25950.0,1605.0,3295.0,0.48710166919575115,0.65,2. BELOW BASELINE,2106.0,4119.0,0.5112891478514202
+UNH,Medical,Medical - HMOs,50__3,50,3.0,7. p90_trade_value,25925.0,16200.0,1865.0,4121.0,0.45256005823829165,0.65,2. BELOW BASELINE,3971.0,8240.0,0.48191747572815535
+UNH,Medical,Medical - HMOs,50__3,50,3.0,8. p75_trade_value,16195.000000000002,8640.0,5794.0,12343.0,0.4694158632423236,0.65,2. BELOW BASELINE,9765.0,20583.0,0.4744206383909051

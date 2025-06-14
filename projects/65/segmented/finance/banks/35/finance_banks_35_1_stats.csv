@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+NU,Finance,Banks - Foreign,0.65,347999.99999999994,4. p999_trade_value,3.0,2020,35__0,35,0.0,14883.2,27740.2,114050.0,347494.35,422850.37,437160.04,438591.0

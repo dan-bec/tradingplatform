@@ -1,0 +1,7 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+ETN,Industrial Products,Manufacturing - Electronics,35__0,35,0.0,1. p999999_trade_value,1110000.0,1110000.0,0.0,1.0,0.0,0.65,1. ABOVE BASELINE,0.0,1.0,0.0
+ETN,Industrial Products,Manufacturing - Electronics,35__0,35,0.0,4. p999_trade_value,787773.0,480000.0,3.0,4.0,0.75,0.65,1. ABOVE BASELINE,3.0,5.0,0.6
+ETN,Industrial Products,Manufacturing - Electronics,35__0,35,0.0,5. p99_trade_value,400890.00000000006,105000.0,21.0,37.0,0.5675675675675675,0.65,2. BELOW BASELINE,24.0,42.0,0.5714285714285714
+ETN,Industrial Products,Manufacturing - Electronics,35__0,35,0.0,6. p95_trade_value,99904.0,22935.0,79.0,162.0,0.4876543209876543,0.65,2. BELOW BASELINE,103.0,204.0,0.5049019607843137
+ETN,Industrial Products,Manufacturing - Electronics,35__0,35,0.0,7. p90_trade_value,22910.000000000004,13520.000000000002,105.0,205.0,0.5121951219512195,0.65,2. BELOW BASELINE,208.0,409.0,0.508557457212714
+ETN,Industrial Products,Manufacturing - Electronics,35__0,35,0.0,8. p75_trade_value,13519.999999999998,8554.0,415.0,610.0,0.680327868852459,0.65,2. BELOW BASELINE,623.0,1019.0,0.6113837095191365

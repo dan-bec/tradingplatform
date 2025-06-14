@@ -1,0 +1,67 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+BUD,Consumer Staples,Beverages - Alcohol,25__0,25,0.0,1. p999999_trade_value,165000.00000000003,165000.00000000003,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+BUD,Consumer Staples,Beverages - Alcohol,25__0,25,0.0,5. p99_trade_value,120000.0,102000.00000000001,1.0,2.0,0.5,0.65,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+BUD,Consumer Staples,Beverages - Alcohol,25__0,25,0.0,6. p95_trade_value,75000.0,29000.0,7.0,12.0,0.5833333333333334,0.65,2. BELOW BASELINE,9.0,15.0,0.6
+BUD,Consumer Staples,Beverages - Alcohol,25__0,25,0.0,7. p90_trade_value,28980.0,17500.0,6.0,14.0,0.42857142857142855,0.65,2. BELOW BASELINE,15.0,29.0,0.5172413793103449
+BUD,Consumer Staples,Beverages - Alcohol,25__0,25,0.0,8. p75_trade_value,17400.0,9840.0,28.0,43.0,0.6511627906976745,0.65,2. BELOW BASELINE,43.0,72.0,0.5972222222222222
+CCEP,Consumer Staples,Beverages - Soft drinks,20__0,20,0.0,1. p999999_trade_value,172385.0,172385.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+CCEP,Consumer Staples,Beverages - Soft drinks,20__0,20,0.0,6. p95_trade_value,33000.0,14025.0,0.0,3.0,0.0,0.65,2. BELOW BASELINE,0.0,4.0,0.0
+CCEP,Consumer Staples,Beverages - Soft drinks,20__0,20,0.0,7. p90_trade_value,13569.999999999998,12190.0,0.0,3.0,0.0,0.65,2. BELOW BASELINE,0.0,7.0,0.0
+CCEP,Consumer Staples,Beverages - Soft drinks,20__0,20,0.0,8. p75_trade_value,12070.0,5500.000000000001,0.0,11.0,0.0,0.65,2. BELOW BASELINE,0.0,18.0,0.0
+COCO,Consumer Staples,Beverages - Soft drinks,10__0,10,0.0,1. p999999_trade_value,15750.0,15750.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+COCO,Consumer Staples,Beverages - Soft drinks,10__0,10,0.0,8. p75_trade_value,9300.0,9300.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,2.0,0.0
+DEO,Consumer Staples,Beverages - Alcohol,20__0,20,0.0,1. p999999_trade_value,47500.0,47500.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+DEO,Consumer Staples,Beverages - Alcohol,20__0,20,0.0,5. p99_trade_value,35505.0,35505.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,2.0,0.0
+DEO,Consumer Staples,Beverages - Alcohol,20__0,20,0.0,6. p95_trade_value,24375.0,16100.0,0.0,4.0,0.0,0.65,2. BELOW BASELINE,0.0,6.0,0.0
+DEO,Consumer Staples,Beverages - Alcohol,20__0,20,0.0,7. p90_trade_value,14040.0,13339.999999999998,0.0,3.0,0.0,0.65,2. BELOW BASELINE,0.0,9.0,0.0
+DEO,Consumer Staples,Beverages - Alcohol,20__0,20,0.0,8. p75_trade_value,11499.999999999998,7250.0,4.0,19.0,0.21052631578947367,0.65,2. BELOW BASELINE,4.0,28.0,0.14285714285714285
+FIZZ,Consumer Staples,Beverages - Soft drinks,10__0,10,0.0,1. p999999_trade_value,12120.0,12120.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+FIZZ,Consumer Staples,Beverages - Soft drinks,10__0,10,0.0,8. p75_trade_value,4000.0,4000.0,0.0,5.0,0.0,0.65,2. BELOW BASELINE,0.0,6.0,0.0
+FMX,Consumer Staples,Beverages - Soft drinks,10__0,10,0.0,1. p999999_trade_value,25622.999999999996,25622.999999999996,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+FMX,Consumer Staples,Beverages - Soft drinks,10__0,10,0.0,8. p75_trade_value,16960.000000000004,11130.000000000002,2.0,2.0,1.0,0.65,1. ABOVE BASELINE,3.0,3.0,1.0
+KDP,Consumer Staples,Beverages - Soft drinks,20__0,20,0.0,1. p999999_trade_value,214675.0,214675.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+KDP,Consumer Staples,Beverages - Soft drinks,20__0,20,0.0,5. p99_trade_value,115200.0,115200.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+KDP,Consumer Staples,Beverages - Soft drinks,20__0,20,0.0,6. p95_trade_value,105630.0,27000.0,4.0,6.0,0.6666666666666666,0.65,2. BELOW BASELINE,5.0,8.0,0.625
+KDP,Consumer Staples,Beverages - Soft drinks,20__0,20,0.0,7. p90_trade_value,26250.0,18000.0,5.0,7.0,0.7142857142857143,0.65,2. BELOW BASELINE,10.0,15.0,0.6666666666666666
+KDP,Consumer Staples,Beverages - Soft drinks,20__0,20,0.0,8. p75_trade_value,15000.0,6800.0,11.0,22.0,0.5,0.65,2. BELOW BASELINE,21.0,37.0,0.5675675675675675
+KO,Consumer Staples,Beverages - Soft drinks,35__0,35,0.0,1. p999999_trade_value,440000.0,440000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+KO,Consumer Staples,Beverages - Soft drinks,35__0,35,0.0,4. p999_trade_value,343800.0,218311.0,3.0,4.0,0.75,0.65,2. BELOW BASELINE,3.0,5.0,0.6
+KO,Consumer Staples,Beverages - Soft drinks,35__0,35,0.0,5. p99_trade_value,195000.0,63714.0,24.0,41.0,0.5853658536585366,0.65,2. BELOW BASELINE,27.0,46.0,0.5869565217391305
+KO,Consumer Staples,Beverages - Soft drinks,35__0,35,0.0,6. p95_trade_value,63292.99999999999,22500.0,107.0,182.0,0.5879120879120879,0.65,2. BELOW BASELINE,134.0,228.0,0.5877192982456141
+KO,Consumer Staples,Beverages - Soft drinks,35__0,35,0.0,7. p90_trade_value,22242.0,14500.0,130.0,226.0,0.5752212389380531,0.65,2. BELOW BASELINE,264.0,454.0,0.5814977973568282
+KO,Consumer Staples,Beverages - Soft drinks,35__0,35,0.0,8. p75_trade_value,14472.0,7816.0,382.0,679.0,0.5625920471281296,0.65,2. BELOW BASELINE,646.0,1133.0,0.5701676963812886
+MGPI,Consumer Staples,Beverages - Alcohol,10__3,10,3.0,1. p999999_trade_value,108314.99999999999,108314.99999999999,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+MGPI,Consumer Staples,Beverages - Alcohol,10__3,10,3.0,7. p90_trade_value,22500.0,22500.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+MGPI,Consumer Staples,Beverages - Alcohol,10__3,10,3.0,8. p75_trade_value,20910.0,20910.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,3.0,3.0,1.0
+MNST,Consumer Staples,Beverages - Soft drinks,30__1,30,1.0,1. p999999_trade_value,715000.0,715000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+MNST,Consumer Staples,Beverages - Soft drinks,30__1,30,1.0,5. p99_trade_value,570000.0,240000.0,3.0,7.0,0.42857142857142855,0.65,2. BELOW BASELINE,4.0,8.0,0.5
+MNST,Consumer Staples,Beverages - Soft drinks,30__1,30,1.0,6. p95_trade_value,232438.0,34320.0,9.0,30.0,0.3,0.65,2. BELOW BASELINE,13.0,38.0,0.34210526315789475
+MNST,Consumer Staples,Beverages - Soft drinks,30__1,30,1.0,7. p90_trade_value,34048.0,20900.0,11.0,37.0,0.2972972972972973,0.65,2. BELOW BASELINE,24.0,75.0,0.32
+MNST,Consumer Staples,Beverages - Soft drinks,30__1,30,1.0,8. p75_trade_value,20500.0,8855.000000000002,40.0,111.0,0.36036036036036034,0.65,2. BELOW BASELINE,64.0,186.0,0.34408602150537637
+PEP,Consumer Staples,Beverages - Soft drinks,35__0,35,0.0,1. p999999_trade_value,294000.0,294000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+PEP,Consumer Staples,Beverages - Soft drinks,35__0,35,0.0,4. p999_trade_value,281300.0,198250.0,3.0,5.0,0.6,0.65,2. BELOW BASELINE,3.0,6.0,0.5
+PEP,Consumer Staples,Beverages - Soft drinks,35__0,35,0.0,5. p99_trade_value,186000.0,60000.0,26.0,46.0,0.5652173913043478,0.65,2. BELOW BASELINE,29.0,52.0,0.5576923076923077
+PEP,Consumer Staples,Beverages - Soft drinks,35__0,35,0.0,6. p95_trade_value,59540.0,21850.0,121.0,207.0,0.5845410628019324,0.65,2. BELOW BASELINE,150.0,259.0,0.5791505791505791
+PEP,Consumer Staples,Beverages - Soft drinks,35__0,35,0.0,7. p90_trade_value,21773.999999999996,14016.0,145.0,259.0,0.5598455598455598,0.65,2. BELOW BASELINE,295.0,518.0,0.5694980694980695
+PEP,Consumer Staples,Beverages - Soft drinks,35__0,35,0.0,8. p75_trade_value,14000.0,8128.0,385.0,777.0,0.4954954954954955,0.65,2. BELOW BASELINE,680.0,1295.0,0.525096525096525
+PRMB,Consumer Staples,Beverages - Soft drinks,20__0,20,0.0,1. p999999_trade_value,130962.00000000001,130962.00000000001,0.0,2.0,0.0,0.65,2. BELOW BASELINE,0.0,2.0,0.0
+PRMB,Consumer Staples,Beverages - Soft drinks,20__0,20,0.0,6. p95_trade_value,100000.0,26000.0,0.0,6.0,0.0,0.65,2. BELOW BASELINE,0.0,8.0,0.0
+PRMB,Consumer Staples,Beverages - Soft drinks,20__0,20,0.0,7. p90_trade_value,21500.0,16900.0,5.0,8.0,0.625,0.65,2. BELOW BASELINE,5.0,16.0,0.3125
+PRMB,Consumer Staples,Beverages - Soft drinks,20__0,20,0.0,8. p75_trade_value,15660.0,10800.0,8.0,23.0,0.34782608695652173,0.65,2. BELOW BASELINE,13.0,39.0,0.3333333333333333
+SAM,Consumer Staples,Beverages - Alcohol,25__0,25,0.0,1. p999999_trade_value,129150.0,129150.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+SAM,Consumer Staples,Beverages - Alcohol,25__0,25,0.0,5. p99_trade_value,90610.0,90610.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+SAM,Consumer Staples,Beverages - Alcohol,25__0,25,0.0,6. p95_trade_value,71440.0,20000.0,3.0,8.0,0.375,0.65,2. BELOW BASELINE,4.0,10.0,0.4
+SAM,Consumer Staples,Beverages - Alcohol,25__0,25,0.0,7. p90_trade_value,19241.0,15730.000000000002,2.0,9.0,0.2222222222222222,0.65,2. BELOW BASELINE,6.0,19.0,0.3157894736842105
+SAM,Consumer Staples,Beverages - Alcohol,25__0,25,0.0,8. p75_trade_value,15640.0,7200.0,15.0,29.0,0.5172413793103449,0.65,2. BELOW BASELINE,21.0,48.0,0.4375
+STZ,Consumer Staples,Beverages - Alcohol,35__0,35,0.0,1. p999999_trade_value,504639.99999999994,504639.99999999994,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+STZ,Consumer Staples,Beverages - Alcohol,35__0,35,0.0,4. p999_trade_value,499500.0,499500.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+STZ,Consumer Staples,Beverages - Alcohol,35__0,35,0.0,5. p99_trade_value,485640.00000000006,116144.0,11.0,17.0,0.6470588235294118,0.65,2. BELOW BASELINE,13.0,19.0,0.6842105263157895
+STZ,Consumer Staples,Beverages - Alcohol,35__0,35,0.0,6. p95_trade_value,98800.0,20250.0,44.0,75.0,0.5866666666666667,0.65,2. BELOW BASELINE,57.0,94.0,0.6063829787234043
+STZ,Consumer Staples,Beverages - Alcohol,35__0,35,0.0,7. p90_trade_value,20240.0,14580.000000000002,59.0,94.0,0.6276595744680851,0.65,2. BELOW BASELINE,116.0,188.0,0.6170212765957447
+STZ,Consumer Staples,Beverages - Alcohol,35__0,35,0.0,8. p75_trade_value,14520.000000000002,8000.0,167.0,282.0,0.5921985815602837,0.65,2. BELOW BASELINE,283.0,470.0,0.6021276595744681
+TAP,Consumer Staples,Beverages - Alcohol,20__0,20,0.0,1. p999999_trade_value,135000.0,135000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+TAP,Consumer Staples,Beverages - Alcohol,20__0,20,0.0,5. p99_trade_value,67500.0,67500.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+TAP,Consumer Staples,Beverages - Alcohol,20__0,20,0.0,6. p95_trade_value,63128.0,25000.0,1.0,6.0,0.16666666666666666,0.65,2. BELOW BASELINE,3.0,8.0,0.375
+TAP,Consumer Staples,Beverages - Alcohol,20__0,20,0.0,7. p90_trade_value,18210.0,14352.000000000002,1.0,8.0,0.125,0.65,2. BELOW BASELINE,4.0,16.0,0.25
+TAP,Consumer Staples,Beverages - Alcohol,20__0,20,0.0,8. p75_trade_value,14231.0,8159.999999999999,6.0,23.0,0.2608695652173913,0.65,2. BELOW BASELINE,10.0,39.0,0.2564102564102564
+ZVIA,Consumer Staples,Beverages - Soft drinks,5__0,5,0.0,1. p999999_trade_value,7500.0,7500.0,0.0,2.0,0.0,0.65,2. BELOW BASELINE,0.0,2.0,0.0

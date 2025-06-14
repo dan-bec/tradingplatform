@@ -1,0 +1,13 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+AXTI,Computer and Technology,Electronics - Semiconductors,0__2,0,2.0,1. p999999_trade_value,4800.0,4800.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+BELFB,Computer and Technology,Electronics - Miscellaneous Products,0__2,0,2.0,1. p999999_trade_value,4440.000000000001,4440.000000000001,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+BW,Computer and Technology,Electronics - Power Generation,0__2,0,2.0,1. p999999_trade_value,5210.0,5210.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+COHU,Computer and Technology,Electronics - Manufacturing Machinery,0__2,0,2.0,1. p999999_trade_value,5445.0,5445.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+LASR,Computer and Technology,Electronics - Semiconductors,0__2,0,2.0,1. p999999_trade_value,6000.0,6000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+NA,Computer and Technology,Electronics - Semiconductors,0__2,0,2.0,1. p999999_trade_value,5000.0,5000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+OSS,Computer and Technology,Electronics - Miscellaneous Products,0__0,0,0.0,1. p999999_trade_value,9950.0,9950.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+RELL,Computer and Technology,Electronics - Parts Distribution,0__2,0,2.0,1. p999999_trade_value,7000.0,7000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+SGU,Computer and Technology,Electronics - Miscellaneous Products,0__2,0,2.0,1. p999999_trade_value,4990.000000000001,4990.000000000001,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+SYPR,Computer and Technology,Electronics - Miscellaneous Services,0__2,0,2.0,1. p999999_trade_value,7000.0,7000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+TTMI,Computer and Technology,Electronics - Miscellaneous Components,0__2,0,2.0,1. p999999_trade_value,5070.0,5070.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+VLN,Computer and Technology,Electronics - Semiconductors,0__2,0,2.0,1. p999999_trade_value,3240.0,3240.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0

@@ -1,0 +1,18 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+COLM,Consumer Discretionary,Textile - Apparel,0.65,5670.0,8. p75_trade_value,6.0,21,15__0,15,0.0,12250.0,12505.0,14101.0,14460.1,14496.01,14499.6,14499.96
+CROX,Consumer Discretionary,Textile - Apparel,0.65,960000.0,4. p999_trade_value,3.0,2798,35__1,35,1.0,14960.0,24787.5,81088.7,732855.0,2030918.69,2077107.87,2081726.79
+GES,Consumer Discretionary,Textile - Apparel,0.65,,,,56,15__0,15,0.0,14265.0,16475.0,25668.0,27766.8,27976.68,27997.67,27999.77
+GIII,Consumer Discretionary,Textile - Apparel,0.65,8900.0,7. p90_trade_value,3.0,27,15__0,15,0.0,8360.0,12470.0,22494.46,25180.55,25449.15,25476.02,25478.7
+GIL,Consumer Discretionary,Textile - Apparel,0.65,3840.0000000000005,8. p75_trade_value,2.0,8,10__0,10,0.0,7173.0,11061.5,14172.3,14872.23,14942.22,14949.22,14949.92
+HBI,Consumer Discretionary,Textile - Apparel,0.65,,,,33,15__0,15,0.0,14016.0,26715.0,42568.32,43698.43,43811.44,43822.74,43823.87
+KTB,Consumer Discretionary,Textile - Apparel,0.65,,,,24,15__0,15,0.0,11400.0,14677.5,59309.5,71180.95,72368.1,72486.81,72498.68
+LULU,Consumer Discretionary,Textile - Apparel,0.65,,,,25436,45__1,45,1.0,16701.0,25623.75,67060.0,199365.0,850483.52,2144106.48,2244540.65
+MHK,Consumer Discretionary,Textile - Home Furnishing,0.65,,,,158,20__0,20,0.0,10993.5,21124.95,105335.5,202503.25,209250.32,209925.03,209992.5
+OXM,Consumer Discretionary,Textile - Apparel,0.65,25740.000000000004,6. p95_trade_value,5.0,83,20__0,20,0.0,15240.0,25718.0,45346.4,50866.64,51418.66,51473.87,51479.39
+PVH,Consumer Discretionary,Textile - Apparel,0.65,,,,571,30__2,30,2.0,16100.0,22575.0,50134.0,265750.0,278575.0,279857.5,279985.75
+RL,Consumer Discretionary,Textile - Apparel,0.65,328860.0,1. p999999_trade_value,1.0,513,25__0,25,0.0,18402.0,53400.0,191332.32,307571.04,326731.1,328647.11,328838.71
+RVLV,Consumer Discretionary,Textile - Apparel,0.65,,,,86,20__0,20,0.0,13500.0,17232.5,48475.0,53447.5,53944.75,53994.48,53999.45
+TILE,Consumer Discretionary,Textile - Home Furnishing,0.65,4000.0,1. p999999_trade_value,1.0,1,0__2,0,2.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0
+UA,Consumer Discretionary,Textile - Apparel,0.65,8700.0,1. p999999_trade_value,1.0,3,5__0,5,0.0,8640.0,8670.0,8694.0,8699.4,8699.94,8699.99,8700.0
+UAA,Consumer Discretionary,Textile - Apparel,0.65,40000.0,7. p90_trade_value,6.0,59,20__2,20,2.0,31120.0,51095.2,210721.0,255117.1,259556.71,260000.67,260045.07
+VFC,Consumer Discretionary,Textile - Apparel,0.65,1005400.0,4. p999_trade_value,2.0,1559,30__1,30,1.0,23067.0,60880.4,277706.64,908921.8,1009283.32,1009928.33,1009992.83

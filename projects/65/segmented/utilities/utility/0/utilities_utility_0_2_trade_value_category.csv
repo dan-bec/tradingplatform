@@ -1,0 +1,4 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+AVA,Utilities,Utility - Electric Power,0__2,0,2.0,1. p999999_trade_value,3500.0,3500.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+BIPC,Utilities,Utility - Gas Distribution,0__2,0,2.0,1. p999999_trade_value,3500.0,3500.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+SR,Utilities,Utility - Gas Distribution,0__0,0,0.0,1. p999999_trade_value,16500.0,16500.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0

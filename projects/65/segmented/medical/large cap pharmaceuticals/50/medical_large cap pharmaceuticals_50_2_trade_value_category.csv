@@ -1,0 +1,8 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+LLY,Medical,Large Cap Pharmaceuticals,50__1,50,1.0,1. p999999_trade_value,4812500.0,4812500.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+LLY,Medical,Large Cap Pharmaceuticals,50__1,50,1.0,3. p9999_trade_value,2777500.0,847800.0,5.0,8.0,0.625,0.65,2. BELOW BASELINE,5.0,9.0,0.5555555555555556
+LLY,Medical,Large Cap Pharmaceuticals,50__1,50,1.0,4. p999_trade_value,800000.0,274500.0,32.0,77.0,0.4155844155844156,0.65,2. BELOW BASELINE,37.0,86.0,0.43023255813953487
+LLY,Medical,Large Cap Pharmaceuticals,50__1,50,1.0,5. p99_trade_value,270000.0,70000.0,416.0,767.0,0.5423728813559322,0.65,2. BELOW BASELINE,453.0,853.0,0.5310668229777257
+LLY,Medical,Large Cap Pharmaceuticals,50__1,50,1.0,6. p95_trade_value,69940.0,25984.000000000004,1935.0,3404.0,0.568448883666275,0.65,2. BELOW BASELINE,2388.0,4257.0,0.5609584214235377
+LLY,Medical,Large Cap Pharmaceuticals,50__1,50,1.0,7. p90_trade_value,25970.000000000004,16830.0,2276.0,4269.0,0.5331459358163504,0.65,2. BELOW BASELINE,4664.0,8526.0,0.5470326061459067
+LLY,Medical,Large Cap Pharmaceuticals,50__1,50,1.0,8. p75_trade_value,16822.0,9000.0,6514.0,12953.0,0.5028950822203351,0.65,2. BELOW BASELINE,11178.0,21479.0,0.5204152893523907

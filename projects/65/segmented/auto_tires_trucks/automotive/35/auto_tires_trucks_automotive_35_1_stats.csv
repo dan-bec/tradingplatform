@@ -1,0 +1,6 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+F,Auto-Tires-Trucks,Automotive - Domestic,0.65,299760.00000000006,4. p999_trade_value,4.0,3928,35__0,35,0.0,15763.0,24969.75,96505.32,282134.02,416186.19,466343.92,471359.69
+LI,Auto-Tires-Trucks,Automotive - Foreign,0.65,242200.0,1. p999999_trade_value,1.0,2593,35__0,35,0.0,13990.8,21980.0,51072.08,109099.56,226077.76,240587.78,242038.78
+MBLY,Auto-Tires-Trucks,Automotive - Original Equipment,0.65,609960.0,1. p999999_trade_value,1.0,2996,35__0,35,0.0,11622.5,16406.25,39210.6,203571.68,515629.48,600526.95,609016.69
+NIO,Auto-Tires-Trucks,Automotive - Foreign,0.65,,,,5558,35__0,35,0.0,11500.0,15060.45,31949.68,255505.0,442467.64,445245.36,445523.14
+XPEV,Auto-Tires-Trucks,Automotive - Foreign,0.65,600000.0,4. p999_trade_value,4.0,3715,35__0,35,0.0,15495.2,24000.0,63535.92,315114.0,1052810.4,1174481.04,1186648.1

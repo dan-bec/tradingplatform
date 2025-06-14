@@ -1,0 +1,15 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+TGT,Retail-Wholesale,Retail - Discount Stores,45__1,45,1.0,1. p999999_trade_value,1224195.0,1224195.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,1.0,1.0
+TGT,Retail-Wholesale,Retail - Discount Stores,45__1,45,1.0,3. p9999_trade_value,810495.0000000001,810495.0000000001,0.0,1.0,0.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+TGT,Retail-Wholesale,Retail - Discount Stores,45__1,45,1.0,4. p999_trade_value,712500.0,349631.0,6.0,17.0,0.35294117647058826,0.65,2. BELOW BASELINE,7.0,19.0,0.3684210526315789
+TGT,Retail-Wholesale,Retail - Discount Stores,45__1,45,1.0,5. p99_trade_value,324000.0,58991.99999999999,67.0,169.0,0.39644970414201186,0.65,2. BELOW BASELINE,74.0,188.0,0.39361702127659576
+TGT,Retail-Wholesale,Retail - Discount Stores,45__1,45,1.0,6. p95_trade_value,58800.0,22010.0,318.0,750.0,0.424,0.65,2. BELOW BASELINE,392.0,938.0,0.417910447761194
+TGT,Retail-Wholesale,Retail - Discount Stores,45__1,45,1.0,7. p90_trade_value,22000.000000000004,14640.0,420.0,937.0,0.44823906083244397,0.65,2. BELOW BASELINE,812.0,1875.0,0.43306666666666666
+TGT,Retail-Wholesale,Retail - Discount Stores,45__1,45,1.0,8. p75_trade_value,14639.999999999998,8280.0,1265.0,2815.0,0.4493783303730018,0.65,2. BELOW BASELINE,2077.0,4690.0,0.44285714285714284
+WMT,Retail-Wholesale,Retail - Supermarkets,45__1,45,1.0,1. p999999_trade_value,1400000.0,1400000.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,1.0,1.0
+WMT,Retail-Wholesale,Retail - Supermarkets,45__1,45,1.0,3. p9999_trade_value,1388610.0,1388610.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+WMT,Retail-Wholesale,Retail - Supermarkets,45__1,45,1.0,4. p999_trade_value,1037000.0,341366.0,11.0,18.0,0.6111111111111112,0.65,2. BELOW BASELINE,12.0,20.0,0.6
+WMT,Retail-Wholesale,Retail - Supermarkets,45__1,45,1.0,5. p99_trade_value,317275.0,68363.00000000001,100.0,172.0,0.5813953488372093,0.65,2. BELOW BASELINE,112.0,192.0,0.5833333333333334
+WMT,Retail-Wholesale,Retail - Supermarkets,45__1,45,1.0,6. p95_trade_value,68320.0,23400.0,434.0,766.0,0.566579634464752,0.65,2. BELOW BASELINE,546.0,958.0,0.569937369519833
+WMT,Retail-Wholesale,Retail - Supermarkets,45__1,45,1.0,7. p90_trade_value,23375.0,14851.999999999998,575.0,954.0,0.6027253668763103,0.65,2. BELOW BASELINE,1121.0,1912.0,0.5862970711297071
+WMT,Retail-Wholesale,Retail - Supermarkets,45__1,45,1.0,8. p75_trade_value,14850.0,8281.0,1695.0,2866.0,0.5914166085136078,0.65,2. BELOW BASELINE,2816.0,4778.0,0.5893679363750524

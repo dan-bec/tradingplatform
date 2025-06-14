@@ -1,0 +1,12 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CMBT,Transportation,Transportation - Shipping,0__2,0,2.0,1. p999999_trade_value,3250.0,3250.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+CYRX,Transportation,Transportation - Services,0__2,0,2.0,1. p999999_trade_value,3690.0,3690.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+DSX,Transportation,Transportation - Shipping,0__2,0,2.0,1. p999999_trade_value,6980.0,6980.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+GATX,Transportation,Transportation - Equipment and Leasing,0__2,0,2.0,1. p999999_trade_value,3020.0,3020.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+IMPP,Transportation,Transportation - Shipping,0__2,0,2.0,1. p999999_trade_value,4500.0,4500.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+NAT,Transportation,Transportation - Shipping,0__2,0,2.0,1. p999999_trade_value,4490.000000000001,4490.000000000001,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+SB,Transportation,Transportation - Shipping,0__2,0,2.0,1. p999999_trade_value,3500.0,3500.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+SHIP,Transportation,Transportation - Shipping,0__2,0,2.0,1. p999999_trade_value,3500.0,3500.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+SNDR,Transportation,Transportation - Services,0__2,0,2.0,1. p999999_trade_value,3128.0,3128.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+TRN,Transportation,Transportation - Equipment and Leasing,0__0,0,0.0,1. p999999_trade_value,9000.0,9000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+VLRS,Transportation,Transportation - Airline,0__2,0,2.0,1. p999999_trade_value,3300.0,3300.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0

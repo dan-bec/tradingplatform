@@ -1,0 +1,11 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+PL,Computer and Technology,Satellite and Communication,25__0,25,0.0,1. p999999_trade_value,50640.0,50640.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+PL,Computer and Technology,Satellite and Communication,25__0,25,0.0,5. p99_trade_value,41020.0,26009.999999999996,0.0,3.0,0.0,0.65,2. BELOW BASELINE,0.0,4.0,0.0
+PL,Computer and Technology,Satellite and Communication,25__0,25,0.0,6. p95_trade_value,24975.0,13500.0,0.0,13.0,0.0,0.65,2. BELOW BASELINE,0.0,17.0,0.0
+PL,Computer and Technology,Satellite and Communication,25__0,25,0.0,7. p90_trade_value,13275.0,9860.0,0.0,17.0,0.0,0.65,2. BELOW BASELINE,0.0,34.0,0.0
+PL,Computer and Technology,Satellite and Communication,25__0,25,0.0,8. p75_trade_value,9750.0,6720.0,3.0,50.0,0.06,0.65,2. BELOW BASELINE,3.0,84.0,0.03571428571428571
+SATS,Computer and Technology,Satellite and Communication,25__0,25,0.0,1. p999999_trade_value,699525.0,699525.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+SATS,Computer and Technology,Satellite and Communication,25__0,25,0.0,5. p99_trade_value,365000.0,245000.0,1.0,5.0,0.2,0.65,2. BELOW BASELINE,2.0,6.0,0.3333333333333333
+SATS,Computer and Technology,Satellite and Communication,25__0,25,0.0,6. p95_trade_value,224640.0,34929.99999999999,7.0,21.0,0.3333333333333333,0.65,2. BELOW BASELINE,9.0,27.0,0.3333333333333333
+SATS,Computer and Technology,Satellite and Communication,25__0,25,0.0,7. p90_trade_value,33932.00000000001,15300.0,19.0,27.0,0.7037037037037037,0.65,2. BELOW BASELINE,28.0,54.0,0.5185185185185185
+SATS,Computer and Technology,Satellite and Communication,25__0,25,0.0,8. p75_trade_value,15000.0,8450.0,40.0,80.0,0.5,0.65,2. BELOW BASELINE,68.0,134.0,0.5074626865671642

@@ -1,0 +1,3 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+TBLA,Computer and Technology,Computers - IT Services,0__2,0,2.0,1. p999999_trade_value,4482.0,4482.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+TLS,Computer and Technology,Computers - IT Services,0__2,0,2.0,1. p999999_trade_value,3750.0,3750.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0

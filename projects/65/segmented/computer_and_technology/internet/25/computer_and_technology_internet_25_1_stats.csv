@@ -1,0 +1,26 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ADP,Computer and Technology,Internet - Software,0.65,,,,509,25__0,25,0.0,14278.2,20199.0,60245.28,155500.66,166750.07,167875.01,167987.5
+ARQQ,Computer and Technology,Internet - Software,0.65,16000.0,6. p95_trade_value,10.0,197,25__0,25,0.0,10296.0,15411.2,38665.6,48228.94,50034.39,50214.94,50232.99
+BB,Computer and Technology,Internet - Software,0.65,,,,278,25__0,25,0.0,10150.0,13360.95,28859.18,139106.68,143597.07,144046.11,144091.01
+BOX,Computer and Technology,Internet - Software,0.65,,,,210,25__0,25,0.0,12947.3,17519.4,52057.74,180315.5,210246.35,213239.44,213538.74
+BRZE,Computer and Technology,Internet - Software,0.65,100000.0,5. p99_trade_value,4.0,388,25__0,25,0.0,16165.0,26720.0,89358.16,157789.26,167896.93,168907.69,169008.77
+DBX,Computer and Technology,Internet - Services,0.65,240000.0,5. p99_trade_value,4.0,380,25__0,25,0.0,17481.5,35008.8,192600.0,529642.0,666764.2,680476.42,681847.64
+FFIV,Computer and Technology,Internet - Software,0.65,8470.0,8. p75_trade_value,128.0,509,25__0,25,0.0,17020.0,25066.0,43884.8,77343.56,88284.36,89378.44,89487.84
+FIVN,Computer and Technology,Internet - Software,0.65,287500.0,1. p999999_trade_value,1.0,307,25__0,25,0.0,21520.0,38704.0,88000.0,255963.64,284346.36,287184.64,287468.46
+FROG,Computer and Technology,Internet - Software,0.65,250740.0,1. p999999_trade_value,1.0,440,25__0,25,0.0,13365.0,32599.0,85576.35,218930.5,247559.05,250421.9,250708.19
+FRSH,Computer and Technology,Internet - Software,0.65,84254.00000000001,1. p999999_trade_value,1.0,329,25__0,25,0.0,16686.0,29730.0,73600.0,82202.69,84048.87,84233.49,84251.95
+FSLY,Computer and Technology,Internet - Software,0.65,21200.0,6. p95_trade_value,19.0,377,25__0,25,0.0,14917.2,20840.0,90600.0,191224.0,200022.4,200902.24,200990.22
+GLOB,Computer and Technology,Internet - Software and Services,0.65,22780.0,6. p95_trade_value,16.0,313,25__0,25,0.0,16612.0,21946.0,67657.2,688980.0,905898.0,927589.8,929758.98
+GRAB,Computer and Technology,Internet - Software,0.65,73840.0,5. p99_trade_value,5.0,482,25__0,25,0.0,14980.0,20741.0,65856.64,103586.31,104561.63,104659.16,104668.92
+KC,Computer and Technology,Internet - Software,0.65,,,,528,25__0,25,0.0,16491.5,26347.05,70304.2,113149.89,113590.99,113635.1,113639.51
+KVYO,Computer and Technology,Internet - Software,0.65,,,,206,25__0,25,0.0,15244.0,21656.25,75585.0,99591.25,101759.13,101975.91,101997.59
+MGNI,Computer and Technology,Internet - Software,0.65,,,,200,25__0,25,0.0,15000.0,22515.8,75030.0,84728.4,86232.84,86383.28,86398.33
+PAYC,Computer and Technology,Internet - Software,0.65,,,,499,25__1,25,1.0,14060.0,25456.0,85260.0,6115940.0,6326594.0,6347659.4,6349765.94
+PAYX,Computer and Technology,Internet - Software,0.65,118500.0,5. p99_trade_value,5.0,498,25__0,25,0.0,15020.9,24680.6,77275.0,224335.5,237083.55,238358.36,238485.84
+PCOR,Computer and Technology,Internet - Software,0.65,175000.0,5. p99_trade_value,4.0,392,25__0,25,0.0,19947.5,31708.8,160076.0,477752.68,479343.27,479502.33,479518.23
+UPWK,Computer and Technology,Internet - Services,0.65,760000.0,1. p999999_trade_value,1.0,227,25__0,25,0.0,14826.4,22118.0,55194.88,622140.0,746214.0,758621.4,759862.14
+VNET,Computer and Technology,Internet - Software,0.65,102165.00000000001,1. p999999_trade_value,1.0,299,25__0,25,0.0,19584.0,34302.0,75056.8,101387.22,102087.22,102157.22,102164.22
+VRSN,Computer and Technology,Internet - Software and Services,0.65,,,,294,25__0,25,0.0,20300.0,30504.1,78723.13,248110.94,283030.09,286522.01,286871.2
+WAY,Computer and Technology,Internet - Software,0.65,,,,301,25__2,25,2.0,39975.0,87500.0,356370.0,621543.0,691146.3,698106.63,698802.66
+WB,Computer and Technology,Internet - Content,0.65,75000.0,1. p999999_trade_value,1.0,312,25__0,25,0.0,23031.0,31736.2,65633.65,73445.0,74844.5,74984.45,74998.44
+YOU,Computer and Technology,Internet - Software,0.65,281250.0,1. p999999_trade_value,1.0,266,25__0,25,0.0,17225.0,24711.25,85437.5,236928.75,276817.88,280806.79,281205.68

@@ -1,0 +1,2 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CHX,Construction,Engineering - R and D Services,0__2,0,2.0,1. p999999_trade_value,3375.0,3375.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0

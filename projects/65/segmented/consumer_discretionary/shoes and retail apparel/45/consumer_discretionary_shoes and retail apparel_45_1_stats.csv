@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+NKE,Consumer Discretionary,Shoes and Retail Apparel ,0.65,,,,23220,45__0,45,0.0,16470.2,26864.8,78133.56,447787.49,1588547.15,1747072.94,1749638.89

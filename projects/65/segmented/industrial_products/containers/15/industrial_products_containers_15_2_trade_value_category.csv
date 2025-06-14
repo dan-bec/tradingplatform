@@ -1,0 +1,16 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+AVY,Industrial Products,Containers - Paper and Packaging,15__0,15,0.0,1. p999999_trade_value,17760.0,17760.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+AVY,Industrial Products,Containers - Paper and Packaging,15__0,15,0.0,6. p95_trade_value,13679.999999999998,13679.999999999998,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+AVY,Industrial Products,Containers - Paper and Packaging,15__0,15,0.0,7. p90_trade_value,8712.0,8712.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+AVY,Industrial Products,Containers - Paper and Packaging,15__0,15,0.0,8. p75_trade_value,7506.0,6000.0,4.0,4.0,1.0,0.65,2. BELOW BASELINE,6.0,7.0,0.8571428571428571
+BALL,Industrial Products,Containers - Metal and Glass,15__0,15,0.0,1. p999999_trade_value,266250.0,266250.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+BALL,Industrial Products,Containers - Metal and Glass,15__0,15,0.0,6. p95_trade_value,214319.99999999997,62509.99999999999,0.0,2.0,0.0,0.65,2. BELOW BASELINE,0.0,3.0,0.0
+BALL,Industrial Products,Containers - Metal and Glass,15__0,15,0.0,7. p90_trade_value,38750.0,21317.999999999996,1.0,2.0,0.5,0.65,2. BELOW BASELINE,1.0,5.0,0.2
+BALL,Industrial Products,Containers - Metal and Glass,15__0,15,0.0,8. p75_trade_value,15000.0,8000.0,3.0,7.0,0.42857142857142855,0.65,2. BELOW BASELINE,4.0,12.0,0.3333333333333333
+PACK,Industrial Products,Containers - Paper and Packaging,15__0,15,0.0,1. p999999_trade_value,10000.0,10000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+PACK,Industrial Products,Containers - Paper and Packaging,15__0,15,0.0,6. p95_trade_value,9690.0,9690.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+PACK,Industrial Products,Containers - Paper and Packaging,15__0,15,0.0,7. p90_trade_value,8750.0,8750.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+PACK,Industrial Products,Containers - Paper and Packaging,15__0,15,0.0,8. p75_trade_value,8000.0,6500.0,0.0,4.0,0.0,0.65,2. BELOW BASELINE,1.0,7.0,0.14285714285714285
+UFPT,Industrial Products,Containers - Paper and Packaging,15__0,15,0.0,1. p999999_trade_value,40000.0,40000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+UFPT,Industrial Products,Containers - Paper and Packaging,15__0,15,0.0,6. p95_trade_value,24070.0,24070.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,2.0,0.0
+UFPT,Industrial Products,Containers - Paper and Packaging,15__0,15,0.0,7. p90_trade_value,18900.0,18900.0,0.0,4.0,0.0,0.65,2. BELOW BASELINE,0.0,6.0,0.0

@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AXTA,Basic Materials,Chemical - Specialty,0.65,14500.0,1. p999999_trade_value,1.0,15,10__0,10,0.0,9450.0,11350.0,13870.0,14437.0,14493.7,14499.37,14499.94
+CBT,Basic Materials,Chemical - Diversified ,0.65,21000.0,1. p999999_trade_value,1.0,6,10__0,10,0.0,15770.0,18385.0,20477.0,20947.7,20994.77,20999.48,20999.95
+MATV,Basic Materials,Chemical - Specialty,0.65,,,,12,10__3,10,3.0,113954.4,162224.7,208444.94,218844.49,219884.45,219988.44,219998.84

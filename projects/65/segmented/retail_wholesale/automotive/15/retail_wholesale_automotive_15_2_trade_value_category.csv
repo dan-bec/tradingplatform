@@ -1,0 +1,9 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+ABG,Retail-Wholesale,Automotive - Retail and Whole Sales,15__0,15,0.0,1. p999999_trade_value,59000.0,59000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+ABG,Retail-Wholesale,Automotive - Retail and Whole Sales,15__0,15,0.0,6. p95_trade_value,50399.99999999999,50399.99999999999,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+ABG,Retail-Wholesale,Automotive - Retail and Whole Sales,15__0,15,0.0,7. p90_trade_value,31500.0,31500.0,2.0,2.0,1.0,0.65,1. ABOVE BASELINE,4.0,4.0,1.0
+ABG,Retail-Wholesale,Automotive - Retail and Whole Sales,15__0,15,0.0,8. p75_trade_value,19200.0,8800.0,3.0,3.0,1.0,0.65,1. ABOVE BASELINE,7.0,7.0,1.0
+PAG,Retail-Wholesale,Automotive - Retail and Whole Sales,15__0,15,0.0,1. p999999_trade_value,82225.0,82225.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+PAG,Retail-Wholesale,Automotive - Retail and Whole Sales,15__0,15,0.0,6. p95_trade_value,26790.000000000004,26790.000000000004,0.0,1.0,0.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+PAG,Retail-Wholesale,Automotive - Retail and Whole Sales,15__0,15,0.0,7. p90_trade_value,25298.0,25298.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+PAG,Retail-Wholesale,Automotive - Retail and Whole Sales,15__0,15,0.0,8. p75_trade_value,22725.0,9360.0,2.0,5.0,0.4,0.65,2. BELOW BASELINE,4.0,8.0,0.5

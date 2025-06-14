@@ -1,0 +1,268 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+HPE,Computer and Technology,Computer - Integrated Systems,30__2,30,2.0,1. p999999_trade_value,337500.0,337500.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+HPE,Computer and Technology,Computer - Integrated Systems,30__2,30,2.0,4. p999_trade_value,235000.0,235000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+HPE,Computer and Technology,Computer - Integrated Systems,30__2,30,2.0,5. p99_trade_value,216542.99999999997,50000.0,7.0,12.0,0.5833333333333334,0.65,2. BELOW BASELINE,9.0,14.0,0.6428571428571429
+HPE,Computer and Technology,Computer - Integrated Systems,30__2,30,2.0,6. p95_trade_value,48000.0,21229.0,31.0,52.0,0.5961538461538461,0.65,2. BELOW BASELINE,40.0,66.0,0.6060606060606061
+HPE,Computer and Technology,Computer - Integrated Systems,30__2,30,2.0,7. p90_trade_value,21070.0,14235.0,35.0,65.0,0.5384615384615384,0.65,2. BELOW BASELINE,75.0,131.0,0.5725190839694656
+HPE,Computer and Technology,Computer - Integrated Systems,30__2,30,2.0,8. p75_trade_value,14191.0,8055.0,101.0,195.0,0.517948717948718,0.65,2. BELOW BASELINE,176.0,326.0,0.5398773006134969
+HPQ,Computer and Technology,Computer - Micro Computers,30__2,30,2.0,1. p999999_trade_value,299933.99999999994,299933.99999999994,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+HPQ,Computer and Technology,Computer - Micro Computers,30__2,30,2.0,4. p999_trade_value,291000.0,291000.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+HPQ,Computer and Technology,Computer - Micro Computers,30__2,30,2.0,5. p99_trade_value,199955.99999999997,54432.00000000001,6.0,10.0,0.6,0.65,2. BELOW BASELINE,7.0,12.0,0.5833333333333334
+HPQ,Computer and Technology,Computer - Micro Computers,30__2,30,2.0,6. p95_trade_value,54010.0,21600.0,27.0,46.0,0.5869565217391305,0.65,2. BELOW BASELINE,34.0,58.0,0.5862068965517241
+HPQ,Computer and Technology,Computer - Micro Computers,30__2,30,2.0,7. p90_trade_value,21500.0,15322.999999999998,37.0,54.0,0.6851851851851852,0.65,2. BELOW BASELINE,71.0,112.0,0.6339285714285714
+HPQ,Computer and Technology,Computer - Micro Computers,30__2,30,2.0,8. p75_trade_value,14640.0,7980.000000000001,86.0,168.0,0.5119047619047619,0.65,2. BELOW BASELINE,157.0,280.0,0.5607142857142857
+IBM,Computer and Technology,Computer - Integrated Systems,40__0,40,0.0,1. p999999_trade_value,899200.0,899200.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+IBM,Computer and Technology,Computer - Integrated Systems,40__0,40,0.0,3. p9999_trade_value,891250.0,891250.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+IBM,Computer and Technology,Computer - Integrated Systems,40__0,40,0.0,4. p999_trade_value,740000.0,285417.0,11.0,13.0,0.8461538461538461,0.65,1. ABOVE BASELINE,13.0,15.0,0.8666666666666667
+IBM,Computer and Technology,Computer - Integrated Systems,40__0,40,0.0,5. p99_trade_value,277500.0,60750.0,93.0,128.0,0.7265625,0.65,1. ABOVE BASELINE,106.0,143.0,0.7412587412587412
+IBM,Computer and Technology,Computer - Integrated Systems,40__0,40,0.0,6. p95_trade_value,60719.99999999999,24150.0,365.0,571.0,0.6392294220665499,0.65,2. BELOW BASELINE,471.0,714.0,0.6596638655462185
+IBM,Computer and Technology,Computer - Integrated Systems,40__0,40,0.0,7. p90_trade_value,24070.0,15776.000000000002,396.0,715.0,0.5538461538461539,0.65,2. BELOW BASELINE,867.0,1429.0,0.6067179846046186
+IBM,Computer and Technology,Computer - Integrated Systems,40__0,40,0.0,8. p75_trade_value,15775.0,8100.0,1279.0,2152.0,0.5943308550185874,0.65,2. BELOW BASELINE,2146.0,3581.0,0.5992739458251884
+ICAD,Computer and Technology,Computer - Software,0__2,0,2.0,1. p999999_trade_value,3500.0,3500.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+IMMR,Computer and Technology,Computer - Peripheral Equipment,10__0,10,0.0,1. p999999_trade_value,13500.0,13500.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+IMMR,Computer and Technology,Computer - Peripheral Equipment,10__0,10,0.0,8. p75_trade_value,8505.0,7350.0,1.0,2.0,0.5,0.65,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+INOD,Computer and Technology,Computer - Services,30__2,30,2.0,1. p999999_trade_value,246329.99999999997,246329.99999999997,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+INOD,Computer and Technology,Computer - Services,30__2,30,2.0,4. p999_trade_value,163343.99999999997,163343.99999999997,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+INOD,Computer and Technology,Computer - Services,30__2,30,2.0,5. p99_trade_value,151800.0,77500.0,6.0,11.0,0.5454545454545454,0.65,2. BELOW BASELINE,7.0,13.0,0.5384615384615384
+INOD,Computer and Technology,Computer - Services,30__2,30,2.0,6. p95_trade_value,72000.0,27000.0,36.0,49.0,0.7346938775510204,0.65,2. BELOW BASELINE,43.0,62.0,0.6935483870967742
+INOD,Computer and Technology,Computer - Services,30__2,30,2.0,7. p90_trade_value,26790.000000000004,16000.0,39.0,63.0,0.6190476190476191,0.65,2. BELOW BASELINE,82.0,125.0,0.656
+INOD,Computer and Technology,Computer - Services,30__2,30,2.0,8. p75_trade_value,15950.0,8500.0,94.0,184.0,0.5108695652173914,0.65,2. BELOW BASELINE,176.0,309.0,0.56957928802589
+INTU,Computer and Technology,Computer - Software,40__0,40,0.0,1. p999999_trade_value,855750.0,855750.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+INTU,Computer and Technology,Computer - Software,40__0,40,0.0,4. p999_trade_value,750000.0,300000.0,3.0,6.0,0.5,0.65,2. BELOW BASELINE,3.0,7.0,0.42857142857142855
+INTU,Computer and Technology,Computer - Software,40__0,40,0.0,5. p99_trade_value,291250.0,82160.0,38.0,61.0,0.6229508196721312,0.65,2. BELOW BASELINE,41.0,68.0,0.6029411764705882
+INTU,Computer and Technology,Computer - Software,40__0,40,0.0,6. p95_trade_value,81999.99999999999,27625.0,129.0,271.0,0.47601476014760147,0.65,2. BELOW BASELINE,170.0,339.0,0.5014749262536873
+INTU,Computer and Technology,Computer - Software,40__0,40,0.0,7. p90_trade_value,27600.0,16964.999999999996,163.0,338.0,0.4822485207100592,0.65,2. BELOW BASELINE,333.0,677.0,0.4918759231905465
+INTU,Computer and Technology,Computer - Software,40__0,40,0.0,8. p75_trade_value,16958.0,9090.0,477.0,1016.0,0.46948818897637795,0.65,2. BELOW BASELINE,810.0,1693.0,0.47844063792085056
+IONQ,Computer and Technology,Computer - Integrated Systems,40__0,40,0.0,1. p999999_trade_value,491671.99999999994,491671.99999999994,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+IONQ,Computer and Technology,Computer - Integrated Systems,40__0,40,0.0,3. p9999_trade_value,460000.0,460000.0,0.0,2.0,0.0,0.65,2. BELOW BASELINE,0.0,3.0,0.0
+IONQ,Computer and Technology,Computer - Integrated Systems,40__0,40,0.0,4. p999_trade_value,451471.99999999994,240500.0,9.0,15.0,0.6,0.65,2. BELOW BASELINE,9.0,18.0,0.5
+IONQ,Computer and Technology,Computer - Integrated Systems,40__0,40,0.0,5. p99_trade_value,215000.0,70000.0,72.0,155.0,0.4645161290322581,0.65,2. BELOW BASELINE,81.0,173.0,0.4682080924855491
+IONQ,Computer and Technology,Computer - Integrated Systems,40__0,40,0.0,6. p95_trade_value,69600.0,27000.0,350.0,694.0,0.5043227665706052,0.65,2. BELOW BASELINE,431.0,867.0,0.497116493656286
+IONQ,Computer and Technology,Computer - Integrated Systems,40__0,40,0.0,7. p90_trade_value,26928.000000000004,17340.0,444.0,852.0,0.5211267605633803,0.65,2. BELOW BASELINE,875.0,1719.0,0.5090168702734148
+IONQ,Computer and Technology,Computer - Integrated Systems,40__0,40,0.0,8. p75_trade_value,17325.0,8874.0,1261.0,2578.0,0.4891388673390225,0.65,2. BELOW BASELINE,2136.0,4297.0,0.4970909937165464
+LOGI,Computer and Technology,Computer - Peripheral Equipment,25__0,25,0.0,1. p999999_trade_value,226875.0,226875.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+LOGI,Computer and Technology,Computer - Peripheral Equipment,25__0,25,0.0,5. p99_trade_value,99900.0,97500.0,2.0,3.0,0.6666666666666666,0.65,1. ABOVE BASELINE,3.0,4.0,0.75
+LOGI,Computer and Technology,Computer - Peripheral Equipment,25__0,25,0.0,6. p95_trade_value,92500.0,24800.0,10.0,13.0,0.7692307692307693,0.65,1. ABOVE BASELINE,13.0,17.0,0.7647058823529411
+LOGI,Computer and Technology,Computer - Peripheral Equipment,25__0,25,0.0,7. p90_trade_value,24180.0,16350.0,7.0,16.0,0.4375,0.65,2. BELOW BASELINE,20.0,33.0,0.6060606060606061
+LOGI,Computer and Technology,Computer - Peripheral Equipment,25__0,25,0.0,8. p75_trade_value,15900.0,8272.0,27.0,50.0,0.54,0.65,2. BELOW BASELINE,47.0,83.0,0.5662650602409639
+LTRX,Computer and Technology,Computer - Networking,5__0,5,0.0,1. p999999_trade_value,4935.0,4935.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+MANH,Computer and Technology,Computer - Software,25__0,25,0.0,1. p999999_trade_value,623360.0,623360.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+MANH,Computer and Technology,Computer - Software,25__0,25,0.0,5. p99_trade_value,141050.0,64000.0,1.0,2.0,0.5,0.65,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+MANH,Computer and Technology,Computer - Software,25__0,25,0.0,6. p95_trade_value,46720.00000000001,25884.000000000004,5.0,10.0,0.5,0.65,2. BELOW BASELINE,7.0,13.0,0.5384615384615384
+MANH,Computer and Technology,Computer - Software,25__0,25,0.0,7. p90_trade_value,24570.0,14690.0,7.0,12.0,0.5833333333333334,0.65,2. BELOW BASELINE,14.0,25.0,0.56
+MANH,Computer and Technology,Computer - Software,25__0,25,0.0,8. p75_trade_value,14280.000000000002,8610.0,19.0,36.0,0.5277777777777778,0.65,2. BELOW BASELINE,33.0,61.0,0.5409836065573771
+MGIC,Computer and Technology,Computer - Software,0__2,0,2.0,1. p999999_trade_value,6250.0,6250.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+MITK,Computer and Technology,Computer - Optical Imaging,10__0,10,0.0,1. p999999_trade_value,14954.999999999998,14954.999999999998,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+MITK,Computer and Technology,Computer - Optical Imaging,10__0,10,0.0,8. p75_trade_value,7409.999999999999,7139.999999999999,0.0,2.0,0.0,0.65,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+MSFT,Computer and Technology,Computer - Software,55__0,55,0.0,1. p999999_trade_value,4961232.0,4961232.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,1.0,1.0
+MSFT,Computer and Technology,Computer - Software,55__0,55,0.0,2. p99999_trade_value,4395000.0,3799240.0,1.0,2.0,0.5,0.65,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+MSFT,Computer and Technology,Computer - Software,55__0,55,0.0,3. p9999_trade_value,3060000.0,930624.0,11.0,21.0,0.5238095238095238,0.65,2. BELOW BASELINE,13.0,24.0,0.5416666666666666
+MSFT,Computer and Technology,Computer - Software,55__0,55,0.0,4. p999_trade_value,930000.0,228000.0,107.0,217.0,0.4930875576036866,0.65,2. BELOW BASELINE,120.0,241.0,0.4979253112033195
+MSFT,Computer and Technology,Computer - Software,55__0,55,0.0,5. p99_trade_value,227500.0,63731.00000000001,1151.0,2130.0,0.5403755868544601,0.65,2. BELOW BASELINE,1271.0,2371.0,0.5360607338675665
+MSFT,Computer and Technology,Computer - Software,55__0,55,0.0,6. p95_trade_value,63714.0,25090.0,4852.0,9480.0,0.5118143459915612,0.65,2. BELOW BASELINE,6123.0,11851.0,0.5166652603155851
+MSFT,Computer and Technology,Computer - Software,55__0,55,0.0,7. p90_trade_value,25088.0,16250.0,6006.0,11890.0,0.505130361648444,0.65,2. BELOW BASELINE,12129.0,23741.0,0.5108883366328293
+MSFT,Computer and Technology,Computer - Software,55__0,55,0.0,8. p75_trade_value,16245.000000000002,8700.0,17413.0,35632.0,0.48868994162550516,0.65,2. BELOW BASELINE,29542.0,59373.0,0.49756623380998094
+MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,1. p999999_trade_value,63232962.0,63232962.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,1.0,1.0
+MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,2. p99999_trade_value,47028254.0,22997600.0,3.0,9.0,0.3333333333333333,0.65,2. BELOW BASELINE,4.0,10.0,0.4
+MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,3. p9999_trade_value,22849420.0,5720000.0,47.0,83.0,0.5662650602409639,0.65,2. BELOW BASELINE,51.0,93.0,0.5483870967741935
+MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,4. p999_trade_value,5712120.0,705186.0,347.0,831.0,0.4175691937424789,0.65,2. BELOW BASELINE,398.0,924.0,0.43073593073593075
+MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,5. p99_trade_value,704990.0,109200.0,3734.0,8312.0,0.4492300288739172,0.65,2. BELOW BASELINE,4132.0,9236.0,0.4473798181030749
+MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,6. p95_trade_value,109189.99999999999,35000.0,16657.0,36958.0,0.45070079549759184,0.65,2. BELOW BASELINE,20789.0,46194.0,0.45003680131618823
+MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,7. p90_trade_value,34998.0,20995.0,20077.0,46148.0,0.435056773858022,0.65,2. BELOW BASELINE,40866.0,92342.0,0.4425505187238743
+MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,8. p75_trade_value,20994.0,10338.0,58940.0,138501.0,0.42555649417693736,0.65,2. BELOW BASELINE,99806.0,230843.0,0.4323544573584644
+AAPL,Computer and Technology,Computer - Micro Computers,55__0,55,0.0,1. p999999_trade_value,2497965.0,2497965.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+AAPL,Computer and Technology,Computer - Micro Computers,55__0,55,0.0,2. p99999_trade_value,2217600.0,1667080.0,3.0,4.0,0.75,0.65,1. ABOVE BASELINE,4.0,5.0,0.8
+AAPL,Computer and Technology,Computer - Micro Computers,55__0,55,0.0,3. p9999_trade_value,1606600.0,795832.0,29.0,39.0,0.7435897435897436,0.65,1. ABOVE BASELINE,33.0,44.0,0.75
+AAPL,Computer and Technology,Computer - Micro Computers,55__0,55,0.0,4. p999_trade_value,781200.0,246169.0,212.0,392.0,0.5408163265306123,0.65,2. BELOW BASELINE,245.0,436.0,0.5619266055045872
+AAPL,Computer and Technology,Computer - Micro Computers,55__0,55,0.0,5. p99_trade_value,246000.0,64500.0,2298.0,3926.0,0.5853285787060621,0.65,2. BELOW BASELINE,2543.0,4362.0,0.5829894543787254
+AAPL,Computer and Technology,Computer - Micro Computers,55__0,55,0.0,6. p95_trade_value,64480.00000000001,25350.0,9962.0,17431.0,0.5715105272216167,0.65,2. BELOW BASELINE,12505.0,21793.0,0.5738081035194788
+AAPL,Computer and Technology,Computer - Micro Computers,55__0,55,0.0,7. p90_trade_value,25347.0,16600.0,11843.0,21805.0,0.5431323091034167,0.65,2. BELOW BASELINE,24348.0,43598.0,0.5584659846781962
+AAPL,Computer and Technology,Computer - Micro Computers,55__0,55,0.0,8. p75_trade_value,16598.0,8930.0,34199.0,65351.0,0.5233125736408012,0.65,2. BELOW BASELINE,58547.0,108949.0,0.5373798749873794
+ACIW,Computer and Technology,Computer - Software,5__0,5,0.0,1. p999999_trade_value,5216.0,5216.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+ADBE,Computer and Technology,Computer - Software,45__1,45,1.0,1. p999999_trade_value,1699450.0,1699450.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+ADBE,Computer and Technology,Computer - Software,45__1,45,1.0,3. p9999_trade_value,1599784.9999999998,1004500.0,2.0,4.0,0.5,0.65,2. BELOW BASELINE,2.0,5.0,0.4
+ADBE,Computer and Technology,Computer - Software,45__1,45,1.0,4. p999_trade_value,918000.0,252525.0,19.0,43.0,0.4418604651162791,0.65,2. BELOW BASELINE,21.0,48.0,0.4375
+ADBE,Computer and Technology,Computer - Software,45__1,45,1.0,5. p99_trade_value,252174.00000000003,70488.0,182.0,423.0,0.4302600472813239,0.65,2. BELOW BASELINE,203.0,471.0,0.4309978768577495
+ADBE,Computer and Technology,Computer - Software,45__1,45,1.0,6. p95_trade_value,70333.0,25500.0,952.0,1880.0,0.5063829787234042,0.65,2. BELOW BASELINE,1155.0,2351.0,0.49128030625265845
+ADBE,Computer and Technology,Computer - Software,45__1,45,1.0,7. p90_trade_value,25499.999999999996,16215.0,1111.0,2354.0,0.4719626168224299,0.65,2. BELOW BASELINE,2266.0,4705.0,0.481615302869288
+ADBE,Computer and Technology,Computer - Software,45__1,45,1.0,8. p75_trade_value,16207.0,8620.0,3362.0,7053.0,0.47667659152133846,0.65,2. BELOW BASELINE,5628.0,11758.0,0.47865283211430515
+AGYS,Computer and Technology,Computer - Integrated Systems,10__0,10,0.0,1. p999999_trade_value,32200.0,32200.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+AGYS,Computer and Technology,Computer - Integrated Systems,10__0,10,0.0,7. p90_trade_value,12400.0,12400.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,2.0,0.0
+AGYS,Computer and Technology,Computer - Integrated Systems,10__0,10,0.0,8. p75_trade_value,5600.0,4900.0,1.0,2.0,0.5,0.65,2. BELOW BASELINE,1.0,4.0,0.25
+AMD,Computer and Technology,Computer - Integrated Systems,55__0,55,0.0,1. p999999_trade_value,2739982.0000000005,2739982.0000000005,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+AMD,Computer and Technology,Computer - Integrated Systems,55__0,55,0.0,2. p99999_trade_value,2027400.0,1938000.0,2.0,2.0,1.0,0.65,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+AMD,Computer and Technology,Computer - Integrated Systems,55__0,55,0.0,3. p9999_trade_value,1881000.0,1178230.0,9.0,20.0,0.45,0.65,2. BELOW BASELINE,11.0,23.0,0.4782608695652174
+AMD,Computer and Technology,Computer - Integrated Systems,55__0,55,0.0,4. p999_trade_value,1161135.0,325260.0,104.0,207.0,0.5024154589371981,0.65,2. BELOW BASELINE,115.0,230.0,0.5
+AMD,Computer and Technology,Computer - Integrated Systems,55__0,55,0.0,5. p99_trade_value,325000.0,60098.99999999999,1040.0,2063.0,0.5041202132816287,0.65,2. BELOW BASELINE,1155.0,2293.0,0.5037069341474052
+AMD,Computer and Technology,Computer - Integrated Systems,55__0,55,0.0,6. p95_trade_value,60098.0,23120.0,4663.0,9170.0,0.5085059978189749,0.65,2. BELOW BASELINE,5818.0,11463.0,0.507546017621914
+AMD,Computer and Technology,Computer - Integrated Systems,55__0,55,0.0,7. p90_trade_value,23115.0,15000.0,5738.0,11537.0,0.49735633180202826,0.65,2. BELOW BASELINE,11556.0,23000.0,0.5024347826086957
+AMD,Computer and Technology,Computer - Integrated Systems,55__0,55,0.0,8. p75_trade_value,14996.0,8280.0,16926.0,34417.0,0.4917918470523288,0.65,2. BELOW BASELINE,28482.0,57417.0,0.496055175296515
+ANSS,Computer and Technology,Computer - Software,25__0,25,0.0,1. p999999_trade_value,225000.0,225000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+ANSS,Computer and Technology,Computer - Software,25__0,25,0.0,5. p99_trade_value,132000.0,57000.0,0.0,2.0,0.0,0.65,2. BELOW BASELINE,0.0,3.0,0.0
+ANSS,Computer and Technology,Computer - Software,25__0,25,0.0,6. p95_trade_value,54500.0,15200.0,9.0,13.0,0.6923076923076923,0.65,2. BELOW BASELINE,9.0,16.0,0.5625
+ANSS,Computer and Technology,Computer - Software,25__0,25,0.0,7. p90_trade_value,13454.999999999998,9000.0,8.0,12.0,0.6666666666666666,0.65,2. BELOW BASELINE,17.0,28.0,0.6071428571428571
+ANSS,Computer and Technology,Computer - Software,25__0,25,0.0,8. p75_trade_value,8800.0,6020.0,36.0,42.0,0.8571428571428571,0.65,2. BELOW BASELINE,53.0,70.0,0.7571428571428571
+BLKB,Computer and Technology,Computer - Software,10__0,10,0.0,1. p999999_trade_value,7600.0,7600.0,2.0,2.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+CACI,Computer and Technology,Computer - Services,25__0,25,0.0,1. p999999_trade_value,264960.0,264960.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+CACI,Computer and Technology,Computer - Services,25__0,25,0.0,5. p99_trade_value,254794.99999999997,84455.0,2.0,2.0,1.0,0.65,1. ABOVE BASELINE,3.0,3.0,1.0
+CACI,Computer and Technology,Computer - Services,25__0,25,0.0,6. p95_trade_value,84000.0,25350.0,6.0,8.0,0.75,0.65,1. ABOVE BASELINE,9.0,11.0,0.8181818181818182
+CACI,Computer and Technology,Computer - Services,25__0,25,0.0,7. p90_trade_value,23940.000000000004,12078.0,7.0,10.0,0.7,0.65,1. ABOVE BASELINE,16.0,21.0,0.7619047619047619
+CACI,Computer and Technology,Computer - Services,25__0,25,0.0,8. p75_trade_value,12076.999999999998,7950.0,18.0,32.0,0.5625,0.65,2. BELOW BASELINE,34.0,53.0,0.6415094339622641
+CDNS,Computer and Technology,Computer - Software,35__0,35,0.0,1. p999999_trade_value,332464.0,332464.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+CDNS,Computer and Technology,Computer - Software,35__0,35,0.0,4. p999_trade_value,214240.0,214200.0,0.0,2.0,0.0,0.65,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+CDNS,Computer and Technology,Computer - Software,35__0,35,0.0,5. p99_trade_value,212800.0,77550.0,10.0,20.0,0.5,0.65,2. BELOW BASELINE,11.0,23.0,0.4782608695652174
+CDNS,Computer and Technology,Computer - Software,35__0,35,0.0,6. p95_trade_value,76200.0,22800.0,49.0,93.0,0.5268817204301075,0.65,2. BELOW BASELINE,60.0,116.0,0.5172413793103449
+CDNS,Computer and Technology,Computer - Software,35__0,35,0.0,7. p90_trade_value,22720.0,15300.0,64.0,115.0,0.5565217391304348,0.65,2. BELOW BASELINE,124.0,231.0,0.5367965367965368
+CDNS,Computer and Technology,Computer - Software,35__0,35,0.0,8. p75_trade_value,15255.000000000002,8300.0,196.0,342.0,0.5730994152046783,0.65,2. BELOW BASELINE,320.0,573.0,0.5584642233856894
+CRM,Computer and Technology,Computer - Software,45__0,45,0.0,1. p999999_trade_value,4400000.0,4400000.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,1.0,1.0
+CRM,Computer and Technology,Computer - Software,45__0,45,0.0,3. p9999_trade_value,1695000.0,1075437.0,2.0,4.0,0.5,0.65,2. BELOW BASELINE,3.0,5.0,0.6
+CRM,Computer and Technology,Computer - Software,45__0,45,0.0,4. p999_trade_value,1056864.0,260800.0,17.0,39.0,0.4358974358974359,0.65,2. BELOW BASELINE,20.0,44.0,0.45454545454545453
+CRM,Computer and Technology,Computer - Software,45__0,45,0.0,5. p99_trade_value,257414.0,70755.0,188.0,395.0,0.4759493670886076,0.65,2. BELOW BASELINE,208.0,439.0,0.47380410022779046
+CRM,Computer and Technology,Computer - Software,45__0,45,0.0,6. p95_trade_value,70680.0,28320.0,859.0,1756.0,0.4891799544419134,0.65,2. BELOW BASELINE,1067.0,2195.0,0.4861047835990888
+CRM,Computer and Technology,Computer - Software,45__0,45,0.0,7. p90_trade_value,28305.0,18000.0,1029.0,2209.0,0.46582163875056587,0.65,2. BELOW BASELINE,2096.0,4404.0,0.47593097184377836
+CRM,Computer and Technology,Computer - Software,45__0,45,0.0,8. p75_trade_value,17983.0,9345.0,3009.0,6549.0,0.4594594594594595,0.65,2. BELOW BASELINE,5105.0,10953.0,0.46608235186706837
+CSCO,Computer and Technology,Computer - Networking,35__0,35,0.0,1. p999999_trade_value,1189881.0,1189881.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,1.0,1.0
+CSCO,Computer and Technology,Computer - Networking,35__0,35,0.0,4. p999_trade_value,424000.0,293964.99999999994,1.0,4.0,0.25,0.65,2. BELOW BASELINE,2.0,5.0,0.4
+CSCO,Computer and Technology,Computer - Networking,35__0,35,0.0,5. p99_trade_value,290000.0,67497.0,28.0,42.0,0.6666666666666666,0.65,2. BELOW BASELINE,30.0,47.0,0.6382978723404256
+CSCO,Computer and Technology,Computer - Networking,35__0,35,0.0,6. p95_trade_value,67044.0,22610.0,118.0,187.0,0.6310160427807486,0.65,2. BELOW BASELINE,148.0,234.0,0.6324786324786325
+CSCO,Computer and Technology,Computer - Networking,35__0,35,0.0,7. p90_trade_value,22599.999999999996,15047.999999999998,112.0,234.0,0.47863247863247865,0.65,2. BELOW BASELINE,260.0,468.0,0.5555555555555556
+CSCO,Computer and Technology,Computer - Networking,35__0,35,0.0,8. p75_trade_value,15028.0,8150.0,389.0,701.0,0.5549215406562055,0.65,2. BELOW BASELINE,649.0,1169.0,0.5551753635585971
+CVLT,Computer and Technology,Computer - Software,30__1,30,1.0,1. p999999_trade_value,900800.0,900800.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+CVLT,Computer and Technology,Computer - Software,30__1,30,1.0,4. p999_trade_value,765000.0,765000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+CVLT,Computer and Technology,Computer - Software,30__1,30,1.0,5. p99_trade_value,498500.0,61200.0,7.0,13.0,0.5384615384615384,0.65,2. BELOW BASELINE,9.0,15.0,0.6
+CVLT,Computer and Technology,Computer - Software,30__1,30,1.0,6. p95_trade_value,59780.00000000001,27440.000000000004,49.0,62.0,0.7903225806451613,0.65,2. BELOW BASELINE,58.0,77.0,0.7532467532467533
+CVLT,Computer and Technology,Computer - Software,30__1,30,1.0,7. p90_trade_value,27259.999999999996,19880.0,40.0,72.0,0.5555555555555556,0.65,2. BELOW BASELINE,98.0,149.0,0.6577181208053692
+CVLT,Computer and Technology,Computer - Software,30__1,30,1.0,8. p75_trade_value,19780.0,9760.0,129.0,223.0,0.57847533632287,0.65,2. BELOW BASELINE,227.0,372.0,0.6102150537634409
+DELL,Computer and Technology,Computer - Micro Computers,45__1,45,1.0,1. p999999_trade_value,651000.0,651000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+DELL,Computer and Technology,Computer - Micro Computers,45__1,45,1.0,3. p9999_trade_value,522375.0,520600.0,0.0,2.0,0.0,0.65,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+DELL,Computer and Technology,Computer - Micro Computers,45__1,45,1.0,4. p999_trade_value,496620.0,212800.0,8.0,27.0,0.2962962962962963,0.65,2. BELOW BASELINE,9.0,30.0,0.3
+DELL,Computer and Technology,Computer - Micro Computers,45__1,45,1.0,5. p99_trade_value,202500.0,64960.0,155.0,270.0,0.5740740740740741,0.65,2. BELOW BASELINE,164.0,300.0,0.5466666666666666
+DELL,Computer and Technology,Computer - Micro Computers,45__1,45,1.0,6. p95_trade_value,64728.0,25499.999999999996,590.0,1199.0,0.4920767306088407,0.65,2. BELOW BASELINE,754.0,1499.0,0.5030020013342228
+DELL,Computer and Technology,Computer - Micro Computers,45__1,45,1.0,7. p90_trade_value,25476.000000000004,16524.0,810.0,1499.0,0.5403602401601068,0.65,2. BELOW BASELINE,1564.0,2998.0,0.5216811207471648
+DELL,Computer and Technology,Computer - Micro Computers,45__1,45,1.0,8. p75_trade_value,16520.0,8900.0,2295.0,4493.0,0.510794569330069,0.65,2. BELOW BASELINE,3859.0,7491.0,0.5151515151515151
+DSGX,Computer and Technology,Computer - Software,15__0,15,0.0,1. p999999_trade_value,30070.0,30070.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+DSGX,Computer and Technology,Computer - Software,15__0,15,0.0,6. p95_trade_value,26100.0,26100.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+DSGX,Computer and Technology,Computer - Software,15__0,15,0.0,7. p90_trade_value,15741.0,15741.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,3.0,3.0,1.0
+DSGX,Computer and Technology,Computer - Software,15__0,15,0.0,8. p75_trade_value,9196.0,7103.999999999999,2.0,3.0,0.6666666666666666,0.65,1. ABOVE BASELINE,5.0,6.0,0.8333333333333334
+EXTR,Computer and Technology,Computer - Networking,15__0,15,0.0,1. p999999_trade_value,78771.99999999999,78771.99999999999,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+EXTR,Computer and Technology,Computer - Networking,15__0,15,0.0,7. p90_trade_value,46928.0,46928.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+EXTR,Computer and Technology,Computer - Networking,15__0,15,0.0,8. p75_trade_value,14000.0,9990.0,2.0,3.0,0.6666666666666666,0.65,2. BELOW BASELINE,3.0,5.0,0.6
+FARO,Computer and Technology,Computer - Integrated Systems,10__0,10,0.0,1. p999999_trade_value,20000.0,20000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+FARO,Computer and Technology,Computer - Integrated Systems,10__0,10,0.0,8. p75_trade_value,10000.0,10000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+GIB,Computer and Technology,Computer - Services,0__2,0,2.0,1. p999999_trade_value,3420.0000000000005,3420.0000000000005,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+MU,Computer and Technology,Computer - Integrated Systems,50__1,50,1.0,1. p999999_trade_value,8018248.000000001,8018248.000000001,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+MU,Computer and Technology,Computer - Integrated Systems,50__1,50,1.0,3. p9999_trade_value,4162144.0,1435000.0,3.0,8.0,0.375,0.65,2. BELOW BASELINE,3.0,9.0,0.3333333333333333
+MU,Computer and Technology,Computer - Integrated Systems,50__1,50,1.0,4. p999_trade_value,1368000.0,317696.0,32.0,76.0,0.42105263157894735,0.65,2. BELOW BASELINE,35.0,85.0,0.4117647058823529
+MU,Computer and Technology,Computer - Integrated Systems,50__1,50,1.0,5. p99_trade_value,315000.0,82560.0,377.0,762.0,0.494750656167979,0.65,2. BELOW BASELINE,412.0,847.0,0.48642266824085006
+MU,Computer and Technology,Computer - Integrated Systems,50__1,50,1.0,6. p95_trade_value,82500.0,28480.0,1787.0,3388.0,0.5274498229043684,0.65,2. BELOW BASELINE,2199.0,4235.0,0.5192443919716647
+MU,Computer and Technology,Computer - Integrated Systems,50__1,50,1.0,7. p90_trade_value,28475.0,17520.0,2188.0,4234.0,0.516769012753897,0.65,2. BELOW BASELINE,4387.0,8469.0,0.5180068485063172
+MU,Computer and Technology,Computer - Integrated Systems,50__1,50,1.0,8. p75_trade_value,17516.0,9150.0,6336.0,12706.0,0.49866204942546827,0.65,2. BELOW BASELINE,10723.0,21175.0,0.5063990554899646
+NEON,Computer and Technology,Computer - Software,20__0,20,0.0,1. p999999_trade_value,27859.999999999996,27859.999999999996,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+NEON,Computer and Technology,Computer - Software,20__0,20,0.0,6. p95_trade_value,22500.0,13529.999999999998,3.0,3.0,1.0,0.65,1. ABOVE BASELINE,4.0,4.0,1.0
+NEON,Computer and Technology,Computer - Software,20__0,20,0.0,7. p90_trade_value,11900.0,10500.0,2.0,4.0,0.5,0.65,2. BELOW BASELINE,6.0,8.0,0.75
+NEON,Computer and Technology,Computer - Software,20__0,20,0.0,8. p75_trade_value,9840.0,6720.0,5.0,12.0,0.4166666666666667,0.65,2. BELOW BASELINE,11.0,20.0,0.55
+NTAP,Computer and Technology,Computer- Storage Devices,30__2,30,2.0,1. p999999_trade_value,292500.0,292500.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+NTAP,Computer and Technology,Computer- Storage Devices,30__2,30,2.0,5. p99_trade_value,138600.0,54945.00000000001,4.0,9.0,0.4444444444444444,0.65,2. BELOW BASELINE,5.0,10.0,0.5
+NTAP,Computer and Technology,Computer- Storage Devices,30__2,30,2.0,6. p95_trade_value,52000.0,22467.999999999996,25.0,40.0,0.625,0.65,2. BELOW BASELINE,30.0,50.0,0.6
+NTAP,Computer and Technology,Computer- Storage Devices,30__2,30,2.0,7. p90_trade_value,21760.000000000004,13800.0,42.0,50.0,0.84,0.65,2. BELOW BASELINE,72.0,100.0,0.72
+NTAP,Computer and Technology,Computer- Storage Devices,30__2,30,2.0,8. p75_trade_value,13750.0,8100.0,104.0,152.0,0.6842105263157895,0.65,2. BELOW BASELINE,176.0,252.0,0.6984126984126984
+NTGR,Computer and Technology,Computer - Networking,20__0,20,0.0,1. p999999_trade_value,80000.0,80000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+NTGR,Computer and Technology,Computer - Networking,20__0,20,0.0,6. p95_trade_value,66300.0,50460.0,1.0,3.0,0.3333333333333333,0.65,2. BELOW BASELINE,1.0,4.0,0.25
+NTGR,Computer and Technology,Computer - Networking,20__0,20,0.0,7. p90_trade_value,39236.0,37350.0,2.0,3.0,0.6666666666666666,0.65,2. BELOW BASELINE,3.0,7.0,0.42857142857142855
+NTGR,Computer and Technology,Computer - Networking,20__0,20,0.0,8. p75_trade_value,34210.0,9000.0,5.0,11.0,0.45454545454545453,0.65,2. BELOW BASELINE,8.0,18.0,0.4444444444444444
+OPRX,Computer and Technology,Computer - Software,10__0,10,0.0,1. p999999_trade_value,7960.000000000001,7960.000000000001,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+OPRX,Computer and Technology,Computer - Software,10__0,10,0.0,8. p75_trade_value,7240.000000000001,7240.000000000001,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+ORCL,Computer and Technology,Computer - Software,45__0,45,0.0,1. p999999_trade_value,1680000.0,1680000.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,1.0,1.0
+ORCL,Computer and Technology,Computer - Software,45__0,45,0.0,3. p9999_trade_value,951700.0,774000.0,1.0,3.0,0.3333333333333333,0.65,2. BELOW BASELINE,2.0,4.0,0.5
+ORCL,Computer and Technology,Computer - Software,45__0,45,0.0,4. p999_trade_value,770000.0,241200.0,25.0,36.0,0.6944444444444444,0.65,2. BELOW BASELINE,27.0,40.0,0.675
+ORCL,Computer and Technology,Computer - Software,45__0,45,0.0,5. p99_trade_value,239400.0,72000.0,208.0,352.0,0.5909090909090909,0.65,2. BELOW BASELINE,235.0,392.0,0.5994897959183674
+ORCL,Computer and Technology,Computer - Software,45__0,45,0.0,6. p95_trade_value,71875.0,29233.0,877.0,1566.0,0.5600255427841635,0.65,2. BELOW BASELINE,1112.0,1958.0,0.567926455566905
+ORCL,Computer and Technology,Computer - Software,45__0,45,0.0,7. p90_trade_value,29232.0,17829.0,1073.0,1957.0,0.5482881962187021,0.65,2. BELOW BASELINE,2185.0,3915.0,0.558109833971903
+ORCL,Computer and Technology,Computer - Software,45__0,45,0.0,8. p75_trade_value,17822.000000000004,9200.0,3064.0,5894.0,0.5198506956226672,0.65,2. BELOW BASELINE,5249.0,9809.0,0.5351208074217555
+OTEX,Computer and Technology,Computer - Software,10__0,10,0.0,1. p999999_trade_value,22610.0,22610.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+OTEX,Computer and Technology,Computer - Software,10__0,10,0.0,8. p75_trade_value,22039.999999999996,7560.000000000001,1.0,2.0,0.5,0.65,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+PDFS,Computer and Technology,Computer - Services,5__0,5,0.0,1. p999999_trade_value,10000.0,10000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+PEGA,Computer and Technology,Computer - Software,20__0,20,0.0,1. p999999_trade_value,197105.00000000003,197105.00000000003,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+PEGA,Computer and Technology,Computer - Software,20__0,20,0.0,6. p95_trade_value,46200.0,16165.0,1.0,4.0,0.25,0.65,2. BELOW BASELINE,2.0,5.0,0.4
+PEGA,Computer and Technology,Computer - Software,20__0,20,0.0,7. p90_trade_value,14500.0,12540.0,2.0,5.0,0.4,0.65,2. BELOW BASELINE,4.0,10.0,0.4
+PEGA,Computer and Technology,Computer - Software,20__0,20,0.0,8. p75_trade_value,12160.0,7195.999999999999,5.0,13.0,0.38461538461538464,0.65,2. BELOW BASELINE,9.0,23.0,0.391304347826087
+PRGS,Computer and Technology,Computer - Software,15__0,15,0.0,1. p999999_trade_value,39600.0,39600.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+PRGS,Computer and Technology,Computer - Software,15__0,15,0.0,6. p95_trade_value,39000.0,32400.0,0.0,2.0,0.0,0.65,2. BELOW BASELINE,0.0,3.0,0.0
+PRGS,Computer and Technology,Computer - Software,15__0,15,0.0,7. p90_trade_value,12150.000000000002,10000.0,0.0,3.0,0.0,0.65,2. BELOW BASELINE,0.0,6.0,0.0
+PRGS,Computer and Technology,Computer - Software,15__0,15,0.0,8. p75_trade_value,9000.0,6405.0,5.0,7.0,0.7142857142857143,0.65,2. BELOW BASELINE,5.0,13.0,0.38461538461538464
+PSTG,Computer and Technology,Computer- Storage Devices,30__2,30,2.0,1. p999999_trade_value,220000.0,220000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+PSTG,Computer and Technology,Computer- Storage Devices,30__2,30,2.0,5. p99_trade_value,130390.00000000001,50000.0,1.0,9.0,0.1111111111111111,0.65,2. BELOW BASELINE,1.0,10.0,0.1
+PSTG,Computer and Technology,Computer- Storage Devices,30__2,30,2.0,6. p95_trade_value,48000.0,22000.000000000004,15.0,41.0,0.36585365853658536,0.65,2. BELOW BASELINE,16.0,51.0,0.3137254901960784
+PSTG,Computer and Technology,Computer- Storage Devices,30__2,30,2.0,7. p90_trade_value,21088.0,15600.0,19.0,48.0,0.3958333333333333,0.65,2. BELOW BASELINE,35.0,99.0,0.35353535353535354
+PSTG,Computer and Technology,Computer- Storage Devices,30__2,30,2.0,8. p75_trade_value,15329.999999999998,9200.0,66.0,148.0,0.44594594594594594,0.65,2. BELOW BASELINE,101.0,247.0,0.4089068825910931
+PTC,Computer and Technology,Computer - Software,25__0,25,0.0,1. p999999_trade_value,430168.99999999994,430168.99999999994,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+PTC,Computer and Technology,Computer - Software,25__0,25,0.0,5. p99_trade_value,283100.0,131200.0,1.0,3.0,0.3333333333333333,0.65,2. BELOW BASELINE,2.0,4.0,0.5
+PTC,Computer and Technology,Computer - Software,25__0,25,0.0,6. p95_trade_value,99000.0,38000.0,14.0,18.0,0.7777777777777778,0.65,2. BELOW BASELINE,16.0,22.0,0.7272727272727273
+PTC,Computer and Technology,Computer - Software,25__0,25,0.0,7. p90_trade_value,33932.00000000001,20580.0,16.0,18.0,0.8888888888888888,0.65,2. BELOW BASELINE,32.0,40.0,0.8
+PTC,Computer and Technology,Computer - Software,25__0,25,0.0,8. p75_trade_value,18950.0,7950.0,44.0,57.0,0.7719298245614035,0.65,2. BELOW BASELINE,76.0,97.0,0.7835051546391752
+QMCO,Computer and Technology,Computer- Storage Devices,10__0,10,0.0,1. p999999_trade_value,32000.0,32000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+QMCO,Computer and Technology,Computer- Storage Devices,10__0,10,0.0,7. p90_trade_value,16800.0,16800.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,2.0,0.0
+QMCO,Computer and Technology,Computer- Storage Devices,10__0,10,0.0,8. p75_trade_value,12600.0,9200.0,0.0,2.0,0.0,0.65,2. BELOW BASELINE,0.0,4.0,0.0
+SAP,Computer and Technology,Computer - Software,30__2,30,2.0,1. p999999_trade_value,310000.0,310000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+SAP,Computer and Technology,Computer - Software,30__2,30,2.0,4. p999_trade_value,259935.0,259935.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+SAP,Computer and Technology,Computer - Software,30__2,30,2.0,5. p99_trade_value,151200.0,60450.0,7.0,11.0,0.6363636363636364,0.65,2. BELOW BASELINE,8.0,13.0,0.6153846153846154
+SAP,Computer and Technology,Computer - Software,30__2,30,2.0,6. p95_trade_value,60000.0,20520.0,28.0,47.0,0.5957446808510638,0.65,2. BELOW BASELINE,36.0,60.0,0.6
+SAP,Computer and Technology,Computer - Software,30__2,30,2.0,7. p90_trade_value,20210.0,13230.000000000002,24.0,59.0,0.4067796610169492,0.65,2. BELOW BASELINE,60.0,119.0,0.5042016806722689
+SAP,Computer and Technology,Computer - Software,30__2,30,2.0,8. p75_trade_value,12985.0,7290.000000000001,93.0,178.0,0.5224719101123596,0.65,2. BELOW BASELINE,153.0,297.0,0.5151515151515151
+SIMO,Computer and Technology,Computer - Integrated Systems,20__2,20,2.0,1. p999999_trade_value,260000.0,260000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+SIMO,Computer and Technology,Computer - Integrated Systems,20__2,20,2.0,5. p99_trade_value,210000.0,210000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+SIMO,Computer and Technology,Computer - Integrated Systems,20__2,20,2.0,6. p95_trade_value,178080.0,21855.0,2.0,4.0,0.5,0.65,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
+SIMO,Computer and Technology,Computer - Integrated Systems,20__2,20,2.0,7. p90_trade_value,21000.0,20010.0,0.0,5.0,0.0,0.65,2. BELOW BASELINE,4.0,11.0,0.36363636363636365
+SIMO,Computer and Technology,Computer - Integrated Systems,20__2,20,2.0,8. p75_trade_value,18690.0,10500.0,2.0,15.0,0.13333333333333333,0.65,2. BELOW BASELINE,6.0,26.0,0.23076923076923078
+SLP,Computer and Technology,Computer - Software,10__0,10,0.0,1. p999999_trade_value,29000.0,29000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+SLP,Computer and Technology,Computer - Software,10__0,10,0.0,7. p90_trade_value,12000.0,12000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+SLP,Computer and Technology,Computer - Software,10__0,10,0.0,8. p75_trade_value,11160.0,8250.0,2.0,2.0,1.0,0.65,2. BELOW BASELINE,3.0,4.0,0.75
+SMCI,Computer and Technology,Computer- Storage Devices,55__0,55,0.0,1. p999999_trade_value,8809372.0,8809372.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+SMCI,Computer and Technology,Computer- Storage Devices,55__0,55,0.0,2. p99999_trade_value,7498075.0,6006390.0,1.0,2.0,0.5,0.65,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+SMCI,Computer and Technology,Computer- Storage Devices,55__0,55,0.0,3. p9999_trade_value,5679000.0,2108496.0000000005,13.0,22.0,0.5909090909090909,0.65,2. BELOW BASELINE,14.0,25.0,0.56
+SMCI,Computer and Technology,Computer- Storage Devices,55__0,55,0.0,4. p999_trade_value,2094300.0,341334.0,107.0,217.0,0.4930875576036866,0.65,2. BELOW BASELINE,121.0,242.0,0.5
+SMCI,Computer and Technology,Computer- Storage Devices,55__0,55,0.0,5. p99_trade_value,339499.99999999994,72000.0,1070.0,2186.0,0.48947849954254347,0.65,2. BELOW BASELINE,1191.0,2428.0,0.49052718286655683
+SMCI,Computer and Technology,Computer- Storage Devices,55__0,55,0.0,6. p95_trade_value,71978.0,27700.0,4678.0,9650.0,0.48476683937823833,0.65,2. BELOW BASELINE,5869.0,12078.0,0.48592482199039577
+SMCI,Computer and Technology,Computer- Storage Devices,55__0,55,0.0,7. p90_trade_value,27698.0,17820.0,5807.0,12082.0,0.4806323456381394,0.65,2. BELOW BASELINE,11676.0,24160.0,0.48327814569536426
+SMCI,Computer and Technology,Computer- Storage Devices,55__0,55,0.0,8. p75_trade_value,17819.0,9362.0,16976.0,36210.0,0.4688207677437172,0.65,2. BELOW BASELINE,28652.0,60370.0,0.4746065926784827
+SNPS,Computer and Technology,Computer - Software,35__0,35,0.0,1. p999999_trade_value,472500.0,472500.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+SNPS,Computer and Technology,Computer - Software,35__0,35,0.0,4. p999_trade_value,451500.0,283050.0,0.0,3.0,0.0,0.65,2. BELOW BASELINE,0.0,4.0,0.0
+SNPS,Computer and Technology,Computer - Software,35__0,35,0.0,5. p99_trade_value,238700.0,78100.0,20.0,32.0,0.625,0.65,2. BELOW BASELINE,20.0,36.0,0.5555555555555556
+SNPS,Computer and Technology,Computer - Software,35__0,35,0.0,6. p95_trade_value,77900.0,26220.0,83.0,142.0,0.5845070422535211,0.65,2. BELOW BASELINE,103.0,178.0,0.5786516853932584
+SNPS,Computer and Technology,Computer - Software,35__0,35,0.0,7. p90_trade_value,26050.0,16785.0,69.0,178.0,0.38764044943820225,0.65,2. BELOW BASELINE,172.0,356.0,0.48314606741573035
+SNPS,Computer and Technology,Computer - Software,35__0,35,0.0,8. p75_trade_value,16720.0,9000.0,291.0,535.0,0.5439252336448598,0.65,2. BELOW BASELINE,463.0,891.0,0.5196408529741863
+SPNS,Computer and Technology,Computer - Software,5__0,5,0.0,1. p999999_trade_value,3200.0,3200.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+SSNC,Computer and Technology,Computer - Software,15__0,15,0.0,1. p999999_trade_value,17550.0,17550.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+SSNC,Computer and Technology,Computer - Software,15__0,15,0.0,6. p95_trade_value,16761.0,16704.0,1.0,2.0,0.5,0.65,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+SSNC,Computer and Technology,Computer - Software,15__0,15,0.0,7. p90_trade_value,16157.000000000002,11760.0,3.0,3.0,1.0,0.65,2. BELOW BASELINE,5.0,6.0,0.8333333333333334
+SSNC,Computer and Technology,Computer - Software,15__0,15,0.0,8. p75_trade_value,11000.000000000002,8056.0,4.0,7.0,0.5714285714285714,0.65,2. BELOW BASELINE,9.0,13.0,0.6923076923076923
+STX,Computer and Technology,Computer - Integrated Systems,30__2,30,2.0,1. p999999_trade_value,419244.00000000006,419244.00000000006,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+STX,Computer and Technology,Computer - Integrated Systems,30__2,30,2.0,4. p999_trade_value,390000.0,390000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+STX,Computer and Technology,Computer - Integrated Systems,30__2,30,2.0,5. p99_trade_value,260000.0,87248.0,7.0,16.0,0.4375,0.65,2. BELOW BASELINE,8.0,18.0,0.4444444444444444
+STX,Computer and Technology,Computer - Integrated Systems,30__2,30,2.0,6. p95_trade_value,86400.0,27440.000000000004,40.0,70.0,0.5714285714285714,0.65,2. BELOW BASELINE,48.0,88.0,0.5454545454545454
+STX,Computer and Technology,Computer - Integrated Systems,30__2,30,2.0,7. p90_trade_value,27195.0,18000.0,49.0,87.0,0.5632183908045977,0.65,2. BELOW BASELINE,97.0,175.0,0.5542857142857143
+STX,Computer and Technology,Computer - Integrated Systems,30__2,30,2.0,8. p75_trade_value,17939.999999999996,8900.0,120.0,262.0,0.4580152671755725,0.65,2. BELOW BASELINE,217.0,437.0,0.4965675057208238
+TBCH,Computer and Technology,Computer - Peripheral Equipment,15__0,15,0.0,1. p999999_trade_value,39160.0,39160.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+TBCH,Computer and Technology,Computer - Peripheral Equipment,15__0,15,0.0,6. p95_trade_value,35650.0,35650.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,2.0,0.0
+TBCH,Computer and Technology,Computer - Peripheral Equipment,15__0,15,0.0,7. p90_trade_value,30659.999999999996,22000.000000000004,1.0,2.0,0.5,0.65,2. BELOW BASELINE,1.0,4.0,0.25
+TBCH,Computer and Technology,Computer - Peripheral Equipment,15__0,15,0.0,8. p75_trade_value,14980.000000000002,6650.0,0.0,5.0,0.0,0.65,2. BELOW BASELINE,1.0,9.0,0.1111111111111111
+TDC,Computer and Technology,Computer- Storage Devices,20__0,20,0.0,1. p999999_trade_value,109900.0,109900.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+TDC,Computer and Technology,Computer- Storage Devices,20__0,20,0.0,5. p99_trade_value,18120.0,18120.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+TDC,Computer and Technology,Computer- Storage Devices,20__0,20,0.0,6. p95_trade_value,16000.0,9821.0,4.0,6.0,0.6666666666666666,0.65,1. ABOVE BASELINE,6.0,8.0,0.75
+TDC,Computer and Technology,Computer- Storage Devices,20__0,20,0.0,7. p90_trade_value,9765.0,7030.0,6.0,7.0,0.8571428571428571,0.65,1. ABOVE BASELINE,12.0,15.0,0.8
+TDC,Computer and Technology,Computer- Storage Devices,20__0,20,0.0,8. p75_trade_value,6970.0,5780.0,28.0,32.0,0.875,0.65,1. ABOVE BASELINE,40.0,47.0,0.851063829787234
+VRNT,Computer and Technology,Computer - Software,20__0,20,0.0,1. p999999_trade_value,120400.0,120400.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+VRNT,Computer and Technology,Computer - Software,20__0,20,0.0,5. p99_trade_value,71000.0,71000.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+VRNT,Computer and Technology,Computer - Software,20__0,20,0.0,6. p95_trade_value,39804.99999999999,18879.0,3.0,4.0,0.75,0.65,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
+VRNT,Computer and Technology,Computer - Software,20__0,20,0.0,7. p90_trade_value,17390.0,12870.000000000002,3.0,5.0,0.6,0.65,2. BELOW BASELINE,7.0,11.0,0.6363636363636364
+VRNT,Computer and Technology,Computer - Software,20__0,20,0.0,8. p75_trade_value,10800.0,7000.0,12.0,17.0,0.7058823529411765,0.65,2. BELOW BASELINE,19.0,28.0,0.6785714285714286
+VUZI,Computer and Technology,Computer - Peripheral Equipment,15__0,15,0.0,1. p999999_trade_value,80000.0,80000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+VUZI,Computer and Technology,Computer - Peripheral Equipment,15__0,15,0.0,6. p95_trade_value,18600.0,18600.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+VUZI,Computer and Technology,Computer - Peripheral Equipment,15__0,15,0.0,7. p90_trade_value,13394.999999999998,13000.0,1.0,2.0,0.5,0.65,2. BELOW BASELINE,3.0,4.0,0.75
+VUZI,Computer and Technology,Computer - Peripheral Equipment,15__0,15,0.0,8. p75_trade_value,10000.0,7000.0,2.0,5.0,0.4,0.65,2. BELOW BASELINE,5.0,9.0,0.5555555555555556
+WDC,Computer and Technology,Computer- Storage Devices,35__2,35,2.0,1. p999999_trade_value,980000.0,980000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+WDC,Computer and Technology,Computer- Storage Devices,35__2,35,2.0,4. p999_trade_value,769500.0000000001,420000.0,1.0,4.0,0.25,0.65,2. BELOW BASELINE,2.0,5.0,0.4
+WDC,Computer and Technology,Computer- Storage Devices,35__2,35,2.0,5. p99_trade_value,405489.99999999994,78232.0,18.0,36.0,0.5,0.65,2. BELOW BASELINE,20.0,41.0,0.4878048780487805
+WDC,Computer and Technology,Computer- Storage Devices,35__2,35,2.0,6. p95_trade_value,77850.0,27600.0,93.0,164.0,0.5670731707317073,0.65,2. BELOW BASELINE,113.0,205.0,0.551219512195122
+WDC,Computer and Technology,Computer- Storage Devices,35__2,35,2.0,7. p90_trade_value,27500.0,17875.0,122.0,202.0,0.6039603960396039,0.65,2. BELOW BASELINE,235.0,407.0,0.5773955773955773
+WDC,Computer and Technology,Computer- Storage Devices,35__2,35,2.0,8. p75_trade_value,17856.0,9504.0,360.0,611.0,0.5891980360065466,0.65,2. BELOW BASELINE,595.0,1018.0,0.5844793713163065

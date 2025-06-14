@@ -1,0 +1,11 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AGI,Basic Materials,Mining - Gold,0.65,6840.000000000001,8. p75_trade_value,39.0,151,20__0,20,0.0,12300.0,14490.0,24750.0,35256.5,36726.65,36873.67,36888.37
+B,Basic Materials,Mining - Gold,0.65,12084.0,7. p90_trade_value,13.0,126,20__0,20,0.0,12042.0,18456.25,24659.25,27347.38,27484.74,27498.47,27499.85
+FNV,Basic Materials,Mining - Gold,0.65,,,,174,20__0,20,0.0,11382.0,15370.0,21566.96,26862.82,27633.38,27710.44,27718.14
+GFI,Basic Materials,Mining - Gold,0.65,74000.0,5. p99_trade_value,2.0,112,20__0,20,0.0,31078.8,43226.25,73560.0,84756.9,85965.69,86086.57,86098.66
+GSM,Basic Materials,Mining - Miscellaneous,0.65,,,,79,20__0,20,0.0,11631.0,15334.5,38146.2,63214.62,65721.46,65972.15,65997.21
+HL,Basic Materials,Mining - Silver,0.65,92000.0,1. p999999_trade_value,1.0,140,20__0,20,0.0,12698.5,16810.0,30131.51,83660.0,91166.0,91916.6,91991.66
+HMY,Basic Materials,Mining - Gold,0.65,10950.0,8. p75_trade_value,25.0,98,20__0,20,0.0,22116.0,39092.5,102044.28,128824.43,131502.44,131770.24,131797.02
+KGC,Basic Materials,Mining - Gold,0.65,,,,174,20__0,20,0.0,16050.0,34864.6,80981.13,110957.3,114055.73,114365.57,114396.56
+PLL,Basic Materials,Mining - Miscellaneous,0.65,,,,78,20__0,20,0.0,17756.2,25750.0,54328.51,101408.85,106116.89,106587.69,106634.77
+RS,Basic Materials,Mining - Miscellaneous,0.65,97049.0,6. p95_trade_value,4.0,63,20__2,20,2.0,43279.8,95055.3,157216.56,192042.46,195525.05,195873.3,195908.13

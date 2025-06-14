@@ -1,0 +1,6 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AIG,Finance,Insurance - Multi line,0.65,,,,758,30__2,30,2.0,13786.0,21462.75,38466.75,143611.77,201106.68,206856.17,207431.12
+AJG,Finance,Insurance - Brokerage,0.65,,,,641,30__2,30,2.0,10032.0,14868.0,39357.0,101280.0,103728.0,103972.8,103997.28
+CB,Finance,Insurance - Property and Casualty,0.65,57000.0,1. p999999_trade_value,1.0,585,30__2,30,2.0,16444.0,21500.0,35884.8,54664.0,56766.4,56976.64,56997.66
+OSCR,Finance,Insurance - Multi line,0.65,,,,1049,30__1,30,1.0,17690.0,33676.0,175150.0,515760.0,700386.05,719838.6,721783.86
+PGR,Finance,Insurance - Property and Casualty,0.65,176000.00000000003,4. p999_trade_value,2.0,1416,30__2,30,2.0,12985.0,21302.0,43603.5,160080.6,368089.38,396583.94,399433.39

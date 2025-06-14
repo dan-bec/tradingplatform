@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+WS,Basic Materials,Steel - Speciality,0.65,,,,6,10__0,10,0.0,5925.0,6472.5,6910.5,7009.05,7018.91,7019.89,7019.99

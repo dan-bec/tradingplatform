@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ARIS,Business Services,Waste Removal Services,0.65,3915.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,3853.5,3884.25,3908.85,3914.39,3914.94,3914.99,3915.0

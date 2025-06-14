@@ -1,0 +1,10 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+FUL,Basic Materials,Chemical - Specialty,5__3,5,3.0,1. p999999_trade_value,22500.0,22500.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+KWR,Basic Materials,Chemical - Specialty,5__0,5,0.0,1. p999999_trade_value,6300.0,6300.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+KWR,Basic Materials,Chemical - Specialty,5__0,5,0.0,8. p75_trade_value,4320.0,4320.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,2.0,0.0
+LWLG,Basic Materials,Chemical - Plastic,5__0,5,0.0,1. p999999_trade_value,3660.0,3660.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+LXU,Basic Materials,Chemical - Diversified ,5__0,5,0.0,1. p999999_trade_value,5990.000000000001,5990.000000000001,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+MEOH,Basic Materials,Chemical - Diversified ,5__3,5,3.0,1. p999999_trade_value,15000.0,15000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+NEU,Basic Materials,Chemical - Specialty,5__0,5,0.0,1. p999999_trade_value,3400.0,3400.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+PRM,Basic Materials,Chemical - Specialty,5__3,5,3.0,1. p999999_trade_value,15760.000000000002,15760.000000000002,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+TROX,Basic Materials,Chemical - Diversified ,5__3,5,3.0,1. p999999_trade_value,22800.0,22800.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0

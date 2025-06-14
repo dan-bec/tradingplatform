@@ -1,0 +1,16 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+ADM,Consumer Staples,Agriculture - Operations,25__0,25,0.0,1. p999999_trade_value,432000.0,432000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+ADM,Consumer Staples,Agriculture - Operations,25__0,25,0.0,5. p99_trade_value,220837.5,87418.0,2.0,3.0,0.6666666666666666,0.65,2. BELOW BASELINE,2.0,4.0,0.5
+ADM,Consumer Staples,Agriculture - Operations,25__0,25,0.0,6. p95_trade_value,55560.0,16560.0,7.0,13.0,0.5384615384615384,0.65,2. BELOW BASELINE,9.0,17.0,0.5294117647058824
+ADM,Consumer Staples,Agriculture - Operations,25__0,25,0.0,7. p90_trade_value,16497.0,11499.999999999998,5.0,16.0,0.3125,0.65,2. BELOW BASELINE,14.0,33.0,0.42424242424242425
+ADM,Consumer Staples,Agriculture - Operations,25__0,25,0.0,8. p75_trade_value,11025.0,6800.0,20.0,49.0,0.40816326530612246,0.65,2. BELOW BASELINE,34.0,82.0,0.4146341463414634
+FMC,Consumer Staples,Agriculture - Operations,25__0,25,0.0,1. p999999_trade_value,157500.0,157500.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+FMC,Consumer Staples,Agriculture - Operations,25__0,25,0.0,5. p99_trade_value,50000.0,50000.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+FMC,Consumer Staples,Agriculture - Operations,25__0,25,0.0,6. p95_trade_value,49470.0,21250.0,6.0,8.0,0.75,0.65,2. BELOW BASELINE,7.0,10.0,0.7
+FMC,Consumer Staples,Agriculture - Operations,25__0,25,0.0,7. p90_trade_value,20235.0,13515.0,6.0,10.0,0.6,0.65,2. BELOW BASELINE,13.0,20.0,0.65
+FMC,Consumer Staples,Agriculture - Operations,25__0,25,0.0,8. p75_trade_value,13004.999999999998,7600.0,19.0,29.0,0.6551724137931034,0.65,2. BELOW BASELINE,32.0,49.0,0.6530612244897959
+SMG,Consumer Staples,Agriculture - Operations,25__0,25,0.0,1. p999999_trade_value,190400.00000000003,190400.00000000003,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+SMG,Consumer Staples,Agriculture - Operations,25__0,25,0.0,5. p99_trade_value,183770.0,168750.0,1.0,4.0,0.25,0.65,2. BELOW BASELINE,1.0,5.0,0.2
+SMG,Consumer Staples,Agriculture - Operations,25__0,25,0.0,6. p95_trade_value,157219.99999999997,35720.00000000001,8.0,17.0,0.47058823529411764,0.65,2. BELOW BASELINE,9.0,22.0,0.4090909090909091
+SMG,Consumer Staples,Agriculture - Operations,25__0,25,0.0,7. p90_trade_value,33150.0,16450.0,14.0,22.0,0.6363636363636364,0.65,2. BELOW BASELINE,23.0,44.0,0.5227272727272727
+SMG,Consumer Staples,Agriculture - Operations,25__0,25,0.0,8. p75_trade_value,15169.999999999998,6966.0,34.0,65.0,0.5230769230769231,0.65,2. BELOW BASELINE,57.0,109.0,0.5229357798165137

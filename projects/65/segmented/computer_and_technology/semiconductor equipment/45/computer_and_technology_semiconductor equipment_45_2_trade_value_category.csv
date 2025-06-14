@@ -1,0 +1,8 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+ASML,Computer and Technology,Semiconductor Equipment - Wafer Fabrication,45__1,45,1.0,1. p999999_trade_value,844560.0,844560.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+ASML,Computer and Technology,Semiconductor Equipment - Wafer Fabrication,45__1,45,1.0,3. p9999_trade_value,650000.0,484000.0,2.0,4.0,0.5,0.65,2. BELOW BASELINE,2.0,5.0,0.4
+ASML,Computer and Technology,Semiconductor Equipment - Wafer Fabrication,45__1,45,1.0,4. p999_trade_value,480000.0,199870.0,21.0,41.0,0.5121951219512195,0.65,2. BELOW BASELINE,23.0,46.0,0.5
+ASML,Computer and Technology,Semiconductor Equipment - Wafer Fabrication,45__1,45,1.0,5. p99_trade_value,199760.0,64000.0,248.0,415.0,0.5975903614457831,0.65,2. BELOW BASELINE,271.0,461.0,0.5878524945770065
+ASML,Computer and Technology,Semiconductor Equipment - Wafer Fabrication,45__1,45,1.0,6. p95_trade_value,63840.00000000001,27000.0,1002.0,1848.0,0.5422077922077922,0.65,2. BELOW BASELINE,1273.0,2309.0,0.5513209181463837
+ASML,Computer and Technology,Semiconductor Equipment - Wafer Fabrication,45__1,45,1.0,7. p90_trade_value,26980.0,17539.999999999996,1173.0,2283.0,0.5137976346911958,0.65,2. BELOW BASELINE,2446.0,4592.0,0.5326655052264808
+ASML,Computer and Technology,Semiconductor Equipment - Wafer Fabrication,45__1,45,1.0,8. p75_trade_value,17536.0,9450.0,3534.0,6891.0,0.5128428384849804,0.65,2. BELOW BASELINE,5980.0,11483.0,0.5207698336671601

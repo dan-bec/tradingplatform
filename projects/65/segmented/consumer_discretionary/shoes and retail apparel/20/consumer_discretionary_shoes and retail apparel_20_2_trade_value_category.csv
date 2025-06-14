@@ -1,0 +1,15 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CAL,Consumer Discretionary,Shoes and Retail Apparel ,20__0,20,0.0,1. p999999_trade_value,29160.000000000004,29160.000000000004,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+CAL,Consumer Discretionary,Shoes and Retail Apparel ,20__0,20,0.0,6. p95_trade_value,25000.0,22000.000000000004,0.0,4.0,0.0,0.65,2. BELOW BASELINE,1.0,5.0,0.2
+CAL,Consumer Discretionary,Shoes and Retail Apparel ,20__0,20,0.0,7. p90_trade_value,21780.0,19900.0,0.0,2.0,0.0,0.65,2. BELOW BASELINE,1.0,7.0,0.14285714285714285
+CAL,Consumer Discretionary,Shoes and Retail Apparel ,20__0,20,0.0,8. p75_trade_value,18750.0,10500.0,3.0,9.0,0.3333333333333333,0.65,2. BELOW BASELINE,4.0,16.0,0.25
+CRI,Consumer Discretionary,Shoes and Retail Apparel ,20__1,20,1.0,1. p999999_trade_value,763679.9999999999,763679.9999999999,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+CRI,Consumer Discretionary,Shoes and Retail Apparel ,20__1,20,1.0,5. p99_trade_value,750260.0,750260.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+CRI,Consumer Discretionary,Shoes and Retail Apparel ,20__1,20,1.0,6. p95_trade_value,499800.0,192500.0,3.0,5.0,0.6,0.65,2. BELOW BASELINE,5.0,7.0,0.7142857142857143
+CRI,Consumer Discretionary,Shoes and Retail Apparel ,20__1,20,1.0,7. p90_trade_value,165000.00000000003,74759.99999999999,4.0,7.0,0.5714285714285714,0.65,2. BELOW BASELINE,9.0,14.0,0.6428571428571429
+CRI,Consumer Discretionary,Shoes and Retail Apparel ,20__1,20,1.0,8. p75_trade_value,70472.0,16000.0,7.0,22.0,0.3181818181818182,0.65,2. BELOW BASELINE,16.0,36.0,0.4444444444444444
+WWW,Consumer Discretionary,Shoes and Retail Apparel ,20__2,20,2.0,1. p999999_trade_value,300000.0,300000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+WWW,Consumer Discretionary,Shoes and Retail Apparel ,20__2,20,2.0,5. p99_trade_value,191760.0,191760.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+WWW,Consumer Discretionary,Shoes and Retail Apparel ,20__2,20,2.0,6. p95_trade_value,150000.0,80000.0,4.0,5.0,0.8,0.65,1. ABOVE BASELINE,6.0,7.0,0.8571428571428571
+WWW,Consumer Discretionary,Shoes and Retail Apparel ,20__2,20,2.0,7. p90_trade_value,77280.0,30000.0,4.0,6.0,0.6666666666666666,0.65,1. ABOVE BASELINE,10.0,13.0,0.7692307692307693
+WWW,Consumer Discretionary,Shoes and Retail Apparel ,20__2,20,2.0,8. p75_trade_value,24000.0,9735.0,14.0,19.0,0.7368421052631579,0.65,1. ABOVE BASELINE,24.0,32.0,0.75

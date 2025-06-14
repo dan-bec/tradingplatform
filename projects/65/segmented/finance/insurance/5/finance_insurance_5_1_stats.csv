@@ -1,0 +1,12 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AIZ,Finance,Insurance - Multi line,0.65,15480.000000000002,1. p999999_trade_value,1.0,4,5__3,5,3.0,12078.0,13779.0,15139.8,15445.98,15476.6,15479.66,15479.97
+AXS,Finance,Insurance - Property and Casualty,0.65,,,,4,5__0,5,0.0,4663.0,4849.0,4997.8,5031.28,5034.63,5034.96,5035.0
+CNA,Finance,Insurance - Property and Casualty,0.65,36000.0,1. p999999_trade_value,1.0,2,5__3,5,3.0,33700.0,34850.0,35770.0,35977.0,35997.7,35999.77,35999.98
+CNO,Finance,Insurance - Multi line,0.65,,,,2,5__3,5,3.0,16635.0,17317.5,17863.5,17986.35,17998.64,17999.86,17999.99
+EVER,Finance,Insurance - Multi line,0.65,,,,5,5__3,5,3.0,13566.0,15283.0,16656.6,16965.66,16996.57,16999.66,16999.97
+MBI,Finance,Insurance - Multi line,0.65,,,,4,5__3,5,3.0,13363.5,14181.75,14836.35,14983.63,14998.36,14999.84,14999.98
+PRI,Finance,Insurance - Life Insurance,0.65,,,,5,5__0,5,0.0,4868.0,4936.0,4990.4,5002.64,5003.86,5003.99,5004.0
+RDN,Finance,Insurance - Multi line,0.65,,,,4,5__3,5,3.0,18117.0,19123.5,19928.7,20109.87,20127.99,20129.8,20129.98
+RLI,Finance,Insurance - Property and Casualty,0.65,,,,3,5__3,5,3.0,12706.4,13665.7,14433.14,14605.81,14623.08,14624.81,14624.98
+SLF,Finance,Insurance - Life Insurance,0.65,,,,3,5__0,5,0.0,3600.0,3600.0,3600.0,3600.0,3600.0,3600.0,3600.0
+UVE,Finance,Insurance - Property and Casualty,0.65,,,,4,5__0,5,0.0,11600.0,12800.0,13760.0,13976.0,13997.6,13999.76,13999.98

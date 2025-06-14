@@ -1,0 +1,6 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CNK,Consumer Discretionary,Film and Television Production and Distribution,20__1,20,1.0,1. p999999_trade_value,399840.0,399840.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+CNK,Consumer Discretionary,Film and Television Production and Distribution,20__1,20,1.0,5. p99_trade_value,360000.0,360000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+CNK,Consumer Discretionary,Film and Television Production and Distribution,20__1,20,1.0,6. p95_trade_value,350000.0,175000.0,4.0,4.0,1.0,0.65,1. ABOVE BASELINE,6.0,6.0,1.0
+CNK,Consumer Discretionary,Film and Television Production and Distribution,20__1,20,1.0,7. p90_trade_value,157500.0,115600.0,1.0,6.0,0.16666666666666666,0.65,2. BELOW BASELINE,7.0,12.0,0.5833333333333334
+CNK,Consumer Discretionary,Film and Television Production and Distribution,20__1,20,1.0,8. p75_trade_value,99960.0,12969.0,1.0,16.0,0.0625,0.65,2. BELOW BASELINE,8.0,28.0,0.2857142857142857

@@ -1,0 +1,100 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+BBWI,Retail-Wholesale,Retail - Miscellaneous,30__1,30,1.0,1. p999999_trade_value,443250.0,443250.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+BBWI,Retail-Wholesale,Retail - Miscellaneous,30__1,30,1.0,5. p99_trade_value,360000.0,200000.0,3.0,6.0,0.5,0.65,2. BELOW BASELINE,4.0,7.0,0.5714285714285714
+BBWI,Retail-Wholesale,Retail - Miscellaneous,30__1,30,1.0,6. p95_trade_value,161982.0,38045.0,11.0,24.0,0.4583333333333333,0.65,2. BELOW BASELINE,15.0,31.0,0.4838709677419355
+BBWI,Retail-Wholesale,Retail - Miscellaneous,30__1,30,1.0,7. p90_trade_value,37904.99999999999,18360.0,16.0,30.0,0.5333333333333333,0.65,2. BELOW BASELINE,31.0,61.0,0.5081967213114754
+BBWI,Retail-Wholesale,Retail - Miscellaneous,30__1,30,1.0,8. p75_trade_value,18000.0,8925.0,43.0,90.0,0.4777777777777778,0.65,2. BELOW BASELINE,74.0,151.0,0.4900662251655629
+DRI,Retail-Wholesale,Retail - Restaurants,30__1,30,1.0,1. p999999_trade_value,384000.0,384000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+DRI,Retail-Wholesale,Retail - Restaurants,30__1,30,1.0,5. p99_trade_value,381070.0,188232.00000000003,6.0,8.0,0.75,0.65,2. BELOW BASELINE,6.0,9.0,0.6666666666666666
+DRI,Retail-Wholesale,Retail - Restaurants,30__1,30,1.0,6. p95_trade_value,178499.99999999997,28500.0,21.0,33.0,0.6363636363636364,0.65,2. BELOW BASELINE,27.0,42.0,0.6428571428571429
+DRI,Retail-Wholesale,Retail - Restaurants,30__1,30,1.0,7. p90_trade_value,28480.0,17100.0,20.0,40.0,0.5,0.65,2. BELOW BASELINE,47.0,82.0,0.573170731707317
+DRI,Retail-Wholesale,Retail - Restaurants,30__1,30,1.0,8. p75_trade_value,16650.0,8547.0,70.0,123.0,0.5691056910569106,0.65,2. BELOW BASELINE,117.0,205.0,0.5707317073170731
+FL,Retail-Wholesale,Retail - Apparel and Shoes,30__2,30,2.0,1. p999999_trade_value,325000.0,325000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+FL,Retail-Wholesale,Retail - Apparel and Shoes,30__2,30,2.0,5. p99_trade_value,302099.99999999994,87912.0,3.0,9.0,0.3333333333333333,0.65,2. BELOW BASELINE,3.0,10.0,0.3
+FL,Retail-Wholesale,Retail - Apparel and Shoes,30__2,30,2.0,6. p95_trade_value,82500.0,26750.0,15.0,38.0,0.39473684210526316,0.65,2. BELOW BASELINE,18.0,48.0,0.375
+FL,Retail-Wholesale,Retail - Apparel and Shoes,30__2,30,2.0,7. p90_trade_value,26400.0,18125.0,19.0,47.0,0.40425531914893614,0.65,2. BELOW BASELINE,37.0,95.0,0.3894736842105263
+FL,Retail-Wholesale,Retail - Apparel and Shoes,30__2,30,2.0,8. p75_trade_value,18000.0,9435.0,84.0,142.0,0.5915492957746479,0.65,2. BELOW BASELINE,121.0,237.0,0.510548523206751
+FND,Retail-Wholesale,Retail - Home Furnishings,30__0,30,0.0,1. p999999_trade_value,1445000.0,1445000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+FND,Retail-Wholesale,Retail - Home Furnishings,30__0,30,0.0,5. p99_trade_value,939500.0,166495.0,5.0,7.0,0.7142857142857143,0.65,1. ABOVE BASELINE,6.0,8.0,0.75
+FND,Retail-Wholesale,Retail - Home Furnishings,30__0,30,0.0,6. p95_trade_value,165105.00000000003,48900.0,10.0,28.0,0.35714285714285715,0.65,2. BELOW BASELINE,16.0,36.0,0.4444444444444444
+FND,Retail-Wholesale,Retail - Home Furnishings,30__0,30,0.0,7. p90_trade_value,47700.0,24000.0,27.0,35.0,0.7714285714285715,0.65,2. BELOW BASELINE,43.0,71.0,0.6056338028169014
+FND,Retail-Wholesale,Retail - Home Furnishings,30__0,30,0.0,8. p75_trade_value,23800.0,9435.0,91.0,107.0,0.8504672897196262,0.65,2. BELOW BASELINE,134.0,178.0,0.7528089887640449
+GAP,Retail-Wholesale,Retail - Apparel and Shoes,30__1,30,1.0,1. p999999_trade_value,515000.0,515000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+GAP,Retail-Wholesale,Retail - Apparel and Shoes,30__1,30,1.0,4. p999_trade_value,495000.0,495000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+GAP,Retail-Wholesale,Retail - Apparel and Shoes,30__1,30,1.0,5. p99_trade_value,450000.0,150000.0,6.0,14.0,0.42857142857142855,0.65,2. BELOW BASELINE,8.0,16.0,0.5
+GAP,Retail-Wholesale,Retail - Apparel and Shoes,30__1,30,1.0,6. p95_trade_value,147000.0,36180.0,34.0,64.0,0.53125,0.65,2. BELOW BASELINE,42.0,80.0,0.525
+GAP,Retail-Wholesale,Retail - Apparel and Shoes,30__1,30,1.0,7. p90_trade_value,36000.0,18837.0,37.0,79.0,0.46835443037974683,0.65,2. BELOW BASELINE,79.0,159.0,0.4968553459119497
+GAP,Retail-Wholesale,Retail - Apparel and Shoes,30__1,30,1.0,8. p75_trade_value,18830.0,9240.0,135.0,239.0,0.5648535564853556,0.65,2. BELOW BASELINE,214.0,398.0,0.5376884422110553
+KR,Retail-Wholesale,Retail - Supermarkets,30__2,30,2.0,1. p999999_trade_value,393000.0,393000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+KR,Retail-Wholesale,Retail - Supermarkets,30__2,30,2.0,4. p999_trade_value,378000.0,378000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+KR,Retail-Wholesale,Retail - Supermarkets,30__2,30,2.0,5. p99_trade_value,307500.0,78750.0,8.0,11.0,0.7272727272727273,0.65,1. ABOVE BASELINE,10.0,13.0,0.7692307692307693
+KR,Retail-Wholesale,Retail - Supermarkets,30__2,30,2.0,6. p95_trade_value,58000.0,18900.0,21.0,49.0,0.42857142857142855,0.65,2. BELOW BASELINE,31.0,62.0,0.5
+KR,Retail-Wholesale,Retail - Supermarkets,30__2,30,2.0,7. p90_trade_value,18824.0,12352.0,35.0,62.0,0.5645161290322581,0.65,2. BELOW BASELINE,66.0,124.0,0.532258064516129
+KR,Retail-Wholesale,Retail - Supermarkets,30__2,30,2.0,8. p75_trade_value,12099.0,7500.0,119.0,185.0,0.6432432432432432,0.65,2. BELOW BASELINE,185.0,309.0,0.598705501618123
+M,Retail-Wholesale,Retail - Regional Department Stores,30__2,30,2.0,1. p999999_trade_value,453050.0,453050.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+M,Retail-Wholesale,Retail - Regional Department Stores,30__2,30,2.0,4. p999_trade_value,359473.0,359473.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+M,Retail-Wholesale,Retail - Regional Department Stores,30__2,30,2.0,5. p99_trade_value,170896.99999999997,70140.0,3.0,9.0,0.3333333333333333,0.65,2. BELOW BASELINE,4.0,11.0,0.36363636363636365
+M,Retail-Wholesale,Retail - Regional Department Stores,30__2,30,2.0,6. p95_trade_value,70060.0,25482.0,25.0,43.0,0.5813953488372093,0.65,2. BELOW BASELINE,29.0,54.0,0.5370370370370371
+M,Retail-Wholesale,Retail - Regional Department Stores,30__2,30,2.0,7. p90_trade_value,24750.0,13500.0,32.0,53.0,0.6037735849056604,0.65,2. BELOW BASELINE,61.0,107.0,0.5700934579439252
+M,Retail-Wholesale,Retail - Regional Department Stores,30__2,30,2.0,8. p75_trade_value,13363.0,7517.999999999999,92.0,160.0,0.575,0.65,2. BELOW BASELINE,153.0,267.0,0.5730337078651685
+PLAY,Retail-Wholesale,Retail - Restaurants,30__0,30,0.0,1. p999999_trade_value,3516056.0000000005,3516056.0000000005,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+PLAY,Retail-Wholesale,Retail - Restaurants,30__0,30,0.0,5. p99_trade_value,343200.0,144055.0,5.0,5.0,1.0,0.65,1. ABOVE BASELINE,6.0,6.0,1.0
+PLAY,Retail-Wholesale,Retail - Restaurants,30__0,30,0.0,6. p95_trade_value,135000.0,24975.000000000004,19.0,24.0,0.7916666666666666,0.65,1. ABOVE BASELINE,25.0,30.0,0.8333333333333334
+PLAY,Retail-Wholesale,Retail - Restaurants,30__0,30,0.0,7. p90_trade_value,24875.0,18500.0,18.0,30.0,0.6,0.65,2. BELOW BASELINE,43.0,60.0,0.7166666666666667
+PLAY,Retail-Wholesale,Retail - Restaurants,30__0,30,0.0,8. p75_trade_value,18000.0,7906.0,54.0,88.0,0.6136363636363636,0.65,2. BELOW BASELINE,97.0,148.0,0.6554054054054054
+ROST,Retail-Wholesale,Retail - Discount Stores,30__1,30,1.0,1. p999999_trade_value,858240.0,858240.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+ROST,Retail-Wholesale,Retail - Discount Stores,30__1,30,1.0,4. p999_trade_value,642928.0,642928.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+ROST,Retail-Wholesale,Retail - Discount Stores,30__1,30,1.0,5. p99_trade_value,627200.0,144000.0,7.0,13.0,0.5384615384615384,0.65,2. BELOW BASELINE,9.0,15.0,0.6
+ROST,Retail-Wholesale,Retail - Discount Stores,30__1,30,1.0,6. p95_trade_value,102740.00000000001,24000.0,26.0,55.0,0.4727272727272727,0.65,2. BELOW BASELINE,35.0,70.0,0.5
+ROST,Retail-Wholesale,Retail - Discount Stores,30__1,30,1.0,7. p90_trade_value,23680.0,12630.0,37.0,69.0,0.5362318840579711,0.65,2. BELOW BASELINE,72.0,139.0,0.5179856115107914
+ROST,Retail-Wholesale,Retail - Discount Stores,30__1,30,1.0,8. p75_trade_value,12600.0,7110.000000000001,104.0,209.0,0.49760765550239233,0.65,2. BELOW BASELINE,176.0,348.0,0.5057471264367817
+SG,Retail-Wholesale,Retail - Restaurants,30__1,30,1.0,1. p999999_trade_value,1197759.9999999998,1197759.9999999998,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,1.0,1.0
+SG,Retail-Wholesale,Retail - Restaurants,30__1,30,1.0,4. p999_trade_value,750000.0,750000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+SG,Retail-Wholesale,Retail - Restaurants,30__1,30,1.0,5. p99_trade_value,724710.0,161868.0,8.0,12.0,0.6666666666666666,0.65,2. BELOW BASELINE,9.0,14.0,0.6428571428571429
+SG,Retail-Wholesale,Retail - Restaurants,30__1,30,1.0,6. p95_trade_value,152000.0,43758.0,16.0,54.0,0.2962962962962963,0.65,2. BELOW BASELINE,25.0,68.0,0.36764705882352944
+SG,Retail-Wholesale,Retail - Restaurants,30__1,30,1.0,7. p90_trade_value,43734.0,20511.0,44.0,68.0,0.6470588235294118,0.65,2. BELOW BASELINE,69.0,136.0,0.5073529411764706
+SG,Retail-Wholesale,Retail - Restaurants,30__1,30,1.0,8. p75_trade_value,20220.0,9750.0,110.0,203.0,0.541871921182266,0.65,2. BELOW BASELINE,179.0,339.0,0.528023598820059
+SHAK,Retail-Wholesale,Retail - Restaurants,30__1,30,1.0,1. p999999_trade_value,1143600.0,1143600.0,0.0,1.0,0.0,0.65,1. ABOVE BASELINE,0.0,1.0,0.0
+SHAK,Retail-Wholesale,Retail - Restaurants,30__1,30,1.0,4. p999_trade_value,519040.00000000006,519040.00000000006,2.0,2.0,1.0,0.65,1. ABOVE BASELINE,2.0,3.0,0.6666666666666666
+SHAK,Retail-Wholesale,Retail - Restaurants,30__1,30,1.0,5. p99_trade_value,502820.0,122070.0,3.0,9.0,0.3333333333333333,0.65,2. BELOW BASELINE,5.0,12.0,0.4166666666666667
+SHAK,Retail-Wholesale,Retail - Restaurants,30__1,30,1.0,6. p95_trade_value,95880.0,24800.0,29.0,46.0,0.6304347826086957,0.65,2. BELOW BASELINE,34.0,58.0,0.5862068965517241
+SHAK,Retail-Wholesale,Retail - Restaurants,30__1,30,1.0,7. p90_trade_value,24300.0,15200.0,45.0,58.0,0.7758620689655172,0.65,2. BELOW BASELINE,79.0,116.0,0.6810344827586207
+SHAK,Retail-Wholesale,Retail - Restaurants,30__1,30,1.0,8. p75_trade_value,15145.000000000002,8825.0,112.0,172.0,0.6511627906976745,0.65,2. BELOW BASELINE,191.0,288.0,0.6631944444444444
+SIG,Retail-Wholesale,Retail - Jewelry,30__1,30,1.0,1. p999999_trade_value,681340.0,681340.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+SIG,Retail-Wholesale,Retail - Jewelry,30__1,30,1.0,4. p999_trade_value,657000.0,657000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+SIG,Retail-Wholesale,Retail - Jewelry,30__1,30,1.0,5. p99_trade_value,595782.0,159000.0,6.0,10.0,0.6,0.65,2. BELOW BASELINE,8.0,12.0,0.6666666666666666
+SIG,Retail-Wholesale,Retail - Jewelry,30__1,30,1.0,6. p95_trade_value,148400.0,31000.0,23.0,45.0,0.5111111111111111,0.65,2. BELOW BASELINE,31.0,57.0,0.543859649122807
+SIG,Retail-Wholesale,Retail - Jewelry,30__1,30,1.0,7. p90_trade_value,30954.999999999996,19824.0,19.0,56.0,0.3392857142857143,0.65,2. BELOW BASELINE,50.0,113.0,0.4424778761061947
+SIG,Retail-Wholesale,Retail - Jewelry,30__1,30,1.0,8. p75_trade_value,19600.0,9434.0,106.0,168.0,0.6309523809523809,0.65,2. BELOW BASELINE,156.0,281.0,0.5551601423487544
+SN,Retail-Wholesale,Retail - Miscellaneous,30__0,30,0.0,1. p999999_trade_value,2722176.0,2722176.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+SN,Retail-Wholesale,Retail - Miscellaneous,30__0,30,0.0,5. p99_trade_value,1890000.0,166495.0,6.0,9.0,0.6666666666666666,0.65,1. ABOVE BASELINE,7.0,10.0,0.7
+SN,Retail-Wholesale,Retail - Miscellaneous,30__0,30,0.0,6. p95_trade_value,162260.0,45000.0,16.0,38.0,0.42105263157894735,0.65,2. BELOW BASELINE,23.0,48.0,0.4791666666666667
+SN,Retail-Wholesale,Retail - Miscellaneous,30__0,30,0.0,7. p90_trade_value,44690.0,23000.0,25.0,47.0,0.5319148936170213,0.65,2. BELOW BASELINE,48.0,95.0,0.5052631578947369
+SN,Retail-Wholesale,Retail - Miscellaneous,30__0,30,0.0,8. p75_trade_value,22601.000000000004,9440.0,72.0,142.0,0.5070422535211268,0.65,2. BELOW BASELINE,120.0,237.0,0.5063291139240507
+TPR,Retail-Wholesale,Retail - Apparel and Shoes,30__0,30,0.0,1. p999999_trade_value,1623900.0,1623900.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+TPR,Retail-Wholesale,Retail - Apparel and Shoes,30__0,30,0.0,4. p999_trade_value,1434445.0,1434445.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+TPR,Retail-Wholesale,Retail - Apparel and Shoes,30__0,30,0.0,5. p99_trade_value,913345.0000000001,378000.00000000006,5.0,10.0,0.5,0.65,2. BELOW BASELINE,7.0,12.0,0.5833333333333334
+TPR,Retail-Wholesale,Retail - Apparel and Shoes,30__0,30,0.0,6. p95_trade_value,351000.00000000006,68440.0,18.0,47.0,0.3829787234042553,0.65,2. BELOW BASELINE,25.0,59.0,0.423728813559322
+TPR,Retail-Wholesale,Retail - Apparel and Shoes,30__0,30,0.0,7. p90_trade_value,67000.0,19500.0,38.0,59.0,0.6440677966101694,0.65,2. BELOW BASELINE,63.0,118.0,0.5338983050847458
+TPR,Retail-Wholesale,Retail - Apparel and Shoes,30__0,30,0.0,8. p75_trade_value,19080.0,8900.0,115.0,177.0,0.6497175141242938,0.65,2. BELOW BASELINE,178.0,295.0,0.6033898305084746
+TXRH,Retail-Wholesale,Retail - Restaurants,30__1,30,1.0,1. p999999_trade_value,942911.9999999999,942911.9999999999,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+TXRH,Retail-Wholesale,Retail - Restaurants,30__1,30,1.0,5. p99_trade_value,455000.0,151196.99999999997,0.0,5.0,0.0,0.65,2. BELOW BASELINE,0.0,6.0,0.0
+TXRH,Retail-Wholesale,Retail - Restaurants,30__1,30,1.0,6. p95_trade_value,138750.0,21460.0,15.0,23.0,0.6521739130434783,0.65,2. BELOW BASELINE,15.0,29.0,0.5172413793103449
+TXRH,Retail-Wholesale,Retail - Restaurants,30__1,30,1.0,7. p90_trade_value,20700.0,13640.0,19.0,28.0,0.6785714285714286,0.65,2. BELOW BASELINE,34.0,57.0,0.5964912280701754
+TXRH,Retail-Wholesale,Retail - Restaurants,30__1,30,1.0,8. p75_trade_value,13200.0,7123.0,42.0,86.0,0.4883720930232558,0.65,2. BELOW BASELINE,76.0,143.0,0.5314685314685315
+URBN,Retail-Wholesale,Retail - Apparel and Shoes,30__1,30,1.0,1. p999999_trade_value,534720.0,534720.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+URBN,Retail-Wholesale,Retail - Apparel and Shoes,30__1,30,1.0,5. p99_trade_value,340000.0,200000.0,5.0,7.0,0.7142857142857143,0.65,1. ABOVE BASELINE,6.0,8.0,0.75
+URBN,Retail-Wholesale,Retail - Apparel and Shoes,30__1,30,1.0,6. p95_trade_value,186000.0,38400.0,18.0,32.0,0.5625,0.65,2. BELOW BASELINE,24.0,40.0,0.6
+URBN,Retail-Wholesale,Retail - Apparel and Shoes,30__1,30,1.0,7. p90_trade_value,37944.0,20800.0,26.0,39.0,0.6666666666666666,0.65,2. BELOW BASELINE,50.0,79.0,0.6329113924050633
+URBN,Retail-Wholesale,Retail - Apparel and Shoes,30__1,30,1.0,8. p75_trade_value,20580.0,8370.0,88.0,117.0,0.7521367521367521,0.65,2. BELOW BASELINE,138.0,196.0,0.7040816326530612
+VSCO,Retail-Wholesale,Retail - Apparel and Shoes,30__1,30,1.0,1. p999999_trade_value,375000.0,375000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+VSCO,Retail-Wholesale,Retail - Apparel and Shoes,30__1,30,1.0,5. p99_trade_value,337500.0,118439.99999999999,2.0,9.0,0.2222222222222222,0.65,2. BELOW BASELINE,2.0,10.0,0.2
+VSCO,Retail-Wholesale,Retail - Apparel and Shoes,30__1,30,1.0,6. p95_trade_value,115000.0,40000.0,15.0,38.0,0.39473684210526316,0.65,2. BELOW BASELINE,17.0,48.0,0.3541666666666667
+VSCO,Retail-Wholesale,Retail - Apparel and Shoes,30__1,30,1.0,7. p90_trade_value,39600.0,19177.0,22.0,48.0,0.4583333333333333,0.65,2. BELOW BASELINE,39.0,96.0,0.40625
+VSCO,Retail-Wholesale,Retail - Apparel and Shoes,30__1,30,1.0,8. p75_trade_value,19145.0,10032.0,67.0,143.0,0.46853146853146854,0.65,2. BELOW BASELINE,106.0,239.0,0.4435146443514644
+WBA,Retail-Wholesale,Retail - Pharmacies and Drug Stores,30__2,30,2.0,1. p999999_trade_value,196000.0,196000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+WBA,Retail-Wholesale,Retail - Pharmacies and Drug Stores,30__2,30,2.0,4. p999_trade_value,145548.0,145548.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+WBA,Retail-Wholesale,Retail - Pharmacies and Drug Stores,30__2,30,2.0,5. p99_trade_value,141792.0,55000.0,9.0,15.0,0.6,0.65,2. BELOW BASELINE,11.0,17.0,0.6470588235294118
+WBA,Retail-Wholesale,Retail - Pharmacies and Drug Stores,30__2,30,2.0,6. p95_trade_value,54240.0,20440.0,53.0,67.0,0.7910447761194029,0.65,2. BELOW BASELINE,64.0,84.0,0.7619047619047619
+WBA,Retail-Wholesale,Retail - Pharmacies and Drug Stores,30__2,30,2.0,7. p90_trade_value,20377.0,13440.0,60.0,85.0,0.7058823529411765,0.65,2. BELOW BASELINE,124.0,169.0,0.7337278106508875
+WBA,Retail-Wholesale,Retail - Pharmacies and Drug Stores,30__2,30,2.0,8. p75_trade_value,13394.999999999998,7755.000000000001,147.0,251.0,0.5856573705179283,0.65,2. BELOW BASELINE,271.0,420.0,0.6452380952380953

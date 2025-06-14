@@ -1,0 +1,14 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AX,Finance,Financial - Miscellaneous Services,0.65,23000.0,1. p999999_trade_value,1.0,45,15__0,15,0.0,12873.0,18704.0,22428.0,22942.8,22994.28,22999.43,22999.94
+BEN,Finance,Financial - Investment Management,0.65,14850.0,8. p75_trade_value,11.0,41,15__0,15,0.0,30000.0,222570.0,225708.0,227590.8,227779.08,227797.91,227799.79
+BFH,Finance,Financial - Miscellaneous Services,0.65,,,,56,15__0,15,0.0,9839.0,16885.0,54064.5,65256.45,66375.65,66487.56,66498.76
+BGC,Finance,Financial - Investment Bank,0.65,,,,32,15__0,15,0.0,19900.0,28686.0,51413.72,58050.57,58714.26,58780.63,58787.26
+HASI,Finance,Financial - Miscellaneous Services,0.65,7125.0,8. p75_trade_value,9.0,31,15__0,15,0.0,12000.0,60743.0,104624.0,121542.2,123234.02,123403.2,123420.12
+HLNE,Finance,Financial - Investment Management,0.65,,,,33,15__0,15,0.0,15484.0,19232.0,29910.4,34311.04,34751.1,34795.11,34799.51
+LAZ,Finance,Financial - Miscellaneous Services,0.65,,,,33,15__0,15,0.0,7330.0,20907.0,32600.4,32609.04,32609.9,32609.99,32610.0
+LU,Finance,Financial - Miscellaneous Services,0.65,22500.0,1. p999999_trade_value,1.0,27,15__0,15,0.0,16414.4,20228.3,22263.4,22476.34,22497.63,22499.76,22499.98
+MC,Finance,Financial - Investment Bank,0.65,16000.0,8. p75_trade_value,8.0,30,15__0,15,0.0,48719.9,58602.95,80282.52,87228.25,87922.83,87992.28,87999.23
+SF,Finance,Financial - Investment Bank,0.65,,,,33,15__0,15,0.0,14160.0,131690.0,313552.0,328355.2,329835.52,329983.55,329998.36
+TPG,Finance,Financial - Investment Management,0.65,,,,35,15__0,15,0.0,23010.0,28707.0,36489.8,38640.98,38856.1,38877.61,38879.76
+VIRT,Finance,Financial - Miscellaneous Services,0.65,17745.0,6. p95_trade_value,3.0,51,15__0,15,0.0,12320.0,16737.5,32417.5,32793.25,32830.82,32834.58,32834.96
+ZG,Finance,Financial - Mortgage & Related Services,0.65,,,,54,15__0,15,0.0,11886.0,14087.25,25760.0,29576.0,29957.6,29995.76,29999.58

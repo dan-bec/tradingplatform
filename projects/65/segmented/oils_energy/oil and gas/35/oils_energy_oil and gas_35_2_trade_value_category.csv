@@ -1,0 +1,25 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+COP,Oils-Energy,Oil and Gas - Integrated - United States,35__0,35,0.0,1. p999999_trade_value,570492.0,570492.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+COP,Oils-Energy,Oil and Gas - Integrated - United States,35__0,35,0.0,4. p999_trade_value,450800.0,429784.99999999994,2.0,2.0,1.0,0.65,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+COP,Oils-Energy,Oil and Gas - Integrated - United States,35__0,35,0.0,5. p99_trade_value,265468.0,95914.0,13.0,23.0,0.5652173913043478,0.65,2. BELOW BASELINE,15.0,26.0,0.5769230769230769
+COP,Oils-Energy,Oil and Gas - Integrated - United States,35__0,35,0.0,6. p95_trade_value,95872.0,25024.0,62.0,100.0,0.62,0.65,2. BELOW BASELINE,77.0,126.0,0.6111111111111112
+COP,Oils-Energy,Oil and Gas - Integrated - United States,35__0,35,0.0,7. p90_trade_value,25000.0,16170.000000000002,69.0,126.0,0.5476190476190477,0.65,2. BELOW BASELINE,146.0,252.0,0.5793650793650794
+COP,Oils-Energy,Oil and Gas - Integrated - United States,35__0,35,0.0,8. p75_trade_value,16168.0,8125.0,231.0,378.0,0.6111111111111112,0.65,2. BELOW BASELINE,377.0,630.0,0.5984126984126984
+DVN,Oils-Energy,Oil and Gas - Exploration and Production - United States,35__0,35,0.0,1. p999999_trade_value,142499.99999999997,142499.99999999997,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+DVN,Oils-Energy,Oil and Gas - Exploration and Production - United States,35__0,35,0.0,4. p999_trade_value,100000.0,100000.0,1.0,2.0,0.5,0.65,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+DVN,Oils-Energy,Oil and Gas - Exploration and Production - United States,35__0,35,0.0,5. p99_trade_value,78000.0,36852.0,8.0,16.0,0.5,0.65,2. BELOW BASELINE,9.0,19.0,0.47368421052631576
+DVN,Oils-Energy,Oil and Gas - Exploration and Production - United States,35__0,35,0.0,6. p95_trade_value,36520.00000000001,18460.0,42.0,76.0,0.5526315789473685,0.65,2. BELOW BASELINE,51.0,95.0,0.5368421052631579
+DVN,Oils-Energy,Oil and Gas - Exploration and Production - United States,35__0,35,0.0,7. p90_trade_value,18200.0,13206.0,51.0,96.0,0.53125,0.65,2. BELOW BASELINE,102.0,191.0,0.5340314136125655
+DVN,Oils-Energy,Oil and Gas - Exploration and Production - United States,35__0,35,0.0,8. p75_trade_value,13200.0,7744.0,180.0,282.0,0.6382978723404256,0.65,2. BELOW BASELINE,282.0,473.0,0.5961945031712473
+LNG,Oils-Energy,Oil and Gas - Exploration and Production - United States,35__2,35,2.0,1. p999999_trade_value,902870.0000000001,902870.0000000001,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+LNG,Oils-Energy,Oil and Gas - Exploration and Production - United States,35__2,35,2.0,4. p999_trade_value,718920.0,630000.0,1.0,2.0,0.5,0.65,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+LNG,Oils-Energy,Oil and Gas - Exploration and Production - United States,35__2,35,2.0,5. p99_trade_value,623220.0,210000.0,14.0,22.0,0.6363636363636364,0.65,2. BELOW BASELINE,16.0,25.0,0.64
+LNG,Oils-Energy,Oil and Gas - Exploration and Production - United States,35__2,35,2.0,6. p95_trade_value,200790.0,40000.0,61.0,110.0,0.5545454545454546,0.65,2. BELOW BASELINE,77.0,135.0,0.5703703703703704
+LNG,Oils-Energy,Oil and Gas - Exploration and Production - United States,35__2,35,2.0,7. p90_trade_value,39650.0,22470.0,43.0,110.0,0.39090909090909093,0.65,2. BELOW BASELINE,120.0,245.0,0.4897959183673469
+LNG,Oils-Energy,Oil and Gas - Exploration and Production - United States,35__2,35,2.0,8. p75_trade_value,22440.0,10250.0,159.0,368.0,0.4320652173913043,0.65,2. BELOW BASELINE,279.0,613.0,0.4551386623164764
+VLO,Oils-Energy,Oil and Gas - Refining and Marketing,35__0,35,0.0,1. p999999_trade_value,690000.0,690000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+VLO,Oils-Energy,Oil and Gas - Refining and Marketing,35__0,35,0.0,4. p999_trade_value,510000.0,324530.0,0.0,2.0,0.0,0.65,2. BELOW BASELINE,0.0,3.0,0.0
+VLO,Oils-Energy,Oil and Gas - Refining and Marketing,35__0,35,0.0,5. p99_trade_value,294000.0,76800.0,7.0,19.0,0.3684210526315789,0.65,2. BELOW BASELINE,7.0,22.0,0.3181818181818182
+VLO,Oils-Energy,Oil and Gas - Refining and Marketing,35__0,35,0.0,6. p95_trade_value,72500.0,23449.999999999996,38.0,87.0,0.4367816091954023,0.65,2. BELOW BASELINE,45.0,109.0,0.41284403669724773
+VLO,Oils-Energy,Oil and Gas - Refining and Marketing,35__0,35,0.0,7. p90_trade_value,22900.0,15480.000000000002,52.0,109.0,0.47706422018348627,0.65,2. BELOW BASELINE,97.0,218.0,0.44495412844036697
+VLO,Oils-Energy,Oil and Gas - Refining and Marketing,35__0,35,0.0,8. p75_trade_value,15400.0,8250.0,163.0,330.0,0.49393939393939396,0.65,2. BELOW BASELINE,260.0,548.0,0.4744525547445255
