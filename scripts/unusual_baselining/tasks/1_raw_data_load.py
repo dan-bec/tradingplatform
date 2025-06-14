@@ -60,25 +60,18 @@ def get_static_string(file_path, var_name):
 dataservices_path = config.DATASERVICES_PATH
 API_KEY = get_static_string(dataservices_path, "API_KEY")
 
-
 def get_files_to_load(src_tbl: str, directory_path: Path, num_files_to_load: int, db_connection: duckdb.DuckDBPyConnection) -> list[str]:
     """
-    Retrieves file paths of CSV files in the specified directory that have not yet been loaded into the database.
-
-    Args:
-        directory_path (Path): Directory containing the CSV files.
-        num_files_to_load (int): Maximum number of recent files to consider.
-        db_connection (duckdb.DuckDBPyConnection): DuckDB database connection.
-
-    Returns:
-        list[str]: List of file paths (as strings) to be loaded.
+    Retrieves file paths of gzip files in the specified directory that have not yet been loaded into the database.
     """
-    # Find all CSV files in the directory
-    all_files = list(directory_path.glob("*.csv"))
+    # Find all GZIP files in the directory
+    all_files = list(directory_path.glob("*.csv.gz"))
     valid_files = []
     for file in all_files:
         try:
-            file_date = datetime.strptime(file.stem, "%Y-%m-%d").date()
+            # Extract the date from the file name
+            file_date_str = file.name.split('.')[0]  # Gets '2025-05-15' from '2025-05-15.csv.gz'
+            file_date = datetime.strptime(file_date_str, "%Y-%m-%d").date()
             valid_files.append((file_date, file))
         except ValueError:
             continue
@@ -205,12 +198,12 @@ if stock_daily_files:
             transactions,
             CAST(
                 CASE
-                    WHEN REGEXP_EXTRACT(filename, '(\d{{4}}-\d{{2}}-\d{{2}})\.csv$', 1) != '' 
-                    THEN REGEXP_EXTRACT(filename, '(\d{{4}}-\d{{2}}-\d{{2}})\.csv$', 1)
+                    WHEN REGEXP_EXTRACT(filename, '(\d{{4}}-\d{{2}}-\d{{2}})\.csv.gz$', 1) != '' 
+                    THEN REGEXP_EXTRACT(filename, '(\d{{4}}-\d{{2}}-\d{{2}})\.csv.gz$', 1)
                     ELSE NULL
                 END AS DATE
             ) AS data_date
-        FROM read_csv_auto({stock_daily_files}, filename=True)
+        FROM read_csv_auto({stock_daily_files}, filename=True, compression='gzip')
     """)
     print(f"Loaded data from {len(stock_daily_files)} new files into raw_data.stock_daily_data")
 else:
@@ -267,12 +260,12 @@ if option_trade_files:
             price * size * 100 AS trade_value,
             CAST(
                 CASE
-                    WHEN REGEXP_EXTRACT(filename, '(\d{{4}}-\d{{2}}-\d{{2}})\.csv$', 1) != '' 
-                    THEN REGEXP_EXTRACT(filename, '(\d{{4}}-\d{{2}}-\d{{2}})\.csv$', 1)
+                    WHEN REGEXP_EXTRACT(filename, '(\d{{4}}-\d{{2}}-\d{{2}})\.csv.gz$', 1) != '' 
+                    THEN REGEXP_EXTRACT(filename, '(\d{{4}}-\d{{2}}-\d{{2}})\.csv.gz$', 1)
                     ELSE NULL
                 END AS DATE
             ) AS data_date
-        FROM read_csv_auto({option_trade_files}, filename=True)
+        FROM read_csv_auto({option_trade_files}, filename=True, compression='gzip')
     """)
     print(f"Loaded data from {len(option_trade_files)} new files into raw_data.all_options_trades_data")
 else:

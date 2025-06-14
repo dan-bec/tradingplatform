@@ -79,12 +79,15 @@ select sector, industry, count(*)
 select * from
 {prep_schema}.unusual_baselines
 where security in ('MRK','ABBV','MSTR','AAPL','BK','CMA','FCNCA','GS','AMGN','LLY','TSLA','NVDA','BAC','GME','PLTR','PFE')
-order by security                     
+order by security   
+
+select min_trade_value, expiration_days_out, otm_range, number_of_bins, max(data_date) as data_date from {prep_schema}.filtered_short_term_otm_options_trades group by 1,2,3,4;
+
 '''
 
 # Get unique rows from query
 result = con.execute(f"""
-select min_trade_value, expiration_days_out, otm_range, number_of_bins, max(data_date) as data_date from {prep_schema}.filtered_short_term_otm_options_trades group by 1,2,3,4;
+drop schema raw_data cascade;
 """).fetchdf()
 print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
 # result.to_csv(sys.stdout, index=False)

@@ -14,6 +14,13 @@ def cache_and_handle_errors(func):
             raise
     return wrapper
 
+def itm_str_prep(itm):
+    try:
+        return(str(int(itm * 100)))
+    except Exception as e:
+        print(f"Error fetching data: {e}")
+        raise        
+
 # Base directory (assumes config.py is in the /scripts folder)
 APP_DIR = Path(__file__).parent
 APP_NAME = APP_DIR.name

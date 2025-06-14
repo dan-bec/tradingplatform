@@ -17,8 +17,6 @@ import requests
 import pandas as pd
 import re
 from datetime import datetime, timedelta
-import gzip
-import shutil
 import argparse
 
 parser = argparse.ArgumentParser()
@@ -29,8 +27,8 @@ args = parser.parse_args()
 # Configuration
 script_dir = config.REPO_ROOT
 dataservices_path = config.DATASERVICES_PATH
-S3_ENDPOINT = config.S3_ENDPOINT # Polygon S3-compatible endpoint
-BUCKET_NAME = config.BUCKET_NAME # Polygon bucket name
+S3_ENDPOINT = config.S3_ENDPOINT
+BUCKET_NAME = config.BUCKET_NAME
 START_DATE = datetime.strptime(args.start_date, "%Y-%m-%d").date()
 END_DATE = datetime.strptime(args.end_date, "%Y-%m-%d").date()
 
@@ -49,7 +47,6 @@ def get_static_string(file_path, var_name):
         raise FileNotFoundError(f"The file {file_path} does not exist")
     except Exception as e:
         raise Exception(f"Error reading {var_name} from {file_path}: {e}")
-
 
 # Define multiple passes with their respective configurations
 PASSES = [
@@ -97,33 +94,18 @@ def generate_date_list(start, end):
     return date_list
 
 def download_file(date, s3_prefix, download_dir):
-    """Download and unarchive the options file for a given date, prefix, and local directory, skipping if .csv exists."""
-    # File naming convention
+    """Download the gzip file for a given date, prefix, and local directory, skipping if it already exists."""
     gz_file_name = f"{date}.csv.gz"
-    csv_file_name = f"{date}.csv"
-    # S3 key: {prefix}/YYYY/MM/YYYY-MM-DD.csv.gz
     s3_key = f"{s3_prefix}/{date[:4]}/{date[5:7]}/{gz_file_name}"
-    # Local paths
-    local_csv_path = download_dir / csv_file_name
     local_gz_path = download_dir / gz_file_name
     
-    # Check if .csv file already exists
-    if local_csv_path.exists():
-        print(f"Skipping {s3_key}: Corresponding .csv file already exists at {local_csv_path}")
+    if local_gz_path.exists():
+        print(f"Skipping {s3_key}: Gzip file already exists at {local_gz_path}")
         return
     
     try:
-        # Download .csv.gz file
         s3.download_file(BUCKET_NAME, s3_key, str(local_gz_path))
         print(f"Successfully downloaded: {s3_key} to {local_gz_path}")
-        # Unarchive .csv.gz to .csv
-        with gzip.open(local_gz_path, 'rb') as f_in:
-            with open(local_csv_path, 'wb') as f_out:
-                shutil.copyfileobj(f_in, f_out) # type: ignore
-        print(f"Successfully unarchived to {local_csv_path}")
-        # Delete .csv.gz file
-        os.remove(local_gz_path)
-        print(f"Deleted {local_gz_path}")
     except s3.exceptions.ClientError as e:
         if e.response['Error']['Code'] == '404':
             print(f"Skipping {s3_key}: File not found on S3")
@@ -138,14 +120,11 @@ def process_pass(pass_config, start_date, end_date):
     download_dir = pass_config["download_dir"]
     description = pass_config["description"]
     
-    # Ensure local directory exists
     download_dir.mkdir(parents=True, exist_ok=True)
     
-    # Generate list of dates
     dates = generate_date_list(start_date, end_date)
     print(f"Processing {description} for dates: {start_date} to {end_date}")
     
-    # Download files for each date
     for date in dates:
         download_file(date, prefix, download_dir)
     
