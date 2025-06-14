@@ -84,7 +84,7 @@ order by security
 
 # Get unique rows from query
 result = con.execute(f"""
-select min(data_date) dd from raw_data.all_options_trades_data
+select min_trade_value, expiration_days_out, otm_range, number_of_bins, max(data_date) as data_date from {prep_schema}.filtered_short_term_otm_options_trades group by 1,2,3,4
 """).fetchdf()
 print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
 # result.to_csv(sys.stdout, index=False)

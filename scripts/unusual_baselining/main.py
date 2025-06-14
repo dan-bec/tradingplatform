@@ -105,7 +105,6 @@ def main():
     task2_args = [
         "--strict-otm", str(args.strict_otm),
         "--min-trade-value", str(args.min_trade_value),
-        "--top-trades", str(args.top_trades),
         "--expiration-days-out", str(args.expiration_days_out),
         "--number-of-bins", str(args.number_of_bins)
     ]
@@ -126,7 +125,7 @@ def main():
     export_settings()
 
     # push results to GitHub
-    # push_to_github()
+    push_to_github()
 
     # push results to Google Drive
     # push_to_drive()
@@ -136,7 +135,7 @@ if __name__ == "__main__":
     start_time = time.time()
     print(f"Main Start time: {start_time:.2f} seconds")
 
-    push_to_github()
+    main()
 
     # Print execution time
     end_time = time.time()
