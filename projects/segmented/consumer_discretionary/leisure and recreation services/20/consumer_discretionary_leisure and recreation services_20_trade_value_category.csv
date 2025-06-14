@@ -1,9 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-LTH,Consumer Discretionary,Leisure and Recreation Services,20__0,20,0.0,1. p999999_trade_value,37500.0,37500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-LTH,Consumer Discretionary,Leisure and Recreation Services,20__0,20,0.0,6. p95_trade_value,15000.0,15000.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
-LTH,Consumer Discretionary,Leisure and Recreation Services,20__0,20,0.0,7. p90_trade_value,13829.999999999998,13200.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,6.0,6.0,1.0
-LTH,Consumer Discretionary,Leisure and Recreation Services,20__0,20,0.0,8. p75_trade_value,12450.0,7425.0,7.0,9.0,0.7777777777777778,0.55,1. ABOVE BASELINE,13.0,15.0,0.8666666666666667
-VIK,Consumer Discretionary,Leisure and Recreation Services,20__1,20,1.0,1. p999999_trade_value,320000.0,320000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-VIK,Consumer Discretionary,Leisure and Recreation Services,20__1,20,1.0,6. p95_trade_value,180000.0,125888.00000000001,2.0,4.0,0.5,0.55,2. BELOW BASELINE,3.0,5.0,0.6
-VIK,Consumer Discretionary,Leisure and Recreation Services,20__1,20,1.0,7. p90_trade_value,62500.0,51000.0,4.0,4.0,1.0,0.55,2. BELOW BASELINE,7.0,9.0,0.7777777777777778
-VIK,Consumer Discretionary,Leisure and Recreation Services,20__1,20,1.0,8. p75_trade_value,44000.00000000001,11040.0,7.0,12.0,0.5833333333333334,0.55,2. BELOW BASELINE,14.0,21.0,0.6666666666666666

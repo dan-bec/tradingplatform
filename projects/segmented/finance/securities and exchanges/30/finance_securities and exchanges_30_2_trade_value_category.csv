@@ -1,0 +1,11 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CME,Finance,Securities and Exchanges,30__2,30,2.0,1. p999999_trade_value,333000.0,333000.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+CME,Finance,Securities and Exchanges,30__2,30,2.0,5. p99_trade_value,95580.0,44000.00000000001,5.0,7.0,0.7142857142857143,0.55,1. ABOVE BASELINE,7.0,9.0,0.7777777777777778
+CME,Finance,Securities and Exchanges,30__2,30,2.0,6. p95_trade_value,40002.0,25600.0,28.0,36.0,0.7777777777777778,0.55,1. ABOVE BASELINE,35.0,45.0,0.7777777777777778
+CME,Finance,Securities and Exchanges,30__2,30,2.0,7. p90_trade_value,25410.0,16500.0,37.0,44.0,0.8409090909090909,0.55,1. ABOVE BASELINE,72.0,89.0,0.8089887640449438
+CME,Finance,Securities and Exchanges,30__2,30,2.0,8. p75_trade_value,16450.0,9125.0,110.0,133.0,0.8270676691729323,0.55,1. ABOVE BASELINE,182.0,222.0,0.8198198198198198
+SPGI,Finance,Securities and Exchanges,30__1,30,1.0,1. p999999_trade_value,322400.0,322400.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SPGI,Finance,Securities and Exchanges,30__1,30,1.0,5. p99_trade_value,203999.99999999997,110940.00000000001,6.0,6.0,1.0,0.55,1. ABOVE BASELINE,7.0,7.0,1.0
+SPGI,Finance,Securities and Exchanges,30__1,30,1.0,6. p95_trade_value,110080.0,43000.0,9.0,24.0,0.375,0.55,2. BELOW BASELINE,16.0,31.0,0.5161290322580645
+SPGI,Finance,Securities and Exchanges,30__1,30,1.0,7. p90_trade_value,42500.0,18630.0,11.0,30.0,0.36666666666666664,0.55,2. BELOW BASELINE,27.0,61.0,0.4426229508196721
+SPGI,Finance,Securities and Exchanges,30__1,30,1.0,8. p75_trade_value,18612.0,8680.0,56.0,92.0,0.6086956521739131,0.55,2. BELOW BASELINE,83.0,153.0,0.5424836601307189

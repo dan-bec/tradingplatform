@@ -1,3 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ATUS,Computer and Technology,Communication - Components,0.55,4325.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,4267.5,4296.25,4319.25,4324.43,4324.94,4324.99,4325.0
-OOMA,Computer and Technology,Communication - Components,0.55,4500.0,8. p75_trade_value,2.0,5,5__0,5,0.0,6651.0,7368.0,7941.6,8070.66,8083.57,8084.86,8084.99

@@ -1,5 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ACMR,Computer and Technology,Semiconductor Equipment - Material Services,0.55,,,,490,25__1,25,1.0,17838.0,23416.5,48036.96,67034.2,72403.42,72940.34,72994.03
-AEIS,Computer and Technology,Semiconductor Equipment - Wafer Fabrication,0.55,13769.999999999998,8. p75_trade_value,34.0,136,20__1,20,1.0,19180.0,36675.0,243124.5,456358.05,484493.81,487307.38,487588.74
-ASML,Computer and Technology,Semiconductor Equipment - Wafer Fabrication,0.55,,,,46061,45__2,45,2.0,17523.0,27000.0,64080.0,199643.6,481576.0,754945.66,835598.57
-PLAB,Computer and Technology,Semiconductor Equipment - Photomasks,0.55,21624.0,1. p999999_trade_value,1.0,14,10__0,10,0.0,6449.0,12085.9,19716.38,21433.24,21604.92,21622.09,21623.81

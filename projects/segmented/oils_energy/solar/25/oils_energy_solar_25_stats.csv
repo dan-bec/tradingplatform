@@ -1,3 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CSIQ,Oils-Energy,Solar,0.55,38960.0,1. p999999_trade_value,1.0,253,25__1,25,1.0,10272.0,14091.0,22740.0,35190.08,38583.01,38922.3,38956.23
-JKS,Oils-Energy,Solar,0.55,,,,327,25__1,25,1.0,14099.0,18879.0,47884.6,87616.95,93403.1,93981.71,94039.57

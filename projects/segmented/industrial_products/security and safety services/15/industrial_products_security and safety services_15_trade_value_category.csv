@@ -1,9 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-DMRC,Industrial Products,Security and Safety Services,15__0,15,0.0,1. p999999_trade_value,17400.0,17400.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-DMRC,Industrial Products,Security and Safety Services,15__0,15,0.0,6. p95_trade_value,11200.0,11200.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-DMRC,Industrial Products,Security and Safety Services,15__0,15,0.0,7. p90_trade_value,9520.0,9000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,4.0,0.25
-DMRC,Industrial Products,Security and Safety Services,15__0,15,0.0,8. p75_trade_value,8100.0,5600.0,4.0,6.0,0.6666666666666666,0.55,2. BELOW BASELINE,5.0,10.0,0.5
-NSSC,Industrial Products,Security and Safety Services,15__0,15,0.0,1. p999999_trade_value,63000.0,63000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-NSSC,Industrial Products,Security and Safety Services,15__0,15,0.0,6. p95_trade_value,12800.0,10890.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
-NSSC,Industrial Products,Security and Safety Services,15__0,15,0.0,7. p90_trade_value,10500.0,10000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,5.0,0.2
-NSSC,Industrial Products,Security and Safety Services,15__0,15,0.0,8. p75_trade_value,9900.0,8250.0,4.0,5.0,0.8,0.55,2. BELOW BASELINE,5.0,10.0,0.5

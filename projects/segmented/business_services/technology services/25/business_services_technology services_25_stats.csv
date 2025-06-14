@@ -1,9 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AYI,Business Services,Technology Services,0.55,,,,216,25__0,25,0.0,15960.0,27417.5,587422.5,872340.0,872340.0,872340.0,872340.0
-BTBT,Business Services,Technology Services,0.55,64750.0,1. p999999_trade_value,1.0,273,25__1,25,1.0,10250.0,14695.0,38708.4,62370.0,64512.0,64726.2,64747.62
-CIFR,Business Services,Technology Services,0.55,149990.0,5. p99_trade_value,6.0,549,25__1,25,1.0,14414.4,22224.0,110826.8,479100.0,565410.0,574041.0,574904.1
-GCT,Business Services,Technology Services,0.55,60900.0,5. p99_trade_value,5.0,401,25__1,25,1.0,19520.0,31080.0,60900.0,374942.0,469494.2,478949.42,479894.94
-KD,Business Services,Technology Services,0.55,,,,295,25__1,25,1.0,18750.0,26300.4,34130.1,84190.66,101026.37,102709.94,102878.29
-MIR,Business Services,Technology Services,0.55,,,,193,25__1,25,1.0,13694.0,21557.0,35704.8,39549.44,39990.94,40035.09,40039.51
-PSN,Business Services,Technology Services,0.55,148800.0,1. p999999_trade_value,1.0,231,25__1,25,1.0,9900.0,14812.0,18507.0,119199.0,145839.9,148503.99,148770.4
-SNDK,Business Services,Technology Services,0.55,,,,214,25__0,25,0.0,21232.0,31577.0,102415.5,1310479.52,1489327.95,1507212.8,1509001.28

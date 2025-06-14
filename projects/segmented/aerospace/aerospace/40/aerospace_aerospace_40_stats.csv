@@ -1,5 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-GE,Aerospace,Aerospace - Defense,0.55,820000.0,4. p999_trade_value,11.0,10953,40__0,40,0.0,17100.0,25716.0,114012.0,721087.2,2043885.02,2515742.99,2563422.3
-LMT,Aerospace,Aerospace - Defense,0.55,7520.0,8. p75_trade_value,1827.0,7303,40__1,40,1.0,13090.0,20154.0,47519.6,192872.04,807544.59,1884044.86,1991694.89
-LUNR,Aerospace,Aerospace - Defense,0.55,,,,7182,40__1,40,1.0,14000.0,20160.0,44551.08,150734.52,359188.04,575918.8,597591.88
-RKLB,Aerospace,Aerospace - Defense Equipment,0.55,952419.9999999999,1. p999999_trade_value,1.0,11104,40__1,40,1.0,13855.6,20411.9,41988.0,143211.41,215373.9,870728.57,944250.86

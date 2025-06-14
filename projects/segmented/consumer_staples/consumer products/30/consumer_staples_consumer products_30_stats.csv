@@ -1,4 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-BJ,Consumer Staples,Consumer Products - Staples,0.55,,,,643,30__0,30,0.0,11434.0,16360.0,67067.0,213516.44,302601.64,311510.16,312401.02
-CL,Consumer Staples,Consumer Products - Staples,0.55,877710.0,1. p999999_trade_value,1.0,694,30__0,30,0.0,13615.0,17535.0,51342.65,535070.01,843446.0,874283.6,877367.36
-CLX,Consumer Staples,Consumer Products - Staples,0.55,,,,766,30__0,30,0.0,22325.0,35105.0,145600.0,280875.0,298087.5,299808.75,299980.88

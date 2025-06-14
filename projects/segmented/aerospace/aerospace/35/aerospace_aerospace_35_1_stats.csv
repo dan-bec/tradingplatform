@@ -1,0 +1,5 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ACHR,Aerospace,Aerospace - Defense,0.55,7280.0,8. p75_trade_value,1209.0,4832,35__0,35,0.0,11694.0,16543.5,34770.24,86741.83,120252.74,137714.77,139460.98
+AXON,Aerospace,Aerospace - Defense Equipment,0.55,34175.0,6. p95_trade_value,275.0,5498,35__2,35,2.0,21083.0,34094.25,84818.61,208802.5,398952.17,406645.22,407414.52
+FTAI,Aerospace,Aerospace - Defense Equipment,0.55,,,,4229,35__0,35,0.0,15000.0,22738.0,73206.0,403446.96,1170673.28,1377067.33,1397706.73
+RTX,Aerospace,Aerospace - Defense,0.55,,,,2513,35__0,35,0.0,13722.2,20459.4,48184.64,112799.2,297074.97,303581.1,304231.71

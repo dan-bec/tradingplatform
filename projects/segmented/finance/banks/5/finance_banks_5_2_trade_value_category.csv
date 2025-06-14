@@ -1,0 +1,15 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+BAP,Finance,Banks - Foreign,5__0,5,0.0,3. p9999_trade_value,4509.999999999999,4509.999999999999,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BOKF,Finance,Banks - Southwest,5__0,5,0.0,1. p999999_trade_value,9900.0,9900.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BPOP,Finance,Banks - Southeast,5__0,5,0.0,1. p999999_trade_value,13097.999999999998,13097.999999999998,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BPOP,Finance,Banks - Southeast,5__0,5,0.0,8. p75_trade_value,3750.0,3750.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+CCB,Finance,Banks - West,5__0,5,0.0,1. p999999_trade_value,9000.0,9000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+COLB,Finance,Banks - West,5__0,5,0.0,1. p999999_trade_value,6400.0,6400.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+DCOM,Finance,Banks - Southeast,5__0,5,0.0,1. p999999_trade_value,6480.000000000001,6480.000000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+GBCI,Finance,Banks - West,5__0,5,0.0,1. p999999_trade_value,5000.0,5000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+HWC,Finance,Banks - Southeast,5__0,5,0.0,2. p99999_trade_value,6759.999999999999,6759.999999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+KB,Finance,Banks - Foreign,5__0,5,0.0,4. p999_trade_value,3444.9999999999995,3444.9999999999995,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+NBTB,Finance,Banks - Northeast,5__0,5,0.0,1. p999999_trade_value,5400.0,5400.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+PNFP,Finance,Banks - Southeast,5__1,5,1.0,1. p999999_trade_value,40460.0,40460.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SAN,Finance,Banks - Foreign,5__0,5,0.0,1. p999999_trade_value,4420.0,4420.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SYBT,Finance,Banks - Southeast,5__0,5,0.0,1. p999999_trade_value,7750.0,7750.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0

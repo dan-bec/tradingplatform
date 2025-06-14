@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-MAR,Consumer Discretionary,Hotels and Motels,0.55,,,,1625,30__2,30,2.0,15540.0,26976.0,111559.32,685181.59,882609.66,909060.97,911706.1

@@ -1,13 +1,8 @@
-import os
-import csv
-import re
+import config
 from datetime import datetime, date, timedelta
 from pathlib import Path
-import requests
 import time
 import duckdb
-import sys
-import subprocess
 import pandas as pd
 from tabulate import tabulate
 
@@ -16,11 +11,10 @@ start_time = time.time()
 print(f"Start time: {start_time:.2f} seconds")
 
 # Define file paths
-data_path = 'data'
-full_db_path = Path(f"{data_path}/master_database.db")
-replace_db_path = Path(f"{data_path}/backup_database.db")
-project = 'pharma'
-prep_schema = 'prep'
+data_path = config.DATA_PATH
+full_db_path = config.FULL_DB_PATH
+prep_schema = config.PREP
+compiled_schema = config.COMPILED
 
 # Connect to DuckDB
 con = duckdb.connect(str(full_db_path))
@@ -80,6 +74,7 @@ select * from
 {prep_schema}.itm_percentages
 where security in ('MRK','ABBV','MSTR','AAPL','BK','CMA','FCNCA','GS','AMGN','LLY','TSLA','NVDA','BAC','GME','PLTR','PFE')
 order by security, trade_value_category
+
 select * from information_schema.columns
     order by table_schema, table_name, ordinal_position
     
@@ -87,17 +82,22 @@ select * from
 {prep_schema}.unusual_baselines
 where security in ('MRK','ABBV','MSTR','AAPL','BK','CMA','FCNCA','GS','AMGN','LLY','TSLA','NVDA','BAC','GME','PLTR','PFE')
 order by security
-'''
 
-# Get unique rows from query
-result = con.execute(f"""
 select sector, industry, count(*)
                      from raw_data.sector_industry
                      group by 1,2
                      order by 1,2
+'''
+
+# Get unique rows from query
+result = con.execute(f"""
+select * from
+{prep_schema}.unusual_baselines
+where security in ('MRK','ABBV','MSTR','AAPL','BK','CMA','FCNCA','GS','AMGN','LLY','TSLA','NVDA','BAC','GME','PLTR','PFE')
+order by security
 """).fetchdf()
 print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
-#result.to_csv(sys.stdout, index=False)
+# result.to_csv(sys.stdout, index=False)
 
 
 # Explicitly close the connection

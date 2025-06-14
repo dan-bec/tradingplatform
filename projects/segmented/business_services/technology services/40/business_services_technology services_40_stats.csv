@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-FUTU,Business Services,Technology Services,0.55,551135.0,1. p999999_trade_value,1.0,12061,40__1,40,1.0,16875.0,27606.0,73485.0,173322.7,506525.76,550998.12,551121.31

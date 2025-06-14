@@ -1,4 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-BYD,Consumer Discretionary,Gaming,0.55,9800.0,8. p75_trade_value,29.0,114,20__1,20,1.0,21881.5,50564.7,262200.0,277088.9,277901.69,277982.97,277991.1
-IGT,Consumer Discretionary,Gaming,0.55,156000.0,1. p999999_trade_value,1.0,62,20__1,20,1.0,41259.0,92021.0,123246.66,152724.67,155672.47,155967.25,155996.72
-MLCO,Consumer Discretionary,Gaming,0.55,10800.0,8. p75_trade_value,17.0,65,20__1,20,1.0,27804.0,53510.0,145693.2,290194.32,304644.43,306089.44,306233.94

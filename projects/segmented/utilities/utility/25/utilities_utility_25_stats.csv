@@ -1,7 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AEP,Utilities,Utility - Electric Power,0.55,7050.0,8. p75_trade_value,63.0,250,25__1,25,1.0,13750.0,24026.35,125299.41,153366.48,154818.65,154963.86,154978.39
-AES,Utilities,Utility - Electric Power,0.55,8400.000000000002,8. p75_trade_value,132.0,527,25__1,25,1.0,18503.0,31432.5,92500.0,167834.05,196783.4,199678.34,199967.83
-DUK,Utilities,Utility - Electric Power,0.55,80000.0,5. p99_trade_value,5.0,479,25__1,25,1.0,14250.0,26479.3,70140.8,1034678.2,1156467.82,1168646.78,1169864.68
-ETR,Utilities,Utility - Electric Power,0.55,68750.0,1. p999999_trade_value,1.0,180,25__1,25,1.0,10725.5,16675.0,46395.16,67802.37,68655.24,68740.52,68749.05
-PCG,Utilities,Utility - Electric Power,0.55,,,,516,25__1,25,1.0,16430.0,37359.0,210600.0,787125.0,798712.5,799871.25,799987.12
-SO,Utilities,Utility - Electric Power,0.55,,,,300,25__1,25,1.0,28400.0,47986.0,99970.8,141731.0,150073.1,150907.31,150990.73

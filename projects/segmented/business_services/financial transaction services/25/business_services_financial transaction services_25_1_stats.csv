@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+CPAY,Business Services,Financial Transaction Services,0.55,,,,290,25__0,25,0.0,8696.5,10827.0,27035.0,119153.1,135305.31,136920.53,137082.05
+FIS,Business Services,Financial Transaction Services,0.55,,,,499,25__0,25,0.0,15960.4,20910.0,71697.32,280691.25,365569.12,374056.91,374905.69
+SEZL,Business Services,Financial Transaction Services,0.55,8550.0,8. p75_trade_value,94.0,372,25__0,25,0.0,17120.5,31673.45,46246.18,55966.14,56479.01,56530.3,56535.43

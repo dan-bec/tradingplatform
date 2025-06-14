@@ -1,3 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CBRE,Finance,Real Estate - Operations,0.55,548475.0,1. p999999_trade_value,1.0,406,25__1,25,1.0,12780.0,17807.5,146255.0,446080.88,538235.59,547451.06,548372.61
-WSC,Finance,Real Estate - Operations,0.55,,,,221,25__1,25,1.0,17080.0,27500.0,148800.0,513206.8,596774.68,605131.47,605967.15

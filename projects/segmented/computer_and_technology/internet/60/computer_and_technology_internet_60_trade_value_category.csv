@@ -1,9 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-META,Computer and Technology,Internet - Software,60__0,60,0.0,1. p999999_trade_value,7322070.0,7322070.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-META,Computer and Technology,Internet - Software,60__0,60,0.0,2. p99999_trade_value,5890950.0,3811750.0,4.0,6.0,0.6666666666666666,0.55,1. ABOVE BASELINE,5.0,7.0,0.7142857142857143
-META,Computer and Technology,Internet - Software,60__0,60,0.0,3. p9999_trade_value,3675000.0,1179750.0,45.0,59.0,0.7627118644067796,0.55,1. ABOVE BASELINE,50.0,66.0,0.7575757575757576
-META,Computer and Technology,Internet - Software,60__0,60,0.0,4. p999_trade_value,1172160.0,315000.0,373.0,589.0,0.633276740237691,0.55,1. ABOVE BASELINE,423.0,655.0,0.6458015267175573
-META,Computer and Technology,Internet - Software,60__0,60,0.0,5. p99_trade_value,314925.0,79310.0,3653.0,5886.0,0.6206252123683317,0.55,1. ABOVE BASELINE,4076.0,6541.0,0.6231463079039902
-META,Computer and Technology,Internet - Software,60__0,60,0.0,6. p95_trade_value,79300.0,28710.000000000004,15378.0,26166.0,0.5877092409997707,0.55,1. ABOVE BASELINE,19454.0,32707.0,0.5947962209924481
-META,Computer and Technology,Internet - Software,60__0,60,0.0,7. p90_trade_value,28709.999999999996,18090.0,18873.0,32703.0,0.5771030180717366,0.55,1. ABOVE BASELINE,38327.0,65410.0,0.5859501605259134
-META,Computer and Technology,Internet - Software,60__0,60,0.0,8. p75_trade_value,18089.999999999996,9445.0,55821.0,98113.0,0.5689460112319469,0.55,1. ABOVE BASELINE,94148.0,163523.0,0.5757477541385615

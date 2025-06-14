@@ -1,4 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-NTNX,Computer and Technology,Computers - IT Services,0.55,,,,732,30__2,30,2.0,16523.2,28749.0,169274.0,836165.23,1537269.52,1607379.95,1614391.0
-SERV,Computer and Technology,Computers - IT Services,0.55,7700.0,8. p75_trade_value,299.0,1193,30__0,30,0.0,12235.0,17380.0,34355.0,91736.0,162821.6,171082.16,171908.22
-WIX,Computer and Technology,Computers - IT Services,0.55,570964.0,1. p999999_trade_value,1.0,682,30__2,30,2.0,25332.0,57741.85,199241.76,481073.36,561974.94,570065.09,570874.11

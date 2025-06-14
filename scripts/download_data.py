@@ -1,3 +1,4 @@
+import config
 import os
 import boto3
 from botocore.config import Config
@@ -8,6 +9,20 @@ from datetime import datetime, timedelta
 from pathlib import Path
 import gzip
 import shutil
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--start-date", type=str, default=config.START_DATE, help="Start date (YYYY-MM-DD)")
+parser.add_argument("--end-date", type=str, default=config.END_DATE, help="End date (YYYY-MM-DD)")
+args = parser.parse_args()
+
+# Configuration
+script_dir = config.REPO_ROOT
+dataservices_path = config.DATASERVICES_PATH
+S3_ENDPOINT = config.S3_ENDPOINT # Polygon S3-compatible endpoint
+BUCKET_NAME = config.BUCKET_NAME # Polygon bucket name
+START_DATE = datetime.strptime(args.start_date, "%Y-%m-%d").date()
+END_DATE = datetime.strptime(args.end_date, "%Y-%m-%d").date()
 
 # Function to extract static string variables from DataServices.cs
 def get_static_string(file_path, var_name):
@@ -25,15 +40,6 @@ def get_static_string(file_path, var_name):
     except Exception as e:
         raise Exception(f"Error reading {var_name} from {file_path}: {e}")
 
-# Configuration
-script_dir = os.path.dirname(os.path.abspath(__file__))
-banks_csv_path = os.path.join(script_dir, "..", "data", "banks", "banks.csv")
-banks_option_volume_csv_path = os.path.join(script_dir, "..", "data", "banks", "banks_daily_option_volume.csv")
-dataservices_path = os.path.join(script_dir, "..", "src", "BullseyeApp", "Shared", "Data", "DataService.cs")
-S3_ENDPOINT = "https://files.polygon.io"  # Polygon S3-compatible endpoint
-BUCKET_NAME = "flatfiles"  # Polygon bucket name
-START_DATE = datetime(2024, 8, 1).date()
-END_DATE = datetime.now().date()  # Updated to include today
 
 # Define multiple passes with their respective configurations
 PASSES = [

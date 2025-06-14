@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+GRBK,Finance,Real Estate - Development,0.55,11850.0,8. p75_trade_value,7.0,26,15__0,15,0.0,20750.0,23135.0,23957.5,24040.75,24049.08,24049.91,24049.99
+JLL,Finance,Real Estate - Operations,0.55,13330.000000000002,8. p75_trade_value,15.0,53,15__0,15,0.0,17180.0,27300.0,126420.0,216042.0,225004.2,225900.42,225990.04
+LGIH,Finance,Real Estate - Development,0.55,11850.0,8. p75_trade_value,6.0,24,15__0,15,0.0,22088.0,44376.0,49524.6,49934.46,49975.45,49979.54,49979.95

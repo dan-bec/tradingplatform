@@ -1,8 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ALLT,Business Services,Technology Services,0.55,10050.0,8. p75_trade_value,5.0,19,15__0,15,0.0,10849.2,11321.4,13304.28,13750.43,13795.04,13799.5,13799.95
-AMPL,Business Services,Technology Services,0.55,150000.0,1. p999999_trade_value,1.0,40,15__0,15,0.0,10771.0,14544.0,97350.0,144735.0,149473.5,149947.35,149994.73
-AMPX,Business Services,Technology Services,0.55,16410.0,1. p999999_trade_value,1.0,43,15__0,15,0.0,9101.0,10168.0,13927.8,16161.78,16385.18,16407.52,16409.75
-GEN,Business Services,Technology Services,0.55,,,,23,15__0,15,0.0,19488.0,26286.0,45720.0,50472.0,50947.2,50994.72,50999.47
-MAX,Business Services,Technology Services,0.55,18000.0,1. p999999_trade_value,1.0,56,15__0,15,0.0,11775.0,13610.0,17051.25,17905.13,17990.51,17999.05,17999.91
-RAMP,Business Services,Technology Services,0.55,,,,50,15__0,15,0.0,11225.0,18045.0,71000.0,115100.0,119510.0,119951.0,119995.1
-YEXT,Business Services,Technology Services,0.55,,,,36,15__0,15,0.0,62380.0,97831.25,139963.75,148996.38,149899.64,149989.96,149999.0

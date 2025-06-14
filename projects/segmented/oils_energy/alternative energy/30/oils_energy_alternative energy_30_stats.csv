@@ -1,5 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ENVX,Oils-Energy,Alternative Energy - Other,0.55,220000.0,1. p999999_trade_value,1.0,1492,30__0,30,0.0,12804.5,18787.8,38020.84,137097.05,207729.07,218772.91,219877.29
-EXE,Oils-Energy,Alternative Energy - Other,0.55,60000.0,6. p95_trade_value,39.0,771,30__2,30,2.0,16500.0,58800.0,321810.0,615070.0,690607.0,698160.7,698916.07
-LTBR,Oils-Energy,Alternative Energy - Other,0.55,7600.0,8. p75_trade_value,152.0,607,30__0,30,0.0,12500.0,17421.0,28087.7,53219.75,58368.88,58883.79,58935.28
-TPL,Oils-Energy,Alternative Energy - Other,0.55,125050.0,1. p999999_trade_value,1.0,1325,30__0,30,0.0,14000.0,21580.0,52395.2,110863.2,124381.38,124983.14,125043.31

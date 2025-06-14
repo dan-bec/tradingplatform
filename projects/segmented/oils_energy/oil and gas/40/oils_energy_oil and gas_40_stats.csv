@@ -1,4 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CVX,Oils-Energy,Oil and Gas - Integrated - International,0.55,231525.0,4. p999_trade_value,8.0,8000,40__1,40,1.0,14235.0,21912.6,54800.9,224007.53,463463.32,631346.33,648134.63
-OXY,Oils-Energy,Oil and Gas - Integrated - United States,0.55,716112.0,1. p999999_trade_value,1.0,8106,40__1,40,1.0,13020.0,19816.5,48000.0,123006.25,297803.22,674281.12,711928.91
-XOM,Oils-Energy,Oil and Gas - Integrated - International,0.55,552900.0,1. p999999_trade_value,1.0,13236,40__1,40,1.0,15837.0,24714.0,78517.55,277638.31,484557.86,545967.51,552206.75

@@ -1,6 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-GPC,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,25__1,25,1.0,1. p999999_trade_value,565000.0,565000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-GPC,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,25__1,25,1.0,5. p99_trade_value,317240.0,307450.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,4.0,0.5
-GPC,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,25__1,25,1.0,6. p95_trade_value,186250.0,25345.0,6.0,13.0,0.46153846153846156,0.55,2. BELOW BASELINE,8.0,17.0,0.47058823529411764
-GPC,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,25__1,25,1.0,7. p90_trade_value,24080.0,13860.0,8.0,17.0,0.47058823529411764,0.55,2. BELOW BASELINE,16.0,34.0,0.47058823529411764
-GPC,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,25__1,25,1.0,8. p75_trade_value,13500.0,7458.0,20.0,50.0,0.4,0.55,2. BELOW BASELINE,36.0,84.0,0.42857142857142855

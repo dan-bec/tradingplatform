@@ -1,6 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-LUMN,Utilities,Diversified Communication Services,30__0,30,0.0,1. p999999_trade_value,300000.0,300000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-LUMN,Utilities,Diversified Communication Services,30__0,30,0.0,5. p99_trade_value,240000.0,54549.0,2.0,5.0,0.4,0.55,2. BELOW BASELINE,2.0,6.0,0.3333333333333333
-LUMN,Utilities,Diversified Communication Services,30__0,30,0.0,6. p95_trade_value,51711.0,18150.0,10.0,23.0,0.43478260869565216,0.55,2. BELOW BASELINE,12.0,29.0,0.41379310344827586
-LUMN,Utilities,Diversified Communication Services,30__0,30,0.0,7. p90_trade_value,17500.0,12240.0,12.0,28.0,0.42857142857142855,0.55,2. BELOW BASELINE,24.0,57.0,0.42105263157894735
-LUMN,Utilities,Diversified Communication Services,30__0,30,0.0,8. p75_trade_value,12105.0,6600.0,43.0,84.0,0.5119047619047619,0.55,2. BELOW BASELINE,67.0,141.0,0.475177304964539

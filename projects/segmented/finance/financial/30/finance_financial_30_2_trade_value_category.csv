@@ -1,0 +1,27 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+ALLY,Finance,Financial - Consumer Loans,30__1,30,1.0,1. p999999_trade_value,408000.00000000006,408000.00000000006,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ALLY,Finance,Financial - Consumer Loans,30__1,30,1.0,5. p99_trade_value,240000.0,135828.0,6.0,7.0,0.8571428571428571,0.55,2. BELOW BASELINE,6.0,8.0,0.75
+ALLY,Finance,Financial - Consumer Loans,30__1,30,1.0,6. p95_trade_value,130900.0,34000.0,11.0,31.0,0.3548387096774194,0.55,2. BELOW BASELINE,17.0,39.0,0.4358974358974359
+ALLY,Finance,Financial - Consumer Loans,30__1,30,1.0,7. p90_trade_value,33264.0,19690.0,17.0,38.0,0.4473684210526316,0.55,2. BELOW BASELINE,34.0,77.0,0.44155844155844154
+ALLY,Finance,Financial - Consumer Loans,30__1,30,1.0,8. p75_trade_value,18060.0,8550.0,58.0,115.0,0.5043478260869565,0.55,2. BELOW BASELINE,92.0,192.0,0.4791666666666667
+MSCI,Finance,Financial - Investment Management,30__2,30,2.0,1. p999999_trade_value,180000.0,180000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MSCI,Finance,Financial - Investment Management,30__2,30,2.0,5. p99_trade_value,117000.0,45280.0,4.0,6.0,0.6666666666666666,0.55,2. BELOW BASELINE,4.0,7.0,0.5714285714285714
+MSCI,Finance,Financial - Investment Management,30__2,30,2.0,6. p95_trade_value,38016.0,17100.0,14.0,24.0,0.5833333333333334,0.55,2. BELOW BASELINE,18.0,31.0,0.5806451612903226
+MSCI,Finance,Financial - Investment Management,30__2,30,2.0,7. p90_trade_value,17080.0,10836.0,17.0,30.0,0.5666666666666667,0.55,2. BELOW BASELINE,35.0,61.0,0.5737704918032787
+MSCI,Finance,Financial - Investment Management,30__2,30,2.0,8. p75_trade_value,10820.0,6435.000000000001,62.0,92.0,0.6739130434782609,0.55,2. BELOW BASELINE,97.0,153.0,0.6339869281045751
+PNC,Finance,Financial - Investment Bank,30__2,30,2.0,1. p999999_trade_value,161250.0,161250.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PNC,Finance,Financial - Investment Bank,30__2,30,2.0,5. p99_trade_value,136500.0,86025.0,2.0,6.0,0.3333333333333333,0.55,2. BELOW BASELINE,3.0,7.0,0.42857142857142855
+PNC,Finance,Financial - Investment Bank,30__2,30,2.0,6. p95_trade_value,71198.0,33000.0,11.0,25.0,0.44,0.55,2. BELOW BASELINE,14.0,32.0,0.4375
+PNC,Finance,Financial - Investment Bank,30__2,30,2.0,7. p90_trade_value,32129.999999999996,19120.0,15.0,31.0,0.4838709677419355,0.55,2. BELOW BASELINE,29.0,63.0,0.4603174603174603
+PNC,Finance,Financial - Investment Bank,30__2,30,2.0,8. p75_trade_value,18625.0,8840.0,46.0,94.0,0.48936170212765956,0.55,2. BELOW BASELINE,75.0,157.0,0.47770700636942676
+RKT,Finance,Financial - Mortgage & Related Services,30__2,30,2.0,1. p999999_trade_value,371360.0,371360.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+RKT,Finance,Financial - Mortgage & Related Services,30__2,30,2.0,4. p999_trade_value,182500.0,182500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+RKT,Finance,Financial - Mortgage & Related Services,30__2,30,2.0,5. p99_trade_value,124991.99999999999,74480.0,3.0,9.0,0.3333333333333333,0.55,2. BELOW BASELINE,5.0,11.0,0.45454545454545453
+RKT,Finance,Financial - Mortgage & Related Services,30__2,30,2.0,6. p95_trade_value,73920.0,30800.0,20.0,44.0,0.45454545454545453,0.55,2. BELOW BASELINE,25.0,55.0,0.45454545454545453
+RKT,Finance,Financial - Mortgage & Related Services,30__2,30,2.0,7. p90_trade_value,30659.999999999996,16019.999999999998,21.0,55.0,0.38181818181818183,0.55,2. BELOW BASELINE,46.0,110.0,0.41818181818181815
+RKT,Finance,Financial - Mortgage & Related Services,30__2,30,2.0,8. p75_trade_value,15854.999999999998,8610.0,71.0,164.0,0.4329268292682927,0.55,2. BELOW BASELINE,117.0,274.0,0.42700729927007297
+SYF,Finance,Financial - Miscellaneous Services,30__1,30,1.0,1. p999999_trade_value,651525.0,651525.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SYF,Finance,Financial - Miscellaneous Services,30__1,30,1.0,5. p99_trade_value,600000.0,107500.0,6.0,6.0,1.0,0.55,1. ABOVE BASELINE,7.0,7.0,1.0
+SYF,Finance,Financial - Miscellaneous Services,30__1,30,1.0,6. p95_trade_value,106880.0,38100.0,22.0,28.0,0.7857142857142857,0.55,1. ABOVE BASELINE,29.0,35.0,0.8285714285714286
+SYF,Finance,Financial - Miscellaneous Services,30__1,30,1.0,7. p90_trade_value,38000.0,20480.0,27.0,34.0,0.7941176470588235,0.55,1. ABOVE BASELINE,56.0,69.0,0.8115942028985508
+SYF,Finance,Financial - Miscellaneous Services,30__1,30,1.0,8. p75_trade_value,20200.0,9735.0,72.0,103.0,0.6990291262135923,0.55,1. ABOVE BASELINE,128.0,172.0,0.7441860465116279

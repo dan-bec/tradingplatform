@@ -1,3 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-INFY,Computer and Technology,Computers - IT Services,0.55,,,,153,20__0,20,0.0,10272.0,15360.0,24796.0,32989.92,34294.99,34425.5,34438.55
-SAIC,Computer and Technology,Computers - IT Services,0.55,,,,75,20__0,20,0.0,22704.0,26739.3,70228.4,121070.84,126155.08,126663.51,126714.35

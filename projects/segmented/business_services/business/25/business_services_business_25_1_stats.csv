@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+FDS,Business Services,Business - Information Services,0.55,20880.0,5. p99_trade_value,2.0,191,25__0,25,0.0,10400.0,14000.0,18413.1,32016.69,34367.77,34602.88,34626.39
+IRM,Business Services,Business - Information Services,0.55,276675.0,1. p999999_trade_value,1.0,376,25__0,25,0.0,15730.0,20560.5,60113.25,211503.75,270157.87,276023.29,276609.83
+TRU,Business Services,Business - Information Services,0.55,,,,401,25__0,25,0.0,12180.0,21420.0,87500.0,310500.0,348300.0,352080.0,352458.0

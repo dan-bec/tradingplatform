@@ -1,5 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CRH,Construction,Building Products - Miscellaneous,0.55,1000000.0,4. p999_trade_value,2.0,1927,35__1,35,1.0,18046.2,45406.0,180277.5,814800.0,1201850.0,1245185.0,1249518.5
-DHI,Construction,Building Products - Home Builders,0.55,481500.0,1. p999999_trade_value,1.0,2612,35__0,35,0.0,15120.0,22807.2,63412.3,324968.24,480716.7,481421.67,481492.17
-LEN,Construction,Building Products - Home Builders,0.55,435659.99999999994,4. p999_trade_value,4.0,3790,35__2,35,2.0,16349.6,24954.6,82704.52,407127.39,2554395.85,3585439.59,3688543.96
-URI,Construction,Building Products - Miscellaneous,0.55,,,,3860,35__4,35,4.0,16000.0,22331.75,63918.1,377982.15,2122963.89,2342776.39,2364757.64

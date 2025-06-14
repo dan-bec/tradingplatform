@@ -1,5 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-DHR,Medical,Medical Services,0.55,95000.0,5. p99_trade_value,27.0,2680,35__3,35,3.0,15304.7,26325.95,92846.46,380131.73,538115.12,576031.11,579822.71
-ELV,Medical,Medical Services,0.55,9360.0,8. p75_trade_value,598.0,2378,35__3,35,3.0,16587.0,27215.0,127186.9,448935.2,559651.52,570217.95,571274.6
-NTRA,Medical,Medical Services,0.55,,,,2605,35__0,35,0.0,15660.0,21440.0,75811.2,284785.68,818784.15,932828.42,944232.84
-WGS,Medical,Medical Services,0.55,,,,2334,35__3,35,3.0,17727.7,30621.25,69917.5,426019.68,961017.0,1068101.7,1078810.17

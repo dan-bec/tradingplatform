@@ -1,4 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AMC,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,2197,35__0,35,0.0,9671.2,13401.0,25179.12,61575.97,83471.55,88663.15,89182.32
-CCL,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,4766,35__4,35,4.0,16029.0,25909.5,90630.0,462751.25,1040571.1,1068676.21,1071486.72
-NCLH,Consumer Discretionary,Leisure and Recreation Services,0.55,440000.0,4. p999_trade_value,2.0,1808,35__0,35,0.0,14400.0,25606.0,100970.6,427895.0,459663.2,463566.32,463956.63

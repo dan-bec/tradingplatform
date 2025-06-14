@@ -1,4 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-MA,Business Services,Financial Transaction Services,0.55,66150.0,5. p99_trade_value,58.0,5708,40__1,40,1.0,14400.0,23200.4,66025.05,181461.28,422325.56,431482.56,432398.26
-PYPL,Business Services,Financial Transaction Services,0.55,,,,16217,40__0,40,0.0,16517.2,26402.0,94138.08,395677.3,1037303.94,1646779.78,1690177.98
-V,Business Services,Financial Transaction Services,0.55,,,,12593,40__1,40,1.0,14997.0,22422.0,58962.72,291434.37,1021889.0,1096902.0,1096902.0

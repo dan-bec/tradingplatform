@@ -1,6 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-CLBR,Unclassified,Unclassified,25__1,25,1.0,1. p999999_trade_value,285000.0,285000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-CLBR,Unclassified,Unclassified,25__1,25,1.0,5. p99_trade_value,200000.0,43470.0,2.0,5.0,0.4,0.55,2. BELOW BASELINE,2.0,6.0,0.3333333333333333
-CLBR,Unclassified,Unclassified,25__1,25,1.0,6. p95_trade_value,40470.0,20900.0,6.0,22.0,0.2727272727272727,0.55,2. BELOW BASELINE,8.0,28.0,0.2857142857142857
-CLBR,Unclassified,Unclassified,25__1,25,1.0,7. p90_trade_value,20655.0,16000.0,9.0,27.0,0.3333333333333333,0.55,2. BELOW BASELINE,17.0,55.0,0.3090909090909091
-CLBR,Unclassified,Unclassified,25__1,25,1.0,8. p75_trade_value,15840.0,8700.0,17.0,82.0,0.2073170731707317,0.55,2. BELOW BASELINE,34.0,137.0,0.24817518248175183

@@ -1,5 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-TDS,Utilities,Wireline - National,20__1,20,1.0,1. p999999_trade_value,940000.0,940000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-TDS,Utilities,Wireline - National,20__1,20,1.0,6. p95_trade_value,150000.0,66866.00000000001,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,4.0,0.5
-TDS,Utilities,Wireline - National,20__1,20,1.0,7. p90_trade_value,40000.0,31130.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,3.0,7.0,0.42857142857142855
-TDS,Utilities,Wireline - National,20__1,20,1.0,8. p75_trade_value,22125.0,7400.0,6.0,10.0,0.6,0.55,2. BELOW BASELINE,9.0,17.0,0.5294117647058824

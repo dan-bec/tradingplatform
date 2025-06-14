@@ -1,7 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-PWR,Construction,Engineering - R and D Services,35__1,35,1.0,1. p999999_trade_value,1082263.0,1082263.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-PWR,Construction,Engineering - R and D Services,35__1,35,1.0,4. p999_trade_value,1034000.0,1034000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-PWR,Construction,Engineering - R and D Services,35__1,35,1.0,5. p99_trade_value,712000.0,144000.0,12.0,18.0,0.6666666666666666,0.55,1. ABOVE BASELINE,14.0,20.0,0.7
-PWR,Construction,Engineering - R and D Services,35__1,35,1.0,6. p95_trade_value,137310.0,27950.0,46.0,77.0,0.5974025974025974,0.55,1. ABOVE BASELINE,60.0,97.0,0.6185567010309279
-PWR,Construction,Engineering - R and D Services,35__1,35,1.0,7. p90_trade_value,27389.999999999996,16000.0,58.0,98.0,0.5918367346938775,0.55,1. ABOVE BASELINE,118.0,195.0,0.6051282051282051
-PWR,Construction,Engineering - R and D Services,35__1,35,1.0,8. p75_trade_value,15994.0,8550.0,216.0,293.0,0.7372013651877133,0.55,1. ABOVE BASELINE,334.0,488.0,0.6844262295081968

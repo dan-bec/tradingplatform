@@ -1,13 +1,7 @@
-import os
-import csv
-import re
-from datetime import datetime, date, timedelta
+import config
 from pathlib import Path
-import requests
 import time
 import duckdb
-import sys
-import subprocess
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -17,17 +11,20 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import silhouette_score
 from kneed import KneeLocator
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--number-of-bins", type=int, default=config.NUMBER_OF_BINS, help="Number of bins")
+parser.add_argument("--max-k", type=int, default=config.MAX_K, help="Max k for clustering")
+args = parser.parse_args()
 
 ### SETTINGS ###
-data_path = 'data'
-full_db_path = Path(f"{data_path}/master_database.db")
-prep_schema = 'prep'
-output_dir = Path(f"./projects/{prep_schema}/outputs")
+full_db_path = config.FULL_DB_PATH
+prep_schema = config.PREP
+output_dir = config.PREP_OUTPUT_DIR
 output_dir.mkdir(parents=True, exist_ok=True)
-custom_range_filter = .9
-number_of_bins = 20
-use_log_transform = False  # Parameter to toggle log transformation for trade_value
-max_k = 10  # Maximum number of clusters to test per bin
+number_of_bins = args.number_of_bins
+max_k = max_k = args.max_k  # Maximum number of clusters to test per bin
 
 # Capture and print start time
 start_time = time.time()
@@ -52,9 +49,6 @@ con.execute(f"""
         , ROUND(PERCENTILE_CONT(0.75) WITHIN GROUP (ORDER BY trade_value),2)  AS p75_trade_value
         , p75_trade_value - p25_trade_value AS iqr
         , p75_trade_value + (1.5 * iqr) AS trad_iqr_trade_value
-        , {custom_range_filter} as n_range
-        , ROUND(PERCENTILE_CONT({custom_range_filter}) WITHIN GROUP (ORDER BY trade_value),2)  AS pn_trade_value
-        , ROUND((pn_trade_value - p75_trade_value) / iqr, 2) AS custom_k
         , ROUND(PERCENTILE_CONT(0.90) WITHIN GROUP (ORDER BY trade_value),2)  AS p90_trade_value
         , ROUND(PERCENTILE_CONT(0.95) WITHIN GROUP (ORDER BY trade_value),2)  AS p95_trade_value
         , ROUND(PERCENTILE_CONT(0.99) WITHIN GROUP (ORDER BY trade_value),2)  AS p99_trade_value
@@ -209,7 +203,7 @@ security_features = security_features.merge(security_info, on='security', how='l
 
 # Save the clustered securities to DuckDB
 con.execute(f"CREATE OR REPLACE TABLE {prep_schema}.clustered_securities AS SELECT * FROM security_features")
-print(f"Securities have been clustered: {prep_schema}.clustered_securities")
+print(f"!!!ROWS IN {prep_schema}.clustered_securities!!!:", con.execute(f"SELECT COUNT(*) FROM {prep_schema}.clustered_securities").fetchone()[0]) # type: ignore
 
 # Output to CSV
 cluster_output = output_dir / "clustered_securities_binned.csv"

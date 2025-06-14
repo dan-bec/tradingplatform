@@ -1,6 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-GS,Finance,Financial - Investment Bank,0.55,258000.0,4. p999_trade_value,36.0,35241,45__0,45,0.0,15390.0,23700.0,66040.0,257212.8,715607.8,1457725.0,1675772.5
-JPM,Finance,Financial - Investment Bank,0.55,,,,29202,45__0,45,0.0,15400.0,24016.0,63000.0,236389.5,727303.82,2045493.56,2328250.56
-MARA,Finance,Financial - Miscellaneous Services,0.55,1018470.0000000001,3. p9999_trade_value,5.0,42456,45__0,45,0.0,14810.0,22849.5,67607.2,409076.98,1012953.62,1169719.5,1237539.45
-SOFI,Finance,Financial - Miscellaneous Services,0.55,,,,17831,45__0,45,0.0,13800.0,20541.0,45727.5,219479.44,2412927.79,4015544.0,4015544.0
-UPST,Finance,Financial - Miscellaneous Services,0.55,8961.0,8. p75_trade_value,6917.0,27663,45__2,45,2.0,17250.0,28000.0,82765.66,311408.0,992942.5,2309817.54,2687981.75

@@ -1,0 +1,312 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+ACAD,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,152750.0,152750.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ACAD,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,141000.0,33250.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,2.0,5.0,0.4
+ACAD,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,24430.0,11160.0,1.0,5.0,0.2,0.55,2. BELOW BASELINE,3.0,10.0,0.3
+ACAD,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,9000.0,5950.0,7.0,14.0,0.5,0.55,2. BELOW BASELINE,10.0,24.0,0.4166666666666667
+ANRO,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,207000.0,207000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ANRO,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,102000.0,15680.000000000002,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
+ANRO,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,14760.0,12540.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,5.0,6.0,0.8333333333333334
+ANRO,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,11499.999999999998,6580.0,6.0,11.0,0.5454545454545454,0.55,2. BELOW BASELINE,11.0,17.0,0.6470588235294118
+ARDX,Medical,Medical - Drugs,20__0,20,0.0,1. p999999_trade_value,26524.0,26524.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ARDX,Medical,Medical - Drugs,20__0,20,0.0,6. p95_trade_value,25000.0,15000.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+ARDX,Medical,Medical - Drugs,20__0,20,0.0,7. p90_trade_value,14819.999999999998,11410.0,3.0,4.0,0.75,0.55,1. ABOVE BASELINE,7.0,8.0,0.875
+ARDX,Medical,Medical - Drugs,20__0,20,0.0,8. p75_trade_value,10500.0,6250.0,10.0,14.0,0.7142857142857143,0.55,1. ABOVE BASELINE,17.0,22.0,0.7727272727272727
+ARQT,Medical,Medical - Biomedical and Genetics,20__1,20,1.0,1. p999999_trade_value,325000.0,325000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ARQT,Medical,Medical - Biomedical and Genetics,20__1,20,1.0,5. p99_trade_value,292500.0,292500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+ARQT,Medical,Medical - Biomedical and Genetics,20__1,20,1.0,6. p95_trade_value,262500.0,103500.0,2.0,5.0,0.4,0.55,2. BELOW BASELINE,2.0,7.0,0.2857142857142857
+ARQT,Medical,Medical - Biomedical and Genetics,20__1,20,1.0,7. p90_trade_value,101250.0,75000.0,2.0,7.0,0.2857142857142857,0.55,2. BELOW BASELINE,4.0,14.0,0.2857142857142857
+ARQT,Medical,Medical - Biomedical and Genetics,20__1,20,1.0,8. p75_trade_value,70450.0,19940.0,6.0,18.0,0.3333333333333333,0.55,2. BELOW BASELINE,10.0,32.0,0.3125
+ASND,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,1. p999999_trade_value,615000.0,615000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ASND,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,5. p99_trade_value,142970.0,142970.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+ASND,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,6. p95_trade_value,134620.0,58290.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,3.0,6.0,0.5
+ASND,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,7. p90_trade_value,57000.0,33998.0,2.0,6.0,0.3333333333333333,0.55,2. BELOW BASELINE,5.0,12.0,0.4166666666666667
+ASND,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,8. p75_trade_value,32189.999999999996,11550.0,13.0,18.0,0.7222222222222222,0.55,2. BELOW BASELINE,18.0,30.0,0.6
+ATEC,Medical,Medical - Instruments,20__2,20,2.0,1. p999999_trade_value,183600.0,183600.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ATEC,Medical,Medical - Instruments,20__2,20,2.0,6. p95_trade_value,157950.0,62500.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
+ATEC,Medical,Medical - Instruments,20__2,20,2.0,7. p90_trade_value,48000.0,39000.0,3.0,4.0,0.75,0.55,1. ABOVE BASELINE,6.0,8.0,0.75
+ATEC,Medical,Medical - Instruments,20__2,20,2.0,8. p75_trade_value,33600.0,15750.0,8.0,10.0,0.8,0.55,1. ABOVE BASELINE,14.0,18.0,0.7777777777777778
+AVDL,Medical,Medical - Drugs,20__0,20,0.0,1. p999999_trade_value,74250.00000000001,74250.00000000001,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AVDL,Medical,Medical - Drugs,20__0,20,0.0,5. p99_trade_value,27489.0,27489.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+AVDL,Medical,Medical - Drugs,20__0,20,0.0,6. p95_trade_value,24080.0,19470.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,2.0,6.0,0.3333333333333333
+AVDL,Medical,Medical - Drugs,20__0,20,0.0,7. p90_trade_value,14400.0,10416.0,2.0,5.0,0.4,0.55,2. BELOW BASELINE,4.0,11.0,0.36363636363636365
+AVDL,Medical,Medical - Drugs,20__0,20,0.0,8. p75_trade_value,10350.0,6500.0,4.0,18.0,0.2222222222222222,0.55,2. BELOW BASELINE,8.0,29.0,0.27586206896551724
+AVXL,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,212500.0,212500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+AVXL,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,5. p99_trade_value,50350.0,50350.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+AVXL,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,22590.0,16960.0,1.0,5.0,0.2,0.55,2. BELOW BASELINE,1.0,7.0,0.14285714285714285
+AVXL,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,15000.0,10780.000000000002,3.0,7.0,0.42857142857142855,0.55,2. BELOW BASELINE,4.0,14.0,0.2857142857142857
+AVXL,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,10000.0,6500.0,14.0,23.0,0.6086956521739131,0.55,2. BELOW BASELINE,18.0,37.0,0.4864864864864865
+BEAM,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,34100.0,34100.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BEAM,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,5. p99_trade_value,33000.0,33000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+BEAM,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,20580.0,15200.0,5.0,5.0,1.0,0.55,1. ABOVE BASELINE,7.0,7.0,1.0
+BEAM,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,15000.0,11480.0,3.0,6.0,0.5,0.55,2. BELOW BASELINE,10.0,13.0,0.7692307692307693
+BEAM,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,11155.0,7980.0,7.0,19.0,0.3684210526315789,0.55,2. BELOW BASELINE,17.0,32.0,0.53125
+BHC,Medical,Medical - Generic Drugs,20__2,20,2.0,1. p999999_trade_value,338592.0,338592.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BHC,Medical,Medical - Generic Drugs,20__2,20,2.0,6. p95_trade_value,300000.0,17888.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,1.0,5.0,0.2
+BHC,Medical,Medical - Generic Drugs,20__2,20,2.0,7. p90_trade_value,15098.999999999998,10887.0,0.0,5.0,0.0,0.55,2. BELOW BASELINE,1.0,10.0,0.1
+BHC,Medical,Medical - Generic Drugs,20__2,20,2.0,8. p75_trade_value,10603.0,5472.0,5.0,12.0,0.4166666666666667,0.55,2. BELOW BASELINE,6.0,22.0,0.2727272727272727
+BMEA,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,81000.0,81000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BMEA,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,54000.0,14925.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,1.0,5.0,0.2
+BMEA,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,11200.000000000002,10000.0,4.0,5.0,0.8,0.55,2. BELOW BASELINE,5.0,10.0,0.5
+BMEA,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,9000.0,7144.0,5.0,11.0,0.45454545454545453,0.55,2. BELOW BASELINE,10.0,21.0,0.47619047619047616
+CABA,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,36000.0,36000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CABA,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,27000.0,17400.0,0.0,4.0,0.0,0.55,2. BELOW BASELINE,0.0,5.0,0.0
+CABA,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,12705.0,10000.0,1.0,5.0,0.2,0.55,2. BELOW BASELINE,1.0,10.0,0.1
+CABA,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,9600.0,6500.0,3.0,13.0,0.23076923076923078,0.55,2. BELOW BASELINE,4.0,23.0,0.17391304347826086
+CGON,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,1. p999999_trade_value,440000.0,440000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CGON,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,6. p95_trade_value,210000.0,45500.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
+CGON,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,7. p90_trade_value,24440.0,15000.0,4.0,4.0,1.0,0.55,1. ABOVE BASELINE,7.0,8.0,0.875
+CGON,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,8. p75_trade_value,14720.000000000002,9000.0,11.0,15.0,0.7333333333333333,0.55,1. ABOVE BASELINE,18.0,23.0,0.782608695652174
+CHE,Medical,Medical - Outpatient and Home Healthcare,20__0,20,0.0,1. p999999_trade_value,39261.0,39261.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CHE,Medical,Medical - Outpatient and Home Healthcare,20__0,20,0.0,6. p95_trade_value,20792.0,16739.999999999996,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+CHE,Medical,Medical - Outpatient and Home Healthcare,20__0,20,0.0,7. p90_trade_value,13072.0,11569.000000000002,0.0,3.0,0.0,0.55,2. BELOW BASELINE,1.0,6.0,0.16666666666666666
+CHE,Medical,Medical - Outpatient and Home Healthcare,20__0,20,0.0,8. p75_trade_value,8988.0,6195.0,2.0,9.0,0.2222222222222222,0.55,2. BELOW BASELINE,3.0,15.0,0.2
+CLDX,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,1. p999999_trade_value,174500.0,174500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CLDX,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,6. p95_trade_value,160000.0,76140.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+CLDX,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,7. p90_trade_value,40000.0,19500.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,5.0,7.0,0.7142857142857143
+CLDX,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,8. p75_trade_value,18023.0,9000.0,1.0,10.0,0.1,0.55,2. BELOW BASELINE,6.0,17.0,0.35294117647058826
+CMPX,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,1. p999999_trade_value,224595.00000000003,224595.00000000003,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CMPX,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,6. p95_trade_value,174685.0,75000.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+CMPX,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,7. p90_trade_value,58829.99999999999,19610.000000000004,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,7.0,0.0
+CMPX,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,8. p75_trade_value,18550.0,10458.0,10.0,10.0,1.0,0.55,2. BELOW BASELINE,10.0,17.0,0.5882352941176471
+CNMD,Medical,Medical - Dental Supplies,20__2,20,2.0,1. p999999_trade_value,288000.0,288000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CNMD,Medical,Medical - Dental Supplies,20__2,20,2.0,6. p95_trade_value,200000.0,115000.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+CNMD,Medical,Medical - Dental Supplies,20__2,20,2.0,7. p90_trade_value,32940.0,22869.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,7.0,0.2857142857142857
+CNMD,Medical,Medical - Dental Supplies,20__2,20,2.0,8. p75_trade_value,8175.999999999999,6234.999999999999,6.0,10.0,0.6,0.55,2. BELOW BASELINE,8.0,17.0,0.47058823529411764
+CNTA,Medical,Medical - Drugs,20__1,20,1.0,1. p999999_trade_value,600000.0,600000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CNTA,Medical,Medical - Drugs,20__1,20,1.0,5. p99_trade_value,510000.0,510000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+CNTA,Medical,Medical - Drugs,20__1,20,1.0,6. p95_trade_value,211500.0,102900.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,2.0,6.0,0.3333333333333333
+CNTA,Medical,Medical - Drugs,20__1,20,1.0,7. p90_trade_value,64500.0,33220.00000000001,3.0,6.0,0.5,0.55,2. BELOW BASELINE,5.0,12.0,0.4166666666666667
+CNTA,Medical,Medical - Drugs,20__1,20,1.0,8. p75_trade_value,32500.0,15000.0,10.0,18.0,0.5555555555555556,0.55,2. BELOW BASELINE,15.0,30.0,0.5
+COO,Medical,Medical - Dental Supplies,20__0,20,0.0,1. p999999_trade_value,145140.0,145140.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+COO,Medical,Medical - Dental Supplies,20__0,20,0.0,5. p99_trade_value,88000.0,88000.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+COO,Medical,Medical - Dental Supplies,20__0,20,0.0,6. p95_trade_value,77500.0,62000.0,5.0,5.0,1.0,0.55,2. BELOW BASELINE,6.0,7.0,0.8571428571428571
+COO,Medical,Medical - Dental Supplies,20__0,20,0.0,7. p90_trade_value,57816.0,28000.0,5.0,7.0,0.7142857142857143,0.55,2. BELOW BASELINE,11.0,14.0,0.7857142857142857
+COO,Medical,Medical - Dental Supplies,20__0,20,0.0,8. p75_trade_value,27783.0,10750.0,12.0,24.0,0.5,0.55,2. BELOW BASELINE,23.0,38.0,0.6052631578947368
+CRMD,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,91125.00000000001,91125.00000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CRMD,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,5. p99_trade_value,18163.0,18163.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+CRMD,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,17500.0,10285.0,2.0,7.0,0.2857142857142857,0.55,2. BELOW BASELINE,2.0,9.0,0.2222222222222222
+CRMD,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,9400.0,8505.0,5.0,9.0,0.5555555555555556,0.55,2. BELOW BASELINE,7.0,18.0,0.3888888888888889
+CRMD,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,8370.0,6000.0,17.0,31.0,0.5483870967741935,0.55,2. BELOW BASELINE,24.0,49.0,0.4897959183673469
+CRVS,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,1. p999999_trade_value,320000.0,320000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CRVS,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,5. p99_trade_value,200000.0,200000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+CRVS,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,6. p95_trade_value,160000.0,27170.000000000004,1.0,6.0,0.16666666666666666,0.55,2. BELOW BASELINE,1.0,8.0,0.125
+CRVS,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,7. p90_trade_value,26000.0,15295.000000000002,1.0,7.0,0.14285714285714285,0.55,2. BELOW BASELINE,2.0,15.0,0.13333333333333333
+CRVS,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,8. p75_trade_value,14720.000000000002,8400.0,7.0,21.0,0.3333333333333333,0.55,2. BELOW BASELINE,9.0,36.0,0.25
+CYH,Medical,Medical - Hospital,20__0,20,0.0,1. p999999_trade_value,40950.0,40950.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CYH,Medical,Medical - Hospital,20__0,20,0.0,6. p95_trade_value,30000.0,30000.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+CYH,Medical,Medical - Hospital,20__0,20,0.0,7. p90_trade_value,22635.0,18305.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,1.0,7.0,0.14285714285714285
+CYH,Medical,Medical - Hospital,20__0,20,0.0,8. p75_trade_value,15000.0,8994.999999999998,0.0,8.0,0.0,0.55,2. BELOW BASELINE,1.0,15.0,0.06666666666666667
+DNA,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,173250.0,173250.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+DNA,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,5. p99_trade_value,76230.0,76230.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+DNA,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,27810.000000000004,16800.0,5.0,7.0,0.7142857142857143,0.55,1. ABOVE BASELINE,7.0,9.0,0.7777777777777778
+DNA,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,16000.0,12375.0,6.0,9.0,0.6666666666666666,0.55,1. ABOVE BASELINE,13.0,18.0,0.7222222222222222
+DNA,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,12000.0,7200.0,13.0,25.0,0.52,0.55,2. BELOW BASELINE,26.0,43.0,0.6046511627906976
+DYN,Medical,Medical - Drugs,20__2,20,2.0,1. p999999_trade_value,590000.0,590000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+DYN,Medical,Medical - Drugs,20__2,20,2.0,5. p99_trade_value,489755.0,489755.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+DYN,Medical,Medical - Drugs,20__2,20,2.0,6. p95_trade_value,86592.0,27270.000000000004,3.0,7.0,0.42857142857142855,0.55,2. BELOW BASELINE,5.0,9.0,0.5555555555555556
+DYN,Medical,Medical - Drugs,20__2,20,2.0,7. p90_trade_value,25800.0,15000.0,5.0,9.0,0.5555555555555556,0.55,2. BELOW BASELINE,10.0,18.0,0.5555555555555556
+DYN,Medical,Medical - Drugs,20__2,20,2.0,8. p75_trade_value,14690.0,8280.0,13.0,26.0,0.5,0.55,2. BELOW BASELINE,23.0,44.0,0.5227272727272727
+EBS,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,27000.0,27000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+EBS,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,20000.0,14328.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+EBS,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,14050.0,10500.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,7.0,0.2857142857142857
+EBS,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,10000.0,6000.0,4.0,9.0,0.4444444444444444,0.55,2. BELOW BASELINE,6.0,16.0,0.375
+EXEL,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,93000.0,93000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+EXEL,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,5. p99_trade_value,79960.0,79960.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+EXEL,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,53845.00000000001,20750.0,2.0,5.0,0.4,0.55,2. BELOW BASELINE,2.0,7.0,0.2857142857142857
+EXEL,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,18750.0,13640.0,1.0,7.0,0.14285714285714285,0.55,2. BELOW BASELINE,3.0,14.0,0.21428571428571427
+EXEL,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,11000.000000000002,7500.0,10.0,21.0,0.47619047619047616,0.55,2. BELOW BASELINE,13.0,35.0,0.37142857142857144
+FTRE,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,1. p999999_trade_value,145000.0,145000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FTRE,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,5. p99_trade_value,97375.0,97375.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+FTRE,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,6. p95_trade_value,81000.0,65000.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,2.0,6.0,0.3333333333333333
+FTRE,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,7. p90_trade_value,61560.0,40250.0,5.0,6.0,0.8333333333333334,0.55,2. BELOW BASELINE,7.0,12.0,0.5833333333333334
+FTRE,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,8. p75_trade_value,30940.000000000004,12527.999999999998,11.0,16.0,0.6875,0.55,2. BELOW BASELINE,18.0,28.0,0.6428571428571429
+GALT,Medical,Medical - Drugs,20__2,20,2.0,1. p999999_trade_value,344000.0,344000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+GALT,Medical,Medical - Drugs,20__2,20,2.0,5. p99_trade_value,169925.0,169925.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+GALT,Medical,Medical - Drugs,20__2,20,2.0,6. p95_trade_value,86000.0,19000.0,1.0,6.0,0.16666666666666666,0.55,2. BELOW BASELINE,1.0,8.0,0.125
+GALT,Medical,Medical - Drugs,20__2,20,2.0,7. p90_trade_value,17250.0,13192.000000000002,4.0,8.0,0.5,0.55,2. BELOW BASELINE,5.0,16.0,0.3125
+GALT,Medical,Medical - Drugs,20__2,20,2.0,8. p75_trade_value,12600.0,6750.0,14.0,25.0,0.56,0.55,2. BELOW BASELINE,19.0,41.0,0.4634146341463415
+GMED,Medical,Medical - Instruments,20__2,20,2.0,1. p999999_trade_value,325890.0,325890.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+GMED,Medical,Medical - Instruments,20__2,20,2.0,5. p99_trade_value,240000.0,240000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+GMED,Medical,Medical - Instruments,20__2,20,2.0,6. p95_trade_value,211225.0,59500.0,0.0,4.0,0.0,0.55,2. BELOW BASELINE,2.0,6.0,0.3333333333333333
+GMED,Medical,Medical - Instruments,20__2,20,2.0,7. p90_trade_value,56000.0,27500.0,2.0,6.0,0.3333333333333333,0.55,2. BELOW BASELINE,4.0,12.0,0.3333333333333333
+GMED,Medical,Medical - Instruments,20__2,20,2.0,8. p75_trade_value,21100.0,9500.0,4.0,18.0,0.2222222222222222,0.55,2. BELOW BASELINE,8.0,30.0,0.26666666666666666
+GPCR,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,1. p999999_trade_value,270000.0,270000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+GPCR,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,5. p99_trade_value,210000.0,210000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+GPCR,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,6. p95_trade_value,202500.0,35300.0,2.0,7.0,0.2857142857142857,0.55,2. BELOW BASELINE,2.0,9.0,0.2222222222222222
+GPCR,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,7. p90_trade_value,26459.999999999996,24250.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,3.0,13.0,0.23076923076923078
+GPCR,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,8. p75_trade_value,22999.999999999996,8580.0,10.0,18.0,0.5555555555555556,0.55,2. BELOW BASELINE,13.0,31.0,0.41935483870967744
+NGNE,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,100000.0,100000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+NGNE,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,53460.0,31900.0,4.0,4.0,1.0,0.55,1. ABOVE BASELINE,5.0,5.0,1.0
+NGNE,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,31280.0,25000.0,4.0,5.0,0.8,0.55,1. ABOVE BASELINE,9.0,10.0,0.9
+NGNE,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,24750.0,6290.000000000001,15.0,15.0,1.0,0.55,1. ABOVE BASELINE,24.0,25.0,0.96
+NTLA,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,61200.0,61200.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+NTLA,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,5. p99_trade_value,43945.00000000001,43945.00000000001,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+NTLA,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,33232.0,19880.0,3.0,6.0,0.5,0.55,2. BELOW BASELINE,4.0,8.0,0.5
+NTLA,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,18280.0,13000.0,3.0,8.0,0.375,0.55,2. BELOW BASELINE,7.0,16.0,0.4375
+NTLA,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,12650.0,7980.0,8.0,22.0,0.36363636363636365,0.55,2. BELOW BASELINE,15.0,38.0,0.39473684210526316
+NUVL,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,37500.0,37500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+NUVL,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,5. p99_trade_value,31500.0,31500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+NUVL,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,21000.0,14750.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,2.0,6.0,0.3333333333333333
+NUVL,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,14500.0,11000.000000000002,5.0,5.0,1.0,0.55,2. BELOW BASELINE,7.0,11.0,0.6363636363636364
+NUVL,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,10080.0,7139.999999999999,14.0,16.0,0.875,0.55,2. BELOW BASELINE,21.0,27.0,0.7777777777777778
+OMER,Medical,Medical - Products,20__0,20,0.0,1. p999999_trade_value,114000.0,114000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+OMER,Medical,Medical - Products,20__0,20,0.0,6. p95_trade_value,90000.0,27944.000000000007,3.0,3.0,1.0,0.55,2. BELOW BASELINE,3.0,4.0,0.75
+OMER,Medical,Medical - Products,20__0,20,0.0,7. p90_trade_value,22500.0,12540.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,4.0,7.0,0.5714285714285714
+OMER,Medical,Medical - Products,20__0,20,0.0,8. p75_trade_value,10594.999999999998,7245.0,5.0,10.0,0.5,0.55,2. BELOW BASELINE,9.0,17.0,0.5294117647058824
+PACB,Medical,Medical - Instruments,20__0,20,0.0,1. p999999_trade_value,54000.0,54000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PACB,Medical,Medical - Instruments,20__0,20,0.0,6. p95_trade_value,31140.000000000004,19120.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+PACB,Medical,Medical - Instruments,20__0,20,0.0,7. p90_trade_value,18000.0,17505.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,7.0,7.0,1.0
+PACB,Medical,Medical - Instruments,20__0,20,0.0,8. p75_trade_value,17500.0,7180.0,7.0,10.0,0.7,0.55,1. ABOVE BASELINE,14.0,17.0,0.8235294117647058
+PHAT,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,34310.0,34310.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+PHAT,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,22250.0,14925.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+PHAT,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,14500.0,9500.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,1.0,6.0,0.16666666666666666
+PHAT,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,9050.0,7630.000000000001,2.0,9.0,0.2222222222222222,0.55,2. BELOW BASELINE,3.0,15.0,0.2
+PRTA,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,1. p999999_trade_value,258750.0,258750.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+PRTA,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,6. p95_trade_value,142881.0,85956.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+PRTA,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,7. p90_trade_value,43960.0,38298.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,6.0,0.3333333333333333
+PRTA,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,8. p75_trade_value,34000.0,10000.0,2.0,9.0,0.2222222222222222,0.55,2. BELOW BASELINE,4.0,15.0,0.26666666666666666
+PTGX,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,1. p999999_trade_value,452639.99999999994,452639.99999999994,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+PTGX,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,6. p95_trade_value,354240.0,50000.0,3.0,3.0,1.0,0.55,2. BELOW BASELINE,3.0,4.0,0.75
+PTGX,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,7. p90_trade_value,40000.0,17000.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,6.0,8.0,0.75
+PTGX,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,8. p75_trade_value,16575.0,8190.000000000001,4.0,11.0,0.36363636363636365,0.55,2. BELOW BASELINE,10.0,19.0,0.5263157894736842
+PYXS,Medical,Medical - Drugs,20__0,20,0.0,1. p999999_trade_value,117100.0,117100.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+PYXS,Medical,Medical - Drugs,20__0,20,0.0,6. p95_trade_value,71250.0,24000.0,4.0,5.0,0.8,0.55,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
+PYXS,Medical,Medical - Drugs,20__0,20,0.0,7. p90_trade_value,18239.999999999996,15900.0,4.0,4.0,1.0,0.55,2. BELOW BASELINE,8.0,10.0,0.8
+PYXS,Medical,Medical - Drugs,20__0,20,0.0,8. p75_trade_value,13300.0,7000.0,7.0,11.0,0.6363636363636364,0.55,2. BELOW BASELINE,15.0,21.0,0.7142857142857143
+QDEL,Medical,Medical - Products,20__1,20,1.0,1. p999999_trade_value,525000.0,525000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+QDEL,Medical,Medical - Products,20__1,20,1.0,6. p95_trade_value,435000.0,205000.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+QDEL,Medical,Medical - Products,20__1,20,1.0,7. p90_trade_value,135000.0,90000.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,1.0,7.0,0.14285714285714285
+QDEL,Medical,Medical - Products,20__1,20,1.0,8. p75_trade_value,70000.0,28350.0,2.0,9.0,0.2222222222222222,0.55,2. BELOW BASELINE,3.0,16.0,0.1875
+QGEN,Medical,Medical - Biomedical and Genetics,20__1,20,1.0,1. p999999_trade_value,476595.0,476595.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+QGEN,Medical,Medical - Biomedical and Genetics,20__1,20,1.0,6. p95_trade_value,226435.0,208208.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+QGEN,Medical,Medical - Biomedical and Genetics,20__1,20,1.0,7. p90_trade_value,78920.0,67500.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,6.0,7.0,0.8571428571428571
+QGEN,Medical,Medical - Biomedical and Genetics,20__1,20,1.0,8. p75_trade_value,45900.0,12000.0,7.0,9.0,0.7777777777777778,0.55,1. ABOVE BASELINE,13.0,16.0,0.8125
+QTTB,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,31730.0,31730.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+QTTB,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,20000.0,15170.000000000002,1.0,4.0,0.25,0.55,2. BELOW BASELINE,1.0,5.0,0.2
+QTTB,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,14175.0,10504.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,4.0,9.0,0.4444444444444444
+QTTB,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,9430.0,7880.0,6.0,13.0,0.46153846153846156,0.55,2. BELOW BASELINE,10.0,22.0,0.45454545454545453
+RDNT,Medical,Medical - Outpatient and Home Healthcare,20__0,20,0.0,1. p999999_trade_value,232000.0,232000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+RDNT,Medical,Medical - Outpatient and Home Healthcare,20__0,20,0.0,5. p99_trade_value,91200.0,91200.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+RDNT,Medical,Medical - Outpatient and Home Healthcare,20__0,20,0.0,6. p95_trade_value,84400.0,40200.0,3.0,6.0,0.5,0.55,2. BELOW BASELINE,5.0,9.0,0.5555555555555556
+RDNT,Medical,Medical - Outpatient and Home Healthcare,20__0,20,0.0,7. p90_trade_value,36292.0,10750.0,7.0,8.0,0.875,0.55,2. BELOW BASELINE,12.0,17.0,0.7058823529411765
+RDNT,Medical,Medical - Outpatient and Home Healthcare,20__0,20,0.0,8. p75_trade_value,10080.000000000002,6930.000000000001,12.0,24.0,0.5,0.55,2. BELOW BASELINE,24.0,41.0,0.5853658536585366
+REPL,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,1. p999999_trade_value,275000.0,275000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+REPL,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,6. p95_trade_value,23490.0,9450.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+REPL,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,7. p90_trade_value,9300.0,8950.0,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,4.0,7.0,0.5714285714285714
+REPL,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,8. p75_trade_value,7500.0,6000.0,5.0,10.0,0.5,0.55,2. BELOW BASELINE,9.0,17.0,0.5294117647058824
+RGEN,Medical,Medical - Biomedical and Genetics,20__1,20,1.0,1. p999999_trade_value,1043120.0000000001,1043120.0000000001,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,1.0,1.0
+RGEN,Medical,Medical - Biomedical and Genetics,20__1,20,1.0,5. p99_trade_value,247519.99999999997,247519.99999999997,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+RGEN,Medical,Medical - Biomedical and Genetics,20__1,20,1.0,6. p95_trade_value,188000.0,98400.0,3.0,7.0,0.42857142857142855,0.55,2. BELOW BASELINE,4.0,9.0,0.4444444444444444
+RGEN,Medical,Medical - Biomedical and Genetics,20__1,20,1.0,7. p90_trade_value,73000.0,28000.0,2.0,8.0,0.25,0.55,2. BELOW BASELINE,6.0,17.0,0.35294117647058826
+RGEN,Medical,Medical - Biomedical and Genetics,20__1,20,1.0,8. p75_trade_value,25480.0,10620.0,17.0,26.0,0.6538461538461539,0.55,2. BELOW BASELINE,23.0,43.0,0.5348837209302325
+RNA,Medical,Medical - Biomedical and Genetics,20__1,20,1.0,1. p999999_trade_value,520000.0,520000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+RNA,Medical,Medical - Biomedical and Genetics,20__1,20,1.0,6. p95_trade_value,300000.0,120000.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+RNA,Medical,Medical - Biomedical and Genetics,20__1,20,1.0,7. p90_trade_value,102640.00000000001,42750.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,2.0,8.0,0.25
+RNA,Medical,Medical - Biomedical and Genetics,20__1,20,1.0,8. p75_trade_value,36000.0,8009.999999999999,9.0,12.0,0.75,0.55,2. BELOW BASELINE,11.0,20.0,0.55
+RVPH,Medical,Medical - Drugs,20__0,20,0.0,1. p999999_trade_value,24750.0,24750.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+RVPH,Medical,Medical - Drugs,20__0,20,0.0,6. p95_trade_value,23688.0,17000.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+RVPH,Medical,Medical - Drugs,20__0,20,0.0,7. p90_trade_value,14000.0,11700.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,1.0,7.0,0.14285714285714285
+RVPH,Medical,Medical - Drugs,20__0,20,0.0,8. p75_trade_value,10150.0,7000.0,0.0,10.0,0.0,0.55,2. BELOW BASELINE,1.0,17.0,0.058823529411764705
+SANA,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,83160.0,83160.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+SANA,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,58750.0,30600.0,0.0,4.0,0.0,0.55,2. BELOW BASELINE,0.0,5.0,0.0
+SANA,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,27750.0,21920.0,0.0,4.0,0.0,0.55,2. BELOW BASELINE,0.0,9.0,0.0
+SANA,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,20060.000000000004,8855.000000000002,0.0,14.0,0.0,0.55,2. BELOW BASELINE,0.0,23.0,0.0
+SGMO,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,37500.0,37500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+SGMO,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,26000.0,16100.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+SGMO,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,12490.0,11682.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,4.0,9.0,0.4444444444444444
+SGMO,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,10500.0,6975.0,5.0,13.0,0.38461538461538464,0.55,2. BELOW BASELINE,9.0,22.0,0.4090909090909091
+HAE,Medical,Medical - Products,20__1,20,1.0,1. p999999_trade_value,990000.0,990000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+HAE,Medical,Medical - Products,20__1,20,1.0,5. p99_trade_value,960000.0,960000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+HAE,Medical,Medical - Products,20__1,20,1.0,6. p95_trade_value,556650.0,162500.0,0.0,7.0,0.0,0.55,2. BELOW BASELINE,2.0,9.0,0.2222222222222222
+HAE,Medical,Medical - Products,20__1,20,1.0,7. p90_trade_value,150000.0,47600.0,4.0,8.0,0.5,0.55,2. BELOW BASELINE,6.0,17.0,0.35294117647058826
+HAE,Medical,Medical - Products,20__1,20,1.0,8. p75_trade_value,43845.00000000001,13529.999999999998,16.0,24.0,0.6666666666666666,0.55,2. BELOW BASELINE,22.0,41.0,0.5365853658536586
+HALO,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,35000.0,35000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+HALO,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,32000.0,14200.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+HALO,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,14000.0,12000.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,5.0,9.0,0.5555555555555556
+HALO,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,11200.000000000002,8550.0,8.0,14.0,0.5714285714285714,0.55,2. BELOW BASELINE,13.0,23.0,0.5652173913043478
+HROW,Medical,Medical - Drugs,20__2,20,2.0,1. p999999_trade_value,442500.0,442500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+HROW,Medical,Medical - Drugs,20__2,20,2.0,5. p99_trade_value,405000.00000000006,405000.00000000006,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+HROW,Medical,Medical - Drugs,20__2,20,2.0,6. p95_trade_value,240000.0,52500.0,2.0,6.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,8.0,0.25
+HROW,Medical,Medical - Drugs,20__2,20,2.0,7. p90_trade_value,42500.0,20657.0,3.0,5.0,0.6,0.55,2. BELOW BASELINE,5.0,13.0,0.38461538461538464
+HROW,Medical,Medical - Drugs,20__2,20,2.0,8. p75_trade_value,18800.0,8625.0,9.0,19.0,0.47368421052631576,0.55,2. BELOW BASELINE,14.0,32.0,0.4375
+IBRX,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,175000.0,175000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+IBRX,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,5. p99_trade_value,54550.0,54550.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+IBRX,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,45700.0,25640.000000000004,0.0,7.0,0.0,0.55,2. BELOW BASELINE,0.0,9.0,0.0
+IBRX,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,22800.0,13986.000000000002,3.0,8.0,0.375,0.55,2. BELOW BASELINE,3.0,17.0,0.17647058823529413
+IBRX,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,13840.0,7220.0,7.0,26.0,0.2692307692307692,0.55,2. BELOW BASELINE,10.0,43.0,0.23255813953488372
+IMVT,Medical,Medical - Biomedical and Genetics,20__1,20,1.0,1. p999999_trade_value,363636.0,363636.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+IMVT,Medical,Medical - Biomedical and Genetics,20__1,20,1.0,6. p95_trade_value,280000.0,269190.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+IMVT,Medical,Medical - Biomedical and Genetics,20__1,20,1.0,7. p90_trade_value,175824.0,94499.99999999999,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
+IMVT,Medical,Medical - Biomedical and Genetics,20__1,20,1.0,8. p75_trade_value,63000.0,9900.0,3.0,9.0,0.3333333333333333,0.55,2. BELOW BASELINE,7.0,15.0,0.4666666666666667
+INMD,Medical,Medical - Products,20__0,20,0.0,1. p999999_trade_value,20000.0,20000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+INMD,Medical,Medical - Products,20__0,20,0.0,6. p95_trade_value,14820.000000000002,13390.0,3.0,3.0,1.0,0.55,2. BELOW BASELINE,3.0,4.0,0.75
+INMD,Medical,Medical - Products,20__0,20,0.0,7. p90_trade_value,11599.999999999998,10000.0,4.0,5.0,0.8,0.55,2. BELOW BASELINE,7.0,9.0,0.7777777777777778
+INMD,Medical,Medical - Products,20__0,20,0.0,8. p75_trade_value,9600.0,8240.0,8.0,9.0,0.8888888888888888,0.55,2. BELOW BASELINE,15.0,18.0,0.8333333333333334
+JAZZ,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,140000.0,140000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+JAZZ,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,5. p99_trade_value,124925.0,124925.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+JAZZ,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,105000.0,34270.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,3.0,6.0,0.5
+JAZZ,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,28000.0,17020.0,2.0,6.0,0.3333333333333333,0.55,2. BELOW BASELINE,5.0,12.0,0.4166666666666667
+JAZZ,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,14241.0,10000.0,7.0,19.0,0.3684210526315789,0.55,2. BELOW BASELINE,12.0,31.0,0.3870967741935484
+LEGN,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,170000.0,170000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+LEGN,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,5. p99_trade_value,65000.0,65000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+LEGN,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,26450.0,16600.0,6.0,7.0,0.8571428571428571,0.55,1. ABOVE BASELINE,8.0,9.0,0.8888888888888888
+LEGN,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,16425.0,13000.0,7.0,9.0,0.7777777777777778,0.55,1. ABOVE BASELINE,15.0,18.0,0.8333333333333334
+LEGN,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,12600.0,7560.000000000001,14.0,25.0,0.56,0.55,1. ABOVE BASELINE,29.0,43.0,0.6744186046511628
+MASI,Medical,Medical - Instruments,20__2,20,2.0,1. p999999_trade_value,222000.0,222000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MASI,Medical,Medical - Instruments,20__2,20,2.0,5. p99_trade_value,175000.0,175000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+MASI,Medical,Medical - Instruments,20__2,20,2.0,6. p95_trade_value,144000.0,32560.000000000004,4.0,6.0,0.6666666666666666,0.55,1. ABOVE BASELINE,6.0,8.0,0.75
+MASI,Medical,Medical - Instruments,20__2,20,2.0,7. p90_trade_value,28160.000000000004,18950.0,4.0,8.0,0.5,0.55,2. BELOW BASELINE,10.0,16.0,0.625
+MASI,Medical,Medical - Instruments,20__2,20,2.0,8. p75_trade_value,18900.0,10080.000000000002,12.0,22.0,0.5454545454545454,0.55,2. BELOW BASELINE,22.0,38.0,0.5789473684210527
+MESO,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,39000.0,39000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MESO,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,5. p99_trade_value,30000.0,30000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+MESO,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,24800.0,16500.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,2.0,6.0,0.3333333333333333
+MESO,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,15200.0,13600.0,2.0,5.0,0.4,0.55,2. BELOW BASELINE,4.0,11.0,0.36363636363636365
+MESO,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,13500.0,9315.0,3.0,16.0,0.1875,0.55,2. BELOW BASELINE,7.0,27.0,0.25925925925925924
+MMSI,Medical,Medical - Dental Supplies,20__2,20,2.0,1. p999999_trade_value,275000.0,275000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MMSI,Medical,Medical - Dental Supplies,20__2,20,2.0,6. p95_trade_value,200000.0,9240.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+MMSI,Medical,Medical - Dental Supplies,20__2,20,2.0,7. p90_trade_value,8600.0,8000.0,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,3.0,7.0,0.42857142857142855
+MMSI,Medical,Medical - Dental Supplies,20__2,20,2.0,8. p75_trade_value,7920.0,7920.0,9.0,9.0,1.0,0.55,2. BELOW BASELINE,12.0,16.0,0.75
+MTD,Medical,Medical - Instruments,20__0,20,0.0,1. p999999_trade_value,145800.0,145800.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MTD,Medical,Medical - Instruments,20__0,20,0.0,5. p99_trade_value,132000.0,132000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+MTD,Medical,Medical - Instruments,20__0,20,0.0,6. p95_trade_value,108000.0,16110.0,7.0,7.0,1.0,0.55,1. ABOVE BASELINE,9.0,9.0,1.0
+MTD,Medical,Medical - Instruments,20__0,20,0.0,7. p90_trade_value,14760.000000000002,9300.0,6.0,8.0,0.75,0.55,1. ABOVE BASELINE,15.0,17.0,0.8823529411764706
+MTD,Medical,Medical - Instruments,20__0,20,0.0,8. p75_trade_value,8790.0,5880.0,18.0,24.0,0.75,0.55,1. ABOVE BASELINE,33.0,41.0,0.8048780487804879
+SNDX,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,1. p999999_trade_value,450870.0,450870.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+SNDX,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,5. p99_trade_value,239085.0,239085.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+SNDX,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,6. p95_trade_value,164919.99999999997,65000.0,3.0,5.0,0.6,0.55,2. BELOW BASELINE,4.0,7.0,0.5714285714285714
+SNDX,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,7. p90_trade_value,60000.0,34079.99999999999,4.0,7.0,0.5714285714285714,0.55,2. BELOW BASELINE,8.0,14.0,0.5714285714285714
+SNDX,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,8. p75_trade_value,32504.999999999996,13529.999999999998,15.0,20.0,0.75,0.55,2. BELOW BASELINE,23.0,34.0,0.6764705882352942
+STAA,Medical,Medical - Dental Supplies,20__0,20,0.0,1. p999999_trade_value,165000.00000000003,165000.00000000003,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+STAA,Medical,Medical - Dental Supplies,20__0,20,0.0,6. p95_trade_value,64400.0,39920.00000000001,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
+STAA,Medical,Medical - Dental Supplies,20__0,20,0.0,7. p90_trade_value,37500.0,21075.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,5.0,7.0,0.7142857142857143
+STAA,Medical,Medical - Dental Supplies,20__0,20,0.0,8. p75_trade_value,18445.0,11067.0,6.0,10.0,0.6,0.55,1. ABOVE BASELINE,11.0,17.0,0.6470588235294118
+TARS,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,1. p999999_trade_value,225000.0,225000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+TARS,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,6. p95_trade_value,216000.0,75000.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+TARS,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,7. p90_trade_value,36000.0,23625.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,7.0,7.0,1.0
+TARS,Medical,Medical - Biomedical and Genetics,20__2,20,2.0,8. p75_trade_value,19500.0,8880.000000000002,8.0,9.0,0.8888888888888888,0.55,1. ABOVE BASELINE,15.0,16.0,0.9375
+TERN,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,30000.0,30000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+TERN,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,5. p99_trade_value,26950.0,26950.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+TERN,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,25864.999999999996,17472.0,2.0,5.0,0.4,0.55,2. BELOW BASELINE,3.0,7.0,0.42857142857142855
+TERN,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,15600.0,10500.0,4.0,7.0,0.5714285714285714,0.55,2. BELOW BASELINE,7.0,14.0,0.5
+TERN,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,10000.0,6475.0,13.0,20.0,0.65,0.55,2. BELOW BASELINE,20.0,34.0,0.5882352941176471
+TNDM,Medical,Medical - Instruments,20__2,20,2.0,1. p999999_trade_value,370000.0,370000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+TNDM,Medical,Medical - Instruments,20__2,20,2.0,6. p95_trade_value,255000.0,63000.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+TNDM,Medical,Medical - Instruments,20__2,20,2.0,7. p90_trade_value,38325.0,28750.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,6.0,9.0,0.6666666666666666
+TNDM,Medical,Medical - Instruments,20__2,20,2.0,8. p75_trade_value,20000.0,8900.0,9.0,12.0,0.75,0.55,2. BELOW BASELINE,15.0,21.0,0.7142857142857143
+UTHR,Medical,Medical - Drugs,20__2,20,2.0,1. p999999_trade_value,220000.0,220000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+UTHR,Medical,Medical - Drugs,20__2,20,2.0,6. p95_trade_value,201000.0,70560.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+UTHR,Medical,Medical - Drugs,20__2,20,2.0,7. p90_trade_value,46060.0,17939.999999999996,4.0,5.0,0.8,0.55,2. BELOW BASELINE,7.0,10.0,0.7
+UTHR,Medical,Medical - Drugs,20__2,20,2.0,8. p75_trade_value,15600.0,10080.0,3.0,15.0,0.2,0.55,2. BELOW BASELINE,10.0,25.0,0.4
+VRDN,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,109720.0,109720.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+VRDN,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,53580.00000000001,18660.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
+VRDN,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,18000.0,14700.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,4.0,7.0,0.5714285714285714
+VRDN,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,14619.999999999998,9000.0,8.0,9.0,0.8888888888888888,0.55,2. BELOW BASELINE,12.0,16.0,0.75
+WVE,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,1. p999999_trade_value,92040.0,92040.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+WVE,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,5. p99_trade_value,76350.0,76350.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+WVE,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,6. p95_trade_value,42130.0,15000.0,0.0,5.0,0.0,0.55,2. BELOW BASELINE,0.0,7.0,0.0
+WVE,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,7. p90_trade_value,14940.0,12919.999999999998,2.0,6.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,13.0,0.15384615384615385
+WVE,Medical,Medical - Biomedical and Genetics,20__0,20,0.0,8. p75_trade_value,12719.999999999998,7500.0,5.0,20.0,0.25,0.55,2. BELOW BASELINE,7.0,33.0,0.21212121212121213
+ZBH,Medical,Medical - Products,20__2,20,2.0,1. p999999_trade_value,385560.00000000006,385560.00000000006,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ZBH,Medical,Medical - Products,20__2,20,2.0,6. p95_trade_value,190888.0,43500.0,3.0,4.0,0.75,0.55,1. ABOVE BASELINE,4.0,5.0,0.8
+ZBH,Medical,Medical - Products,20__2,20,2.0,7. p90_trade_value,38670.0,22950.0,3.0,5.0,0.6,0.55,1. ABOVE BASELINE,7.0,10.0,0.7
+ZBH,Medical,Medical - Products,20__2,20,2.0,8. p75_trade_value,18260.000000000004,9750.0,12.0,15.0,0.8,0.55,1. ABOVE BASELINE,19.0,25.0,0.76

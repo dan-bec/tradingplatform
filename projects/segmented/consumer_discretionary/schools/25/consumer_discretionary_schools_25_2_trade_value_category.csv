@@ -1,0 +1,11 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+EDU,Consumer Discretionary,Schools,25__0,25,0.0,1. p999999_trade_value,106764.00000000001,106764.00000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+EDU,Consumer Discretionary,Schools,25__0,25,0.0,5. p99_trade_value,80000.0,65360.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+EDU,Consumer Discretionary,Schools,25__0,25,0.0,6. p95_trade_value,62000.0,24310.0,4.0,12.0,0.3333333333333333,0.55,2. BELOW BASELINE,5.0,16.0,0.3125
+EDU,Consumer Discretionary,Schools,25__0,25,0.0,7. p90_trade_value,23335.0,15000.0,7.0,16.0,0.4375,0.55,2. BELOW BASELINE,12.0,32.0,0.375
+EDU,Consumer Discretionary,Schools,25__0,25,0.0,8. p75_trade_value,14690.0,8000.0,19.0,47.0,0.40425531914893614,0.55,2. BELOW BASELINE,31.0,79.0,0.3924050632911392
+TAL,Consumer Discretionary,Schools,25__0,25,0.0,1. p999999_trade_value,540000.0,540000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+TAL,Consumer Discretionary,Schools,25__0,25,0.0,5. p99_trade_value,204000.0,33750.0,0.0,4.0,0.0,0.55,2. BELOW BASELINE,0.0,5.0,0.0
+TAL,Consumer Discretionary,Schools,25__0,25,0.0,6. p95_trade_value,21990.0,18018.0,2.0,6.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,11.0,0.18181818181818182
+TAL,Consumer Discretionary,Schools,25__0,25,0.0,7. p90_trade_value,17711.999999999996,11175.0,4.0,10.0,0.4,0.55,2. BELOW BASELINE,6.0,21.0,0.2857142857142857
+TAL,Consumer Discretionary,Schools,25__0,25,0.0,8. p75_trade_value,11100.0,7000.0,16.0,33.0,0.48484848484848486,0.55,2. BELOW BASELINE,22.0,54.0,0.4074074074074074

@@ -1,5 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AMT,Finance,REIT and Equity Trust - Other,0.55,,,,589,30__2,30,2.0,25681.6,52722.0,119171.2,459082.8,605618.28,620271.83,621737.18
-DLR,Finance,REIT and Equity Trust - Other,0.55,,,,976,30__0,30,0.0,14155.0,22620.0,46075.0,208264.62,568552.96,604581.8,608184.68
-EQIX,Finance,REIT and Equity Trust - Retail,0.55,,,,589,30__0,30,0.0,18018.0,25776.0,58464.56,149018.8,151611.88,151871.19,151897.12
-MPW,Finance,REIT and Equity Trust - Other,0.55,,,,970,30__0,30,0.0,14994.6,26629.5,112488.17,313249.34,685983.13,723256.51,726983.85

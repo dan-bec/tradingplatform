@@ -1,3 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-LMND,Finance,Insurance - Multi line,0.55,,,,3506,35__0,35,0.0,16675.0,24150.0,59403.5,142356.07,177864.29,188786.43,189878.64
-ROOT,Finance,Insurance - Property and Casualty,0.55,158400.0,1. p999999_trade_value,1.0,2740,35__0,35,0.0,15190.0,22100.0,46518.3,102788.19,146074.5,157167.45,158276.74

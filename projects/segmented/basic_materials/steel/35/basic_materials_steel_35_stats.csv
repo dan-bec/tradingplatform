@@ -1,3 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CLF,Basic Materials,Steel - Producers,0.55,266000.0,1. p999999_trade_value,1.0,1950,35__0,35,0.0,14004.0,22675.3,59665.76,125878.01,238987.64,263298.76,265729.88
-NUE,Basic Materials,Steel - Producers,0.55,125000.0,5. p99_trade_value,30.0,2943,35__3,35,3.0,16500.0,30776.0,124112.75,474096.2,602887.65,623688.76,625768.88

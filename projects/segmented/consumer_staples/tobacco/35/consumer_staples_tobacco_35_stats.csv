@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-PM,Consumer Staples,Tobacco,0.55,2897388.0,4. p999_trade_value,3.0,2473,35__2,35,2.0,18176.0,27156.0,75001.2,1680860.86,3721536.0,3721536.0,3721536.0

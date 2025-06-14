@@ -1,3 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-EIX,Utilities,Utility - Electric Power,0.55,,,,712,30__0,30,0.0,16254.0,22225.5,106349.6,353322.06,426616.21,433945.62,434678.56
-NRG,Utilities,Utility - Electric Power,0.55,9660.0,8. p75_trade_value,321.0,1281,30__0,30,0.0,18624.0,31920.0,91600.0,218280.0,253022.59,256724.66,257094.87

@@ -1,6 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ALLY,Finance,Financial - Consumer Loans,0.55,,,,768,30__0,30,0.0,18549.0,33742.4,132526.24,279144.0,395114.4,406711.44,407871.14
-MSCI,Finance,Financial - Investment Management,0.55,,,,596,30__0,30,0.0,11098.0,17137.5,45686.0,142515.0,176251.5,179625.15,179962.52
-PNC,Finance,Financial - Investment Bank,0.55,161250.0,1. p999999_trade_value,1.0,629,30__0,30,0.0,18724.0,32652.0,81873.44,145707.0,159695.7,161094.57,161234.46
-RKT,Finance,Financial - Mortgage & Related Services,0.55,182500.0,4. p999_trade_value,2.0,1132,30__0,30,0.0,15841.5,30000.0,73789.8,174966.45,349999.93,369223.99,371146.4
-SYF,Finance,Financial - Miscellaneous Services,0.55,9702.0,8. p75_trade_value,173.0,692,30__2,30,2.0,20180.0,38045.0,106935.8,615921.22,647964.62,651168.96,651489.4

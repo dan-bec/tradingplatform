@@ -1,9 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-COMM,Computer and Technology,Communication - Infrastructure,20__0,20,0.0,1. p999999_trade_value,35970.00000000001,35970.00000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-COMM,Computer and Technology,Communication - Infrastructure,20__0,20,0.0,6. p95_trade_value,27736.0,19030.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,1.0,5.0,0.2
-COMM,Computer and Technology,Communication - Infrastructure,20__0,20,0.0,7. p90_trade_value,17500.0,10260.0,2.0,5.0,0.4,0.55,2. BELOW BASELINE,3.0,10.0,0.3
-COMM,Computer and Technology,Communication - Infrastructure,20__0,20,0.0,8. p75_trade_value,10080.0,7760.000000000001,7.0,14.0,0.5,0.55,2. BELOW BASELINE,10.0,24.0,0.4166666666666667
-ONDS,Computer and Technology,Communication - Network Software,20__0,20,0.0,1. p999999_trade_value,27675.0,27675.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-ONDS,Computer and Technology,Communication - Network Software,20__0,20,0.0,6. p95_trade_value,26000.0,24290.000000000004,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
-ONDS,Computer and Technology,Communication - Network Software,20__0,20,0.0,7. p90_trade_value,19990.0,11220.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,5.0,7.0,0.7142857142857143
-ONDS,Computer and Technology,Communication - Network Software,20__0,20,0.0,8. p75_trade_value,9980.000000000002,6225.0,8.0,10.0,0.8,0.55,1. ABOVE BASELINE,13.0,17.0,0.7647058823529411

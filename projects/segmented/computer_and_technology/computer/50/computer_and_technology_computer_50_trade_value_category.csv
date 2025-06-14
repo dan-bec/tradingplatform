@@ -1,8 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-MU,Computer and Technology,Computer - Integrated Systems,50__1,50,1.0,1. p999999_trade_value,8018248.000000001,8018248.000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-MU,Computer and Technology,Computer - Integrated Systems,50__1,50,1.0,3. p9999_trade_value,4162144.0,1435000.0,3.0,8.0,0.375,0.55,2. BELOW BASELINE,3.0,9.0,0.3333333333333333
-MU,Computer and Technology,Computer - Integrated Systems,50__1,50,1.0,4. p999_trade_value,1368000.0,315000.0,32.0,77.0,0.4155844155844156,0.55,2. BELOW BASELINE,35.0,86.0,0.4069767441860465
-MU,Computer and Technology,Computer - Integrated Systems,50__1,50,1.0,5. p99_trade_value,310000.0,82500.0,379.0,770.0,0.4922077922077922,0.55,2. BELOW BASELINE,414.0,856.0,0.48364485981308414
-MU,Computer and Technology,Computer - Integrated Systems,50__1,50,1.0,6. p95_trade_value,82460.0,28512.0,1792.0,3411.0,0.5253591322192905,0.55,2. BELOW BASELINE,2206.0,4267.0,0.5169908600890556
-MU,Computer and Technology,Computer - Integrated Systems,50__1,50,1.0,7. p90_trade_value,28500.0,17550.0,2192.0,4271.0,0.5132287520487006,0.55,2. BELOW BASELINE,4398.0,8538.0,0.5151089248067463
-MU,Computer and Technology,Computer - Integrated Systems,50__1,50,1.0,8. p75_trade_value,17549.0,9145.0,6387.0,12789.0,0.49941355852685904,0.55,2. BELOW BASELINE,10785.0,21327.0,0.5056970037980025

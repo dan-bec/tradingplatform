@@ -1,3 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AI,Computer and Technology,Computers - IT Services,0.55,,,,7874,40__2,40,2.0,18400.0,38791.2,325000.0,1244864.46,2362155.29,2453950.53,2463130.05
-SOUN,Computer and Technology,Computers - IT Services,0.55,,,,12700,40__1,40,1.0,14700.6,22770.0,61442.1,178144.14,1117393.2,1777075.53,1851707.55

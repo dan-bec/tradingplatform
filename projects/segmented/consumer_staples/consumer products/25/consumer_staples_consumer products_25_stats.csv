@@ -1,6 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ACI,Consumer Staples,Consumer Products - Staples,0.55,,,,434,25__1,25,1.0,19758.5,37584.0,100000.0,310000.0,310000.0,310000.0,310000.0
-CHD,Consumer Staples,Consumer Products - Staples,0.55,,,,186,25__1,25,1.0,19575.0,34400.0,162505.75,255444.42,264584.44,265498.44,265589.84
-KMB,Consumer Staples,Consumer Products - Staples,0.55,,,,283,25__0,25,0.0,20297.0,61300.0,193500.0,204527.86,207895.79,208232.58,208266.26
-KVUE,Consumer Staples,Consumer Products - Staples,0.55,279378.0,1. p999999_trade_value,1.0,486,25__0,25,0.0,21651.0,47500.0,209062.5,262704.67,277710.67,279211.27,279361.33
-OLLI,Consumer Staples,Consumer Products - Staples,0.55,180071.99999999997,5. p99_trade_value,6.0,525,25__1,25,1.0,15750.0,39136.0,180054.72,504536.9,665482.19,681576.72,683186.17

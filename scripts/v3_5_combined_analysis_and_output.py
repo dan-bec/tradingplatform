@@ -1,26 +1,24 @@
-import os
-import csv
-import re
-from datetime import datetime, date, timedelta
+import config
 from pathlib import Path
-import requests
 import time
 import duckdb
-import sys
-import subprocess
 import pandas as pd
 import numpy as np
 from collections import defaultdict
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--itm-threshold", type=float, default=config.ITM_THRESHOLD, help="ITM threshold")
+args = parser.parse_args()
 
 ### SETTINGS ###
-data_path = Path(f"./data")
-projects_path = Path(f"./projects")
-full_db_path = Path(f"{data_path}/master_database.db")
-prep_schema = 'prep'
-compiled_schema = 'compiled'
-output_dir = Path(f"{projects_path}/{compiled_schema}/outputs")
+projects_path = config.PROJECTS_PATH
+full_db_path = config.FULL_DB_PATH
+prep_schema = config.PREP
+compiled_schema = config.COMPILED
+output_dir = config.COMPILED_OUTPUT_DIR
 output_dir.mkdir(parents=True, exist_ok=True)
-itm_threshold = 0.55  # Target ITM rate
+itm_threshold = itm_threshold = args.itm_threshold  # Target ITM rate
 
 # Capture and print start time
 start_time = time.time()
@@ -62,7 +60,7 @@ print(f"Created and Loaded {compiled_schema}.all_securities_stats db table")
 print(f"!!!ROWS IN {compiled_schema}.all_securities_stats!!!:", con.execute(f"SELECT COUNT(*) FROM {compiled_schema}.all_securities_stats").fetchone()[0]) # type: ignore
 
 # Output {project}_percentiles files and baseline file
-all_stats_output = Path(f"{output_dir}/all_securities_stats.csv")
+all_stats_output = Path(f"{output_dir}/1_all_stats.csv")
 con.execute(f"""
     COPY (
         SELECT *
@@ -99,7 +97,7 @@ print(f"Created and Loaded {compiled_schema}.all_securities_trade_value_category
 print(f"!!!ROWS IN {compiled_schema}.all_securities_trade_value_category!!!:", con.execute(f"SELECT COUNT(*) FROM {compiled_schema}.all_securities_trade_value_category").fetchone()[0]) # type: ignore
 
 # Output {project}_percentiles files and baseline file
-all_trade_categories_output = Path(f"{output_dir}/all_securities_trade_value_category.csv")
+all_trade_categories_output = Path(f"{output_dir}/2_all_trade_value_categories.csv")
 con.execute(f"""
     COPY (
         SELECT *
@@ -131,7 +129,7 @@ print(f"Created and Loaded {compiled_schema}.all_options_trades_above_baseline d
 print(f"!!!ROWS IN {compiled_schema}.all_options_trades_above_baseline!!!:", con.execute(f"SELECT COUNT(*) FROM {compiled_schema}.all_options_trades_above_baseline").fetchone()[0]) # type: ignore
 
 # Output {project}_percentiles files and baseline file
-all_trade_categories_output = Path(f"{output_dir}/all_options_trades_above_baseline.csv")
+all_trade_categories_output = Path(f"{output_dir}/3_all_trades_above_baseline.csv")
 con.execute(f"""
     COPY (
         SELECT *
@@ -168,9 +166,9 @@ for sector in sectors:
     
     # Generate sector-level outputs
     for table, descriptor in [
-        ('all_securities_stats', 'stats'),
-        ('all_securities_trade_value_category', 'trade_value_category'),
-        ('all_options_trades_above_baseline', 'trades_above_baseline')
+        ('all_securities_stats', '1_stats'),
+        ('all_securities_trade_value_category', '2_trade_value_category'),
+        ('all_options_trades_above_baseline', '3_trades_above_baseline')
     ]:
         query = f"SELECT * FROM {compiled_schema}.{table} WHERE sector = ?"
         df = con.execute(query, [sector]).fetchdf()
@@ -196,9 +194,9 @@ for sector in sectors:
         
         # Generate industry-level outputs
         for table, descriptor in [
-            ('all_securities_stats', 'stats'),
-            ('all_securities_trade_value_category', 'trade_value_category'),
-            ('all_options_trades_above_baseline', 'trades_above_baseline')
+            ('all_securities_stats', '1_stats'),
+            ('all_securities_trade_value_category', '2_trade_value_category'),
+            ('all_options_trades_above_baseline', '3_trades_above_baseline')
         ]:
             query = f"SELECT * FROM {compiled_schema}.{table} WHERE sector = ? AND industry IN ({','.join(['?' for _ in industry_list])})"
             params = [sector] + industry_list
@@ -221,9 +219,9 @@ for sector in sectors:
             tvb_folder.mkdir(parents=True, exist_ok=True)
             
             for table, descriptor in [
-                ('all_securities_stats', 'stats'),
-                ('all_securities_trade_value_category', 'trade_value_category'),
-                ('all_options_trades_above_baseline', 'trades_above_baseline')
+                ('all_securities_stats', '1_stats'),
+                ('all_securities_trade_value_category', '2_trade_value_category'),
+                ('all_options_trades_above_baseline', '3_trades_above_baseline')
             ]:
                 query = f"SELECT * FROM {compiled_schema}.{table} WHERE sector = ? AND industry IN ({','.join(['?' for _ in industry_list])}) AND trade_volume_bin = ?"
                 params = [sector] + industry_list + [trade_volume_bin]

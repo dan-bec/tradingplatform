@@ -1,4 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-HESM,Oils-Energy,Energy and Pipeline - Master Limited Partnerships,0.55,,,,39,15__0,15,0.0,16612.8,48962.7,96756.76,116181.68,118124.17,118318.42,118337.84
-TXO,Oils-Energy,Energy and Pipeline - Master Limited Partnerships,0.55,4200.0,1. p999999_trade_value,1.0,1,0__0,0,0.0,4200.0,4200.0,4200.0,4200.0,4200.0,4200.0,4200.0
-XIFR,Oils-Energy,Energy and Pipeline - Master Limited Partnerships,0.55,11400.0,7. p90_trade_value,2.0,12,10__0,10,0.0,11160.0,11535.0,11667.0,11696.7,11699.67,11699.97,11700.0

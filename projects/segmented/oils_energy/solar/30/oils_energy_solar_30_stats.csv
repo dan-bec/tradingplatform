@@ -1,3 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-NXT,Oils-Energy,Solar,0.55,,,,784,30__0,30,0.0,17271.5,27177.9,86819.5,304743.62,320148.36,321688.84,321842.88
-SEDG,Oils-Energy,Solar,0.55,7482.000000000001,8. p75_trade_value,404.0,1610,30__0,30,0.0,12000.0,17622.0,32885.98,306679.08,670565.32,713828.03,718154.3

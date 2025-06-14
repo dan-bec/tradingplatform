@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-PTON,Consumer Discretionary,Leisure and Recreation Products,0.55,97727.00000000001,5. p99_trade_value,29.0,2870,35__0,35,0.0,13750.0,23672.2,96188.99,439394.85,576464.32,586846.43,587884.64

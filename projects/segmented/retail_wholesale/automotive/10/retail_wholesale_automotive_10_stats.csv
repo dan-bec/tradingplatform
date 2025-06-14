@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-TITN,Retail-Wholesale,Automotive - Retail and Whole Sales,0.55,,,,15,10__0,10,0.0,15000.0,16773.0,20082.6,20827.26,20901.73,20909.17,20909.92

@@ -1,4 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CPRT,Business Services,Auction and Valuation Services,0.55,96425.0,5. p99_trade_value,2.0,196,25__1,25,1.0,12932.0,20980.0,82147.45,284452.88,325445.29,329544.53,329954.45
-LQDT,Business Services,Auction and Valuation Services,0.55,10850.0,8. p75_trade_value,6.0,24,15__0,15,0.0,14992.0,17122.5,24843.5,26820.35,27018.04,27037.8,27039.78
-RILY,Business Services,Auction and Valuation Services,0.55,,,,1420,30__0,30,0.0,11560.0,15000.0,33606.8,96693.33,297057.35,326705.73,329670.57

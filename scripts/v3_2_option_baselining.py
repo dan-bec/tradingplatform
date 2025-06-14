@@ -1,3 +1,4 @@
+import config
 import os
 import csv
 import re
@@ -8,6 +9,23 @@ import time
 import duckdb
 import sys
 import subprocess
+import argparse
+
+def str_to_bool(value):
+    if str(value).lower() in ('yes', 'true', 't', 'y', '1'):
+        return True
+    elif str(value).lower() in ('no', 'false', 'f', 'n', '0'):
+        return False
+    else:
+        raise argparse.ArgumentTypeError(f"Invalid boolean value: '{value}'")
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--strict-otm", type=str_to_bool, default=config.STRICT_OTM, help="Use strict OTM range")
+parser.add_argument("--min-trade-value", type=float, default=config.MIN_TRADE_VALUE, help="Minimum trade value")
+parser.add_argument("--top-trades", type=int, default=config.TOP_N_TRADES, help="Top trades")
+parser.add_argument("--expiration-days-out", type=int, default=config.EXPIRATION_DAYS_OUT, help="Expiration days out")
+parser.add_argument("--number-of-bins", type=int, default=config.NUMBER_OF_BINS, help="Number of bins")
+args = parser.parse_args()
 
 ### SETTINGS ###
 
@@ -16,16 +34,14 @@ start_time = time.time()
 print(f"Start time: {start_time:.2f} seconds")
 
 # Define file paths
-data_path = 'data'
-full_db_path = Path(f"{data_path}/master_database.db")
-prep_schema = 'prep'
-output_dir = Path(f"/projects/{prep_schema}/outputs")
-otm_range = True
-min_trade_value = 3_000
-top_trades = 10_000
-expiration_days_out = 30
-custom_range_filter = .9
-number_of_bins = 20
+full_db_path = config.FULL_DB_PATH
+prep_schema = config.PREP
+output_dir = config.PREP_OUTPUT_DIR
+otm_range = args.strict_otm
+min_trade_value = args.min_trade_value
+top_trades = args.top_trades
+expiration_days_out = args.expiration_days_out
+number_of_bins = args.number_of_bins
 
 # Connect to DuckDB
 con = duckdb.connect(str(full_db_path))
@@ -43,7 +59,7 @@ con.execute(f"""
             , occ.name as option_condition_name
             , si.sector
             , si.industry
-            , std.open as security_open
+            , std.open as securty_open
             , std.high as security_high
             , std.low as security_low
             , std.close as security_close
@@ -61,8 +77,8 @@ con.execute(f"""
             AND atd.expiration <= atd.data_date + INTERVAL {expiration_days_out}  DAYS -- Options Expiring in N days
             AND atd.trade_value > {min_trade_value} -- minmum contract size of N
             AND (
-                ('{otm_range}' != TRUE AND ((atd.option_type = 'C' AND atd.strike_price > security_low)  OR (atd.option_type = 'P' AND atd.strike_price < security_high))) -- LOOSE: PARTIALLY OTM FOR DAY
-                OR ('{otm_range}'  = TRUE AND ((atd.option_type = 'C' AND atd.strike_price > security_high) OR (atd.option_type = 'P' AND atd.strike_price < security_low ))) -- STRICT: FULLY OTM FOR DAY
+                ({otm_range} != {True} AND ((atd.option_type = 'C' AND atd.strike_price > security_low)  OR (atd.option_type = 'P' AND atd.strike_price < security_high))) -- LOOSE: PARTIALLY OTM FOR DAY
+                OR ({otm_range} AND ((atd.option_type = 'C' AND atd.strike_price > security_high) OR (atd.option_type = 'P' AND atd.strike_price < security_low ))) -- STRICT: FULLY OTM FOR DAY
                 )
     )
     , _unique_qualifying_options AS (

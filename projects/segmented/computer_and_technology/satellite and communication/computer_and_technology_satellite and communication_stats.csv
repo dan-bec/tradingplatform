@@ -1,7 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-GSAT,Computer and Technology,Satellite and Communication,0.55,36600.0,6. p95_trade_value,7.0,125,20__0,20,0.0,13060.0,36480.0,57268.8,200160.0,218016.0,219801.6,219980.16
-IRDM,Computer and Technology,Satellite and Communication,0.55,,,,20,15__0,15,0.0,12650.0,14173.25,16806.65,17399.17,17458.42,17464.34,17464.93
-PL,Computer and Technology,Satellite and Communication,0.55,,,,333,25__1,25,1.0,9838.0,13365.0,25678.8,47446.16,50320.62,50608.06,50636.81
-SATL,Computer and Technology,Satellite and Communication,0.55,6950.0,1. p999999_trade_value,1.0,6,10__0,10,0.0,5851.0,6400.5,6840.1,6939.01,6948.9,6949.89,6949.99
-SATS,Computer and Technology,Satellite and Communication,0.55,699525.0,1. p999999_trade_value,1.0,520,25__1,25,1.0,15325.2,35729.75,241131.6,525906.52,682163.15,697788.82,699351.38
-TSAT,Computer and Technology,Satellite and Communication,0.55,11000.000000000002,1. p999999_trade_value,2.0,21,15__0,15,0.0,8000.0,11000.0,11000.0,11000.0,11000.0,11000.0,11000.0

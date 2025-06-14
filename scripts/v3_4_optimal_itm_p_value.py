@@ -1,22 +1,20 @@
-import os
-import csv
-import re
-from datetime import datetime, date, timedelta
+import config
 from pathlib import Path
-import requests
 import time
 import duckdb
-import sys
-import subprocess
 import pandas as pd
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--itm-threshold", type=float, default=config.ITM_THRESHOLD, help="ITM threshold")
+args = parser.parse_args()
 
 ### SETTINGS ###
-data_path = 'data'
-full_db_path = Path(f"{data_path}/master_database.db")
-prep_schema = 'prep'
-output_dir = Path(f"./projects/{prep_schema}/outputs")
+full_db_path = config.FULL_DB_PATH
+prep_schema = config.PREP
+output_dir = config.PREP_OUTPUT_DIR
 output_dir.mkdir(parents=True, exist_ok=True)
-itm_threshold = 0.55  # Target ITM rate
+itm_threshold = args.itm_threshold
 
 # Capture and print start time
 start_time = time.time()

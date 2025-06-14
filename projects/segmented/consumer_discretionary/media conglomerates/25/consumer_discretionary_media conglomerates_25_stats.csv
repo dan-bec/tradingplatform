@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-TME,Consumer Discretionary,Media Conglomerates,0.55,,,,183,25__1,25,1.0,16748.0,29695.0,103611.0,159740.0,159740.0,159740.0,159740.0

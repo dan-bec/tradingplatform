@@ -1,3 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-TGT,Retail-Wholesale,Retail - Discount Stores,0.55,,,,18859,45__0,45,0.0,14640.0,22032.3,59043.26,327639.6,723691.03,1146179.45,1216393.45
-WMT,Retail-Wholesale,Retail - Supermarkets,0.55,,,,19106,45__0,45,0.0,14868.0,23400.0,68360.85,338836.45,1068469.1,1397823.94,1399782.39

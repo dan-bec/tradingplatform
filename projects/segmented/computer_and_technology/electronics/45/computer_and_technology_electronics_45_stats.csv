@@ -1,4 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ARM,Computer and Technology,Electronics - Semiconductors,0.55,820000.0,1. p999999_trade_value,1.0,41022,45__0,45,0.0,15400.0,23286.4,57500.0,182431.84,707757.65,797848.66,817784.87
-MRVL,Computer and Technology,Electronics - Semiconductors,0.55,9042.0,8. p75_trade_value,7272.0,29082,45__2,45,2.0,17600.0,27059.7,73809.5,369948.28,1856000.0,2150090.44,2213009.04
-QCOM,Computer and Technology,Electronics - Semiconductors,0.55,675675.0,1. p999999_trade_value,1.0,21935,45__2,45,2.0,17500.0,27707.4,64765.04,199763.79,422819.78,643722.65,672479.76

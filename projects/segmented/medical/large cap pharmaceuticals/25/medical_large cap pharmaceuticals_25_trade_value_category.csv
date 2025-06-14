@@ -1,6 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-SNY,Medical,Large Cap Pharmaceuticals,25__1,25,1.0,1. p999999_trade_value,217245.00000000003,217245.00000000003,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-SNY,Medical,Large Cap Pharmaceuticals,25__1,25,1.0,5. p99_trade_value,88377.0,79716.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
-SNY,Medical,Large Cap Pharmaceuticals,25__1,25,1.0,6. p95_trade_value,69345.0,37500.0,6.0,9.0,0.6666666666666666,0.55,2. BELOW BASELINE,8.0,12.0,0.6666666666666666
-SNY,Medical,Large Cap Pharmaceuticals,25__1,25,1.0,7. p90_trade_value,34200.0,29770.0,8.0,11.0,0.7272727272727273,0.55,2. BELOW BASELINE,16.0,23.0,0.6956521739130435
-SNY,Medical,Large Cap Pharmaceuticals,25__1,25,1.0,8. p75_trade_value,25830.0,12985.0,27.0,34.0,0.7941176470588235,0.55,2. BELOW BASELINE,43.0,57.0,0.7543859649122807

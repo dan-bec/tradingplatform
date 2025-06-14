@@ -1,8 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-EOSE,Industrial Products,Industrial Services,0.55,,,,545,25__1,25,1.0,16429.2,23248.0,42592.0,146192.0,149619.2,149961.92,149996.19
-GWW,Industrial Products,Industrial Services,0.55,,,,477,25__1,25,1.0,17500.0,27641.6,91294.4,315381.02,354722.7,358656.87,359050.29
-LZ,Industrial Products,Industrial Services,0.55,,,,29,15__0,15,0.0,14320.0,29788.0,49384.8,52746.48,53082.65,53116.26,53119.63
-MSM,Industrial Products,Industrial Services,0.55,10000.0,8. p75_trade_value,35.0,139,20__1,20,1.0,24700.0,68828.0,391079.0,608591.76,629641.18,631746.12,631956.61
-SCSC,Industrial Products,Industrial Services,0.55,15300.0,1. p999999_trade_value,1.0,4,5__3,5,3.0,12120.0,13710.0,14982.0,15268.2,15296.82,15299.68,15299.97
-SITE,Industrial Products,Industrial Services,0.55,4500.0,8. p75_trade_value,2.0,6,10__0,10,0.0,6092.0,6888.0,7524.8,7668.08,7682.41,7683.84,7683.98
-TPIC,Industrial Products,Industrial Services,0.55,,,,3,5__3,5,3.0,29008.0,32004.0,34400.8,34940.08,34994.01,34999.4,34999.94

@@ -1,6 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-ONTO,Computer and Technology,Nanotechnology,25__1,25,1.0,1. p999999_trade_value,121800.0,121800.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-ONTO,Computer and Technology,Nanotechnology,25__1,25,1.0,5. p99_trade_value,111750.0,86240.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
-ONTO,Computer and Technology,Nanotechnology,25__1,25,1.0,6. p95_trade_value,74250.0,36630.0,5.0,11.0,0.45454545454545453,0.55,2. BELOW BASELINE,6.0,14.0,0.42857142857142855
-ONTO,Computer and Technology,Nanotechnology,25__1,25,1.0,7. p90_trade_value,36540.0,21960.0,6.0,14.0,0.42857142857142855,0.55,2. BELOW BASELINE,12.0,28.0,0.42857142857142855
-ONTO,Computer and Technology,Nanotechnology,25__1,25,1.0,8. p75_trade_value,20000.0,9120.0,18.0,41.0,0.43902439024390244,0.55,2. BELOW BASELINE,30.0,69.0,0.43478260869565216

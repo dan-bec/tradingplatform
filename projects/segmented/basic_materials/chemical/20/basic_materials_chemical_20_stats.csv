@@ -1,4 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CC,Basic Materials,Chemical - Diversified ,0.55,,,,68,20__0,20,0.0,17900.0,30975.0,86500.0,116650.0,119665.0,119966.5,119996.65
-ECL,Basic Materials,Chemical - Specialty,0.55,9610.0,6. p95_trade_value,9.0,166,20__0,20,0.0,8800.0,9527.5,19162.5,169913.25,195596.32,198164.63,198421.46
-IFF,Basic Materials,Chemical - Specialty,0.55,,,,124,20__0,20,0.0,12732.0,20937.5,83547.25,109403.47,112190.35,112469.03,112496.9

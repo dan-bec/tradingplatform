@@ -1,9 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-AVGO,Computer and Technology,Electronics - Semiconductors,55__0,55,0.0,1. p999999_trade_value,4075000.0,4075000.0,0.0,1.0,0.0,0.55,1. ABOVE BASELINE,0.0,1.0,0.0
-AVGO,Computer and Technology,Electronics - Semiconductors,55__0,55,0.0,2. p99999_trade_value,3228100.0,1906000.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,2.0,3.0,0.6666666666666666
-AVGO,Computer and Technology,Electronics - Semiconductors,55__0,55,0.0,3. p9999_trade_value,1524000.0,763500.0,12.0,18.0,0.6666666666666666,0.55,1. ABOVE BASELINE,14.0,21.0,0.6666666666666666
-AVGO,Computer and Technology,Electronics - Semiconductors,55__0,55,0.0,4. p999_trade_value,750000.0,232750.0,93.0,189.0,0.49206349206349204,0.55,2. BELOW BASELINE,107.0,210.0,0.5095238095238095
-AVGO,Computer and Technology,Electronics - Semiconductors,55__0,55,0.0,5. p99_trade_value,232500.0,71200.0,968.0,1889.0,0.5124404446797247,0.55,2. BELOW BASELINE,1075.0,2099.0,0.5121486422105764
-AVGO,Computer and Technology,Electronics - Semiconductors,55__0,55,0.0,6. p95_trade_value,71148.0,27000.0,4083.0,8405.0,0.4857822724568709,0.55,2. BELOW BASELINE,5158.0,10504.0,0.49105102817974106
-AVGO,Computer and Technology,Electronics - Semiconductors,55__0,55,0.0,7. p90_trade_value,26988.0,17280.0,5086.0,10489.0,0.4848889312613214,0.55,2. BELOW BASELINE,10244.0,20993.0,0.48797218120325825
-AVGO,Computer and Technology,Electronics - Semiconductors,55__0,55,0.0,8. p75_trade_value,17273.0,9072.0,15432.0,31482.0,0.4901848675433581,0.55,2. BELOW BASELINE,25676.0,52475.0,0.4892996665078609

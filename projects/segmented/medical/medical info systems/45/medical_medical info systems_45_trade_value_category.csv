@@ -1,8 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-HIMS,Medical,Medical Info Systems,45__2,45,2.0,1. p999999_trade_value,2148386.0,2148386.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-HIMS,Medical,Medical Info Systems,45__2,45,2.0,3. p9999_trade_value,1990362.0000000002,1150000.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,1.0,4.0,0.25
-HIMS,Medical,Medical Info Systems,45__2,45,2.0,4. p999_trade_value,1135000.0,347100.0,22.0,34.0,0.6470588235294118,0.55,2. BELOW BASELINE,23.0,38.0,0.6052631578947368
-HIMS,Medical,Medical Info Systems,45__2,45,2.0,5. p99_trade_value,337500.0,81400.0,194.0,339.0,0.5722713864306784,0.55,2. BELOW BASELINE,217.0,377.0,0.5755968169761273
-HIMS,Medical,Medical Info Systems,45__2,45,2.0,6. p95_trade_value,81180.0,30000.0,819.0,1517.0,0.5398813447593935,0.55,2. BELOW BASELINE,1036.0,1894.0,0.5469904963041182
-HIMS,Medical,Medical Info Systems,45__2,45,2.0,7. p90_trade_value,29970.000000000004,18104.0,967.0,1870.0,0.5171122994652406,0.55,2. BELOW BASELINE,2003.0,3764.0,0.5321466524973433
-HIMS,Medical,Medical Info Systems,45__2,45,2.0,8. p75_trade_value,18100.0,9000.0,3151.0,5748.0,0.5481906750173974,0.55,2. BELOW BASELINE,5154.0,9512.0,0.5418418839360808

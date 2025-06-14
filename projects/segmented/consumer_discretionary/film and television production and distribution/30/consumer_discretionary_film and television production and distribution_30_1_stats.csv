@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+LYV,Consumer Discretionary,Film and Television Production and Distribution,0.55,,,,1267,30__0,30,0.0,16181.4,27862.0,90218.8,886293.36,1504978.65,1579580.87,1587041.09

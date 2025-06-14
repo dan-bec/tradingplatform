@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+LULU,Consumer Discretionary,Textile - Apparel,0.55,,,,25436,45__1,45,1.0,16701.0,25623.75,67060.0,199365.0,850483.52,2144106.48,2244540.65

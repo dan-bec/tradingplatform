@@ -1,0 +1,8 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+ROKU,Consumer Discretionary,Broadcast Radio and Television,40__3,40,3.0,1. p999999_trade_value,1161194.0,1161194.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ROKU,Consumer Discretionary,Broadcast Radio and Television,40__3,40,3.0,3. p9999_trade_value,702754.0,702754.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+ROKU,Consumer Discretionary,Broadcast Radio and Television,40__3,40,3.0,4. p999_trade_value,674500.0,359229.0,3.0,9.0,0.3333333333333333,0.55,2. BELOW BASELINE,3.0,11.0,0.2727272727272727
+ROKU,Consumer Discretionary,Broadcast Radio and Television,40__3,40,3.0,5. p99_trade_value,346288.0,87000.0,54.0,94.0,0.574468085106383,0.55,2. BELOW BASELINE,57.0,105.0,0.5428571428571428
+ROKU,Consumer Discretionary,Broadcast Radio and Television,40__3,40,3.0,6. p95_trade_value,86750.0,23902.0,234.0,420.0,0.5571428571428572,0.55,2. BELOW BASELINE,291.0,525.0,0.5542857142857143
+ROKU,Consumer Discretionary,Broadcast Radio and Television,40__3,40,3.0,7. p90_trade_value,23895.0,14800.0,284.0,527.0,0.538899430740038,0.55,2. BELOW BASELINE,575.0,1052.0,0.5465779467680608
+ROKU,Consumer Discretionary,Broadcast Radio and Television,40__3,40,3.0,8. p75_trade_value,14787.0,7885.000000000001,835.0,1571.0,0.5315085932527053,0.55,2. BELOW BASELINE,1410.0,2623.0,0.5375524208921083

@@ -1,7 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-FTNT,Computer and Technology,Security,35__0,35,0.0,1. p999999_trade_value,980500.0,980500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-FTNT,Computer and Technology,Security,35__0,35,0.0,4. p999_trade_value,788832.0,415800.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,3.0,5.0,0.6
-FTNT,Computer and Technology,Security,35__0,35,0.0,5. p99_trade_value,408000.0,62985.0,12.0,39.0,0.3076923076923077,0.55,2. BELOW BASELINE,15.0,44.0,0.3409090909090909
-FTNT,Computer and Technology,Security,35__0,35,0.0,6. p95_trade_value,61752.0,22920.0,100.0,172.0,0.5813953488372093,0.55,2. BELOW BASELINE,115.0,216.0,0.5324074074074074
-FTNT,Computer and Technology,Security,35__0,35,0.0,7. p90_trade_value,22825.000000000004,15600.0,119.0,219.0,0.54337899543379,0.55,2. BELOW BASELINE,234.0,435.0,0.5379310344827586
-FTNT,Computer and Technology,Security,35__0,35,0.0,8. p75_trade_value,15560.999999999998,8316.0,353.0,645.0,0.5472868217054263,0.55,2. BELOW BASELINE,587.0,1080.0,0.5435185185185185

@@ -1,6 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-HELE,Consumer Staples,Cosmetics,25__1,25,1.0,1. p999999_trade_value,138000.0,138000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-HELE,Consumer Staples,Cosmetics,25__1,25,1.0,5. p99_trade_value,94000.0,35432.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,2.0,5.0,0.4
-HELE,Consumer Staples,Cosmetics,25__1,25,1.0,6. p95_trade_value,34500.0,21160.0,5.0,8.0,0.625,0.55,2. BELOW BASELINE,7.0,13.0,0.5384615384615384
-HELE,Consumer Staples,Cosmetics,25__1,25,1.0,7. p90_trade_value,20800.0,14471.999999999996,5.0,12.0,0.4166666666666667,0.55,2. BELOW BASELINE,12.0,25.0,0.48
-HELE,Consumer Staples,Cosmetics,25__1,25,1.0,8. p75_trade_value,13750.0,8260.0,19.0,37.0,0.5135135135135135,0.55,2. BELOW BASELINE,31.0,62.0,0.5

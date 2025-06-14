@@ -1,5 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-BLDR,Retail-Wholesale,Building Products - Retail,0.55,61294.99999999999,5. p99_trade_value,13.0,1298,30__0,30,0.0,15850.0,25200.0,55382.85,142772.5,410441.5,446044.15,449604.41
-FAST,Retail-Wholesale,Building Products - Retail,0.55,,,,240,25__0,25,0.0,26281.4,51965.0,245039.63,508284.22,563828.42,569382.84,569938.28
-GMS,Retail-Wholesale,Building Products - Retail,0.55,7500.0,8. p75_trade_value,8.0,12,10__0,10,0.0,7567.5,7575.0,7575.0,7575.0,7575.0,7575.0,7575.0
-TGLS,Retail-Wholesale,Building Products - Retail,0.55,63360.0,1. p999999_trade_value,1.0,13,10__0,10,0.0,32280.0,46404.0,59968.8,63020.88,63326.09,63356.61,63359.66

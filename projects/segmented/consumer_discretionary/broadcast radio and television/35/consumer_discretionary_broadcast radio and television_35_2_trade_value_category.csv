@@ -1,0 +1,7 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+BILI,Consumer Discretionary,Broadcast Radio and Television,35__2,35,2.0,1. p999999_trade_value,1188000.0,1188000.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,1.0,1.0
+BILI,Consumer Discretionary,Broadcast Radio and Television,35__2,35,2.0,4. p999_trade_value,860000.0,407550.00000000006,0.0,3.0,0.0,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+BILI,Consumer Discretionary,Broadcast Radio and Television,35__2,35,2.0,5. p99_trade_value,359910.0,99950.0,7.0,36.0,0.19444444444444445,0.55,2. BELOW BASELINE,8.0,40.0,0.2
+BILI,Consumer Discretionary,Broadcast Radio and Television,35__2,35,2.0,6. p95_trade_value,99584.0,28056.0,55.0,157.0,0.3503184713375796,0.55,2. BELOW BASELINE,63.0,197.0,0.3197969543147208
+BILI,Consumer Discretionary,Broadcast Radio and Television,35__2,35,2.0,7. p90_trade_value,27927.0,17334.0,97.0,197.0,0.49238578680203043,0.55,2. BELOW BASELINE,160.0,394.0,0.40609137055837563
+BILI,Consumer Discretionary,Broadcast Radio and Television,35__2,35,2.0,8. p75_trade_value,17290.0,8740.0,317.0,591.0,0.5363790186125211,0.55,2. BELOW BASELINE,477.0,985.0,0.4842639593908629

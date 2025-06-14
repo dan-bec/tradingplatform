@@ -1,4 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CZR,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,1352,30__0,30,0.0,14446.4,23084.0,151225.0,664845.57,714596.0,719459.6,719945.96
-MTN,Consumer Discretionary,Leisure and Recreation Services,0.55,26055.0,6. p95_trade_value,33.0,650,30__0,30,0.0,15005.0,25778.25,69971.1,320606.52,334928.65,336360.87,336504.09
-TCOM,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,824,30__0,30,0.0,11250.0,16017.0,40847.19,159976.14,173497.61,174849.76,174984.98

@@ -1,0 +1,15 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+AS,Consumer Discretionary,Leisure and Recreation Products,20__2,20,2.0,1. p999999_trade_value,208425.0,208425.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AS,Consumer Discretionary,Leisure and Recreation Products,20__2,20,2.0,5. p99_trade_value,175000.0,175000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+AS,Consumer Discretionary,Leisure and Recreation Products,20__2,20,2.0,6. p95_trade_value,166250.0,47500.0,4.0,5.0,0.8,0.55,2. BELOW BASELINE,5.0,7.0,0.7142857142857143
+AS,Consumer Discretionary,Leisure and Recreation Products,20__2,20,2.0,7. p90_trade_value,45000.0,20130.0,1.0,6.0,0.16666666666666666,0.55,2. BELOW BASELINE,6.0,13.0,0.46153846153846156
+AS,Consumer Discretionary,Leisure and Recreation Products,20__2,20,2.0,8. p75_trade_value,20020.0,11700.0,7.0,18.0,0.3888888888888889,0.55,2. BELOW BASELINE,13.0,31.0,0.41935483870967744
+POOL,Consumer Discretionary,Leisure and Recreation Products,20__0,20,0.0,1. p999999_trade_value,14304.0,14304.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+POOL,Consumer Discretionary,Leisure and Recreation Products,20__0,20,0.0,5. p99_trade_value,13779.999999999998,13779.999999999998,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+POOL,Consumer Discretionary,Leisure and Recreation Products,20__0,20,0.0,6. p95_trade_value,13140.0,9500.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,2.0,6.0,0.3333333333333333
+POOL,Consumer Discretionary,Leisure and Recreation Products,20__0,20,0.0,7. p90_trade_value,9230.0,7800.0,2.0,5.0,0.4,0.55,2. BELOW BASELINE,4.0,11.0,0.36363636363636365
+POOL,Consumer Discretionary,Leisure and Recreation Products,20__0,20,0.0,8. p75_trade_value,7552.0,5984.0,9.0,16.0,0.5625,0.55,2. BELOW BASELINE,13.0,27.0,0.48148148148148145
+SRAD,Consumer Discretionary,Leisure and Recreation Products,20__0,20,0.0,1. p999999_trade_value,30000.0,30000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+SRAD,Consumer Discretionary,Leisure and Recreation Products,20__0,20,0.0,6. p95_trade_value,28960.000000000004,20995.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,1.0,5.0,0.2
+SRAD,Consumer Discretionary,Leisure and Recreation Products,20__0,20,0.0,7. p90_trade_value,20332.000000000004,16380.000000000002,2.0,4.0,0.5,0.55,2. BELOW BASELINE,3.0,9.0,0.3333333333333333
+SRAD,Consumer Discretionary,Leisure and Recreation Products,20__0,20,0.0,8. p75_trade_value,16315.0,11250.0,2.0,15.0,0.13333333333333333,0.55,2. BELOW BASELINE,5.0,24.0,0.20833333333333334

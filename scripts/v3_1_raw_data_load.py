@@ -1,13 +1,15 @@
-import os
-import csv
+import config
 import re
 from datetime import datetime, date, timedelta
 from pathlib import Path
 import requests
 import time
 import duckdb
-import sys
-import subprocess
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--num-files-to-load", type=int, default=config.NUM_FILES_TO_PROCESS, help="Number of files to load")
+args = parser.parse_args()
 
 ### SETTINGS ###
 
@@ -16,13 +18,12 @@ start_time = time.time()
 print(f"Start time: {start_time:.2f} seconds")
 
 # Define file paths
-data_path = 'data'
-full_db_path = Path(f"{data_path}/master_database.db")
-stock_summary_dir = Path(f"{data_path}/stocks/daily")
-sectors_industries_csv = (f"'{data_path}/stocks/sectors_industries.csv'")
-option_trade_dir = Path(f"{data_path}/options/trades")
-num_files_to_load = 200
-number_of_bins = 10
+full_db_path = config.FULL_DB_PATH
+stock_summary_dir = config.STOCK_SUMMARY_DIR
+sectors_industries_csv = config.SECTORS_CSV
+option_trade_dir = config.OPTION_TRADE_DIR
+num_files_to_load = args.num_files_to_load
+print(sectors_industries_csv)
 
 # Connect to DuckDB
 con = duckdb.connect(str(full_db_path))
@@ -46,8 +47,7 @@ def get_static_string(file_path, var_name):
         raise Exception(f"Error reading {var_name} from {file_path}: {e}")
 
 # Set up API key (kept for condition codes fetching)
-script_dir = os.path.dirname(os.path.abspath(__file__))
-dataservices_path = os.path.join(script_dir, "..", "src", "BullseyeApp", "Shared", "Data", "DataService.cs")
+dataservices_path = config.DATASERVICES_PATH
 API_KEY = get_static_string(dataservices_path, "API_KEY")
 
 
@@ -277,7 +277,7 @@ if sectors_industries_csv:
             company_name,
             sector,
             industry
-        FROM read_csv_auto({sectors_industries_csv}, filename=True)
+        FROM read_csv_auto('{sectors_industries_csv}', filename=True)
     """)
 else:
     print("No new data to load to raw_data.sector_industry.")
