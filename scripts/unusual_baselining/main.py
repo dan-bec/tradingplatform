@@ -24,8 +24,8 @@ def run_script(script_name, args_list):
 def export_settings():
     # Define the output directory and file
     output_dir = config.ITM_PATH
-    os.makedirs(output_dir, exist_ok=True)  # Create directory if it doesn't exist
-    output_file = os.path.join(output_dir, 'settings.txt')
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output_file = output_dir / 'settings.txt'
 
     # Get all settings from config, excluding special attributes
     settings_dict = {k: v for k, v in vars(config).items() if not k.startswith('__')}
@@ -44,7 +44,7 @@ def export_settings():
 
 def push_to_github():
     # Set the repository root (parent of /scripts)
-    repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    repo_root = config.REPO_ROOT
     # Add all changes from the repository root
     subprocess.run(["git", "-C", repo_root, "add", "."], check=True)
     # Commit with a timestamped message
@@ -135,7 +135,7 @@ if __name__ == "__main__":
     start_time = time.time()
     print(f"Main Start time: {start_time:.2f} seconds")
 
-    main()
+    push_to_github()
 
     # Print execution time
     end_time = time.time()
