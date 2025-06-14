@@ -1,7 +1,7 @@
 security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-KALU,Industrial Products,Metal Products - Procurement and Fabrication,10__0,10,0.0,1. p999999_trade_value,12180.0,12180.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-KALU,Industrial Products,Metal Products - Procurement and Fabrication,10__0,10,0.0,7. p90_trade_value,8610.0,8610.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-KALU,Industrial Products,Metal Products - Procurement and Fabrication,10__0,10,0.0,8. p75_trade_value,7250.0,7250.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
-MLI,Industrial Products,Metal Products - Procurement and Fabrication,10__0,10,0.0,1. p999999_trade_value,9750.0,9750.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-MLI,Industrial Products,Metal Products - Procurement and Fabrication,10__0,10,0.0,7. p90_trade_value,7525.0,7525.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-MLI,Industrial Products,Metal Products - Procurement and Fabrication,10__0,10,0.0,8. p75_trade_value,6240.0,5600.000000000001,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+KALU,Industrial Products,Metal Products - Procurement and Fabrication,10__0,10,0.0,1. p999999_trade_value,12180.0,12180.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+KALU,Industrial Products,Metal Products - Procurement and Fabrication,10__0,10,0.0,7. p90_trade_value,8610.0,8610.0,1.0,1.0,1.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
+KALU,Industrial Products,Metal Products - Procurement and Fabrication,10__0,10,0.0,8. p75_trade_value,7250.0,7250.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+MLI,Industrial Products,Metal Products - Procurement and Fabrication,10__0,10,0.0,1. p999999_trade_value,9750.0,9750.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+MLI,Industrial Products,Metal Products - Procurement and Fabrication,10__0,10,0.0,7. p90_trade_value,7525.0,7525.0,1.0,1.0,1.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
+MLI,Industrial Products,Metal Products - Procurement and Fabrication,10__0,10,0.0,8. p75_trade_value,6240.0,5600.000000000001,0.0,2.0,0.0,0.75,2. BELOW BASELINE,1.0,4.0,0.25

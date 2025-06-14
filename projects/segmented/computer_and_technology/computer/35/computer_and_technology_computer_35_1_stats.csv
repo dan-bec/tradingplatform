@@ -1,5 +1,5 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CDNS,Computer and Technology,Computer - Software,0.55,332464.0,1. p999999_trade_value,1.0,2291,35__0,35,0.0,15300.0,22800.0,76335.0,213794.0,305390.7,329756.67,332193.27
-CSCO,Computer and Technology,Computer - Networking,0.55,,,,4673,35__0,35,0.0,15044.0,22604.0,67170.84,291300.52,832061.4,1154099.04,1186302.8
-SNPS,Computer and Technology,Computer - Software,0.55,,,,3551,35__0,35,0.0,16785.0,26135.0,78000.0,258657.5,465045.0,471754.5,472425.45
-WDC,Computer and Technology,Computer- Storage Devices,0.55,980000.0,1. p999999_trade_value,1.0,4065,35__2,35,2.0,17867.4,27600.0,77987.52,419071.36,894452.8,971445.28,979144.53
+CDNS,Computer and Technology,Computer - Software,0.75,332464.0,1. p999999_trade_value,1.0,2291,35__0,35,0.0,15300.0,22800.0,76335.0,213794.0,305390.7,329756.67,332193.27
+CSCO,Computer and Technology,Computer - Networking,0.75,,,,4673,35__0,35,0.0,15044.0,22604.0,67170.84,291300.52,832061.4,1154099.04,1186302.8
+SNPS,Computer and Technology,Computer - Software,0.75,,,,3551,35__0,35,0.0,16785.0,26135.0,78000.0,258657.5,465045.0,471754.5,472425.45
+WDC,Computer and Technology,Computer- Storage Devices,0.75,980000.0,1. p999999_trade_value,1.0,4065,35__2,35,2.0,17867.4,27600.0,77987.52,419071.36,894452.8,971445.28,979144.53

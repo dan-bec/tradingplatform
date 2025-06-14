@@ -1,2 +1,2 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-NMAX,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,472,25__0,25,0.0,12858.0,19014.75,55228.8,147530.85,149078.09,149232.81,149248.28
+NMAX,Consumer Discretionary,Broadcast Radio and Television,0.75,,,,472,25__0,25,0.0,12858.0,19014.75,55228.8,147530.85,149078.09,149232.81,149248.28

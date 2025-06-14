@@ -1,2 +1,2 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CSL,Conglomerates,Diversified Operations,0.55,8480.0,8. p75_trade_value,6.0,24,15__0,15,0.0,12150.0,13518.25,15591.1,16094.11,16144.41,16149.44,16149.94
+CSL,Conglomerates,Diversified Operations,0.75,8480.0,8. p75_trade_value,6.0,24,15__0,15,0.0,12150.0,13518.25,15591.1,16094.11,16144.41,16149.44,16149.94

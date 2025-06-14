@@ -1,12 +1,12 @@
 security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-FOUR,Business Services,Financial Transaction Services,30__2,30,2.0,1. p999999_trade_value,311200.0,311200.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-FOUR,Business Services,Financial Transaction Services,30__2,30,2.0,5. p99_trade_value,279680.0,80000.0,2.0,8.0,0.25,0.55,2. BELOW BASELINE,3.0,9.0,0.3333333333333333
-FOUR,Business Services,Financial Transaction Services,30__2,30,2.0,6. p95_trade_value,78000.0,29600.0,15.0,35.0,0.42857142857142855,0.55,2. BELOW BASELINE,18.0,44.0,0.4090909090909091
-FOUR,Business Services,Financial Transaction Services,30__2,30,2.0,7. p90_trade_value,29500.0,18320.0,21.0,43.0,0.4883720930232558,0.55,2. BELOW BASELINE,39.0,87.0,0.4482758620689655
-FOUR,Business Services,Financial Transaction Services,30__2,30,2.0,8. p75_trade_value,18315.0,9900.0,70.0,130.0,0.5384615384615384,0.55,2. BELOW BASELINE,109.0,217.0,0.5023041474654378
-GPN,Business Services,Financial Transaction Services,30__2,30,2.0,1. p999999_trade_value,614999.9999999999,614999.9999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-GPN,Business Services,Financial Transaction Services,30__2,30,2.0,4. p999_trade_value,270000.0,270000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-GPN,Business Services,Financial Transaction Services,30__2,30,2.0,5. p99_trade_value,242352.0,128075.0,4.0,9.0,0.4444444444444444,0.55,2. BELOW BASELINE,4.0,11.0,0.36363636363636365
-GPN,Business Services,Financial Transaction Services,30__2,30,2.0,6. p95_trade_value,109460.00000000001,24765.0,25.0,43.0,0.5813953488372093,0.55,2. BELOW BASELINE,29.0,54.0,0.5370370370370371
-GPN,Business Services,Financial Transaction Services,30__2,30,2.0,7. p90_trade_value,24200.0,15554.999999999998,30.0,53.0,0.5660377358490566,0.55,2. BELOW BASELINE,59.0,107.0,0.5514018691588785
-GPN,Business Services,Financial Transaction Services,30__2,30,2.0,8. p75_trade_value,15375.0,8480.000000000002,77.0,159.0,0.48427672955974843,0.55,2. BELOW BASELINE,136.0,266.0,0.5112781954887218
+FOUR,Business Services,Financial Transaction Services,30__2,30,2.0,1. p999999_trade_value,311200.0,311200.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+FOUR,Business Services,Financial Transaction Services,30__2,30,2.0,5. p99_trade_value,279680.0,80000.0,2.0,8.0,0.25,0.75,2. BELOW BASELINE,3.0,9.0,0.3333333333333333
+FOUR,Business Services,Financial Transaction Services,30__2,30,2.0,6. p95_trade_value,78000.0,29600.0,15.0,35.0,0.42857142857142855,0.75,2. BELOW BASELINE,18.0,44.0,0.4090909090909091
+FOUR,Business Services,Financial Transaction Services,30__2,30,2.0,7. p90_trade_value,29500.0,18320.0,21.0,43.0,0.4883720930232558,0.75,2. BELOW BASELINE,39.0,87.0,0.4482758620689655
+FOUR,Business Services,Financial Transaction Services,30__2,30,2.0,8. p75_trade_value,18315.0,9900.0,70.0,130.0,0.5384615384615384,0.75,2. BELOW BASELINE,109.0,217.0,0.5023041474654378
+GPN,Business Services,Financial Transaction Services,30__2,30,2.0,1. p999999_trade_value,614999.9999999999,614999.9999999999,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+GPN,Business Services,Financial Transaction Services,30__2,30,2.0,4. p999_trade_value,270000.0,270000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
+GPN,Business Services,Financial Transaction Services,30__2,30,2.0,5. p99_trade_value,242352.0,128075.0,4.0,9.0,0.4444444444444444,0.75,2. BELOW BASELINE,4.0,11.0,0.36363636363636365
+GPN,Business Services,Financial Transaction Services,30__2,30,2.0,6. p95_trade_value,109460.00000000001,24765.0,25.0,43.0,0.5813953488372093,0.75,2. BELOW BASELINE,29.0,54.0,0.5370370370370371
+GPN,Business Services,Financial Transaction Services,30__2,30,2.0,7. p90_trade_value,24200.0,15554.999999999998,30.0,53.0,0.5660377358490566,0.75,2. BELOW BASELINE,59.0,107.0,0.5514018691588785
+GPN,Business Services,Financial Transaction Services,30__2,30,2.0,8. p75_trade_value,15375.0,8480.000000000002,77.0,159.0,0.48427672955974843,0.75,2. BELOW BASELINE,136.0,266.0,0.5112781954887218

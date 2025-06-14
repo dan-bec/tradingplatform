@@ -1,2 +1,2 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-X,Basic Materials,Steel - Producers,0.55,6133500.0,3. p9999_trade_value,2.0,16891,40__1,40,1.0,17280.0,30439.5,240000.0,1487370.0,5468976.04,10527941.25,11331694.13
+X,Basic Materials,Steel - Producers,0.75,6133500.0,3. p9999_trade_value,2.0,16891,40__1,40,1.0,17280.0,30439.5,240000.0,1487370.0,5468976.04,10527941.25,11331694.13

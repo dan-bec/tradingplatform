@@ -1,6 +1,6 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AMGN,Medical,Medical - Biomedical and Genetics,0.55,,,,8300,40__0,40,0.0,16962.0,26565.8,79577.0,433973.5,963584.04,1246294.7,1274565.77
-HUM,Medical,Medical - HMOs,0.55,,,,16917,40__4,40,4.0,16200.0,26616.0,81252.0,490571.2,1660931.59,5476272.92,6152827.29
-ISRG,Medical,Medical - Instruments,0.55,,,,7899,40__3,40,3.0,15084.0,23603.4,57761.2,229418.2,648803.6,732680.36,741068.04
-MRNA,Medical,Medical - Biomedical and Genetics,0.55,,,,11893,40__2,40,2.0,17038.0,29720.0,216955.76,1230735.34,2563624.11,3412495.96,3505051.1
-VKTX,Medical,Medical - Biomedical and Genetics,0.55,,,,8498,40__0,40,0.0,16000.0,24900.0,60000.0,193042.0,828480.6,1288848.06,1334884.81
+AMGN,Medical,Medical - Biomedical and Genetics,0.75,,,,8300,40__0,40,0.0,16962.0,26565.8,79577.0,433973.5,963584.04,1246294.7,1274565.77
+HUM,Medical,Medical - HMOs,0.75,,,,16917,40__4,40,4.0,16200.0,26616.0,81252.0,490571.2,1660931.59,5476272.92,6152827.29
+ISRG,Medical,Medical - Instruments,0.75,,,,7899,40__3,40,3.0,15084.0,23603.4,57761.2,229418.2,648803.6,732680.36,741068.04
+MRNA,Medical,Medical - Biomedical and Genetics,0.75,,,,11893,40__2,40,2.0,17038.0,29720.0,216955.76,1230735.34,2563624.11,3412495.96,3505051.1
+VKTX,Medical,Medical - Biomedical and Genetics,0.75,,,,8498,40__0,40,0.0,16000.0,24900.0,60000.0,193042.0,828480.6,1288848.06,1334884.81

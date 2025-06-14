@@ -1,4 +1,4 @@
 security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-PLUS,Computer and Technology,Business - Software Services,10__0,10,0.0,1. p999999_trade_value,45000.0,45000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-PLUS,Computer and Technology,Business - Software Services,10__0,10,0.0,7. p90_trade_value,9600.0,9600.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-PLUS,Computer and Technology,Business - Software Services,10__0,10,0.0,8. p75_trade_value,9000.0,9000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+PLUS,Computer and Technology,Business - Software Services,10__0,10,0.0,1. p999999_trade_value,45000.0,45000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+PLUS,Computer and Technology,Business - Software Services,10__0,10,0.0,7. p90_trade_value,9600.0,9600.0,1.0,1.0,1.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
+PLUS,Computer and Technology,Business - Software Services,10__0,10,0.0,8. p75_trade_value,9000.0,9000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,1.0,3.0,0.3333333333333333

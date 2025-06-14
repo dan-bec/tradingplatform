@@ -1,5 +1,5 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CWST,Business Services,Waste Removal Services,0.55,,,,42,15__0,15,0.0,7097.5,8170.25,9836.0,9983.6,9998.36,9999.84,9999.98
-GFL,Business Services,Waste Removal Services,0.55,,,,55,15__0,15,0.0,8905.4,16600.0,64740.0,77133.0,78372.3,78496.23,78508.62
-WCN,Business Services,Waste Removal Services,0.55,114000.0,6. p95_trade_value,2.0,38,15__0,15,0.0,27732.5,103583.25,155580.0,177558.0,179755.8,179975.58,179997.56
-XYL,Business Services,Waste Removal Services,0.55,,,,52,15__0,15,0.0,33942.0,53821.5,64845.9,66181.59,66315.16,66328.52,66329.85
+CWST,Business Services,Waste Removal Services,0.75,,,,42,15__0,15,0.0,7097.5,8170.25,9836.0,9983.6,9998.36,9999.84,9999.98
+GFL,Business Services,Waste Removal Services,0.75,,,,55,15__0,15,0.0,8905.4,16600.0,64740.0,77133.0,78372.3,78496.23,78508.62
+WCN,Business Services,Waste Removal Services,0.75,114000.0,6. p95_trade_value,2.0,38,15__0,15,0.0,27732.5,103583.25,155580.0,177558.0,179755.8,179975.58,179997.56
+XYL,Business Services,Waste Removal Services,0.75,,,,52,15__0,15,0.0,33942.0,53821.5,64845.9,66181.59,66315.16,66328.52,66329.85

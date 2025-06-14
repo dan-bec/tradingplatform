@@ -1,5 +1,5 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AAOI,Computer and Technology,Electronics - Semiconductors,0.55,278160.0,4. p999_trade_value,2.0,1826,35__0,35,0.0,18000.0,26803.75,51815.0,276394.5,365325.94,382839.09,384590.41
-CRDO,Computer and Technology,Electronics - Semiconductors,0.55,572565.0,1. p999999_trade_value,2.0,3329,35__2,35,2.0,18004.0,27817.2,84782.4,214874.69,572565.0,572565.0,572565.0
-KLAC,Computer and Technology,Electronics - Miscellaneous Products,0.55,,,,4098,35__2,35,2.0,18990.0,29195.0,86705.4,334153.8,670709.02,785774.9,797281.49
-SMR,Computer and Technology,Electronics - Power Generation,0.55,,,,4422,35__2,35,2.0,18000.0,32104.5,139690.6,425250.19,942648.45,1024414.84,1032591.48
+AAOI,Computer and Technology,Electronics - Semiconductors,0.75,278160.0,4. p999_trade_value,2.0,1826,35__0,35,0.0,18000.0,26803.75,51815.0,276394.5,365325.94,382839.09,384590.41
+CRDO,Computer and Technology,Electronics - Semiconductors,0.75,572565.0,1. p999999_trade_value,2.0,3329,35__2,35,2.0,18004.0,27817.2,84782.4,214874.69,572565.0,572565.0,572565.0
+KLAC,Computer and Technology,Electronics - Miscellaneous Products,0.75,,,,4098,35__2,35,2.0,18990.0,29195.0,86705.4,334153.8,670709.02,785774.9,797281.49
+SMR,Computer and Technology,Electronics - Power Generation,0.75,,,,4422,35__2,35,2.0,18000.0,32104.5,139690.6,425250.19,942648.45,1024414.84,1032591.48

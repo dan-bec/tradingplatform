@@ -1,3 +1,3 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-DKNG,Consumer Discretionary,Gaming,0.55,,,,8676,40__0,40,0.0,15571.5,24612.5,89460.0,374172.68,714660.94,731389.29,733062.13
-RBLX,Consumer Discretionary,Gaming,0.55,8100.0,8. p75_trade_value,2434.0,9726,40__0,40,0.0,15000.0,23952.75,75485.25,370925.0,772290.75,775179.08,775467.91
+DKNG,Consumer Discretionary,Gaming,0.75,,,,8676,40__0,40,0.0,15571.5,24612.5,89460.0,374172.68,714660.94,731389.29,733062.13
+RBLX,Consumer Discretionary,Gaming,0.75,775500.0,1. p999999_trade_value,1.0,9726,40__0,40,0.0,15000.0,23952.75,75485.25,370925.0,772290.75,775179.08,775467.91

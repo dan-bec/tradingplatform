@@ -1,2 +1,2 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CVS,Medical,Medical Services,0.55,,,,6329,40__3,40,3.0,14263.0,23172.0,84813.8,337208.25,700196.0,731519.6,734651.96
+CVS,Medical,Medical Services,0.75,,,,6329,40__3,40,3.0,14263.0,23172.0,84813.8,337208.25,700196.0,731519.6,734651.96

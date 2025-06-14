@@ -1,4 +1,4 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CF,Basic Materials,Fertilizers,0.55,437400.0,1. p999999_trade_value,1.0,495,25__0,25,0.0,18844.0,29020.0,78084.2,296906.4,423350.64,435995.06,437259.51
-MOS,Basic Materials,Fertilizers,0.55,7600.0,8. p75_trade_value,114.0,455,25__0,25,0.0,12896.0,19033.2,58042.44,374666.0,467960.0,477289.4,478222.34
-NTR,Basic Materials,Fertilizers,0.55,,,,351,25__0,25,0.0,10505.0,18090.0,115000.0,409944.0,411506.4,411662.64,411678.26
+CF,Basic Materials,Fertilizers,0.75,437400.0,1. p999999_trade_value,1.0,495,25__0,25,0.0,18844.0,29020.0,78084.2,296906.4,423350.64,435995.06,437259.51
+MOS,Basic Materials,Fertilizers,0.75,19092.0,6. p95_trade_value,23.0,455,25__0,25,0.0,12896.0,19033.2,58042.44,374666.0,467960.0,477289.4,478222.34
+NTR,Basic Materials,Fertilizers,0.75,,,,351,25__0,25,0.0,10505.0,18090.0,115000.0,409944.0,411506.4,411662.64,411678.26

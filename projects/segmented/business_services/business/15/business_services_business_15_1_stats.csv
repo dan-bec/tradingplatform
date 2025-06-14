@@ -1,6 +1,6 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-APG,Business Services,Business - Services,0.55,3960.0,8. p75_trade_value,8.0,29,15__0,15,0.0,4508.4,4776.0,6412.0,6941.2,6994.12,6999.41,6999.94
-ARMK,Business Services,Business - Services,0.55,30294.0,1. p999999_trade_value,1.0,36,15__0,15,0.0,11830.0,12856.5,24195.6,29684.16,30233.02,30287.9,30293.39
-BFAM,Business Services,Business - Services,0.55,6400.0,8. p75_trade_value,11.0,38,15__0,15,0.0,6732.0,7073.0,7260.0,7260.0,7260.0,7260.0,7260.0
-SCS,Business Services,Business - Office Products,0.55,10045.0,1. p999999_trade_value,1.0,25,15__0,15,0.0,7476.0,9332.0,9926.2,10033.12,10043.81,10044.88,10044.99
-SPSC,Business Services,Business - Services,0.55,19800.0,7. p90_trade_value,3.0,20,15__0,15,0.0,19800.0,20623.0,33132.6,35947.26,36228.73,36256.87,36259.69
+APG,Business Services,Business - Services,0.75,4590.0,7. p90_trade_value,3.0,29,15__0,15,0.0,4508.4,4776.0,6412.0,6941.2,6994.12,6999.41,6999.94
+ARMK,Business Services,Business - Services,0.75,30294.0,1. p999999_trade_value,1.0,36,15__0,15,0.0,11830.0,12856.5,24195.6,29684.16,30233.02,30287.9,30293.39
+BFAM,Business Services,Business - Services,0.75,6400.0,8. p75_trade_value,11.0,38,15__0,15,0.0,6732.0,7073.0,7260.0,7260.0,7260.0,7260.0,7260.0
+SCS,Business Services,Business - Office Products,0.75,10045.0,1. p999999_trade_value,1.0,25,15__0,15,0.0,7476.0,9332.0,9926.2,10033.12,10043.81,10044.88,10044.99
+SPSC,Business Services,Business - Services,0.75,19800.0,7. p90_trade_value,3.0,20,15__0,15,0.0,19800.0,20623.0,33132.6,35947.26,36228.73,36256.87,36259.69

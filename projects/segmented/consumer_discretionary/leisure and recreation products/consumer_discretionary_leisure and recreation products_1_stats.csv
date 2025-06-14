@@ -1,16 +1,16 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AS,Consumer Discretionary,Leisure and Recreation Products,0.55,208425.0,1. p999999_trade_value,1.0,123,20__2,20,2.0,20108.0,47250.0,173075.0,204347.15,208017.22,208384.22,208420.92
-ASO,Consumer Discretionary,Leisure and Recreation Products,0.55,361760.00000000006,1. p999999_trade_value,1.0,554,25__0,25,0.0,19967.0,40044.8,140317.04,314334.72,357017.47,361285.75,361712.57
-BC,Consumer Discretionary,Leisure and Recreation Products,0.55,38400.0,7. p90_trade_value,4.0,35,15__0,15,0.0,30540.0,39750.0,79845.0,98434.5,100293.45,100479.34,100497.93
-GOLF,Consumer Discretionary,Leisure and Recreation Products,0.55,11250.0,1. p999999_trade_value,1.0,5,5__0,5,0.0,9086.4,10168.2,11033.64,11228.36,11247.84,11249.78,11249.98
-MBUU,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,6,10__0,10,0.0,22095.0,29722.5,35824.5,37197.45,37334.75,37348.47,37349.85
-MCFT,Consumer Discretionary,Leisure and Recreation Products,0.55,57840.0,1. p999999_trade_value,1.0,3,5__1,5,1.0,47203.0,52521.5,56776.3,57733.63,57829.36,57838.94,57839.89
-MODG,Consumer Discretionary,Leisure and Recreation Products,0.55,12780.0,1. p999999_trade_value,1.0,39,15__0,15,0.0,7630.0,10255.2,12392.4,12741.24,12776.12,12779.61,12779.96
-ONEW,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,5,5__0,5,0.0,5256.0,5508.0,5709.6,5754.96,5759.5,5759.95,5759.99
-PLBY,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,6,10__0,10,0.0,17237.5,22368.75,26473.75,27397.38,27489.74,27498.97,27499.9
-POOL,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,107,20__0,20,0.0,7651.2,9419.0,13741.6,14248.46,14298.45,14303.44,14303.94
-PTON,Consumer Discretionary,Leisure and Recreation Products,0.55,103235.99999999999,5. p99_trade_value,28.0,2771,35__0,35,0.0,13780.0,22779.0,99379.7,447250.5,576862.38,586886.24,587888.62
-RGR,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,10,10__0,10,0.0,11529.0,11659.5,11763.9,11787.39,11789.74,11789.97,11790.0
-SRAD,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,86,20__0,20,0.0,16347.5,20829.25,29116.0,29911.6,29991.16,29999.12,29999.91
-SWBI,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,15,10__0,10,0.0,12790.0,13725.0,14985.0,15268.5,15296.85,15299.69,15299.97
-YETI,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,201,25__0,25,0.0,18750.0,34800.0,212995.0,345484.0,363489.4,365289.94,365469.99
+AS,Consumer Discretionary,Leisure and Recreation Products,0.75,208425.0,1. p999999_trade_value,1.0,123,20__2,20,2.0,20108.0,47250.0,173075.0,204347.15,208017.22,208384.22,208420.92
+ASO,Consumer Discretionary,Leisure and Recreation Products,0.75,361760.00000000006,1. p999999_trade_value,1.0,554,25__0,25,0.0,19967.0,40044.8,140317.04,314334.72,357017.47,361285.75,361712.57
+BC,Consumer Discretionary,Leisure and Recreation Products,0.75,38400.0,7. p90_trade_value,4.0,35,15__0,15,0.0,30540.0,39750.0,79845.0,98434.5,100293.45,100479.34,100497.93
+GOLF,Consumer Discretionary,Leisure and Recreation Products,0.75,11250.0,1. p999999_trade_value,1.0,5,5__0,5,0.0,9086.4,10168.2,11033.64,11228.36,11247.84,11249.78,11249.98
+MBUU,Consumer Discretionary,Leisure and Recreation Products,0.75,,,,6,10__0,10,0.0,22095.0,29722.5,35824.5,37197.45,37334.75,37348.47,37349.85
+MCFT,Consumer Discretionary,Leisure and Recreation Products,0.75,57840.0,1. p999999_trade_value,1.0,3,5__1,5,1.0,47203.0,52521.5,56776.3,57733.63,57829.36,57838.94,57839.89
+MODG,Consumer Discretionary,Leisure and Recreation Products,0.75,12780.0,1. p999999_trade_value,1.0,39,15__0,15,0.0,7630.0,10255.2,12392.4,12741.24,12776.12,12779.61,12779.96
+ONEW,Consumer Discretionary,Leisure and Recreation Products,0.75,,,,5,5__0,5,0.0,5256.0,5508.0,5709.6,5754.96,5759.5,5759.95,5759.99
+PLBY,Consumer Discretionary,Leisure and Recreation Products,0.75,,,,6,10__0,10,0.0,17237.5,22368.75,26473.75,27397.38,27489.74,27498.97,27499.9
+POOL,Consumer Discretionary,Leisure and Recreation Products,0.75,,,,107,20__0,20,0.0,7651.2,9419.0,13741.6,14248.46,14298.45,14303.44,14303.94
+PTON,Consumer Discretionary,Leisure and Recreation Products,0.75,103235.99999999999,5. p99_trade_value,28.0,2771,35__0,35,0.0,13780.0,22779.0,99379.7,447250.5,576862.38,586886.24,587888.62
+RGR,Consumer Discretionary,Leisure and Recreation Products,0.75,,,,10,10__0,10,0.0,11529.0,11659.5,11763.9,11787.39,11789.74,11789.97,11790.0
+SRAD,Consumer Discretionary,Leisure and Recreation Products,0.75,,,,86,20__0,20,0.0,16347.5,20829.25,29116.0,29911.6,29991.16,29999.12,29999.91
+SWBI,Consumer Discretionary,Leisure and Recreation Products,0.75,,,,15,10__0,10,0.0,12790.0,13725.0,14985.0,15268.5,15296.85,15299.69,15299.97
+YETI,Consumer Discretionary,Leisure and Recreation Products,0.75,,,,201,25__0,25,0.0,18750.0,34800.0,212995.0,345484.0,363489.4,365289.94,365469.99

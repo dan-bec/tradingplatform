@@ -1,2 +1,2 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AVGO,Computer and Technology,Electronics - Semiconductors,0.55,763500.0,3. p9999_trade_value,21.0,208961,55__0,55,0.0,17250.0,26950.0,71000.0,230654.4,751404.0,1871772.8,3898031.78
+AVGO,Computer and Technology,Electronics - Semiconductors,0.75,,,,208961,55__0,55,0.0,17250.0,26950.0,71000.0,230654.4,751404.0,1871772.8,3898031.78

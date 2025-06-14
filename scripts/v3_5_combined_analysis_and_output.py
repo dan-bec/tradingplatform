@@ -176,7 +176,7 @@ for sector in sectors:
             file_name = f"{modified_sector}_{descriptor}.csv"
             file_path = sector_folder / file_name
             df.to_csv(file_path, index=False)
-            print(f"File written: {file_path}")
+            # print(f"File written: {file_path}")
     
     # Get industries for this sector
     industries = con.execute("SELECT DISTINCT industry FROM raw_data.sector_industry WHERE sector = ?", [sector]).fetchall()
@@ -205,7 +205,7 @@ for sector in sectors:
                 file_name = f"{modified_sector}_{processed_industry}_{descriptor}.csv"
                 file_path = industry_folder / file_name
                 df.to_csv(file_path, index=False)
-                print(f"File written: {file_path}")
+                # print(f"File written: {file_path}")
         
         # Get distinct trade_volume_bins for this sector and industry list
         query = f"SELECT DISTINCT trade_volume_bin FROM {compiled_schema}.all_securities_stats WHERE sector = ? AND industry IN ({','.join(['?' for _ in industry_list])})"
@@ -230,7 +230,8 @@ for sector in sectors:
                     file_name = f"{modified_sector}_{processed_industry}_{trade_volume_bin}_{descriptor}.csv"
                     file_path = tvb_folder / file_name
                     df.to_csv(file_path, index=False)
-                    print(f"File written: {file_path}")
+                    # print(f"File written: {file_path}")
+print(f"Completed writing all segmented output files.")
 
 # Close connection
 con.close()

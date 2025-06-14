@@ -1,15 +1,15 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AMCX,Consumer Discretionary,Broadcast Radio and Television,0.55,5160.0,8. p75_trade_value,2.0,7,10__0,10,0.0,5996.0,6623.0,7124.6,7237.46,7248.75,7249.87,7249.99
-BILI,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,3940,35__2,35,2.0,17294.4,27933.45,99807.26,362816.04,1058800.8,1175080.08,1186708.01
-FOX,Consumer Discretionary,Broadcast Radio and Television,0.55,6761.999999999999,1. p999999_trade_value,1.0,5,5__0,5,0.0,6235.2,6498.6,6709.32,6756.73,6761.47,6761.95,6761.99
-FOXA,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,86,20__0,20,0.0,12902.5,22747.5,74097.0,108659.7,112115.97,112461.6,112496.16
-FUBO,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,1299,30__2,30,2.0,13393.6,20201.8,45220.0,128800.24,212696.83,223634.68,224728.47
-IHRT,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,5,5__3,5,3.0,15322.2,17404.6,19070.52,19445.35,19482.84,19486.58,19486.96
-NFLX,Consumer Discretionary,Broadcast Radio and Television,0.55,241040.0,4. p999_trade_value,301.0,300742,55__0,55,0.0,17160.0,26900.0,68900.0,240669.5,732407.34,1858233.39,2932111.76
-NMAX,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,472,25__0,25,0.0,12858.0,19014.75,55228.8,147530.85,149078.09,149232.81,149248.28
-ROKU,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,10492,40__3,40,3.0,14800.0,23898.15,86772.5,352874.97,701366.73,1113099.06,1156384.51
-SIRI,Consumer Discretionary,Broadcast Radio and Television,0.55,511658.0,1. p999999_trade_value,1.0,1380,30__2,30,2.0,15000.0,27000.0,91761.0,477452.0,507568.16,511249.02,511617.1
-SSP,Consumer Discretionary,Broadcast Radio and Television,0.55,3300.0,1. p999999_trade_value,1.0,1,0__2,0,2.0,3300.0,3300.0,3300.0,3300.0,3300.0,3300.0,3300.0
-TGNA,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,6,10__0,10,0.0,5941.0,6826.5,7534.9,7694.29,7710.23,7711.82,7711.98
-TSQ,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,2,5__0,5,0.0,8475.0,8612.5,8722.5,8747.25,8749.73,8749.97,8750.0
-WBD,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,847,30__0,30,0.0,14980.8,25301.4,72713.0,1427268.0,2943976.8,3095647.68,3110814.77
+AMCX,Consumer Discretionary,Broadcast Radio and Television,0.75,5160.0,8. p75_trade_value,2.0,7,10__0,10,0.0,5996.0,6623.0,7124.6,7237.46,7248.75,7249.87,7249.99
+BILI,Consumer Discretionary,Broadcast Radio and Television,0.75,,,,3940,35__2,35,2.0,17294.4,27933.45,99807.26,362816.04,1058800.8,1175080.08,1186708.01
+FOX,Consumer Discretionary,Broadcast Radio and Television,0.75,6761.999999999999,1. p999999_trade_value,1.0,5,5__0,5,0.0,6235.2,6498.6,6709.32,6756.73,6761.47,6761.95,6761.99
+FOXA,Consumer Discretionary,Broadcast Radio and Television,0.75,,,,86,20__0,20,0.0,12902.5,22747.5,74097.0,108659.7,112115.97,112461.6,112496.16
+FUBO,Consumer Discretionary,Broadcast Radio and Television,0.75,,,,1299,30__2,30,2.0,13393.6,20201.8,45220.0,128800.24,212696.83,223634.68,224728.47
+IHRT,Consumer Discretionary,Broadcast Radio and Television,0.75,,,,5,5__3,5,3.0,15322.2,17404.6,19070.52,19445.35,19482.84,19486.58,19486.96
+NFLX,Consumer Discretionary,Broadcast Radio and Television,0.75,,,,300742,55__0,55,0.0,17160.0,26900.0,68900.0,240669.5,732407.34,1858233.39,2932111.76
+NMAX,Consumer Discretionary,Broadcast Radio and Television,0.75,,,,472,25__0,25,0.0,12858.0,19014.75,55228.8,147530.85,149078.09,149232.81,149248.28
+ROKU,Consumer Discretionary,Broadcast Radio and Television,0.75,,,,10492,40__3,40,3.0,14800.0,23898.15,86772.5,352874.97,701366.73,1113099.06,1156384.51
+SIRI,Consumer Discretionary,Broadcast Radio and Television,0.75,511658.0,1. p999999_trade_value,1.0,1380,30__2,30,2.0,15000.0,27000.0,91761.0,477452.0,507568.16,511249.02,511617.1
+SSP,Consumer Discretionary,Broadcast Radio and Television,0.75,3300.0,1. p999999_trade_value,1.0,1,0__2,0,2.0,3300.0,3300.0,3300.0,3300.0,3300.0,3300.0,3300.0
+TGNA,Consumer Discretionary,Broadcast Radio and Television,0.75,,,,6,10__0,10,0.0,5941.0,6826.5,7534.9,7694.29,7710.23,7711.82,7711.98
+TSQ,Consumer Discretionary,Broadcast Radio and Television,0.75,,,,2,5__0,5,0.0,8475.0,8612.5,8722.5,8747.25,8749.73,8749.97,8750.0
+WBD,Consumer Discretionary,Broadcast Radio and Television,0.75,,,,847,30__0,30,0.0,14980.8,25301.4,72713.0,1427268.0,2943976.8,3095647.68,3110814.77

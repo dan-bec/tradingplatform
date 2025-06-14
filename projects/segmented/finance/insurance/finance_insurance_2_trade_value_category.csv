@@ -1,259 +1,259 @@
 security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-ABL,Finance,Insurance - Life Insurance,0__2,0,2.0,1. p999999_trade_value,3060.0,3060.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-ACGL,Finance,Insurance - Property and Casualty,20__0,20,0.0,1. p999999_trade_value,53370.00000000001,53370.00000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-ACGL,Finance,Insurance - Property and Casualty,20__0,20,0.0,5. p99_trade_value,31395.0,31395.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-ACGL,Finance,Insurance - Property and Casualty,20__0,20,0.0,6. p95_trade_value,27650.0,14445.000000000002,2.0,5.0,0.4,0.55,2. BELOW BASELINE,3.0,7.0,0.42857142857142855
-ACGL,Finance,Insurance - Property and Casualty,20__0,20,0.0,7. p90_trade_value,12390.0,8910.0,2.0,6.0,0.3333333333333333,0.55,2. BELOW BASELINE,5.0,13.0,0.38461538461538464
-ACGL,Finance,Insurance - Property and Casualty,20__0,20,0.0,8. p75_trade_value,8235.0,5780.0,12.0,18.0,0.6666666666666666,0.55,2. BELOW BASELINE,17.0,31.0,0.5483870967741935
-ACIC,Finance,Insurance - Property and Casualty,10__0,10,0.0,1. p999999_trade_value,7350.0,7350.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-ACIC,Finance,Insurance - Property and Casualty,10__0,10,0.0,7. p90_trade_value,7200.0,7200.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-ACIC,Finance,Insurance - Property and Casualty,10__0,10,0.0,8. p75_trade_value,5700.0,4990.000000000001,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,4.0,5.0,0.8
-AFG,Finance,Insurance - Property and Casualty,0__2,0,2.0,1. p999999_trade_value,3750.0,3750.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-AFL,Finance,Insurance - Accident and Health,25__0,25,0.0,1. p999999_trade_value,182025.0,182025.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-AFL,Finance,Insurance - Accident and Health,25__0,25,0.0,5. p99_trade_value,150000.0,136375.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
-AFL,Finance,Insurance - Accident and Health,25__0,25,0.0,6. p95_trade_value,82500.0,32844.0,4.0,8.0,0.5,0.55,2. BELOW BASELINE,7.0,11.0,0.6363636363636364
-AFL,Finance,Insurance - Accident and Health,25__0,25,0.0,7. p90_trade_value,20803.0,14819.999999999998,6.0,10.0,0.6,0.55,2. BELOW BASELINE,13.0,21.0,0.6190476190476191
-AFL,Finance,Insurance - Accident and Health,25__0,25,0.0,8. p75_trade_value,14100.0,7800.0,15.0,30.0,0.5,0.55,2. BELOW BASELINE,28.0,51.0,0.5490196078431373
-AGO,Finance,Insurance - Multi line,15__0,15,0.0,1. p999999_trade_value,249690.0,249690.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-AGO,Finance,Insurance - Multi line,15__0,15,0.0,6. p95_trade_value,20499.999999999996,9145.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
-AGO,Finance,Insurance - Multi line,15__0,15,0.0,7. p90_trade_value,6625.0,5040.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,5.0,0.4
-AGO,Finance,Insurance - Multi line,15__0,15,0.0,8. p75_trade_value,5000.0,4050.0,5.0,6.0,0.8333333333333334,0.55,2. BELOW BASELINE,7.0,11.0,0.6363636363636364
-AIG,Finance,Insurance - Multi line,30__2,30,2.0,1. p999999_trade_value,207494.99999999997,207494.99999999997,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-AIG,Finance,Insurance - Multi line,30__2,30,2.0,5. p99_trade_value,123105.0,41160.0,4.0,7.0,0.5714285714285714,0.55,2. BELOW BASELINE,4.0,8.0,0.5
-AIG,Finance,Insurance - Multi line,30__2,30,2.0,6. p95_trade_value,36435.0,21960.0,20.0,30.0,0.6666666666666666,0.55,2. BELOW BASELINE,24.0,38.0,0.631578947368421
-AIG,Finance,Insurance - Multi line,30__2,30,2.0,7. p90_trade_value,21375.0,13800.0,20.0,38.0,0.5263157894736842,0.55,2. BELOW BASELINE,44.0,76.0,0.5789473684210527
-AIG,Finance,Insurance - Multi line,30__2,30,2.0,8. p75_trade_value,13780.000000000002,8340.0,72.0,114.0,0.631578947368421,0.55,2. BELOW BASELINE,116.0,190.0,0.6105263157894737
-AIZ,Finance,Insurance - Multi line,5__3,5,3.0,1. p999999_trade_value,15480.000000000002,15480.000000000002,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-AJG,Finance,Insurance - Brokerage,30__2,30,2.0,1. p999999_trade_value,104000.0,104000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-AJG,Finance,Insurance - Brokerage,30__2,30,2.0,5. p99_trade_value,99750.0,39375.0,3.0,6.0,0.5,0.55,2. BELOW BASELINE,3.0,7.0,0.42857142857142855
-AJG,Finance,Insurance - Brokerage,30__2,30,2.0,6. p95_trade_value,39330.0,14868.0,12.0,26.0,0.46153846153846156,0.55,2. BELOW BASELINE,15.0,33.0,0.45454545454545453
-AJG,Finance,Insurance - Brokerage,30__2,30,2.0,7. p90_trade_value,14820.000000000002,10032.0,14.0,32.0,0.4375,0.55,2. BELOW BASELINE,29.0,65.0,0.4461538461538462
-AJG,Finance,Insurance - Brokerage,30__2,30,2.0,8. p75_trade_value,10010.0,6840.000000000001,39.0,96.0,0.40625,0.55,2. BELOW BASELINE,68.0,161.0,0.422360248447205
-ALL,Finance,Insurance - Property and Casualty,25__0,25,0.0,1. p999999_trade_value,291000.0,291000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-ALL,Finance,Insurance - Property and Casualty,25__0,25,0.0,5. p99_trade_value,221000.0,78515.0,3.0,5.0,0.6,0.55,2. BELOW BASELINE,3.0,6.0,0.5
-ALL,Finance,Insurance - Property and Casualty,25__0,25,0.0,6. p95_trade_value,76140.0,27900.0,14.0,21.0,0.6666666666666666,0.55,2. BELOW BASELINE,17.0,27.0,0.6296296296296297
-ALL,Finance,Insurance - Property and Casualty,25__0,25,0.0,7. p90_trade_value,27650.0,19000.0,17.0,27.0,0.6296296296296297,0.55,2. BELOW BASELINE,34.0,54.0,0.6296296296296297
-ALL,Finance,Insurance - Property and Casualty,25__0,25,0.0,8. p75_trade_value,18961.0,8500.0,43.0,79.0,0.5443037974683544,0.55,2. BELOW BASELINE,77.0,133.0,0.5789473684210527
-AMBC,Finance,Insurance - Property and Casualty,15__0,15,0.0,1. p999999_trade_value,200000.0,200000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-AMBC,Finance,Insurance - Property and Casualty,15__0,15,0.0,6. p95_trade_value,194249.99999999997,100000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
-AMBC,Finance,Insurance - Property and Casualty,15__0,15,0.0,7. p90_trade_value,50120.00000000001,49979.99999999999,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,5.0,0.4
-AMBC,Finance,Insurance - Property and Casualty,15__0,15,0.0,8. p75_trade_value,45000.0,15500.0,2.0,7.0,0.2857142857142857,0.55,2. BELOW BASELINE,4.0,12.0,0.3333333333333333
-AON,Finance,Insurance - Brokerage,25__0,25,0.0,1. p999999_trade_value,520000.0,520000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-AON,Finance,Insurance - Brokerage,25__0,25,0.0,5. p99_trade_value,480000.0,195000.0,0.0,4.0,0.0,0.55,2. BELOW BASELINE,1.0,5.0,0.2
-AON,Finance,Insurance - Brokerage,25__0,25,0.0,6. p95_trade_value,185000.0,20499.999999999996,11.0,18.0,0.6111111111111112,0.55,2. BELOW BASELINE,12.0,23.0,0.5217391304347826
-AON,Finance,Insurance - Brokerage,25__0,25,0.0,7. p90_trade_value,20000.0,15808.000000000002,18.0,23.0,0.782608695652174,0.55,2. BELOW BASELINE,30.0,46.0,0.6521739130434783
-AON,Finance,Insurance - Brokerage,25__0,25,0.0,8. p75_trade_value,15675.0,7566.0,52.0,67.0,0.7761194029850746,0.55,2. BELOW BASELINE,82.0,113.0,0.7256637168141593
-AXS,Finance,Insurance - Property and Casualty,5__0,5,0.0,2. p99999_trade_value,5034.999999999999,5034.999999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-BHF,Finance,Insurance - Life Insurance,25__0,25,0.0,1. p999999_trade_value,880000.0,880000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-BHF,Finance,Insurance - Life Insurance,25__0,25,0.0,5. p99_trade_value,163000.0,74560.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,1.0,4.0,0.25
-BHF,Finance,Insurance - Life Insurance,25__0,25,0.0,6. p95_trade_value,72000.0,29239.999999999996,6.0,12.0,0.5,0.55,2. BELOW BASELINE,7.0,16.0,0.4375
-BHF,Finance,Insurance - Life Insurance,25__0,25,0.0,7. p90_trade_value,27750.0,22000.0,4.0,16.0,0.25,0.55,2. BELOW BASELINE,11.0,32.0,0.34375
-BHF,Finance,Insurance - Life Insurance,25__0,25,0.0,8. p75_trade_value,21375.0,9010.0,17.0,46.0,0.3695652173913043,0.55,2. BELOW BASELINE,28.0,78.0,0.358974358974359
-BRO,Finance,Insurance - Brokerage,15__0,15,0.0,1. p999999_trade_value,191040.0,191040.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-BRO,Finance,Insurance - Brokerage,15__0,15,0.0,6. p95_trade_value,133371.0,89522.99999999999,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
-BRO,Finance,Insurance - Brokerage,15__0,15,0.0,7. p90_trade_value,15500.0,15330.000000000002,2.0,2.0,1.0,0.55,2. BELOW BASELINE,3.0,5.0,0.6
-BRO,Finance,Insurance - Brokerage,15__0,15,0.0,8. p75_trade_value,13534.0,11340.0,6.0,6.0,1.0,0.55,2. BELOW BASELINE,9.0,11.0,0.8181818181818182
-BWIN,Finance,Insurance - Life Insurance,20__0,20,0.0,1. p999999_trade_value,59786.0,59786.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-BWIN,Finance,Insurance - Life Insurance,20__0,20,0.0,5. p99_trade_value,46399.99999999999,46399.99999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-BWIN,Finance,Insurance - Life Insurance,20__0,20,0.0,6. p95_trade_value,41200.0,25800.0,0.0,6.0,0.0,0.55,2. BELOW BASELINE,0.0,8.0,0.0
-BWIN,Finance,Insurance - Life Insurance,20__0,20,0.0,7. p90_trade_value,24960.0,20352.0,0.0,7.0,0.0,0.55,2. BELOW BASELINE,0.0,15.0,0.0
-BWIN,Finance,Insurance - Life Insurance,20__0,20,0.0,8. p75_trade_value,19788.0,11440.0,3.0,21.0,0.14285714285714285,0.55,2. BELOW BASELINE,3.0,36.0,0.08333333333333333
-CB,Finance,Insurance - Property and Casualty,30__2,30,2.0,1. p999999_trade_value,57000.0,57000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-CB,Finance,Insurance - Property and Casualty,30__2,30,2.0,5. p99_trade_value,53000.0,40530.0,2.0,5.0,0.4,0.55,2. BELOW BASELINE,3.0,6.0,0.5
-CB,Finance,Insurance - Property and Casualty,30__2,30,2.0,6. p95_trade_value,35000.0,21500.0,14.0,25.0,0.56,0.55,2. BELOW BASELINE,17.0,31.0,0.5483870967741935
-CB,Finance,Insurance - Property and Casualty,30__2,30,2.0,7. p90_trade_value,21000.0,16740.0,21.0,28.0,0.75,0.55,2. BELOW BASELINE,38.0,59.0,0.6440677966101694
-CB,Finance,Insurance - Property and Casualty,30__2,30,2.0,8. p75_trade_value,16000.0,9540.0,58.0,87.0,0.6666666666666666,0.55,2. BELOW BASELINE,96.0,146.0,0.6575342465753424
-CIA,Finance,Insurance - Life Insurance,0__2,0,2.0,1. p999999_trade_value,3240.0,3240.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-CINF,Finance,Insurance - Property and Casualty,15__0,15,0.0,1. p999999_trade_value,267730.0,267730.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-CINF,Finance,Insurance - Property and Casualty,15__0,15,0.0,6. p95_trade_value,229840.0,38000.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
-CINF,Finance,Insurance - Property and Casualty,15__0,15,0.0,7. p90_trade_value,23970.0,11600.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,4.0,5.0,0.8
-CINF,Finance,Insurance - Property and Casualty,15__0,15,0.0,8. p75_trade_value,8750.0,7200.0,5.0,6.0,0.8333333333333334,0.55,2. BELOW BASELINE,9.0,11.0,0.8181818181818182
-GSHD,Finance,Insurance - Multi line,15__0,15,0.0,1. p999999_trade_value,40999.99999999999,40999.99999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-GSHD,Finance,Insurance - Multi line,15__0,15,0.0,6. p95_trade_value,13000.0,13000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-GSHD,Finance,Insurance - Multi line,15__0,15,0.0,7. p90_trade_value,11250.0,10080.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
-GSHD,Finance,Insurance - Multi line,15__0,15,0.0,8. p75_trade_value,9990.0,6500.0,1.0,6.0,0.16666666666666666,0.55,2. BELOW BASELINE,1.0,10.0,0.1
-HCI,Finance,Insurance - Property and Casualty,10__0,10,0.0,1. p999999_trade_value,11650.0,11650.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-HCI,Finance,Insurance - Property and Casualty,10__0,10,0.0,8. p75_trade_value,10784.0,10784.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-HIG,Finance,Insurance - Property and Casualty,20__0,20,0.0,1. p999999_trade_value,35100.0,35100.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-HIG,Finance,Insurance - Property and Casualty,20__0,20,0.0,5. p99_trade_value,23100.0,23100.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-HIG,Finance,Insurance - Property and Casualty,20__0,20,0.0,6. p95_trade_value,22680.0,16500.0,3.0,4.0,0.75,0.55,1. ABOVE BASELINE,5.0,6.0,0.8333333333333334
-HIG,Finance,Insurance - Property and Casualty,20__0,20,0.0,7. p90_trade_value,14850.0,10350.0,3.0,5.0,0.6,0.55,1. ABOVE BASELINE,8.0,11.0,0.7272727272727273
-HIG,Finance,Insurance - Property and Casualty,20__0,20,0.0,8. p75_trade_value,9720.0,6600.0,10.0,16.0,0.625,0.55,1. ABOVE BASELINE,18.0,27.0,0.6666666666666666
-HIPO,Finance,Insurance - Multi line,15__0,15,0.0,1. p999999_trade_value,40000.0,40000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-HIPO,Finance,Insurance - Multi line,15__0,15,0.0,6. p95_trade_value,22000.000000000004,22000.000000000004,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-HIPO,Finance,Insurance - Multi line,15__0,15,0.0,7. p90_trade_value,19980.0,19980.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,2.0,4.0,0.5
-HIPO,Finance,Insurance - Multi line,15__0,15,0.0,8. p75_trade_value,16000.0,15200.0,3.0,3.0,1.0,0.55,2. BELOW BASELINE,5.0,7.0,0.7142857142857143
-HRTG,Finance,Insurance - Property and Casualty,10__0,10,0.0,1. p999999_trade_value,17615.0,17615.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-HRTG,Finance,Insurance - Property and Casualty,10__0,10,0.0,7. p90_trade_value,11050.0,11050.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-HRTG,Finance,Insurance - Property and Casualty,10__0,10,0.0,8. p75_trade_value,10800.0,10800.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
-JXN,Finance,Insurance - Life Insurance,20__0,20,0.0,1. p999999_trade_value,49100.0,49100.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-JXN,Finance,Insurance - Life Insurance,20__0,20,0.0,5. p99_trade_value,33950.0,33950.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-JXN,Finance,Insurance - Life Insurance,20__0,20,0.0,6. p95_trade_value,29000.0,27000.0,3.0,4.0,0.75,0.55,1. ABOVE BASELINE,5.0,6.0,0.8333333333333334
-JXN,Finance,Insurance - Life Insurance,20__0,20,0.0,7. p90_trade_value,25499.999999999996,21000.0,5.0,5.0,1.0,0.55,1. ABOVE BASELINE,10.0,11.0,0.9090909090909091
-JXN,Finance,Insurance - Life Insurance,20__0,20,0.0,8. p75_trade_value,20000.0,10000.0,12.0,17.0,0.7058823529411765,0.55,1. ABOVE BASELINE,22.0,28.0,0.7857142857142857
-KINS,Finance,Insurance - Property and Casualty,10__0,10,0.0,1. p999999_trade_value,11000.000000000002,11000.000000000002,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-KINS,Finance,Insurance - Property and Casualty,10__0,10,0.0,7. p90_trade_value,8800.0,8800.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-KINS,Finance,Insurance - Property and Casualty,10__0,10,0.0,8. p75_trade_value,7800.0,7800.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
-KNSL,Finance,Insurance - Property and Casualty,20__0,20,0.0,1. p999999_trade_value,65984.99999999999,65984.99999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-KNSL,Finance,Insurance - Property and Casualty,20__0,20,0.0,5. p99_trade_value,48840.0,48840.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-KNSL,Finance,Insurance - Property and Casualty,20__0,20,0.0,6. p95_trade_value,48020.00000000001,27500.0,5.0,8.0,0.625,0.55,2. BELOW BASELINE,6.0,10.0,0.6
-KNSL,Finance,Insurance - Property and Casualty,20__0,20,0.0,7. p90_trade_value,26950.0,16020.000000000002,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,8.0,13.0,0.6153846153846154
-KNSL,Finance,Insurance - Property and Casualty,20__0,20,0.0,8. p75_trade_value,15900.0,9780.000000000002,13.0,18.0,0.7222222222222222,0.55,2. BELOW BASELINE,21.0,31.0,0.6774193548387096
-L,Finance,Insurance - Multi line,10__0,10,0.0,1. p999999_trade_value,6180.0,6180.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-L,Finance,Insurance - Multi line,10__0,10,0.0,7. p90_trade_value,4830.0,4830.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
-L,Finance,Insurance - Multi line,10__0,10,0.0,8. p75_trade_value,4700.0,4700.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,2.0,4.0,0.5
-LMND,Finance,Insurance - Multi line,35__0,35,0.0,1. p999999_trade_value,190000.0,190000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-LMND,Finance,Insurance - Multi line,35__0,35,0.0,4. p999_trade_value,155376.0,142500.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,1.0,4.0,0.25
-LMND,Finance,Insurance - Multi line,35__0,35,0.0,5. p99_trade_value,142215.0,59469.99999999999,13.0,32.0,0.40625,0.55,2. BELOW BASELINE,14.0,36.0,0.3888888888888889
-LMND,Finance,Insurance - Multi line,35__0,35,0.0,6. p95_trade_value,58140.0,24300.000000000004,76.0,139.0,0.5467625899280576,0.55,2. BELOW BASELINE,90.0,175.0,0.5142857142857142
-LMND,Finance,Insurance - Multi line,35__0,35,0.0,7. p90_trade_value,24149.999999999996,16650.0,88.0,178.0,0.4943820224719101,0.55,2. BELOW BASELINE,178.0,353.0,0.5042492917847026
-LMND,Finance,Insurance - Multi line,35__0,35,0.0,8. p75_trade_value,16632.0,8880.000000000002,267.0,525.0,0.5085714285714286,0.55,2. BELOW BASELINE,445.0,878.0,0.5068337129840547
-LNC,Finance,Insurance - Life Insurance,25__0,25,0.0,1. p999999_trade_value,110000.0,110000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-LNC,Finance,Insurance - Life Insurance,25__0,25,0.0,5. p99_trade_value,45232.0,39840.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
-LNC,Finance,Insurance - Life Insurance,25__0,25,0.0,6. p95_trade_value,34416.0,19250.0,4.0,8.0,0.5,0.55,2. BELOW BASELINE,6.0,11.0,0.5454545454545454
-LNC,Finance,Insurance - Life Insurance,25__0,25,0.0,7. p90_trade_value,19000.0,12975.0,7.0,10.0,0.7,0.55,2. BELOW BASELINE,13.0,21.0,0.6190476190476191
-LNC,Finance,Insurance - Life Insurance,25__0,25,0.0,8. p75_trade_value,12825.0,8400.0,12.0,31.0,0.3870967741935484,0.55,2. BELOW BASELINE,25.0,52.0,0.4807692307692308
-MBI,Finance,Insurance - Multi line,5__3,5,3.0,1. p999999_trade_value,15000.0,15000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-MCY,Finance,Insurance - Property and Casualty,25__0,25,0.0,1. p999999_trade_value,408500.0,408500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-MCY,Finance,Insurance - Property and Casualty,25__0,25,0.0,5. p99_trade_value,256275.0,144000.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
-MCY,Finance,Insurance - Property and Casualty,25__0,25,0.0,6. p95_trade_value,69160.0,28215.000000000004,0.0,12.0,0.0,0.55,2. BELOW BASELINE,0.0,16.0,0.0
-MCY,Finance,Insurance - Property and Casualty,25__0,25,0.0,7. p90_trade_value,26970.0,14560.0,1.0,16.0,0.0625,0.55,2. BELOW BASELINE,1.0,32.0,0.03125
-MCY,Finance,Insurance - Property and Casualty,25__0,25,0.0,8. p75_trade_value,14400.0,7500.0,2.0,49.0,0.04081632653061224,0.55,2. BELOW BASELINE,3.0,81.0,0.037037037037037035
-MET,Finance,Insurance - Multi line,25__0,25,0.0,1. p999999_trade_value,65000.0,65000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-MET,Finance,Insurance - Multi line,25__0,25,0.0,5. p99_trade_value,48165.0,38178.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
-MET,Finance,Insurance - Multi line,25__0,25,0.0,6. p95_trade_value,37240.0,27602.0,4.0,8.0,0.5,0.55,2. BELOW BASELINE,5.0,11.0,0.45454545454545453
-MET,Finance,Insurance - Multi line,25__0,25,0.0,7. p90_trade_value,24472.0,15600.0,3.0,11.0,0.2727272727272727,0.55,2. BELOW BASELINE,8.0,22.0,0.36363636363636365
-MET,Finance,Insurance - Multi line,25__0,25,0.0,8. p75_trade_value,15400.0,8610.0,16.0,33.0,0.48484848484848486,0.55,2. BELOW BASELINE,24.0,55.0,0.43636363636363634
-MFC,Finance,Insurance - Life Insurance,10__0,10,0.0,1. p999999_trade_value,13300.0,13300.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-MFC,Finance,Insurance - Life Insurance,10__0,10,0.0,7. p90_trade_value,11250.0,11250.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-MFC,Finance,Insurance - Life Insurance,10__0,10,0.0,8. p75_trade_value,11175.0,10000.0,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,2.0,5.0,0.4
-MMC,Finance,Insurance - Brokerage,20__0,20,0.0,1. p999999_trade_value,78000.0,78000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-MMC,Finance,Insurance - Brokerage,20__0,20,0.0,5. p99_trade_value,71208.0,71208.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-MMC,Finance,Insurance - Brokerage,20__0,20,0.0,6. p95_trade_value,21600.0,15119.999999999998,3.0,4.0,0.75,0.55,1. ABOVE BASELINE,5.0,6.0,0.8333333333333334
-MMC,Finance,Insurance - Brokerage,20__0,20,0.0,7. p90_trade_value,14190.0,11760.0,4.0,6.0,0.6666666666666666,0.55,1. ABOVE BASELINE,9.0,12.0,0.75
-MMC,Finance,Insurance - Brokerage,20__0,20,0.0,8. p75_trade_value,11280.000000000002,6959.999999999999,12.0,16.0,0.75,0.55,1. ABOVE BASELINE,21.0,28.0,0.75
-MTG,Finance,Insurance - Multi line,0__0,0,0.0,1. p999999_trade_value,10980.0,10980.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-CNA,Finance,Insurance - Property and Casualty,5__3,5,3.0,1. p999999_trade_value,36000.0,36000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-CNO,Finance,Insurance - Multi line,5__3,5,3.0,1. p999999_trade_value,18000.0,18000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-CRBG,Finance,Insurance - Multi line,25__0,25,0.0,1. p999999_trade_value,420000.0,420000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-CRBG,Finance,Insurance - Multi line,25__0,25,0.0,5. p99_trade_value,108000.0,60000.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
-CRBG,Finance,Insurance - Multi line,25__0,25,0.0,6. p95_trade_value,52500.0,24800.0,6.0,8.0,0.75,0.55,2. BELOW BASELINE,8.0,11.0,0.7272727272727273
-CRBG,Finance,Insurance - Multi line,25__0,25,0.0,7. p90_trade_value,24000.0,15320.000000000002,8.0,10.0,0.8,0.55,2. BELOW BASELINE,16.0,21.0,0.7619047619047619
-CRBG,Finance,Insurance - Multi line,25__0,25,0.0,8. p75_trade_value,14175.0,8550.0,18.0,31.0,0.5806451612903226,0.55,2. BELOW BASELINE,34.0,52.0,0.6538461538461539
-EG,Finance,Insurance - Multi line,25__0,25,0.0,1. p999999_trade_value,660000.0000000001,660000.0000000001,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-EG,Finance,Insurance - Multi line,25__0,25,0.0,5. p99_trade_value,150000.0,52500.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
-EG,Finance,Insurance - Multi line,25__0,25,0.0,6. p95_trade_value,52000.0,24000.0,4.0,9.0,0.4444444444444444,0.55,2. BELOW BASELINE,6.0,12.0,0.5
-EG,Finance,Insurance - Multi line,25__0,25,0.0,7. p90_trade_value,23940.0,14140.0,7.0,11.0,0.6363636363636364,0.55,2. BELOW BASELINE,13.0,23.0,0.5652173913043478
-EG,Finance,Insurance - Multi line,25__0,25,0.0,8. p75_trade_value,13750.0,7800.0,16.0,33.0,0.48484848484848486,0.55,2. BELOW BASELINE,29.0,56.0,0.5178571428571429
-EHTH,Finance,Insurance - Brokerage,10__0,10,0.0,1. p999999_trade_value,7400.0,7400.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-EHTH,Finance,Insurance - Brokerage,10__0,10,0.0,8. p75_trade_value,6183.0,6183.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-EQH,Finance,Insurance - Multi line,10__3,10,3.0,1. p999999_trade_value,219000.0,219000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-EQH,Finance,Insurance - Multi line,10__3,10,3.0,7. p90_trade_value,13319.999999999998,13319.999999999998,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-EQH,Finance,Insurance - Multi line,10__3,10,3.0,8. p75_trade_value,9360.0,7650.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
-ERIE,Finance,Insurance - Brokerage,20__0,20,0.0,1. p999999_trade_value,34200.0,34200.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-ERIE,Finance,Insurance - Brokerage,20__0,20,0.0,5. p99_trade_value,25200.0,25200.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-ERIE,Finance,Insurance - Brokerage,20__0,20,0.0,6. p95_trade_value,13080.000000000002,10920.0,4.0,4.0,1.0,0.55,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
-ERIE,Finance,Insurance - Brokerage,20__0,20,0.0,7. p90_trade_value,10010.0,8820.0,10.0,10.0,1.0,0.55,2. BELOW BASELINE,14.0,16.0,0.875
-ERIE,Finance,Insurance - Brokerage,20__0,20,0.0,8. p75_trade_value,8750.0,8400.0,5.0,6.0,0.8333333333333334,0.55,2. BELOW BASELINE,19.0,22.0,0.8636363636363636
-ETOR,Finance,Insurance - Brokerage,25__0,25,0.0,1. p999999_trade_value,117000.0,117000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-ETOR,Finance,Insurance - Brokerage,25__0,25,0.0,5. p99_trade_value,116883.0,97180.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
-ETOR,Finance,Insurance - Brokerage,25__0,25,0.0,6. p95_trade_value,73678.00000000001,36963.0,2.0,11.0,0.18181818181818182,0.55,2. BELOW BASELINE,3.0,14.0,0.21428571428571427
-ETOR,Finance,Insurance - Brokerage,25__0,25,0.0,7. p90_trade_value,34410.0,19600.0,7.0,13.0,0.5384615384615384,0.55,2. BELOW BASELINE,10.0,27.0,0.37037037037037035
-ETOR,Finance,Insurance - Brokerage,25__0,25,0.0,8. p75_trade_value,19110.0,9085.0,13.0,40.0,0.325,0.55,2. BELOW BASELINE,23.0,67.0,0.34328358208955223
-EVER,Finance,Insurance - Multi line,5__3,5,3.0,1. p999999_trade_value,17000.0,17000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-EVER,Finance,Insurance - Multi line,5__3,5,3.0,8. p75_trade_value,8415.0,8415.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-FAF,Finance,Insurance - Property and Casualty,0__2,0,2.0,1. p999999_trade_value,3960.0,3960.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-FNF,Finance,Insurance - Multi line,10__0,10,0.0,1. p999999_trade_value,15000.0,15000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-FNF,Finance,Insurance - Multi line,10__0,10,0.0,8. p75_trade_value,6615.000000000001,6240.000000000001,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
-GL,Finance,Insurance - Accident and Health,25__0,25,0.0,1. p999999_trade_value,108159.99999999999,108159.99999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-GL,Finance,Insurance - Accident and Health,25__0,25,0.0,5. p99_trade_value,79750.0,62000.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
-GL,Finance,Insurance - Accident and Health,25__0,25,0.0,6. p95_trade_value,59450.0,36000.0,2.0,9.0,0.2222222222222222,0.55,2. BELOW BASELINE,4.0,12.0,0.3333333333333333
-GL,Finance,Insurance - Accident and Health,25__0,25,0.0,7. p90_trade_value,31200.0,21285.0,9.0,12.0,0.75,0.55,2. BELOW BASELINE,13.0,24.0,0.5416666666666666
-GL,Finance,Insurance - Accident and Health,25__0,25,0.0,8. p75_trade_value,21150.0,9050.0,9.0,35.0,0.2571428571428571,0.55,2. BELOW BASELINE,22.0,59.0,0.3728813559322034
-GNW,Finance,Insurance - Life Insurance,15__0,15,0.0,1. p999999_trade_value,36320.00000000001,36320.00000000001,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-GNW,Finance,Insurance - Life Insurance,15__0,15,0.0,6. p95_trade_value,25000.0,25000.0,5.0,5.0,1.0,0.55,1. ABOVE BASELINE,6.0,6.0,1.0
-GNW,Finance,Insurance - Life Insurance,15__0,15,0.0,8. p75_trade_value,13619.999999999998,13619.999999999998,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,7.0,7.0,1.0
-ORI,Finance,Insurance - Multi line,10__0,10,0.0,1. p999999_trade_value,58960.0,58960.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-ORI,Finance,Insurance - Multi line,10__0,10,0.0,8. p75_trade_value,52000.0,37520.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
-OSCR,Finance,Insurance - Multi line,30__1,30,1.0,1. p999999_trade_value,722000.0,722000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-OSCR,Finance,Insurance - Multi line,30__1,30,1.0,5. p99_trade_value,515759.99999999994,193750.0,0.0,10.0,0.0,0.55,2. BELOW BASELINE,0.0,11.0,0.0
-OSCR,Finance,Insurance - Multi line,30__1,30,1.0,6. p95_trade_value,155000.0,33990.0,12.0,42.0,0.2857142857142857,0.55,2. BELOW BASELINE,12.0,53.0,0.22641509433962265
-OSCR,Finance,Insurance - Multi line,30__1,30,1.0,7. p90_trade_value,33205.0,17750.0,21.0,52.0,0.40384615384615385,0.55,2. BELOW BASELINE,33.0,105.0,0.3142857142857143
-OSCR,Finance,Insurance - Multi line,30__1,30,1.0,8. p75_trade_value,17675.0,9400.0,53.0,158.0,0.33544303797468356,0.55,2. BELOW BASELINE,86.0,263.0,0.3269961977186312
-PFG,Finance,Insurance - Multi line,10__0,10,0.0,1. p999999_trade_value,41065.0,41065.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-PFG,Finance,Insurance - Multi line,10__0,10,0.0,7. p90_trade_value,22200.0,22200.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-PFG,Finance,Insurance - Multi line,10__0,10,0.0,8. p75_trade_value,14784.0,14535.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,3.0,4.0,0.75
-PGR,Finance,Insurance - Property and Casualty,30__2,30,2.0,1. p999999_trade_value,399749.99999999994,399749.99999999994,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-PGR,Finance,Insurance - Property and Casualty,30__2,30,2.0,4. p999_trade_value,176000.00000000003,176000.00000000003,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-PGR,Finance,Insurance - Property and Casualty,30__2,30,2.0,5. p99_trade_value,137640.0,43710.0,7.0,13.0,0.5384615384615384,0.55,2. BELOW BASELINE,9.0,15.0,0.6
-PGR,Finance,Insurance - Property and Casualty,30__2,30,2.0,6. p95_trade_value,43000.0,21560.0,31.0,56.0,0.5535714285714286,0.55,2. BELOW BASELINE,40.0,71.0,0.5633802816901409
-PGR,Finance,Insurance - Property and Casualty,30__2,30,2.0,7. p90_trade_value,21216.0,13019.999999999998,41.0,71.0,0.5774647887323944,0.55,2. BELOW BASELINE,81.0,142.0,0.5704225352112676
-PGR,Finance,Insurance - Property and Casualty,30__2,30,2.0,8. p75_trade_value,12950.0,7750.0,136.0,212.0,0.6415094339622641,0.55,2. BELOW BASELINE,217.0,354.0,0.6129943502824858
-PLMR,Finance,Insurance - Property and Casualty,10__0,10,0.0,1. p999999_trade_value,20000.0,20000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-PLMR,Finance,Insurance - Property and Casualty,10__0,10,0.0,8. p75_trade_value,10500.0,7350.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
-PRI,Finance,Insurance - Life Insurance,5__0,5,0.0,1. p999999_trade_value,5004.0,5004.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-PRI,Finance,Insurance - Life Insurance,5__0,5,0.0,8. p75_trade_value,4664.0,4664.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-PRU,Finance,Insurance - Multi line,25__0,25,0.0,1. p999999_trade_value,71487.0,71487.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-PRU,Finance,Insurance - Multi line,25__0,25,0.0,5. p99_trade_value,62000.0,48990.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
-PRU,Finance,Insurance - Multi line,25__0,25,0.0,6. p95_trade_value,41364.00000000001,22990.0,4.0,9.0,0.4444444444444444,0.55,2. BELOW BASELINE,4.0,12.0,0.3333333333333333
-PRU,Finance,Insurance - Multi line,25__0,25,0.0,7. p90_trade_value,22701.000000000004,15989.999999999998,6.0,12.0,0.5,0.55,2. BELOW BASELINE,10.0,24.0,0.4166666666666667
-PRU,Finance,Insurance - Multi line,25__0,25,0.0,8. p75_trade_value,15400.0,7944.0,18.0,36.0,0.5,0.55,2. BELOW BASELINE,28.0,60.0,0.4666666666666667
-RDN,Finance,Insurance - Multi line,5__3,5,3.0,1. p999999_trade_value,20130.0,20130.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-RGA,Finance,Insurance - Life Insurance,10__0,10,0.0,1. p999999_trade_value,9990.0,9990.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-RGA,Finance,Insurance - Life Insurance,10__0,10,0.0,7. p90_trade_value,9800.0,9800.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-RGA,Finance,Insurance - Life Insurance,10__0,10,0.0,8. p75_trade_value,8880.000000000002,8750.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
-RLI,Finance,Insurance - Property and Casualty,5__3,5,3.0,1. p999999_trade_value,14625.0,14625.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-RNR,Finance,Insurance - Property and Casualty,15__0,15,0.0,1. p999999_trade_value,30000.0,30000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-RNR,Finance,Insurance - Property and Casualty,15__0,15,0.0,6. p95_trade_value,14100.0,14100.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
-RNR,Finance,Insurance - Property and Casualty,15__0,15,0.0,7. p90_trade_value,11700.0,9870.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,6.0,0.0
-RNR,Finance,Insurance - Property and Casualty,15__0,15,0.0,8. p75_trade_value,8525.0,6600.0,1.0,7.0,0.14285714285714285,0.55,2. BELOW BASELINE,1.0,13.0,0.07692307692307693
-ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,1. p999999_trade_value,158400.0,158400.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,4. p999_trade_value,113400.0,112239.99999999999,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
-ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,5. p99_trade_value,99449.99999999999,46530.0,12.0,25.0,0.48,0.55,2. BELOW BASELINE,14.0,28.0,0.5
-ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,6. p95_trade_value,46500.00000000001,22100.0,60.0,110.0,0.5454545454545454,0.55,2. BELOW BASELINE,74.0,138.0,0.5362318840579711
-ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,7. p90_trade_value,22000.0,15190.0,62.0,138.0,0.4492753623188406,0.55,2. BELOW BASELINE,136.0,276.0,0.4927536231884058
-ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,8. p75_trade_value,15000.0,8325.0,217.0,410.0,0.5292682926829269,0.55,2. BELOW BASELINE,353.0,686.0,0.5145772594752187
-RYAN,Finance,Insurance - Brokerage,15__0,15,0.0,1. p999999_trade_value,132719.99999999997,132719.99999999997,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-RYAN,Finance,Insurance - Brokerage,15__0,15,0.0,6. p95_trade_value,26180.0,26180.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-RYAN,Finance,Insurance - Brokerage,15__0,15,0.0,7. p90_trade_value,25499.999999999996,25499.999999999996,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
-RYAN,Finance,Insurance - Brokerage,15__0,15,0.0,8. p75_trade_value,20000.0,11499.999999999998,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,6.0,6.0,1.0
-SIGI,Finance,Insurance - Property and Casualty,0__2,0,2.0,1. p999999_trade_value,3300.0,3300.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-SKWD,Finance,Insurance - Property and Casualty,0__0,0,0.0,1. p999999_trade_value,13500.0,13500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-SLF,Finance,Insurance - Life Insurance,5__0,5,0.0,1. p999999_trade_value,3600.0,3600.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-SLQT,Finance,Insurance - Multi line,15__0,15,0.0,1. p999999_trade_value,11900.000000000002,11900.000000000002,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-SLQT,Finance,Insurance - Multi line,15__0,15,0.0,6. p95_trade_value,9120.0,9120.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-SLQT,Finance,Insurance - Multi line,15__0,15,0.0,7. p90_trade_value,7800.0,7152.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,4.0,0.25
-SLQT,Finance,Insurance - Multi line,15__0,15,0.0,8. p75_trade_value,5500.0,5500.0,4.0,4.0,1.0,0.55,2. BELOW BASELINE,5.0,8.0,0.625
-SPNT,Finance,Insurance - Multi line,10__0,10,0.0,1. p999999_trade_value,6000.0,6000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-SPNT,Finance,Insurance - Multi line,10__0,10,0.0,8. p75_trade_value,4800.0,4800.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-TIPT,Finance,Insurance - Brokerage,15__0,15,0.0,1. p999999_trade_value,30800.0,30800.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-TIPT,Finance,Insurance - Brokerage,15__0,15,0.0,6. p95_trade_value,30075.0,30075.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-TIPT,Finance,Insurance - Brokerage,15__0,15,0.0,7. p90_trade_value,26880.0,26400.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,4.0,0.5
-TIPT,Finance,Insurance - Brokerage,15__0,15,0.0,8. p75_trade_value,20856.0,15000.0,3.0,6.0,0.5,0.55,2. BELOW BASELINE,5.0,10.0,0.5
-TRUP,Finance,Insurance - Accident and Health,20__0,20,0.0,1. p999999_trade_value,225000.0,225000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-TRUP,Finance,Insurance - Accident and Health,20__0,20,0.0,5. p99_trade_value,88000.00000000001,88000.00000000001,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-TRUP,Finance,Insurance - Accident and Health,20__0,20,0.0,6. p95_trade_value,66500.0,32120.000000000004,4.0,5.0,0.8,0.55,2. BELOW BASELINE,5.0,7.0,0.7142857142857143
-TRUP,Finance,Insurance - Accident and Health,20__0,20,0.0,7. p90_trade_value,30250.0,15000.0,2.0,7.0,0.2857142857142857,0.55,2. BELOW BASELINE,7.0,14.0,0.5
-TRUP,Finance,Insurance - Accident and Health,20__0,20,0.0,8. p75_trade_value,13140.0,7020.0,12.0,21.0,0.5714285714285714,0.55,2. BELOW BASELINE,19.0,35.0,0.5428571428571428
-TRV,Finance,Insurance - Property and Casualty,25__0,25,0.0,1. p999999_trade_value,176000.00000000003,176000.00000000003,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-TRV,Finance,Insurance - Property and Casualty,25__0,25,0.0,5. p99_trade_value,74000.0,55120.00000000001,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
-TRV,Finance,Insurance - Property and Casualty,25__0,25,0.0,6. p95_trade_value,42330.0,17280.0,8.0,12.0,0.6666666666666666,0.55,1. ABOVE BASELINE,11.0,16.0,0.6875
-TRV,Finance,Insurance - Property and Casualty,25__0,25,0.0,7. p90_trade_value,17000.0,11725.000000000002,6.0,15.0,0.4,0.55,2. BELOW BASELINE,17.0,31.0,0.5483870967741935
-TRV,Finance,Insurance - Property and Casualty,25__0,25,0.0,8. p75_trade_value,11520.0,7400.0,21.0,47.0,0.44680851063829785,0.55,2. BELOW BASELINE,38.0,78.0,0.48717948717948717
-UNM,Finance,Insurance - Accident and Health,20__2,20,2.0,1. p999999_trade_value,212000.0,212000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-UNM,Finance,Insurance - Accident and Health,20__2,20,2.0,6. p95_trade_value,104790.00000000001,46191.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
-UNM,Finance,Insurance - Accident and Health,20__2,20,2.0,7. p90_trade_value,45978.0,38475.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,6.0,6.0,1.0
-UNM,Finance,Insurance - Accident and Health,20__2,20,2.0,8. p75_trade_value,33740.0,12475.0,7.0,9.0,0.7777777777777778,0.55,1. ABOVE BASELINE,13.0,15.0,0.8666666666666667
-UVE,Finance,Insurance - Property and Casualty,5__0,5,0.0,1. p999999_trade_value,14000.0,14000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-VOYA,Finance,Insurance - Life Insurance,10__0,10,0.0,1. p999999_trade_value,8755.0,8755.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-VOYA,Finance,Insurance - Life Insurance,10__0,10,0.0,7. p90_trade_value,8700.0,8700.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-VOYA,Finance,Insurance - Life Insurance,10__0,10,0.0,8. p75_trade_value,7500.0,7440.000000000001,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
-WRB,Finance,Insurance - Property and Casualty,15__0,15,0.0,1. p999999_trade_value,14000.0,14000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-WRB,Finance,Insurance - Property and Casualty,15__0,15,0.0,6. p95_trade_value,12750.0,12750.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-WRB,Finance,Insurance - Property and Casualty,15__0,15,0.0,7. p90_trade_value,12500.0,12500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
-WRB,Finance,Insurance - Property and Casualty,15__0,15,0.0,8. p75_trade_value,10000.0,6440.000000000001,5.0,5.0,1.0,0.55,2. BELOW BASELINE,6.0,8.0,0.75
-WTW,Finance,Insurance - Brokerage,25__0,25,0.0,1. p999999_trade_value,261260.99999999997,261260.99999999997,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-WTW,Finance,Insurance - Brokerage,25__0,25,0.0,5. p99_trade_value,175250.0,175250.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
-WTW,Finance,Insurance - Brokerage,25__0,25,0.0,6. p95_trade_value,153439.0,36946.0,6.0,10.0,0.6,0.55,1. ABOVE BASELINE,9.0,13.0,0.6923076923076923
-WTW,Finance,Insurance - Brokerage,25__0,25,0.0,7. p90_trade_value,35500.0,16000.0,6.0,13.0,0.46153846153846156,0.55,2. BELOW BASELINE,15.0,26.0,0.5769230769230769
-WTW,Finance,Insurance - Brokerage,25__0,25,0.0,8. p75_trade_value,14819.0,5700.0,28.0,38.0,0.7368421052631579,0.55,2. BELOW BASELINE,43.0,64.0,0.671875
+ABL,Finance,Insurance - Life Insurance,0__2,0,2.0,1. p999999_trade_value,3060.0,3060.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+ACGL,Finance,Insurance - Property and Casualty,20__0,20,0.0,1. p999999_trade_value,53370.00000000001,53370.00000000001,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+ACGL,Finance,Insurance - Property and Casualty,20__0,20,0.0,5. p99_trade_value,31395.0,31395.0,1.0,1.0,1.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
+ACGL,Finance,Insurance - Property and Casualty,20__0,20,0.0,6. p95_trade_value,27650.0,14445.000000000002,2.0,5.0,0.4,0.75,2. BELOW BASELINE,3.0,7.0,0.42857142857142855
+ACGL,Finance,Insurance - Property and Casualty,20__0,20,0.0,7. p90_trade_value,12390.0,8910.0,2.0,6.0,0.3333333333333333,0.75,2. BELOW BASELINE,5.0,13.0,0.38461538461538464
+ACGL,Finance,Insurance - Property and Casualty,20__0,20,0.0,8. p75_trade_value,8235.0,5780.0,12.0,18.0,0.6666666666666666,0.75,2. BELOW BASELINE,17.0,31.0,0.5483870967741935
+ACIC,Finance,Insurance - Property and Casualty,10__0,10,0.0,1. p999999_trade_value,7350.0,7350.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+ACIC,Finance,Insurance - Property and Casualty,10__0,10,0.0,7. p90_trade_value,7200.0,7200.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+ACIC,Finance,Insurance - Property and Casualty,10__0,10,0.0,8. p75_trade_value,5700.0,4990.000000000001,2.0,3.0,0.6666666666666666,0.75,2. BELOW BASELINE,4.0,5.0,0.8
+AFG,Finance,Insurance - Property and Casualty,0__2,0,2.0,1. p999999_trade_value,3750.0,3750.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+AFL,Finance,Insurance - Accident and Health,25__0,25,0.0,1. p999999_trade_value,182025.0,182025.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+AFL,Finance,Insurance - Accident and Health,25__0,25,0.0,5. p99_trade_value,150000.0,136375.0,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,3.0,3.0,1.0
+AFL,Finance,Insurance - Accident and Health,25__0,25,0.0,6. p95_trade_value,82500.0,32844.0,4.0,8.0,0.5,0.75,2. BELOW BASELINE,7.0,11.0,0.6363636363636364
+AFL,Finance,Insurance - Accident and Health,25__0,25,0.0,7. p90_trade_value,20803.0,14819.999999999998,6.0,10.0,0.6,0.75,2. BELOW BASELINE,13.0,21.0,0.6190476190476191
+AFL,Finance,Insurance - Accident and Health,25__0,25,0.0,8. p75_trade_value,14100.0,7800.0,15.0,30.0,0.5,0.75,2. BELOW BASELINE,28.0,51.0,0.5490196078431373
+AGO,Finance,Insurance - Multi line,15__0,15,0.0,1. p999999_trade_value,249690.0,249690.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+AGO,Finance,Insurance - Multi line,15__0,15,0.0,6. p95_trade_value,20499.999999999996,9145.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+AGO,Finance,Insurance - Multi line,15__0,15,0.0,7. p90_trade_value,6625.0,5040.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,2.0,5.0,0.4
+AGO,Finance,Insurance - Multi line,15__0,15,0.0,8. p75_trade_value,5000.0,4050.0,5.0,6.0,0.8333333333333334,0.75,2. BELOW BASELINE,7.0,11.0,0.6363636363636364
+AIG,Finance,Insurance - Multi line,30__2,30,2.0,1. p999999_trade_value,207494.99999999997,207494.99999999997,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+AIG,Finance,Insurance - Multi line,30__2,30,2.0,5. p99_trade_value,123105.0,41160.0,4.0,7.0,0.5714285714285714,0.75,2. BELOW BASELINE,4.0,8.0,0.5
+AIG,Finance,Insurance - Multi line,30__2,30,2.0,6. p95_trade_value,36435.0,21960.0,20.0,30.0,0.6666666666666666,0.75,2. BELOW BASELINE,24.0,38.0,0.631578947368421
+AIG,Finance,Insurance - Multi line,30__2,30,2.0,7. p90_trade_value,21375.0,13800.0,20.0,38.0,0.5263157894736842,0.75,2. BELOW BASELINE,44.0,76.0,0.5789473684210527
+AIG,Finance,Insurance - Multi line,30__2,30,2.0,8. p75_trade_value,13780.000000000002,8340.0,72.0,114.0,0.631578947368421,0.75,2. BELOW BASELINE,116.0,190.0,0.6105263157894737
+AIZ,Finance,Insurance - Multi line,5__3,5,3.0,1. p999999_trade_value,15480.000000000002,15480.000000000002,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+AJG,Finance,Insurance - Brokerage,30__2,30,2.0,1. p999999_trade_value,104000.0,104000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+AJG,Finance,Insurance - Brokerage,30__2,30,2.0,5. p99_trade_value,99750.0,39375.0,3.0,6.0,0.5,0.75,2. BELOW BASELINE,3.0,7.0,0.42857142857142855
+AJG,Finance,Insurance - Brokerage,30__2,30,2.0,6. p95_trade_value,39330.0,14868.0,12.0,26.0,0.46153846153846156,0.75,2. BELOW BASELINE,15.0,33.0,0.45454545454545453
+AJG,Finance,Insurance - Brokerage,30__2,30,2.0,7. p90_trade_value,14820.000000000002,10032.0,14.0,32.0,0.4375,0.75,2. BELOW BASELINE,29.0,65.0,0.4461538461538462
+AJG,Finance,Insurance - Brokerage,30__2,30,2.0,8. p75_trade_value,10010.0,6840.000000000001,39.0,96.0,0.40625,0.75,2. BELOW BASELINE,68.0,161.0,0.422360248447205
+ALL,Finance,Insurance - Property and Casualty,25__0,25,0.0,1. p999999_trade_value,291000.0,291000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+ALL,Finance,Insurance - Property and Casualty,25__0,25,0.0,5. p99_trade_value,221000.0,78515.0,3.0,5.0,0.6,0.75,2. BELOW BASELINE,3.0,6.0,0.5
+ALL,Finance,Insurance - Property and Casualty,25__0,25,0.0,6. p95_trade_value,76140.0,27900.0,14.0,21.0,0.6666666666666666,0.75,2. BELOW BASELINE,17.0,27.0,0.6296296296296297
+ALL,Finance,Insurance - Property and Casualty,25__0,25,0.0,7. p90_trade_value,27650.0,19000.0,17.0,27.0,0.6296296296296297,0.75,2. BELOW BASELINE,34.0,54.0,0.6296296296296297
+ALL,Finance,Insurance - Property and Casualty,25__0,25,0.0,8. p75_trade_value,18961.0,8500.0,43.0,79.0,0.5443037974683544,0.75,2. BELOW BASELINE,77.0,133.0,0.5789473684210527
+AMBC,Finance,Insurance - Property and Casualty,15__0,15,0.0,1. p999999_trade_value,200000.0,200000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+AMBC,Finance,Insurance - Property and Casualty,15__0,15,0.0,6. p95_trade_value,194249.99999999997,100000.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+AMBC,Finance,Insurance - Property and Casualty,15__0,15,0.0,7. p90_trade_value,50120.00000000001,49979.99999999999,1.0,2.0,0.5,0.75,2. BELOW BASELINE,2.0,5.0,0.4
+AMBC,Finance,Insurance - Property and Casualty,15__0,15,0.0,8. p75_trade_value,45000.0,15500.0,2.0,7.0,0.2857142857142857,0.75,2. BELOW BASELINE,4.0,12.0,0.3333333333333333
+AON,Finance,Insurance - Brokerage,25__0,25,0.0,1. p999999_trade_value,520000.0,520000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+AON,Finance,Insurance - Brokerage,25__0,25,0.0,5. p99_trade_value,480000.0,195000.0,0.0,4.0,0.0,0.75,2. BELOW BASELINE,1.0,5.0,0.2
+AON,Finance,Insurance - Brokerage,25__0,25,0.0,6. p95_trade_value,185000.0,20499.999999999996,11.0,18.0,0.6111111111111112,0.75,2. BELOW BASELINE,12.0,23.0,0.5217391304347826
+AON,Finance,Insurance - Brokerage,25__0,25,0.0,7. p90_trade_value,20000.0,15808.000000000002,18.0,23.0,0.782608695652174,0.75,2. BELOW BASELINE,30.0,46.0,0.6521739130434783
+AON,Finance,Insurance - Brokerage,25__0,25,0.0,8. p75_trade_value,15675.0,7566.0,52.0,67.0,0.7761194029850746,0.75,2. BELOW BASELINE,82.0,113.0,0.7256637168141593
+AXS,Finance,Insurance - Property and Casualty,5__0,5,0.0,2. p99999_trade_value,5034.999999999999,5034.999999999999,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+BHF,Finance,Insurance - Life Insurance,25__0,25,0.0,1. p999999_trade_value,880000.0,880000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+BHF,Finance,Insurance - Life Insurance,25__0,25,0.0,5. p99_trade_value,163000.0,74560.0,1.0,3.0,0.3333333333333333,0.75,2. BELOW BASELINE,1.0,4.0,0.25
+BHF,Finance,Insurance - Life Insurance,25__0,25,0.0,6. p95_trade_value,72000.0,29239.999999999996,6.0,12.0,0.5,0.75,2. BELOW BASELINE,7.0,16.0,0.4375
+BHF,Finance,Insurance - Life Insurance,25__0,25,0.0,7. p90_trade_value,27750.0,22000.0,4.0,16.0,0.25,0.75,2. BELOW BASELINE,11.0,32.0,0.34375
+BHF,Finance,Insurance - Life Insurance,25__0,25,0.0,8. p75_trade_value,21375.0,9010.0,17.0,46.0,0.3695652173913043,0.75,2. BELOW BASELINE,28.0,78.0,0.358974358974359
+BRO,Finance,Insurance - Brokerage,15__0,15,0.0,1. p999999_trade_value,191040.0,191040.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+BRO,Finance,Insurance - Brokerage,15__0,15,0.0,6. p95_trade_value,133371.0,89522.99999999999,0.0,2.0,0.0,0.75,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+BRO,Finance,Insurance - Brokerage,15__0,15,0.0,7. p90_trade_value,15500.0,15330.000000000002,2.0,2.0,1.0,0.75,2. BELOW BASELINE,3.0,5.0,0.6
+BRO,Finance,Insurance - Brokerage,15__0,15,0.0,8. p75_trade_value,13534.0,11340.0,6.0,6.0,1.0,0.75,2. BELOW BASELINE,9.0,11.0,0.8181818181818182
+BWIN,Finance,Insurance - Life Insurance,20__0,20,0.0,1. p999999_trade_value,59786.0,59786.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+BWIN,Finance,Insurance - Life Insurance,20__0,20,0.0,5. p99_trade_value,46399.99999999999,46399.99999999999,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
+BWIN,Finance,Insurance - Life Insurance,20__0,20,0.0,6. p95_trade_value,41200.0,25800.0,0.0,6.0,0.0,0.75,2. BELOW BASELINE,0.0,8.0,0.0
+BWIN,Finance,Insurance - Life Insurance,20__0,20,0.0,7. p90_trade_value,24960.0,20352.0,0.0,7.0,0.0,0.75,2. BELOW BASELINE,0.0,15.0,0.0
+BWIN,Finance,Insurance - Life Insurance,20__0,20,0.0,8. p75_trade_value,19788.0,11440.0,3.0,21.0,0.14285714285714285,0.75,2. BELOW BASELINE,3.0,36.0,0.08333333333333333
+CB,Finance,Insurance - Property and Casualty,30__2,30,2.0,1. p999999_trade_value,57000.0,57000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+CB,Finance,Insurance - Property and Casualty,30__2,30,2.0,5. p99_trade_value,53000.0,40530.0,2.0,5.0,0.4,0.75,2. BELOW BASELINE,3.0,6.0,0.5
+CB,Finance,Insurance - Property and Casualty,30__2,30,2.0,6. p95_trade_value,35000.0,21500.0,14.0,25.0,0.56,0.75,2. BELOW BASELINE,17.0,31.0,0.5483870967741935
+CB,Finance,Insurance - Property and Casualty,30__2,30,2.0,7. p90_trade_value,21000.0,16740.0,21.0,28.0,0.75,0.75,2. BELOW BASELINE,38.0,59.0,0.6440677966101694
+CB,Finance,Insurance - Property and Casualty,30__2,30,2.0,8. p75_trade_value,16000.0,9540.0,58.0,87.0,0.6666666666666666,0.75,2. BELOW BASELINE,96.0,146.0,0.6575342465753424
+CIA,Finance,Insurance - Life Insurance,0__2,0,2.0,1. p999999_trade_value,3240.0,3240.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+CINF,Finance,Insurance - Property and Casualty,15__0,15,0.0,1. p999999_trade_value,267730.0,267730.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+CINF,Finance,Insurance - Property and Casualty,15__0,15,0.0,6. p95_trade_value,229840.0,38000.0,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,3.0,3.0,1.0
+CINF,Finance,Insurance - Property and Casualty,15__0,15,0.0,7. p90_trade_value,23970.0,11600.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,4.0,5.0,0.8
+CINF,Finance,Insurance - Property and Casualty,15__0,15,0.0,8. p75_trade_value,8750.0,7200.0,5.0,6.0,0.8333333333333334,0.75,2. BELOW BASELINE,9.0,11.0,0.8181818181818182
+GSHD,Finance,Insurance - Multi line,15__0,15,0.0,1. p999999_trade_value,40999.99999999999,40999.99999999999,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+GSHD,Finance,Insurance - Multi line,15__0,15,0.0,6. p95_trade_value,13000.0,13000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
+GSHD,Finance,Insurance - Multi line,15__0,15,0.0,7. p90_trade_value,11250.0,10080.0,0.0,2.0,0.0,0.75,2. BELOW BASELINE,0.0,4.0,0.0
+GSHD,Finance,Insurance - Multi line,15__0,15,0.0,8. p75_trade_value,9990.0,6500.0,1.0,6.0,0.16666666666666666,0.75,2. BELOW BASELINE,1.0,10.0,0.1
+HCI,Finance,Insurance - Property and Casualty,10__0,10,0.0,1. p999999_trade_value,11650.0,11650.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+HCI,Finance,Insurance - Property and Casualty,10__0,10,0.0,8. p75_trade_value,10784.0,10784.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+HIG,Finance,Insurance - Property and Casualty,20__0,20,0.0,1. p999999_trade_value,35100.0,35100.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+HIG,Finance,Insurance - Property and Casualty,20__0,20,0.0,5. p99_trade_value,23100.0,23100.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+HIG,Finance,Insurance - Property and Casualty,20__0,20,0.0,6. p95_trade_value,22680.0,16500.0,3.0,4.0,0.75,0.75,1. ABOVE BASELINE,5.0,6.0,0.8333333333333334
+HIG,Finance,Insurance - Property and Casualty,20__0,20,0.0,7. p90_trade_value,14850.0,10350.0,3.0,5.0,0.6,0.75,2. BELOW BASELINE,8.0,11.0,0.7272727272727273
+HIG,Finance,Insurance - Property and Casualty,20__0,20,0.0,8. p75_trade_value,9720.0,6600.0,10.0,16.0,0.625,0.75,2. BELOW BASELINE,18.0,27.0,0.6666666666666666
+HIPO,Finance,Insurance - Multi line,15__0,15,0.0,1. p999999_trade_value,40000.0,40000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+HIPO,Finance,Insurance - Multi line,15__0,15,0.0,6. p95_trade_value,22000.000000000004,22000.000000000004,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+HIPO,Finance,Insurance - Multi line,15__0,15,0.0,7. p90_trade_value,19980.0,19980.0,0.0,2.0,0.0,0.75,2. BELOW BASELINE,2.0,4.0,0.5
+HIPO,Finance,Insurance - Multi line,15__0,15,0.0,8. p75_trade_value,16000.0,15200.0,3.0,3.0,1.0,0.75,2. BELOW BASELINE,5.0,7.0,0.7142857142857143
+HRTG,Finance,Insurance - Property and Casualty,10__0,10,0.0,1. p999999_trade_value,17615.0,17615.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+HRTG,Finance,Insurance - Property and Casualty,10__0,10,0.0,7. p90_trade_value,11050.0,11050.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+HRTG,Finance,Insurance - Property and Casualty,10__0,10,0.0,8. p75_trade_value,10800.0,10800.0,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,4.0,4.0,1.0
+JXN,Finance,Insurance - Life Insurance,20__0,20,0.0,1. p999999_trade_value,49100.0,49100.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+JXN,Finance,Insurance - Life Insurance,20__0,20,0.0,5. p99_trade_value,33950.0,33950.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+JXN,Finance,Insurance - Life Insurance,20__0,20,0.0,6. p95_trade_value,29000.0,27000.0,3.0,4.0,0.75,0.75,1. ABOVE BASELINE,5.0,6.0,0.8333333333333334
+JXN,Finance,Insurance - Life Insurance,20__0,20,0.0,7. p90_trade_value,25499.999999999996,21000.0,5.0,5.0,1.0,0.75,1. ABOVE BASELINE,10.0,11.0,0.9090909090909091
+JXN,Finance,Insurance - Life Insurance,20__0,20,0.0,8. p75_trade_value,20000.0,10000.0,12.0,17.0,0.7058823529411765,0.75,2. BELOW BASELINE,22.0,28.0,0.7857142857142857
+KINS,Finance,Insurance - Property and Casualty,10__0,10,0.0,1. p999999_trade_value,11000.000000000002,11000.000000000002,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+KINS,Finance,Insurance - Property and Casualty,10__0,10,0.0,7. p90_trade_value,8800.0,8800.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+KINS,Finance,Insurance - Property and Casualty,10__0,10,0.0,8. p75_trade_value,7800.0,7800.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,3.0,3.0,1.0
+KNSL,Finance,Insurance - Property and Casualty,20__0,20,0.0,1. p999999_trade_value,65984.99999999999,65984.99999999999,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+KNSL,Finance,Insurance - Property and Casualty,20__0,20,0.0,5. p99_trade_value,48840.0,48840.0,1.0,1.0,1.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
+KNSL,Finance,Insurance - Property and Casualty,20__0,20,0.0,6. p95_trade_value,48020.00000000001,27500.0,5.0,8.0,0.625,0.75,2. BELOW BASELINE,6.0,10.0,0.6
+KNSL,Finance,Insurance - Property and Casualty,20__0,20,0.0,7. p90_trade_value,26950.0,16020.000000000002,2.0,3.0,0.6666666666666666,0.75,2. BELOW BASELINE,8.0,13.0,0.6153846153846154
+KNSL,Finance,Insurance - Property and Casualty,20__0,20,0.0,8. p75_trade_value,15900.0,9780.000000000002,13.0,18.0,0.7222222222222222,0.75,2. BELOW BASELINE,21.0,31.0,0.6774193548387096
+L,Finance,Insurance - Multi line,10__0,10,0.0,1. p999999_trade_value,6180.0,6180.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+L,Finance,Insurance - Multi line,10__0,10,0.0,7. p90_trade_value,4830.0,4830.0,2.0,2.0,1.0,0.75,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+L,Finance,Insurance - Multi line,10__0,10,0.0,8. p75_trade_value,4700.0,4700.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,2.0,4.0,0.5
+LMND,Finance,Insurance - Multi line,35__0,35,0.0,1. p999999_trade_value,190000.0,190000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+LMND,Finance,Insurance - Multi line,35__0,35,0.0,4. p999_trade_value,155376.0,142500.0,1.0,3.0,0.3333333333333333,0.75,2. BELOW BASELINE,1.0,4.0,0.25
+LMND,Finance,Insurance - Multi line,35__0,35,0.0,5. p99_trade_value,142215.0,59469.99999999999,13.0,32.0,0.40625,0.75,2. BELOW BASELINE,14.0,36.0,0.3888888888888889
+LMND,Finance,Insurance - Multi line,35__0,35,0.0,6. p95_trade_value,58140.0,24300.000000000004,76.0,139.0,0.5467625899280576,0.75,2. BELOW BASELINE,90.0,175.0,0.5142857142857142
+LMND,Finance,Insurance - Multi line,35__0,35,0.0,7. p90_trade_value,24149.999999999996,16650.0,88.0,178.0,0.4943820224719101,0.75,2. BELOW BASELINE,178.0,353.0,0.5042492917847026
+LMND,Finance,Insurance - Multi line,35__0,35,0.0,8. p75_trade_value,16632.0,8880.000000000002,267.0,525.0,0.5085714285714286,0.75,2. BELOW BASELINE,445.0,878.0,0.5068337129840547
+LNC,Finance,Insurance - Life Insurance,25__0,25,0.0,1. p999999_trade_value,110000.0,110000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+LNC,Finance,Insurance - Life Insurance,25__0,25,0.0,5. p99_trade_value,45232.0,39840.0,2.0,2.0,1.0,0.75,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+LNC,Finance,Insurance - Life Insurance,25__0,25,0.0,6. p95_trade_value,34416.0,19250.0,4.0,8.0,0.5,0.75,2. BELOW BASELINE,6.0,11.0,0.5454545454545454
+LNC,Finance,Insurance - Life Insurance,25__0,25,0.0,7. p90_trade_value,19000.0,12975.0,7.0,10.0,0.7,0.75,2. BELOW BASELINE,13.0,21.0,0.6190476190476191
+LNC,Finance,Insurance - Life Insurance,25__0,25,0.0,8. p75_trade_value,12825.0,8400.0,12.0,31.0,0.3870967741935484,0.75,2. BELOW BASELINE,25.0,52.0,0.4807692307692308
+MBI,Finance,Insurance - Multi line,5__3,5,3.0,1. p999999_trade_value,15000.0,15000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+MCY,Finance,Insurance - Property and Casualty,25__0,25,0.0,1. p999999_trade_value,408500.0,408500.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+MCY,Finance,Insurance - Property and Casualty,25__0,25,0.0,5. p99_trade_value,256275.0,144000.0,0.0,3.0,0.0,0.75,2. BELOW BASELINE,0.0,4.0,0.0
+MCY,Finance,Insurance - Property and Casualty,25__0,25,0.0,6. p95_trade_value,69160.0,28215.000000000004,0.0,12.0,0.0,0.75,2. BELOW BASELINE,0.0,16.0,0.0
+MCY,Finance,Insurance - Property and Casualty,25__0,25,0.0,7. p90_trade_value,26970.0,14560.0,1.0,16.0,0.0625,0.75,2. BELOW BASELINE,1.0,32.0,0.03125
+MCY,Finance,Insurance - Property and Casualty,25__0,25,0.0,8. p75_trade_value,14400.0,7500.0,2.0,49.0,0.04081632653061224,0.75,2. BELOW BASELINE,3.0,81.0,0.037037037037037035
+MET,Finance,Insurance - Multi line,25__0,25,0.0,1. p999999_trade_value,65000.0,65000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+MET,Finance,Insurance - Multi line,25__0,25,0.0,5. p99_trade_value,48165.0,38178.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+MET,Finance,Insurance - Multi line,25__0,25,0.0,6. p95_trade_value,37240.0,27602.0,4.0,8.0,0.5,0.75,2. BELOW BASELINE,5.0,11.0,0.45454545454545453
+MET,Finance,Insurance - Multi line,25__0,25,0.0,7. p90_trade_value,24472.0,15600.0,3.0,11.0,0.2727272727272727,0.75,2. BELOW BASELINE,8.0,22.0,0.36363636363636365
+MET,Finance,Insurance - Multi line,25__0,25,0.0,8. p75_trade_value,15400.0,8610.0,16.0,33.0,0.48484848484848486,0.75,2. BELOW BASELINE,24.0,55.0,0.43636363636363634
+MFC,Finance,Insurance - Life Insurance,10__0,10,0.0,1. p999999_trade_value,13300.0,13300.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+MFC,Finance,Insurance - Life Insurance,10__0,10,0.0,7. p90_trade_value,11250.0,11250.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
+MFC,Finance,Insurance - Life Insurance,10__0,10,0.0,8. p75_trade_value,11175.0,10000.0,2.0,3.0,0.6666666666666666,0.75,2. BELOW BASELINE,2.0,5.0,0.4
+MMC,Finance,Insurance - Brokerage,20__0,20,0.0,1. p999999_trade_value,78000.0,78000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+MMC,Finance,Insurance - Brokerage,20__0,20,0.0,5. p99_trade_value,71208.0,71208.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+MMC,Finance,Insurance - Brokerage,20__0,20,0.0,6. p95_trade_value,21600.0,15119.999999999998,3.0,4.0,0.75,0.75,1. ABOVE BASELINE,5.0,6.0,0.8333333333333334
+MMC,Finance,Insurance - Brokerage,20__0,20,0.0,7. p90_trade_value,14190.0,11760.0,4.0,6.0,0.6666666666666666,0.75,2. BELOW BASELINE,9.0,12.0,0.75
+MMC,Finance,Insurance - Brokerage,20__0,20,0.0,8. p75_trade_value,11280.000000000002,6959.999999999999,12.0,16.0,0.75,0.75,2. BELOW BASELINE,21.0,28.0,0.75
+MTG,Finance,Insurance - Multi line,0__0,0,0.0,1. p999999_trade_value,10980.0,10980.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+CNA,Finance,Insurance - Property and Casualty,5__3,5,3.0,1. p999999_trade_value,36000.0,36000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+CNO,Finance,Insurance - Multi line,5__3,5,3.0,1. p999999_trade_value,18000.0,18000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+CRBG,Finance,Insurance - Multi line,25__0,25,0.0,1. p999999_trade_value,420000.0,420000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+CRBG,Finance,Insurance - Multi line,25__0,25,0.0,5. p99_trade_value,108000.0,60000.0,2.0,2.0,1.0,0.75,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+CRBG,Finance,Insurance - Multi line,25__0,25,0.0,6. p95_trade_value,52500.0,24800.0,6.0,8.0,0.75,0.75,2. BELOW BASELINE,8.0,11.0,0.7272727272727273
+CRBG,Finance,Insurance - Multi line,25__0,25,0.0,7. p90_trade_value,24000.0,15320.000000000002,8.0,10.0,0.8,0.75,2. BELOW BASELINE,16.0,21.0,0.7619047619047619
+CRBG,Finance,Insurance - Multi line,25__0,25,0.0,8. p75_trade_value,14175.0,8550.0,18.0,31.0,0.5806451612903226,0.75,2. BELOW BASELINE,34.0,52.0,0.6538461538461539
+EG,Finance,Insurance - Multi line,25__0,25,0.0,1. p999999_trade_value,660000.0000000001,660000.0000000001,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+EG,Finance,Insurance - Multi line,25__0,25,0.0,5. p99_trade_value,150000.0,52500.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+EG,Finance,Insurance - Multi line,25__0,25,0.0,6. p95_trade_value,52000.0,24000.0,4.0,9.0,0.4444444444444444,0.75,2. BELOW BASELINE,6.0,12.0,0.5
+EG,Finance,Insurance - Multi line,25__0,25,0.0,7. p90_trade_value,23940.0,14140.0,7.0,11.0,0.6363636363636364,0.75,2. BELOW BASELINE,13.0,23.0,0.5652173913043478
+EG,Finance,Insurance - Multi line,25__0,25,0.0,8. p75_trade_value,13750.0,7800.0,16.0,33.0,0.48484848484848486,0.75,2. BELOW BASELINE,29.0,56.0,0.5178571428571429
+EHTH,Finance,Insurance - Brokerage,10__0,10,0.0,1. p999999_trade_value,7400.0,7400.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+EHTH,Finance,Insurance - Brokerage,10__0,10,0.0,8. p75_trade_value,6183.0,6183.0,1.0,1.0,1.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
+EQH,Finance,Insurance - Multi line,10__3,10,3.0,1. p999999_trade_value,219000.0,219000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+EQH,Finance,Insurance - Multi line,10__3,10,3.0,7. p90_trade_value,13319.999999999998,13319.999999999998,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+EQH,Finance,Insurance - Multi line,10__3,10,3.0,8. p75_trade_value,9360.0,7650.0,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,4.0,4.0,1.0
+ERIE,Finance,Insurance - Brokerage,20__0,20,0.0,1. p999999_trade_value,34200.0,34200.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+ERIE,Finance,Insurance - Brokerage,20__0,20,0.0,5. p99_trade_value,25200.0,25200.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
+ERIE,Finance,Insurance - Brokerage,20__0,20,0.0,6. p95_trade_value,13080.000000000002,10920.0,4.0,4.0,1.0,0.75,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
+ERIE,Finance,Insurance - Brokerage,20__0,20,0.0,7. p90_trade_value,10010.0,8820.0,10.0,10.0,1.0,0.75,2. BELOW BASELINE,14.0,16.0,0.875
+ERIE,Finance,Insurance - Brokerage,20__0,20,0.0,8. p75_trade_value,8750.0,8400.0,5.0,6.0,0.8333333333333334,0.75,2. BELOW BASELINE,19.0,22.0,0.8636363636363636
+ETOR,Finance,Insurance - Brokerage,25__0,25,0.0,1. p999999_trade_value,117000.0,117000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+ETOR,Finance,Insurance - Brokerage,25__0,25,0.0,5. p99_trade_value,116883.0,97180.0,0.0,2.0,0.0,0.75,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+ETOR,Finance,Insurance - Brokerage,25__0,25,0.0,6. p95_trade_value,73678.00000000001,36963.0,2.0,11.0,0.18181818181818182,0.75,2. BELOW BASELINE,3.0,14.0,0.21428571428571427
+ETOR,Finance,Insurance - Brokerage,25__0,25,0.0,7. p90_trade_value,34410.0,19600.0,7.0,13.0,0.5384615384615384,0.75,2. BELOW BASELINE,10.0,27.0,0.37037037037037035
+ETOR,Finance,Insurance - Brokerage,25__0,25,0.0,8. p75_trade_value,19110.0,9085.0,13.0,40.0,0.325,0.75,2. BELOW BASELINE,23.0,67.0,0.34328358208955223
+EVER,Finance,Insurance - Multi line,5__3,5,3.0,1. p999999_trade_value,17000.0,17000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+EVER,Finance,Insurance - Multi line,5__3,5,3.0,8. p75_trade_value,8415.0,8415.0,1.0,1.0,1.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
+FAF,Finance,Insurance - Property and Casualty,0__2,0,2.0,1. p999999_trade_value,3960.0,3960.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+FNF,Finance,Insurance - Multi line,10__0,10,0.0,1. p999999_trade_value,15000.0,15000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+FNF,Finance,Insurance - Multi line,10__0,10,0.0,8. p75_trade_value,6615.000000000001,6240.000000000001,1.0,2.0,0.5,0.75,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+GL,Finance,Insurance - Accident and Health,25__0,25,0.0,1. p999999_trade_value,108159.99999999999,108159.99999999999,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+GL,Finance,Insurance - Accident and Health,25__0,25,0.0,5. p99_trade_value,79750.0,62000.0,2.0,2.0,1.0,0.75,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+GL,Finance,Insurance - Accident and Health,25__0,25,0.0,6. p95_trade_value,59450.0,36000.0,2.0,9.0,0.2222222222222222,0.75,2. BELOW BASELINE,4.0,12.0,0.3333333333333333
+GL,Finance,Insurance - Accident and Health,25__0,25,0.0,7. p90_trade_value,31200.0,21285.0,9.0,12.0,0.75,0.75,2. BELOW BASELINE,13.0,24.0,0.5416666666666666
+GL,Finance,Insurance - Accident and Health,25__0,25,0.0,8. p75_trade_value,21150.0,9050.0,9.0,35.0,0.2571428571428571,0.75,2. BELOW BASELINE,22.0,59.0,0.3728813559322034
+GNW,Finance,Insurance - Life Insurance,15__0,15,0.0,1. p999999_trade_value,36320.00000000001,36320.00000000001,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+GNW,Finance,Insurance - Life Insurance,15__0,15,0.0,6. p95_trade_value,25000.0,25000.0,5.0,5.0,1.0,0.75,1. ABOVE BASELINE,6.0,6.0,1.0
+GNW,Finance,Insurance - Life Insurance,15__0,15,0.0,8. p75_trade_value,13619.999999999998,13619.999999999998,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,7.0,7.0,1.0
+ORI,Finance,Insurance - Multi line,10__0,10,0.0,1. p999999_trade_value,58960.0,58960.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+ORI,Finance,Insurance - Multi line,10__0,10,0.0,8. p75_trade_value,52000.0,37520.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+OSCR,Finance,Insurance - Multi line,30__1,30,1.0,1. p999999_trade_value,722000.0,722000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+OSCR,Finance,Insurance - Multi line,30__1,30,1.0,5. p99_trade_value,515759.99999999994,193750.0,0.0,10.0,0.0,0.75,2. BELOW BASELINE,0.0,11.0,0.0
+OSCR,Finance,Insurance - Multi line,30__1,30,1.0,6. p95_trade_value,155000.0,33990.0,12.0,42.0,0.2857142857142857,0.75,2. BELOW BASELINE,12.0,53.0,0.22641509433962265
+OSCR,Finance,Insurance - Multi line,30__1,30,1.0,7. p90_trade_value,33205.0,17750.0,21.0,52.0,0.40384615384615385,0.75,2. BELOW BASELINE,33.0,105.0,0.3142857142857143
+OSCR,Finance,Insurance - Multi line,30__1,30,1.0,8. p75_trade_value,17675.0,9400.0,53.0,158.0,0.33544303797468356,0.75,2. BELOW BASELINE,86.0,263.0,0.3269961977186312
+PFG,Finance,Insurance - Multi line,10__0,10,0.0,1. p999999_trade_value,41065.0,41065.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+PFG,Finance,Insurance - Multi line,10__0,10,0.0,7. p90_trade_value,22200.0,22200.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+PFG,Finance,Insurance - Multi line,10__0,10,0.0,8. p75_trade_value,14784.0,14535.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,3.0,4.0,0.75
+PGR,Finance,Insurance - Property and Casualty,30__2,30,2.0,1. p999999_trade_value,399749.99999999994,399749.99999999994,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+PGR,Finance,Insurance - Property and Casualty,30__2,30,2.0,4. p999_trade_value,176000.00000000003,176000.00000000003,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+PGR,Finance,Insurance - Property and Casualty,30__2,30,2.0,5. p99_trade_value,137640.0,43710.0,7.0,13.0,0.5384615384615384,0.75,2. BELOW BASELINE,9.0,15.0,0.6
+PGR,Finance,Insurance - Property and Casualty,30__2,30,2.0,6. p95_trade_value,43000.0,21560.0,31.0,56.0,0.5535714285714286,0.75,2. BELOW BASELINE,40.0,71.0,0.5633802816901409
+PGR,Finance,Insurance - Property and Casualty,30__2,30,2.0,7. p90_trade_value,21216.0,13019.999999999998,41.0,71.0,0.5774647887323944,0.75,2. BELOW BASELINE,81.0,142.0,0.5704225352112676
+PGR,Finance,Insurance - Property and Casualty,30__2,30,2.0,8. p75_trade_value,12950.0,7750.0,136.0,212.0,0.6415094339622641,0.75,2. BELOW BASELINE,217.0,354.0,0.6129943502824858
+PLMR,Finance,Insurance - Property and Casualty,10__0,10,0.0,1. p999999_trade_value,20000.0,20000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+PLMR,Finance,Insurance - Property and Casualty,10__0,10,0.0,8. p75_trade_value,10500.0,7350.0,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,3.0,3.0,1.0
+PRI,Finance,Insurance - Life Insurance,5__0,5,0.0,1. p999999_trade_value,5004.0,5004.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+PRI,Finance,Insurance - Life Insurance,5__0,5,0.0,8. p75_trade_value,4664.0,4664.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
+PRU,Finance,Insurance - Multi line,25__0,25,0.0,1. p999999_trade_value,71487.0,71487.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+PRU,Finance,Insurance - Multi line,25__0,25,0.0,5. p99_trade_value,62000.0,48990.0,0.0,2.0,0.0,0.75,2. BELOW BASELINE,0.0,3.0,0.0
+PRU,Finance,Insurance - Multi line,25__0,25,0.0,6. p95_trade_value,41364.00000000001,22990.0,4.0,9.0,0.4444444444444444,0.75,2. BELOW BASELINE,4.0,12.0,0.3333333333333333
+PRU,Finance,Insurance - Multi line,25__0,25,0.0,7. p90_trade_value,22701.000000000004,15989.999999999998,6.0,12.0,0.5,0.75,2. BELOW BASELINE,10.0,24.0,0.4166666666666667
+PRU,Finance,Insurance - Multi line,25__0,25,0.0,8. p75_trade_value,15400.0,7944.0,18.0,36.0,0.5,0.75,2. BELOW BASELINE,28.0,60.0,0.4666666666666667
+RDN,Finance,Insurance - Multi line,5__3,5,3.0,1. p999999_trade_value,20130.0,20130.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+RGA,Finance,Insurance - Life Insurance,10__0,10,0.0,1. p999999_trade_value,9990.0,9990.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+RGA,Finance,Insurance - Life Insurance,10__0,10,0.0,7. p90_trade_value,9800.0,9800.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
+RGA,Finance,Insurance - Life Insurance,10__0,10,0.0,8. p75_trade_value,8880.000000000002,8750.0,0.0,2.0,0.0,0.75,2. BELOW BASELINE,0.0,4.0,0.0
+RLI,Finance,Insurance - Property and Casualty,5__3,5,3.0,1. p999999_trade_value,14625.0,14625.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+RNR,Finance,Insurance - Property and Casualty,15__0,15,0.0,1. p999999_trade_value,30000.0,30000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+RNR,Finance,Insurance - Property and Casualty,15__0,15,0.0,6. p95_trade_value,14100.0,14100.0,0.0,2.0,0.0,0.75,2. BELOW BASELINE,0.0,3.0,0.0
+RNR,Finance,Insurance - Property and Casualty,15__0,15,0.0,7. p90_trade_value,11700.0,9870.0,0.0,3.0,0.0,0.75,2. BELOW BASELINE,0.0,6.0,0.0
+RNR,Finance,Insurance - Property and Casualty,15__0,15,0.0,8. p75_trade_value,8525.0,6600.0,1.0,7.0,0.14285714285714285,0.75,2. BELOW BASELINE,1.0,13.0,0.07692307692307693
+ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,1. p999999_trade_value,158400.0,158400.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,4. p999_trade_value,113400.0,112239.99999999999,1.0,2.0,0.5,0.75,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,5. p99_trade_value,99449.99999999999,46530.0,12.0,25.0,0.48,0.75,2. BELOW BASELINE,14.0,28.0,0.5
+ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,6. p95_trade_value,46500.00000000001,22100.0,60.0,110.0,0.5454545454545454,0.75,2. BELOW BASELINE,74.0,138.0,0.5362318840579711
+ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,7. p90_trade_value,22000.0,15190.0,62.0,138.0,0.4492753623188406,0.75,2. BELOW BASELINE,136.0,276.0,0.4927536231884058
+ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,8. p75_trade_value,15000.0,8325.0,217.0,410.0,0.5292682926829269,0.75,2. BELOW BASELINE,353.0,686.0,0.5145772594752187
+RYAN,Finance,Insurance - Brokerage,15__0,15,0.0,1. p999999_trade_value,132719.99999999997,132719.99999999997,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+RYAN,Finance,Insurance - Brokerage,15__0,15,0.0,6. p95_trade_value,26180.0,26180.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+RYAN,Finance,Insurance - Brokerage,15__0,15,0.0,7. p90_trade_value,25499.999999999996,25499.999999999996,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,3.0,3.0,1.0
+RYAN,Finance,Insurance - Brokerage,15__0,15,0.0,8. p75_trade_value,20000.0,11499.999999999998,3.0,3.0,1.0,0.75,1. ABOVE BASELINE,6.0,6.0,1.0
+SIGI,Finance,Insurance - Property and Casualty,0__2,0,2.0,1. p999999_trade_value,3300.0,3300.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+SKWD,Finance,Insurance - Property and Casualty,0__0,0,0.0,1. p999999_trade_value,13500.0,13500.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+SLF,Finance,Insurance - Life Insurance,5__0,5,0.0,1. p999999_trade_value,3600.0,3600.0,0.0,2.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
+SLQT,Finance,Insurance - Multi line,15__0,15,0.0,1. p999999_trade_value,11900.000000000002,11900.000000000002,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+SLQT,Finance,Insurance - Multi line,15__0,15,0.0,6. p95_trade_value,9120.0,9120.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
+SLQT,Finance,Insurance - Multi line,15__0,15,0.0,7. p90_trade_value,7800.0,7152.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,1.0,4.0,0.25
+SLQT,Finance,Insurance - Multi line,15__0,15,0.0,8. p75_trade_value,5500.0,5500.0,4.0,4.0,1.0,0.75,2. BELOW BASELINE,5.0,8.0,0.625
+SPNT,Finance,Insurance - Multi line,10__0,10,0.0,1. p999999_trade_value,6000.0,6000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+SPNT,Finance,Insurance - Multi line,10__0,10,0.0,8. p75_trade_value,4800.0,4800.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
+TIPT,Finance,Insurance - Brokerage,15__0,15,0.0,1. p999999_trade_value,30800.0,30800.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+TIPT,Finance,Insurance - Brokerage,15__0,15,0.0,6. p95_trade_value,30075.0,30075.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
+TIPT,Finance,Insurance - Brokerage,15__0,15,0.0,7. p90_trade_value,26880.0,26400.0,2.0,2.0,1.0,0.75,2. BELOW BASELINE,2.0,4.0,0.5
+TIPT,Finance,Insurance - Brokerage,15__0,15,0.0,8. p75_trade_value,20856.0,15000.0,3.0,6.0,0.5,0.75,2. BELOW BASELINE,5.0,10.0,0.5
+TRUP,Finance,Insurance - Accident and Health,20__0,20,0.0,1. p999999_trade_value,225000.0,225000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+TRUP,Finance,Insurance - Accident and Health,20__0,20,0.0,5. p99_trade_value,88000.00000000001,88000.00000000001,1.0,1.0,1.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
+TRUP,Finance,Insurance - Accident and Health,20__0,20,0.0,6. p95_trade_value,66500.0,32120.000000000004,4.0,5.0,0.8,0.75,2. BELOW BASELINE,5.0,7.0,0.7142857142857143
+TRUP,Finance,Insurance - Accident and Health,20__0,20,0.0,7. p90_trade_value,30250.0,15000.0,2.0,7.0,0.2857142857142857,0.75,2. BELOW BASELINE,7.0,14.0,0.5
+TRUP,Finance,Insurance - Accident and Health,20__0,20,0.0,8. p75_trade_value,13140.0,7020.0,12.0,21.0,0.5714285714285714,0.75,2. BELOW BASELINE,19.0,35.0,0.5428571428571428
+TRV,Finance,Insurance - Property and Casualty,25__0,25,0.0,1. p999999_trade_value,176000.00000000003,176000.00000000003,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+TRV,Finance,Insurance - Property and Casualty,25__0,25,0.0,5. p99_trade_value,74000.0,55120.00000000001,2.0,3.0,0.6666666666666666,0.75,2. BELOW BASELINE,3.0,4.0,0.75
+TRV,Finance,Insurance - Property and Casualty,25__0,25,0.0,6. p95_trade_value,42330.0,17280.0,8.0,12.0,0.6666666666666666,0.75,2. BELOW BASELINE,11.0,16.0,0.6875
+TRV,Finance,Insurance - Property and Casualty,25__0,25,0.0,7. p90_trade_value,17000.0,11725.000000000002,6.0,15.0,0.4,0.75,2. BELOW BASELINE,17.0,31.0,0.5483870967741935
+TRV,Finance,Insurance - Property and Casualty,25__0,25,0.0,8. p75_trade_value,11520.0,7400.0,21.0,47.0,0.44680851063829785,0.75,2. BELOW BASELINE,38.0,78.0,0.48717948717948717
+UNM,Finance,Insurance - Accident and Health,20__2,20,2.0,1. p999999_trade_value,212000.0,212000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+UNM,Finance,Insurance - Accident and Health,20__2,20,2.0,6. p95_trade_value,104790.00000000001,46191.0,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,3.0,3.0,1.0
+UNM,Finance,Insurance - Accident and Health,20__2,20,2.0,7. p90_trade_value,45978.0,38475.0,3.0,3.0,1.0,0.75,1. ABOVE BASELINE,6.0,6.0,1.0
+UNM,Finance,Insurance - Accident and Health,20__2,20,2.0,8. p75_trade_value,33740.0,12475.0,7.0,9.0,0.7777777777777778,0.75,1. ABOVE BASELINE,13.0,15.0,0.8666666666666667
+UVE,Finance,Insurance - Property and Casualty,5__0,5,0.0,1. p999999_trade_value,14000.0,14000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+VOYA,Finance,Insurance - Life Insurance,10__0,10,0.0,1. p999999_trade_value,8755.0,8755.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+VOYA,Finance,Insurance - Life Insurance,10__0,10,0.0,7. p90_trade_value,8700.0,8700.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
+VOYA,Finance,Insurance - Life Insurance,10__0,10,0.0,8. p75_trade_value,7500.0,7440.000000000001,0.0,2.0,0.0,0.75,2. BELOW BASELINE,0.0,4.0,0.0
+WRB,Finance,Insurance - Property and Casualty,15__0,15,0.0,1. p999999_trade_value,14000.0,14000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+WRB,Finance,Insurance - Property and Casualty,15__0,15,0.0,6. p95_trade_value,12750.0,12750.0,1.0,1.0,1.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
+WRB,Finance,Insurance - Property and Casualty,15__0,15,0.0,7. p90_trade_value,12500.0,12500.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+WRB,Finance,Insurance - Property and Casualty,15__0,15,0.0,8. p75_trade_value,10000.0,6440.000000000001,5.0,5.0,1.0,0.75,2. BELOW BASELINE,6.0,8.0,0.75
+WTW,Finance,Insurance - Brokerage,25__0,25,0.0,1. p999999_trade_value,261260.99999999997,261260.99999999997,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+WTW,Finance,Insurance - Brokerage,25__0,25,0.0,5. p99_trade_value,175250.0,175250.0,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,3.0,3.0,1.0
+WTW,Finance,Insurance - Brokerage,25__0,25,0.0,6. p95_trade_value,153439.0,36946.0,6.0,10.0,0.6,0.75,2. BELOW BASELINE,9.0,13.0,0.6923076923076923
+WTW,Finance,Insurance - Brokerage,25__0,25,0.0,7. p90_trade_value,35500.0,16000.0,6.0,13.0,0.46153846153846156,0.75,2. BELOW BASELINE,15.0,26.0,0.5769230769230769
+WTW,Finance,Insurance - Brokerage,25__0,25,0.0,8. p75_trade_value,14819.0,5700.0,28.0,38.0,0.7368421052631579,0.75,2. BELOW BASELINE,43.0,64.0,0.671875

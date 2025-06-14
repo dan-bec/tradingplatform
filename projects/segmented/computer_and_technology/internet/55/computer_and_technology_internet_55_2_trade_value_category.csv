@@ -1,17 +1,17 @@
 security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-AMZN,Computer and Technology,Internet - Software and Services,55__0,55,0.0,1. p999999_trade_value,3535125.0,3535125.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,1.0,1.0
-AMZN,Computer and Technology,Internet - Software and Services,55__0,55,0.0,2. p99999_trade_value,3234390.0,2555415.0,3.0,3.0,1.0,0.55,2. BELOW BASELINE,4.0,4.0,1.0
-AMZN,Computer and Technology,Internet - Software and Services,55__0,55,0.0,3. p9999_trade_value,2479620.0,1188000.0,14.0,28.0,0.5,0.55,2. BELOW BASELINE,18.0,32.0,0.5625
-AMZN,Computer and Technology,Internet - Software and Services,55__0,55,0.0,4. p999_trade_value,1179878.0,293360.0,129.0,286.0,0.45104895104895104,0.55,2. BELOW BASELINE,147.0,318.0,0.46226415094339623
-AMZN,Computer and Technology,Internet - Software and Services,55__0,55,0.0,5. p99_trade_value,292487.0,69000.0,1561.0,2869.0,0.5440920181247821,0.55,2. BELOW BASELINE,1708.0,3187.0,0.5359272042673361
-AMZN,Computer and Technology,Internet - Software and Services,55__0,55,0.0,6. p95_trade_value,68975.0,26640.000000000004,6942.0,12679.0,0.5475195204669138,0.55,2. BELOW BASELINE,8650.0,15866.0,0.5451909744106895
-AMZN,Computer and Technology,Internet - Software and Services,55__0,55,0.0,7. p90_trade_value,26639.999999999996,17082.0,8679.0,15871.0,0.5468464494990863,0.55,2. BELOW BASELINE,17329.0,31737.0,0.5460188423606516
-AMZN,Computer and Technology,Internet - Software and Services,55__0,55,0.0,8. p75_trade_value,17080.0,9063.0,24303.0,47601.0,0.5105565009138463,0.55,2. BELOW BASELINE,41632.0,79338.0,0.5247422420529885
-PLTR,Computer and Technology,Internet - Software,55__0,55,0.0,1. p999999_trade_value,6324240.0,6324240.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-PLTR,Computer and Technology,Internet - Software,55__0,55,0.0,2. p99999_trade_value,5511840.0,4376106.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
-PLTR,Computer and Technology,Internet - Software,55__0,55,0.0,3. p9999_trade_value,3990000.0,1601400.0,18.0,28.0,0.6428571428571429,0.55,1. ABOVE BASELINE,21.0,32.0,0.65625
-PLTR,Computer and Technology,Internet - Software,55__0,55,0.0,4. p999_trade_value,1547000.0,353353.0,119.0,280.0,0.425,0.55,2. BELOW BASELINE,140.0,312.0,0.44871794871794873
-PLTR,Computer and Technology,Internet - Software,55__0,55,0.0,5. p99_trade_value,351000.00000000006,72522.0,1722.0,2803.0,0.6143417766678558,0.55,2. BELOW BASELINE,1862.0,3115.0,0.597752808988764
-PLTR,Computer and Technology,Internet - Software,55__0,55,0.0,6. p95_trade_value,72520.0,27000.0,7686.0,12551.0,0.6123814835471277,0.55,2. BELOW BASELINE,9548.0,15666.0,0.6094727435210009
-PLTR,Computer and Technology,Internet - Software,55__0,55,0.0,7. p90_trade_value,26994.0,17340.0,9111.0,15484.0,0.5884138465512787,0.55,2. BELOW BASELINE,18659.0,31150.0,0.5990048154093098
-PLTR,Computer and Technology,Internet - Software,55__0,55,0.0,8. p75_trade_value,17336.0,9150.0,27088.0,46762.0,0.5792737692998589,0.55,2. BELOW BASELINE,45747.0,77912.0,0.5871624396755314
+AMZN,Computer and Technology,Internet - Software and Services,55__0,55,0.0,1. p999999_trade_value,3535125.0,3535125.0,1.0,1.0,1.0,0.75,2. BELOW BASELINE,1.0,1.0,1.0
+AMZN,Computer and Technology,Internet - Software and Services,55__0,55,0.0,2. p99999_trade_value,3234390.0,2555415.0,3.0,3.0,1.0,0.75,2. BELOW BASELINE,4.0,4.0,1.0
+AMZN,Computer and Technology,Internet - Software and Services,55__0,55,0.0,3. p9999_trade_value,2479620.0,1188000.0,14.0,28.0,0.5,0.75,2. BELOW BASELINE,18.0,32.0,0.5625
+AMZN,Computer and Technology,Internet - Software and Services,55__0,55,0.0,4. p999_trade_value,1179878.0,293360.0,129.0,286.0,0.45104895104895104,0.75,2. BELOW BASELINE,147.0,318.0,0.46226415094339623
+AMZN,Computer and Technology,Internet - Software and Services,55__0,55,0.0,5. p99_trade_value,292487.0,69000.0,1561.0,2869.0,0.5440920181247821,0.75,2. BELOW BASELINE,1708.0,3187.0,0.5359272042673361
+AMZN,Computer and Technology,Internet - Software and Services,55__0,55,0.0,6. p95_trade_value,68975.0,26640.000000000004,6942.0,12679.0,0.5475195204669138,0.75,2. BELOW BASELINE,8650.0,15866.0,0.5451909744106895
+AMZN,Computer and Technology,Internet - Software and Services,55__0,55,0.0,7. p90_trade_value,26639.999999999996,17082.0,8679.0,15871.0,0.5468464494990863,0.75,2. BELOW BASELINE,17329.0,31737.0,0.5460188423606516
+AMZN,Computer and Technology,Internet - Software and Services,55__0,55,0.0,8. p75_trade_value,17080.0,9063.0,24303.0,47601.0,0.5105565009138463,0.75,2. BELOW BASELINE,41632.0,79338.0,0.5247422420529885
+PLTR,Computer and Technology,Internet - Software,55__0,55,0.0,1. p999999_trade_value,6324240.0,6324240.0,1.0,1.0,1.0,0.75,2. BELOW BASELINE,1.0,1.0,1.0
+PLTR,Computer and Technology,Internet - Software,55__0,55,0.0,2. p99999_trade_value,5511840.0,4376106.0,2.0,3.0,0.6666666666666666,0.75,2. BELOW BASELINE,3.0,4.0,0.75
+PLTR,Computer and Technology,Internet - Software,55__0,55,0.0,3. p9999_trade_value,3990000.0,1601400.0,18.0,28.0,0.6428571428571429,0.75,2. BELOW BASELINE,21.0,32.0,0.65625
+PLTR,Computer and Technology,Internet - Software,55__0,55,0.0,4. p999_trade_value,1547000.0,353353.0,119.0,280.0,0.425,0.75,2. BELOW BASELINE,140.0,312.0,0.44871794871794873
+PLTR,Computer and Technology,Internet - Software,55__0,55,0.0,5. p99_trade_value,351000.00000000006,72522.0,1722.0,2803.0,0.6143417766678558,0.75,2. BELOW BASELINE,1862.0,3115.0,0.597752808988764
+PLTR,Computer and Technology,Internet - Software,55__0,55,0.0,6. p95_trade_value,72520.0,27000.0,7686.0,12551.0,0.6123814835471277,0.75,2. BELOW BASELINE,9548.0,15666.0,0.6094727435210009
+PLTR,Computer and Technology,Internet - Software,55__0,55,0.0,7. p90_trade_value,26994.0,17340.0,9111.0,15484.0,0.5884138465512787,0.75,2. BELOW BASELINE,18659.0,31150.0,0.5990048154093098
+PLTR,Computer and Technology,Internet - Software,55__0,55,0.0,8. p75_trade_value,17336.0,9150.0,27088.0,46762.0,0.5792737692998589,0.75,2. BELOW BASELINE,45747.0,77912.0,0.5871624396755314

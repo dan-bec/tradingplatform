@@ -1,5 +1,5 @@
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # Base directory (assumes config.py is in the /scripts folder)
 SCRIPT_DIR = Path(__file__).parent
@@ -22,7 +22,7 @@ OPTION_TRADE_DIR = DATA_PATH / "options" / "trades"
 SECTORS_CSV = DATA_PATH / "stocks" / "sectors_industries.csv"
 
 # RAW DATA LOAD
-START_DATE = str(datetime(2024, 8, 1).date())
+START_DATE = str(datetime.now().date() - timedelta(days=365))
 END_DATE = str(datetime.now().date())  # Updated to include today
 NUM_FILES_TO_PROCESS = 200
 
@@ -37,4 +37,4 @@ NUMBER_OF_BINS = 20
 MAX_K = 10
 
 # OPTIMAL ITM
-ITM_THRESHOLD = 0.55
+ITM_THRESHOLD = 0.75

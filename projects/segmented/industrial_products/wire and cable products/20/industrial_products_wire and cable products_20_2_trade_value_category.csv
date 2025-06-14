@@ -1,5 +1,5 @@
 security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-ATKR,Industrial Products,Wire and Cable Products,20__0,20,0.0,1. p999999_trade_value,125000.0,125000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-ATKR,Industrial Products,Wire and Cable Products,20__0,20,0.0,6. p95_trade_value,122500.0,46560.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,3.0,5.0,0.6
-ATKR,Industrial Products,Wire and Cable Products,20__0,20,0.0,7. p90_trade_value,42525.0,30550.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,6.0,9.0,0.6666666666666666
-ATKR,Industrial Products,Wire and Cable Products,20__0,20,0.0,8. p75_trade_value,30149.999999999993,9500.0,11.0,14.0,0.7857142857142857,0.55,2. BELOW BASELINE,17.0,23.0,0.7391304347826086
+ATKR,Industrial Products,Wire and Cable Products,20__0,20,0.0,1. p999999_trade_value,125000.0,125000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+ATKR,Industrial Products,Wire and Cable Products,20__0,20,0.0,6. p95_trade_value,122500.0,46560.0,3.0,4.0,0.75,0.75,2. BELOW BASELINE,3.0,5.0,0.6
+ATKR,Industrial Products,Wire and Cable Products,20__0,20,0.0,7. p90_trade_value,42525.0,30550.0,3.0,4.0,0.75,0.75,2. BELOW BASELINE,6.0,9.0,0.6666666666666666
+ATKR,Industrial Products,Wire and Cable Products,20__0,20,0.0,8. p75_trade_value,30149.999999999993,9500.0,11.0,14.0,0.7857142857142857,0.75,2. BELOW BASELINE,17.0,23.0,0.7391304347826086

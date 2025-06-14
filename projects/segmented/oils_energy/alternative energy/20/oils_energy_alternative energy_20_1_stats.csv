@@ -1,6 +1,6 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-FCEL,Oils-Energy,Alternative Energy - Other,0.55,45000.0,1. p999999_trade_value,1.0,74,20__0,20,0.0,8730.0,12385.6,26633.2,43163.32,44816.33,44981.63,44998.16
-FLNC,Oils-Energy,Alternative Energy - Other,0.55,,,,146,20__0,20,0.0,17749.5,27986.0,55095.5,62097.5,62684.75,62743.47,62749.35
-HNRG,Oils-Energy,Alternative Energy - Other,0.55,49335.0,6. p95_trade_value,7.0,133,20__0,20,0.0,15564.0,41334.0,85000.0,101266.32,103492.63,103715.26,103737.53
-OPTT,Oils-Energy,Alternative Energy - Other,0.55,48000.0,1. p999999_trade_value,1.0,59,20__0,20,0.0,8985.0,10260.0,28842.6,46084.26,47808.43,47980.84,47998.08
-VTLE,Oils-Energy,Alternative Energy - Other,0.55,7830.0,8. p75_trade_value,42.0,166,20__0,20,0.0,13827.5,26220.0,42295.0,57927.5,58892.75,58989.28,58998.93
+FCEL,Oils-Energy,Alternative Energy - Other,0.75,45000.0,1. p999999_trade_value,1.0,74,20__0,20,0.0,8730.0,12385.6,26633.2,43163.32,44816.33,44981.63,44998.16
+FLNC,Oils-Energy,Alternative Energy - Other,0.75,,,,146,20__0,20,0.0,17749.5,27986.0,55095.5,62097.5,62684.75,62743.47,62749.35
+HNRG,Oils-Energy,Alternative Energy - Other,0.75,49335.0,6. p95_trade_value,7.0,133,20__0,20,0.0,15564.0,41334.0,85000.0,101266.32,103492.63,103715.26,103737.53
+OPTT,Oils-Energy,Alternative Energy - Other,0.75,48000.0,1. p999999_trade_value,1.0,59,20__0,20,0.0,8985.0,10260.0,28842.6,46084.26,47808.43,47980.84,47998.08
+VTLE,Oils-Energy,Alternative Energy - Other,0.75,52500.0,5. p99_trade_value,2.0,166,20__0,20,0.0,13827.5,26220.0,42295.0,57927.5,58892.75,58989.28,58998.93

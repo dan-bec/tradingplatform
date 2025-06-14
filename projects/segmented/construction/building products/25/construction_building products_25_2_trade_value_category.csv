@@ -1,76 +1,76 @@
 security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-AGX,Construction,Building Products - Miscellaneous,25__0,25,0.0,1. p999999_trade_value,220000.0,220000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-AGX,Construction,Building Products - Miscellaneous,25__0,25,0.0,5. p99_trade_value,88500.0,43000.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,3.0,5.0,0.6
-AGX,Construction,Building Products - Miscellaneous,25__0,25,0.0,6. p95_trade_value,42000.0,22560.0,6.0,18.0,0.3333333333333333,0.55,2. BELOW BASELINE,9.0,23.0,0.391304347826087
-AGX,Construction,Building Products - Miscellaneous,25__0,25,0.0,7. p90_trade_value,22500.0,13888.0,14.0,23.0,0.6086956521739131,0.55,2. BELOW BASELINE,23.0,46.0,0.5
-AGX,Construction,Building Products - Miscellaneous,25__0,25,0.0,8. p75_trade_value,13860.0,7800.0,39.0,69.0,0.5652173913043478,0.55,2. BELOW BASELINE,62.0,115.0,0.5391304347826087
-ASPN,Construction,Building Products - Miscellaneous,25__0,25,0.0,1. p999999_trade_value,249480.00000000003,249480.00000000003,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-ASPN,Construction,Building Products - Miscellaneous,25__0,25,0.0,5. p99_trade_value,58175.0,48999.99999999999,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
-ASPN,Construction,Building Products - Miscellaneous,25__0,25,0.0,6. p95_trade_value,46500.0,14760.0,3.0,11.0,0.2727272727272727,0.55,2. BELOW BASELINE,3.0,14.0,0.21428571428571427
-ASPN,Construction,Building Products - Miscellaneous,25__0,25,0.0,7. p90_trade_value,14175.0,10000.0,5.0,15.0,0.3333333333333333,0.55,2. BELOW BASELINE,8.0,29.0,0.27586206896551724
-ASPN,Construction,Building Products - Miscellaneous,25__0,25,0.0,8. p75_trade_value,9840.0,6719.999999999999,9.0,38.0,0.23684210526315788,0.55,2. BELOW BASELINE,17.0,67.0,0.2537313432835821
-CARR,Construction,Building Products - Air Conditioner and Heating,25__2,25,2.0,1. p999999_trade_value,364320.0,364320.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-CARR,Construction,Building Products - Air Conditioner and Heating,25__2,25,2.0,5. p99_trade_value,293040.0,258925.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,3.0,5.0,0.6
-CARR,Construction,Building Products - Air Conditioner and Heating,25__2,25,2.0,6. p95_trade_value,228000.0,44340.0,6.0,16.0,0.375,0.55,2. BELOW BASELINE,9.0,21.0,0.42857142857142855
-CARR,Construction,Building Products - Air Conditioner and Heating,25__2,25,2.0,7. p90_trade_value,41920.0,21000.0,9.0,20.0,0.45,0.55,2. BELOW BASELINE,18.0,41.0,0.43902439024390244
-CARR,Construction,Building Products - Air Conditioner and Heating,25__2,25,2.0,8. p75_trade_value,20910.0,9870.0,23.0,60.0,0.38333333333333336,0.55,2. BELOW BASELINE,41.0,101.0,0.40594059405940597
-DY,Construction,Building Products - Heavy Construction,25__0,25,0.0,1. p999999_trade_value,1290000.0,1290000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-DY,Construction,Building Products - Heavy Construction,25__0,25,0.0,5. p99_trade_value,585000.0,405000.00000000006,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
-DY,Construction,Building Products - Heavy Construction,25__0,25,0.0,6. p95_trade_value,162360.0,20650.0,7.0,12.0,0.5833333333333334,0.55,2. BELOW BASELINE,8.0,15.0,0.5333333333333333
-DY,Construction,Building Products - Heavy Construction,25__0,25,0.0,7. p90_trade_value,20000.0,11655.0,8.0,15.0,0.5333333333333333,0.55,2. BELOW BASELINE,16.0,30.0,0.5333333333333333
-DY,Construction,Building Products - Heavy Construction,25__0,25,0.0,8. p75_trade_value,11550.0,8780.0,38.0,46.0,0.8260869565217391,0.55,2. BELOW BASELINE,54.0,76.0,0.7105263157894737
-EME,Construction,Building Products - Heavy Construction,25__0,25,0.0,1. p999999_trade_value,91999.99999999999,91999.99999999999,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-EME,Construction,Building Products - Heavy Construction,25__0,25,0.0,5. p99_trade_value,72600.0,58500.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
-EME,Construction,Building Products - Heavy Construction,25__0,25,0.0,6. p95_trade_value,44478.0,23375.0,12.0,16.0,0.75,0.55,1. ABOVE BASELINE,15.0,20.0,0.75
-EME,Construction,Building Products - Heavy Construction,25__0,25,0.0,7. p90_trade_value,23039.999999999996,16400.0,12.0,20.0,0.6,0.55,1. ABOVE BASELINE,27.0,40.0,0.675
-EME,Construction,Building Products - Heavy Construction,25__0,25,0.0,8. p75_trade_value,15313.999999999998,8250.0,41.0,58.0,0.7068965517241379,0.55,1. ABOVE BASELINE,68.0,98.0,0.6938775510204082
-FIX,Construction,Building Products - Air Conditioner and Heating,25__0,25,0.0,1. p999999_trade_value,274160.0,274160.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-FIX,Construction,Building Products - Air Conditioner and Heating,25__0,25,0.0,5. p99_trade_value,117970.0,55100.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,2.0,5.0,0.4
-FIX,Construction,Building Products - Air Conditioner and Heating,25__0,25,0.0,6. p95_trade_value,48000.0,30659.999999999996,14.0,16.0,0.875,0.55,2. BELOW BASELINE,16.0,21.0,0.7619047619047619
-FIX,Construction,Building Products - Air Conditioner and Heating,25__0,25,0.0,7. p90_trade_value,30400.0,18000.0,16.0,22.0,0.7272727272727273,0.55,2. BELOW BASELINE,32.0,43.0,0.7441860465116279
-FIX,Construction,Building Products - Air Conditioner and Heating,25__0,25,0.0,8. p75_trade_value,17520.0,10090.0,34.0,61.0,0.5573770491803278,0.55,2. BELOW BASELINE,66.0,104.0,0.6346153846153846
-JCI,Construction,Building Products - Wood,25__2,25,2.0,1. p999999_trade_value,408000.00000000006,408000.00000000006,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-JCI,Construction,Building Products - Wood,25__2,25,2.0,5. p99_trade_value,291000.0,178500.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,1.0,5.0,0.2
-JCI,Construction,Building Products - Wood,25__2,25,2.0,6. p95_trade_value,165000.00000000003,48400.00000000001,7.0,17.0,0.4117647058823529,0.55,2. BELOW BASELINE,8.0,22.0,0.36363636363636365
-JCI,Construction,Building Products - Wood,25__2,25,2.0,7. p90_trade_value,46360.0,23100.0,15.0,21.0,0.7142857142857143,0.55,2. BELOW BASELINE,23.0,43.0,0.5348837209302325
-JCI,Construction,Building Products - Wood,25__2,25,2.0,8. p75_trade_value,23000.0,9800.0,35.0,64.0,0.546875,0.55,2. BELOW BASELINE,58.0,107.0,0.5420560747663551
-KBH,Construction,Building Products - Home Builders,25__0,25,0.0,1. p999999_trade_value,129500.0,129500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-KBH,Construction,Building Products - Home Builders,25__0,25,0.0,5. p99_trade_value,107400.0,81000.0,4.0,4.0,1.0,0.55,1. ABOVE BASELINE,5.0,5.0,1.0
-KBH,Construction,Building Products - Home Builders,25__0,25,0.0,6. p95_trade_value,74400.0,18500.0,30.0,33.0,0.9090909090909091,0.55,1. ABOVE BASELINE,35.0,38.0,0.9210526315789473
-KBH,Construction,Building Products - Home Builders,25__0,25,0.0,7. p90_trade_value,18315.0,15300.0,6.0,10.0,0.6,0.55,1. ABOVE BASELINE,41.0,48.0,0.8541666666666666
-KBH,Construction,Building Products - Home Builders,25__0,25,0.0,8. p75_trade_value,15000.0,7560.000000000001,53.0,70.0,0.7571428571428571,0.55,1. ABOVE BASELINE,94.0,118.0,0.7966101694915254
-LII,Construction,Building Products - Air Conditioner and Heating,25__0,25,0.0,1. p999999_trade_value,348750.0,348750.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-LII,Construction,Building Products - Air Conditioner and Heating,25__0,25,0.0,5. p99_trade_value,240000.0,100000.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,4.0,0.5
-LII,Construction,Building Products - Air Conditioner and Heating,25__0,25,0.0,6. p95_trade_value,56000.0,33600.0,8.0,12.0,0.6666666666666666,0.55,2. BELOW BASELINE,10.0,16.0,0.625
-LII,Construction,Building Products - Air Conditioner and Heating,25__0,25,0.0,7. p90_trade_value,30192.0,17400.0,10.0,15.0,0.6666666666666666,0.55,2. BELOW BASELINE,20.0,31.0,0.6451612903225806
-LII,Construction,Building Products - Air Conditioner and Heating,25__0,25,0.0,8. p75_trade_value,15224.0,7300.0,37.0,47.0,0.7872340425531915,0.55,2. BELOW BASELINE,57.0,78.0,0.7307692307692307
-OC,Construction,Building Products - Miscellaneous,25__0,25,0.0,1. p999999_trade_value,165000.0,165000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-OC,Construction,Building Products - Miscellaneous,25__0,25,0.0,5. p99_trade_value,119130.0,119130.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-OC,Construction,Building Products - Miscellaneous,25__0,25,0.0,6. p95_trade_value,107570.0,24000.0,4.0,8.0,0.5,0.55,2. BELOW BASELINE,6.0,10.0,0.6
-OC,Construction,Building Products - Miscellaneous,25__0,25,0.0,7. p90_trade_value,23220.0,14190.0,5.0,9.0,0.5555555555555556,0.55,2. BELOW BASELINE,11.0,19.0,0.5789473684210527
-OC,Construction,Building Products - Miscellaneous,25__0,25,0.0,8. p75_trade_value,14060.0,5460.0,17.0,28.0,0.6071428571428571,0.55,2. BELOW BASELINE,28.0,47.0,0.5957446808510638
-PRIM,Construction,Building Products - Heavy Construction,25__0,25,0.0,1. p999999_trade_value,540000.0,540000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-PRIM,Construction,Building Products - Heavy Construction,25__0,25,0.0,5. p99_trade_value,257000.0,66640.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
-PRIM,Construction,Building Products - Heavy Construction,25__0,25,0.0,6. p95_trade_value,63000.0,32370.0,7.0,10.0,0.7,0.55,1. ABOVE BASELINE,10.0,13.0,0.7692307692307693
-PRIM,Construction,Building Products - Heavy Construction,25__0,25,0.0,7. p90_trade_value,31500.0,17820.0,6.0,12.0,0.5,0.55,2. BELOW BASELINE,16.0,25.0,0.64
-PRIM,Construction,Building Products - Heavy Construction,25__0,25,0.0,8. p75_trade_value,17625.0,9620.0,15.0,36.0,0.4166666666666667,0.55,2. BELOW BASELINE,31.0,61.0,0.5081967213114754
-SKY,Construction,Building Products - Mobile Homes and RV Builders,25__2,25,2.0,1. p999999_trade_value,1527235.9999999998,1527235.9999999998,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-SKY,Construction,Building Products - Mobile Homes and RV Builders,25__2,25,2.0,5. p99_trade_value,750000.0,291300.0,3.0,4.0,0.75,0.55,1. ABOVE BASELINE,4.0,5.0,0.8
-SKY,Construction,Building Products - Mobile Homes and RV Builders,25__2,25,2.0,6. p95_trade_value,281590.0,57980.00000000001,9.0,15.0,0.6,0.55,1. ABOVE BASELINE,13.0,20.0,0.65
-SKY,Construction,Building Products - Mobile Homes and RV Builders,25__2,25,2.0,7. p90_trade_value,53804.99999999999,21500.0,9.0,19.0,0.47368421052631576,0.55,2. BELOW BASELINE,22.0,39.0,0.5641025641025641
-SKY,Construction,Building Products - Mobile Homes and RV Builders,25__2,25,2.0,8. p75_trade_value,21420.0,8500.0,39.0,57.0,0.6842105263157895,0.55,2. BELOW BASELINE,61.0,96.0,0.6354166666666666
-THO,Construction,Building Products - Mobile Homes and RV Builders,25__0,25,0.0,1. p999999_trade_value,465000.0,465000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-THO,Construction,Building Products - Mobile Homes and RV Builders,25__0,25,0.0,5. p99_trade_value,379520.0,182800.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
-THO,Construction,Building Products - Mobile Homes and RV Builders,25__0,25,0.0,6. p95_trade_value,176000.0,30800.0,3.0,12.0,0.25,0.55,2. BELOW BASELINE,4.0,15.0,0.26666666666666666
-THO,Construction,Building Products - Mobile Homes and RV Builders,25__0,25,0.0,7. p90_trade_value,25920.000000000004,16500.0,5.0,16.0,0.3125,0.55,2. BELOW BASELINE,9.0,31.0,0.2903225806451613
-THO,Construction,Building Products - Mobile Homes and RV Builders,25__0,25,0.0,8. p75_trade_value,16254.0,9460.0,19.0,42.0,0.4523809523809524,0.55,2. BELOW BASELINE,28.0,73.0,0.3835616438356164
-TREX,Construction,Building Products - Wood,25__0,25,0.0,1. p999999_trade_value,100000.0,100000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-TREX,Construction,Building Products - Wood,25__0,25,0.0,5. p99_trade_value,32883.0,32883.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-TREX,Construction,Building Products - Wood,25__0,25,0.0,6. p95_trade_value,32250.0,16300.0,8.0,8.0,1.0,0.55,2. BELOW BASELINE,8.0,10.0,0.8
-TREX,Construction,Building Products - Wood,25__0,25,0.0,7. p90_trade_value,15000.0,8960.0,5.0,10.0,0.5,0.55,2. BELOW BASELINE,13.0,20.0,0.65
-TREX,Construction,Building Products - Wood,25__0,25,0.0,8. p75_trade_value,8580.000000000002,6195.0,27.0,35.0,0.7714285714285715,0.55,2. BELOW BASELINE,40.0,55.0,0.7272727272727273
-WGO,Construction,Building Products - Mobile Homes and RV Builders,25__0,25,0.0,1. p999999_trade_value,559035.0,559035.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-WGO,Construction,Building Products - Mobile Homes and RV Builders,25__0,25,0.0,5. p99_trade_value,85560.0,85560.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-WGO,Construction,Building Products - Mobile Homes and RV Builders,25__0,25,0.0,6. p95_trade_value,42500.0,18900.0,7.0,8.0,0.875,0.55,1. ABOVE BASELINE,9.0,10.0,0.9
-WGO,Construction,Building Products - Mobile Homes and RV Builders,25__0,25,0.0,7. p90_trade_value,18860.0,14720.000000000002,6.0,10.0,0.6,0.55,1. ABOVE BASELINE,15.0,20.0,0.75
-WGO,Construction,Building Products - Mobile Homes and RV Builders,25__0,25,0.0,8. p75_trade_value,11900.0,6900.0,13.0,29.0,0.4482758620689655,0.55,2. BELOW BASELINE,28.0,49.0,0.5714285714285714
+AGX,Construction,Building Products - Miscellaneous,25__0,25,0.0,1. p999999_trade_value,220000.0,220000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+AGX,Construction,Building Products - Miscellaneous,25__0,25,0.0,5. p99_trade_value,88500.0,43000.0,2.0,4.0,0.5,0.75,2. BELOW BASELINE,3.0,5.0,0.6
+AGX,Construction,Building Products - Miscellaneous,25__0,25,0.0,6. p95_trade_value,42000.0,22560.0,6.0,18.0,0.3333333333333333,0.75,2. BELOW BASELINE,9.0,23.0,0.391304347826087
+AGX,Construction,Building Products - Miscellaneous,25__0,25,0.0,7. p90_trade_value,22500.0,13888.0,14.0,23.0,0.6086956521739131,0.75,2. BELOW BASELINE,23.0,46.0,0.5
+AGX,Construction,Building Products - Miscellaneous,25__0,25,0.0,8. p75_trade_value,13860.0,7800.0,39.0,69.0,0.5652173913043478,0.75,2. BELOW BASELINE,62.0,115.0,0.5391304347826087
+ASPN,Construction,Building Products - Miscellaneous,25__0,25,0.0,1. p999999_trade_value,249480.00000000003,249480.00000000003,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+ASPN,Construction,Building Products - Miscellaneous,25__0,25,0.0,5. p99_trade_value,58175.0,48999.99999999999,0.0,2.0,0.0,0.75,2. BELOW BASELINE,0.0,3.0,0.0
+ASPN,Construction,Building Products - Miscellaneous,25__0,25,0.0,6. p95_trade_value,46500.0,14760.0,3.0,11.0,0.2727272727272727,0.75,2. BELOW BASELINE,3.0,14.0,0.21428571428571427
+ASPN,Construction,Building Products - Miscellaneous,25__0,25,0.0,7. p90_trade_value,14175.0,10000.0,5.0,15.0,0.3333333333333333,0.75,2. BELOW BASELINE,8.0,29.0,0.27586206896551724
+ASPN,Construction,Building Products - Miscellaneous,25__0,25,0.0,8. p75_trade_value,9840.0,6719.999999999999,9.0,38.0,0.23684210526315788,0.75,2. BELOW BASELINE,17.0,67.0,0.2537313432835821
+CARR,Construction,Building Products - Air Conditioner and Heating,25__2,25,2.0,1. p999999_trade_value,364320.0,364320.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+CARR,Construction,Building Products - Air Conditioner and Heating,25__2,25,2.0,5. p99_trade_value,293040.0,258925.0,2.0,4.0,0.5,0.75,2. BELOW BASELINE,3.0,5.0,0.6
+CARR,Construction,Building Products - Air Conditioner and Heating,25__2,25,2.0,6. p95_trade_value,228000.0,44340.0,6.0,16.0,0.375,0.75,2. BELOW BASELINE,9.0,21.0,0.42857142857142855
+CARR,Construction,Building Products - Air Conditioner and Heating,25__2,25,2.0,7. p90_trade_value,41920.0,21000.0,9.0,20.0,0.45,0.75,2. BELOW BASELINE,18.0,41.0,0.43902439024390244
+CARR,Construction,Building Products - Air Conditioner and Heating,25__2,25,2.0,8. p75_trade_value,20910.0,9870.0,23.0,60.0,0.38333333333333336,0.75,2. BELOW BASELINE,41.0,101.0,0.40594059405940597
+DY,Construction,Building Products - Heavy Construction,25__0,25,0.0,1. p999999_trade_value,1290000.0,1290000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+DY,Construction,Building Products - Heavy Construction,25__0,25,0.0,5. p99_trade_value,585000.0,405000.00000000006,1.0,2.0,0.5,0.75,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+DY,Construction,Building Products - Heavy Construction,25__0,25,0.0,6. p95_trade_value,162360.0,20650.0,7.0,12.0,0.5833333333333334,0.75,2. BELOW BASELINE,8.0,15.0,0.5333333333333333
+DY,Construction,Building Products - Heavy Construction,25__0,25,0.0,7. p90_trade_value,20000.0,11655.0,8.0,15.0,0.5333333333333333,0.75,2. BELOW BASELINE,16.0,30.0,0.5333333333333333
+DY,Construction,Building Products - Heavy Construction,25__0,25,0.0,8. p75_trade_value,11550.0,8780.0,38.0,46.0,0.8260869565217391,0.75,2. BELOW BASELINE,54.0,76.0,0.7105263157894737
+EME,Construction,Building Products - Heavy Construction,25__0,25,0.0,1. p999999_trade_value,91999.99999999999,91999.99999999999,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+EME,Construction,Building Products - Heavy Construction,25__0,25,0.0,5. p99_trade_value,72600.0,58500.0,2.0,3.0,0.6666666666666666,0.75,2. BELOW BASELINE,3.0,4.0,0.75
+EME,Construction,Building Products - Heavy Construction,25__0,25,0.0,6. p95_trade_value,44478.0,23375.0,12.0,16.0,0.75,0.75,2. BELOW BASELINE,15.0,20.0,0.75
+EME,Construction,Building Products - Heavy Construction,25__0,25,0.0,7. p90_trade_value,23039.999999999996,16400.0,12.0,20.0,0.6,0.75,2. BELOW BASELINE,27.0,40.0,0.675
+EME,Construction,Building Products - Heavy Construction,25__0,25,0.0,8. p75_trade_value,15313.999999999998,8250.0,41.0,58.0,0.7068965517241379,0.75,2. BELOW BASELINE,68.0,98.0,0.6938775510204082
+FIX,Construction,Building Products - Air Conditioner and Heating,25__0,25,0.0,1. p999999_trade_value,274160.0,274160.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+FIX,Construction,Building Products - Air Conditioner and Heating,25__0,25,0.0,5. p99_trade_value,117970.0,55100.0,1.0,4.0,0.25,0.75,2. BELOW BASELINE,2.0,5.0,0.4
+FIX,Construction,Building Products - Air Conditioner and Heating,25__0,25,0.0,6. p95_trade_value,48000.0,30659.999999999996,14.0,16.0,0.875,0.75,2. BELOW BASELINE,16.0,21.0,0.7619047619047619
+FIX,Construction,Building Products - Air Conditioner and Heating,25__0,25,0.0,7. p90_trade_value,30400.0,18000.0,16.0,22.0,0.7272727272727273,0.75,2. BELOW BASELINE,32.0,43.0,0.7441860465116279
+FIX,Construction,Building Products - Air Conditioner and Heating,25__0,25,0.0,8. p75_trade_value,17520.0,10090.0,34.0,61.0,0.5573770491803278,0.75,2. BELOW BASELINE,66.0,104.0,0.6346153846153846
+JCI,Construction,Building Products - Wood,25__2,25,2.0,1. p999999_trade_value,408000.00000000006,408000.00000000006,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+JCI,Construction,Building Products - Wood,25__2,25,2.0,5. p99_trade_value,291000.0,178500.0,1.0,4.0,0.25,0.75,2. BELOW BASELINE,1.0,5.0,0.2
+JCI,Construction,Building Products - Wood,25__2,25,2.0,6. p95_trade_value,165000.00000000003,48400.00000000001,7.0,17.0,0.4117647058823529,0.75,2. BELOW BASELINE,8.0,22.0,0.36363636363636365
+JCI,Construction,Building Products - Wood,25__2,25,2.0,7. p90_trade_value,46360.0,23100.0,15.0,21.0,0.7142857142857143,0.75,2. BELOW BASELINE,23.0,43.0,0.5348837209302325
+JCI,Construction,Building Products - Wood,25__2,25,2.0,8. p75_trade_value,23000.0,9800.0,35.0,64.0,0.546875,0.75,2. BELOW BASELINE,58.0,107.0,0.5420560747663551
+KBH,Construction,Building Products - Home Builders,25__0,25,0.0,1. p999999_trade_value,129500.0,129500.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+KBH,Construction,Building Products - Home Builders,25__0,25,0.0,5. p99_trade_value,107400.0,81000.0,4.0,4.0,1.0,0.75,1. ABOVE BASELINE,5.0,5.0,1.0
+KBH,Construction,Building Products - Home Builders,25__0,25,0.0,6. p95_trade_value,74400.0,18500.0,30.0,33.0,0.9090909090909091,0.75,1. ABOVE BASELINE,35.0,38.0,0.9210526315789473
+KBH,Construction,Building Products - Home Builders,25__0,25,0.0,7. p90_trade_value,18315.0,15300.0,6.0,10.0,0.6,0.75,2. BELOW BASELINE,41.0,48.0,0.8541666666666666
+KBH,Construction,Building Products - Home Builders,25__0,25,0.0,8. p75_trade_value,15000.0,7560.000000000001,53.0,70.0,0.7571428571428571,0.75,2. BELOW BASELINE,94.0,118.0,0.7966101694915254
+LII,Construction,Building Products - Air Conditioner and Heating,25__0,25,0.0,1. p999999_trade_value,348750.0,348750.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+LII,Construction,Building Products - Air Conditioner and Heating,25__0,25,0.0,5. p99_trade_value,240000.0,100000.0,1.0,3.0,0.3333333333333333,0.75,2. BELOW BASELINE,2.0,4.0,0.5
+LII,Construction,Building Products - Air Conditioner and Heating,25__0,25,0.0,6. p95_trade_value,56000.0,33600.0,8.0,12.0,0.6666666666666666,0.75,2. BELOW BASELINE,10.0,16.0,0.625
+LII,Construction,Building Products - Air Conditioner and Heating,25__0,25,0.0,7. p90_trade_value,30192.0,17400.0,10.0,15.0,0.6666666666666666,0.75,2. BELOW BASELINE,20.0,31.0,0.6451612903225806
+LII,Construction,Building Products - Air Conditioner and Heating,25__0,25,0.0,8. p75_trade_value,15224.0,7300.0,37.0,47.0,0.7872340425531915,0.75,2. BELOW BASELINE,57.0,78.0,0.7307692307692307
+OC,Construction,Building Products - Miscellaneous,25__0,25,0.0,1. p999999_trade_value,165000.0,165000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+OC,Construction,Building Products - Miscellaneous,25__0,25,0.0,5. p99_trade_value,119130.0,119130.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+OC,Construction,Building Products - Miscellaneous,25__0,25,0.0,6. p95_trade_value,107570.0,24000.0,4.0,8.0,0.5,0.75,2. BELOW BASELINE,6.0,10.0,0.6
+OC,Construction,Building Products - Miscellaneous,25__0,25,0.0,7. p90_trade_value,23220.0,14190.0,5.0,9.0,0.5555555555555556,0.75,2. BELOW BASELINE,11.0,19.0,0.5789473684210527
+OC,Construction,Building Products - Miscellaneous,25__0,25,0.0,8. p75_trade_value,14060.0,5460.0,17.0,28.0,0.6071428571428571,0.75,2. BELOW BASELINE,28.0,47.0,0.5957446808510638
+PRIM,Construction,Building Products - Heavy Construction,25__0,25,0.0,1. p999999_trade_value,540000.0,540000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+PRIM,Construction,Building Products - Heavy Construction,25__0,25,0.0,5. p99_trade_value,257000.0,66640.0,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,3.0,3.0,1.0
+PRIM,Construction,Building Products - Heavy Construction,25__0,25,0.0,6. p95_trade_value,63000.0,32370.0,7.0,10.0,0.7,0.75,2. BELOW BASELINE,10.0,13.0,0.7692307692307693
+PRIM,Construction,Building Products - Heavy Construction,25__0,25,0.0,7. p90_trade_value,31500.0,17820.0,6.0,12.0,0.5,0.75,2. BELOW BASELINE,16.0,25.0,0.64
+PRIM,Construction,Building Products - Heavy Construction,25__0,25,0.0,8. p75_trade_value,17625.0,9620.0,15.0,36.0,0.4166666666666667,0.75,2. BELOW BASELINE,31.0,61.0,0.5081967213114754
+SKY,Construction,Building Products - Mobile Homes and RV Builders,25__2,25,2.0,1. p999999_trade_value,1527235.9999999998,1527235.9999999998,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+SKY,Construction,Building Products - Mobile Homes and RV Builders,25__2,25,2.0,5. p99_trade_value,750000.0,291300.0,3.0,4.0,0.75,0.75,1. ABOVE BASELINE,4.0,5.0,0.8
+SKY,Construction,Building Products - Mobile Homes and RV Builders,25__2,25,2.0,6. p95_trade_value,281590.0,57980.00000000001,9.0,15.0,0.6,0.75,2. BELOW BASELINE,13.0,20.0,0.65
+SKY,Construction,Building Products - Mobile Homes and RV Builders,25__2,25,2.0,7. p90_trade_value,53804.99999999999,21500.0,9.0,19.0,0.47368421052631576,0.75,2. BELOW BASELINE,22.0,39.0,0.5641025641025641
+SKY,Construction,Building Products - Mobile Homes and RV Builders,25__2,25,2.0,8. p75_trade_value,21420.0,8500.0,39.0,57.0,0.6842105263157895,0.75,2. BELOW BASELINE,61.0,96.0,0.6354166666666666
+THO,Construction,Building Products - Mobile Homes and RV Builders,25__0,25,0.0,1. p999999_trade_value,465000.0,465000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+THO,Construction,Building Products - Mobile Homes and RV Builders,25__0,25,0.0,5. p99_trade_value,379520.0,182800.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+THO,Construction,Building Products - Mobile Homes and RV Builders,25__0,25,0.0,6. p95_trade_value,176000.0,30800.0,3.0,12.0,0.25,0.75,2. BELOW BASELINE,4.0,15.0,0.26666666666666666
+THO,Construction,Building Products - Mobile Homes and RV Builders,25__0,25,0.0,7. p90_trade_value,25920.000000000004,16500.0,5.0,16.0,0.3125,0.75,2. BELOW BASELINE,9.0,31.0,0.2903225806451613
+THO,Construction,Building Products - Mobile Homes and RV Builders,25__0,25,0.0,8. p75_trade_value,16254.0,9460.0,19.0,42.0,0.4523809523809524,0.75,2. BELOW BASELINE,28.0,73.0,0.3835616438356164
+TREX,Construction,Building Products - Wood,25__0,25,0.0,1. p999999_trade_value,100000.0,100000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+TREX,Construction,Building Products - Wood,25__0,25,0.0,5. p99_trade_value,32883.0,32883.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
+TREX,Construction,Building Products - Wood,25__0,25,0.0,6. p95_trade_value,32250.0,16300.0,8.0,8.0,1.0,0.75,2. BELOW BASELINE,8.0,10.0,0.8
+TREX,Construction,Building Products - Wood,25__0,25,0.0,7. p90_trade_value,15000.0,8960.0,5.0,10.0,0.5,0.75,2. BELOW BASELINE,13.0,20.0,0.65
+TREX,Construction,Building Products - Wood,25__0,25,0.0,8. p75_trade_value,8580.000000000002,6195.0,27.0,35.0,0.7714285714285715,0.75,2. BELOW BASELINE,40.0,55.0,0.7272727272727273
+WGO,Construction,Building Products - Mobile Homes and RV Builders,25__0,25,0.0,1. p999999_trade_value,559035.0,559035.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+WGO,Construction,Building Products - Mobile Homes and RV Builders,25__0,25,0.0,5. p99_trade_value,85560.0,85560.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+WGO,Construction,Building Products - Mobile Homes and RV Builders,25__0,25,0.0,6. p95_trade_value,42500.0,18900.0,7.0,8.0,0.875,0.75,1. ABOVE BASELINE,9.0,10.0,0.9
+WGO,Construction,Building Products - Mobile Homes and RV Builders,25__0,25,0.0,7. p90_trade_value,18860.0,14720.000000000002,6.0,10.0,0.6,0.75,2. BELOW BASELINE,15.0,20.0,0.75
+WGO,Construction,Building Products - Mobile Homes and RV Builders,25__0,25,0.0,8. p75_trade_value,11900.0,6900.0,13.0,29.0,0.4482758620689655,0.75,2. BELOW BASELINE,28.0,49.0,0.5714285714285714

@@ -1,4 +1,4 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AMTM,Construction,Engineering - R and D Services,0.55,390000.0,1. p999999_trade_value,1.0,451,25__0,25,0.0,23400.0,51375.0,129000.0,312408.75,382240.87,389224.09,389922.41
-FLR,Construction,Engineering - R and D Services,0.55,8000.0,8. p75_trade_value,140.0,557,25__0,25,0.0,15516.0,24200.0,183842.8,610653.96,745056.4,758496.64,759840.66
-STRL,Construction,Engineering - R and D Services,0.55,70250.0,1. p999999_trade_value,1.0,237,25__0,25,0.0,14910.0,27560.0,69300.0,70191.0,70244.1,70249.41,70249.94
+AMTM,Construction,Engineering - R and D Services,0.75,390000.0,1. p999999_trade_value,1.0,451,25__0,25,0.0,23400.0,51375.0,129000.0,312408.75,382240.87,389224.09,389922.41
+FLR,Construction,Engineering - R and D Services,0.75,25000.0,6. p95_trade_value,28.0,557,25__0,25,0.0,15516.0,24200.0,183842.8,610653.96,745056.4,758496.64,759840.66
+STRL,Construction,Engineering - R and D Services,0.75,70250.0,1. p999999_trade_value,1.0,237,25__0,25,0.0,14910.0,27560.0,69300.0,70191.0,70244.1,70249.41,70249.94

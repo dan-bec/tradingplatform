@@ -1,2 +1,2 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-IP,Basic Materials,Paper and Related Products,0.55,,,,430,25__0,25,0.0,25873.2,36544.5,128747.7,400409.0,443785.4,448123.04,448556.8
+IP,Basic Materials,Paper and Related Products,0.75,,,,430,25__0,25,0.0,25873.2,36544.5,128747.7,400409.0,443785.4,448123.04,448556.8

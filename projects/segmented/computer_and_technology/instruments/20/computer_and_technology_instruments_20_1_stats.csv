@@ -1,3 +1,3 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-BRKR,Computer and Technology,Instruments - Scientific,0.55,224460.0,1. p999999_trade_value,1.0,103,20__2,20,2.0,37350.0,58598.5,171067.4,219198.84,223933.88,224407.39,224454.74
-ST,Computer and Technology,Instruments - Control,0.55,,,,105,20__0,20,0.0,11921.6,16807.4,18179.88,127332.8,138733.28,139873.33,139987.33
+BRKR,Computer and Technology,Instruments - Scientific,0.75,224460.0,1. p999999_trade_value,1.0,103,20__2,20,2.0,37350.0,58598.5,171067.4,219198.84,223933.88,224407.39,224454.74
+ST,Computer and Technology,Instruments - Control,0.75,,,,105,20__0,20,0.0,11921.6,16807.4,18179.88,127332.8,138733.28,139873.33,139987.33

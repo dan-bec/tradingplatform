@@ -1,3 +1,3 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AMZN,Computer and Technology,Internet - Software and Services,0.55,,,,317341,55__0,55,0.0,17082.0,26640.0,69000.0,293063.18,1182038.45,2542272.15,3439689.76
-PLTR,Computer and Technology,Internet - Software,0.55,1601400.0,3. p9999_trade_value,32.0,311411,55__0,55,0.0,17340.0,27000.0,72521.8,352388.27,1593729.6,4332051.31,6071250.52
+AMZN,Computer and Technology,Internet - Software and Services,0.75,,,,317341,55__0,55,0.0,17082.0,26640.0,69000.0,293063.18,1182038.45,2542272.15,3439689.76
+PLTR,Computer and Technology,Internet - Software,0.75,,,,311411,55__0,55,0.0,17340.0,27000.0,72521.8,352388.27,1593729.6,4332051.31,6071250.52

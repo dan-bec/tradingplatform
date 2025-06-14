@@ -1,5 +1,5 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ACVA,Retail-Wholesale,Internet - Commerce,0.55,123400.0,1. p999999_trade_value,1.0,57,20__0,20,0.0,8277.0,16260.0,104704.4,121530.44,123213.04,123381.3,123398.13
-JMIA,Retail-Wholesale,Internet - Commerce,0.55,,,,71,20__0,20,0.0,9640.0,10267.5,40412.9,72891.29,76139.13,76463.91,76496.39
-PSQH,Retail-Wholesale,Internet - Commerce,0.55,13850.0,1. p999999_trade_value,1.0,69,20__0,20,0.0,8166.0,9531.0,12932.0,13758.2,13840.82,13849.08,13849.91
-TRIP,Retail-Wholesale,Internet - Commerce,0.55,7700.0,8. p75_trade_value,44.0,176,20__0,20,0.0,14038.0,21491.25,46027.5,156226.87,164460.19,165283.52,165365.85
+ACVA,Retail-Wholesale,Internet - Commerce,0.75,123400.0,1. p999999_trade_value,1.0,57,20__0,20,0.0,8277.0,16260.0,104704.4,121530.44,123213.04,123381.3,123398.13
+JMIA,Retail-Wholesale,Internet - Commerce,0.75,,,,71,20__0,20,0.0,9640.0,10267.5,40412.9,72891.29,76139.13,76463.91,76496.39
+PSQH,Retail-Wholesale,Internet - Commerce,0.75,13850.0,1. p999999_trade_value,1.0,69,20__0,20,0.0,8166.0,9531.0,12932.0,13758.2,13840.82,13849.08,13849.91
+TRIP,Retail-Wholesale,Internet - Commerce,0.75,22005.0,6. p95_trade_value,9.0,176,20__0,20,0.0,14038.0,21491.25,46027.5,156226.87,164460.19,165283.52,165365.85

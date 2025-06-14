@@ -1,28 +1,28 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ABNB,Consumer Discretionary,Leisure and Recreation Services,0.55,360580.0,4. p999_trade_value,10.0,9314,40__0,40,0.0,16800.0,27417.5,118540.35,359987.8,793032.33,1251553.23,1297405.32
-AMC,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,2192,35__0,35,0.0,9695.2,13412.25,25198.02,61591.69,83484.68,88664.47,89182.45
-ATAT,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,33,15__0,15,0.0,17693.4,31630.0,76527.2,87518.72,88617.87,88727.79,88738.78
-CCL,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,4773,35__2,35,2.0,16100.4,25837.2,90504.0,462618.6,1040525.22,1068671.62,1071486.26
-CUK,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,3,5__0,5,0.0,5288.0,5394.0,5478.8,5497.88,5499.79,5499.98,5500.0
-CZR,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,1331,30__1,30,1.0,14432.0,23088.0,151750.0,665752.25,714680.0,719468.0,719946.8
-FUN,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,54,15__0,15,0.0,12500.0,14321.85,35935.9,37352.59,37494.26,37508.43,37509.84
-ISPO,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,1,0__2,0,2.0,5400.0,5400.0,5400.0,5400.0,5400.0,5400.0,5400.0
-LTH,Consumer Discretionary,Leisure and Recreation Services,0.55,7425.0,8. p75_trade_value,15.0,58,20__0,20,0.0,12675.0,15000.0,24675.0,36217.5,37371.75,37487.18,37498.72
-LUCK,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,18,15__0,15,0.0,7736.5,9129.5,10033.9,10237.39,10257.74,10259.77,10259.98
-MANU,Consumer Discretionary,Leisure and Recreation Services,0.55,7000.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,6800.0,6900.0,6980.0,6998.0,6999.8,6999.98,7000.0
-MCS,Consumer Discretionary,Leisure and Recreation Services,0.55,4000.0,1. p999999_trade_value,1.0,1,0__2,0,2.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0
-MSGS,Consumer Discretionary,Leisure and Recreation Services,0.55,22656.0,1. p999999_trade_value,1.0,47,15__0,15,0.0,9582.0,11710.0,18387.2,22229.12,22613.31,22651.73,22655.57
-MTN,Consumer Discretionary,Leisure and Recreation Services,0.55,26055.0,6. p95_trade_value,33.0,652,30__2,30,2.0,15000.0,25716.75,69738.9,320557.48,334923.75,336360.37,336504.04
-NCLH,Consumer Discretionary,Leisure and Recreation Services,0.55,7853.999999999999,8. p75_trade_value,449.0,1794,35__0,35,0.0,14435.0,25621.4,101770.0,428105.0,459696.8,463569.68,463956.97
-PLNT,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,428,25__2,25,2.0,23051.0,58627.5,188432.7,349767.8,387170.18,390910.42,391284.44
-PRKS,Consumer Discretionary,Leisure and Recreation Services,0.55,100000.0,1. p999999_trade_value,1.0,28,15__0,15,0.0,17705.0,32495.9,82972.72,98297.27,99829.73,99982.97,99998.3
-PRSU,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,1,0__2,0,2.0,3904.0,3904.0,3904.0,3904.0,3904.0,3904.0,3904.0
-RCL,Consumer Discretionary,Leisure and Recreation Services,0.55,87500.0,5. p99_trade_value,57.0,5635,40__4,40,4.0,13992.0,22189.5,87042.36,659535.15,4104840.6,4451700.06,4486386.01
-RICK,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,54,15__0,15,0.0,17500.0,21520.5,29170.05,32468.51,32798.35,32831.34,32834.63
-SOND,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,3,5__0,5,0.0,5000.0,5000.0,5000.0,5000.0,5000.0,5000.0,5000.0
-TCOM,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,783,30__2,30,2.0,11060.8,15934.0,35408.42,116897.4,169189.74,174418.97,174941.9
-TH,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,24,15__0,15,0.0,12450.0,14762.0,20675.5,22155.55,22303.56,22318.36,22319.84
-TNL,Consumer Discretionary,Leisure and Recreation Services,0.55,34100.0,1. p999999_trade_value,1.0,26,15__0,15,0.0,25687.5,33975.0,34068.75,34096.88,34099.69,34099.97,34100.0
-VAC,Consumer Discretionary,Leisure and Recreation Services,0.55,670000.0,1. p999999_trade_value,1.0,32,15__1,15,1.0,15679.8,121475.0,534995.0,656499.5,668649.95,669865.0,669986.5
-VIK,Consumer Discretionary,Leisure and Recreation Services,0.55,320000.0,1. p999999_trade_value,1.0,83,20__2,20,2.0,49600.0,119549.2,205200.0,308520.0,318852.0,319885.2,319988.52
-XPOF,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,18,15__0,15,0.0,20447.4,33517.1,92265.02,105483.3,106805.13,106937.31,106950.53
+ABNB,Consumer Discretionary,Leisure and Recreation Services,0.75,360580.0,4. p999_trade_value,10.0,9314,40__0,40,0.0,16800.0,27417.5,118540.35,359987.8,793032.33,1251553.23,1297405.32
+AMC,Consumer Discretionary,Leisure and Recreation Services,0.75,,,,2192,35__0,35,0.0,9695.2,13412.25,25198.02,61591.69,83484.68,88664.47,89182.45
+ATAT,Consumer Discretionary,Leisure and Recreation Services,0.75,,,,33,15__0,15,0.0,17693.4,31630.0,76527.2,87518.72,88617.87,88727.79,88738.78
+CCL,Consumer Discretionary,Leisure and Recreation Services,0.75,,,,4773,35__2,35,2.0,16100.4,25837.2,90504.0,462618.6,1040525.22,1068671.62,1071486.26
+CUK,Consumer Discretionary,Leisure and Recreation Services,0.75,,,,3,5__0,5,0.0,5288.0,5394.0,5478.8,5497.88,5499.79,5499.98,5500.0
+CZR,Consumer Discretionary,Leisure and Recreation Services,0.75,,,,1331,30__1,30,1.0,14432.0,23088.0,151750.0,665752.25,714680.0,719468.0,719946.8
+FUN,Consumer Discretionary,Leisure and Recreation Services,0.75,,,,54,15__0,15,0.0,12500.0,14321.85,35935.9,37352.59,37494.26,37508.43,37509.84
+ISPO,Consumer Discretionary,Leisure and Recreation Services,0.75,,,,1,0__2,0,2.0,5400.0,5400.0,5400.0,5400.0,5400.0,5400.0,5400.0
+LTH,Consumer Discretionary,Leisure and Recreation Services,0.75,7425.0,8. p75_trade_value,15.0,58,20__0,20,0.0,12675.0,15000.0,24675.0,36217.5,37371.75,37487.18,37498.72
+LUCK,Consumer Discretionary,Leisure and Recreation Services,0.75,,,,18,15__0,15,0.0,7736.5,9129.5,10033.9,10237.39,10257.74,10259.77,10259.98
+MANU,Consumer Discretionary,Leisure and Recreation Services,0.75,7000.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,6800.0,6900.0,6980.0,6998.0,6999.8,6999.98,7000.0
+MCS,Consumer Discretionary,Leisure and Recreation Services,0.75,4000.0,1. p999999_trade_value,1.0,1,0__2,0,2.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0
+MSGS,Consumer Discretionary,Leisure and Recreation Services,0.75,22656.0,1. p999999_trade_value,1.0,47,15__0,15,0.0,9582.0,11710.0,18387.2,22229.12,22613.31,22651.73,22655.57
+MTN,Consumer Discretionary,Leisure and Recreation Services,0.75,75659.99999999999,5. p99_trade_value,7.0,652,30__2,30,2.0,15000.0,25716.75,69738.9,320557.48,334923.75,336360.37,336504.04
+NCLH,Consumer Discretionary,Leisure and Recreation Services,0.75,440000.0,4. p999_trade_value,2.0,1794,35__0,35,0.0,14435.0,25621.4,101770.0,428105.0,459696.8,463569.68,463956.97
+PLNT,Consumer Discretionary,Leisure and Recreation Services,0.75,,,,428,25__2,25,2.0,23051.0,58627.5,188432.7,349767.8,387170.18,390910.42,391284.44
+PRKS,Consumer Discretionary,Leisure and Recreation Services,0.75,100000.0,1. p999999_trade_value,1.0,28,15__0,15,0.0,17705.0,32495.9,82972.72,98297.27,99829.73,99982.97,99998.3
+PRSU,Consumer Discretionary,Leisure and Recreation Services,0.75,,,,1,0__2,0,2.0,3904.0,3904.0,3904.0,3904.0,3904.0,3904.0,3904.0
+RCL,Consumer Discretionary,Leisure and Recreation Services,0.75,726218.0,4. p999_trade_value,6.0,5635,40__4,40,4.0,13992.0,22189.5,87042.36,659535.15,4104840.6,4451700.06,4486386.01
+RICK,Consumer Discretionary,Leisure and Recreation Services,0.75,,,,54,15__0,15,0.0,17500.0,21520.5,29170.05,32468.51,32798.35,32831.34,32834.63
+SOND,Consumer Discretionary,Leisure and Recreation Services,0.75,,,,3,5__0,5,0.0,5000.0,5000.0,5000.0,5000.0,5000.0,5000.0,5000.0
+TCOM,Consumer Discretionary,Leisure and Recreation Services,0.75,,,,783,30__2,30,2.0,11060.8,15934.0,35408.42,116897.4,169189.74,174418.97,174941.9
+TH,Consumer Discretionary,Leisure and Recreation Services,0.75,,,,24,15__0,15,0.0,12450.0,14762.0,20675.5,22155.55,22303.56,22318.36,22319.84
+TNL,Consumer Discretionary,Leisure and Recreation Services,0.75,34100.0,1. p999999_trade_value,1.0,26,15__0,15,0.0,25687.5,33975.0,34068.75,34096.88,34099.69,34099.97,34100.0
+VAC,Consumer Discretionary,Leisure and Recreation Services,0.75,670000.0,1. p999999_trade_value,1.0,32,15__1,15,1.0,15679.8,121475.0,534995.0,656499.5,668649.95,669865.0,669986.5
+VIK,Consumer Discretionary,Leisure and Recreation Services,0.75,320000.0,1. p999999_trade_value,1.0,83,20__2,20,2.0,49600.0,119549.2,205200.0,308520.0,318852.0,319885.2,319988.52
+XPOF,Consumer Discretionary,Leisure and Recreation Services,0.75,,,,18,15__0,15,0.0,20447.4,33517.1,92265.02,105483.3,106805.13,106937.31,106950.53

@@ -1,6 +1,6 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-MRC,Industrial Products,Steel - Pipe and Tube,0.55,11519.999999999998,1. p999999_trade_value,1.0,2,5__0,5,0.0,10860.0,11190.0,11454.0,11513.4,11519.34,11519.93,11519.99
-MWA,Industrial Products,Steel - Pipe and Tube,0.55,8400.0,1. p999999_trade_value,1.0,1,0__0,0,0.0,8400.0,8400.0,8400.0,8400.0,8400.0,8400.0,8400.0
-PPIH,Industrial Products,Steel - Pipe and Tube,0.55,,,,4,5__3,5,3.0,13770.0,15585.0,17037.0,17363.7,17396.37,17399.64,17399.96
-TS,Industrial Products,Steel - Pipe and Tube,0.55,,,,17,10__0,10,0.0,13751.8,18842.0,32736.4,35862.64,36175.26,36206.53,36209.65
-VMI,Industrial Products,Steel - Pipe and Tube,0.55,,,,23,15__0,15,0.0,21238.0,25476.0,40798.0,44579.8,44957.98,44995.8,44999.58
+MRC,Industrial Products,Steel - Pipe and Tube,0.75,11519.999999999998,1. p999999_trade_value,1.0,2,5__0,5,0.0,10860.0,11190.0,11454.0,11513.4,11519.34,11519.93,11519.99
+MWA,Industrial Products,Steel - Pipe and Tube,0.75,8400.0,1. p999999_trade_value,1.0,1,0__0,0,0.0,8400.0,8400.0,8400.0,8400.0,8400.0,8400.0,8400.0
+PPIH,Industrial Products,Steel - Pipe and Tube,0.75,,,,4,5__3,5,3.0,13770.0,15585.0,17037.0,17363.7,17396.37,17399.64,17399.96
+TS,Industrial Products,Steel - Pipe and Tube,0.75,,,,17,10__0,10,0.0,13751.8,18842.0,32736.4,35862.64,36175.26,36206.53,36209.65
+VMI,Industrial Products,Steel - Pipe and Tube,0.75,,,,23,15__0,15,0.0,21238.0,25476.0,40798.0,44579.8,44957.98,44995.8,44999.58

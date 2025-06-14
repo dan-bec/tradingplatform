@@ -1,9 +1,9 @@
 security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,1. p999999_trade_value,63232962.0,63232962.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,2. p99999_trade_value,47028254.0,22997600.0,3.0,9.0,0.3333333333333333,0.55,1. ABOVE BASELINE,4.0,10.0,0.4
-MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,3. p9999_trade_value,22849420.0,5720000.0,47.0,83.0,0.5662650602409639,0.55,1. ABOVE BASELINE,51.0,93.0,0.5483870967741935
-MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,4. p999_trade_value,5712120.0,705186.0,347.0,831.0,0.4175691937424789,0.55,2. BELOW BASELINE,398.0,924.0,0.43073593073593075
-MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,5. p99_trade_value,704990.0,109200.0,3734.0,8312.0,0.4492300288739172,0.55,2. BELOW BASELINE,4132.0,9236.0,0.4473798181030749
-MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,6. p95_trade_value,109189.99999999999,35000.0,16657.0,36958.0,0.45070079549759184,0.55,2. BELOW BASELINE,20789.0,46194.0,0.45003680131618823
-MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,7. p90_trade_value,34998.0,20995.0,20077.0,46148.0,0.435056773858022,0.55,2. BELOW BASELINE,40866.0,92342.0,0.4425505187238743
-MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,8. p75_trade_value,20994.0,10338.0,58940.0,138501.0,0.42555649417693736,0.55,2. BELOW BASELINE,99806.0,230843.0,0.4323544573584644
+MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,1. p999999_trade_value,63232962.0,63232962.0,1.0,1.0,1.0,0.75,2. BELOW BASELINE,1.0,1.0,1.0
+MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,2. p99999_trade_value,47028254.0,22997600.0,3.0,9.0,0.3333333333333333,0.75,2. BELOW BASELINE,4.0,10.0,0.4
+MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,3. p9999_trade_value,22849420.0,5720000.0,47.0,83.0,0.5662650602409639,0.75,2. BELOW BASELINE,51.0,93.0,0.5483870967741935
+MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,4. p999_trade_value,5712120.0,705186.0,347.0,831.0,0.4175691937424789,0.75,2. BELOW BASELINE,398.0,924.0,0.43073593073593075
+MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,5. p99_trade_value,704990.0,109200.0,3734.0,8312.0,0.4492300288739172,0.75,2. BELOW BASELINE,4132.0,9236.0,0.4473798181030749
+MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,6. p95_trade_value,109189.99999999999,35000.0,16657.0,36958.0,0.45070079549759184,0.75,2. BELOW BASELINE,20789.0,46194.0,0.45003680131618823
+MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,7. p90_trade_value,34998.0,20995.0,20077.0,46148.0,0.435056773858022,0.75,2. BELOW BASELINE,40866.0,92342.0,0.4425505187238743
+MSTR,Computer and Technology,Computer - Software,60__0,60,0.0,8. p75_trade_value,20994.0,10338.0,58940.0,138501.0,0.42555649417693736,0.75,2. BELOW BASELINE,99806.0,230843.0,0.4323544573584644

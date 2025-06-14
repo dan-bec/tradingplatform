@@ -1,9 +1,9 @@
 security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-LOPE,Consumer Discretionary,Schools,10__0,10,0.0,1. p999999_trade_value,77200.0,77200.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-LOPE,Consumer Discretionary,Schools,10__0,10,0.0,7. p90_trade_value,9750.0,9750.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-LOPE,Consumer Discretionary,Schools,10__0,10,0.0,8. p75_trade_value,6400.0,4900.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,4.0,0.25
-STRA,Consumer Discretionary,Schools,10__0,10,0.0,1. p999999_trade_value,17000.0,17000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-STRA,Consumer Discretionary,Schools,10__0,10,0.0,8. p75_trade_value,8400.0,8400.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-UTI,Consumer Discretionary,Schools,10__0,10,0.0,1. p999999_trade_value,51205.00000000001,51205.00000000001,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-UTI,Consumer Discretionary,Schools,10__0,10,0.0,7. p90_trade_value,38592.0,38592.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-UTI,Consumer Discretionary,Schools,10__0,10,0.0,8. p75_trade_value,37500.0,20000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,3.0,4.0,0.75
+LOPE,Consumer Discretionary,Schools,10__0,10,0.0,1. p999999_trade_value,77200.0,77200.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+LOPE,Consumer Discretionary,Schools,10__0,10,0.0,7. p90_trade_value,9750.0,9750.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
+LOPE,Consumer Discretionary,Schools,10__0,10,0.0,8. p75_trade_value,6400.0,4900.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,1.0,4.0,0.25
+STRA,Consumer Discretionary,Schools,10__0,10,0.0,1. p999999_trade_value,17000.0,17000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+STRA,Consumer Discretionary,Schools,10__0,10,0.0,8. p75_trade_value,8400.0,8400.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
+UTI,Consumer Discretionary,Schools,10__0,10,0.0,1. p999999_trade_value,51205.00000000001,51205.00000000001,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+UTI,Consumer Discretionary,Schools,10__0,10,0.0,7. p90_trade_value,38592.0,38592.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+UTI,Consumer Discretionary,Schools,10__0,10,0.0,8. p75_trade_value,37500.0,20000.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,3.0,4.0,0.75

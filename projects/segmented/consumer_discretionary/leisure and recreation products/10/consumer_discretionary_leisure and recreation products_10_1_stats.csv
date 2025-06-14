@@ -1,5 +1,5 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-MBUU,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,6,10__0,10,0.0,22095.0,29722.5,35824.5,37197.45,37334.75,37348.47,37349.85
-PLBY,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,6,10__0,10,0.0,17237.5,22368.75,26473.75,27397.38,27489.74,27498.97,27499.9
-RGR,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,10,10__0,10,0.0,11529.0,11659.5,11763.9,11787.39,11789.74,11789.97,11790.0
-SWBI,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,15,10__0,10,0.0,12790.0,13725.0,14985.0,15268.5,15296.85,15299.69,15299.97
+MBUU,Consumer Discretionary,Leisure and Recreation Products,0.75,,,,6,10__0,10,0.0,22095.0,29722.5,35824.5,37197.45,37334.75,37348.47,37349.85
+PLBY,Consumer Discretionary,Leisure and Recreation Products,0.75,,,,6,10__0,10,0.0,17237.5,22368.75,26473.75,27397.38,27489.74,27498.97,27499.9
+RGR,Consumer Discretionary,Leisure and Recreation Products,0.75,,,,10,10__0,10,0.0,11529.0,11659.5,11763.9,11787.39,11789.74,11789.97,11790.0
+SWBI,Consumer Discretionary,Leisure and Recreation Products,0.75,,,,15,10__0,10,0.0,12790.0,13725.0,14985.0,15268.5,15296.85,15299.69,15299.97

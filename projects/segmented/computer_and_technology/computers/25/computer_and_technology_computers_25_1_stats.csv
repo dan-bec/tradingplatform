@@ -1,8 +1,8 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CDW,Computer and Technology,Computers - IT Services,0.55,,,,246,25__0,25,0.0,9090.0,12825.0,23357.5,382215.25,397771.53,399327.15,399482.72
-CRNC,Computer and Technology,Computers - IT Services,0.55,97200.00000000001,1. p999999_trade_value,1.0,425,25__0,25,0.0,13364.0,19060.0,33846.8,82402.4,95720.24,97052.02,97185.2
-CSGP,Computer and Technology,Computers - IT Services,0.55,386880.0,1. p999999_trade_value,1.0,414,25__0,25,0.0,13102.5,18551.75,61728.3,288552.96,377047.3,385896.73,386781.67
-CTSH,Computer and Technology,Computers - IT Services,0.55,9450.0,8. p75_trade_value,99.0,392,25__0,25,0.0,21009.0,29650.5,131507.05,224706.0,236670.6,237867.06,237986.71
-DT,Computer and Technology,Computers - IT Services,0.55,,,,504,25__1,25,1.0,20379.0,54929.95,252630.0,10918600.0,10918600.0,10918600.0,10918600.0
-EPAM,Computer and Technology,Computers - IT Services,0.55,9600.0,8. p75_trade_value,66.0,264,25__0,25,0.0,18150.0,43200.0,68952.0,85642.56,86324.26,86392.43,86399.24
-LDOS,Computer and Technology,Computers - IT Services,0.55,18060.0,6. p95_trade_value,15.0,300,25__0,25,0.0,11526.0,18003.0,37509.4,84350.05,101855.01,103605.5,103780.55
+CDW,Computer and Technology,Computers - IT Services,0.75,,,,246,25__0,25,0.0,9090.0,12825.0,23357.5,382215.25,397771.53,399327.15,399482.72
+CRNC,Computer and Technology,Computers - IT Services,0.75,97200.00000000001,1. p999999_trade_value,1.0,425,25__0,25,0.0,13364.0,19060.0,33846.8,82402.4,95720.24,97052.02,97185.2
+CSGP,Computer and Technology,Computers - IT Services,0.75,386880.0,1. p999999_trade_value,1.0,414,25__0,25,0.0,13102.5,18551.75,61728.3,288552.96,377047.3,385896.73,386781.67
+CTSH,Computer and Technology,Computers - IT Services,0.75,238000.0,1. p999999_trade_value,1.0,392,25__0,25,0.0,21009.0,29650.5,131507.05,224706.0,236670.6,237867.06,237986.71
+DT,Computer and Technology,Computers - IT Services,0.75,,,,504,25__1,25,1.0,20379.0,54929.95,252630.0,10918600.0,10918600.0,10918600.0,10918600.0
+EPAM,Computer and Technology,Computers - IT Services,0.75,18240.0,7. p90_trade_value,27.0,264,25__0,25,0.0,18150.0,43200.0,68952.0,85642.56,86324.26,86392.43,86399.24
+LDOS,Computer and Technology,Computers - IT Services,0.75,38440.0,5. p99_trade_value,3.0,300,25__0,25,0.0,11526.0,18003.0,37509.4,84350.05,101855.01,103605.5,103780.55

@@ -1,2 +1,2 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-HESM,Oils-Energy,Energy and Pipeline - Master Limited Partnerships,0.55,,,,39,15__0,15,0.0,16612.8,48962.7,96756.76,116181.68,118124.17,118318.42,118337.84
+HESM,Oils-Energy,Energy and Pipeline - Master Limited Partnerships,0.75,,,,39,15__0,15,0.0,16612.8,48962.7,96756.76,116181.68,118124.17,118318.42,118337.84

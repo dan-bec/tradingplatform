@@ -1,3 +1,3 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ABNB,Consumer Discretionary,Leisure and Recreation Services,0.55,360580.0,4. p999_trade_value,10.0,9314,40__0,40,0.0,16800.0,27417.5,118540.35,359987.8,793032.33,1251553.23,1297405.32
-RCL,Consumer Discretionary,Leisure and Recreation Services,0.55,87500.0,5. p99_trade_value,57.0,5635,40__4,40,4.0,13992.0,22189.5,87042.36,659535.15,4104840.6,4451700.06,4486386.01
+ABNB,Consumer Discretionary,Leisure and Recreation Services,0.75,360580.0,4. p999_trade_value,10.0,9314,40__0,40,0.0,16800.0,27417.5,118540.35,359987.8,793032.33,1251553.23,1297405.32
+RCL,Consumer Discretionary,Leisure and Recreation Services,0.75,726218.0,4. p999_trade_value,6.0,5635,40__4,40,4.0,13992.0,22189.5,87042.36,659535.15,4104840.6,4451700.06,4486386.01

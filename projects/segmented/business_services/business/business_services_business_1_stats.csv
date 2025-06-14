@@ -1,24 +1,24 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ABM,Business Services,Business - Services,0.55,,,,17,10__3,10,3.0,14300.0,44000.0,120800.0,138080.0,139808.0,139980.8,139998.08
-APG,Business Services,Business - Services,0.55,3960.0,8. p75_trade_value,8.0,29,15__0,15,0.0,4508.4,4776.0,6412.0,6941.2,6994.12,6999.41,6999.94
-ARMK,Business Services,Business - Services,0.55,30294.0,1. p999999_trade_value,1.0,36,15__0,15,0.0,11830.0,12856.5,24195.6,29684.16,30233.02,30287.9,30293.39
-BFAM,Business Services,Business - Services,0.55,6400.0,8. p75_trade_value,11.0,38,15__0,15,0.0,6732.0,7073.0,7260.0,7260.0,7260.0,7260.0,7260.0
-CNXC,Business Services,Business - Services,0.55,,,,101,20__0,20,0.0,16850.0,21600.0,40320.0,50762.7,51806.97,51911.4,51921.84
-CRVL,Business Services,Business - Services,0.55,5500.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,5430.0,5465.0,5493.0,5499.3,5499.93,5499.99,5500.0
-CTAS,Business Services,Business - Services,0.55,316260.0,1. p999999_trade_value,1.0,678,30__1,30,1.0,18768.0,30304.35,130999.2,305251.98,315159.2,316149.92,316248.99
-DLX,Business Services,Business - Office Products,0.55,4148.0,1. p999999_trade_value,1.0,1,0__2,0,2.0,4148.0,4148.0,4148.0,4148.0,4148.0,4148.0,4148.0
-DNB,Business Services,Business - Information Services,0.55,79820.0,1. p999999_trade_value,1.0,66,20__0,20,0.0,20836.5,26719.0,60437.0,77881.7,79626.17,79800.62,79818.06
-FDS,Business Services,Business - Information Services,0.55,20880.0,5. p99_trade_value,2.0,191,25__0,25,0.0,10400.0,14000.0,18413.1,32016.69,34367.77,34602.88,34626.39
-HCSG,Business Services,Business - Services,0.55,,,,2,5__3,5,3.0,20100.0,20550.0,20910.0,20991.0,20999.1,20999.91,20999.99
-IRM,Business Services,Business - Information Services,0.55,276675.0,1. p999999_trade_value,1.0,376,25__0,25,0.0,15730.0,20560.5,60113.25,211503.75,270157.87,276023.29,276609.83
-MORN,Business Services,Business - Information Services,0.55,,,,11,10__0,10,0.0,6600.0,7135.0,7563.0,7659.3,7668.93,7669.89,7669.99
-RTO,Business Services,Business - Services,0.55,,,,16,10__0,10,0.0,15880.0,26290.0,51178.0,56777.8,57337.78,57393.78,57399.38
-SCS,Business Services,Business - Office Products,0.55,10045.0,1. p999999_trade_value,1.0,25,15__0,15,0.0,7476.0,9332.0,9926.2,10033.12,10043.81,10044.88,10044.99
-SPSC,Business Services,Business - Services,0.55,19800.0,7. p90_trade_value,3.0,20,15__0,15,0.0,19800.0,20623.0,33132.6,35947.26,36228.73,36256.87,36259.69
-TRI,Business Services,Business - Services,0.55,,,,17,10__0,10,0.0,20620.8,27241.6,35848.32,37784.83,37978.48,37997.85,37999.78
-TRU,Business Services,Business - Information Services,0.55,,,,401,25__0,25,0.0,12180.0,21420.0,87500.0,310500.0,348300.0,352080.0,352458.0
-ULS,Business Services,Business - Services,0.55,53000.0,7. p90_trade_value,3.0,17,10__0,10,0.0,53000.0,58021.6,74090.72,77706.27,78067.83,78103.98,78107.6
-VRSK,Business Services,Business - Information Services,0.55,,,,80,20__0,20,0.0,10192.6,14883.25,84920.0,84920.0,84920.0,84920.0,84920.0
-WLDN,Business Services,Business - Services,0.55,5400.0,1. p999999_trade_value,1.0,3,5__0,5,0.0,4932.0,5166.0,5353.2,5395.32,5399.53,5399.95,5400.0
-WNS,Business Services,Business - Services,0.55,86580.0,6. p95_trade_value,5.0,100,20__2,20,2.0,39478.1,75579.0,245650.4,440815.04,460331.5,462283.15,462478.32
-ZIP,Business Services,Business - Services,0.55,,,,1,0__1,0,1.0,22425.0,22425.0,22425.0,22425.0,22425.0,22425.0,22425.0
+ABM,Business Services,Business - Services,0.75,,,,17,10__3,10,3.0,14300.0,44000.0,120800.0,138080.0,139808.0,139980.8,139998.08
+APG,Business Services,Business - Services,0.75,4590.0,7. p90_trade_value,3.0,29,15__0,15,0.0,4508.4,4776.0,6412.0,6941.2,6994.12,6999.41,6999.94
+ARMK,Business Services,Business - Services,0.75,30294.0,1. p999999_trade_value,1.0,36,15__0,15,0.0,11830.0,12856.5,24195.6,29684.16,30233.02,30287.9,30293.39
+BFAM,Business Services,Business - Services,0.75,6400.0,8. p75_trade_value,11.0,38,15__0,15,0.0,6732.0,7073.0,7260.0,7260.0,7260.0,7260.0,7260.0
+CNXC,Business Services,Business - Services,0.75,,,,101,20__0,20,0.0,16850.0,21600.0,40320.0,50762.7,51806.97,51911.4,51921.84
+CRVL,Business Services,Business - Services,0.75,5500.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,5430.0,5465.0,5493.0,5499.3,5499.93,5499.99,5500.0
+CTAS,Business Services,Business - Services,0.75,316260.0,1. p999999_trade_value,1.0,678,30__1,30,1.0,18768.0,30304.35,130999.2,305251.98,315159.2,316149.92,316248.99
+DLX,Business Services,Business - Office Products,0.75,4148.0,1. p999999_trade_value,1.0,1,0__2,0,2.0,4148.0,4148.0,4148.0,4148.0,4148.0,4148.0,4148.0
+DNB,Business Services,Business - Information Services,0.75,79820.0,1. p999999_trade_value,1.0,66,20__0,20,0.0,20836.5,26719.0,60437.0,77881.7,79626.17,79800.62,79818.06
+FDS,Business Services,Business - Information Services,0.75,20880.0,5. p99_trade_value,2.0,191,25__0,25,0.0,10400.0,14000.0,18413.1,32016.69,34367.77,34602.88,34626.39
+HCSG,Business Services,Business - Services,0.75,,,,2,5__3,5,3.0,20100.0,20550.0,20910.0,20991.0,20999.1,20999.91,20999.99
+IRM,Business Services,Business - Information Services,0.75,276675.0,1. p999999_trade_value,1.0,376,25__0,25,0.0,15730.0,20560.5,60113.25,211503.75,270157.87,276023.29,276609.83
+MORN,Business Services,Business - Information Services,0.75,,,,11,10__0,10,0.0,6600.0,7135.0,7563.0,7659.3,7668.93,7669.89,7669.99
+RTO,Business Services,Business - Services,0.75,,,,16,10__0,10,0.0,15880.0,26290.0,51178.0,56777.8,57337.78,57393.78,57399.38
+SCS,Business Services,Business - Office Products,0.75,10045.0,1. p999999_trade_value,1.0,25,15__0,15,0.0,7476.0,9332.0,9926.2,10033.12,10043.81,10044.88,10044.99
+SPSC,Business Services,Business - Services,0.75,19800.0,7. p90_trade_value,3.0,20,15__0,15,0.0,19800.0,20623.0,33132.6,35947.26,36228.73,36256.87,36259.69
+TRI,Business Services,Business - Services,0.75,,,,17,10__0,10,0.0,20620.8,27241.6,35848.32,37784.83,37978.48,37997.85,37999.78
+TRU,Business Services,Business - Information Services,0.75,,,,401,25__0,25,0.0,12180.0,21420.0,87500.0,310500.0,348300.0,352080.0,352458.0
+ULS,Business Services,Business - Services,0.75,53000.0,7. p90_trade_value,3.0,17,10__0,10,0.0,53000.0,58021.6,74090.72,77706.27,78067.83,78103.98,78107.6
+VRSK,Business Services,Business - Information Services,0.75,,,,80,20__0,20,0.0,10192.6,14883.25,84920.0,84920.0,84920.0,84920.0,84920.0
+WLDN,Business Services,Business - Services,0.75,5400.0,1. p999999_trade_value,1.0,3,5__0,5,0.0,4932.0,5166.0,5353.2,5395.32,5399.53,5399.95,5400.0
+WNS,Business Services,Business - Services,0.75,86580.0,6. p95_trade_value,5.0,100,20__2,20,2.0,39478.1,75579.0,245650.4,440815.04,460331.5,462283.15,462478.32
+ZIP,Business Services,Business - Services,0.75,,,,1,0__1,0,1.0,22425.0,22425.0,22425.0,22425.0,22425.0,22425.0,22425.0

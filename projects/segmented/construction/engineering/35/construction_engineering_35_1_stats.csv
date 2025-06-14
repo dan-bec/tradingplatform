@@ -1,2 +1,2 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-PWR,Construction,Engineering - R and D Services,0.55,8766.0,8. p75_trade_value,460.0,1839,35__2,35,2.0,16668.0,28832.0,141457.8,764164.0,1073392.26,1081375.93,1082174.29
+PWR,Construction,Engineering - R and D Services,0.75,1034000.0,4. p999_trade_value,2.0,1839,35__2,35,2.0,16668.0,28832.0,141457.8,764164.0,1073392.26,1081375.93,1082174.29

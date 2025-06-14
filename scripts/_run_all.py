@@ -22,7 +22,20 @@ def run_script(script_name, args_list):
     cmd = ["python3", config.SCRIPT_DIR / script_name] + args_list
     subprocess.run(cmd, check=True)
 
+def push_to_github():
+    # Commit and push to GitHub
+    repo_root = os.path.dirname(os.path.abspath(__file__))  # /scripts folder
+    os.chdir(repo_root)  # Stay in /scripts for relative paths to work
+    subprocess.run(["git", "add", "../*"], check=True)  # Add changes in repo root
+    commit_message = f"Update outputs {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+    subprocess.run(["git", "commit", "-m", commit_message], check=True)
+    subprocess.run(["git", "push"], check=True)    
+
 def main():
+    # Capture and print start time
+    start_time = time.time()
+    print(f"RUN_ALL Start time: {start_time:.2f} seconds")
+
     # Define command-line arguments
     parser = argparse.ArgumentParser(description="Run all scripts with specified parameters")
     parser.add_argument("--start-date", type=str, default=config.START_DATE, help="Start date (YYYY-MM-DD)")
@@ -69,13 +82,15 @@ def main():
 
     run_script("v3_5_combined_analysis_and_output.py", ["--itm-threshold", str(args.itm_threshold)])
 
-    # Commit and push to GitHub
-    repo_root = os.path.dirname(os.path.abspath(__file__))  # /scripts folder
-    os.chdir(repo_root)  # Stay in /scripts for relative paths to work
-    subprocess.run(["git", "add", "../*"], check=True)  # Add changes in repo root
-    commit_message = f"Update outputs {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-    subprocess.run(["git", "commit", "-m", commit_message], check=True)
-    subprocess.run(["git", "push"], check=True)
+    # push_to_github()
+
+    # Print execution time
+    end_time = time.time()
+    print(f"RUN_ALL End time: {end_time:.2f} seconds")
+    duration = end_time - start_time
+    print(f"RUN_ALL Execution time: {duration:.2f} seconds")
 
 if __name__ == "__main__":
-    main()
+    push_to_github()
+
+

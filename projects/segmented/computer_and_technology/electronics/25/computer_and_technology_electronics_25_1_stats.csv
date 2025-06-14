@@ -1,25 +1,25 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ACLS,Computer and Technology,Electronics - Manufacturing Machinery,0.55,249000.0,1. p999999_trade_value,1.0,329,25__0,25,0.0,19848.0,38619.0,113942.6,233964.15,247496.42,248849.64,248984.96
-ALGM,Computer and Technology,Electronics - Semiconductors,0.55,,,,317,25__0,25,0.0,15466.0,22636.0,80884.8,660780.0,673578.0,674857.8,674985.78
-AMBA,Computer and Technology,Electronics - Semiconductors,0.55,7439.999999999999,8. p75_trade_value,135.0,540,25__0,25,0.0,12000.0,18505.65,31037.5,307489.8,482998.98,500549.9,502304.99
-AMSC,Computer and Technology,Electronics - Miscellaneous Components,0.55,,,,324,25__0,25,0.0,11096.0,16163.1,44735.35,135140.28,156706.73,158863.37,159079.04
-CAMT,Computer and Technology,Electronics - Measuring Instruments,0.55,40999.99999999999,1. p999999_trade_value,1.0,222,25__0,25,0.0,11732.8,16760.0,25890.8,39232.0,40823.2,40982.32,40998.23
-CRUS,Computer and Technology,Electronics - Semiconductors,0.55,259870.00000000003,5. p99_trade_value,3.0,299,25__0,25,0.0,16392.0,27378.0,201197.4,925868.87,1169886.89,1194288.69,1196728.87
-ENTG,Computer and Technology,Electronics - Manufacturing Machinery,0.55,,,,317,25__2,25,2.0,19872.0,44688.0,340000.0,392750.0,410525.0,412302.5,412480.25
-FLEX,Computer and Technology,Electronics - Miscellaneous Products,0.55,170170.0,1. p999999_trade_value,1.0,213,25__2,25,2.0,29984.0,65000.0,117094.8,162713.96,169424.4,170095.44,170162.54
-FN,Computer and Technology,Electronics - Miscellaneous Components,0.55,,,,336,25__2,25,2.0,21080.0,42862.5,470920.0,1364224.0,1564902.4,1584970.24,1586977.02
-HIMX,Computer and Technology,Electronics - Semiconductors,0.55,,,,241,25__0,25,0.0,13695.0,17760.0,27940.0,49024.0,53862.4,54346.24,54394.62
-IESC,Computer and Technology,Electronics - Miscellaneous Services,0.55,26000.0,6. p95_trade_value,23.0,441,25__0,25,0.0,19720.0,26000.0,123600.0,220424.0,224542.4,224954.24,224995.42
-KEYS,Computer and Technology,Electronics - Measuring Instruments,0.55,270000.0,1. p999999_trade_value,1.0,196,25__0,25,0.0,10920.0,18977.5,183308.25,255181.95,268518.2,269851.82,269985.18
-LAES,Computer and Technology,Electronics - Semiconductors,0.55,,,,237,25__0,25,0.0,14160.0,20000.0,33254.0,42437.7,43483.77,43588.38,43598.84
-LSCC,Computer and Technology,Electronics - Semiconductors,0.55,994725.0,1. p999999_trade_value,1.0,363,25__0,25,0.0,14076.0,19036.8,35841.5,658226.09,961075.11,991360.01,994388.5
-NVMI,Computer and Technology,Electronics - Semiconductors,0.55,30000.0,6. p95_trade_value,12.0,211,25__0,25,0.0,15065.0,30000.0,47520.0,69160.9,71941.09,72219.11,72246.91
-OLED,Computer and Technology,Electronics - Miscellaneous Components,0.55,399839.99999999994,1. p999999_trade_value,1.0,341,25__0,25,0.0,15840.0,27300.0,117086.0,344814.4,394337.44,399289.74,399784.97
-PI,Computer and Technology,Electronics - Semiconductors,0.55,22999.999999999996,6. p95_trade_value,21.0,408,25__0,25,0.0,15096.0,22825.0,45982.88,59481.54,60866.15,61004.62,61018.46
-QSI,Computer and Technology,Electronics - Semiconductors,0.55,,,,292,25__0,25,0.0,10045.0,14913.75,26043.32,43938.28,47421.03,47769.3,47804.13
-RMBS,Computer and Technology,Electronics - Semiconductors,0.55,19500.0,6. p95_trade_value,11.0,208,25__0,25,0.0,12701.4,18511.25,37800.45,130894.2,147549.42,149214.94,149381.49
-ROK,Computer and Technology,Electronics - Miscellaneous Products,0.55,,,,453,25__0,25,0.0,16174.0,36176.0,115883.88,262312.0,341231.2,349123.12,349912.31
-TEL,Computer and Technology,Electronics - Miscellaneous Components,0.55,61495.00000000001,1. p999999_trade_value,1.0,179,25__0,25,0.0,8904.0,12028.5,30712.0,56237.77,60969.28,61442.43,61489.74
-TSEM,Computer and Technology,Electronics - Semiconductors,0.55,487500.0,1. p999999_trade_value,1.0,269,25__0,25,0.0,20532.0,37341.0,150648.0,428978.45,481647.84,486914.78,487441.48
-VICR,Computer and Technology,Electronics - Miscellaneous Components,0.55,250000.0,1. p999999_trade_value,1.0,318,25__0,25,0.0,18848.0,23051.0,44839.27,195054.39,244505.44,249450.54,249945.05
-WCC,Computer and Technology,Electronics - Parts Distribution,0.55,8280.0,8. p75_trade_value,133.0,527,25__0,25,0.0,14410.0,20442.0,103564.0,565706.0,598370.6,601637.06,601963.71
+ACLS,Computer and Technology,Electronics - Manufacturing Machinery,0.75,249000.0,1. p999999_trade_value,1.0,329,25__0,25,0.0,19848.0,38619.0,113942.6,233964.15,247496.42,248849.64,248984.96
+ALGM,Computer and Technology,Electronics - Semiconductors,0.75,,,,317,25__0,25,0.0,15466.0,22636.0,80884.8,660780.0,673578.0,674857.8,674985.78
+AMBA,Computer and Technology,Electronics - Semiconductors,0.75,7439.999999999999,8. p75_trade_value,135.0,540,25__0,25,0.0,12000.0,18505.65,31037.5,307489.8,482998.98,500549.9,502304.99
+AMSC,Computer and Technology,Electronics - Miscellaneous Components,0.75,,,,324,25__0,25,0.0,11096.0,16163.1,44735.35,135140.28,156706.73,158863.37,159079.04
+CAMT,Computer and Technology,Electronics - Measuring Instruments,0.75,40999.99999999999,1. p999999_trade_value,1.0,222,25__0,25,0.0,11732.8,16760.0,25890.8,39232.0,40823.2,40982.32,40998.23
+CRUS,Computer and Technology,Electronics - Semiconductors,0.75,259870.00000000003,5. p99_trade_value,3.0,299,25__0,25,0.0,16392.0,27378.0,201197.4,925868.87,1169886.89,1194288.69,1196728.87
+ENTG,Computer and Technology,Electronics - Manufacturing Machinery,0.75,,,,317,25__2,25,2.0,19872.0,44688.0,340000.0,392750.0,410525.0,412302.5,412480.25
+FLEX,Computer and Technology,Electronics - Miscellaneous Products,0.75,170170.0,1. p999999_trade_value,1.0,213,25__2,25,2.0,29984.0,65000.0,117094.8,162713.96,169424.4,170095.44,170162.54
+FN,Computer and Technology,Electronics - Miscellaneous Components,0.75,,,,336,25__2,25,2.0,21080.0,42862.5,470920.0,1364224.0,1564902.4,1584970.24,1586977.02
+HIMX,Computer and Technology,Electronics - Semiconductors,0.75,,,,241,25__0,25,0.0,13695.0,17760.0,27940.0,49024.0,53862.4,54346.24,54394.62
+IESC,Computer and Technology,Electronics - Miscellaneous Services,0.75,126000.0,5. p99_trade_value,5.0,441,25__0,25,0.0,19720.0,26000.0,123600.0,220424.0,224542.4,224954.24,224995.42
+KEYS,Computer and Technology,Electronics - Measuring Instruments,0.75,270000.0,1. p999999_trade_value,1.0,196,25__0,25,0.0,10920.0,18977.5,183308.25,255181.95,268518.2,269851.82,269985.18
+LAES,Computer and Technology,Electronics - Semiconductors,0.75,,,,237,25__0,25,0.0,14160.0,20000.0,33254.0,42437.7,43483.77,43588.38,43598.84
+LSCC,Computer and Technology,Electronics - Semiconductors,0.75,994725.0,1. p999999_trade_value,1.0,363,25__0,25,0.0,14076.0,19036.8,35841.5,658226.09,961075.11,991360.01,994388.5
+NVMI,Computer and Technology,Electronics - Semiconductors,0.75,30000.0,6. p95_trade_value,12.0,211,25__0,25,0.0,15065.0,30000.0,47520.0,69160.9,71941.09,72219.11,72246.91
+OLED,Computer and Technology,Electronics - Miscellaneous Components,0.75,399839.99999999994,1. p999999_trade_value,1.0,341,25__0,25,0.0,15840.0,27300.0,117086.0,344814.4,394337.44,399289.74,399784.97
+PI,Computer and Technology,Electronics - Semiconductors,0.75,46250.0,5. p99_trade_value,5.0,408,25__0,25,0.0,15096.0,22825.0,45982.88,59481.54,60866.15,61004.62,61018.46
+QSI,Computer and Technology,Electronics - Semiconductors,0.75,,,,292,25__0,25,0.0,10045.0,14913.75,26043.32,43938.28,47421.03,47769.3,47804.13
+RMBS,Computer and Technology,Electronics - Semiconductors,0.75,19500.0,6. p95_trade_value,11.0,208,25__0,25,0.0,12701.4,18511.25,37800.45,130894.2,147549.42,149214.94,149381.49
+ROK,Computer and Technology,Electronics - Miscellaneous Products,0.75,,,,453,25__0,25,0.0,16174.0,36176.0,115883.88,262312.0,341231.2,349123.12,349912.31
+TEL,Computer and Technology,Electronics - Miscellaneous Components,0.75,61495.00000000001,1. p999999_trade_value,1.0,179,25__0,25,0.0,8904.0,12028.5,30712.0,56237.77,60969.28,61442.43,61489.74
+TSEM,Computer and Technology,Electronics - Semiconductors,0.75,487500.0,1. p999999_trade_value,1.0,269,25__0,25,0.0,20532.0,37341.0,150648.0,428978.45,481647.84,486914.78,487441.48
+VICR,Computer and Technology,Electronics - Miscellaneous Components,0.75,250000.0,1. p999999_trade_value,1.0,318,25__0,25,0.0,18848.0,23051.0,44839.27,195054.39,244505.44,249450.54,249945.05
+WCC,Computer and Technology,Electronics - Parts Distribution,0.75,20460.0,6. p95_trade_value,27.0,527,25__0,25,0.0,14410.0,20442.0,103564.0,565706.0,598370.6,601637.06,601963.71

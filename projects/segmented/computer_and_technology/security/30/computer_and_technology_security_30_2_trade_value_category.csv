@@ -1,12 +1,12 @@
 security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-CYBR,Computer and Technology,Security,30__2,30,2.0,1. p999999_trade_value,177100.0,177100.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-CYBR,Computer and Technology,Security,30__2,30,2.0,5. p99_trade_value,171000.0,76500.0,3.0,8.0,0.375,0.55,2. BELOW BASELINE,4.0,9.0,0.4444444444444444
-CYBR,Computer and Technology,Security,30__2,30,2.0,6. p95_trade_value,54000.0,23600.0,14.0,33.0,0.42424242424242425,0.55,2. BELOW BASELINE,18.0,42.0,0.42857142857142855
-CYBR,Computer and Technology,Security,30__2,30,2.0,7. p90_trade_value,23400.0,15000.0,24.0,41.0,0.5853658536585366,0.55,2. BELOW BASELINE,42.0,83.0,0.5060240963855421
-CYBR,Computer and Technology,Security,30__2,30,2.0,8. p75_trade_value,14950.0,9360.0,71.0,128.0,0.5546875,0.55,2. BELOW BASELINE,113.0,211.0,0.5355450236966824
-S,Computer and Technology,Security,30__2,30,2.0,1. p999999_trade_value,225000.0,225000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-S,Computer and Technology,Security,30__2,30,2.0,4. p999_trade_value,170000.00000000003,170000.00000000003,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-S,Computer and Technology,Security,30__2,30,2.0,5. p99_trade_value,154000.00000000003,66000.0,1.0,10.0,0.1,0.55,2. BELOW BASELINE,2.0,12.0,0.16666666666666666
-S,Computer and Technology,Security,30__2,30,2.0,6. p95_trade_value,64000.0,24528.0,19.0,45.0,0.4222222222222222,0.55,2. BELOW BASELINE,21.0,57.0,0.3684210526315789
-S,Computer and Technology,Security,30__2,30,2.0,7. p90_trade_value,24000.0,14580.000000000002,21.0,57.0,0.3684210526315789,0.55,2. BELOW BASELINE,42.0,114.0,0.3684210526315789
-S,Computer and Technology,Security,30__2,30,2.0,8. p75_trade_value,14575.0,8034.0,51.0,169.0,0.30177514792899407,0.55,2. BELOW BASELINE,93.0,283.0,0.3286219081272085
+CYBR,Computer and Technology,Security,30__2,30,2.0,1. p999999_trade_value,177100.0,177100.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+CYBR,Computer and Technology,Security,30__2,30,2.0,5. p99_trade_value,171000.0,76500.0,3.0,8.0,0.375,0.75,2. BELOW BASELINE,4.0,9.0,0.4444444444444444
+CYBR,Computer and Technology,Security,30__2,30,2.0,6. p95_trade_value,54000.0,23600.0,14.0,33.0,0.42424242424242425,0.75,2. BELOW BASELINE,18.0,42.0,0.42857142857142855
+CYBR,Computer and Technology,Security,30__2,30,2.0,7. p90_trade_value,23400.0,15000.0,24.0,41.0,0.5853658536585366,0.75,2. BELOW BASELINE,42.0,83.0,0.5060240963855421
+CYBR,Computer and Technology,Security,30__2,30,2.0,8. p75_trade_value,14950.0,9360.0,71.0,128.0,0.5546875,0.75,2. BELOW BASELINE,113.0,211.0,0.5355450236966824
+S,Computer and Technology,Security,30__2,30,2.0,1. p999999_trade_value,225000.0,225000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+S,Computer and Technology,Security,30__2,30,2.0,4. p999_trade_value,170000.00000000003,170000.00000000003,0.0,1.0,0.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
+S,Computer and Technology,Security,30__2,30,2.0,5. p99_trade_value,154000.00000000003,66000.0,1.0,10.0,0.1,0.75,2. BELOW BASELINE,2.0,12.0,0.16666666666666666
+S,Computer and Technology,Security,30__2,30,2.0,6. p95_trade_value,64000.0,24528.0,19.0,45.0,0.4222222222222222,0.75,2. BELOW BASELINE,21.0,57.0,0.3684210526315789
+S,Computer and Technology,Security,30__2,30,2.0,7. p90_trade_value,24000.0,14580.000000000002,21.0,57.0,0.3684210526315789,0.75,2. BELOW BASELINE,42.0,114.0,0.3684210526315789
+S,Computer and Technology,Security,30__2,30,2.0,8. p75_trade_value,14575.0,8034.0,51.0,169.0,0.30177514792899407,0.75,2. BELOW BASELINE,93.0,283.0,0.3286219081272085

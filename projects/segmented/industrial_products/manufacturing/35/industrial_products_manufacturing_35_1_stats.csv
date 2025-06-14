@@ -1,2 +1,2 @@
 security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ETN,Industrial Products,Manufacturing - Electronics,0.55,105000.0,5. p99_trade_value,42.0,4076,35__0,35,0.0,13520.0,22916.25,105000.0,474066.75,978692.5,1096869.25,1108686.92
+ETN,Industrial Products,Manufacturing - Electronics,0.75,480000.0,4. p999_trade_value,5.0,4076,35__0,35,0.0,13520.0,22916.25,105000.0,474066.75,978692.5,1096869.25,1108686.92
