@@ -1,0 +1,23 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+EMR,Industrial Products,Manufacturing - Electronics,30__0,30,0.0,1. p999999_trade_value,427500.0,427500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+EMR,Industrial Products,Manufacturing - Electronics,30__0,30,0.0,5. p99_trade_value,336980.0,187500.0,4.0,7.0,0.5714285714285714,0.55,2. BELOW BASELINE,4.0,8.0,0.5
+EMR,Industrial Products,Manufacturing - Electronics,30__0,30,0.0,6. p95_trade_value,140000.0,28000.0,11.0,30.0,0.36666666666666664,0.55,2. BELOW BASELINE,15.0,38.0,0.39473684210526316
+EMR,Industrial Products,Manufacturing - Electronics,30__0,30,0.0,7. p90_trade_value,27750.0,15600.0,16.0,38.0,0.42105263157894735,0.55,2. BELOW BASELINE,31.0,76.0,0.40789473684210525
+EMR,Industrial Products,Manufacturing - Electronics,30__0,30,0.0,8. p75_trade_value,15225.0,7500.0,52.0,114.0,0.45614035087719296,0.55,2. BELOW BASELINE,83.0,190.0,0.4368421052631579
+GNRC,Industrial Products,Manufacturing - General Industrial ,30__0,30,0.0,1. p999999_trade_value,120000.0,120000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+GNRC,Industrial Products,Manufacturing - General Industrial ,30__0,30,0.0,5. p99_trade_value,105750.0,68100.0,4.0,8.0,0.5,0.55,2. BELOW BASELINE,4.0,9.0,0.4444444444444444
+GNRC,Industrial Products,Manufacturing - General Industrial ,30__0,30,0.0,6. p95_trade_value,65340.0,26156.0,22.0,35.0,0.6285714285714286,0.55,2. BELOW BASELINE,26.0,44.0,0.5909090909090909
+GNRC,Industrial Products,Manufacturing - General Industrial ,30__0,30,0.0,7. p90_trade_value,25600.0,15040.0,27.0,43.0,0.627906976744186,0.55,2. BELOW BASELINE,53.0,87.0,0.6091954022988506
+GNRC,Industrial Products,Manufacturing - General Industrial ,30__0,30,0.0,8. p75_trade_value,15000.0,7700.0,75.0,131.0,0.5725190839694656,0.55,2. BELOW BASELINE,128.0,218.0,0.5871559633027523
+PH,Industrial Products,Manufacturing - General Industrial ,30__2,30,2.0,1. p999999_trade_value,1917500.0,1917500.0,0.0,1.0,0.0,0.55,1. ABOVE BASELINE,0.0,1.0,0.0
+PH,Industrial Products,Manufacturing - General Industrial ,30__2,30,2.0,4. p999_trade_value,1021650.0,1021650.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,2.0,0.5
+PH,Industrial Products,Manufacturing - General Industrial ,30__2,30,2.0,5. p99_trade_value,918750.0,284000.0,5.0,9.0,0.5555555555555556,0.55,1. ABOVE BASELINE,6.0,11.0,0.5454545454545454
+PH,Industrial Products,Manufacturing - General Industrial ,30__2,30,2.0,6. p95_trade_value,274000.0,51750.0,14.0,42.0,0.3333333333333333,0.55,2. BELOW BASELINE,20.0,53.0,0.37735849056603776
+PH,Industrial Products,Manufacturing - General Industrial ,30__2,30,2.0,7. p90_trade_value,51576.0,28480.0,29.0,52.0,0.5576923076923077,0.55,2. BELOW BASELINE,49.0,105.0,0.4666666666666667
+PH,Industrial Products,Manufacturing - General Industrial ,30__2,30,2.0,8. p75_trade_value,28000.0,11330.000000000002,73.0,156.0,0.46794871794871795,0.55,2. BELOW BASELINE,122.0,261.0,0.4674329501915709
+POWL,Industrial Products,Manufacturing - Electronics,30__0,30,0.0,1. p999999_trade_value,444000.0,444000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+POWL,Industrial Products,Manufacturing - Electronics,30__0,30,0.0,4. p999_trade_value,345000.0,345000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+POWL,Industrial Products,Manufacturing - Electronics,30__0,30,0.0,5. p99_trade_value,66850.0,43529.0,6.0,13.0,0.46153846153846156,0.55,2. BELOW BASELINE,8.0,15.0,0.5333333333333333
+POWL,Industrial Products,Manufacturing - Electronics,30__0,30,0.0,6. p95_trade_value,43000.0,20800.0,27.0,51.0,0.5294117647058824,0.55,2. BELOW BASELINE,35.0,66.0,0.5303030303030303
+POWL,Industrial Products,Manufacturing - Electronics,30__0,30,0.0,7. p90_trade_value,20700.0,13401.0,37.0,66.0,0.5606060606060606,0.55,2. BELOW BASELINE,72.0,132.0,0.5454545454545454
+POWL,Industrial Products,Manufacturing - Electronics,30__0,30,0.0,8. p75_trade_value,13400.0,7590.000000000001,102.0,198.0,0.5151515151515151,0.55,2. BELOW BASELINE,174.0,330.0,0.5272727272727272

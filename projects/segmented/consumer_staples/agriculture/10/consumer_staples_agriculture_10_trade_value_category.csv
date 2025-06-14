@@ -1,0 +1,8 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+AGRO,Consumer Staples,Agriculture - Operations,10__0,10,0.0,1. p999999_trade_value,22920.0,22920.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+AGRO,Consumer Staples,Agriculture - Operations,10__0,10,0.0,8. p75_trade_value,4520.0,4520.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+CVGW,Consumer Staples,Agriculture - Operations,10__0,10,0.0,1. p999999_trade_value,9500.0,9500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CVGW,Consumer Staples,Agriculture - Operations,10__0,10,0.0,7. p90_trade_value,9025.0,9025.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+CVGW,Consumer Staples,Agriculture - Operations,10__0,10,0.0,8. p75_trade_value,6500.0,5250.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,3.0,4.0,0.75
+LMNR,Consumer Staples,Agriculture - Operations,10__0,10,0.0,1. p999999_trade_value,6900.0,6900.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+LMNR,Consumer Staples,Agriculture - Operations,10__0,10,0.0,8. p75_trade_value,5889.0,4025.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666

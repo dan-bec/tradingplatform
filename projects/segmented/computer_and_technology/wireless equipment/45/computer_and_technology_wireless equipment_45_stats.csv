@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ASTS,Computer and Technology,Wireless Equipment,0.55,497000.0,1. p999999_trade_value,1.0,20844,45__0,45,0.0,15400.0,23117.6,57000.0,170437.79,365815.59,492414.54,496541.45

@@ -1,0 +1,17 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+BUD,Consumer Staples,Beverages - Alcohol,0.55,165000.00000000003,1. p999999_trade_value,1.0,286,25__1,25,1.0,17450.0,28995.0,79050.0,152175.0,163717.5,164871.75,164987.17
+CCEP,Consumer Staples,Beverages - Soft drinks,0.55,,,,69,20__0,20,0.0,12094.0,13843.0,77603.2,162906.82,171437.18,172290.22,172375.52
+COCO,Consumer Staples,Beverages - Soft drinks,0.55,,,,6,10__0,10,0.0,12525.0,14137.5,15427.5,15717.75,15746.78,15749.68,15749.97
+DEO,Consumer Staples,Beverages - Alcohol,0.55,,,,110,20__0,20,0.0,11500.0,15173.0,34503.3,46192.55,47369.25,47486.93,47498.69
+FIZZ,Consumer Staples,Beverages - Soft drinks,0.55,,,,7,10__0,10,0.0,7248.0,9684.0,11632.8,12071.28,12115.13,12119.51,12119.95
+FMX,Consumer Staples,Beverages - Soft drinks,0.55,11130.000000000002,8. p75_trade_value,3.0,9,10__0,10,0.0,18692.6,22157.8,24929.96,25553.7,25616.07,25622.31,25622.93
+KDP,Consumer Staples,Beverages - Soft drinks,0.55,,,,149,20__0,20,0.0,18220.0,26700.0,110606.4,199952.7,213202.77,214527.78,214660.28
+KO,Consumer Staples,Beverages - Soft drinks,0.55,,,,4532,35__0,35,0.0,14705.5,22582.5,65690.0,205932.86,396411.78,435641.18,439564.12
+MGPI,Consumer Staples,Beverages - Alcohol,0.55,20910.0,8. p75_trade_value,3.0,11,10__0,10,0.0,22500.0,65407.5,99733.5,107456.85,108229.19,108306.42,108314.14
+MNST,Consumer Staples,Beverages - Soft drinks,0.55,715000.0,1. p999999_trade_value,1.0,744,30__2,30,2.0,20780.0,34279.2,236748.34,607265.0,704226.5,713922.65,714892.26
+PEP,Consumer Staples,Beverages - Soft drinks,0.55,,,,5140,35__0,35,0.0,14000.0,21851.45,59820.6,196547.25,287473.47,293347.35,293934.73
+PRMB,Consumer Staples,Beverages - Soft drinks,0.55,,,,151,20__0,20,0.0,15660.0,23447.5,115481.0,130962.0,130962.0,130962.0,130962.0
+SAM,Consumer Staples,Beverages - Alcohol,0.55,129150.0,1. p999999_trade_value,1.0,187,25__1,25,1.0,15676.0,19772.3,74123.8,121981.56,128433.16,129078.32,129142.83
+STZ,Consumer Staples,Beverages - Alcohol,0.55,8000.0,8. p75_trade_value,472.0,1873,35__0,35,0.0,14652.0,20244.0,103656.32,487414.08,503677.79,504543.78,504630.38
+TAP,Consumer Staples,Beverages - Alcohol,0.55,67500.0,5. p99_trade_value,2.0,155,20__0,20,0.0,14303.6,20247.0,65139.12,124605.0,133960.5,134896.05,134989.6
+ZVIA,Consumer Staples,Beverages - Soft drinks,0.55,,,,5,5__0,5,0.0,7500.0,7500.0,7500.0,7500.0,7500.0,7500.0,7500.0

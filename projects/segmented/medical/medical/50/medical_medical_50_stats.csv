@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+UNH,Medical,Medical - HMOs,0.55,69750.0,5. p99_trade_value,818.0,81772,50__3,50,3.0,16200.0,26001.8,69714.5,227867.32,562697.7,1456634.08,1578278.91

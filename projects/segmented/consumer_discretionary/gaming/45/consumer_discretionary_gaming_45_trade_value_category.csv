@@ -1,0 +1,8 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+GME,Consumer Discretionary,Gaming,45__0,45,0.0,1. p999999_trade_value,2946192.9999999995,2946192.9999999995,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+GME,Consumer Discretionary,Gaming,45__0,45,0.0,3. p9999_trade_value,1968782.9999999998,596250.0,0.0,5.0,0.0,0.55,2. BELOW BASELINE,0.0,6.0,0.0
+GME,Consumer Discretionary,Gaming,45__0,45,0.0,4. p999_trade_value,416500.0,151962.0,8.0,45.0,0.17777777777777778,0.55,2. BELOW BASELINE,8.0,51.0,0.1568627450980392
+GME,Consumer Discretionary,Gaming,45__0,45,0.0,5. p99_trade_value,151696.0,49920.0,152.0,458.0,0.3318777292576419,0.55,2. BELOW BASELINE,160.0,509.0,0.3143418467583497
+GME,Consumer Discretionary,Gaming,45__0,45,0.0,6. p95_trade_value,49900.0,21167.999999999996,696.0,2032.0,0.3425196850393701,0.55,2. BELOW BASELINE,856.0,2541.0,0.33687524596615503
+GME,Consumer Discretionary,Gaming,45__0,45,0.0,7. p90_trade_value,21150.0,14092.000000000002,862.0,2541.0,0.33923652105470287,0.55,2. BELOW BASELINE,1718.0,5082.0,0.338055883510429
+GME,Consumer Discretionary,Gaming,45__0,45,0.0,8. p75_trade_value,14088.999999999998,8000.0,2748.0,7660.0,0.3587467362924282,0.55,2. BELOW BASELINE,4466.0,12742.0,0.3504944278763146

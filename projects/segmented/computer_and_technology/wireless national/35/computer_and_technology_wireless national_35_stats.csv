@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+T,Computer and Technology,Wireless National,0.55,8483.000000000002,8. p75_trade_value,549.0,2193,35__3,35,3.0,16386.0,25940.0,73983.2,162542.21,632479.52,715095.45,723357.05
+TMUS,Computer and Technology,Wireless National,0.55,252000.0,4. p999_trade_value,4.0,3909,35__4,35,4.0,14520.0,23005.4,66968.0,237012.55,1328648.85,1834202.38,1884757.74
+VZ,Computer and Technology,Wireless National,0.55,7452.000000000001,8. p75_trade_value,981.0,3921,35__0,35,0.0,12992.0,21070.0,59066.4,214957.0,329024.0,338902.4,339890.24

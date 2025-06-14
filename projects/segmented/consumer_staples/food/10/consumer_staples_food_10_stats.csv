@@ -1,0 +1,9 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+BGS,Consumer Staples,Food - Miscellaneous,0.55,10430.0,7. p90_trade_value,2.0,12,10__0,10,0.0,10021.0,11118.5,11791.7,11943.17,11958.32,11959.83,11959.98
+BRBR,Consumer Staples,Food - Miscellaneous,0.55,,,,14,10__2,10,2.0,23125.0,70010.0,136882.0,151928.2,153432.82,153583.28,153598.33
+INGR,Consumer Staples,Food - Miscellaneous,0.55,,,,7,10__0,10,0.0,5300.0,5300.0,5300.0,5300.0,5300.0,5300.0,5300.0
+LANC,Consumer Staples,Food - Miscellaneous,0.55,4300.0,8. p75_trade_value,5.0,10,10__0,10,0.0,10173.5,12236.75,13887.35,14258.73,14295.87,14299.59,14299.96
+MAMA,Consumer Staples,Food - Miscellaneous,0.55,10700.0,1. p999999_trade_value,1.0,8,10__0,10,0.0,6710.0,8705.0,10301.0,10660.1,10696.01,10699.6,10699.96
+MED,Consumer Staples,Food - Miscellaneous,0.55,9504.0,7. p90_trade_value,2.0,15,10__0,10,0.0,9202.4,9952.8,10790.56,10979.06,10997.91,10999.79,10999.98
+POST,Consumer Staples,Food - Miscellaneous,0.55,8400.0,8. p75_trade_value,4.0,14,10__0,10,0.0,8526.0,12137.75,17423.55,18612.86,18731.79,18743.68,18744.87
+SMPL,Consumer Staples,Food - Confectionery,0.55,,,,12,10__0,10,0.0,15500.0,19786.0,23957.2,24895.72,24989.57,24998.96,24999.9

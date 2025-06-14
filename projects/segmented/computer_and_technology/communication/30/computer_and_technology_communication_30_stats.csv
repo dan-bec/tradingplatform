@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+CIEN,Computer and Technology,Communication - Components,0.55,,,,1164,30__0,30,0.0,16005.6,24969.25,98724.0,217300.82,373244.27,391447.43,393267.74
+GLW,Computer and Technology,Communication - Components,0.55,,,,1023,30__2,30,2.0,19194.0,38490.0,141072.4,806941.15,880851.09,887085.31,887708.73
+LITE,Computer and Technology,Communication - Components,0.55,9430.0,8. p75_trade_value,225.0,899,30__2,30,2.0,19040.0,33243.0,127295.7,400980.0,1201098.0,1281109.8,1289110.98

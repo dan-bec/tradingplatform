@@ -1,0 +1,4 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+DLB,Consumer Discretionary,Audio Video Production,5__0,5,0.0,1. p999999_trade_value,6160.0,6160.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+GPRO,Consumer Discretionary,Audio Video Production,5__0,5,0.0,1. p999999_trade_value,4980.0,4980.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SOGP,Consumer Discretionary,Audio Video Production,5__0,5,0.0,1. p999999_trade_value,4500.0,4500.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0

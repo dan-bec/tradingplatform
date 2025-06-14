@@ -1,0 +1,5 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AVY,Industrial Products,Containers - Paper and Packaging,0.55,,,,28,15__0,15,0.0,7867.8,11941.2,16658.4,17649.84,17748.98,17758.9,17759.89
+BALL,Industrial Products,Containers - Metal and Glass,0.55,,,,46,15__0,15,0.0,18159.0,56570.0,242881.5,263913.15,266016.32,266226.63,266247.66
+PACK,Industrial Products,Containers - Paper and Packaging,0.55,,,,23,15__0,15,0.0,8600.0,9596.0,9931.8,9993.18,9999.32,9999.93,9999.99
+UFPT,Industrial Products,Containers - Paper and Packaging,0.55,,,,24,15__0,15,0.0,18900.0,23294.5,36336.1,39633.61,39963.36,39996.34,39999.63

@@ -1,0 +1,5 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AAL,Transportation,Transportation - Airline,0.55,14807.000000000002,7. p90_trade_value,409.0,4084,35__4,35,4.0,14806.4,23795.0,87630.62,817008.0,1012610.4,1127261.04,1138726.1
+CAR,Transportation,Transportation - Services,0.55,552500.0,4. p999_trade_value,4.0,3463,35__4,35,4.0,14070.0,23997.0,72140.48,493595.0,999875.8,1059387.58,1065338.76
+LUV,Transportation,Transportation - Airline,0.55,40000.0,6. p95_trade_value,92.0,1839,35__1,35,1.0,21782.4,39977.5,122158.72,398360.8,463055.3,469305.53,469930.55
+ZIM,Transportation,Transportation - Shipping,0.55,22599.999999999996,6. p95_trade_value,163.0,3258,35__0,35,0.0,15750.0,22501.4,48750.0,219162.48,389105.08,416910.51,419691.05

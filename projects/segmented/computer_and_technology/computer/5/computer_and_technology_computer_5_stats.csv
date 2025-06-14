@@ -1,0 +1,5 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ACIW,Computer and Technology,Computer - Software,0.55,5216.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,5044.4,5130.2,5198.84,5214.28,5215.83,5215.98,5216.0
+LTRX,Computer and Technology,Computer - Networking,0.55,,,,2,5__0,5,0.0,4903.5,4919.25,4931.85,4934.68,4934.97,4935.0,4935.0
+PDFS,Computer and Technology,Computer - Services,0.55,10000.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,9495.0,9747.5,9949.5,9994.95,9999.5,9999.95,9999.99
+SPNS,Computer and Technology,Computer - Software,0.55,,,,2,5__0,5,0.0,3192.0,3196.0,3199.2,3199.92,3199.99,3200.0,3200.0

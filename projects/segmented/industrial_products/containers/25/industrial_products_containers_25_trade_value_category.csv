@@ -1,0 +1,6 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CCK,Industrial Products,Containers - Metal and Glass,25__0,25,0.0,1. p999999_trade_value,638820.0000000001,638820.0000000001,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CCK,Industrial Products,Containers - Metal and Glass,25__0,25,0.0,5. p99_trade_value,616680.0,513900.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+CCK,Industrial Products,Containers - Metal and Glass,25__0,25,0.0,6. p95_trade_value,414050.0,38595.0,6.0,12.0,0.5,0.55,2. BELOW BASELINE,7.0,15.0,0.4666666666666667
+CCK,Industrial Products,Containers - Metal and Glass,25__0,25,0.0,7. p90_trade_value,38346.0,18096.0,10.0,14.0,0.7142857142857143,0.55,2. BELOW BASELINE,17.0,29.0,0.5862068965517241
+CCK,Industrial Products,Containers - Metal and Glass,25__0,25,0.0,8. p75_trade_value,18090.0,8740.0,24.0,43.0,0.5581395348837209,0.55,2. BELOW BASELINE,41.0,72.0,0.5694444444444444

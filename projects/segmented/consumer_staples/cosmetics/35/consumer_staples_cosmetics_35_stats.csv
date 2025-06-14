@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+EL,Consumer Staples,Cosmetics,0.55,358920.0,4. p999_trade_value,4.0,3112,35__4,35,4.0,15491.0,27143.45,126000.0,356597.88,1068783.0,1200378.3,1213537.83

@@ -1,0 +1,6 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AUR,Business Services,Technology Services,0.55,,,,601,30__0,30,0.0,13500.0,19305.0,55000.0,196264.4,332971.34,346642.03,348009.1
+BTDR,Business Services,Technology Services,0.55,10528.000000000002,8. p75_trade_value,423.0,1692,30__0,30,0.0,19595.0,30000.0,70075.8,194959.6,344348.49,358348.45,359748.44
+DAVE,Business Services,Technology Services,0.55,,,,928,30__0,30,0.0,15430.0,29707.5,74400.0,199267.15,282321.71,290627.17,291457.72
+GDS,Business Services,Technology Services,0.55,70000.0,5. p99_trade_value,10.0,923,30__0,30,0.0,16440.0,24849.6,69903.42,201394.04,229522.6,232335.46,232616.75
+SYM,Business Services,Technology Services,0.55,,,,1364,30__0,30,0.0,17000.0,26242.5,90321.0,250257.8,623997.49,669899.75,674489.97

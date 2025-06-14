@@ -1,0 +1,38 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+BGS,Consumer Staples,Food - Miscellaneous,0.55,10430.0,7. p90_trade_value,2.0,12,10__0,10,0.0,10021.0,11118.5,11791.7,11943.17,11958.32,11959.83,11959.98
+BRBR,Consumer Staples,Food - Miscellaneous,0.55,,,,14,10__2,10,2.0,23125.0,70010.0,136882.0,151928.2,153432.82,153583.28,153598.33
+BRFS,Consumer Staples,Food - Miscellaneous,0.55,,,,1,0__0,0,0.0,4920.0,4920.0,4920.0,4920.0,4920.0,4920.0,4920.0
+BYND,Consumer Staples,Food - Meat Products,0.55,,,,473,25__1,25,1.0,13549.0,21120.0,98466.48,156695.2,174069.52,175806.95,175980.7
+CAG,Consumer Staples,Food - Miscellaneous,0.55,8710.0,8. p75_trade_value,34.0,133,20__0,20,0.0,16304.0,22800.0,37500.0,48350.0,49835.0,49983.5,49998.35
+CELH,Consumer Staples,Food - Miscellaneous,0.55,900000.0,1. p999999_trade_value,1.0,11334,40__1,40,1.0,14498.5,21950.25,59612.82,271507.83,542614.68,860107.84,896010.78
+CHEF,Consumer Staples,Food - Miscellaneous,0.55,38750.0,7. p90_trade_value,2.0,19,15__0,15,0.0,37750.0,40633.5,54194.7,57245.97,57551.1,57581.61,57584.66
+CPB,Consumer Staples,Food - Miscellaneous,0.55,,,,205,25__1,25,1.0,20420.0,40351.2,138898.88,278006.81,309108.28,312218.43,312529.44
+DAR,Consumer Staples,Food - Miscellaneous,0.55,,,,165,20__0,20,0.0,14378.0,31320.8,62448.0,76163.2,77816.32,77981.63,77998.16
+FLO,Consumer Staples,Food - Miscellaneous,0.55,,,,1,0__0,0,0.0,3700.0,3700.0,3700.0,3700.0,3700.0,3700.0,3700.0
+FRPT,Consumer Staples,Food - Miscellaneous,0.55,247625.0,5. p99_trade_value,5.0,467,25__1,25,1.0,17343.0,41596.5,199577.0,525270.7,552972.07,555742.21,556019.22
+GIS,Consumer Staples,Food - Miscellaneous,0.55,300000.0,1. p999999_trade_value,1.0,462,25__1,25,1.0,17833.5,26136.75,102680.7,239701.2,293970.12,299397.01,299939.7
+HAIN,Consumer Staples,Food - Miscellaneous,0.55,4860.0,1. p999999_trade_value,1.0,3,5__0,5,0.0,4788.0,4824.0,4852.8,4859.28,4859.93,4859.99,4860.0
+HRL,Consumer Staples,Food - Meat Products,0.55,6800.0,8. p75_trade_value,21.0,82,20__1,20,1.0,14850.0,62092.5,319186.82,372343.68,377659.37,378190.94,378244.09
+HSY,Consumer Staples,Food - Confectionery,0.55,8680.0,8. p75_trade_value,361.0,1440,30__0,30,0.0,17016.0,30057.5,127500.0,249025.0,370436.9,387143.69,388814.37
+INGR,Consumer Staples,Food - Miscellaneous,0.55,,,,7,10__0,10,0.0,5300.0,5300.0,5300.0,5300.0,5300.0,5300.0,5300.0
+JJSF,Consumer Staples,Food - Miscellaneous,0.55,55000.0,1. p999999_trade_value,1.0,4,5__1,5,1.0,39760.0,47380.0,53476.0,54847.6,54984.76,54998.48,54999.85
+KHC,Consumer Staples,Food - Miscellaneous,0.55,100000.0,4. p999_trade_value,2.0,1020,30__0,30,0.0,12017.7,18000.0,55874.7,99999.05,150293.6,155429.36,155942.94
+LANC,Consumer Staples,Food - Miscellaneous,0.55,4300.0,8. p75_trade_value,5.0,10,10__0,10,0.0,10173.5,12236.75,13887.35,14258.73,14295.87,14299.59,14299.96
+LW,Consumer Staples,Food - Miscellaneous,0.55,,,,1164,30__2,30,2.0,15184.0,26544.0,124042.5,440220.0,1598810.0,1734881.0,1748488.1
+MAMA,Consumer Staples,Food - Miscellaneous,0.55,10700.0,1. p999999_trade_value,1.0,8,10__0,10,0.0,6710.0,8705.0,10301.0,10660.1,10696.01,10699.6,10699.96
+MDLZ,Consumer Staples,Food - Miscellaneous,0.55,72000.0,1. p999999_trade_value,1.0,263,25__1,25,1.0,16957.4,22254.7,49766.5,68856.0,71685.6,71968.56,71996.86
+MED,Consumer Staples,Food - Miscellaneous,0.55,9504.0,7. p90_trade_value,2.0,15,10__0,10,0.0,9202.4,9952.8,10790.56,10979.06,10997.91,10999.79,10999.98
+MKC,Consumer Staples,Food - Miscellaneous,0.55,312500.0,1. p999999_trade_value,1.0,117,20__1,20,1.0,12031.2,22294.8,215732.0,302152.8,311465.28,312396.53,312489.65
+OTLY,Consumer Staples,Food - Dairy Products,0.55,,,,25,15__0,15,0.0,44004.0,72464.0,99098.8,105309.88,105930.99,105993.1,105999.31
+POST,Consumer Staples,Food - Miscellaneous,0.55,8400.0,8. p75_trade_value,4.0,14,10__0,10,0.0,8526.0,12137.75,17423.55,18612.86,18731.79,18743.68,18744.87
+PPC,Consumer Staples,Food - Meat Products,0.55,,,,62,20__0,20,0.0,8767.8,16154.45,29877.5,44837.75,46333.78,46483.38,46498.34
+SJM,Consumer Staples,Food - Miscellaneous,0.55,16973.999999999996,7. p90_trade_value,24.0,238,25__1,25,1.0,16148.7,26707.0,75547.5,317001.83,350975.18,354372.52,354712.25
+SMPL,Consumer Staples,Food - Confectionery,0.55,,,,12,10__0,10,0.0,15500.0,19786.0,23957.2,24895.72,24989.57,24998.96,24999.9
+SYY,Consumer Staples,Food - Miscellaneous,0.55,,,,179,25__0,25,0.0,16205.0,42630.0,366912.0,444600.0,444600.0,444600.0,444600.0
+THS,Consumer Staples,Food - Miscellaneous,0.55,40000.0,8. p75_trade_value,5.0,20,15__1,15,1.0,45500.0,68750.0,353750.0,417875.0,424287.5,424928.75,424992.87
+TR,Consumer Staples,Food - Confectionery,0.55,7500.0,1. p999999_trade_value,1.0,1,0__0,0,0.0,7500.0,7500.0,7500.0,7500.0,7500.0,7500.0,7500.0
+TSN,Consumer Staples,Food - Meat Products,0.55,28750.0,5. p99_trade_value,3.0,265,25__1,25,1.0,13024.0,17500.0,27687.6,33350.0,34835.0,34983.5,34998.35
+UNFI,Consumer Staples,Food - Miscellaneous,0.55,54466.0,1. p999999_trade_value,1.0,144,20__0,20,0.0,17453.8,21808.9,34382.7,51662.34,54185.63,54437.96,54463.2
+USFD,Consumer Staples,Food - Miscellaneous,0.55,84525.0,1. p999999_trade_value,1.0,87,20__0,20,0.0,12240.0,15908.6,50533.5,81125.85,84185.08,84491.01,84521.6
+UTZ,Consumer Staples,Food - Miscellaneous,0.55,,,,18,15__0,15,0.0,16200.0,19300.0,20660.0,20966.0,20996.6,20999.66,20999.97
+VITL,Consumer Staples,Food - Miscellaneous,0.55,30480.0,6. p95_trade_value,8.0,156,20__0,20,0.0,13945.0,27667.5,58654.25,268445.42,301920.54,305268.05,305602.81

@@ -1,0 +1,3 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+NNDM,Computer and Technology,Nanotechnology,0.55,,,,3,5__0,5,0.0,3384.0,3422.0,3452.4,3459.24,3459.92,3459.99,3460.0
+ONTO,Computer and Technology,Nanotechnology,0.55,,,,275,25__1,25,1.0,21176.0,36567.0,77367.4,119046.3,121524.63,121772.46,121797.25

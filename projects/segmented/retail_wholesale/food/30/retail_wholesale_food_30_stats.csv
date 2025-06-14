@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+SFM,Retail-Wholesale,Food - Natural Foods Products,0.55,,,,1175,30__0,30,0.0,14042.0,22210.5,74408.6,161270.75,200201.16,204520.12,204952.01

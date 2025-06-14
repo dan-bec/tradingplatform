@@ -1,0 +1,8 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+ENPH,Oils-Energy,Solar,40__1,40,1.0,1. p999999_trade_value,774845.0,774845.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ENPH,Oils-Energy,Solar,40__1,40,1.0,3. p9999_trade_value,442000.0,442000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+ENPH,Oils-Energy,Solar,40__1,40,1.0,4. p999_trade_value,377880.0,238500.0,5.0,10.0,0.5,0.55,2. BELOW BASELINE,7.0,12.0,0.5833333333333334
+ENPH,Oils-Energy,Solar,40__1,40,1.0,5. p99_trade_value,232800.0,49970.0,59.0,104.0,0.5673076923076923,0.55,2. BELOW BASELINE,66.0,116.0,0.5689655172413793
+ENPH,Oils-Energy,Solar,40__1,40,1.0,6. p95_trade_value,49800.00000000001,21120.0,275.0,460.0,0.5978260869565217,0.55,2. BELOW BASELINE,341.0,576.0,0.5920138888888888
+ENPH,Oils-Energy,Solar,40__1,40,1.0,7. p90_trade_value,21098.0,13930.000000000002,267.0,575.0,0.4643478260869565,0.55,2. BELOW BASELINE,608.0,1151.0,0.5282363162467419
+ENPH,Oils-Energy,Solar,40__1,40,1.0,8. p75_trade_value,13920.000000000002,7750.0,815.0,1725.0,0.47246376811594204,0.55,2. BELOW BASELINE,1423.0,2876.0,0.49478442280945756

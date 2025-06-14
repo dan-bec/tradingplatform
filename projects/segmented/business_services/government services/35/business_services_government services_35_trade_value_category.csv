@@ -1,0 +1,7 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+GEO,Business Services,Government Services,35__1,35,1.0,1. p999999_trade_value,1513000.0,1513000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+GEO,Business Services,Government Services,35__1,35,1.0,4. p999_trade_value,405000.00000000006,405000.00000000006,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+GEO,Business Services,Government Services,35__1,35,1.0,5. p99_trade_value,375000.0,121891.00000000001,8.0,17.0,0.47058823529411764,0.55,2. BELOW BASELINE,10.0,19.0,0.5263157894736842
+GEO,Business Services,Government Services,35__1,35,1.0,6. p95_trade_value,115000.0,32500.0,34.0,76.0,0.4473684210526316,0.55,2. BELOW BASELINE,44.0,95.0,0.4631578947368421
+GEO,Business Services,Government Services,35__1,35,1.0,7. p90_trade_value,32370.0,18630.0,44.0,93.0,0.4731182795698925,0.55,2. BELOW BASELINE,88.0,188.0,0.46808510638297873
+GEO,Business Services,Government Services,35__1,35,1.0,8. p75_trade_value,18495.0,9000.0,148.0,283.0,0.5229681978798587,0.55,2. BELOW BASELINE,236.0,471.0,0.5010615711252654

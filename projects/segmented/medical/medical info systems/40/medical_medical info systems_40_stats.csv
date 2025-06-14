@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+TEM,Medical,Medical Info Systems,0.55,570000.0,3. p9999_trade_value,2.0,16487,40__1,40,1.0,16146.0,24500.0,60494.28,211201.7,451306.2,644887.0,658191.7

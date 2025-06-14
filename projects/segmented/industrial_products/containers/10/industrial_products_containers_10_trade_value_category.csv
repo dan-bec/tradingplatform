@@ -1,0 +1,7 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+AMCR,Industrial Products,Containers - Paper and Packaging,10__0,10,0.0,1. p999999_trade_value,11844.000000000002,11844.000000000002,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AMCR,Industrial Products,Containers - Paper and Packaging,10__0,10,0.0,8. p75_trade_value,7500.0,7500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+ATR,Industrial Products,Containers - Paper and Packaging,10__2,10,2.0,1. p999999_trade_value,232500.0,232500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ATR,Industrial Products,Containers - Paper and Packaging,10__2,10,2.0,8. p75_trade_value,160000.0,160000.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+SEE,Industrial Products,Containers - Paper and Packaging,10__2,10,2.0,1. p999999_trade_value,150000.0,150000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SEE,Industrial Products,Containers - Paper and Packaging,10__2,10,2.0,8. p75_trade_value,95355.0,95355.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0

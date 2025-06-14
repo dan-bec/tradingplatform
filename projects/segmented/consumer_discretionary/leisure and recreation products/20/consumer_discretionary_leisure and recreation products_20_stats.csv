@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AS,Consumer Discretionary,Leisure and Recreation Products,0.55,208425.0,1. p999999_trade_value,1.0,123,20__0,20,0.0,20108.0,47250.0,173075.0,204347.15,208017.22,208384.22,208420.92
+POOL,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,108,20__0,20,0.0,7860.0,9405.5,13735.2,14247.93,14298.39,14303.44,14303.94
+SRAD,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,87,20__0,20,0.0,16341.0,20796.1,29105.6,29910.56,29991.06,29999.11,29999.91

@@ -1,0 +1,4 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+AFYA,Consumer Discretionary,Schools,0__0,0,0.0,1. p999999_trade_value,3700.0,3700.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+KLC,Consumer Discretionary,Schools,0__0,0,0.0,1. p999999_trade_value,4000.0,4000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+NRDY,Consumer Discretionary,Schools,0__0,0,0.0,1. p999999_trade_value,4890.000000000001,4890.000000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0

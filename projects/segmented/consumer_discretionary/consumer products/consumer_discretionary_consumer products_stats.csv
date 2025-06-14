@@ -1,0 +1,11 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ALTO,Consumer Discretionary,Consumer Products - Discretionary,0.55,7455.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,7043.4,7249.2,7413.84,7450.88,7454.59,7454.96,7455.0
+BNED,Consumer Discretionary,Consumer Products - Discretionary,0.55,,,,11,10__0,10,0.0,30000.0,36612.0,41901.6,43091.76,43210.78,43222.68,43223.87
+CENT,Consumer Discretionary,Consumer Products - Discretionary,0.55,,,,1,0__2,0,2.0,15000.0,15000.0,15000.0,15000.0,15000.0,15000.0,15000.0
+FNKO,Consumer Discretionary,Consumer Products - Discretionary,0.55,,,,45,15__1,15,1.0,33730.0,62368.0,747000.0,1222200.0,1269720.0,1274472.0,1274947.2
+HNST,Consumer Discretionary,Consumer Products - Discretionary,0.55,,,,14,10__0,10,0.0,5262.0,7171.5,9714.3,10286.43,10343.64,10349.36,10349.94
+K,Consumer Discretionary,Consumer Products - Discretionary,0.55,,,,52,15__0,15,0.0,7342.0,12525.0,70252.85,113382.78,117695.78,118127.08,118170.21
+REAL,Consumer Discretionary,Consumer Products - Discretionary,0.55,16500.0,6. p95_trade_value,5.0,81,20__0,20,0.0,13560.0,16500.0,22989.0,29285.4,29915.04,29978.0,29984.3
+REYN,Consumer Discretionary,Consumer Products - Discretionary,0.55,10250.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,9711.5,9980.75,10196.15,10244.62,10249.46,10249.95,10249.99
+RLX,Consumer Discretionary,Consumer Products - Discretionary,0.55,,,,13,10__0,10,0.0,5800.0,7348.0,8965.6,9329.56,9365.96,9369.6,9369.96
+SPB,Consumer Discretionary,Consumer Products - Discretionary,0.55,9455.0,6. p95_trade_value,2.0,27,15__0,15,0.0,8247.0,9138.5,13003.3,14125.33,14237.53,14248.75,14249.88

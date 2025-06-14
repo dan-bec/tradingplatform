@@ -1,0 +1,6 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+CHDN,Consumer Discretionary,Gaming,0.55,216000.0,1. p999999_trade_value,1.0,32,15__0,15,0.0,17500.0,145575.0,206700.0,215070.0,215907.0,215990.7,215999.07
+CRSR,Consumer Discretionary,Gaming,0.55,150500.0,1. p999999_trade_value,1.0,56,15__0,15,0.0,11662.5,14416.5,83125.0,143762.5,149826.25,150432.63,150493.26
+LNW,Consumer Discretionary,Gaming,0.55,11600.0,7. p90_trade_value,3.0,28,15__0,15,0.0,8520.0,13160.0,15606.0,16140.6,16194.06,16199.41,16199.94
+RRR,Consumer Discretionary,Gaming,0.55,,,,50,15__0,15,0.0,11234.0,23600.0,27089.3,29483.93,29723.39,29747.34,29749.73
+RSI,Consumer Discretionary,Gaming,0.55,19895.0,7. p90_trade_value,5.0,50,15__0,15,0.0,15381.5,39771.4,44731.5,47223.15,47472.32,47497.23,47499.72

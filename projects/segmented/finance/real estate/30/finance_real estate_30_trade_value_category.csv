@@ -1,0 +1,6 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+RDFN,Finance,Real Estate - Operations,30__0,30,0.0,1. p999999_trade_value,603500.0,603500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+RDFN,Finance,Real Estate - Operations,30__0,30,0.0,5. p99_trade_value,467500.0,255000.0,5.0,8.0,0.625,0.55,1. ABOVE BASELINE,6.0,9.0,0.6666666666666666
+RDFN,Finance,Real Estate - Operations,30__0,30,0.0,6. p95_trade_value,212500.0,21015.0,16.0,34.0,0.47058823529411764,0.55,2. BELOW BASELINE,22.0,43.0,0.5116279069767442
+RDFN,Finance,Real Estate - Operations,30__0,30,0.0,7. p90_trade_value,19800.0,13260.0,30.0,41.0,0.7317073170731707,0.55,2. BELOW BASELINE,52.0,84.0,0.6190476190476191
+RDFN,Finance,Real Estate - Operations,30__0,30,0.0,8. p75_trade_value,13229.999999999998,7300.0,75.0,129.0,0.5813953488372093,0.55,2. BELOW BASELINE,127.0,213.0,0.596244131455399

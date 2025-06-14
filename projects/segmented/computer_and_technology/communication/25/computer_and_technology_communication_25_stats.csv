@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+FYBR,Computer and Technology,Communication - Network Software,0.55,,,,183,25__0,25,0.0,43450.0,102704.5,345533.1,689265.69,743926.57,749392.66,749939.27

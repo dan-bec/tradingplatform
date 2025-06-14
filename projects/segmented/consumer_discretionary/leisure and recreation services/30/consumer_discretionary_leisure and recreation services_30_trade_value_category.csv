@@ -1,0 +1,17 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CZR,Consumer Discretionary,Leisure and Recreation Services,30__0,30,0.0,1. p999999_trade_value,720000.0,720000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CZR,Consumer Discretionary,Leisure and Recreation Services,30__0,30,0.0,4. p999_trade_value,680000.0000000001,680000.0000000001,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+CZR,Consumer Discretionary,Leisure and Recreation Services,30__0,30,0.0,5. p99_trade_value,636825.0,152500.0,6.0,12.0,0.5,0.55,2. BELOW BASELINE,7.0,14.0,0.5
+CZR,Consumer Discretionary,Leisure and Recreation Services,30__0,30,0.0,6. p95_trade_value,150000.0,23128.0,32.0,54.0,0.5925925925925926,0.55,2. BELOW BASELINE,39.0,68.0,0.5735294117647058
+CZR,Consumer Discretionary,Leisure and Recreation Services,30__0,30,0.0,7. p90_trade_value,23048.0,14447.999999999998,26.0,68.0,0.38235294117647056,0.55,2. BELOW BASELINE,65.0,136.0,0.47794117647058826
+CZR,Consumer Discretionary,Leisure and Recreation Services,30__0,30,0.0,8. p75_trade_value,14432.0,8001.000000000001,110.0,202.0,0.5445544554455446,0.55,2. BELOW BASELINE,175.0,338.0,0.5177514792899408
+MTN,Consumer Discretionary,Leisure and Recreation Services,30__0,30,0.0,1. p999999_trade_value,336520.0,336520.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MTN,Consumer Discretionary,Leisure and Recreation Services,30__0,30,0.0,5. p99_trade_value,312000.0,75659.99999999999,5.0,6.0,0.8333333333333334,0.55,1. ABOVE BASELINE,6.0,7.0,0.8571428571428571
+MTN,Consumer Discretionary,Leisure and Recreation Services,30__0,30,0.0,6. p95_trade_value,64050.0,26055.0,15.0,26.0,0.5769230769230769,0.55,1. ABOVE BASELINE,21.0,33.0,0.6363636363636364
+MTN,Consumer Discretionary,Leisure and Recreation Services,30__0,30,0.0,7. p90_trade_value,25439.999999999996,15050.0,16.0,32.0,0.5,0.55,2. BELOW BASELINE,37.0,65.0,0.5692307692307692
+MTN,Consumer Discretionary,Leisure and Recreation Services,30__0,30,0.0,8. p75_trade_value,15000.0,7950.0,62.0,98.0,0.6326530612244898,0.55,2. BELOW BASELINE,99.0,163.0,0.6073619631901841
+TCOM,Consumer Discretionary,Leisure and Recreation Services,30__0,30,0.0,1. p999999_trade_value,175000.0,175000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+TCOM,Consumer Discretionary,Leisure and Recreation Services,30__0,30,0.0,5. p99_trade_value,156745.0,41916.0,1.0,8.0,0.125,0.55,2. BELOW BASELINE,1.0,9.0,0.1111111111111111
+TCOM,Consumer Discretionary,Leisure and Recreation Services,30__0,30,0.0,6. p95_trade_value,37269.0,16019.999999999998,16.0,33.0,0.48484848484848486,0.55,2. BELOW BASELINE,17.0,42.0,0.40476190476190477
+TCOM,Consumer Discretionary,Leisure and Recreation Services,30__0,30,0.0,7. p90_trade_value,16000.0,11250.0,21.0,42.0,0.5,0.55,2. BELOW BASELINE,38.0,84.0,0.4523809523809524
+TCOM,Consumer Discretionary,Leisure and Recreation Services,30__0,30,0.0,8. p75_trade_value,11219.999999999998,6930.0,46.0,122.0,0.3770491803278688,0.55,2. BELOW BASELINE,84.0,206.0,0.4077669902912621

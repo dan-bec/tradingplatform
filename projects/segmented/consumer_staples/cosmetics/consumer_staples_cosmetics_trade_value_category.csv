@@ -1,0 +1,22 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+COTY,Consumer Staples,Cosmetics,10__0,10,0.0,1. p999999_trade_value,12000.0,12000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+COTY,Consumer Staples,Cosmetics,10__0,10,0.0,8. p75_trade_value,6320.0,6320.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+EL,Consumer Staples,Cosmetics,35__4,35,4.0,1. p999999_trade_value,1215000.0,1215000.0,0.0,1.0,0.0,0.55,1. ABOVE BASELINE,0.0,1.0,0.0
+EL,Consumer Staples,Cosmetics,35__4,35,4.0,4. p999_trade_value,745000.0,358920.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,2.0,4.0,0.5
+EL,Consumer Staples,Cosmetics,35__4,35,4.0,5. p99_trade_value,338000.0,126000.0,12.0,29.0,0.41379310344827586,0.55,2. BELOW BASELINE,14.0,33.0,0.42424242424242425
+EL,Consumer Staples,Cosmetics,35__4,35,4.0,6. p95_trade_value,114475.0,27165.999999999996,75.0,123.0,0.6097560975609756,0.55,2. BELOW BASELINE,89.0,156.0,0.5705128205128205
+EL,Consumer Staples,Cosmetics,35__4,35,4.0,7. p90_trade_value,27125.0,15497.999999999998,77.0,156.0,0.4935897435897436,0.55,2. BELOW BASELINE,166.0,312.0,0.532051282051282
+EL,Consumer Staples,Cosmetics,35__4,35,4.0,8. p75_trade_value,15428.0,7857.000000000001,235.0,466.0,0.5042918454935622,0.55,2. BELOW BASELINE,401.0,778.0,0.5154241645244216
+ELF,Consumer Staples,Cosmetics,40__0,40,0.0,1. p999999_trade_value,6500000.0,6500000.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,1.0,1.0
+ELF,Consumer Staples,Cosmetics,40__0,40,0.0,4. p999_trade_value,2046000.0,870000.0,3.0,9.0,0.3333333333333333,0.55,2. BELOW BASELINE,4.0,10.0,0.4
+ELF,Consumer Staples,Cosmetics,40__0,40,0.0,5. p99_trade_value,822000.0,53725.0,43.0,85.0,0.5058823529411764,0.55,2. BELOW BASELINE,47.0,95.0,0.49473684210526314
+ELF,Consumer Staples,Cosmetics,40__0,40,0.0,6. p95_trade_value,53375.0,21500.0,196.0,380.0,0.5157894736842106,0.55,2. BELOW BASELINE,243.0,475.0,0.511578947368421
+ELF,Consumer Staples,Cosmetics,40__0,40,0.0,7. p90_trade_value,21460.0,14700.0,244.0,475.0,0.5136842105263157,0.55,2. BELOW BASELINE,487.0,950.0,0.5126315789473684
+ELF,Consumer Staples,Cosmetics,40__0,40,0.0,8. p75_trade_value,14694.0,8050.0,748.0,1417.0,0.5278757939308398,0.55,2. BELOW BASELINE,1235.0,2367.0,0.5217574989438107
+EWCZ,Consumer Staples,Cosmetics,10__0,10,0.0,1. p999999_trade_value,60000.0,60000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+EWCZ,Consumer Staples,Cosmetics,10__0,10,0.0,8. p75_trade_value,36000.0,12750.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+HELE,Consumer Staples,Cosmetics,25__1,25,1.0,1. p999999_trade_value,138000.0,138000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+HELE,Consumer Staples,Cosmetics,25__1,25,1.0,5. p99_trade_value,94000.0,35432.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,2.0,5.0,0.4
+HELE,Consumer Staples,Cosmetics,25__1,25,1.0,6. p95_trade_value,34500.0,21160.0,5.0,8.0,0.625,0.55,2. BELOW BASELINE,7.0,13.0,0.5384615384615384
+HELE,Consumer Staples,Cosmetics,25__1,25,1.0,7. p90_trade_value,20800.0,14471.999999999996,5.0,12.0,0.4166666666666667,0.55,2. BELOW BASELINE,12.0,25.0,0.48
+HELE,Consumer Staples,Cosmetics,25__1,25,1.0,8. p75_trade_value,13750.0,8260.0,19.0,37.0,0.5135135135135135,0.55,2. BELOW BASELINE,31.0,62.0,0.5

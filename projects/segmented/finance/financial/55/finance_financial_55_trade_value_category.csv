@@ -1,0 +1,9 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,1. p999999_trade_value,18009600.0,18009600.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,2. p99999_trade_value,13616100.0,13600000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,3. p9999_trade_value,13084200.000000002,6583410.000000001,12.0,25.0,0.48,0.55,2. BELOW BASELINE,13.0,28.0,0.4642857142857143
+COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,4. p999_trade_value,6573880.0,1696170.0,113.0,248.0,0.45564516129032256,0.55,2. BELOW BASELINE,126.0,276.0,0.45652173913043476
+COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,5. p99_trade_value,1686853.0000000002,104300.0,1123.0,2484.0,0.45209339774557167,0.55,2. BELOW BASELINE,1249.0,2760.0,0.45253623188405795
+COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,6. p95_trade_value,104280.0,30675.0,5413.0,11034.0,0.49057458763820916,0.55,2. BELOW BASELINE,6662.0,13794.0,0.48296360736552124
+COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,7. p90_trade_value,30674.0,18480.0,6668.0,13814.0,0.48269871145215,0.55,2. BELOW BASELINE,13330.0,27608.0,0.4828310634598667
+COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,8. p75_trade_value,18475.0,9394.0,19886.0,41354.0,0.4808724669923103,0.55,2. BELOW BASELINE,33216.0,68962.0,0.4816565644847887

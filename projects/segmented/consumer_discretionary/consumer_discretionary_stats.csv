@@ -1,0 +1,176 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ABNB,Consumer Discretionary,Leisure and Recreation Services,0.55,360580.0,4. p999_trade_value,10.0,9326,40__0,40,0.0,16800.0,27437.5,118503.75,359965.1,792375.87,1251487.59,1297398.76
+AFYA,Consumer Discretionary,Schools,0.55,,,,1,0__0,0,0.0,3700.0,3700.0,3700.0,3700.0,3700.0,3700.0,3700.0
+ALTO,Consumer Discretionary,Consumer Products - Discretionary,0.55,7455.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,7043.4,7249.2,7413.84,7450.88,7454.59,7454.96,7455.0
+AMC,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,2197,35__0,35,0.0,9671.2,13401.0,25179.12,61575.97,83471.55,88663.15,89182.32
+AMCX,Consumer Discretionary,Broadcast Radio and Television,0.55,5160.0,8. p75_trade_value,2.0,7,10__0,10,0.0,5996.0,6623.0,7124.6,7237.46,7248.75,7249.87,7249.99
+AMRK,Consumer Discretionary,Precious Metals and Jewels,0.55,6572.0,8. p75_trade_value,34.0,133,20__0,20,0.0,12916.0,16200.0,54148.2,234580.1,257458.01,259745.8,259974.58
+AMWD,Consumer Discretionary,Furniture,0.55,,,,6,10__0,10,0.0,16740.0,17370.0,17874.0,17987.4,17998.74,17999.87,17999.99
+AS,Consumer Discretionary,Leisure and Recreation Products,0.55,208425.0,1. p999999_trade_value,1.0,123,20__0,20,0.0,20108.0,47250.0,173075.0,204347.15,208017.22,208384.22,208420.92
+ASO,Consumer Discretionary,Leisure and Recreation Products,0.55,361760.00000000006,1. p999999_trade_value,1.0,558,25__1,25,1.0,21720.0,40266.25,138227.76,313991.68,356983.17,361282.32,361712.23
+ATAT,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,33,15__0,15,0.0,17693.4,31630.0,76527.2,87518.72,88617.87,88727.79,88738.78
+ATGE,Consumer Discretionary,Schools,0.55,,,,103,20__1,20,1.0,24200.0,76620.0,438645.0,511628.04,518694.8,519401.48,519472.15
+BARK,Consumer Discretionary,Consumer Services - Miscellaneous,0.55,5000.0,1. p999999_trade_value,1.0,1,0__0,0,0.0,5000.0,5000.0,5000.0,5000.0,5000.0,5000.0,5000.0
+BATRK,Consumer Discretionary,Media Conglomerates,0.55,3660.0,1. p999999_trade_value,1.0,1,0__0,0,0.0,3660.0,3660.0,3660.0,3660.0,3660.0,3660.0,3660.0
+BC,Consumer Discretionary,Leisure and Recreation Products,0.55,38400.0,7. p90_trade_value,4.0,36,15__0,15,0.0,28575.0,39750.0,79237.5,98373.75,100287.37,100478.74,100497.87
+BILI,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,3943,35__3,35,3.0,17288.0,27924.3,99796.28,362673.12,1058702.4,1175070.24,1186707.02
+BIRK,Consumer Discretionary,Shoes and Retail Apparel ,0.55,405000.00000000006,1. p999999_trade_value,1.0,377,25__0,25,0.0,30889.8,68920.0,189946.08,342960.0,398796.0,404379.6,404937.96
+BNED,Consumer Discretionary,Consumer Products - Discretionary,0.55,,,,11,10__0,10,0.0,30000.0,36612.0,41901.6,43091.76,43210.78,43222.68,43223.87
+BYD,Consumer Discretionary,Gaming,0.55,9800.0,8. p75_trade_value,29.0,114,20__1,20,1.0,21881.5,50564.7,262200.0,277088.9,277901.69,277982.97,277991.1
+BZFD,Consumer Discretionary,Media Conglomerates,0.55,6900.0,1. p999999_trade_value,1.0,9,10__0,10,0.0,5380.0,6140.0,6748.0,6884.8,6898.48,6899.85,6899.98
+CAL,Consumer Discretionary,Shoes and Retail Apparel ,0.55,29160.000000000004,1. p999999_trade_value,1.0,61,20__0,20,0.0,19900.0,22000.0,26664.0,28910.4,29135.04,29157.5,29159.75
+CCL,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,4766,35__4,35,4.0,16029.0,25909.5,90630.0,462751.25,1040571.1,1068676.21,1071486.72
+CENT,Consumer Discretionary,Consumer Products - Discretionary,0.55,,,,1,0__2,0,2.0,15000.0,15000.0,15000.0,15000.0,15000.0,15000.0,15000.0
+CHDN,Consumer Discretionary,Gaming,0.55,216000.0,1. p999999_trade_value,1.0,32,15__0,15,0.0,17500.0,145575.0,206700.0,215070.0,215907.0,215990.7,215999.07
+CHH,Consumer Discretionary,Hotels and Motels,0.55,3340.9999999999995,3. p9999_trade_value,1.0,2,5__0,5,0.0,3315.3,3328.15,3338.43,3340.74,3340.97,3341.0,3341.0
+CHTR,Consumer Discretionary,Cable Television,0.55,,,,1899,35__3,35,3.0,16798.0,25380.0,70690.4,230739.84,412980.3,426048.03,427354.8
+CMCSA,Consumer Discretionary,Cable Television,0.55,,,,1131,30__2,30,2.0,20000.0,32501.5,93000.0,1047570.0,1618980.0,1673898.0,1679389.8
+CMPR,Consumer Discretionary,Consumer Services - Miscellaneous,0.55,9500.0,8. p75_trade_value,5.0,20,15__0,15,0.0,13986.9,31299.8,31539.96,31594.0,31599.4,31599.94,31599.99
+CNK,Consumer Discretionary,Film and Television Production and Distribution,0.55,175000.0,6. p95_trade_value,6.0,111,20__2,20,2.0,115600.0,166250.0,359000.0,395457.6,399401.76,399796.18,399835.62
+COLM,Consumer Discretionary,Textile - Apparel,0.55,5670.0,8. p75_trade_value,6.0,21,15__0,15,0.0,12250.0,12505.0,14101.0,14460.1,14496.01,14499.6,14499.96
+CRI,Consumer Discretionary,Shoes and Retail Apparel ,0.55,750260.0,5. p99_trade_value,2.0,151,20__2,20,2.0,70472.0,162125.0,625030.0,761667.0,763478.7,763659.87,763677.99
+CROX,Consumer Discretionary,Textile - Apparel,0.55,960000.0,4. p999_trade_value,3.0,2813,35__4,35,4.0,14960.0,24850.0,80844.8,728580.0,2030643.46,2077080.35,2081724.03
+CRSR,Consumer Discretionary,Gaming,0.55,150500.0,1. p999999_trade_value,1.0,56,15__0,15,0.0,11662.5,14416.5,83125.0,143762.5,149826.25,150432.63,150493.26
+CUK,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,3,5__0,5,0.0,5288.0,5394.0,5478.8,5497.88,5499.79,5499.98,5500.0
+CURI,Consumer Discretionary,Film and Television Production and Distribution,0.55,4200.0,1. p999999_trade_value,1.0,1,0__0,0,0.0,4200.0,4200.0,4200.0,4200.0,4200.0,4200.0,4200.0
+CVEO,Consumer Discretionary,Hotels and Motels,0.55,5000.0,1. p999999_trade_value,1.0,1,0__0,0,0.0,5000.0,5000.0,5000.0,5000.0,5000.0,5000.0,5000.0
+CZR,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,1352,30__0,30,0.0,14446.4,23084.0,151225.0,664845.57,714596.0,719459.6,719945.96
+DIS,Consumer Discretionary,Media Conglomerates,0.55,8320.0,8. p75_trade_value,3665.0,14633,40__1,40,1.0,15697.2,24616.0,75126.4,295187.76,599876.42,790141.37,807528.14
+DKNG,Consumer Discretionary,Gaming,0.55,,,,8742,40__1,40,1.0,15582.0,24688.6,90590.0,373325.3,714519.53,731375.15,733060.72
+DLB,Consumer Discretionary,Audio Video Production,0.55,,,,2,5__0,5,0.0,5994.0,6077.0,6143.4,6158.34,6159.83,6159.98,6160.0
+DOYU,Consumer Discretionary,Gaming,0.55,,,,2,5__0,5,0.0,5290.0,5295.0,5299.0,5299.9,5299.99,5300.0,5300.0
+EA,Consumer Discretionary,Gaming,0.55,580000.0,4. p999_trade_value,3.0,2171,35__1,35,1.0,16872.0,31750.0,140750.0,557900.0,1018792.5,1067129.25,1071962.92
+EDU,Consumer Discretionary,Schools,0.55,,,,316,25__1,25,1.0,14845.0,23578.75,64856.0,98333.34,105920.93,106679.69,106755.57
+FLUT,Consumer Discretionary,Gaming,0.55,,,,2105,35__0,35,0.0,14076.0,25139.6,79718.8,345900.6,446655.94,451609.59,452104.96
+FNKO,Consumer Discretionary,Consumer Products - Discretionary,0.55,,,,45,15__1,15,1.0,33730.0,62368.0,747000.0,1222200.0,1269720.0,1274472.0,1274947.2
+FOX,Consumer Discretionary,Broadcast Radio and Television,0.55,6761.999999999999,1. p999999_trade_value,1.0,5,5__0,5,0.0,6235.2,6498.6,6709.32,6756.73,6761.47,6761.95,6761.99
+FOXA,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,86,20__0,20,0.0,12902.5,22747.5,74097.0,108659.7,112115.97,112461.6,112496.16
+FUBO,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,1299,30__0,30,0.0,13393.6,20201.8,45220.0,128800.24,212696.83,223634.68,224728.47
+FUN,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,54,15__0,15,0.0,12500.0,14321.85,35935.9,37352.59,37494.26,37508.43,37509.84
+FWONK,Consumer Discretionary,Media Conglomerates,0.55,251125.0,1. p999999_trade_value,1.0,13,10__2,10,2.0,163200.0,210700.0,243040.0,250316.5,251044.15,251116.92,251124.19
+GDEN,Consumer Discretionary,Gaming,0.55,,,,3,5__3,5,3.0,21512.0,23426.0,24957.2,25301.72,25336.17,25339.62,25339.96
+GES,Consumer Discretionary,Textile - Apparel,0.55,,,,67,20__0,20,0.0,12195.0,16417.5,25201.6,27720.16,27972.02,27997.2,27999.72
+GIII,Consumer Discretionary,Textile - Apparel,0.55,8900.0,7. p90_trade_value,3.0,27,15__0,15,0.0,8360.0,12470.0,22494.46,25180.55,25449.15,25476.02,25478.7
+GIL,Consumer Discretionary,Textile - Apparel,0.55,3840.0000000000005,8. p75_trade_value,2.0,8,10__0,10,0.0,7173.0,11061.5,14172.3,14872.23,14942.22,14949.22,14949.92
+GME,Consumer Discretionary,Gaming,0.55,,,,50816,45__0,45,0.0,14090.5,21154.5,49917.0,151745.21,581600.37,2449522.11,2896525.91
+GOLF,Consumer Discretionary,Leisure and Recreation Products,0.55,11250.0,1. p999999_trade_value,1.0,5,5__0,5,0.0,9086.4,10168.2,11033.64,11228.36,11247.84,11249.78,11249.98
+GOTU,Consumer Discretionary,Schools,0.55,7275.0,6. p95_trade_value,2.0,30,15__0,15,0.0,6297.5,7230.0,9245.25,9969.53,10041.95,10049.2,10049.92
+GPRO,Consumer Discretionary,Audio Video Production,0.55,4980.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,4859.0,4919.5,4967.9,4978.79,4979.88,4979.99,4980.0
+H,Consumer Discretionary,Hotels and Motels,0.55,45090.0,6. p95_trade_value,9.0,162,20__1,20,1.0,15324.4,44874.25,399857.35,791333.58,836834.36,841384.44,841839.44
+HAS,Consumer Discretionary,Toys - Games - Hobbies,0.55,,,,344,25__1,25,1.0,19804.5,37540.0,160561.28,643463.59,751766.36,762596.64,763679.66
+HBI,Consumer Discretionary,Textile - Apparel,0.55,,,,33,15__0,15,0.0,14016.0,26715.0,42568.32,43698.43,43811.44,43822.74,43823.87
+HGV,Consumer Discretionary,Hotels and Motels,0.55,10150.0,8. p75_trade_value,4.0,17,10__0,10,0.0,20040.0,24045.0,24189.0,24221.4,24224.64,24224.96,24225.0
+HLT,Consumer Discretionary,Hotels and Motels,0.55,,,,473,25__1,25,1.0,13104.0,18786.0,67026.8,636872.0,657687.2,659768.72,659976.87
+HNST,Consumer Discretionary,Consumer Products - Discretionary,0.55,,,,14,10__0,10,0.0,5262.0,7171.5,9714.3,10286.43,10343.64,10349.36,10349.94
+HRB,Consumer Discretionary,Consumer Services - Miscellaneous,0.55,19250.0,1. p999999_trade_value,2.0,73,20__0,20,0.0,9248.0,14586.0,19250.0,19250.0,19250.0,19250.0,19250.0
+HTHT,Consumer Discretionary,Hotels and Motels,0.55,,,,24,15__0,15,0.0,6709.5,9859.5,12173.7,12651.87,12699.69,12704.47,12704.95
+IGT,Consumer Discretionary,Gaming,0.55,156000.0,1. p999999_trade_value,1.0,62,20__1,20,1.0,41259.0,92021.0,123246.66,152724.67,155672.47,155967.25,155996.72
+IHRT,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,5,5__3,5,3.0,15322.2,17404.6,19070.52,19445.35,19482.84,19486.58,19486.96
+IMAX,Consumer Discretionary,Film and Television Production and Distribution,0.55,10764.0,8. p75_trade_value,3.0,10,10__0,10,0.0,37700.0,58850.0,75770.0,79577.0,79957.7,79995.77,79999.58
+ISPO,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,1,0__0,0,0.0,5400.0,5400.0,5400.0,5400.0,5400.0,5400.0,5400.0
+JAKK,Consumer Discretionary,Toys - Games - Hobbies,0.55,3500.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,3460.0,3480.0,3496.0,3499.6,3499.96,3500.0,3500.0
+K,Consumer Discretionary,Consumer Products - Discretionary,0.55,,,,52,15__0,15,0.0,7342.0,12525.0,70252.85,113382.78,117695.78,118127.08,118170.21
+KLC,Consumer Discretionary,Schools,0.55,,,,1,0__0,0,0.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0
+KTB,Consumer Discretionary,Textile - Apparel,0.55,,,,24,15__0,15,0.0,11400.0,14677.5,59309.5,71180.95,72368.1,72486.81,72498.68
+LEG,Consumer Discretionary,Furniture,0.55,16873.0,1. p999999_trade_value,1.0,6,10__0,10,0.0,10839.5,13856.25,16269.65,16812.67,16866.97,16872.4,16872.94
+LINC,Consumer Discretionary,Schools,0.55,,,,4,5__0,5,0.0,6265.0,6707.5,7061.5,7141.15,7149.12,7149.91,7149.99
+LION,Consumer Discretionary,Media Conglomerates,0.55,3359.9999999999995,3. p9999_trade_value,1.0,2,5__0,5,0.0,3334.0,3347.0,3357.4,3359.74,3359.97,3360.0,3360.0
+LNW,Consumer Discretionary,Gaming,0.55,11600.0,7. p90_trade_value,3.0,28,15__0,15,0.0,8520.0,13160.0,15606.0,16140.6,16194.06,16199.41,16199.94
+LOPE,Consumer Discretionary,Schools,0.55,,,,14,10__0,10,0.0,8745.0,33357.5,68431.5,76323.15,77112.31,77191.23,77199.12
+LRN,Consumer Discretionary,Schools,0.55,8320.0,8. p75_trade_value,167.0,666,30__0,30,0.0,15430.0,23645.0,59467.5,270226.25,381397.62,392514.76,393626.48
+LTH,Consumer Discretionary,Leisure and Recreation Services,0.55,7425.0,8. p75_trade_value,15.0,58,20__0,20,0.0,12675.0,15000.0,24675.0,36217.5,37371.75,37487.18,37498.72
+LUCK,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,18,15__0,15,0.0,7736.5,9129.5,10033.9,10237.39,10257.74,10259.77,10259.98
+LULU,Consumer Discretionary,Textile - Apparel,0.55,,,,25983,45__2,45,2.0,16748.0,25778.9,67427.0,198818.0,850028.96,2141706.57,2244300.66
+LVS,Consumer Discretionary,Gaming,0.55,604800.0,1. p999999_trade_value,1.0,2247,35__3,35,3.0,15600.0,24791.6,129739.28,342500.0,547387.75,599058.77,604225.88
+LYV,Consumer Discretionary,Film and Television Production and Distribution,0.55,,,,1270,30__2,30,2.0,16172.1,27583.0,90089.2,885765.24,1504782.23,1579561.22,1587039.12
+LZB,Consumer Discretionary,Furniture,0.55,,,,1,0__0,0,0.0,4565.0,4565.0,4565.0,4565.0,4565.0,4565.0,4565.0
+MANU,Consumer Discretionary,Leisure and Recreation Services,0.55,7000.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,6800.0,6900.0,6980.0,6998.0,6999.8,6999.98,7000.0
+MAR,Consumer Discretionary,Hotels and Motels,0.55,,,,1625,30__2,30,2.0,15540.0,26976.0,111559.32,685181.59,882609.66,909060.97,911706.1
+MAT,Consumer Discretionary,Toys - Games - Hobbies,0.55,43616.0,5. p99_trade_value,2.0,109,20__0,20,0.0,12863.0,19473.0,42576.64,272310.53,297231.05,299723.11,299972.31
+MBC,Consumer Discretionary,Furniture,0.55,,,,1,0__0,0,0.0,3500.0,3500.0,3500.0,3500.0,3500.0,3500.0,3500.0
+MBUU,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,6,10__0,10,0.0,22095.0,29722.5,35824.5,37197.45,37334.75,37348.47,37349.85
+MCFT,Consumer Discretionary,Leisure and Recreation Products,0.55,57840.0,1. p999999_trade_value,1.0,3,5__1,5,1.0,47203.0,52521.5,56776.3,57733.63,57829.36,57838.94,57839.89
+MCRI,Consumer Discretionary,Gaming,0.55,10143.0,1. p999999_trade_value,1.0,1,0__2,0,2.0,10143.0,10143.0,10143.0,10143.0,10143.0,10143.0,10143.0
+MCS,Consumer Discretionary,Leisure and Recreation Services,0.55,4000.0,1. p999999_trade_value,1.0,1,0__0,0,0.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0
+MGM,Consumer Discretionary,Gaming,0.55,525000.0,4. p999_trade_value,2.0,1341,30__0,30,0.0,12600.0,19278.0,51132.2,506823.6,589950.0,598995.0,599899.5
+MHK,Consumer Discretionary,Textile - Home Furnishing,0.55,,,,159,20__0,20,0.0,11028.0,22347.6,104337.0,202455.5,209245.55,209924.56,209992.46
+MLCO,Consumer Discretionary,Gaming,0.55,10800.0,8. p75_trade_value,17.0,65,20__1,20,1.0,27804.0,53510.0,145693.2,290194.32,304644.43,306089.44,306233.94
+MLKN,Consumer Discretionary,Furniture,0.55,18000.0,8. p75_trade_value,4.0,16,10__0,10,0.0,21207.5,21250.0,21250.0,21250.0,21250.0,21250.0,21250.0
+MODG,Consumer Discretionary,Leisure and Recreation Products,0.55,12780.0,1. p999999_trade_value,1.0,39,15__0,15,0.0,7630.0,10255.2,12392.4,12741.24,12776.12,12779.61,12779.96
+MSGE,Consumer Discretionary,Media Conglomerates,0.55,3300.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,3294.0,3297.0,3299.4,3299.94,3299.99,3300.0,3300.0
+MSGS,Consumer Discretionary,Leisure and Recreation Services,0.55,22656.0,1. p999999_trade_value,1.0,47,15__0,15,0.0,9582.0,11710.0,18387.2,22229.12,22613.31,22651.73,22655.57
+MTN,Consumer Discretionary,Leisure and Recreation Services,0.55,26055.0,6. p95_trade_value,33.0,650,30__0,30,0.0,15005.0,25778.25,69971.1,320606.52,334928.65,336360.87,336504.09
+NCLH,Consumer Discretionary,Leisure and Recreation Services,0.55,440000.0,4. p999_trade_value,2.0,1808,35__0,35,0.0,14400.0,25606.0,100970.6,427895.0,459663.2,463566.32,463956.63
+NFLX,Consumer Discretionary,Broadcast Radio and Television,0.55,241200.0,4. p999_trade_value,301.0,300654,55__0,55,0.0,17160.0,26895.0,68902.94,241095.52,732430.22,1858364.81,2932191.72
+NKE,Consumer Discretionary,Shoes and Retail Apparel ,0.55,,,,23213,45__2,45,2.0,16423.2,26731.2,77869.32,447875.22,1588607.59,1747073.8,1749638.98
+NMAX,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,471,25__1,25,1.0,12870.0,19042.5,55296.0,147534.5,149078.45,149232.85,149248.28
+NRDY,Consumer Discretionary,Schools,0.55,,,,1,0__0,0,0.0,4890.0,4890.0,4890.0,4890.0,4890.0,4890.0,4890.0
+NWSA,Consumer Discretionary,Film and Television Production and Distribution,0.55,10600.0,8. p75_trade_value,2.0,7,10__0,10,0.0,10840.0,11020.0,11164.0,11196.4,11199.64,11199.96,11200.0
+NXST,Consumer Discretionary,Media Conglomerates,0.55,60259.99999999999,5. p99_trade_value,2.0,105,20__0,20,0.0,23600.0,37701.6,60089.6,70779.04,71877.9,71987.79,71998.78
+ONEW,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,5,5__0,5,0.0,5256.0,5508.0,5709.6,5754.96,5759.5,5759.95,5759.99
+OXM,Consumer Discretionary,Textile - Apparel,0.55,25740.000000000004,6. p95_trade_value,5.0,83,20__0,20,0.0,15240.0,25718.0,45346.4,50866.64,51418.66,51473.87,51479.39
+PARA,Consumer Discretionary,Media Conglomerates,0.55,,,,147,20__0,20,0.0,21050.0,39673.8,120000.0,138309.76,141126.98,141408.7,141436.87
+PENN,Consumer Discretionary,Gaming,0.55,174200.0,5. p99_trade_value,10.0,957,30__0,30,0.0,14778.0,29072.6,170180.32,305360.0,361286.0,366878.6,367437.86
+PLBY,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,6,10__0,10,0.0,17237.5,22368.75,26473.75,27397.38,27489.74,27498.97,27499.9
+PLNT,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,429,25__0,25,0.0,23014.0,58560.0,188152.8,349670.47,387160.45,390909.44,391284.34
+POOL,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,108,20__0,20,0.0,7860.0,9405.5,13735.2,14247.93,14298.39,14303.44,14303.94
+PRKS,Consumer Discretionary,Leisure and Recreation Services,0.55,100000.0,1. p999999_trade_value,1.0,28,15__0,15,0.0,17705.0,32495.9,82972.72,98297.27,99829.73,99982.97,99998.3
+PRSU,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,1,0__0,0,0.0,3904.0,3904.0,3904.0,3904.0,3904.0,3904.0,3904.0
+PTON,Consumer Discretionary,Leisure and Recreation Products,0.55,97727.00000000001,5. p99_trade_value,29.0,2870,35__0,35,0.0,13750.0,23672.2,96188.99,439394.85,576464.32,586846.43,587884.64
+PVH,Consumer Discretionary,Textile - Apparel,0.55,,,,588,30__0,30,0.0,16258.7,22877.5,48641.4,265325.0,278532.5,279853.25,279985.33
+RBLX,Consumer Discretionary,Gaming,0.55,8085.000000000001,8. p75_trade_value,2441.0,9757,40__1,40,1.0,14949.0,23684.0,74664.0,370708.0,772280.52,775178.05,775467.81
+RCL,Consumer Discretionary,Leisure and Recreation Services,0.55,84669.0,5. p99_trade_value,57.0,5641,40__0,40,0.0,13870.0,22125.0,84401.4,658904.08,4104430.16,4451659.02,4486381.9
+REAL,Consumer Discretionary,Consumer Products - Discretionary,0.55,16500.0,6. p95_trade_value,5.0,81,20__0,20,0.0,13560.0,16500.0,22989.0,29285.4,29915.04,29978.0,29984.3
+REYN,Consumer Discretionary,Consumer Products - Discretionary,0.55,10250.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,9711.5,9980.75,10196.15,10244.62,10249.46,10249.95,10249.99
+RGR,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,10,10__0,10,0.0,11529.0,11659.5,11763.9,11787.39,11789.74,11789.97,11790.0
+RICK,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,54,15__0,15,0.0,17500.0,21520.5,29170.05,32468.51,32798.35,32831.34,32834.63
+RL,Consumer Discretionary,Textile - Apparel,0.55,328860.0,1. p999999_trade_value,1.0,519,25__1,25,1.0,18258.0,53325.0,189582.48,307321.56,326706.16,328644.62,328838.46
+RLX,Consumer Discretionary,Consumer Products - Discretionary,0.55,,,,13,10__0,10,0.0,5800.0,7348.0,8965.6,9329.56,9365.96,9369.6,9369.96
+ROKU,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,10584,40__1,40,1.0,14735.4,23711.9,86376.5,351684.4,701106.79,1112677.29,1156342.33
+RRR,Consumer Discretionary,Gaming,0.55,,,,50,15__0,15,0.0,11234.0,23600.0,27089.3,29483.93,29723.39,29747.34,29749.73
+RSI,Consumer Discretionary,Gaming,0.55,19895.0,7. p90_trade_value,5.0,50,15__0,15,0.0,15381.5,39771.4,44731.5,47223.15,47472.32,47497.23,47499.72
+RVLV,Consumer Discretionary,Textile - Apparel,0.55,,,,86,20__0,20,0.0,13500.0,17232.5,48475.0,53447.5,53944.75,53994.48,53999.45
+SBGI,Consumer Discretionary,Media Conglomerates,0.55,5000.0,8. p75_trade_value,7.0,14,10__0,10,0.0,7427.0,9895.5,12979.1,13672.91,13742.29,13749.23,13749.92
+SHCO,Consumer Discretionary,Hotels and Motels,0.55,,,,5,5__0,5,0.0,6588.0,6784.0,6940.8,6976.08,6979.61,6979.96,6980.0
+SHOO,Consumer Discretionary,Shoes and Retail Apparel ,0.55,10500.0,8. p75_trade_value,7.0,25,15__0,15,0.0,47068.0,53640.0,140139.0,164336.4,166756.14,166998.11,167022.31
+SIRI,Consumer Discretionary,Broadcast Radio and Television,0.55,511658.0,1. p999999_trade_value,1.0,1410,30__0,30,0.0,15000.0,27000.0,102681.0,477092.0,507479.19,511240.12,511616.21
+SKX,Consumer Discretionary,Shoes and Retail Apparel ,0.55,,,,603,30__0,30,0.0,12191.4,21998.4,114740.0,299640.0,397164.0,406916.4,407891.64
+SNA,Consumer Discretionary,Tools - Handheld,0.55,,,,131,20__0,20,0.0,15580.0,22810.0,31235.0,82460.0,89246.0,89924.6,89992.46
+SNBR,Consumer Discretionary,Furniture,0.55,10400.0,8. p75_trade_value,7.0,27,15__0,15,0.0,19446.0,24702.0,38855.7,43197.57,43631.76,43675.18,43679.52
+SOGP,Consumer Discretionary,Audio Video Production,0.55,,,,2,5__0,5,0.0,4500.0,4500.0,4500.0,4500.0,4500.0,4500.0,4500.0
+SOND,Consumer Discretionary,Leisure and Recreation Services,0.55,6500.0,1. p999999_trade_value,1.0,4,5__0,5,0.0,6050.0,6275.0,6455.0,6495.5,6499.55,6499.96,6500.0
+SONO,Consumer Discretionary,Audio Video Production,0.55,8600.0,8. p75_trade_value,9.0,35,15__0,15,0.0,13848.0,28476.0,30973.2,31897.32,31989.73,31998.97,31999.9
+SONY,Consumer Discretionary,Audio Video Production,0.55,6800.0,8. p75_trade_value,36.0,141,20__0,20,0.0,11340.0,20655.0,71190.0,92177.8,94159.78,94357.98,94377.8
+SPB,Consumer Discretionary,Consumer Products - Discretionary,0.55,9455.0,6. p95_trade_value,2.0,27,15__0,15,0.0,8247.0,9138.5,13003.3,14125.33,14237.53,14248.75,14249.88
+SPHR,Consumer Discretionary,Media Conglomerates,0.55,94871.99999999999,5. p99_trade_value,6.0,599,30__0,30,0.0,17937.6,35046.8,94801.44,310000.0,310000.0,310000.0,310000.0
+SRAD,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,87,20__0,20,0.0,16341.0,20796.1,29105.6,29910.56,29991.06,29999.11,29999.91
+SSP,Consumer Discretionary,Broadcast Radio and Television,0.55,3300.0,1. p999999_trade_value,1.0,1,0__0,0,0.0,3300.0,3300.0,3300.0,3300.0,3300.0,3300.0,3300.0
+STRA,Consumer Discretionary,Schools,0.55,17000.0,1. p999999_trade_value,1.0,6,10__0,10,0.0,12700.0,14850.0,16570.0,16957.0,16995.7,16999.57,16999.96
+SWBI,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,15,10__0,10,0.0,12790.0,13725.0,14985.0,15268.5,15296.85,15299.69,15299.97
+TAL,Consumer Discretionary,Schools,0.55,,,,210,25__1,25,1.0,11107.5,17880.3,33750.0,469776.0,532977.6,539297.76,539929.78
+TCOM,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,824,30__0,30,0.0,11250.0,16017.0,40847.19,159976.14,173497.61,174849.76,174984.98
+TGNA,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,6,10__0,10,0.0,5941.0,6826.5,7534.9,7694.29,7710.23,7711.82,7711.98
+TH,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,24,15__0,15,0.0,12450.0,14762.0,20675.5,22155.55,22303.56,22318.36,22319.84
+TILE,Consumer Discretionary,Textile - Home Furnishing,0.55,4000.0,1. p999999_trade_value,1.0,1,0__0,0,0.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0
+TKO,Consumer Discretionary,Film and Television Production and Distribution,0.55,206760.0,5. p99_trade_value,21.0,2014,35__1,35,1.0,14400.0,30261.4,205881.2,961939.5,1592160.37,1689216.04,1698921.6
+TME,Consumer Discretionary,Media Conglomerates,0.55,,,,183,25__1,25,1.0,16748.0,29695.0,103611.0,159740.0,159740.0,159740.0,159740.0
+TNL,Consumer Discretionary,Leisure and Recreation Services,0.55,34100.0,1. p999999_trade_value,1.0,26,15__0,15,0.0,25687.5,33975.0,34068.75,34096.88,34099.69,34099.97,34100.0
+TSQ,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,2,5__0,5,0.0,8475.0,8612.5,8722.5,8747.25,8749.73,8749.97,8750.0
+TTC,Consumer Discretionary,Tools - Handheld,0.55,,,,56,15__0,15,0.0,16341.0,23047.5,46135.0,65093.5,66989.35,67178.94,67197.89
+TTWO,Consumer Discretionary,Gaming,0.55,315000.0,4. p999_trade_value,4.0,3761,35__3,35,3.0,15250.0,25080.0,110000.0,292070.8,543706.42,585738.74,589941.97
+UA,Consumer Discretionary,Textile - Apparel,0.55,8700.0,1. p999999_trade_value,1.0,3,5__0,5,0.0,8640.0,8670.0,8694.0,8699.4,8699.94,8699.99,8700.0
+UAA,Consumer Discretionary,Textile - Apparel,0.55,40000.0,7. p90_trade_value,6.0,60,20__1,20,1.0,30010.0,50547.6,209870.5,255032.05,259548.21,259999.82,260044.98
+UTI,Consumer Discretionary,Schools,0.55,38592.0,7. p90_trade_value,2.0,13,10__0,10,0.0,38373.6,43637.2,49691.44,51053.64,51189.86,51203.49,51204.85
+VAC,Consumer Discretionary,Leisure and Recreation Services,0.55,670000.0,1. p999999_trade_value,1.0,32,15__1,15,1.0,15679.8,121475.0,534995.0,656499.5,668649.95,669865.0,669986.5
+VFC,Consumer Discretionary,Textile - Apparel,0.55,277992.0,5. p99_trade_value,16.0,1561,30__2,30,2.0,23335.0,62000.0,277696.8,908576.0,1009282.4,1009928.24,1009992.82
+VIK,Consumer Discretionary,Leisure and Recreation Services,0.55,320000.0,1. p999999_trade_value,1.0,83,20__1,20,1.0,49600.0,119549.2,205200.0,308520.0,318852.0,319885.2,319988.52
+VIRC,Consumer Discretionary,Furniture,0.55,,,,9,10__0,10,0.0,9620.0,9760.0,9872.0,9897.2,9899.72,9899.97,9900.0
+WBD,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,866,30__1,30,1.0,14983.5,24103.0,70870.0,1389420.0,2940192.0,3095269.2,3110776.92
+WH,Consumer Discretionary,Hotels and Motels,0.55,8500.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,8450.0,8475.0,8495.0,8499.5,8499.95,8500.0,8500.0
+WHR,Consumer Discretionary,Household Appliances,0.55,,,,533,25__1,25,1.0,14792.0,23751.0,157092.8,334730.0,357473.0,359747.3,359974.73
+WMG,Consumer Discretionary,Film and Television Production and Distribution,0.55,,,,14,10__0,10,0.0,10046.5,12747.0,15669.4,16326.94,16392.69,16399.27,16399.93
+WOW,Consumer Discretionary,Cable Television,0.55,,,,1,0__0,0,0.0,3245.0,3245.0,3245.0,3245.0,3245.0,3245.0,3245.0
+WWW,Consumer Discretionary,Shoes and Retail Apparel ,0.55,9735.0,8. p75_trade_value,32.0,128,20__1,20,1.0,25800.0,79048.0,180484.8,286253.52,298625.35,299862.54,299986.25
+WYNN,Consumer Discretionary,Gaming,0.55,,,,4073,35__3,35,3.0,17418.4,29006.4,86850.0,332704.0,892092.0,989209.2,998920.92
+XPOF,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,18,15__0,15,0.0,20447.4,33517.1,92265.02,105483.3,106805.13,106937.31,106950.53
+YETI,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,201,25__1,25,1.0,18750.0,34800.0,212995.0,345484.0,363489.4,365289.94,365469.99

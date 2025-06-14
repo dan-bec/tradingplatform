@@ -1,0 +1,6 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+CCEP,Consumer Staples,Beverages - Soft drinks,0.55,,,,69,20__0,20,0.0,12094.0,13843.0,77603.2,162906.82,171437.18,172290.22,172375.52
+DEO,Consumer Staples,Beverages - Alcohol,0.55,,,,110,20__0,20,0.0,11500.0,15173.0,34503.3,46192.55,47369.25,47486.93,47498.69
+KDP,Consumer Staples,Beverages - Soft drinks,0.55,,,,149,20__0,20,0.0,18220.0,26700.0,110606.4,199952.7,213202.77,214527.78,214660.28
+PRMB,Consumer Staples,Beverages - Soft drinks,0.55,,,,151,20__0,20,0.0,15660.0,23447.5,115481.0,130962.0,130962.0,130962.0,130962.0
+TAP,Consumer Staples,Beverages - Alcohol,0.55,67500.0,5. p99_trade_value,2.0,155,20__0,20,0.0,14303.6,20247.0,65139.12,124605.0,133960.5,134896.05,134989.6

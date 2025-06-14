@@ -1,0 +1,11 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+TFC,Finance,Banks - Major Regional,30__0,30,0.0,1. p999999_trade_value,719880.0,719880.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+TFC,Finance,Banks - Major Regional,30__0,30,0.0,5. p99_trade_value,237840.0,81708.0,6.0,9.0,0.6666666666666666,0.55,1. ABOVE BASELINE,7.0,10.0,0.7
+TFC,Finance,Banks - Major Regional,30__0,30,0.0,6. p95_trade_value,80000.0,32110.000000000004,29.0,36.0,0.8055555555555556,0.55,1. ABOVE BASELINE,36.0,46.0,0.782608695652174
+TFC,Finance,Banks - Major Regional,30__0,30,0.0,7. p90_trade_value,31500.0,18156.0,27.0,45.0,0.6,0.55,1. ABOVE BASELINE,63.0,91.0,0.6923076923076923
+TFC,Finance,Banks - Major Regional,30__0,30,0.0,8. p75_trade_value,18109.0,9048.0,84.0,135.0,0.6222222222222222,0.55,1. ABOVE BASELINE,147.0,226.0,0.6504424778761062
+USB,Finance,Banks - Major Regional,30__0,30,0.0,1. p999999_trade_value,222000.0,222000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+USB,Finance,Banks - Major Regional,30__0,30,0.0,5. p99_trade_value,198000.0,60000.0,5.0,9.0,0.5555555555555556,0.55,2. BELOW BASELINE,5.0,10.0,0.5
+USB,Finance,Banks - Major Regional,30__0,30,0.0,6. p95_trade_value,59925.0,28000.0,15.0,40.0,0.375,0.55,2. BELOW BASELINE,20.0,50.0,0.4
+USB,Finance,Banks - Major Regional,30__0,30,0.0,7. p90_trade_value,27984.000000000004,15000.0,19.0,46.0,0.41304347826086957,0.55,2. BELOW BASELINE,39.0,96.0,0.40625
+USB,Finance,Banks - Major Regional,30__0,30,0.0,8. p75_trade_value,14840.0,7500.0,70.0,143.0,0.48951048951048953,0.55,2. BELOW BASELINE,109.0,239.0,0.4560669456066946

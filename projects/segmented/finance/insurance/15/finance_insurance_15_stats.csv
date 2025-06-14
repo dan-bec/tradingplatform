@@ -1,0 +1,12 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AGO,Finance,Insurance - Multi line,0.55,,,,42,15__0,15,0.0,5036.0,9019.0,155722.1,240293.21,248750.32,249596.03,249680.6
+AMBC,Finance,Insurance - Property and Casualty,0.55,,,,45,15__0,15,0.0,47988.0,90024.0,197470.0,199747.0,199974.7,199997.47,199999.75
+BRO,Finance,Insurance - Brokerage,0.55,191040.0,1. p999999_trade_value,1.0,42,15__0,15,0.0,15150.4,85821.85,167395.71,188675.57,190803.56,191016.36,191037.64
+CINF,Finance,Insurance - Property and Casualty,0.55,38000.0,6. p95_trade_value,3.0,41,15__0,15,0.0,11600.0,38000.0,252574.0,266214.4,267578.44,267714.84,267728.48
+GNW,Finance,Insurance - Life Insurance,0.55,13619.999999999998,8. p75_trade_value,7.0,28,15__0,15,0.0,25000.0,25000.0,33263.6,36014.36,36289.44,36316.94,36319.69
+GSHD,Finance,Insurance - Multi line,0.55,,,,37,15__0,15,0.0,10026.0,11600.0,30920.0,39992.0,40899.2,40989.92,40998.99
+HIPO,Finance,Insurance - Multi line,0.55,22000.000000000004,6. p95_trade_value,2.0,26,15__0,15,0.0,19980.0,21495.0,35500.0,39550.0,39955.0,39995.5,39999.55
+RYAN,Finance,Insurance - Brokerage,0.55,11499.999999999998,8. p75_trade_value,6.0,24,15__0,15,0.0,23850.0,26078.0,108215.8,130269.58,132474.96,132695.5,132717.55
+SLQT,Finance,Insurance - Multi line,0.55,,,,31,15__0,15,0.0,7152.0,8460.0,11066.0,11816.6,11891.66,11899.17,11899.92
+TIPT,Finance,Insurance - Brokerage,0.55,,,,40,15__0,15,0.0,21410.4,27039.75,30517.25,30771.73,30797.17,30799.72,30799.97
+WRB,Finance,Insurance - Property and Casualty,0.55,,,,29,15__0,15,0.0,10500.0,12650.0,13650.0,13965.0,13996.5,13999.65,13999.97

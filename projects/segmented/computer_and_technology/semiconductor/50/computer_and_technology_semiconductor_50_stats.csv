@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+TSM,Computer and Technology,Semiconductor - Circuit Foundry,0.55,,,,90484,50__3,50,3.0,18525.0,30000.0,91851.63,429034.0,1220786.34,2109235.78,2136923.58

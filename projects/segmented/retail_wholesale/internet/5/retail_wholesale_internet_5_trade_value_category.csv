@@ -1,0 +1,4 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+DADA,Retail-Wholesale,Internet - Commerce,5__0,5,0.0,1. p999999_trade_value,8400.000000000002,8400.000000000002,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+NEGG,Retail-Wholesale,Internet - Commerce,5__0,5,0.0,1. p999999_trade_value,4590.0,4590.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+TZOO,Retail-Wholesale,Internet - Commerce,5__0,5,0.0,2. p99999_trade_value,5799.999999999999,5799.999999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0

@@ -1,0 +1,7 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AMN,Medical,Medical Services,0.55,,,,52,15__0,15,0.0,11094.0,16799.4,30192.19,36724.22,37377.42,37442.74,37449.27
+BLCO,Medical,Medical Services,0.55,,,,28,15__0,15,0.0,16142.5,21978.75,25760.76,26346.88,26405.49,26411.35,26411.93
+CDNA,Medical,Medical Services,0.55,,,,33,15__0,15,0.0,12390.0,13970.0,20140.0,22264.0,22476.4,22497.64,22499.76
+OGN,Medical,Medical Services,0.55,130000.0,1. p999999_trade_value,1.0,42,15__0,15,0.0,10113.9,15247.0,83292.8,125329.28,129532.93,129953.29,129995.33
+PINC,Medical,Medical Services,0.55,,,,21,15__0,15,0.0,75000.0,75000.0,75000.0,75000.0,75000.0,75000.0,75000.0
+VTRS,Medical,Medical Services,0.55,77952.0,1. p999999_trade_value,1.0,46,15__0,15,0.0,27284.0,51531.0,67173.6,76874.16,77844.22,77941.22,77950.92

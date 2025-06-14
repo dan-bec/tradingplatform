@@ -1,0 +1,13 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+HON,Conglomerates,Diversified Operations,35__4,35,4.0,1. p999999_trade_value,1529999.9999999998,1529999.9999999998,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+HON,Conglomerates,Diversified Operations,35__4,35,4.0,4. p999_trade_value,352500.0,260000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+HON,Conglomerates,Diversified Operations,35__4,35,4.0,5. p99_trade_value,150749.99999999997,47500.0,17.0,23.0,0.7391304347826086,0.55,2. BELOW BASELINE,18.0,26.0,0.6923076923076923
+HON,Conglomerates,Diversified Operations,35__4,35,4.0,6. p95_trade_value,47000.0,20475.0,50.0,102.0,0.49019607843137253,0.55,2. BELOW BASELINE,68.0,128.0,0.53125
+HON,Conglomerates,Diversified Operations,35__4,35,4.0,7. p90_trade_value,20400.0,13844.999999999998,59.0,127.0,0.4645669291338583,0.55,2. BELOW BASELINE,127.0,255.0,0.4980392156862745
+HON,Conglomerates,Diversified Operations,35__4,35,4.0,8. p75_trade_value,13800.0,7676.000000000001,202.0,381.0,0.5301837270341208,0.55,2. BELOW BASELINE,329.0,636.0,0.5172955974842768
+MMM,Conglomerates,Diversified Operations,35__4,35,4.0,1. p999999_trade_value,2131200.0,2131200.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,1.0,1.0
+MMM,Conglomerates,Diversified Operations,35__4,35,4.0,4. p999_trade_value,900000.0,781865.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+MMM,Conglomerates,Diversified Operations,35__4,35,4.0,5. p99_trade_value,762200.0,108605.0,25.0,32.0,0.78125,0.55,2. BELOW BASELINE,27.0,36.0,0.75
+MMM,Conglomerates,Diversified Operations,35__4,35,4.0,6. p95_trade_value,101000.0,26643.0,104.0,140.0,0.7428571428571429,0.55,2. BELOW BASELINE,131.0,176.0,0.7443181818181818
+MMM,Conglomerates,Diversified Operations,35__4,35,4.0,7. p90_trade_value,26500.0,15543.0,102.0,175.0,0.5828571428571429,0.55,2. BELOW BASELINE,233.0,351.0,0.6638176638176638
+MMM,Conglomerates,Diversified Operations,35__4,35,4.0,8. p75_trade_value,15500.0,8300.0,353.0,525.0,0.6723809523809524,0.55,2. BELOW BASELINE,586.0,876.0,0.6689497716894978

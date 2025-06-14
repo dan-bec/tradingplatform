@@ -1,0 +1,6 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+ARRY,Oils-Energy,Solar,20__0,20,0.0,1. p999999_trade_value,90240.00000000001,90240.00000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ARRY,Oils-Energy,Solar,20__0,20,0.0,5. p99_trade_value,47879.99999999999,47879.99999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+ARRY,Oils-Energy,Solar,20__0,20,0.0,6. p95_trade_value,23200.0,16650.0,4.0,5.0,0.8,0.55,2. BELOW BASELINE,4.0,7.0,0.5714285714285714
+ARRY,Oils-Energy,Solar,20__0,20,0.0,7. p90_trade_value,15000.0,10710.0,4.0,6.0,0.6666666666666666,0.55,2. BELOW BASELINE,8.0,13.0,0.6153846153846154
+ARRY,Oils-Energy,Solar,20__0,20,0.0,8. p75_trade_value,10575.0,7875.0,13.0,18.0,0.7222222222222222,0.55,2. BELOW BASELINE,21.0,31.0,0.6774193548387096

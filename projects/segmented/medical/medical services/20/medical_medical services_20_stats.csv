@@ -1,0 +1,9 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ALHC,Medical,Medical Services,0.55,160310.0,6. p95_trade_value,4.0,70,20__2,20,2.0,136085.6,157247.3,266164.6,434244.46,451052.45,452733.24,452901.32
+ESTA,Medical,Medical Services,0.55,,,,152,20__1,20,1.0,22383.0,53046.0,304501.06,500457.98,522388.3,524581.33,524800.63
+LFMD,Medical,Medical Services,0.55,7530.0,8. p75_trade_value,29.0,113,20__0,20,0.0,13673.0,28650.0,40301.2,119962.0,128996.2,129899.62,129989.96
+LH,Medical,Medical Services,0.55,500000.0,1. p999999_trade_value,1.0,111,20__1,20,1.0,18232.0,48100.0,256830.0,474007.0,497400.7,499740.07,499974.01
+PGNY,Medical,Medical Services,0.55,36000.0,1. p999999_trade_value,1.0,57,20__0,20,0.0,13050.0,17104.0,27398.4,35139.84,35913.98,35991.4,35999.14
+RVTY,Medical,Medical Services,0.55,52030.00000000001,6. p95_trade_value,3.0,60,20__1,20,1.0,12422.1,45351.5,168918.25,317239.83,332071.98,333555.2,333703.52
+SGRY,Medical,Medical Services,0.55,,,,70,20__0,20,0.0,13837.5,41075.0,72291.5,106229.15,109622.91,109962.29,109996.23
+SOLV,Medical,Medical Services,0.55,350000.0,1. p999999_trade_value,1.0,167,20__1,20,1.0,9840.0,13850.0,92672.0,318875.0,346887.5,349688.75,349968.87

@@ -1,0 +1,8 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+ASTS,Computer and Technology,Wireless Equipment,45__0,45,0.0,1. p999999_trade_value,497000.0,497000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ASTS,Computer and Technology,Wireless Equipment,45__0,45,0.0,3. p9999_trade_value,475000.0,367290.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+ASTS,Computer and Technology,Wireless Equipment,45__0,45,0.0,4. p999_trade_value,349800.0,172520.0,13.0,18.0,0.7222222222222222,0.55,2. BELOW BASELINE,15.0,21.0,0.7142857142857143
+ASTS,Computer and Technology,Wireless Equipment,45__0,45,0.0,5. p99_trade_value,170050.0,57000.0,97.0,190.0,0.5105263157894737,0.55,2. BELOW BASELINE,112.0,211.0,0.5308056872037915
+ASTS,Computer and Technology,Wireless Equipment,45__0,45,0.0,6. p95_trade_value,56990.0,23120.0,451.0,832.0,0.5420673076923077,0.55,2. BELOW BASELINE,563.0,1043.0,0.5397890699904123
+ASTS,Computer and Technology,Wireless Equipment,45__0,45,0.0,7. p90_trade_value,23104.0,15400.0,569.0,1049.0,0.5424213536701621,0.55,2. BELOW BASELINE,1132.0,2092.0,0.5411089866156787
+ASTS,Computer and Technology,Wireless Equipment,45__0,45,0.0,8. p75_trade_value,15397.0,8410.0,1613.0,3121.0,0.5168215315603973,0.55,2. BELOW BASELINE,2745.0,5213.0,0.5265681948973719

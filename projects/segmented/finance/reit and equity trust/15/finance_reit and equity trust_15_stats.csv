@@ -1,0 +1,19 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ARR,Finance,REIT and Equity Trust,0.55,16379.999999999998,7. p90_trade_value,4.0,34,15__0,15,0.0,16251.0,20546.2,28309.8,29776.98,29923.7,29938.37,29939.84
+AVB,Finance,REIT and Equity Trust - Residential,0.55,14100.0,1. p999999_trade_value,1.0,21,15__0,15,0.0,10620.0,13200.0,13920.0,14082.0,14098.2,14099.82,14099.98
+BXMT,Finance,REIT and Equity Trust,0.55,,,,32,15__0,15,0.0,12316.5,17307.15,20127.0,20127.0,20127.0,20127.0,20127.0
+CIM,Finance,REIT and Equity Trust,0.55,60000.0,1. p999999_trade_value,1.0,21,15__0,15,0.0,33000.0,34000.0,54800.0,59480.0,59948.0,59994.8,59999.48
+DEI,Finance,REIT and Equity Trust - Other,0.55,,,,22,15__0,15,0.0,14532.0,17546.0,19512.8,19951.28,19995.13,19999.51,19999.95
+ESS,Finance,REIT and Equity Trust - Residential,0.55,,,,29,15__1,15,1.0,205701.0,232674.0,306200.0,327620.0,329762.0,329976.2,329997.62
+EXR,Finance,REIT and Equity Trust - Other,0.55,,,,35,15__1,15,1.0,205250.0,252576.0,525617.52,637176.55,648332.46,649448.05,649559.6
+HST,Finance,REIT and Equity Trust - Other,0.55,,,,25,15__0,15,0.0,26250.0,35840.0,319285.0,399286.0,407286.1,408086.11,408166.11
+LINE,Finance,REIT and Equity Trust - Other,0.55,19380.0,6. p95_trade_value,2.0,37,15__0,15,0.0,9048.0,11780.0,27776.8,32027.68,32452.77,32495.28,32499.53
+MAA,Finance,REIT and Equity Trust - Residential,0.55,5820.0,8. p75_trade_value,5.0,19,15__0,15,0.0,6712.8,10611.1,25062.22,28313.72,28638.87,28671.39,28674.64
+MAC,Finance,REIT and Equity Trust - Retail,0.55,60000.0,1. p999999_trade_value,1.0,42,15__0,15,0.0,13690.0,19183.5,45387.6,58538.76,59853.88,59985.39,59998.54
+OHI,Finance,REIT and Equity Trust - Other,0.55,,,,24,15__1,15,1.0,130305.6,154218.8,247228.88,272222.89,274722.29,274972.23,274997.22
+REXR,Finance,REIT and Equity Trust - Other,0.55,5900.0,8. p75_trade_value,12.0,42,15__0,15,0.0,25000.0,26600.0,27070.07,27097.01,27099.7,27099.97,27100.0
+STWD,Finance,REIT and Equity Trust,0.55,,,,40,15__0,15,0.0,8703.0,9981.0,19083.61,23927.76,24412.18,24460.62,24465.46
+TWO,Finance,REIT and Equity Trust,0.55,,,,20,15__0,15,0.0,14485.5,28000.4,63726.48,71764.85,72568.68,72649.07,72657.11
+VICI,Finance,REIT and Equity Trust - Other,0.55,12705.0,8. p75_trade_value,12.0,48,15__0,15,0.0,27573.0,43340.75,79798.6,81752.86,81948.29,81967.83,81969.78
+VNO,Finance,REIT and Equity Trust - Other,0.55,144000.0,1. p999999_trade_value,1.0,54,15__0,15,0.0,12210.0,23161.25,104780.0,140078.0,143607.8,143960.78,143996.08
+VTR,Finance,REIT and Equity Trust - Other,0.55,38961.0,6. p95_trade_value,2.0,25,15__0,15,0.0,23376.0,35844.0,54829.04,59338.9,59789.89,59834.99,59839.5

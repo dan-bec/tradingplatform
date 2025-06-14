@@ -1,0 +1,3 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+BKNG,Retail-Wholesale,Internet - Commerce,0.55,202600.0,4. p999_trade_value,36.0,35016,45__2,45,2.0,17263.0,29848.0,78672.65,202561.0,738115.49,958936.62,1050073.66
+MELI,Retail-Wholesale,Internet - Commerce,0.55,792500.0,3. p9999_trade_value,3.0,21313,45__0,45,0.0,14728.0,23840.0,65246.4,284712.8,782528.8,1103381.43,1176838.14

@@ -1,0 +1,20 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CVX,Oils-Energy,Oil and Gas - Integrated - International,40__1,40,1.0,1. p999999_trade_value,650000.0,650000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CVX,Oils-Energy,Oil and Gas - Integrated - International,40__1,40,1.0,4. p999_trade_value,416800.0,231525.0,5.0,7.0,0.7142857142857143,0.55,1. ABOVE BASELINE,6.0,8.0,0.75
+CVX,Oils-Energy,Oil and Gas - Integrated - International,40__1,40,1.0,5. p99_trade_value,224000.0,54890.00000000001,39.0,72.0,0.5416666666666666,0.55,2. BELOW BASELINE,45.0,80.0,0.5625
+CVX,Oils-Energy,Oil and Gas - Integrated - International,40__1,40,1.0,6. p95_trade_value,54800.0,21924.0,167.0,320.0,0.521875,0.55,2. BELOW BASELINE,212.0,400.0,0.53
+CVX,Oils-Energy,Oil and Gas - Integrated - International,40__1,40,1.0,7. p90_trade_value,21911.999999999996,14235.0,235.0,401.0,0.5860349127182045,0.55,2. BELOW BASELINE,447.0,801.0,0.5580524344569289
+CVX,Oils-Energy,Oil and Gas - Integrated - International,40__1,40,1.0,8. p75_trade_value,14224.0,7772.0,623.0,1199.0,0.5195996663886572,0.55,2. BELOW BASELINE,1070.0,2000.0,0.535
+OXY,Oils-Energy,Oil and Gas - Integrated - United States,40__1,40,1.0,1. p999999_trade_value,716112.0,716112.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+OXY,Oils-Energy,Oil and Gas - Integrated - United States,40__1,40,1.0,4. p999_trade_value,200000.0,123190.00000000001,1.0,8.0,0.125,0.55,2. BELOW BASELINE,2.0,9.0,0.2222222222222222
+OXY,Oils-Energy,Oil and Gas - Integrated - United States,40__1,40,1.0,5. p99_trade_value,121440.00000000001,48000.0,29.0,75.0,0.38666666666666666,0.55,2. BELOW BASELINE,31.0,84.0,0.36904761904761907
+OXY,Oils-Energy,Oil and Gas - Integrated - United States,40__1,40,1.0,6. p95_trade_value,47940.0,19822.0,178.0,322.0,0.5527950310559007,0.55,2. BELOW BASELINE,209.0,406.0,0.5147783251231527
+OXY,Oils-Energy,Oil and Gas - Integrated - United States,40__1,40,1.0,7. p90_trade_value,19800.0,13035.000000000002,230.0,404.0,0.5693069306930693,0.55,2. BELOW BASELINE,439.0,810.0,0.5419753086419753
+OXY,Oils-Energy,Oil and Gas - Integrated - United States,40__1,40,1.0,8. p75_trade_value,13019.999999999998,7631.999999999999,735.0,1217.0,0.6039441248972884,0.55,2. BELOW BASELINE,1174.0,2027.0,0.57918105574741
+XOM,Oils-Energy,Oil and Gas - Integrated - International,40__1,40,1.0,1. p999999_trade_value,552900.0,552900.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+XOM,Oils-Energy,Oil and Gas - Integrated - International,40__1,40,1.0,3. p9999_trade_value,500520.0,500520.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+XOM,Oils-Energy,Oil and Gas - Integrated - International,40__1,40,1.0,4. p999_trade_value,451178.0,277889.99999999994,4.0,12.0,0.3333333333333333,0.55,2. BELOW BASELINE,5.0,14.0,0.35714285714285715
+XOM,Oils-Energy,Oil and Gas - Integrated - International,40__1,40,1.0,5. p99_trade_value,276819.0,78673.99999999999,64.0,119.0,0.5378151260504201,0.55,2. BELOW BASELINE,69.0,133.0,0.518796992481203
+XOM,Oils-Energy,Oil and Gas - Integrated - International,40__1,40,1.0,6. p95_trade_value,78227.00000000001,24750.0,318.0,529.0,0.6011342155009451,0.55,2. BELOW BASELINE,387.0,662.0,0.5845921450151057
+XOM,Oils-Energy,Oil and Gas - Integrated - International,40__1,40,1.0,7. p90_trade_value,24702.0,15840.0,358.0,662.0,0.540785498489426,0.55,2. BELOW BASELINE,745.0,1324.0,0.5626888217522659
+XOM,Oils-Energy,Oil and Gas - Integrated - International,40__1,40,1.0,8. p75_trade_value,15834.0,8646.0,1151.0,1986.0,0.5795568982880162,0.55,2. BELOW BASELINE,1896.0,3310.0,0.572809667673716

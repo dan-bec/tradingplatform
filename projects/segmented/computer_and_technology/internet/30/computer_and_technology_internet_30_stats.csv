@@ -1,0 +1,14 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AKAM,Computer and Technology,Internet - Services,0.55,,,,1416,30__2,30,2.0,17067.5,25425.0,124251.0,884902.5,1170342.0,1202434.2,1205643.42
+ASAN,Computer and Technology,Internet - Software,0.55,118881.0,1. p999999_trade_value,1.0,577,30__0,30,0.0,12000.0,14770.0,42162.0,110208.17,118013.72,118794.27,118872.33
+CFLT,Computer and Technology,Internet - Software,0.55,,,,1363,30__0,30,0.0,16750.0,27000.0,141649.96,398868.0,749606.0,794960.6,799496.06
+DOCN,Computer and Technology,Internet - Software,0.55,,,,624,30__0,30,0.0,16745.0,30000.0,46808.1,68770.0,74377.0,74937.7,74993.77
+ESTC,Computer and Technology,Internet - Software,0.55,355950.0,1. p999999_trade_value,2.0,1635,30__0,30,0.0,23072.0,38316.0,112660.0,347961.6,355950.0,355950.0,355950.0
+GDDY,Computer and Technology,Internet - Delivery Services,0.55,,,,682,30__0,30,0.0,13259.0,19885.5,61667.06,719596.2,805279.62,813847.96,814704.8
+GWRE,Computer and Technology,Internet - Software,0.55,,,,741,30__0,30,0.0,18564.0,26826.0,82488.0,279129.7,463674.97,482129.5,483974.95
+MTCH,Computer and Technology,Internet - Software,0.55,422770.0,4. p999_trade_value,2.0,1520,30__2,30,2.0,17637.5,32592.45,131413.66,412779.25,1242779.23,1374961.12,1388179.31
+NICE,Computer and Technology,Internet - Software,0.55,23585.0,7. p90_trade_value,77.0,765,30__2,30,2.0,23513.4,42271.6,91930.0,1243070.0,1368557.0,1381105.7,1382360.57
+NTES,Computer and Technology,Internet - Software and Services,0.55,8400.0,8. p75_trade_value,252.0,1007,30__0,30,0.0,16574.0,25350.0,72074.0,179844.0,221822.1,226032.21,226453.22
+PATH,Computer and Technology,Internet - Software,0.55,529104.0,1. p999999_trade_value,1.0,1158,30__0,30,0.0,12013.1,20015.0,63010.0,399675.0,518216.17,528015.22,528995.12
+RUM,Computer and Technology,Internet - Software,0.55,,,,933,30__0,30,0.0,13500.0,20400.0,46000.0,117480.9,187248.09,194224.81,194922.48
+TTAN,Computer and Technology,Internet - Software,0.55,334800.0,4. p999_trade_value,2.0,1201,30__0,30,0.0,11184.0,15848.0,55720.0,294680.0,406951.2,415806.12,416691.61

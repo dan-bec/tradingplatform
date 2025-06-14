@@ -1,0 +1,19 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+T,Computer and Technology,Wireless National,35__3,35,3.0,1. p999999_trade_value,724275.0,724275.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+T,Computer and Technology,Wireless National,35__3,35,3.0,4. p999_trade_value,305500.0,168000.00000000003,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+T,Computer and Technology,Wireless National,35__3,35,3.0,5. p99_trade_value,139574.0,80000.0,13.0,19.0,0.6842105263157895,0.55,1. ABOVE BASELINE,16.0,22.0,0.7272727272727273
+T,Computer and Technology,Wireless National,35__3,35,3.0,6. p95_trade_value,73460.0,26000.0,52.0,88.0,0.5909090909090909,0.55,1. ABOVE BASELINE,68.0,110.0,0.6181818181818182
+T,Computer and Technology,Wireless National,35__3,35,3.0,7. p90_trade_value,25900.0,16400.0,70.0,110.0,0.6363636363636364,0.55,1. ABOVE BASELINE,138.0,220.0,0.6272727272727273
+T,Computer and Technology,Wireless National,35__3,35,3.0,8. p75_trade_value,16330.000000000002,8483.000000000002,206.0,329.0,0.6261398176291794,0.55,1. ABOVE BASELINE,344.0,549.0,0.6265938069216758
+TMUS,Computer and Technology,Wireless National,35__4,35,4.0,1. p999999_trade_value,1890375.0,1890375.0,0.0,1.0,0.0,0.55,1. ABOVE BASELINE,0.0,1.0,0.0
+TMUS,Computer and Technology,Wireless National,35__4,35,4.0,4. p999_trade_value,453000.0,252000.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,2.0,4.0,0.5
+TMUS,Computer and Technology,Wireless National,35__4,35,4.0,5. p99_trade_value,235494.0,67000.0,17.0,36.0,0.4722222222222222,0.55,2. BELOW BASELINE,19.0,40.0,0.475
+TMUS,Computer and Technology,Wireless National,35__4,35,4.0,6. p95_trade_value,66600.00000000001,23009.0,83.0,156.0,0.532051282051282,0.55,2. BELOW BASELINE,102.0,196.0,0.5204081632653061
+TMUS,Computer and Technology,Wireless National,35__4,35,4.0,7. p90_trade_value,22999.999999999996,14553.0,103.0,191.0,0.5392670157068062,0.55,2. BELOW BASELINE,205.0,387.0,0.5297157622739018
+TMUS,Computer and Technology,Wireless National,35__4,35,4.0,8. p75_trade_value,14519.999999999998,7900.0,314.0,591.0,0.5313028764805414,0.55,2. BELOW BASELINE,519.0,978.0,0.5306748466257669
+VZ,Computer and Technology,Wireless National,35__0,35,0.0,1. p999999_trade_value,340000.00000000006,340000.00000000006,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+VZ,Computer and Technology,Wireless National,35__0,35,0.0,4. p999_trade_value,312000.0,214957.00000000003,4.0,4.0,1.0,0.55,1. ABOVE BASELINE,5.0,5.0,1.0
+VZ,Computer and Technology,Wireless National,35__0,35,0.0,5. p99_trade_value,157500.0,59177.0,22.0,35.0,0.6285714285714286,0.55,1. ABOVE BASELINE,27.0,40.0,0.675
+VZ,Computer and Technology,Wireless National,35__0,35,0.0,6. p95_trade_value,58624.0,21070.0,92.0,157.0,0.5859872611464968,0.55,1. ABOVE BASELINE,119.0,197.0,0.6040609137055838
+VZ,Computer and Technology,Wireless National,35__0,35,0.0,7. p90_trade_value,21042.0,12992.000000000002,130.0,196.0,0.6632653061224489,0.55,1. ABOVE BASELINE,249.0,393.0,0.6335877862595419
+VZ,Computer and Technology,Wireless National,35__0,35,0.0,8. p75_trade_value,12960.0,7452.000000000001,345.0,588.0,0.5867346938775511,0.55,1. ABOVE BASELINE,594.0,981.0,0.6055045871559633

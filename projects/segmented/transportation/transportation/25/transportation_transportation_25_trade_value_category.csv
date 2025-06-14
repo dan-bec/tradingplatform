@@ -1,0 +1,61 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+AER,Transportation,Transportation - Equipment and Leasing,25__1,25,1.0,1. p999999_trade_value,315000.0,315000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AER,Transportation,Transportation - Equipment and Leasing,25__1,25,1.0,5. p99_trade_value,262500.0,225000.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+AER,Transportation,Transportation - Equipment and Leasing,25__1,25,1.0,6. p95_trade_value,185538.0,32130.0,7.0,9.0,0.7777777777777778,0.55,1. ABOVE BASELINE,10.0,12.0,0.8333333333333334
+AER,Transportation,Transportation - Equipment and Leasing,25__1,25,1.0,7. p90_trade_value,31875.0,15000.0,6.0,12.0,0.5,0.55,2. BELOW BASELINE,16.0,24.0,0.6666666666666666
+AER,Transportation,Transportation - Equipment and Leasing,25__1,25,1.0,8. p75_trade_value,14797.999999999998,7750.0,24.0,36.0,0.6666666666666666,0.55,2. BELOW BASELINE,40.0,60.0,0.6666666666666666
+CHRW,Transportation,Transportation - Services,25__0,25,0.0,1. p999999_trade_value,825000.0,825000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CHRW,Transportation,Transportation - Services,25__0,25,0.0,5. p99_trade_value,245000.0,229860.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+CHRW,Transportation,Transportation - Services,25__0,25,0.0,6. p95_trade_value,180960.0,35700.0,5.0,11.0,0.45454545454545453,0.55,2. BELOW BASELINE,8.0,14.0,0.5714285714285714
+CHRW,Transportation,Transportation - Services,25__0,25,0.0,7. p90_trade_value,34760.0,22680.0,10.0,13.0,0.7692307692307693,0.55,2. BELOW BASELINE,18.0,27.0,0.6666666666666666
+CHRW,Transportation,Transportation - Services,25__0,25,0.0,8. p75_trade_value,22364.999999999996,8265.0,27.0,40.0,0.675,0.55,2. BELOW BASELINE,45.0,67.0,0.6716417910447762
+CP,Transportation,Transportation - Rail,25__1,25,1.0,1. p999999_trade_value,654375.0,654375.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CP,Transportation,Transportation - Rail,25__1,25,1.0,5. p99_trade_value,440300.0,139384.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+CP,Transportation,Transportation - Rail,25__1,25,1.0,6. p95_trade_value,112500.0,49320.0,3.0,12.0,0.25,0.55,2. BELOW BASELINE,4.0,16.0,0.25
+CP,Transportation,Transportation - Rail,25__1,25,1.0,7. p90_trade_value,30095.999999999996,12210.0,10.0,17.0,0.5882352941176471,0.55,2. BELOW BASELINE,14.0,33.0,0.42424242424242425
+CP,Transportation,Transportation - Rail,25__1,25,1.0,8. p75_trade_value,11760.0,6030.0,23.0,48.0,0.4791666666666667,0.55,2. BELOW BASELINE,37.0,81.0,0.4567901234567901
+CSX,Transportation,Transportation - Rail,25__1,25,1.0,1. p999999_trade_value,405000.0,405000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CSX,Transportation,Transportation - Rail,25__1,25,1.0,5. p99_trade_value,150000.0,98784.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+CSX,Transportation,Transportation - Rail,25__1,25,1.0,6. p95_trade_value,98000.0,67320.0,6.0,9.0,0.6666666666666666,0.55,2. BELOW BASELINE,6.0,12.0,0.5
+CSX,Transportation,Transportation - Rail,25__1,25,1.0,7. p90_trade_value,53955.00000000001,19600.0,3.0,12.0,0.25,0.55,2. BELOW BASELINE,9.0,24.0,0.375
+CSX,Transportation,Transportation - Rail,25__1,25,1.0,8. p75_trade_value,19560.000000000004,7785.000000000001,15.0,34.0,0.4411764705882353,0.55,2. BELOW BASELINE,24.0,58.0,0.41379310344827586
+FRO,Transportation,Transportation - Shipping,25__1,25,1.0,1. p999999_trade_value,210000.0,210000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+FRO,Transportation,Transportation - Shipping,25__1,25,1.0,5. p99_trade_value,200000.0,172060.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+FRO,Transportation,Transportation - Shipping,25__1,25,1.0,6. p95_trade_value,130000.0,38000.0,6.0,11.0,0.5454545454545454,0.55,2. BELOW BASELINE,7.0,14.0,0.5
+FRO,Transportation,Transportation - Shipping,25__1,25,1.0,7. p90_trade_value,37325.0,17535.0,10.0,16.0,0.625,0.55,2. BELOW BASELINE,17.0,30.0,0.5666666666666667
+FRO,Transportation,Transportation - Shipping,25__1,25,1.0,8. p75_trade_value,17500.0,9725.0,28.0,37.0,0.7567567567567568,0.55,2. BELOW BASELINE,45.0,67.0,0.6716417910447762
+GXO,Transportation,Transportation - Air Freight and Cargo,25__1,25,1.0,1. p999999_trade_value,181500.0,181500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+GXO,Transportation,Transportation - Air Freight and Cargo,25__1,25,1.0,5. p99_trade_value,175185.0,175185.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+GXO,Transportation,Transportation - Air Freight and Cargo,25__1,25,1.0,6. p95_trade_value,170000.0,19920.0,5.0,8.0,0.625,0.55,2. BELOW BASELINE,5.0,10.0,0.5
+GXO,Transportation,Transportation - Air Freight and Cargo,25__1,25,1.0,7. p90_trade_value,19600.0,12000.0,7.0,9.0,0.7777777777777778,0.55,2. BELOW BASELINE,12.0,19.0,0.631578947368421
+GXO,Transportation,Transportation - Air Freight and Cargo,25__1,25,1.0,8. p75_trade_value,11850.0,6400.0,21.0,27.0,0.7777777777777778,0.55,2. BELOW BASELINE,33.0,46.0,0.717391304347826
+JBHT,Transportation,Transportation - Truck,25__0,25,0.0,1. p999999_trade_value,585000.0,585000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+JBHT,Transportation,Transportation - Truck,25__0,25,0.0,5. p99_trade_value,315000.0,175560.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
+JBHT,Transportation,Transportation - Truck,25__0,25,0.0,6. p95_trade_value,166500.0,75820.0,6.0,13.0,0.46153846153846156,0.55,2. BELOW BASELINE,9.0,17.0,0.5294117647058824
+JBHT,Transportation,Transportation - Truck,25__0,25,0.0,7. p90_trade_value,68000.0,21315.0,10.0,16.0,0.625,0.55,2. BELOW BASELINE,19.0,33.0,0.5757575757575758
+JBHT,Transportation,Transportation - Truck,25__0,25,0.0,8. p75_trade_value,20900.000000000004,8320.0,35.0,49.0,0.7142857142857143,0.55,2. BELOW BASELINE,54.0,82.0,0.6585365853658537
+JOBY,Transportation,Transportation - Airline,25__1,25,1.0,1. p999999_trade_value,171100.0,171100.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+JOBY,Transportation,Transportation - Airline,25__1,25,1.0,5. p99_trade_value,85000.00000000001,34950.0,0.0,5.0,0.0,0.55,2. BELOW BASELINE,1.0,6.0,0.16666666666666666
+JOBY,Transportation,Transportation - Airline,25__1,25,1.0,6. p95_trade_value,34700.0,19800.0,14.0,23.0,0.6086956521739131,0.55,2. BELOW BASELINE,15.0,29.0,0.5172413793103449
+JOBY,Transportation,Transportation - Airline,25__1,25,1.0,7. p90_trade_value,19750.0,12490.0,12.0,28.0,0.42857142857142855,0.55,2. BELOW BASELINE,27.0,57.0,0.47368421052631576
+JOBY,Transportation,Transportation - Airline,25__1,25,1.0,8. p75_trade_value,12475.0,7500.0,48.0,87.0,0.5517241379310345,0.55,2. BELOW BASELINE,75.0,144.0,0.5208333333333334
+KNX,Transportation,Transportation - Truck,25__0,25,0.0,1. p999999_trade_value,330000.00000000006,330000.00000000006,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+KNX,Transportation,Transportation - Truck,25__0,25,0.0,5. p99_trade_value,268905.0,212500.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+KNX,Transportation,Transportation - Truck,25__0,25,0.0,6. p95_trade_value,168540.0,72716.00000000001,5.0,12.0,0.4166666666666667,0.55,2. BELOW BASELINE,7.0,15.0,0.4666666666666667
+KNX,Transportation,Transportation - Truck,25__0,25,0.0,7. p90_trade_value,72000.0,30000.0,6.0,15.0,0.4,0.55,2. BELOW BASELINE,13.0,30.0,0.43333333333333335
+KNX,Transportation,Transportation - Truck,25__0,25,0.0,8. p75_trade_value,29480.0,8875.0,22.0,45.0,0.4888888888888889,0.55,2. BELOW BASELINE,35.0,75.0,0.4666666666666667
+NSC,Transportation,Transportation - Rail,25__1,25,1.0,1. p999999_trade_value,363599.99999999994,363599.99999999994,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+NSC,Transportation,Transportation - Rail,25__1,25,1.0,5. p99_trade_value,280000.0,201249.99999999997,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+NSC,Transportation,Transportation - Rail,25__1,25,1.0,6. p95_trade_value,159390.0,39150.0,4.0,11.0,0.36363636363636365,0.55,2. BELOW BASELINE,5.0,14.0,0.35714285714285715
+NSC,Transportation,Transportation - Rail,25__1,25,1.0,7. p90_trade_value,38500.0,19720.0,3.0,13.0,0.23076923076923078,0.55,2. BELOW BASELINE,8.0,27.0,0.2962962962962963
+NSC,Transportation,Transportation - Rail,25__1,25,1.0,8. p75_trade_value,18900.0,8000.0,15.0,40.0,0.375,0.55,2. BELOW BASELINE,23.0,67.0,0.34328358208955223
+ODFL,Transportation,Transportation - Truck,25__1,25,1.0,1. p999999_trade_value,400000.0,400000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ODFL,Transportation,Transportation - Truck,25__1,25,1.0,5. p99_trade_value,234000.0,127500.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,2.0,5.0,0.4
+ODFL,Transportation,Transportation - Truck,25__1,25,1.0,6. p95_trade_value,92000.0,29750.0,6.0,20.0,0.3,0.55,2. BELOW BASELINE,8.0,25.0,0.32
+ODFL,Transportation,Transportation - Truck,25__1,25,1.0,7. p90_trade_value,29120.0,18400.0,10.0,21.0,0.47619047619047616,0.55,2. BELOW BASELINE,18.0,46.0,0.391304347826087
+ODFL,Transportation,Transportation - Truck,25__1,25,1.0,8. p75_trade_value,17489.999999999996,9300.0,57.0,79.0,0.7215189873417721,0.55,2. BELOW BASELINE,75.0,125.0,0.6
+STNG,Transportation,Transportation - Shipping,25__1,25,1.0,1. p999999_trade_value,197340.0,197340.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+STNG,Transportation,Transportation - Shipping,25__1,25,1.0,5. p99_trade_value,107084.99999999999,54096.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,2.0,5.0,0.4
+STNG,Transportation,Transportation - Shipping,25__1,25,1.0,6. p95_trade_value,50000.0,24499.999999999996,5.0,17.0,0.29411764705882354,0.55,2. BELOW BASELINE,7.0,22.0,0.3181818181818182
+STNG,Transportation,Transportation - Shipping,25__1,25,1.0,7. p90_trade_value,24080.0,17577.0,12.0,21.0,0.5714285714285714,0.55,2. BELOW BASELINE,19.0,43.0,0.4418604651162791
+STNG,Transportation,Transportation - Shipping,25__1,25,1.0,8. p75_trade_value,17550.0,10985.0,39.0,63.0,0.6190476190476191,0.55,2. BELOW BASELINE,58.0,106.0,0.5471698113207547

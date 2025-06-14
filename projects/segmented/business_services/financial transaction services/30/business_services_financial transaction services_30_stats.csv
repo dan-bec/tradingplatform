@@ -1,0 +1,3 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+FOUR,Business Services,Financial Transaction Services,0.55,311200.0,1. p999999_trade_value,1.0,880,30__0,30,0.0,18211.5,29505.0,78420.0,283493.92,308429.39,310922.94,311172.29
+GPN,Business Services,Financial Transaction Services,0.55,,,,1064,30__0,30,0.0,15501.0,24680.25,116347.55,268258.18,578326.5,611332.65,614633.27

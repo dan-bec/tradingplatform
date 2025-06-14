@@ -1,0 +1,1303 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+AB,Finance,Financial - Investment Management,10__0,10,0.0,1. p999999_trade_value,22500.0,22500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+AB,Finance,Financial - Investment Management,10__0,10,0.0,7. p90_trade_value,16000.0,16000.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+AB,Finance,Financial - Investment Management,10__0,10,0.0,8. p75_trade_value,13050.0,13050.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+ABL,Finance,Insurance - Life Insurance,0__0,0,0.0,1. p999999_trade_value,3060.0,3060.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ABR,Finance,REIT and Equity Trust,25__0,25,0.0,1. p999999_trade_value,315000.0,315000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ABR,Finance,REIT and Equity Trust,25__0,25,0.0,5. p99_trade_value,220000.0,179475.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+ABR,Finance,REIT and Equity Trust,25__0,25,0.0,6. p95_trade_value,164250.0,74940.0,7.0,10.0,0.7,0.55,2. BELOW BASELINE,9.0,13.0,0.6923076923076923
+ABR,Finance,REIT and Equity Trust,25__0,25,0.0,7. p90_trade_value,72355.0,29976.0,5.0,13.0,0.38461538461538464,0.55,2. BELOW BASELINE,14.0,26.0,0.5384615384615384
+ABR,Finance,REIT and Equity Trust,25__0,25,0.0,8. p75_trade_value,29070.0,9810.0,29.0,39.0,0.7435897435897436,0.55,2. BELOW BASELINE,43.0,65.0,0.6615384615384615
+ACGL,Finance,Insurance - Property and Casualty,20__0,20,0.0,1. p999999_trade_value,53370.00000000001,53370.00000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ACGL,Finance,Insurance - Property and Casualty,20__0,20,0.0,5. p99_trade_value,31395.0,31395.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+ACGL,Finance,Insurance - Property and Casualty,20__0,20,0.0,6. p95_trade_value,27650.0,14445.000000000002,2.0,5.0,0.4,0.55,2. BELOW BASELINE,3.0,7.0,0.42857142857142855
+ACGL,Finance,Insurance - Property and Casualty,20__0,20,0.0,7. p90_trade_value,12390.0,8910.0,2.0,6.0,0.3333333333333333,0.55,2. BELOW BASELINE,5.0,13.0,0.38461538461538464
+ACGL,Finance,Insurance - Property and Casualty,20__0,20,0.0,8. p75_trade_value,8235.0,5780.0,12.0,18.0,0.6666666666666666,0.55,2. BELOW BASELINE,17.0,31.0,0.5483870967741935
+ACIC,Finance,Insurance - Property and Casualty,10__0,10,0.0,1. p999999_trade_value,7350.0,7350.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ACIC,Finance,Insurance - Property and Casualty,10__0,10,0.0,7. p90_trade_value,7200.0,7200.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+ACIC,Finance,Insurance - Property and Casualty,10__0,10,0.0,8. p75_trade_value,5700.0,4990.000000000001,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,4.0,5.0,0.8
+ADC,Finance,REIT and Equity Trust - Retail,5__0,5,0.0,1. p999999_trade_value,7000.0,7000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+AFG,Finance,Insurance - Property and Casualty,0__0,0,0.0,1. p999999_trade_value,3750.0,3750.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AFL,Finance,Insurance - Accident and Health,25__1,25,1.0,1. p999999_trade_value,182025.0,182025.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AFL,Finance,Insurance - Accident and Health,25__1,25,1.0,5. p99_trade_value,150000.0,136375.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+AFL,Finance,Insurance - Accident and Health,25__1,25,1.0,6. p95_trade_value,82500.0,32844.0,4.0,8.0,0.5,0.55,2. BELOW BASELINE,7.0,11.0,0.6363636363636364
+AFL,Finance,Insurance - Accident and Health,25__1,25,1.0,7. p90_trade_value,20803.0,14819.999999999998,6.0,10.0,0.6,0.55,2. BELOW BASELINE,13.0,21.0,0.6190476190476191
+AFL,Finance,Insurance - Accident and Health,25__1,25,1.0,8. p75_trade_value,14100.0,7789.999999999999,16.0,31.0,0.5161290322580645,0.55,2. BELOW BASELINE,29.0,52.0,0.5576923076923077
+AGM,Finance,Financial - Mortgage & Related Services,5__3,5,3.0,1. p999999_trade_value,15000.0,15000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+AGNC,Finance,REIT and Equity Trust,25__1,25,1.0,1. p999999_trade_value,120000.0,120000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AGNC,Finance,REIT and Equity Trust,25__1,25,1.0,5. p99_trade_value,110000.0,100000.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
+AGNC,Finance,REIT and Equity Trust,25__1,25,1.0,6. p95_trade_value,90000.0,34993.0,7.0,17.0,0.4117647058823529,0.55,2. BELOW BASELINE,10.0,21.0,0.47619047619047616
+AGNC,Finance,REIT and Equity Trust,25__1,25,1.0,7. p90_trade_value,30000.0,16506.0,12.0,17.0,0.7058823529411765,0.55,2. BELOW BASELINE,22.0,38.0,0.5789473684210527
+AGNC,Finance,REIT and Equity Trust,25__1,25,1.0,8. p75_trade_value,16303.0,8442.0,30.0,57.0,0.5263157894736842,0.55,2. BELOW BASELINE,52.0,95.0,0.5473684210526316
+AGO,Finance,Insurance - Multi line,15__0,15,0.0,1. p999999_trade_value,249690.0,249690.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+AGO,Finance,Insurance - Multi line,15__0,15,0.0,6. p95_trade_value,20499.999999999996,9145.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+AGO,Finance,Insurance - Multi line,15__0,15,0.0,7. p90_trade_value,6625.0,5040.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,5.0,0.4
+AGO,Finance,Insurance - Multi line,15__0,15,0.0,8. p75_trade_value,5000.0,4050.0,5.0,6.0,0.8333333333333334,0.55,2. BELOW BASELINE,7.0,11.0,0.6363636363636364
+AHR,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,10625.0,10625.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+AHT,Finance,REIT and Equity Trust - Other,0__0,0,0.0,1. p999999_trade_value,3700.0,3700.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+AIG,Finance,Insurance - Multi line,30__0,30,0.0,1. p999999_trade_value,207494.99999999997,207494.99999999997,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+AIG,Finance,Insurance - Multi line,30__0,30,0.0,5. p99_trade_value,123105.0,41160.0,4.0,7.0,0.5714285714285714,0.55,2. BELOW BASELINE,4.0,8.0,0.5
+AIG,Finance,Insurance - Multi line,30__0,30,0.0,6. p95_trade_value,36435.0,21960.0,20.0,30.0,0.6666666666666666,0.55,2. BELOW BASELINE,24.0,38.0,0.631578947368421
+AIG,Finance,Insurance - Multi line,30__0,30,0.0,7. p90_trade_value,21375.0,13800.0,20.0,38.0,0.5263157894736842,0.55,2. BELOW BASELINE,44.0,76.0,0.5789473684210527
+AIG,Finance,Insurance - Multi line,30__0,30,0.0,8. p75_trade_value,13780.000000000002,8340.0,72.0,114.0,0.631578947368421,0.55,2. BELOW BASELINE,116.0,190.0,0.6105263157894737
+AIZ,Finance,Insurance - Multi line,5__3,5,3.0,1. p999999_trade_value,15480.000000000002,15480.000000000002,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AJG,Finance,Insurance - Brokerage,30__0,30,0.0,1. p999999_trade_value,104000.0,104000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+AJG,Finance,Insurance - Brokerage,30__0,30,0.0,5. p99_trade_value,99750.0,39375.0,3.0,6.0,0.5,0.55,2. BELOW BASELINE,3.0,7.0,0.42857142857142855
+AJG,Finance,Insurance - Brokerage,30__0,30,0.0,6. p95_trade_value,39330.0,15000.0,12.0,25.0,0.48,0.55,2. BELOW BASELINE,15.0,32.0,0.46875
+AJG,Finance,Insurance - Brokerage,30__0,30,0.0,7. p90_trade_value,14868.0,10101.0,14.0,32.0,0.4375,0.55,2. BELOW BASELINE,29.0,64.0,0.453125
+AJG,Finance,Insurance - Brokerage,30__0,30,0.0,8. p75_trade_value,10032.0,6840.000000000001,39.0,97.0,0.4020618556701031,0.55,2. BELOW BASELINE,68.0,161.0,0.422360248447205
+AKR,Finance,REIT and Equity Trust - Retail,0__0,0,0.0,1. p999999_trade_value,5824.0,5824.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ALEX,Finance,REIT and Equity Trust - Other,0__2,0,2.0,1. p999999_trade_value,9280.000000000002,9280.000000000002,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ALL,Finance,Insurance - Property and Casualty,25__1,25,1.0,1. p999999_trade_value,291000.0,291000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ALL,Finance,Insurance - Property and Casualty,25__1,25,1.0,5. p99_trade_value,221000.0,78515.0,3.0,5.0,0.6,0.55,2. BELOW BASELINE,3.0,6.0,0.5
+ALL,Finance,Insurance - Property and Casualty,25__1,25,1.0,6. p95_trade_value,76140.0,27900.0,14.0,21.0,0.6666666666666666,0.55,2. BELOW BASELINE,17.0,27.0,0.6296296296296297
+ALL,Finance,Insurance - Property and Casualty,25__1,25,1.0,7. p90_trade_value,27650.0,19000.0,17.0,27.0,0.6296296296296297,0.55,2. BELOW BASELINE,34.0,54.0,0.6296296296296297
+ALL,Finance,Insurance - Property and Casualty,25__1,25,1.0,8. p75_trade_value,18961.0,8500.0,45.0,80.0,0.5625,0.55,2. BELOW BASELINE,79.0,134.0,0.5895522388059702
+ALLY,Finance,Financial - Consumer Loans,30__0,30,0.0,1. p999999_trade_value,408000.00000000006,408000.00000000006,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ALLY,Finance,Financial - Consumer Loans,30__0,30,0.0,5. p99_trade_value,240000.0,135828.0,6.0,7.0,0.8571428571428571,0.55,2. BELOW BASELINE,6.0,8.0,0.75
+ALLY,Finance,Financial - Consumer Loans,30__0,30,0.0,6. p95_trade_value,130900.0,34000.0,11.0,31.0,0.3548387096774194,0.55,2. BELOW BASELINE,17.0,39.0,0.4358974358974359
+ALLY,Finance,Financial - Consumer Loans,30__0,30,0.0,7. p90_trade_value,33264.0,19690.0,17.0,38.0,0.4473684210526316,0.55,2. BELOW BASELINE,34.0,77.0,0.44155844155844154
+ALLY,Finance,Financial - Consumer Loans,30__0,30,0.0,8. p75_trade_value,18060.0,8600.0,59.0,116.0,0.5086206896551724,0.55,2. BELOW BASELINE,93.0,193.0,0.48186528497409326
+ALTS,Finance,Financial - Miscellaneous Services,10__0,10,0.0,1. p999999_trade_value,10000.0,10000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ALTS,Finance,Financial - Miscellaneous Services,10__0,10,0.0,7. p90_trade_value,9800.0,9800.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+ALTS,Finance,Financial - Miscellaneous Services,10__0,10,0.0,8. p75_trade_value,7000.0,6000.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,5.0,0.0
+AMBC,Finance,Insurance - Property and Casualty,15__0,15,0.0,1. p999999_trade_value,200000.0,200000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+AMBC,Finance,Insurance - Property and Casualty,15__0,15,0.0,6. p95_trade_value,194249.99999999997,100000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+AMBC,Finance,Insurance - Property and Casualty,15__0,15,0.0,7. p90_trade_value,50120.00000000001,49979.99999999999,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,5.0,0.4
+AMBC,Finance,Insurance - Property and Casualty,15__0,15,0.0,8. p75_trade_value,45000.0,15500.0,2.0,7.0,0.2857142857142857,0.55,2. BELOW BASELINE,4.0,12.0,0.3333333333333333
+AMG,Finance,Financial - Investment Management,5__0,5,0.0,1. p999999_trade_value,9500.0,9500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AMH,Finance,REIT and Equity Trust - Residential,0__0,0,0.0,1. p999999_trade_value,3680.0000000000005,3680.0000000000005,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AMP,Finance,Financial - Investment Management,25__1,25,1.0,1. p999999_trade_value,33000.0,33000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+AMP,Finance,Financial - Investment Management,25__1,25,1.0,5. p99_trade_value,29940.000000000004,29940.000000000004,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+AMP,Finance,Financial - Investment Management,25__1,25,1.0,6. p95_trade_value,28000.0,16650.0,8.0,8.0,1.0,0.55,2. BELOW BASELINE,9.0,10.0,0.9
+AMP,Finance,Financial - Investment Management,25__1,25,1.0,7. p90_trade_value,16400.0,13200.0,7.0,10.0,0.7,0.55,2. BELOW BASELINE,16.0,20.0,0.8
+AMP,Finance,Financial - Investment Management,25__1,25,1.0,8. p75_trade_value,13090.0,7700.0,14.0,29.0,0.4827586206896552,0.55,2. BELOW BASELINE,30.0,49.0,0.6122448979591837
+AMT,Finance,REIT and Equity Trust - Other,30__2,30,2.0,1. p999999_trade_value,621900.0,621900.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+AMT,Finance,REIT and Equity Trust - Other,30__2,30,2.0,5. p99_trade_value,345000.0,149760.0,1.0,5.0,0.2,0.55,2. BELOW BASELINE,1.0,6.0,0.16666666666666666
+AMT,Finance,REIT and Equity Trust - Other,30__2,30,2.0,6. p95_trade_value,115000.0,54390.0,9.0,24.0,0.375,0.55,2. BELOW BASELINE,10.0,30.0,0.3333333333333333
+AMT,Finance,REIT and Equity Trust - Other,30__2,30,2.0,7. p90_trade_value,50220.0,26208.000000000004,10.0,29.0,0.3448275862068966,0.55,2. BELOW BASELINE,20.0,59.0,0.3389830508474576
+AMT,Finance,REIT and Equity Trust - Other,30__2,30,2.0,8. p75_trade_value,25550.0,10080.0,54.0,89.0,0.6067415730337079,0.55,2. BELOW BASELINE,74.0,148.0,0.5
+AON,Finance,Insurance - Brokerage,25__1,25,1.0,1. p999999_trade_value,520000.0,520000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AON,Finance,Insurance - Brokerage,25__1,25,1.0,5. p99_trade_value,480000.0,195000.0,0.0,4.0,0.0,0.55,2. BELOW BASELINE,1.0,5.0,0.2
+AON,Finance,Insurance - Brokerage,25__1,25,1.0,6. p95_trade_value,185000.0,20499.999999999996,11.0,18.0,0.6111111111111112,0.55,2. BELOW BASELINE,12.0,23.0,0.5217391304347826
+AON,Finance,Insurance - Brokerage,25__1,25,1.0,7. p90_trade_value,20000.0,15808.000000000002,18.0,23.0,0.782608695652174,0.55,2. BELOW BASELINE,30.0,46.0,0.6521739130434783
+AON,Finance,Insurance - Brokerage,25__1,25,1.0,8. p75_trade_value,15675.0,7566.0,52.0,67.0,0.7761194029850746,0.55,2. BELOW BASELINE,82.0,113.0,0.7256637168141593
+APAM,Finance,Financial - Investment Management,5__0,5,0.0,1. p999999_trade_value,4470.0,4470.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+APLD,Finance,Financial - Miscellaneous Services,35__3,35,3.0,1. p999999_trade_value,690175.0,690175.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+APLD,Finance,Financial - Miscellaneous Services,35__3,35,3.0,4. p999_trade_value,629200.0,375850.0,0.0,5.0,0.0,0.55,2. BELOW BASELINE,0.0,6.0,0.0
+APLD,Finance,Financial - Miscellaneous Services,35__3,35,3.0,5. p99_trade_value,322000.0,98100.0,21.0,48.0,0.4375,0.55,2. BELOW BASELINE,21.0,54.0,0.3888888888888889
+APLD,Finance,Financial - Miscellaneous Services,35__3,35,3.0,6. p95_trade_value,97090.0,27840.000000000004,112.0,210.0,0.5333333333333333,0.55,2. BELOW BASELINE,133.0,264.0,0.5037878787878788
+APLD,Finance,Financial - Miscellaneous Services,35__3,35,3.0,7. p90_trade_value,27577.000000000004,16140.0,150.0,263.0,0.5703422053231939,0.55,2. BELOW BASELINE,283.0,527.0,0.5370018975332068
+APLD,Finance,Financial - Miscellaneous Services,35__3,35,3.0,8. p75_trade_value,16121.0,8400.0,419.0,790.0,0.5303797468354431,0.55,2. BELOW BASELINE,702.0,1317.0,0.5330296127562643
+APO,Finance,Financial - Investment Management,35__0,35,0.0,1. p999999_trade_value,606000.0,606000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+APO,Finance,Financial - Investment Management,35__0,35,0.0,4. p999_trade_value,510000.0,152000.0,4.0,5.0,0.8,0.55,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
+APO,Finance,Financial - Investment Management,35__0,35,0.0,5. p99_trade_value,150000.0,57494.00000000001,30.0,46.0,0.6521739130434783,0.55,2. BELOW BASELINE,34.0,52.0,0.6538461538461539
+APO,Finance,Financial - Investment Management,35__0,35,0.0,6. p95_trade_value,56866.99999999999,25299.999999999996,129.0,206.0,0.6262135922330098,0.55,2. BELOW BASELINE,163.0,258.0,0.6317829457364341
+APO,Finance,Financial - Investment Management,35__0,35,0.0,7. p90_trade_value,25280.0,16000.0,157.0,262.0,0.5992366412213741,0.55,2. BELOW BASELINE,320.0,520.0,0.6153846153846154
+APO,Finance,Financial - Investment Management,35__0,35,0.0,8. p75_trade_value,15989.999999999998,8820.0,408.0,772.0,0.5284974093264249,0.55,2. BELOW BASELINE,728.0,1292.0,0.5634674922600619
+ARCC,Finance,Financial - SBIC & Commercial Industry,20__0,20,0.0,1. p999999_trade_value,140000.00000000003,140000.00000000003,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ARCC,Finance,Financial - SBIC & Commercial Industry,20__0,20,0.0,6. p95_trade_value,125000.0,112000.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+ARCC,Finance,Financial - SBIC & Commercial Industry,20__0,20,0.0,7. p90_trade_value,99000.0,35000.00000000001,1.0,4.0,0.25,0.55,2. BELOW BASELINE,2.0,8.0,0.25
+ARCC,Finance,Financial - SBIC & Commercial Industry,20__0,20,0.0,8. p75_trade_value,27500.0,9500.0,5.0,12.0,0.4166666666666667,0.55,2. BELOW BASELINE,7.0,20.0,0.35
+ARE,Finance,REIT and Equity Trust - Other,20__0,20,0.0,1. p999999_trade_value,95250.0,95250.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ARE,Finance,REIT and Equity Trust - Other,20__0,20,0.0,5. p99_trade_value,90000.0,90000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+ARE,Finance,REIT and Equity Trust - Other,20__0,20,0.0,6. p95_trade_value,61250.0,39615.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
+ARE,Finance,REIT and Equity Trust - Other,20__0,20,0.0,7. p90_trade_value,39600.0,17220.0,3.0,5.0,0.6,0.55,2. BELOW BASELINE,7.0,11.0,0.6363636363636364
+ARE,Finance,REIT and Equity Trust - Other,20__0,20,0.0,8. p75_trade_value,15300.0,8580.0,9.0,16.0,0.5625,0.55,2. BELOW BASELINE,16.0,27.0,0.5925925925925926
+ARES,Finance,Financial - Investment Management,25__1,25,1.0,1. p999999_trade_value,180000.0,180000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ARES,Finance,Financial - Investment Management,25__1,25,1.0,5. p99_trade_value,160792.0,160691.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+ARES,Finance,Financial - Investment Management,25__1,25,1.0,6. p95_trade_value,140000.0,52920.00000000001,6.0,11.0,0.5454545454545454,0.55,2. BELOW BASELINE,6.0,14.0,0.42857142857142855
+ARES,Finance,Financial - Investment Management,25__1,25,1.0,7. p90_trade_value,43500.0,21070.0,5.0,14.0,0.35714285714285715,0.55,2. BELOW BASELINE,11.0,28.0,0.39285714285714285
+ARES,Finance,Financial - Investment Management,25__1,25,1.0,8. p75_trade_value,20580.0,9890.0,12.0,38.0,0.3157894736842105,0.55,2. BELOW BASELINE,23.0,66.0,0.3484848484848485
+ARR,Finance,REIT and Equity Trust,15__0,15,0.0,1. p999999_trade_value,29939.999999999996,29939.999999999996,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ARR,Finance,REIT and Equity Trust,15__0,15,0.0,6. p95_trade_value,25000.0,25000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+ARR,Finance,REIT and Equity Trust,15__0,15,0.0,7. p90_trade_value,18148.0,16379.999999999998,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+ARR,Finance,REIT and Equity Trust,15__0,15,0.0,8. p75_trade_value,15950.0,9200.0,2.0,5.0,0.4,0.55,2. BELOW BASELINE,6.0,9.0,0.6666666666666666
+ASB,Finance,Banks - Midwest,0__2,0,2.0,1. p999999_trade_value,13500.0,13500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AVB,Finance,REIT and Equity Trust - Residential,15__0,15,0.0,1. p999999_trade_value,14100.0,14100.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AVB,Finance,REIT and Equity Trust - Residential,15__0,15,0.0,6. p95_trade_value,13200.0,13200.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+AVB,Finance,REIT and Equity Trust - Residential,15__0,15,0.0,7. p90_trade_value,10620.0,10620.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+AVB,Finance,REIT and Equity Trust - Residential,15__0,15,0.0,8. p75_trade_value,10615.0,8370.0,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,3.0,6.0,0.5
+AX,Finance,Financial - Miscellaneous Services,15__0,15,0.0,1. p999999_trade_value,23000.0,23000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AX,Finance,Financial - Miscellaneous Services,15__0,15,0.0,6. p95_trade_value,21700.0,20000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+AX,Finance,Financial - Miscellaneous Services,15__0,15,0.0,7. p90_trade_value,13520.000000000002,12870.000000000002,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
+AX,Finance,Financial - Miscellaneous Services,15__0,15,0.0,8. p75_trade_value,12000.0,7975.0,2.0,7.0,0.2857142857142857,0.55,2. BELOW BASELINE,6.0,13.0,0.46153846153846156
+AXP,Finance,Financial - Miscellaneous Services,40__1,40,1.0,1. p999999_trade_value,1200560.0,1200560.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,1.0,1.0
+AXP,Finance,Financial - Miscellaneous Services,40__1,40,1.0,4. p999_trade_value,670000.0,279000.0,4.0,9.0,0.4444444444444444,0.55,2. BELOW BASELINE,5.0,10.0,0.5
+AXP,Finance,Financial - Miscellaneous Services,40__1,40,1.0,5. p99_trade_value,266000.0,63705.00000000001,38.0,82.0,0.4634146341463415,0.55,2. BELOW BASELINE,43.0,92.0,0.4673913043478261
+AXP,Finance,Financial - Miscellaneous Services,40__1,40,1.0,6. p95_trade_value,63000.0,25025.0,175.0,369.0,0.4742547425474255,0.55,2. BELOW BASELINE,218.0,461.0,0.47288503253796094
+AXP,Finance,Financial - Miscellaneous Services,40__1,40,1.0,7. p90_trade_value,25004.0,15260.0,213.0,459.0,0.46405228758169936,0.55,2. BELOW BASELINE,431.0,920.0,0.46847826086956523
+AXP,Finance,Financial - Miscellaneous Services,40__1,40,1.0,8. p75_trade_value,15250.0,8040.000000000001,667.0,1381.0,0.4829833454018827,0.55,2. BELOW BASELINE,1098.0,2301.0,0.4771838331160365
+AXS,Finance,Insurance - Property and Casualty,5__0,5,0.0,2. p99999_trade_value,5034.999999999999,5034.999999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BAC,Finance,Financial - Investment Bank,40__1,40,1.0,1. p999999_trade_value,1154230.0,1154230.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BAC,Finance,Financial - Investment Bank,40__1,40,1.0,3. p9999_trade_value,904000.0,904000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+BAC,Finance,Financial - Investment Bank,40__1,40,1.0,4. p999_trade_value,677470.0,240000.0,11.0,13.0,0.8461538461538461,0.55,1. ABOVE BASELINE,13.0,15.0,0.8666666666666667
+BAC,Finance,Financial - Investment Bank,40__1,40,1.0,5. p99_trade_value,227086.0,65932.0,57.0,117.0,0.48717948717948717,0.55,2. BELOW BASELINE,70.0,132.0,0.5303030303030303
+BAC,Finance,Financial - Investment Bank,40__1,40,1.0,6. p95_trade_value,65880.0,25689.999999999996,275.0,525.0,0.5238095238095238,0.55,2. BELOW BASELINE,345.0,657.0,0.5251141552511416
+BAC,Finance,Financial - Investment Bank,40__1,40,1.0,7. p90_trade_value,25641.000000000004,15631.0,341.0,657.0,0.5190258751902588,0.55,2. BELOW BASELINE,686.0,1314.0,0.5220700152207002
+BAC,Finance,Financial - Investment Bank,40__1,40,1.0,8. p75_trade_value,15626.000000000002,8533.0,1005.0,1973.0,0.5093765838824126,0.55,2. BELOW BASELINE,1691.0,3287.0,0.5144508670520231
+BAM,Finance,Financial - Miscellaneous Services,25__1,25,1.0,1. p999999_trade_value,197550.0,197550.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BAM,Finance,Financial - Miscellaneous Services,25__1,25,1.0,5. p99_trade_value,144600.0,112500.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+BAM,Finance,Financial - Miscellaneous Services,25__1,25,1.0,6. p95_trade_value,112320.0,12000.0,9.0,12.0,0.75,0.55,1. ABOVE BASELINE,12.0,15.0,0.8
+BAM,Finance,Financial - Miscellaneous Services,25__1,25,1.0,7. p90_trade_value,11760.0,9030.0,8.0,14.0,0.5714285714285714,0.55,1. ABOVE BASELINE,20.0,29.0,0.6896551724137931
+BAM,Finance,Financial - Miscellaneous Services,25__1,25,1.0,8. p75_trade_value,9000.0,5850.0,36.0,43.0,0.8372093023255814,0.55,1. ABOVE BASELINE,56.0,72.0,0.7777777777777778
+BANC,Finance,Banks - Southwest,10__0,10,0.0,1. p999999_trade_value,34454.0,34454.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BANC,Finance,Banks - Southwest,10__0,10,0.0,7. p90_trade_value,10800.0,10800.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+BANC,Finance,Banks - Southwest,10__0,10,0.0,8. p75_trade_value,8595.0,6266.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,5.0,5.0,1.0
+BAP,Finance,Banks - Foreign,5__0,5,0.0,3. p9999_trade_value,4509.999999999999,4509.999999999999,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BBAR,Finance,Banks - Foreign,10__0,10,0.0,1. p999999_trade_value,26145.0,26145.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BBAR,Finance,Banks - Foreign,10__0,10,0.0,7. p90_trade_value,8750.0,8750.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+BBAR,Finance,Banks - Foreign,10__0,10,0.0,8. p75_trade_value,8190.000000000001,7200.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+BBVA,Finance,Banks - Foreign,15__0,15,0.0,1. p999999_trade_value,45640.0,45640.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BBVA,Finance,Banks - Foreign,15__0,15,0.0,6. p95_trade_value,35385.0,35385.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+BBVA,Finance,Banks - Foreign,15__0,15,0.0,7. p90_trade_value,35000.0,17500.0,4.0,4.0,1.0,0.55,1. ABOVE BASELINE,6.0,6.0,1.0
+BBVA,Finance,Banks - Foreign,15__0,15,0.0,8. p75_trade_value,17430.0,10010.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,9.0,9.0,1.0
+BCS,Finance,Banks - Foreign,15__0,15,0.0,1. p999999_trade_value,159872.0,159872.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BCS,Finance,Banks - Foreign,15__0,15,0.0,6. p95_trade_value,47520.00000000001,37800.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+BCS,Finance,Banks - Foreign,15__0,15,0.0,7. p90_trade_value,26840.000000000004,20840.0,3.0,3.0,1.0,0.55,2. BELOW BASELINE,5.0,6.0,0.8333333333333334
+BCS,Finance,Banks - Foreign,15__0,15,0.0,8. p75_trade_value,20300.0,11960.0,5.0,8.0,0.625,0.55,2. BELOW BASELINE,10.0,14.0,0.7142857142857143
+BEN,Finance,Financial - Investment Management,15__0,15,0.0,1. p999999_trade_value,227800.0,227800.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BEN,Finance,Financial - Investment Management,15__0,15,0.0,6. p95_trade_value,222569.99999999997,222569.99999999997,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+BEN,Finance,Financial - Investment Management,15__0,15,0.0,7. p90_trade_value,90000.0,30000.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,5.0,5.0,1.0
+BEN,Finance,Financial - Investment Management,15__0,15,0.0,8. p75_trade_value,28839.999999999996,14850.0,5.0,6.0,0.8333333333333334,0.55,1. ABOVE BASELINE,10.0,11.0,0.9090909090909091
+BFH,Finance,Financial - Miscellaneous Services,15__0,15,0.0,1. p999999_trade_value,66500.0,66500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BFH,Finance,Financial - Miscellaneous Services,15__0,15,0.0,6. p95_trade_value,43890.0,19600.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+BFH,Finance,Financial - Miscellaneous Services,15__0,15,0.0,7. p90_trade_value,15979.999999999998,10318.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,6.0,0.3333333333333333
+BFH,Finance,Financial - Miscellaneous Services,15__0,15,0.0,8. p75_trade_value,9360.0,7420.0,8.0,8.0,1.0,0.55,2. BELOW BASELINE,10.0,14.0,0.7142857142857143
+BGC,Finance,Financial - Investment Bank,15__0,15,0.0,1. p999999_trade_value,58788.0,58788.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BGC,Finance,Financial - Investment Bank,15__0,15,0.0,6. p95_trade_value,35000.0,35000.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+BGC,Finance,Financial - Investment Bank,15__0,15,0.0,7. p90_trade_value,23520.0,20000.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,3.0,4.0,0.75
+BGC,Finance,Financial - Investment Bank,15__0,15,0.0,8. p75_trade_value,19000.0,9320.0,4.0,4.0,1.0,0.55,2. BELOW BASELINE,7.0,8.0,0.875
+BHF,Finance,Insurance - Life Insurance,25__1,25,1.0,1. p999999_trade_value,880000.0,880000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BHF,Finance,Insurance - Life Insurance,25__1,25,1.0,5. p99_trade_value,163000.0,74560.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+BHF,Finance,Insurance - Life Insurance,25__1,25,1.0,6. p95_trade_value,72000.0,29239.999999999996,6.0,12.0,0.5,0.55,2. BELOW BASELINE,7.0,16.0,0.4375
+BHF,Finance,Insurance - Life Insurance,25__1,25,1.0,7. p90_trade_value,27750.0,22000.0,4.0,16.0,0.25,0.55,2. BELOW BASELINE,11.0,32.0,0.34375
+BHF,Finance,Insurance - Life Insurance,25__1,25,1.0,8. p75_trade_value,21375.0,8815.0,17.0,47.0,0.3617021276595745,0.55,2. BELOW BASELINE,28.0,79.0,0.35443037974683544
+BIP,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,8910.0,8910.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BK,Finance,Banks - Major Regional,25__1,25,1.0,1. p999999_trade_value,102000.0,102000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BK,Finance,Banks - Major Regional,25__1,25,1.0,5. p99_trade_value,74690.0,52650.0,3.0,4.0,0.75,0.55,1. ABOVE BASELINE,4.0,5.0,0.8
+BK,Finance,Banks - Major Regional,25__1,25,1.0,6. p95_trade_value,52140.0,16960.0,15.0,18.0,0.8333333333333334,0.55,1. ABOVE BASELINE,19.0,23.0,0.8260869565217391
+BK,Finance,Banks - Major Regional,25__1,25,1.0,7. p90_trade_value,14850.0,9825.0,18.0,22.0,0.8181818181818182,0.55,1. ABOVE BASELINE,37.0,45.0,0.8222222222222222
+BK,Finance,Banks - Major Regional,25__1,25,1.0,8. p75_trade_value,9750.0,6560.000000000001,47.0,66.0,0.7121212121212122,0.55,1. ABOVE BASELINE,84.0,111.0,0.7567567567567568
+BKU,Finance,Banks - Major Regional,0__0,0,0.0,1. p999999_trade_value,3750.0,3750.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BLK,Finance,Financial - Investment Management,35__0,35,0.0,1. p999999_trade_value,225000.0,225000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BLK,Finance,Financial - Investment Management,35__0,35,0.0,4. p999_trade_value,195000.0,152240.0,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+BLK,Finance,Financial - Investment Management,35__0,35,0.0,5. p99_trade_value,150000.0,64200.0,18.0,34.0,0.5294117647058824,0.55,2. BELOW BASELINE,20.0,38.0,0.5263157894736842
+BLK,Finance,Financial - Investment Management,35__0,35,0.0,6. p95_trade_value,63585.0,25160.0,88.0,152.0,0.5789473684210527,0.55,2. BELOW BASELINE,108.0,190.0,0.5684210526315789
+BLK,Finance,Financial - Investment Management,35__0,35,0.0,7. p90_trade_value,25000.0,16211.000000000002,116.0,189.0,0.6137566137566137,0.55,2. BELOW BASELINE,224.0,379.0,0.5910290237467019
+BLK,Finance,Financial - Investment Management,35__0,35,0.0,8. p75_trade_value,16200.0,8600.0,327.0,570.0,0.5736842105263158,0.55,2. BELOW BASELINE,551.0,949.0,0.5806111696522656
+BMA,Finance,Banks - Foreign,15__0,15,0.0,1. p999999_trade_value,29000.0,29000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BMA,Finance,Banks - Foreign,15__0,15,0.0,6. p95_trade_value,20160.0,20160.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+BMA,Finance,Banks - Foreign,15__0,15,0.0,7. p90_trade_value,19200.0,13340.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+BMA,Finance,Banks - Foreign,15__0,15,0.0,8. p75_trade_value,12960.000000000002,8750.0,2.0,5.0,0.4,0.55,2. BELOW BASELINE,4.0,9.0,0.4444444444444444
+BMO,Finance,Banks - Foreign,20__0,20,0.0,1. p999999_trade_value,38400.0,38400.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BMO,Finance,Banks - Foreign,20__0,20,0.0,6. p95_trade_value,24000.0,15150.0,3.0,4.0,0.75,0.55,1. ABOVE BASELINE,4.0,5.0,0.8
+BMO,Finance,Banks - Foreign,20__0,20,0.0,7. p90_trade_value,12180.0,10500.0,4.0,4.0,1.0,0.55,1. ABOVE BASELINE,8.0,9.0,0.8888888888888888
+BMO,Finance,Banks - Foreign,20__0,20,0.0,8. p75_trade_value,10000.0,7920.0,7.0,12.0,0.5833333333333334,0.55,1. ABOVE BASELINE,15.0,21.0,0.7142857142857143
+BN,Finance,Real Estate - Operations,20__0,20,0.0,1. p999999_trade_value,253175.0,253175.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BN,Finance,Real Estate - Operations,20__0,20,0.0,5. p99_trade_value,50640.0,50640.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+BN,Finance,Real Estate - Operations,20__0,20,0.0,6. p95_trade_value,32960.0,17925.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,1.0,6.0,0.16666666666666666
+BN,Finance,Real Estate - Operations,20__0,20,0.0,7. p90_trade_value,17125.0,11499.999999999998,2.0,5.0,0.4,0.55,2. BELOW BASELINE,3.0,11.0,0.2727272727272727
+BN,Finance,Real Estate - Operations,20__0,20,0.0,8. p75_trade_value,11125.0,8000.0,1.0,15.0,0.06666666666666667,0.55,2. BELOW BASELINE,4.0,26.0,0.15384615384615385
+BNS,Finance,Banks - Foreign,15__0,15,0.0,1. p999999_trade_value,27600.0,27600.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BNS,Finance,Banks - Foreign,15__0,15,0.0,6. p95_trade_value,21000.0,21000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+BNS,Finance,Banks - Foreign,15__0,15,0.0,7. p90_trade_value,20000.0,11200.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+BNS,Finance,Banks - Foreign,15__0,15,0.0,8. p75_trade_value,10500.0,9000.0,4.0,4.0,1.0,0.55,2. BELOW BASELINE,7.0,9.0,0.7777777777777778
+BOH,Finance,Banks - West,10__0,10,0.0,1. p999999_trade_value,18000.0,18000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BOH,Finance,Banks - West,10__0,10,0.0,8. p75_trade_value,9000.0,5800.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+BOKF,Finance,Banks - Southwest,5__0,5,0.0,1. p999999_trade_value,9900.0,9900.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BPOP,Finance,Banks - Southeast,5__0,5,0.0,1. p999999_trade_value,13097.999999999998,13097.999999999998,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BPOP,Finance,Banks - Southeast,5__0,5,0.0,8. p75_trade_value,3750.0,3750.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+BRO,Finance,Insurance - Brokerage,15__0,15,0.0,1. p999999_trade_value,191040.0,191040.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BRO,Finance,Insurance - Brokerage,15__0,15,0.0,6. p95_trade_value,133371.0,89522.99999999999,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+BRO,Finance,Insurance - Brokerage,15__0,15,0.0,7. p90_trade_value,15500.0,15330.000000000002,2.0,2.0,1.0,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+BRO,Finance,Insurance - Brokerage,15__0,15,0.0,8. p75_trade_value,13534.0,11340.0,6.0,6.0,1.0,0.55,2. BELOW BASELINE,9.0,11.0,0.8181818181818182
+BTM,Finance,Financial - Miscellaneous Services,0__0,0,0.0,1. p999999_trade_value,3335.0,3335.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BULL,Finance,Financial - Miscellaneous Services,35__0,35,0.0,1. p999999_trade_value,800000.0,800000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BULL,Finance,Financial - Miscellaneous Services,35__0,35,0.0,4. p999_trade_value,260000.0,202365.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+BULL,Finance,Financial - Miscellaneous Services,35__0,35,0.0,5. p99_trade_value,197700.0,54945.00000000001,7.0,18.0,0.3888888888888889,0.55,2. BELOW BASELINE,9.0,21.0,0.42857142857142855
+BULL,Finance,Financial - Miscellaneous Services,35__0,35,0.0,6. p95_trade_value,54612.0,23717.999999999996,35.0,81.0,0.43209876543209874,0.55,2. BELOW BASELINE,44.0,102.0,0.43137254901960786
+BULL,Finance,Financial - Miscellaneous Services,35__0,35,0.0,7. p90_trade_value,23598.0,14700.0,48.0,105.0,0.45714285714285713,0.55,2. BELOW BASELINE,92.0,207.0,0.4444444444444444
+BULL,Finance,Financial - Miscellaneous Services,35__0,35,0.0,8. p75_trade_value,14616.0,8320.0,114.0,302.0,0.37748344370860926,0.55,2. BELOW BASELINE,206.0,509.0,0.40471512770137524
+BUR,Finance,Financial - Miscellaneous Services,10__0,10,0.0,1. p999999_trade_value,36000.0,36000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BUR,Finance,Financial - Miscellaneous Services,10__0,10,0.0,8. p75_trade_value,22356.0,22356.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+BWIN,Finance,Insurance - Life Insurance,20__0,20,0.0,1. p999999_trade_value,59786.0,59786.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BWIN,Finance,Insurance - Life Insurance,20__0,20,0.0,5. p99_trade_value,46399.99999999999,46399.99999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+BWIN,Finance,Insurance - Life Insurance,20__0,20,0.0,6. p95_trade_value,41200.0,25800.0,0.0,6.0,0.0,0.55,2. BELOW BASELINE,0.0,8.0,0.0
+BWIN,Finance,Insurance - Life Insurance,20__0,20,0.0,7. p90_trade_value,24960.0,20352.0,0.0,7.0,0.0,0.55,2. BELOW BASELINE,0.0,15.0,0.0
+BWIN,Finance,Insurance - Life Insurance,20__0,20,0.0,8. p75_trade_value,19788.0,11440.0,3.0,21.0,0.14285714285714285,0.55,2. BELOW BASELINE,3.0,36.0,0.08333333333333333
+BX,Finance,Financial - Miscellaneous Services,40__1,40,1.0,1. p999999_trade_value,837600.0,837600.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+BX,Finance,Financial - Miscellaneous Services,40__1,40,1.0,4. p999_trade_value,816620.0,265000.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
+BX,Finance,Financial - Miscellaneous Services,40__1,40,1.0,5. p99_trade_value,249641.99999999997,64176.0,34.0,53.0,0.6415094339622641,0.55,2. BELOW BASELINE,38.0,59.0,0.6440677966101694
+BX,Finance,Financial - Miscellaneous Services,40__1,40,1.0,6. p95_trade_value,63986.0,24638.0,134.0,236.0,0.5677966101694916,0.55,2. BELOW BASELINE,172.0,295.0,0.5830508474576271
+BX,Finance,Financial - Miscellaneous Services,40__1,40,1.0,7. p90_trade_value,24599.999999999996,15288.0,153.0,295.0,0.5186440677966102,0.55,2. BELOW BASELINE,325.0,590.0,0.5508474576271186
+BX,Finance,Financial - Miscellaneous Services,40__1,40,1.0,8. p75_trade_value,15265.0,8246.0,424.0,883.0,0.4801812004530011,0.55,2. BELOW BASELINE,749.0,1473.0,0.5084860828241684
+BXMT,Finance,REIT and Equity Trust,15__0,15,0.0,1. p999999_trade_value,20127.0,20127.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+BXMT,Finance,REIT and Equity Trust,15__0,15,0.0,7. p90_trade_value,15000.0,12475.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+BXMT,Finance,REIT and Equity Trust,15__0,15,0.0,8. p75_trade_value,10890.0,7245.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,4.0,8.0,0.5
+BXP,Finance,REIT and Equity Trust - Other,20__0,20,0.0,1. p999999_trade_value,154225.0,154225.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BXP,Finance,REIT and Equity Trust - Other,20__0,20,0.0,5. p99_trade_value,80724.00000000001,80724.00000000001,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+BXP,Finance,REIT and Equity Trust - Other,20__0,20,0.0,6. p95_trade_value,50000.0,20670.0,4.0,5.0,0.8,0.55,1. ABOVE BASELINE,6.0,7.0,0.8571428571428571
+BXP,Finance,REIT and Equity Trust - Other,20__0,20,0.0,7. p90_trade_value,19690.0,15369.999999999998,4.0,6.0,0.6666666666666666,0.55,1. ABOVE BASELINE,10.0,13.0,0.7692307692307693
+BXP,Finance,REIT and Equity Trust - Other,20__0,20,0.0,8. p75_trade_value,13250.0,7220.0,15.0,19.0,0.7894736842105263,0.55,1. ABOVE BASELINE,25.0,32.0,0.78125
+BXSL,Finance,Financial - SBIC & Commercial Industry,10__0,10,0.0,1. p999999_trade_value,7164.0,7164.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BXSL,Finance,Financial - SBIC & Commercial Industry,10__0,10,0.0,8. p75_trade_value,7120.0,7120.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+C,Finance,Financial - Investment Bank,40__1,40,1.0,1. p999999_trade_value,920465.0,920465.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+C,Finance,Financial - Investment Bank,40__1,40,1.0,3. p9999_trade_value,888000.0,888000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+C,Finance,Financial - Investment Bank,40__1,40,1.0,4. p999_trade_value,752200.0,308532.0,10.0,15.0,0.6666666666666666,0.55,2. BELOW BASELINE,11.0,17.0,0.6470588235294118
+C,Finance,Financial - Investment Bank,40__1,40,1.0,5. p99_trade_value,293853.0,70000.0,80.0,146.0,0.547945205479452,0.55,2. BELOW BASELINE,91.0,163.0,0.558282208588957
+C,Finance,Financial - Investment Bank,40__1,40,1.0,6. p95_trade_value,69273.0,25296.0,382.0,652.0,0.5858895705521472,0.55,2. BELOW BASELINE,473.0,815.0,0.5803680981595092
+C,Finance,Financial - Investment Bank,40__1,40,1.0,7. p90_trade_value,25284.0,16244.0,480.0,814.0,0.5896805896805897,0.55,2. BELOW BASELINE,953.0,1629.0,0.5850214855739717
+C,Finance,Financial - Investment Bank,40__1,40,1.0,8. p75_trade_value,16240.0,8865.0,1463.0,2441.0,0.5993445309299468,0.55,2. BELOW BASELINE,2416.0,4070.0,0.5936117936117936
+CACC,Finance,Financial - Consumer Loans,20__0,20,0.0,1. p999999_trade_value,51000.0,51000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CACC,Finance,Financial - Consumer Loans,20__0,20,0.0,6. p95_trade_value,24960.000000000004,9224.999999999998,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+CACC,Finance,Financial - Consumer Loans,20__0,20,0.0,7. p90_trade_value,8320.0,7800.0,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,3.0,7.0,0.42857142857142855
+CACC,Finance,Financial - Consumer Loans,20__0,20,0.0,8. p75_trade_value,7680.000000000001,5270.0,8.0,11.0,0.7272727272727273,0.55,2. BELOW BASELINE,11.0,18.0,0.6111111111111112
+CADE,Finance,Banks - Southeast,0__0,0,0.0,1. p999999_trade_value,3750.0,3750.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CAN,Finance,Financial - Miscellaneous Services,20__0,20,0.0,1. p999999_trade_value,79758.0,79758.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CAN,Finance,Financial - Miscellaneous Services,20__0,20,0.0,6. p95_trade_value,62064.0,18102.0,0.0,4.0,0.0,0.55,2. BELOW BASELINE,1.0,5.0,0.2
+CAN,Finance,Financial - Miscellaneous Services,20__0,20,0.0,7. p90_trade_value,14640.0,13574.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,2.0,9.0,0.2222222222222222
+CAN,Finance,Financial - Miscellaneous Services,20__0,20,0.0,8. p75_trade_value,12688.000000000002,8000.0,5.0,13.0,0.38461538461538464,0.55,2. BELOW BASELINE,7.0,22.0,0.3181818181818182
+CB,Finance,Insurance - Property and Casualty,30__0,30,0.0,1. p999999_trade_value,57000.0,57000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CB,Finance,Insurance - Property and Casualty,30__0,30,0.0,5. p99_trade_value,53000.0,40530.0,2.0,5.0,0.4,0.55,2. BELOW BASELINE,3.0,6.0,0.5
+CB,Finance,Insurance - Property and Casualty,30__0,30,0.0,6. p95_trade_value,35000.0,21500.0,14.0,25.0,0.56,0.55,2. BELOW BASELINE,17.0,31.0,0.5483870967741935
+CB,Finance,Insurance - Property and Casualty,30__0,30,0.0,7. p90_trade_value,21000.0,16740.0,21.0,28.0,0.75,0.55,2. BELOW BASELINE,38.0,59.0,0.6440677966101694
+CB,Finance,Insurance - Property and Casualty,30__0,30,0.0,8. p75_trade_value,16000.0,9500.0,59.0,90.0,0.6555555555555556,0.55,2. BELOW BASELINE,97.0,149.0,0.6510067114093959
+CBOE,Finance,Securities and Exchanges,25__1,25,1.0,1. p999999_trade_value,262500.0,262500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CBOE,Finance,Securities and Exchanges,25__1,25,1.0,5. p99_trade_value,84000.0,56700.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+CBOE,Finance,Securities and Exchanges,25__1,25,1.0,6. p95_trade_value,35175.0,16815.0,8.0,16.0,0.5,0.55,2. BELOW BASELINE,10.0,20.0,0.5
+CBOE,Finance,Securities and Exchanges,25__1,25,1.0,7. p90_trade_value,16685.0,11550.0,15.0,19.0,0.7894736842105263,0.55,2. BELOW BASELINE,25.0,39.0,0.6410256410256411
+CBOE,Finance,Securities and Exchanges,25__1,25,1.0,8. p75_trade_value,10920.0,6750.0,36.0,58.0,0.6206896551724138,0.55,2. BELOW BASELINE,61.0,97.0,0.6288659793814433
+CBRE,Finance,Real Estate - Operations,25__1,25,1.0,1. p999999_trade_value,548475.0,548475.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CBRE,Finance,Real Estate - Operations,25__1,25,1.0,5. p99_trade_value,295650.0,148800.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+CBRE,Finance,Real Estate - Operations,25__1,25,1.0,6. p95_trade_value,97900.0,17910.0,9.0,16.0,0.5625,0.55,2. BELOW BASELINE,12.0,21.0,0.5714285714285714
+CBRE,Finance,Real Estate - Operations,25__1,25,1.0,7. p90_trade_value,17500.0,12780.0,19.0,22.0,0.8636363636363636,0.55,2. BELOW BASELINE,31.0,43.0,0.7209302325581395
+CBRE,Finance,Real Estate - Operations,25__1,25,1.0,8. p75_trade_value,12470.0,6900.0,40.0,59.0,0.6779661016949152,0.55,2. BELOW BASELINE,71.0,102.0,0.696078431372549
+CBSH,Finance,Banks - Midwest,0__2,0,2.0,1. p999999_trade_value,9300.0,9300.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CCB,Finance,Banks - West,5__0,5,0.0,1. p999999_trade_value,9000.0,9000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CCI,Finance,REIT and Equity Trust - Other,25__1,25,1.0,1. p999999_trade_value,340000.0,340000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CCI,Finance,REIT and Equity Trust - Other,25__1,25,1.0,5. p99_trade_value,165000.0,37440.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+CCI,Finance,REIT and Equity Trust - Other,25__1,25,1.0,6. p95_trade_value,36278.0,19800.0,6.0,16.0,0.375,0.55,2. BELOW BASELINE,7.0,20.0,0.35
+CCI,Finance,REIT and Equity Trust - Other,25__1,25,1.0,7. p90_trade_value,19740.0,15179.999999999998,3.0,19.0,0.15789473684210525,0.55,2. BELOW BASELINE,10.0,39.0,0.2564102564102564
+CCI,Finance,REIT and Equity Trust - Other,25__1,25,1.0,8. p75_trade_value,15141.0,7930.0,17.0,59.0,0.288135593220339,0.55,2. BELOW BASELINE,27.0,98.0,0.2755102040816326
+CFG,Finance,Banks - Northeast,20__0,20,0.0,1. p999999_trade_value,116160.00000000001,116160.00000000001,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CFG,Finance,Banks - Northeast,20__0,20,0.0,5. p99_trade_value,116000.0,116000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+CFG,Finance,Banks - Northeast,20__0,20,0.0,6. p95_trade_value,100891.0,39780.0,7.0,7.0,1.0,0.55,1. ABOVE BASELINE,9.0,9.0,1.0
+CFG,Finance,Banks - Northeast,20__0,20,0.0,7. p90_trade_value,37500.0,28000.0,4.0,9.0,0.4444444444444444,0.55,2. BELOW BASELINE,13.0,18.0,0.7222222222222222
+CFG,Finance,Banks - Northeast,20__0,20,0.0,8. p75_trade_value,27114.999999999996,9968.0,16.0,27.0,0.5925925925925926,0.55,2. BELOW BASELINE,29.0,45.0,0.6444444444444445
+CFR,Finance,Banks - Southwest,10__0,10,0.0,1. p999999_trade_value,12150.000000000002,12150.000000000002,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CFR,Finance,Banks - Southwest,10__0,10,0.0,7. p90_trade_value,7830.000000000001,7830.000000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+CFR,Finance,Banks - Southwest,10__0,10,0.0,8. p75_trade_value,6750.0,6750.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+CG,Finance,Financial - Investment Management,25__1,25,1.0,1. p999999_trade_value,433300.0,433300.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CG,Finance,Financial - Investment Management,25__1,25,1.0,5. p99_trade_value,270000.0,43890.0,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+CG,Finance,Financial - Investment Management,25__1,25,1.0,6. p95_trade_value,42240.0,20205.0,7.0,12.0,0.5833333333333334,0.55,2. BELOW BASELINE,9.0,16.0,0.5625
+CG,Finance,Financial - Investment Management,25__1,25,1.0,7. p90_trade_value,19800.0,13500.0,4.0,15.0,0.26666666666666666,0.55,2. BELOW BASELINE,13.0,31.0,0.41935483870967744
+CG,Finance,Financial - Investment Management,25__1,25,1.0,8. p75_trade_value,13390.0,7000.0,24.0,45.0,0.5333333333333333,0.55,2. BELOW BASELINE,37.0,76.0,0.4868421052631579
+CHCT,Finance,REIT and Equity Trust - Other,10__0,10,0.0,1. p999999_trade_value,9000.0,9000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CHCT,Finance,REIT and Equity Trust - Other,10__0,10,0.0,8. p75_trade_value,8000.0,8000.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+CIA,Finance,Insurance - Life Insurance,0__0,0,0.0,1. p999999_trade_value,3240.0,3240.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CIGI,Finance,Real Estate - Operations,0__0,0,0.0,1. p999999_trade_value,4800.0,4800.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CIM,Finance,REIT and Equity Trust,15__0,15,0.0,1. p999999_trade_value,60000.0,60000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CIM,Finance,REIT and Equity Trust,15__0,15,0.0,6. p95_trade_value,34000.0,34000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+CIM,Finance,REIT and Equity Trust,15__0,15,0.0,7. p90_trade_value,33000.0,33000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+CIM,Finance,REIT and Equity Trust,15__0,15,0.0,8. p75_trade_value,24000.0,14325.0,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,3.0,6.0,0.5
+CINF,Finance,Insurance - Property and Casualty,15__0,15,0.0,1. p999999_trade_value,267730.0,267730.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CINF,Finance,Insurance - Property and Casualty,15__0,15,0.0,6. p95_trade_value,229840.0,38000.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+CINF,Finance,Insurance - Property and Casualty,15__0,15,0.0,7. p90_trade_value,23970.0,11600.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,4.0,5.0,0.8
+CINF,Finance,Insurance - Property and Casualty,15__0,15,0.0,8. p75_trade_value,8750.0,7200.0,5.0,6.0,0.8333333333333334,0.55,2. BELOW BASELINE,9.0,11.0,0.8181818181818182
+CLBK,Finance,Financial - Miscellaneous Services,0__1,0,1.0,1. p999999_trade_value,24000.0,24000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CLSK,Finance,Financial - Miscellaneous Services,40__1,40,1.0,1. p999999_trade_value,327760.00000000006,327760.00000000006,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CLSK,Finance,Financial - Miscellaneous Services,40__1,40,1.0,3. p9999_trade_value,205296.0,205296.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+CLSK,Finance,Financial - Miscellaneous Services,40__1,40,1.0,4. p999_trade_value,200836.0,144990.0,8.0,9.0,0.8888888888888888,0.55,2. BELOW BASELINE,8.0,11.0,0.7272727272727273
+CLSK,Finance,Financial - Miscellaneous Services,40__1,40,1.0,5. p99_trade_value,140042.0,46373.99999999999,51.0,94.0,0.5425531914893617,0.55,2. BELOW BASELINE,59.0,105.0,0.5619047619047619
+CLSK,Finance,Financial - Miscellaneous Services,40__1,40,1.0,6. p95_trade_value,46329.99999999999,20265.0,204.0,420.0,0.4857142857142857,0.55,2. BELOW BASELINE,263.0,525.0,0.5009523809523809
+CLSK,Finance,Financial - Miscellaneous Services,40__1,40,1.0,7. p90_trade_value,20254.0,13469.999999999998,246.0,524.0,0.46946564885496184,0.55,2. BELOW BASELINE,509.0,1049.0,0.4852240228789323
+CLSK,Finance,Financial - Miscellaneous Services,40__1,40,1.0,8. p75_trade_value,13460.999999999998,7700.0,720.0,1576.0,0.45685279187817257,0.55,2. BELOW BASELINE,1229.0,2625.0,0.4681904761904762
+CM,Finance,Banks - Foreign,20__0,20,0.0,1. p999999_trade_value,21195.0,21195.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CM,Finance,Banks - Foreign,20__0,20,0.0,5. p99_trade_value,20000.0,20000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+CM,Finance,Banks - Foreign,20__0,20,0.0,6. p95_trade_value,19950.0,12420.0,2.0,5.0,0.4,0.55,2. BELOW BASELINE,4.0,7.0,0.5714285714285714
+CM,Finance,Banks - Foreign,20__0,20,0.0,7. p90_trade_value,11070.0,9205.0,5.0,7.0,0.7142857142857143,0.55,2. BELOW BASELINE,9.0,14.0,0.6428571428571429
+CM,Finance,Banks - Foreign,20__0,20,0.0,8. p75_trade_value,9169.999999999998,6450.0,15.0,21.0,0.7142857142857143,0.55,2. BELOW BASELINE,24.0,35.0,0.6857142857142857
+CMA,Finance,Banks - Major Regional,25__1,25,1.0,1. p999999_trade_value,270000.0,270000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CMA,Finance,Banks - Major Regional,25__1,25,1.0,5. p99_trade_value,230000.0,120000.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,2.0,5.0,0.4
+CMA,Finance,Banks - Major Regional,25__1,25,1.0,6. p95_trade_value,110000.0,34020.00000000001,8.0,18.0,0.4444444444444444,0.55,2. BELOW BASELINE,10.0,23.0,0.43478260869565216
+CMA,Finance,Banks - Major Regional,25__1,25,1.0,7. p90_trade_value,32300.0,20713.0,11.0,22.0,0.5,0.55,2. BELOW BASELINE,21.0,45.0,0.4666666666666667
+CMA,Finance,Banks - Major Regional,25__1,25,1.0,8. p75_trade_value,20670.0,9750.0,49.0,67.0,0.7313432835820896,0.55,2. BELOW BASELINE,70.0,112.0,0.625
+CMCT,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,7030.0,7030.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CME,Finance,Securities and Exchanges,30__0,30,0.0,1. p999999_trade_value,333000.0,333000.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+CME,Finance,Securities and Exchanges,30__0,30,0.0,5. p99_trade_value,95580.0,44000.00000000001,5.0,7.0,0.7142857142857143,0.55,1. ABOVE BASELINE,7.0,9.0,0.7777777777777778
+CME,Finance,Securities and Exchanges,30__0,30,0.0,6. p95_trade_value,40002.0,25600.0,28.0,36.0,0.7777777777777778,0.55,1. ABOVE BASELINE,35.0,45.0,0.7777777777777778
+CME,Finance,Securities and Exchanges,30__0,30,0.0,7. p90_trade_value,25410.0,16500.0,37.0,44.0,0.8409090909090909,0.55,1. ABOVE BASELINE,72.0,89.0,0.8089887640449438
+CME,Finance,Securities and Exchanges,30__0,30,0.0,8. p75_trade_value,16450.0,9125.0,110.0,133.0,0.8270676691729323,0.55,1. ABOVE BASELINE,182.0,222.0,0.8198198198198198
+CNA,Finance,Insurance - Property and Casualty,5__3,5,3.0,1. p999999_trade_value,36000.0,36000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CNNE,Finance,Financial - Investment Management,0__1,0,1.0,1. p999999_trade_value,45500.0,45500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CNO,Finance,Insurance - Multi line,5__3,5,3.0,1. p999999_trade_value,18000.0,18000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+COF,Finance,Financial - Consumer Loans,35__2,35,2.0,1. p999999_trade_value,4041179.9999999995,4041179.9999999995,0.0,1.0,0.0,0.55,1. ABOVE BASELINE,0.0,1.0,0.0
+COF,Finance,Financial - Consumer Loans,35__2,35,2.0,4. p999_trade_value,2800000.0,708000.0,3.0,5.0,0.6,0.55,1. ABOVE BASELINE,3.0,6.0,0.5
+COF,Finance,Financial - Consumer Loans,35__2,35,2.0,5. p99_trade_value,614220.0,138944.0,21.0,50.0,0.42,0.55,2. BELOW BASELINE,24.0,56.0,0.42857142857142855
+COF,Finance,Financial - Consumer Loans,35__2,35,2.0,6. p95_trade_value,133980.0,33000.0,117.0,221.0,0.5294117647058824,0.55,2. BELOW BASELINE,141.0,277.0,0.5090252707581228
+COF,Finance,Financial - Consumer Loans,35__2,35,2.0,7. p90_trade_value,32634.000000000004,18240.0,153.0,277.0,0.5523465703971119,0.55,2. BELOW BASELINE,294.0,554.0,0.5306859205776173
+COF,Finance,Financial - Consumer Loans,35__2,35,2.0,8. p75_trade_value,18204.0,9000.0,433.0,831.0,0.5210589651022864,0.55,2. BELOW BASELINE,727.0,1385.0,0.5249097472924188
+COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,1. p999999_trade_value,18009600.0,18009600.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,2. p99999_trade_value,13616100.0,13600000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,3. p9999_trade_value,13084200.000000002,6583410.000000001,12.0,25.0,0.48,0.55,2. BELOW BASELINE,13.0,28.0,0.4642857142857143
+COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,4. p999_trade_value,6573880.0,1696170.0,113.0,248.0,0.45564516129032256,0.55,2. BELOW BASELINE,126.0,276.0,0.45652173913043476
+COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,5. p99_trade_value,1686853.0000000002,104300.0,1123.0,2484.0,0.45209339774557167,0.55,2. BELOW BASELINE,1249.0,2760.0,0.45253623188405795
+COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,6. p95_trade_value,104280.0,30675.0,5413.0,11034.0,0.49057458763820916,0.55,2. BELOW BASELINE,6662.0,13794.0,0.48296360736552124
+COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,7. p90_trade_value,30674.0,18480.0,6668.0,13814.0,0.48269871145215,0.55,2. BELOW BASELINE,13330.0,27608.0,0.4828310634598667
+COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,8. p75_trade_value,18475.0,9394.0,19886.0,41354.0,0.4808724669923103,0.55,2. BELOW BASELINE,33216.0,68962.0,0.4816565644847887
+COLB,Finance,Banks - West,5__0,5,0.0,1. p999999_trade_value,6400.0,6400.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+COLD,Finance,REIT and Equity Trust - Other,5__3,5,3.0,1. p999999_trade_value,14894.999999999998,14894.999999999998,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+COOP,Finance,Financial - Consumer Loans,20__0,20,0.0,1. p999999_trade_value,80220.0,80220.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+COOP,Finance,Financial - Consumer Loans,20__0,20,0.0,6. p95_trade_value,22500.0,18370.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+COOP,Finance,Financial - Consumer Loans,20__0,20,0.0,7. p90_trade_value,17700.0,10919.999999999998,4.0,5.0,0.8,0.55,2. BELOW BASELINE,7.0,10.0,0.7
+COOP,Finance,Financial - Consumer Loans,20__0,20,0.0,8. p75_trade_value,10500.0,8750.0,4.0,14.0,0.2857142857142857,0.55,2. BELOW BASELINE,11.0,24.0,0.4583333333333333
+CORZ,Finance,Financial - Miscellaneous Services,40__0,40,0.0,1. p999999_trade_value,1368194.0,1368194.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CORZ,Finance,Financial - Miscellaneous Services,40__0,40,0.0,4. p999_trade_value,979972.0000000001,574770.0,3.0,5.0,0.6,0.55,1. ABOVE BASELINE,4.0,6.0,0.6666666666666666
+CORZ,Finance,Financial - Miscellaneous Services,40__0,40,0.0,5. p99_trade_value,515921.0,97435.0,25.0,51.0,0.49019607843137253,0.55,2. BELOW BASELINE,29.0,57.0,0.5087719298245614
+CORZ,Finance,Financial - Miscellaneous Services,40__0,40,0.0,6. p95_trade_value,96305.0,29970.0,108.0,226.0,0.4778761061946903,0.55,2. BELOW BASELINE,137.0,283.0,0.4840989399293286
+CORZ,Finance,Financial - Miscellaneous Services,40__0,40,0.0,7. p90_trade_value,29925.0,16377.000000000002,147.0,283.0,0.519434628975265,0.55,2. BELOW BASELINE,284.0,566.0,0.5017667844522968
+CORZ,Finance,Financial - Miscellaneous Services,40__0,40,0.0,8. p75_trade_value,16375.0,8806.0,403.0,849.0,0.4746760895170789,0.55,2. BELOW BASELINE,687.0,1415.0,0.48551236749116605
+CPF,Finance,Banks - West,0__2,0,2.0,1. p999999_trade_value,11250.0,11250.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CPT,Finance,REIT and Equity Trust - Residential,5__0,5,0.0,1. p999999_trade_value,5220.0,5220.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CRBG,Finance,Insurance - Multi line,25__1,25,1.0,1. p999999_trade_value,420000.0,420000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CRBG,Finance,Insurance - Multi line,25__1,25,1.0,5. p99_trade_value,108000.0,60000.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+CRBG,Finance,Insurance - Multi line,25__1,25,1.0,6. p95_trade_value,52500.0,24800.0,6.0,8.0,0.75,0.55,2. BELOW BASELINE,8.0,11.0,0.7272727272727273
+CRBG,Finance,Insurance - Multi line,25__1,25,1.0,7. p90_trade_value,24000.0,15320.000000000002,8.0,10.0,0.8,0.55,2. BELOW BASELINE,16.0,21.0,0.7619047619047619
+CRBG,Finance,Insurance - Multi line,25__1,25,1.0,8. p75_trade_value,14175.0,8550.0,18.0,31.0,0.5806451612903226,0.55,2. BELOW BASELINE,34.0,52.0,0.6538461538461539
+CRCL,Finance,Financial - Miscellaneous Services,35__0,35,0.0,1. p999999_trade_value,336150.0,336150.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CRCL,Finance,Financial - Miscellaneous Services,35__0,35,0.0,4. p999_trade_value,288639.99999999994,201280.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+CRCL,Finance,Financial - Miscellaneous Services,35__0,35,0.0,5. p99_trade_value,193230.0,70500.0,2.0,18.0,0.1111111111111111,0.55,2. BELOW BASELINE,2.0,21.0,0.09523809523809523
+CRCL,Finance,Financial - Miscellaneous Services,35__0,35,0.0,6. p95_trade_value,70110.0,24282.0,2.0,82.0,0.024390243902439025,0.55,2. BELOW BASELINE,4.0,103.0,0.038834951456310676
+CRCL,Finance,Financial - Miscellaneous Services,35__0,35,0.0,7. p90_trade_value,23738.0,14400.0,10.0,103.0,0.0970873786407767,0.55,2. BELOW BASELINE,14.0,206.0,0.06796116504854369
+CRCL,Finance,Financial - Miscellaneous Services,35__0,35,0.0,8. p75_trade_value,14313.999999999998,7500.0,36.0,320.0,0.1125,0.55,2. BELOW BASELINE,50.0,526.0,0.09505703422053231
+CSWC,Finance,Financial - Investment Management,5__0,5,0.0,1. p999999_trade_value,3720.0000000000005,3720.0000000000005,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CTO,Finance,REIT and Equity Trust - Other,0__0,0,0.0,1. p999999_trade_value,3465.0,3465.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CTRE,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,6200.0,6200.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CUBE,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,4400.0,4400.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CUBI,Finance,Banks - Southeast,15__0,15,0.0,1. p999999_trade_value,50000.0,50000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CUBI,Finance,Banks - Southeast,15__0,15,0.0,6. p95_trade_value,40000.0,30000.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+CUBI,Finance,Banks - Southeast,15__0,15,0.0,7. p90_trade_value,24800.0,19800.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,5.0,0.2
+CUBI,Finance,Banks - Southeast,15__0,15,0.0,8. p75_trade_value,11760.0,8811.0,7.0,7.0,1.0,0.55,2. BELOW BASELINE,8.0,12.0,0.6666666666666666
+CWK,Finance,Real Estate - Operations,10__2,10,2.0,1. p999999_trade_value,180000.0,180000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CWK,Finance,Real Estate - Operations,10__2,10,2.0,8. p75_trade_value,60000.0,60000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+CXW,Finance,REIT and Equity Trust - Other,20__0,20,0.0,1. p999999_trade_value,150000.0,150000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CXW,Finance,REIT and Equity Trust - Other,20__0,20,0.0,5. p99_trade_value,120000.0,120000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+CXW,Finance,REIT and Equity Trust - Other,20__0,20,0.0,6. p95_trade_value,52500.0,19320.0,3.0,5.0,0.6,0.55,1. ABOVE BASELINE,5.0,7.0,0.7142857142857143
+CXW,Finance,REIT and Equity Trust - Other,20__0,20,0.0,7. p90_trade_value,15566.0,11305.0,6.0,7.0,0.8571428571428571,0.55,1. ABOVE BASELINE,11.0,14.0,0.7857142857142857
+CXW,Finance,REIT and Equity Trust - Other,20__0,20,0.0,8. p75_trade_value,11200.0,6859.999999999999,14.0,21.0,0.6666666666666666,0.55,1. ABOVE BASELINE,25.0,35.0,0.7142857142857143
+DB,Finance,Banks - Foreign,25__1,25,1.0,1. p999999_trade_value,131000.0,131000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+DB,Finance,Banks - Foreign,25__1,25,1.0,5. p99_trade_value,71460.0,52960.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+DB,Finance,Banks - Foreign,25__1,25,1.0,6. p95_trade_value,45079.99999999999,17985.000000000004,2.0,9.0,0.2222222222222222,0.55,2. BELOW BASELINE,3.0,12.0,0.25
+DB,Finance,Banks - Foreign,25__1,25,1.0,7. p90_trade_value,17728.0,13430.000000000002,6.0,12.0,0.5,0.55,2. BELOW BASELINE,9.0,24.0,0.375
+DB,Finance,Banks - Foreign,25__1,25,1.0,8. p75_trade_value,13379.999999999998,7500.0,15.0,37.0,0.40540540540540543,0.55,2. BELOW BASELINE,24.0,61.0,0.39344262295081966
+DBRG,Finance,REIT and Equity Trust,20__0,20,0.0,1. p999999_trade_value,171600.0,171600.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+DBRG,Finance,REIT and Equity Trust,20__0,20,0.0,5. p99_trade_value,160000.0,160000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+DBRG,Finance,REIT and Equity Trust,20__0,20,0.0,6. p95_trade_value,125000.0,39600.0,4.0,7.0,0.5714285714285714,0.55,1. ABOVE BASELINE,6.0,9.0,0.6666666666666666
+DBRG,Finance,REIT and Equity Trust,20__0,20,0.0,7. p90_trade_value,32950.0,20540.0,5.0,8.0,0.625,0.55,1. ABOVE BASELINE,11.0,17.0,0.6470588235294118
+DBRG,Finance,REIT and Equity Trust,20__0,20,0.0,8. p75_trade_value,19950.0,8200.0,17.0,25.0,0.68,0.55,1. ABOVE BASELINE,28.0,42.0,0.6666666666666666
+DCOM,Finance,Banks - Southeast,5__0,5,0.0,1. p999999_trade_value,6480.000000000001,6480.000000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+DEA,Finance,REIT and Equity Trust - Other,0__0,0,0.0,1. p999999_trade_value,5000.0,5000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+DEI,Finance,REIT and Equity Trust - Other,15__0,15,0.0,1. p999999_trade_value,20000.0,20000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+DEI,Finance,REIT and Equity Trust - Other,15__0,15,0.0,6. p95_trade_value,17680.0,17680.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+DEI,Finance,REIT and Equity Trust - Other,15__0,15,0.0,7. p90_trade_value,15000.0,15000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+DEI,Finance,REIT and Equity Trust - Other,15__0,15,0.0,8. p75_trade_value,10320.0,7320.0,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,2.0,6.0,0.3333333333333333
+DLR,Finance,REIT and Equity Trust - Other,30__0,30,0.0,1. p999999_trade_value,608585.0,608585.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+DLR,Finance,REIT and Equity Trust - Other,30__0,30,0.0,5. p99_trade_value,198000.0,47500.0,5.0,9.0,0.5555555555555556,0.55,2. BELOW BASELINE,5.0,10.0,0.5
+DLR,Finance,REIT and Equity Trust - Other,30__0,30,0.0,6. p95_trade_value,45600.0,22620.0,18.0,40.0,0.45,0.55,2. BELOW BASELINE,23.0,50.0,0.46
+DLR,Finance,REIT and Equity Trust - Other,30__0,30,0.0,7. p90_trade_value,22330.0,14210.0,34.0,48.0,0.7083333333333334,0.55,2. BELOW BASELINE,57.0,98.0,0.5816326530612245
+DLR,Finance,REIT and Equity Trust - Other,30__0,30,0.0,8. p75_trade_value,14100.0,8370.0,99.0,146.0,0.678082191780822,0.55,2. BELOW BASELINE,156.0,244.0,0.639344262295082
+DOC,Finance,REIT and Equity Trust - Other,20__0,20,0.0,1. p999999_trade_value,43750.0,43750.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+DOC,Finance,REIT and Equity Trust - Other,20__0,20,0.0,6. p95_trade_value,25818.0,16632.000000000004,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+DOC,Finance,REIT and Equity Trust - Other,20__0,20,0.0,7. p90_trade_value,15000.0,13800.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,7.0,7.0,1.0
+DOC,Finance,REIT and Equity Trust - Other,20__0,20,0.0,8. p75_trade_value,12690.0,6675.0,9.0,9.0,1.0,0.55,1. ABOVE BASELINE,16.0,16.0,1.0
+DOUG,Finance,Real Estate - Operations,0__0,0,0.0,1. p999999_trade_value,4700.0,4700.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+EBC,Finance,Banks - Northeast,10__0,10,0.0,1. p999999_trade_value,15000.0,15000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+EBC,Finance,Banks - Northeast,10__0,10,0.0,7. p90_trade_value,12000.0,12000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+EBC,Finance,Banks - Northeast,10__0,10,0.0,8. p75_trade_value,11200.000000000002,5500.000000000001,4.0,4.0,1.0,0.55,1. ABOVE BASELINE,6.0,6.0,1.0
+ECPG,Finance,Financial - Consumer Loans,5__0,5,0.0,1. p999999_trade_value,11000.000000000002,11000.000000000002,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ECPG,Finance,Financial - Consumer Loans,5__0,5,0.0,8. p75_trade_value,10400.0,10400.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+EEFT,Finance,Financial - Miscellaneous Services,10__0,10,0.0,1. p999999_trade_value,20470.0,20470.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+EEFT,Finance,Financial - Miscellaneous Services,10__0,10,0.0,8. p75_trade_value,20130.0,20130.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+EFC,Finance,REIT and Equity Trust,5__3,5,3.0,1. p999999_trade_value,19980.0,19980.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+EFSC,Finance,Banks - Midwest,5__0,5,0.0,1. p999999_trade_value,4500.0,4500.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+EG,Finance,Insurance - Multi line,25__1,25,1.0,1. p999999_trade_value,660000.0000000001,660000.0000000001,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+EG,Finance,Insurance - Multi line,25__1,25,1.0,5. p99_trade_value,150000.0,66640.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+EG,Finance,Insurance - Multi line,25__1,25,1.0,6. p95_trade_value,52500.0,24175.0,5.0,9.0,0.5555555555555556,0.55,2. BELOW BASELINE,7.0,12.0,0.5833333333333334
+EG,Finance,Insurance - Multi line,25__1,25,1.0,7. p90_trade_value,24000.0,14400.0,7.0,11.0,0.6363636363636364,0.55,2. BELOW BASELINE,14.0,23.0,0.6086956521739131
+EG,Finance,Insurance - Multi line,25__1,25,1.0,8. p75_trade_value,14140.0,7800.0,17.0,35.0,0.4857142857142857,0.55,2. BELOW BASELINE,31.0,58.0,0.5344827586206896
+EGP,Finance,REIT and Equity Trust - Other,5__0,5,0.0,2. p99999_trade_value,5259.999999999999,5259.999999999999,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+EHTH,Finance,Insurance - Brokerage,10__0,10,0.0,1. p999999_trade_value,7400.0,7400.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+EHTH,Finance,Insurance - Brokerage,10__0,10,0.0,8. p75_trade_value,6183.0,6183.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+ELME,Finance,REIT and Equity Trust - Residential,0__0,0,0.0,1. p999999_trade_value,6000.0,6000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ELS,Finance,REIT and Equity Trust - Residential,0__0,0,0.0,1. p999999_trade_value,7805.0,7805.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ENVA,Finance,Financial - Consumer Loans,10__0,10,0.0,1. p999999_trade_value,9250.0,9250.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ENVA,Finance,Financial - Consumer Loans,10__0,10,0.0,8. p75_trade_value,6250.0,6250.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+EPR,Finance,REIT and Equity Trust - Retail,5__0,5,0.0,1. p999999_trade_value,5215.0,5215.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+EPR,Finance,REIT and Equity Trust - Retail,5__0,5,0.0,8. p75_trade_value,4400.0,4400.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+EQH,Finance,Insurance - Multi line,10__2,10,2.0,1. p999999_trade_value,219000.0,219000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+EQH,Finance,Insurance - Multi line,10__2,10,2.0,7. p90_trade_value,13319.999999999998,13319.999999999998,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+EQH,Finance,Insurance - Multi line,10__2,10,2.0,8. p75_trade_value,9360.0,7650.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+EQIX,Finance,REIT and Equity Trust - Retail,30__0,30,0.0,1. p999999_trade_value,151900.0,151900.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+EQIX,Finance,REIT and Equity Trust - Retail,30__0,30,0.0,5. p99_trade_value,147000.0,61050.0,2.0,5.0,0.4,0.55,2. BELOW BASELINE,2.0,6.0,0.3333333333333333
+EQIX,Finance,REIT and Equity Trust - Retail,30__0,30,0.0,6. p95_trade_value,58112.0,25800.0,19.0,24.0,0.7916666666666666,0.55,2. BELOW BASELINE,21.0,30.0,0.7
+EQIX,Finance,REIT and Equity Trust - Retail,30__0,30,0.0,7. p90_trade_value,25740.000000000004,18090.0,24.0,29.0,0.8275862068965517,0.55,2. BELOW BASELINE,45.0,59.0,0.7627118644067796
+EQIX,Finance,REIT and Equity Trust - Retail,30__0,30,0.0,8. p75_trade_value,18000.0,10080.0,41.0,93.0,0.44086021505376344,0.55,2. BELOW BASELINE,86.0,152.0,0.5657894736842105
+EQR,Finance,REIT and Equity Trust - Residential,10__0,10,0.0,1. p999999_trade_value,7244.999999999999,7244.999999999999,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+EQR,Finance,REIT and Equity Trust - Residential,10__0,10,0.0,7. p90_trade_value,6000.0,6000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+EQR,Finance,REIT and Equity Trust - Residential,10__0,10,0.0,8. p75_trade_value,4100.0,4100.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+ERIE,Finance,Insurance - Brokerage,20__0,20,0.0,1. p999999_trade_value,34200.0,34200.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ERIE,Finance,Insurance - Brokerage,20__0,20,0.0,5. p99_trade_value,25200.0,25200.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+ERIE,Finance,Insurance - Brokerage,20__0,20,0.0,6. p95_trade_value,13080.000000000002,10920.0,4.0,4.0,1.0,0.55,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
+ERIE,Finance,Insurance - Brokerage,20__0,20,0.0,7. p90_trade_value,10010.0,8820.0,10.0,10.0,1.0,0.55,2. BELOW BASELINE,14.0,16.0,0.875
+ERIE,Finance,Insurance - Brokerage,20__0,20,0.0,8. p75_trade_value,8750.0,8400.0,5.0,6.0,0.8333333333333334,0.55,2. BELOW BASELINE,19.0,22.0,0.8636363636363636
+ESS,Finance,REIT and Equity Trust - Residential,15__1,15,1.0,1. p999999_trade_value,330000.0,330000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ESS,Finance,REIT and Equity Trust - Residential,15__1,15,1.0,6. p95_trade_value,245000.0,245000.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+ESS,Finance,REIT and Equity Trust - Residential,15__1,15,1.0,7. p90_trade_value,214185.0,214185.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+ESS,Finance,REIT and Equity Trust - Residential,15__1,15,1.0,8. p75_trade_value,203580.0,10260.0,5.0,5.0,1.0,0.55,2. BELOW BASELINE,7.0,8.0,0.875
+ETOR,Finance,Insurance - Brokerage,25__1,25,1.0,1. p999999_trade_value,117000.0,117000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ETOR,Finance,Insurance - Brokerage,25__1,25,1.0,5. p99_trade_value,116883.0,73678.00000000001,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+ETOR,Finance,Insurance - Brokerage,25__1,25,1.0,6. p95_trade_value,73062.0,36963.0,2.0,10.0,0.2,0.55,2. BELOW BASELINE,3.0,13.0,0.23076923076923078
+ETOR,Finance,Insurance - Brokerage,25__1,25,1.0,7. p90_trade_value,34410.0,19600.0,7.0,13.0,0.5384615384615384,0.55,2. BELOW BASELINE,10.0,26.0,0.38461538461538464
+ETOR,Finance,Insurance - Brokerage,25__1,25,1.0,8. p75_trade_value,19110.0,9085.0,13.0,39.0,0.3333333333333333,0.55,2. BELOW BASELINE,23.0,65.0,0.35384615384615387
+EVER,Finance,Insurance - Multi line,5__3,5,3.0,1. p999999_trade_value,17000.0,17000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+EVER,Finance,Insurance - Multi line,5__3,5,3.0,8. p75_trade_value,8415.0,8415.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+EVR,Finance,Financial - Investment Bank,20__1,20,1.0,1. p999999_trade_value,445670.0,445670.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+EVR,Finance,Financial - Investment Bank,20__1,20,1.0,6. p95_trade_value,398320.0,83850.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+EVR,Finance,Financial - Investment Bank,20__1,20,1.0,7. p90_trade_value,79500.0,42140.0,0.0,4.0,0.0,0.55,2. BELOW BASELINE,3.0,9.0,0.3333333333333333
+EVR,Finance,Financial - Investment Bank,20__1,20,1.0,8. p75_trade_value,41710.0,14500.0,6.0,13.0,0.46153846153846156,0.55,2. BELOW BASELINE,9.0,22.0,0.4090909090909091
+EWBC,Finance,Banks - West,15__0,15,0.0,1. p999999_trade_value,54060.0,54060.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+EWBC,Finance,Banks - West,15__0,15,0.0,6. p95_trade_value,44400.0,44400.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+EWBC,Finance,Banks - West,15__0,15,0.0,7. p90_trade_value,27000.0,27000.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+EWBC,Finance,Banks - West,15__0,15,0.0,8. p75_trade_value,18850.0,13666.999999999998,1.0,5.0,0.2,0.55,2. BELOW BASELINE,5.0,9.0,0.5555555555555556
+EXPI,Finance,Real Estate - Operations,10__0,10,0.0,1. p999999_trade_value,14600.0,14600.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+EXPI,Finance,Real Estate - Operations,10__0,10,0.0,7. p90_trade_value,12654.0,12654.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+EXPI,Finance,Real Estate - Operations,10__0,10,0.0,8. p75_trade_value,11399.999999999998,6750.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,5.0,0.0
+EXR,Finance,REIT and Equity Trust - Other,15__1,15,1.0,1. p999999_trade_value,649571.9999999999,649571.9999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+EXR,Finance,REIT and Equity Trust - Other,15__1,15,1.0,6. p95_trade_value,285000.0,285000.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+EXR,Finance,REIT and Equity Trust - Other,15__1,15,1.0,7. p90_trade_value,238679.99999999997,218750.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+EXR,Finance,REIT and Equity Trust - Other,15__1,15,1.0,8. p75_trade_value,185000.0,22999.999999999996,2.0,5.0,0.4,0.55,2. BELOW BASELINE,3.0,9.0,0.3333333333333333
+EZPW,Finance,Financial - Consumer Loans,10__0,10,0.0,1. p999999_trade_value,13180.000000000002,13180.000000000002,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+EZPW,Finance,Financial - Consumer Loans,10__0,10,0.0,8. p75_trade_value,5876.000000000001,5876.000000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+FAF,Finance,Insurance - Property and Casualty,0__0,0,0.0,1. p999999_trade_value,3960.0,3960.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FBK,Finance,Banks - Northeast,0__0,0,0.0,1. p999999_trade_value,6500.0,6500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FCBC,Finance,Banks - Southeast,0__2,0,2.0,1. p999999_trade_value,11925.0,11925.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+FCNCA,Finance,Banks - Southeast,25__1,25,1.0,1. p999999_trade_value,96250.0,96250.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+FCNCA,Finance,Banks - Southeast,25__1,25,1.0,5. p99_trade_value,96000.0,47200.0,3.0,5.0,0.6,0.55,2. BELOW BASELINE,3.0,6.0,0.5
+FCNCA,Finance,Banks - Southeast,25__1,25,1.0,6. p95_trade_value,45400.0,19520.0,12.0,20.0,0.6,0.55,2. BELOW BASELINE,15.0,26.0,0.5769230769230769
+FCNCA,Finance,Banks - Southeast,25__1,25,1.0,7. p90_trade_value,19295.0,11200.0,18.0,25.0,0.72,0.55,2. BELOW BASELINE,33.0,51.0,0.6470588235294118
+FCNCA,Finance,Banks - Southeast,25__1,25,1.0,8. p75_trade_value,11110.0,6212.0,54.0,78.0,0.6923076923076923,0.55,2. BELOW BASELINE,87.0,129.0,0.6744186046511628
+FFIC,Finance,Financial - Savings and Loan,5__1,5,1.0,1. p999999_trade_value,84000.0,84000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+FHI,Finance,Financial - Investment Management,0__2,0,2.0,1. p999999_trade_value,12000.0,12000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FHN,Finance,Banks - Southwest,20__1,20,1.0,1. p999999_trade_value,702000.0,702000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FHN,Finance,Banks - Southwest,20__1,20,1.0,6. p95_trade_value,38080.0,21440.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
+FHN,Finance,Banks - Southwest,20__1,20,1.0,7. p90_trade_value,19530.0,14279.999999999998,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,4.0,7.0,0.5714285714285714
+FHN,Finance,Banks - Southwest,20__1,20,1.0,8. p75_trade_value,12850.0,7500.0,10.0,12.0,0.8333333333333334,0.55,2. BELOW BASELINE,14.0,19.0,0.7368421052631579
+FINV,Finance,Financial - Miscellaneous Services,10__0,10,0.0,1. p999999_trade_value,37485.0,37485.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FINV,Finance,Financial - Miscellaneous Services,10__0,10,0.0,8. p75_trade_value,29970.0,29970.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+FIP,Finance,Real Estate - Operations,10__0,10,0.0,1. p999999_trade_value,10050.0,10050.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FIP,Finance,Real Estate - Operations,10__0,10,0.0,8. p75_trade_value,9600.0,8350.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+FITB,Finance,Banks - Major Regional,25__1,25,1.0,1. p999999_trade_value,200000.0,200000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FITB,Finance,Banks - Major Regional,25__1,25,1.0,5. p99_trade_value,123000.0,123000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+FITB,Finance,Banks - Major Regional,25__1,25,1.0,6. p95_trade_value,92120.0,41295.0,2.0,7.0,0.2857142857142857,0.55,2. BELOW BASELINE,4.0,9.0,0.4444444444444444
+FITB,Finance,Banks - Major Regional,25__1,25,1.0,7. p90_trade_value,37440.0,20700.0,6.0,9.0,0.6666666666666666,0.55,2. BELOW BASELINE,10.0,18.0,0.5555555555555556
+FITB,Finance,Banks - Major Regional,25__1,25,1.0,8. p75_trade_value,19905.0,9775.0,17.0,27.0,0.6296296296296297,0.55,2. BELOW BASELINE,27.0,45.0,0.6
+FLG,Finance,Banks - Northeast,20__0,20,0.0,1. p999999_trade_value,78705.0,78705.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+FLG,Finance,Banks - Northeast,20__0,20,0.0,5. p99_trade_value,50880.0,50880.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+FLG,Finance,Banks - Northeast,20__0,20,0.0,6. p95_trade_value,40000.0,19661.999999999996,3.0,6.0,0.5,0.55,2. BELOW BASELINE,3.0,8.0,0.375
+FLG,Finance,Banks - Northeast,20__0,20,0.0,7. p90_trade_value,19160.000000000004,13767.000000000002,2.0,8.0,0.25,0.55,2. BELOW BASELINE,5.0,16.0,0.3125
+FLG,Finance,Banks - Northeast,20__0,20,0.0,8. p75_trade_value,13604.999999999998,8350.0,8.0,24.0,0.3333333333333333,0.55,2. BELOW BASELINE,13.0,40.0,0.325
+FMNB,Finance,Banks - Midwest,0__0,0,0.0,1. p999999_trade_value,3540.0,3540.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+FNF,Finance,Insurance - Multi line,10__2,10,2.0,1. p999999_trade_value,162000.0,162000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+FNF,Finance,Insurance - Multi line,10__2,10,2.0,7. p90_trade_value,18000.0,18000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+FNF,Finance,Insurance - Multi line,10__2,10,2.0,8. p75_trade_value,15000.0,15000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+FOA,Finance,Financial - Mortgage & Related Services,5__0,5,0.0,1. p999999_trade_value,5865.0,5865.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FOR,Finance,Real Estate - Development,0__0,0,0.0,1. p999999_trade_value,4500.0,4500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FPH,Finance,Real Estate - Development,0__0,0,0.0,1. p999999_trade_value,3050.0,3050.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+FRGE,Finance,Financial - Miscellaneous Services,5__0,5,0.0,1. p999999_trade_value,5830.0,5830.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FRHC,Finance,Financial - Miscellaneous Services,10__0,10,0.0,1. p999999_trade_value,12000.0,12000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FRHC,Finance,Financial - Miscellaneous Services,10__0,10,0.0,8. p75_trade_value,9200.0,8500.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+FRME,Finance,Banks - Midwest,0__0,0,0.0,1. p999999_trade_value,4750.0,4750.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+FRT,Finance,REIT and Equity Trust - Retail,10__2,10,2.0,1. p999999_trade_value,195730.0,195730.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FRT,Finance,REIT and Equity Trust - Retail,10__2,10,2.0,8. p75_trade_value,188769.99999999997,128810.00000000001,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+FSK,Finance,Financial - SBIC & Commercial Industry,10__0,10,0.0,1. p999999_trade_value,9400.0,9400.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FSK,Finance,Financial - SBIC & Commercial Industry,10__0,10,0.0,8. p75_trade_value,6630.0,4800.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+FVCB,Finance,Banks - Southeast,0__0,0,0.0,1. p999999_trade_value,6550.0,6550.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+GBCI,Finance,Banks - West,5__0,5,0.0,1. p999999_trade_value,5000.0,5000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+GBDC,Finance,Financial - SBIC & Commercial Industry,0__0,0,0.0,1. p999999_trade_value,7450.0,7450.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+GGAL,Finance,Banks - Foreign,25__1,25,1.0,1. p999999_trade_value,348000.0,348000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+GGAL,Finance,Banks - Foreign,25__1,25,1.0,5. p99_trade_value,227696.0,169000.0,3.0,3.0,1.0,0.55,2. BELOW BASELINE,3.0,4.0,0.75
+GGAL,Finance,Banks - Foreign,25__1,25,1.0,6. p95_trade_value,113000.0,29000.0,15.0,17.0,0.8823529411764706,0.55,2. BELOW BASELINE,18.0,21.0,0.8571428571428571
+GGAL,Finance,Banks - Foreign,25__1,25,1.0,7. p90_trade_value,28960.000000000004,21000.0,12.0,19.0,0.631578947368421,0.55,2. BELOW BASELINE,30.0,40.0,0.75
+GGAL,Finance,Banks - Foreign,25__1,25,1.0,8. p75_trade_value,20010.0,10000.0,43.0,61.0,0.7049180327868853,0.55,2. BELOW BASELINE,73.0,101.0,0.7227722772277227
+GL,Finance,Insurance - Accident and Health,25__1,25,1.0,1. p999999_trade_value,108159.99999999999,108159.99999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+GL,Finance,Insurance - Accident and Health,25__1,25,1.0,5. p99_trade_value,79750.0,62000.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+GL,Finance,Insurance - Accident and Health,25__1,25,1.0,6. p95_trade_value,59450.0,36000.0,2.0,9.0,0.2222222222222222,0.55,2. BELOW BASELINE,4.0,12.0,0.3333333333333333
+GL,Finance,Insurance - Accident and Health,25__1,25,1.0,7. p90_trade_value,31200.0,21285.0,9.0,12.0,0.75,0.55,2. BELOW BASELINE,13.0,24.0,0.5416666666666666
+GL,Finance,Insurance - Accident and Health,25__1,25,1.0,8. p75_trade_value,21150.0,9050.0,9.0,35.0,0.2571428571428571,0.55,2. BELOW BASELINE,22.0,59.0,0.3728813559322034
+GLAD,Finance,Financial - SBIC & Commercial Industry,0__0,0,0.0,1. p999999_trade_value,3339.0,3339.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+GLPI,Finance,REIT and Equity Trust - Other,10__0,10,0.0,1. p999999_trade_value,22575.0,22575.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+GLPI,Finance,REIT and Equity Trust - Other,10__0,10,0.0,7. p90_trade_value,8750.0,8750.0,4.0,4.0,1.0,0.55,1. ABOVE BASELINE,5.0,5.0,1.0
+GLXY,Finance,Financial - Miscellaneous Services,25__1,25,1.0,1. p999999_trade_value,580000.0,580000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+GLXY,Finance,Financial - Miscellaneous Services,25__1,25,1.0,5. p99_trade_value,489159.99999999994,244579.99999999997,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+GLXY,Finance,Financial - Miscellaneous Services,25__1,25,1.0,6. p95_trade_value,215000.0,24252.0,2.0,13.0,0.15384615384615385,0.55,2. BELOW BASELINE,2.0,17.0,0.11764705882352941
+GLXY,Finance,Financial - Miscellaneous Services,25__1,25,1.0,7. p90_trade_value,23970.0,17400.0,4.0,17.0,0.23529411764705882,0.55,2. BELOW BASELINE,6.0,34.0,0.17647058823529413
+GLXY,Finance,Financial - Miscellaneous Services,25__1,25,1.0,8. p75_trade_value,17200.0,8432.0,16.0,49.0,0.32653061224489793,0.55,2. BELOW BASELINE,22.0,83.0,0.26506024096385544
+GNW,Finance,Insurance - Life Insurance,15__0,15,0.0,1. p999999_trade_value,36320.00000000001,36320.00000000001,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+GNW,Finance,Insurance - Life Insurance,15__0,15,0.0,6. p95_trade_value,25000.0,25000.0,5.0,5.0,1.0,0.55,1. ABOVE BASELINE,6.0,6.0,1.0
+GNW,Finance,Insurance - Life Insurance,15__0,15,0.0,8. p75_trade_value,13619.999999999998,13619.999999999998,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,7.0,7.0,1.0
+GRBK,Finance,Real Estate - Development,15__0,15,0.0,1. p999999_trade_value,24050.0,24050.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+GRBK,Finance,Real Estate - Development,15__0,15,0.0,6. p95_trade_value,23680.0,23680.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+GRBK,Finance,Real Estate - Development,15__0,15,0.0,7. p90_trade_value,21500.0,21500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+GRBK,Finance,Real Estate - Development,15__0,15,0.0,8. p75_trade_value,20000.0,11850.0,4.0,4.0,1.0,0.55,1. ABOVE BASELINE,7.0,7.0,1.0
+GS,Finance,Financial - Investment Bank,45__0,45,0.0,1. p999999_trade_value,1700000.0,1700000.0,0.0,1.0,0.0,0.55,1. ABOVE BASELINE,0.0,1.0,0.0
+GS,Finance,Financial - Investment Bank,45__0,45,0.0,3. p9999_trade_value,1012500.0,740000.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,2.0,4.0,0.5
+GS,Finance,Financial - Investment Bank,45__0,45,0.0,4. p999_trade_value,693450.0,258000.0,21.0,32.0,0.65625,0.55,1. ABOVE BASELINE,23.0,36.0,0.6388888888888888
+GS,Finance,Financial - Investment Bank,45__0,45,0.0,5. p99_trade_value,254720.00000000003,66040.00000000001,158.0,318.0,0.4968553459119497,0.55,2. BELOW BASELINE,181.0,354.0,0.5112994350282486
+GS,Finance,Financial - Investment Bank,45__0,45,0.0,6. p95_trade_value,65670.0,23700.0,755.0,1415.0,0.5335689045936396,0.55,2. BELOW BASELINE,936.0,1769.0,0.529112492933861
+GS,Finance,Financial - Investment Bank,45__0,45,0.0,7. p90_trade_value,23695.0,15390.0,942.0,1756.0,0.5364464692482915,0.55,2. BELOW BASELINE,1878.0,3525.0,0.5327659574468085
+GS,Finance,Financial - Investment Bank,45__0,45,0.0,8. p75_trade_value,15385.000000000002,8370.0,2829.0,5288.0,0.5349848714069592,0.55,2. BELOW BASELINE,4707.0,8813.0,0.5340973561783728
+GSHD,Finance,Insurance - Multi line,15__0,15,0.0,1. p999999_trade_value,40999.99999999999,40999.99999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+GSHD,Finance,Insurance - Multi line,15__0,15,0.0,6. p95_trade_value,13000.0,13000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+GSHD,Finance,Insurance - Multi line,15__0,15,0.0,7. p90_trade_value,11250.0,10080.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+GSHD,Finance,Insurance - Multi line,15__0,15,0.0,8. p75_trade_value,9990.0,6500.0,1.0,6.0,0.16666666666666666,0.55,2. BELOW BASELINE,1.0,10.0,0.1
+HASI,Finance,Financial - Miscellaneous Services,15__0,15,0.0,1. p999999_trade_value,123422.0,123422.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+HASI,Finance,Financial - Miscellaneous Services,15__0,15,0.0,6. p95_trade_value,110000.0,110000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+HASI,Finance,Financial - Miscellaneous Services,15__0,15,0.0,7. p90_trade_value,60762.0,60724.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+HASI,Finance,Financial - Miscellaneous Services,15__0,15,0.0,8. p75_trade_value,12000.0,7125.0,6.0,7.0,0.8571428571428571,0.55,1. ABOVE BASELINE,10.0,11.0,0.9090909090909091
+HBAN,Finance,Banks - Midwest,20__0,20,0.0,1. p999999_trade_value,75000.0,75000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+HBAN,Finance,Banks - Midwest,20__0,20,0.0,6. p95_trade_value,72905.0,41650.0,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+HBAN,Finance,Banks - Midwest,20__0,20,0.0,7. p90_trade_value,34890.0,26525.0,3.0,3.0,1.0,0.55,2. BELOW BASELINE,5.0,7.0,0.7142857142857143
+HBAN,Finance,Banks - Midwest,20__0,20,0.0,8. p75_trade_value,22440.0,10580.000000000002,6.0,9.0,0.6666666666666666,0.55,2. BELOW BASELINE,11.0,16.0,0.6875
+HCI,Finance,Insurance - Property and Casualty,10__0,10,0.0,1. p999999_trade_value,11650.0,11650.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+HCI,Finance,Insurance - Property and Casualty,10__0,10,0.0,8. p75_trade_value,10784.0,10784.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+HDB,Finance,Banks - Foreign,15__0,15,0.0,1. p999999_trade_value,240000.0,240000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+HDB,Finance,Banks - Foreign,15__0,15,0.0,6. p95_trade_value,40000.0,20100.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+HDB,Finance,Banks - Foreign,15__0,15,0.0,7. p90_trade_value,13000.0,10500.0,3.0,3.0,1.0,0.55,2. BELOW BASELINE,5.0,6.0,0.8333333333333334
+HDB,Finance,Banks - Foreign,15__0,15,0.0,8. p75_trade_value,8400.0,7550.0,6.0,7.0,0.8571428571428571,0.55,2. BELOW BASELINE,11.0,13.0,0.8461538461538461
+HHH,Finance,Real Estate - Development,20__0,20,0.0,1. p999999_trade_value,91908.0,91908.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+HHH,Finance,Real Estate - Development,20__0,20,0.0,5. p99_trade_value,47085.0,47085.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+HHH,Finance,Real Estate - Development,20__0,20,0.0,6. p95_trade_value,28200.0,20000.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
+HHH,Finance,Real Estate - Development,20__0,20,0.0,7. p90_trade_value,19500.0,14800.0,1.0,5.0,0.2,0.55,2. BELOW BASELINE,5.0,11.0,0.45454545454545453
+HHH,Finance,Real Estate - Development,20__0,20,0.0,8. p75_trade_value,14250.0,7410.000000000001,7.0,15.0,0.4666666666666667,0.55,2. BELOW BASELINE,12.0,26.0,0.46153846153846156
+HIG,Finance,Insurance - Property and Casualty,20__0,20,0.0,1. p999999_trade_value,35100.0,35100.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+HIG,Finance,Insurance - Property and Casualty,20__0,20,0.0,5. p99_trade_value,23100.0,23100.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+HIG,Finance,Insurance - Property and Casualty,20__0,20,0.0,6. p95_trade_value,22680.0,16500.0,3.0,4.0,0.75,0.55,1. ABOVE BASELINE,5.0,6.0,0.8333333333333334
+HIG,Finance,Insurance - Property and Casualty,20__0,20,0.0,7. p90_trade_value,14850.0,10350.0,3.0,5.0,0.6,0.55,1. ABOVE BASELINE,8.0,11.0,0.7272727272727273
+HIG,Finance,Insurance - Property and Casualty,20__0,20,0.0,8. p75_trade_value,9720.0,6600.0,10.0,16.0,0.625,0.55,1. ABOVE BASELINE,18.0,27.0,0.6666666666666666
+HIPO,Finance,Insurance - Multi line,15__0,15,0.0,1. p999999_trade_value,40000.0,40000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+HIPO,Finance,Insurance - Multi line,15__0,15,0.0,6. p95_trade_value,22000.000000000004,22000.000000000004,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+HIPO,Finance,Insurance - Multi line,15__0,15,0.0,7. p90_trade_value,19980.0,19980.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+HIPO,Finance,Insurance - Multi line,15__0,15,0.0,8. p75_trade_value,16000.0,15200.0,3.0,3.0,1.0,0.55,2. BELOW BASELINE,5.0,7.0,0.7142857142857143
+HIVE,Finance,Financial - Miscellaneous Services,20__0,20,0.0,1. p999999_trade_value,93709.0,93709.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+HIVE,Finance,Financial - Miscellaneous Services,20__0,20,0.0,6. p95_trade_value,90342.0,25812.0,0.0,4.0,0.0,0.55,2. BELOW BASELINE,1.0,5.0,0.2
+HIVE,Finance,Financial - Miscellaneous Services,20__0,20,0.0,7. p90_trade_value,25557.0,14890.0,1.0,5.0,0.2,0.55,2. BELOW BASELINE,2.0,10.0,0.2
+HIVE,Finance,Financial - Miscellaneous Services,20__0,20,0.0,8. p75_trade_value,14597.999999999998,7484.999999999999,6.0,14.0,0.42857142857142855,0.55,2. BELOW BASELINE,8.0,24.0,0.3333333333333333
+HIW,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,5220.0,5220.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+HLI,Finance,Financial - Miscellaneous Services,5__3,5,3.0,1. p999999_trade_value,18228.0,18228.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+HLI,Finance,Financial - Miscellaneous Services,5__3,5,3.0,8. p75_trade_value,16465.0,16465.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+HLNE,Finance,Financial - Investment Management,15__0,15,0.0,1. p999999_trade_value,34800.0,34800.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+HLNE,Finance,Financial - Investment Management,15__0,15,0.0,6. p95_trade_value,19520.0,19520.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+HLNE,Finance,Financial - Investment Management,15__0,15,0.0,7. p90_trade_value,19039.999999999996,16000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+HLNE,Finance,Financial - Investment Management,15__0,15,0.0,8. p75_trade_value,13419.999999999998,12000.0,0.0,6.0,0.0,0.55,2. BELOW BASELINE,1.0,10.0,0.1
+HOOD,Finance,Financial - Investment Bank,50__3,50,3.0,1. p999999_trade_value,1896000.0,1896000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+HOOD,Finance,Financial - Investment Bank,50__3,50,3.0,3. p9999_trade_value,1217349.9999999998,1035000.0,5.0,7.0,0.7142857142857143,0.55,1. ABOVE BASELINE,6.0,8.0,0.75
+HOOD,Finance,Financial - Investment Bank,50__3,50,3.0,4. p999_trade_value,1010000.0,306159.0,28.0,55.0,0.509090909090909,0.55,2. BELOW BASELINE,34.0,63.0,0.5396825396825397
+HOOD,Finance,Financial - Investment Bank,50__3,50,3.0,5. p99_trade_value,302400.0,72300.0,364.0,562.0,0.6476868327402135,0.55,2. BELOW BASELINE,398.0,625.0,0.6368
+HOOD,Finance,Financial - Investment Bank,50__3,50,3.0,6. p95_trade_value,72296.99999999999,27255.0,1515.0,2499.0,0.6062424969987995,0.55,2. BELOW BASELINE,1913.0,3124.0,0.6123559539052497
+HOOD,Finance,Financial - Investment Bank,50__3,50,3.0,7. p90_trade_value,27244.0,17600.0,1937.0,3137.0,0.6174689193496972,0.55,2. BELOW BASELINE,3850.0,6261.0,0.6149177447692062
+HOOD,Finance,Financial - Investment Bank,50__3,50,3.0,8. p75_trade_value,17584.0,9400.0,5557.0,9380.0,0.5924307036247335,0.55,2. BELOW BASELINE,9407.0,15641.0,0.6014321334953008
+HOUS,Finance,Real Estate - Operations,10__0,10,0.0,1. p999999_trade_value,5000.0,5000.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+HPP,Finance,REIT and Equity Trust - Other,10__0,10,0.0,1. p999999_trade_value,12000.0,12000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+HPP,Finance,REIT and Equity Trust - Other,10__0,10,0.0,8. p75_trade_value,8091.0,8091.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+HR,Finance,REIT and Equity Trust - Other,10__0,10,0.0,1. p999999_trade_value,20565.0,20565.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+HR,Finance,REIT and Equity Trust - Other,10__0,10,0.0,8. p75_trade_value,9750.0,6330.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+HRTG,Finance,Insurance - Property and Casualty,10__0,10,0.0,1. p999999_trade_value,17615.0,17615.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+HRTG,Finance,Insurance - Property and Casualty,10__0,10,0.0,7. p90_trade_value,11050.0,11050.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+HRTG,Finance,Insurance - Property and Casualty,10__0,10,0.0,8. p75_trade_value,10800.0,10800.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+HSBC,Finance,Banks - Foreign,20__0,20,0.0,1. p999999_trade_value,80640.00000000001,80640.00000000001,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+HSBC,Finance,Banks - Foreign,20__0,20,0.0,5. p99_trade_value,40365.0,40365.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+HSBC,Finance,Banks - Foreign,20__0,20,0.0,6. p95_trade_value,27135.000000000004,13650.0,2.0,7.0,0.2857142857142857,0.55,2. BELOW BASELINE,4.0,9.0,0.4444444444444444
+HSBC,Finance,Banks - Foreign,20__0,20,0.0,7. p90_trade_value,13175.0,11120.0,3.0,8.0,0.375,0.55,2. BELOW BASELINE,7.0,17.0,0.4117647058823529
+HSBC,Finance,Banks - Foreign,20__0,20,0.0,8. p75_trade_value,10800.0,7225.0,15.0,25.0,0.6,0.55,2. BELOW BASELINE,22.0,42.0,0.5238095238095238
+HST,Finance,REIT and Equity Trust - Other,15__0,15,0.0,1. p999999_trade_value,408175.0,408175.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+HST,Finance,REIT and Equity Trust - Other,15__0,15,0.0,6. p95_trade_value,37800.0,37800.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+HST,Finance,REIT and Equity Trust - Other,15__0,15,0.0,7. p90_trade_value,28000.0,28000.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+HST,Finance,REIT and Equity Trust - Other,15__0,15,0.0,8. p75_trade_value,23624.999999999996,7680.000000000001,4.0,4.0,1.0,0.55,2. BELOW BASELINE,6.0,7.0,0.8571428571428571
+HTGC,Finance,Financial - SBIC & Commercial Industry,10__0,10,0.0,1. p999999_trade_value,12977.000000000002,12977.000000000002,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+HTGC,Finance,Financial - SBIC & Commercial Industry,10__0,10,0.0,8. p75_trade_value,10025.0,8645.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+HUT,Finance,Financial - Miscellaneous Services,35__3,35,3.0,1. p999999_trade_value,504000.0,504000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+HUT,Finance,Financial - Miscellaneous Services,35__3,35,3.0,4. p999_trade_value,245871.99999999997,186138.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+HUT,Finance,Financial - Miscellaneous Services,35__3,35,3.0,5. p99_trade_value,148878.00000000003,83040.0,16.0,25.0,0.64,0.55,1. ABOVE BASELINE,19.0,28.0,0.6785714285714286
+HUT,Finance,Financial - Miscellaneous Services,35__3,35,3.0,6. p95_trade_value,82170.0,30690.000000000004,35.0,109.0,0.3211009174311927,0.55,2. BELOW BASELINE,54.0,137.0,0.39416058394160586
+HUT,Finance,Financial - Miscellaneous Services,35__3,35,3.0,7. p90_trade_value,30650.0,19500.0,58.0,136.0,0.4264705882352941,0.55,2. BELOW BASELINE,112.0,273.0,0.41025641025641024
+HUT,Finance,Financial - Miscellaneous Services,35__3,35,3.0,8. p75_trade_value,19158.0,9100.0,225.0,410.0,0.5487804878048781,0.55,2. BELOW BASELINE,337.0,683.0,0.493411420204978
+HWC,Finance,Banks - Southeast,5__0,5,0.0,2. p99999_trade_value,6759.999999999999,6759.999999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+IBKR,Finance,Financial - Investment Bank,35__0,35,0.0,1. p999999_trade_value,501830.0,501830.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+IBKR,Finance,Financial - Investment Bank,35__0,35,0.0,4. p999_trade_value,210000.0,210000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+IBKR,Finance,Financial - Investment Bank,35__0,35,0.0,5. p99_trade_value,195075.0,55370.00000000001,7.0,18.0,0.3888888888888889,0.55,2. BELOW BASELINE,8.0,20.0,0.4
+IBKR,Finance,Financial - Investment Bank,35__0,35,0.0,6. p95_trade_value,54779.99999999999,22050.0,48.0,80.0,0.6,0.55,2. BELOW BASELINE,56.0,100.0,0.56
+IBKR,Finance,Financial - Investment Bank,35__0,35,0.0,7. p90_trade_value,22000.000000000004,15680.000000000002,53.0,97.0,0.5463917525773195,0.55,2. BELOW BASELINE,109.0,197.0,0.5532994923857868
+IBKR,Finance,Financial - Investment Bank,35__0,35,0.0,8. p75_trade_value,15619.999999999998,8669.999999999998,180.0,301.0,0.5980066445182725,0.55,2. BELOW BASELINE,289.0,498.0,0.5803212851405622
+IBN,Finance,Banks - Foreign,20__0,20,0.0,1. p999999_trade_value,90000.0,90000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+IBN,Finance,Banks - Foreign,20__0,20,0.0,5. p99_trade_value,48000.0,48000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+IBN,Finance,Banks - Foreign,20__0,20,0.0,6. p95_trade_value,29000.0,12400.0,4.0,4.0,1.0,0.55,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
+IBN,Finance,Banks - Foreign,20__0,20,0.0,7. p90_trade_value,11460.0,10205.0,3.0,5.0,0.6,0.55,2. BELOW BASELINE,7.0,11.0,0.6363636363636364
+IBN,Finance,Banks - Foreign,20__0,20,0.0,8. p75_trade_value,9750.0,6600.0,9.0,16.0,0.5625,0.55,2. BELOW BASELINE,16.0,27.0,0.5925925925925926
+ICE,Finance,Securities and Exchanges,25__1,25,1.0,1. p999999_trade_value,454279.99999999994,454279.99999999994,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ICE,Finance,Securities and Exchanges,25__1,25,1.0,5. p99_trade_value,417125.0,100000.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
+ICE,Finance,Securities and Exchanges,25__1,25,1.0,6. p95_trade_value,74000.0,24500.000000000004,11.0,14.0,0.7857142857142857,0.55,1. ABOVE BASELINE,14.0,18.0,0.7777777777777778
+ICE,Finance,Securities and Exchanges,25__1,25,1.0,7. p90_trade_value,23672.0,15675.0,10.0,18.0,0.5555555555555556,0.55,1. ABOVE BASELINE,24.0,36.0,0.6666666666666666
+ICE,Finance,Securities and Exchanges,25__1,25,1.0,8. p75_trade_value,15000.0,9180.000000000002,35.0,53.0,0.660377358490566,0.55,1. ABOVE BASELINE,59.0,89.0,0.6629213483146067
+IIPR,Finance,REIT and Equity Trust - Other,20__0,20,0.0,1. p999999_trade_value,36815.0,36815.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+IIPR,Finance,REIT and Equity Trust - Other,20__0,20,0.0,6. p95_trade_value,30770.0,19900.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
+IIPR,Finance,REIT and Equity Trust - Other,20__0,20,0.0,7. p90_trade_value,15120.000000000002,10830.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,5.0,8.0,0.625
+IIPR,Finance,REIT and Equity Trust - Other,20__0,20,0.0,8. p75_trade_value,10575.0,7080.0,5.0,10.0,0.5,0.55,2. BELOW BASELINE,10.0,18.0,0.5555555555555556
+INBK,Finance,Banks - Northeast,0__0,0,0.0,1. p999999_trade_value,3600.0,3600.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ING,Finance,Banks - Foreign,10__0,10,0.0,1. p999999_trade_value,7475.0,7475.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ING,Finance,Banks - Foreign,10__0,10,0.0,8. p75_trade_value,5355.0,5355.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+INVH,Finance,REIT and Equity Trust - Residential,10__0,10,0.0,1. p999999_trade_value,35530.0,35530.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+INVH,Finance,REIT and Equity Trust - Residential,10__0,10,0.0,7. p90_trade_value,26500.0,26500.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+INVH,Finance,REIT and Equity Trust - Residential,10__0,10,0.0,8. p75_trade_value,25260.000000000004,10560.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+IREN,Finance,Financial - Miscellaneous Services,35__0,35,0.0,1. p999999_trade_value,385000.0,385000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+IREN,Finance,Financial - Miscellaneous Services,35__0,35,0.0,4. p999_trade_value,275000.0,191120.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,2.0,5.0,0.4
+IREN,Finance,Financial - Miscellaneous Services,35__0,35,0.0,5. p99_trade_value,133815.0,54978.0,25.0,43.0,0.5813953488372093,0.55,2. BELOW BASELINE,27.0,48.0,0.5625
+IREN,Finance,Financial - Miscellaneous Services,35__0,35,0.0,6. p95_trade_value,54600.0,20520.0,123.0,189.0,0.6507936507936508,0.55,2. BELOW BASELINE,150.0,237.0,0.6329113924050633
+IREN,Finance,Financial - Miscellaneous Services,35__0,35,0.0,7. p90_trade_value,20384.0,14360.0,135.0,236.0,0.5720338983050848,0.55,2. BELOW BASELINE,285.0,473.0,0.6025369978858351
+IREN,Finance,Financial - Miscellaneous Services,35__0,35,0.0,8. p75_trade_value,14307.999999999998,8200.0,406.0,709.0,0.5726375176304654,0.55,2. BELOW BASELINE,691.0,1182.0,0.5846023688663282
+ITUB,Finance,Banks - Foreign,10__0,10,0.0,1. p999999_trade_value,25000.0,25000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ITUB,Finance,Banks - Foreign,10__0,10,0.0,8. p75_trade_value,7030.0,7030.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+IVZ,Finance,Financial - Investment Management,20__1,20,1.0,1. p999999_trade_value,822500.0,822500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+IVZ,Finance,Financial - Investment Management,20__1,20,1.0,6. p95_trade_value,573300.0,80000.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,2.0,5.0,0.4
+IVZ,Finance,Financial - Investment Management,20__1,20,1.0,7. p90_trade_value,51000.0,18800.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,4.0,9.0,0.4444444444444444
+IVZ,Finance,Financial - Investment Management,20__1,20,1.0,8. p75_trade_value,16920.0,8950.0,6.0,13.0,0.46153846153846156,0.55,2. BELOW BASELINE,10.0,22.0,0.45454545454545453
+JEF,Finance,Financial - Miscellaneous Services,25__1,25,1.0,1. p999999_trade_value,56100.0,56100.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+JEF,Finance,Financial - Miscellaneous Services,25__1,25,1.0,5. p99_trade_value,39000.0,34000.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+JEF,Finance,Financial - Miscellaneous Services,25__1,25,1.0,6. p95_trade_value,32835.0,24875.0,3.0,12.0,0.25,0.55,2. BELOW BASELINE,4.0,16.0,0.25
+JEF,Finance,Financial - Miscellaneous Services,25__1,25,1.0,7. p90_trade_value,23580.0,16269.0,7.0,15.0,0.4666666666666667,0.55,2. BELOW BASELINE,11.0,31.0,0.3548387096774194
+JEF,Finance,Financial - Miscellaneous Services,25__1,25,1.0,8. p75_trade_value,15900.0,8875.0,18.0,46.0,0.391304347826087,0.55,2. BELOW BASELINE,29.0,77.0,0.37662337662337664
+JLL,Finance,Real Estate - Operations,20__0,20,0.0,1. p999999_trade_value,226000.0,226000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+JLL,Finance,Real Estate - Operations,20__0,20,0.0,6. p95_trade_value,34500.0,33000.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+JLL,Finance,Real Estate - Operations,20__0,20,0.0,7. p90_trade_value,23500.0,19800.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,6.0,6.0,1.0
+JLL,Finance,Real Estate - Operations,20__0,20,0.0,8. p75_trade_value,17200.0,13330.000000000002,9.0,10.0,0.9,0.55,1. ABOVE BASELINE,15.0,16.0,0.9375
+JOE,Finance,Real Estate - Development,5__0,5,0.0,1. p999999_trade_value,6480.0,6480.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+JPM,Finance,Financial - Investment Bank,45__0,45,0.0,1. p999999_trade_value,2359668.0,2359668.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,1.0,1.0
+JPM,Finance,Financial - Investment Bank,45__0,45,0.0,3. p9999_trade_value,1283765.0,1168800.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+JPM,Finance,Financial - Investment Bank,45__0,45,0.0,4. p999_trade_value,688965.0,238500.0,18.0,27.0,0.6666666666666666,0.55,2. BELOW BASELINE,20.0,30.0,0.6666666666666666
+JPM,Finance,Financial - Investment Bank,45__0,45,0.0,5. p99_trade_value,228000.0,63000.0,156.0,264.0,0.5909090909090909,0.55,2. BELOW BASELINE,176.0,294.0,0.5986394557823129
+JPM,Finance,Financial - Investment Bank,45__0,45,0.0,6. p95_trade_value,62752.0,24016.0,702.0,1169.0,0.6005132591958939,0.55,2. BELOW BASELINE,878.0,1463.0,0.6001367053998633
+JPM,Finance,Financial - Investment Bank,45__0,45,0.0,7. p90_trade_value,24000.0,15400.0,842.0,1466.0,0.5743519781718963,0.55,2. BELOW BASELINE,1720.0,2929.0,0.5872311369067942
+JPM,Finance,Financial - Investment Bank,45__0,45,0.0,8. p75_trade_value,15390.0,8430.0,2451.0,4373.0,0.5604847930482506,0.55,2. BELOW BASELINE,4171.0,7302.0,0.5712133662010408
+JXN,Finance,Insurance - Life Insurance,20__0,20,0.0,1. p999999_trade_value,49100.0,49100.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+JXN,Finance,Insurance - Life Insurance,20__0,20,0.0,5. p99_trade_value,33950.0,33950.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+JXN,Finance,Insurance - Life Insurance,20__0,20,0.0,6. p95_trade_value,29000.0,27000.0,3.0,4.0,0.75,0.55,1. ABOVE BASELINE,5.0,6.0,0.8333333333333334
+JXN,Finance,Insurance - Life Insurance,20__0,20,0.0,7. p90_trade_value,25499.999999999996,21000.0,5.0,5.0,1.0,0.55,1. ABOVE BASELINE,10.0,11.0,0.9090909090909091
+JXN,Finance,Insurance - Life Insurance,20__0,20,0.0,8. p75_trade_value,20000.0,10000.0,12.0,17.0,0.7058823529411765,0.55,1. ABOVE BASELINE,22.0,28.0,0.7857142857142857
+KB,Finance,Banks - Foreign,5__0,5,0.0,4. p999_trade_value,3444.9999999999995,3444.9999999999995,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+KEY,Finance,Banks - Major Regional,25__0,25,0.0,1. p999999_trade_value,436186.00000000006,436186.00000000006,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+KEY,Finance,Banks - Major Regional,25__0,25,0.0,5. p99_trade_value,340000.00000000006,340000.00000000006,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+KEY,Finance,Banks - Major Regional,25__0,25,0.0,6. p95_trade_value,257346.0,74518.0,1.0,10.0,0.1,0.55,2. BELOW BASELINE,4.0,13.0,0.3076923076923077
+KEY,Finance,Banks - Major Regional,25__0,25,0.0,7. p90_trade_value,46000.0,18210.0,5.0,12.0,0.4166666666666667,0.55,2. BELOW BASELINE,9.0,25.0,0.36
+KEY,Finance,Banks - Major Regional,25__0,25,0.0,8. p75_trade_value,17355.0,7008.0,17.0,37.0,0.4594594594594595,0.55,2. BELOW BASELINE,26.0,62.0,0.41935483870967744
+KIM,Finance,REIT and Equity Trust - Retail,5__1,5,1.0,1. p999999_trade_value,90200.0,90200.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+KINS,Finance,Insurance - Property and Casualty,10__0,10,0.0,1. p999999_trade_value,11000.000000000002,11000.000000000002,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+KINS,Finance,Insurance - Property and Casualty,10__0,10,0.0,7. p90_trade_value,8800.0,8800.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+KINS,Finance,Insurance - Property and Casualty,10__0,10,0.0,8. p75_trade_value,7800.0,7800.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+KKR,Finance,Financial - Investment Management,35__3,35,3.0,1. p999999_trade_value,360000.0,360000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+KKR,Finance,Financial - Investment Management,35__3,35,3.0,4. p999_trade_value,344655.0,325863.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+KKR,Finance,Financial - Investment Management,35__3,35,3.0,5. p99_trade_value,324100.0,111245.0,12.0,29.0,0.41379310344827586,0.55,2. BELOW BASELINE,16.0,33.0,0.48484848484848486
+KKR,Finance,Financial - Investment Management,35__3,35,3.0,6. p95_trade_value,110000.0,30195.0,54.0,128.0,0.421875,0.55,2. BELOW BASELINE,70.0,161.0,0.43478260869565216
+KKR,Finance,Financial - Investment Management,35__3,35,3.0,7. p90_trade_value,30000.0,15250.0,81.0,161.0,0.5031055900621118,0.55,2. BELOW BASELINE,151.0,322.0,0.468944099378882
+KKR,Finance,Financial - Investment Management,35__3,35,3.0,8. p75_trade_value,15170.000000000002,7950.0,260.0,484.0,0.5371900826446281,0.55,2. BELOW BASELINE,411.0,806.0,0.5099255583126551
+KNSL,Finance,Insurance - Property and Casualty,20__0,20,0.0,1. p999999_trade_value,65984.99999999999,65984.99999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+KNSL,Finance,Insurance - Property and Casualty,20__0,20,0.0,5. p99_trade_value,48840.0,48840.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+KNSL,Finance,Insurance - Property and Casualty,20__0,20,0.0,6. p95_trade_value,48020.00000000001,27500.0,5.0,8.0,0.625,0.55,2. BELOW BASELINE,6.0,10.0,0.6
+KNSL,Finance,Insurance - Property and Casualty,20__0,20,0.0,7. p90_trade_value,26950.0,16020.000000000002,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,8.0,13.0,0.6153846153846154
+KNSL,Finance,Insurance - Property and Casualty,20__0,20,0.0,8. p75_trade_value,15900.0,9780.000000000002,13.0,18.0,0.7222222222222222,0.55,2. BELOW BASELINE,21.0,31.0,0.6774193548387096
+KRC,Finance,REIT and Equity Trust - Other,10__2,10,2.0,1. p999999_trade_value,118265.00000000001,118265.00000000001,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+KW,Finance,Real Estate - Operations,5__3,5,3.0,1. p999999_trade_value,25725.0,25725.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+L,Finance,Insurance - Multi line,10__0,10,0.0,1. p999999_trade_value,6180.0,6180.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+L,Finance,Insurance - Multi line,10__0,10,0.0,7. p90_trade_value,4830.0,4830.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+L,Finance,Insurance - Multi line,10__0,10,0.0,8. p75_trade_value,4700.0,4700.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+LAMR,Finance,REIT and Equity Trust - Other,10__0,10,0.0,1. p999999_trade_value,12100.000000000002,12100.000000000002,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+LAMR,Finance,REIT and Equity Trust - Other,10__0,10,0.0,8. p75_trade_value,8000.0,8000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+LAZ,Finance,Financial - Miscellaneous Services,15__0,15,0.0,2. p99999_trade_value,32609.999999999996,32609.999999999996,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+LAZ,Finance,Financial - Miscellaneous Services,15__0,15,0.0,6. p95_trade_value,32580.0,32580.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+LAZ,Finance,Financial - Miscellaneous Services,15__0,15,0.0,7. p90_trade_value,13125.0,7500.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+LAZ,Finance,Financial - Miscellaneous Services,15__0,15,0.0,8. p75_trade_value,6650.0,6095.0,1.0,5.0,0.2,0.55,2. BELOW BASELINE,1.0,9.0,0.1111111111111111
+LC,Finance,Financial - Miscellaneous Services,20__0,20,0.0,1. p999999_trade_value,64850.0,64850.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+LC,Finance,Financial - Miscellaneous Services,20__0,20,0.0,5. p99_trade_value,35000.0,35000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+LC,Finance,Financial - Miscellaneous Services,20__0,20,0.0,6. p95_trade_value,27200.0,18072.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
+LC,Finance,Financial - Miscellaneous Services,20__0,20,0.0,7. p90_trade_value,15240.0,11669.999999999998,3.0,6.0,0.5,0.55,2. BELOW BASELINE,7.0,12.0,0.5833333333333334
+LC,Finance,Financial - Miscellaneous Services,20__0,20,0.0,8. p75_trade_value,10800.0,8000.0,9.0,18.0,0.5,0.55,2. BELOW BASELINE,16.0,30.0,0.5333333333333333
+LEGH,Finance,Real Estate - Operations,0__0,0,0.0,1. p999999_trade_value,3300.0,3300.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+LGIH,Finance,Real Estate - Development,15__0,15,0.0,1. p999999_trade_value,49979.99999999999,49979.99999999999,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+LGIH,Finance,Real Estate - Development,15__0,15,0.0,6. p95_trade_value,48000.0,48000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+LGIH,Finance,Real Estate - Development,15__0,15,0.0,7. p90_trade_value,23840.0,23840.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+LGIH,Finance,Real Estate - Development,15__0,15,0.0,8. p75_trade_value,18000.0,11850.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,6.0,6.0,1.0
+LINE,Finance,REIT and Equity Trust - Other,15__0,15,0.0,1. p999999_trade_value,32500.0,32500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+LINE,Finance,REIT and Equity Trust - Other,15__0,15,0.0,6. p95_trade_value,19380.0,19380.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+LINE,Finance,REIT and Equity Trust - Other,15__0,15,0.0,7. p90_trade_value,9880.0,9585.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,3.0,4.0,0.75
+LINE,Finance,REIT and Equity Trust - Other,15__0,15,0.0,8. p75_trade_value,8690.0,6500.0,4.0,6.0,0.6666666666666666,0.55,2. BELOW BASELINE,7.0,10.0,0.7
+LMND,Finance,Insurance - Multi line,35__0,35,0.0,1. p999999_trade_value,190000.0,190000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+LMND,Finance,Insurance - Multi line,35__0,35,0.0,4. p999_trade_value,155376.0,142500.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+LMND,Finance,Insurance - Multi line,35__0,35,0.0,5. p99_trade_value,142215.0,59469.99999999999,13.0,32.0,0.40625,0.55,2. BELOW BASELINE,14.0,36.0,0.3888888888888889
+LMND,Finance,Insurance - Multi line,35__0,35,0.0,6. p95_trade_value,58140.0,24300.000000000004,76.0,139.0,0.5467625899280576,0.55,2. BELOW BASELINE,90.0,175.0,0.5142857142857142
+LMND,Finance,Insurance - Multi line,35__0,35,0.0,7. p90_trade_value,24149.999999999996,16700.0,85.0,176.0,0.48295454545454547,0.55,2. BELOW BASELINE,175.0,351.0,0.4985754985754986
+LMND,Finance,Insurance - Multi line,35__0,35,0.0,8. p75_trade_value,16650.0,8880.000000000002,268.0,527.0,0.50853889943074,0.55,2. BELOW BASELINE,443.0,878.0,0.5045558086560364
+LNC,Finance,Insurance - Life Insurance,25__1,25,1.0,1. p999999_trade_value,110000.0,110000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+LNC,Finance,Insurance - Life Insurance,25__1,25,1.0,5. p99_trade_value,45232.0,39840.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+LNC,Finance,Insurance - Life Insurance,25__1,25,1.0,6. p95_trade_value,34416.0,19250.0,4.0,8.0,0.5,0.55,2. BELOW BASELINE,6.0,11.0,0.5454545454545454
+LNC,Finance,Insurance - Life Insurance,25__1,25,1.0,7. p90_trade_value,19000.0,12975.0,7.0,10.0,0.7,0.55,2. BELOW BASELINE,13.0,21.0,0.6190476190476191
+LNC,Finance,Insurance - Life Insurance,25__1,25,1.0,8. p75_trade_value,12825.0,8400.0,12.0,31.0,0.3870967741935484,0.55,2. BELOW BASELINE,25.0,52.0,0.4807692307692308
+LPLA,Finance,Financial - Investment Bank,25__0,25,0.0,1. p999999_trade_value,1005000.0,1005000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+LPLA,Finance,Financial - Investment Bank,25__0,25,0.0,5. p99_trade_value,682079.9999999999,285000.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
+LPLA,Finance,Financial - Investment Bank,25__0,25,0.0,6. p95_trade_value,270000.0,140430.0,8.0,12.0,0.6666666666666666,0.55,1. ABOVE BASELINE,11.0,16.0,0.6875
+LPLA,Finance,Financial - Investment Bank,25__0,25,0.0,7. p90_trade_value,116250.0,38440.0,6.0,15.0,0.4,0.55,2. BELOW BASELINE,17.0,31.0,0.5483870967741935
+LPLA,Finance,Financial - Investment Bank,25__0,25,0.0,8. p75_trade_value,36540.0,9600.0,30.0,45.0,0.6666666666666666,0.55,2. BELOW BASELINE,47.0,76.0,0.618421052631579
+LPRO,Finance,Financial - Consumer Loans,5__0,5,0.0,1. p999999_trade_value,6561.0,6561.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+LSEA,Finance,Real Estate - Development,0__0,0,0.0,1. p999999_trade_value,5800.0,5800.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+LU,Finance,Financial - Miscellaneous Services,15__0,15,0.0,1. p999999_trade_value,22500.0,22500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+LU,Finance,Financial - Miscellaneous Services,15__0,15,0.0,6. p95_trade_value,21590.0,21590.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+LU,Finance,Financial - Miscellaneous Services,15__0,15,0.0,7. p90_trade_value,17051.000000000004,17051.000000000004,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+LU,Finance,Financial - Miscellaneous Services,15__0,15,0.0,8. p75_trade_value,15990.0,9750.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,2.0,7.0,0.2857142857142857
+LX,Finance,Financial - Consumer Loans,20__0,20,0.0,1. p999999_trade_value,72600.00000000001,72600.00000000001,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+LX,Finance,Financial - Consumer Loans,20__0,20,0.0,5. p99_trade_value,30525.0,30525.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+LX,Finance,Financial - Consumer Loans,20__0,20,0.0,6. p95_trade_value,25000.0,17250.0,3.0,4.0,0.75,0.55,1. ABOVE BASELINE,5.0,6.0,0.8333333333333334
+LX,Finance,Financial - Consumer Loans,20__0,20,0.0,7. p90_trade_value,16188.0,11424.0,5.0,5.0,1.0,0.55,1. ABOVE BASELINE,10.0,11.0,0.9090909090909091
+LX,Finance,Financial - Consumer Loans,20__0,20,0.0,8. p75_trade_value,11269.999999999998,7500.0,14.0,15.0,0.9333333333333333,0.55,1. ABOVE BASELINE,24.0,26.0,0.9230769230769231
+MAA,Finance,REIT and Equity Trust - Residential,15__0,15,0.0,1. p999999_trade_value,28675.0,28675.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MAA,Finance,REIT and Equity Trust - Residential,15__0,15,0.0,7. p90_trade_value,8604.0,8604.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+MAA,Finance,REIT and Equity Trust - Residential,15__0,15,0.0,8. p75_trade_value,6240.000000000001,5820.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,5.0,5.0,1.0
+MAC,Finance,REIT and Equity Trust - Retail,15__0,15,0.0,1. p999999_trade_value,60000.0,60000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MAC,Finance,REIT and Equity Trust - Retail,15__0,15,0.0,6. p95_trade_value,24360.0,19460.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+MAC,Finance,REIT and Equity Trust - Retail,15__0,15,0.0,7. p90_trade_value,13929.999999999998,13825.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,4.0,5.0,0.8
+MAC,Finance,REIT and Equity Trust - Retail,15__0,15,0.0,8. p75_trade_value,12475.0,8750.0,2.0,6.0,0.3333333333333333,0.55,2. BELOW BASELINE,6.0,11.0,0.5454545454545454
+MAIN,Finance,Financial - SBIC & Commercial Industry,20__0,20,0.0,1. p999999_trade_value,53400.0,53400.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MAIN,Finance,Financial - SBIC & Commercial Industry,20__0,20,0.0,6. p95_trade_value,18755.0,16150.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+MAIN,Finance,Financial - SBIC & Commercial Industry,20__0,20,0.0,7. p90_trade_value,15639.999999999998,9500.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,5.0,9.0,0.5555555555555556
+MAIN,Finance,Financial - SBIC & Commercial Industry,20__0,20,0.0,8. p75_trade_value,9119.999999999998,6825.0,0.0,13.0,0.0,0.55,2. BELOW BASELINE,5.0,22.0,0.22727272727272727
+MARA,Finance,Financial - Miscellaneous Services,45__0,45,0.0,1. p999999_trade_value,1245075.0,1245075.0,0.0,1.0,0.0,0.55,1. ABOVE BASELINE,0.0,1.0,0.0
+MARA,Finance,Financial - Miscellaneous Services,45__0,45,0.0,3. p9999_trade_value,1067580.0,1018470.0000000001,3.0,4.0,0.75,0.55,1. ABOVE BASELINE,3.0,5.0,0.6
+MARA,Finance,Financial - Miscellaneous Services,45__0,45,0.0,4. p999_trade_value,996000.0,409188.0,18.0,38.0,0.47368421052631576,0.55,2. BELOW BASELINE,21.0,43.0,0.4883720930232558
+MARA,Finance,Financial - Miscellaneous Services,45__0,45,0.0,5. p99_trade_value,408944.0,67616.0,169.0,382.0,0.4424083769633508,0.55,2. BELOW BASELINE,190.0,425.0,0.4470588235294118
+MARA,Finance,Financial - Miscellaneous Services,45__0,45,0.0,6. p95_trade_value,67600.0,22854.000000000004,925.0,1698.0,0.5447585394581861,0.55,2. BELOW BASELINE,1115.0,2123.0,0.5252001884126236
+MARA,Finance,Financial - Miscellaneous Services,45__0,45,0.0,7. p90_trade_value,22848.0,14819.999999999998,1172.0,2123.0,0.5520489872821479,0.55,2. BELOW BASELINE,2287.0,4246.0,0.5386245878473858
+MARA,Finance,Financial - Miscellaneous Services,45__0,45,0.0,8. p75_trade_value,14800.0,8154.000000000001,3357.0,6368.0,0.5271670854271356,0.55,2. BELOW BASELINE,5644.0,10614.0,0.5317505181835311
+MBI,Finance,Insurance - Multi line,5__3,5,3.0,1. p999999_trade_value,15000.0,15000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MC,Finance,Financial - Investment Bank,15__0,15,0.0,1. p999999_trade_value,88000.00000000001,88000.00000000001,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MC,Finance,Financial - Investment Bank,15__0,15,0.0,6. p95_trade_value,61388.0,61388.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+MC,Finance,Financial - Investment Bank,15__0,15,0.0,7. p90_trade_value,55199.0,55199.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+MC,Finance,Financial - Investment Bank,15__0,15,0.0,8. p75_trade_value,48000.0,16000.0,5.0,5.0,1.0,0.55,1. ABOVE BASELINE,8.0,8.0,1.0
+MCO,Finance,Financial - Miscellaneous Services,25__1,25,1.0,1. p999999_trade_value,100000.0,100000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MCO,Finance,Financial - Miscellaneous Services,25__1,25,1.0,5. p99_trade_value,64350.0,41820.0,3.0,4.0,0.75,0.55,1. ABOVE BASELINE,4.0,5.0,0.8
+MCO,Finance,Financial - Miscellaneous Services,25__1,25,1.0,6. p95_trade_value,36815.0,16240.0,10.0,18.0,0.5555555555555556,0.55,1. ABOVE BASELINE,14.0,23.0,0.6086956521739131
+MCO,Finance,Financial - Miscellaneous Services,25__1,25,1.0,7. p90_trade_value,15836.000000000002,11520.0,10.0,22.0,0.45454545454545453,0.55,2. BELOW BASELINE,24.0,45.0,0.5333333333333333
+MCO,Finance,Financial - Miscellaneous Services,25__1,25,1.0,8. p75_trade_value,11499.999999999998,7150.0,27.0,66.0,0.4090909090909091,0.55,2. BELOW BASELINE,51.0,111.0,0.4594594594594595
+MCY,Finance,Insurance - Property and Casualty,25__1,25,1.0,1. p999999_trade_value,408500.0,408500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MCY,Finance,Insurance - Property and Casualty,25__1,25,1.0,5. p99_trade_value,256275.0,144000.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+MCY,Finance,Insurance - Property and Casualty,25__1,25,1.0,6. p95_trade_value,69160.0,28215.000000000004,0.0,12.0,0.0,0.55,2. BELOW BASELINE,0.0,16.0,0.0
+MCY,Finance,Insurance - Property and Casualty,25__1,25,1.0,7. p90_trade_value,26970.0,14560.0,1.0,16.0,0.0625,0.55,2. BELOW BASELINE,1.0,32.0,0.03125
+MCY,Finance,Insurance - Property and Casualty,25__1,25,1.0,8. p75_trade_value,14400.0,7500.0,2.0,49.0,0.04081632653061224,0.55,2. BELOW BASELINE,3.0,81.0,0.037037037037037035
+MET,Finance,Insurance - Multi line,25__1,25,1.0,1. p999999_trade_value,65000.0,65000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MET,Finance,Insurance - Multi line,25__1,25,1.0,5. p99_trade_value,48165.0,38178.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+MET,Finance,Insurance - Multi line,25__1,25,1.0,6. p95_trade_value,37240.0,27602.0,4.0,8.0,0.5,0.55,2. BELOW BASELINE,5.0,11.0,0.45454545454545453
+MET,Finance,Insurance - Multi line,25__1,25,1.0,7. p90_trade_value,24472.0,15600.0,3.0,11.0,0.2727272727272727,0.55,2. BELOW BASELINE,8.0,22.0,0.36363636363636365
+MET,Finance,Insurance - Multi line,25__1,25,1.0,8. p75_trade_value,15400.0,8610.0,16.0,33.0,0.48484848484848486,0.55,2. BELOW BASELINE,24.0,55.0,0.43636363636363634
+MFC,Finance,Insurance - Life Insurance,10__0,10,0.0,1. p999999_trade_value,13300.0,13300.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MFC,Finance,Insurance - Life Insurance,10__0,10,0.0,7. p90_trade_value,11250.0,11250.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+MFC,Finance,Insurance - Life Insurance,10__0,10,0.0,8. p75_trade_value,11175.0,10000.0,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,2.0,5.0,0.4
+MKTX,Finance,Financial - Investment Bank,25__1,25,1.0,1. p999999_trade_value,275975.0,275975.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MKTX,Finance,Financial - Investment Bank,25__1,25,1.0,5. p99_trade_value,265020.0,223200.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+MKTX,Finance,Financial - Investment Bank,25__1,25,1.0,6. p95_trade_value,167400.0,40000.0,6.0,9.0,0.6666666666666666,0.55,2. BELOW BASELINE,7.0,12.0,0.5833333333333334
+MKTX,Finance,Financial - Investment Bank,25__1,25,1.0,7. p90_trade_value,38144.0,12320.000000000002,9.0,12.0,0.75,0.55,2. BELOW BASELINE,16.0,24.0,0.6666666666666666
+MKTX,Finance,Financial - Investment Bank,25__1,25,1.0,8. p75_trade_value,12060.0,7000.0,18.0,35.0,0.5142857142857142,0.55,2. BELOW BASELINE,34.0,59.0,0.576271186440678
+MMC,Finance,Insurance - Brokerage,20__0,20,0.0,1. p999999_trade_value,78000.0,78000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MMC,Finance,Insurance - Brokerage,20__0,20,0.0,5. p99_trade_value,71208.0,71208.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+MMC,Finance,Insurance - Brokerage,20__0,20,0.0,6. p95_trade_value,21600.0,15119.999999999998,3.0,4.0,0.75,0.55,1. ABOVE BASELINE,5.0,6.0,0.8333333333333334
+MMC,Finance,Insurance - Brokerage,20__0,20,0.0,7. p90_trade_value,14190.0,11760.0,4.0,6.0,0.6666666666666666,0.55,1. ABOVE BASELINE,9.0,12.0,0.75
+MMC,Finance,Insurance - Brokerage,20__0,20,0.0,8. p75_trade_value,11280.000000000002,6959.999999999999,12.0,16.0,0.75,0.55,1. ABOVE BASELINE,21.0,28.0,0.75
+MMI,Finance,Real Estate - Development,5__0,5,0.0,1. p999999_trade_value,4500.0,4500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MPW,Finance,REIT and Equity Trust - Other,30__0,30,0.0,1. p999999_trade_value,727398.0,727398.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MPW,Finance,REIT and Equity Trust - Other,30__0,30,0.0,5. p99_trade_value,300000.0,114977.0,7.0,9.0,0.7777777777777778,0.55,2. BELOW BASELINE,7.0,10.0,0.7
+MPW,Finance,REIT and Equity Trust - Other,30__0,30,0.0,6. p95_trade_value,111370.0,26850.0,25.0,39.0,0.6410256410256411,0.55,2. BELOW BASELINE,32.0,49.0,0.6530612244897959
+MPW,Finance,REIT and Equity Trust - Other,30__0,30,0.0,7. p90_trade_value,26360.000000000004,15000.0,30.0,48.0,0.625,0.55,2. BELOW BASELINE,62.0,97.0,0.6391752577319587
+MPW,Finance,REIT and Equity Trust - Other,30__0,30,0.0,8. p75_trade_value,14994.0,7739.999999999999,99.0,146.0,0.678082191780822,0.55,2. BELOW BASELINE,161.0,243.0,0.6625514403292181
+MRP,Finance,Real Estate - Operations,5__1,5,1.0,1. p999999_trade_value,57000.0,57000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MRP,Finance,Real Estate - Operations,5__1,5,1.0,8. p75_trade_value,23380.0,23380.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+MRX,Finance,Financial - Miscellaneous Services,10__0,10,0.0,1. p999999_trade_value,16300.0,16300.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MRX,Finance,Financial - Miscellaneous Services,10__0,10,0.0,7. p90_trade_value,10900.0,10900.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+MRX,Finance,Financial - Miscellaneous Services,10__0,10,0.0,8. p75_trade_value,8900.0,8900.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+MS,Finance,Financial - Investment Bank,40__1,40,1.0,1. p999999_trade_value,936000.0,936000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MS,Finance,Financial - Investment Bank,40__1,40,1.0,4. p999_trade_value,670000.0,273000.0,4.0,5.0,0.8,0.55,1. ABOVE BASELINE,5.0,6.0,0.8333333333333334
+MS,Finance,Financial - Investment Bank,40__1,40,1.0,5. p99_trade_value,268500.0,65800.0,32.0,52.0,0.6153846153846154,0.55,1. ABOVE BASELINE,37.0,58.0,0.6379310344827587
+MS,Finance,Financial - Investment Bank,40__1,40,1.0,6. p95_trade_value,65000.0,24500.000000000004,122.0,234.0,0.5213675213675214,0.55,2. BELOW BASELINE,159.0,292.0,0.5445205479452054
+MS,Finance,Financial - Investment Bank,40__1,40,1.0,7. p90_trade_value,24439.999999999996,15240.0,163.0,288.0,0.5659722222222222,0.55,2. BELOW BASELINE,322.0,580.0,0.5551724137931034
+MS,Finance,Financial - Investment Bank,40__1,40,1.0,8. p75_trade_value,15204.0,7953.0,524.0,870.0,0.6022988505747127,0.55,2. BELOW BASELINE,846.0,1450.0,0.5834482758620689
+MSCI,Finance,Financial - Investment Management,30__0,30,0.0,1. p999999_trade_value,180000.0,180000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MSCI,Finance,Financial - Investment Management,30__0,30,0.0,5. p99_trade_value,117000.0,53400.0,3.0,5.0,0.6,0.55,2. BELOW BASELINE,3.0,6.0,0.5
+MSCI,Finance,Financial - Investment Management,30__0,30,0.0,6. p95_trade_value,45280.0,17250.0,15.0,24.0,0.625,0.55,2. BELOW BASELINE,18.0,30.0,0.6
+MSCI,Finance,Financial - Investment Management,30__0,30,0.0,7. p90_trade_value,17100.0,11360.0,16.0,30.0,0.5333333333333333,0.55,2. BELOW BASELINE,34.0,60.0,0.5666666666666667
+MSCI,Finance,Financial - Investment Management,30__0,30,0.0,8. p75_trade_value,10836.0,6500.0,64.0,90.0,0.7111111111111111,0.55,2. BELOW BASELINE,98.0,150.0,0.6533333333333333
+MTB,Finance,Banks - Major Regional,20__0,20,0.0,1. p999999_trade_value,132960.0,132960.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MTB,Finance,Banks - Major Regional,20__0,20,0.0,5. p99_trade_value,54936.0,54936.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+MTB,Finance,Banks - Major Regional,20__0,20,0.0,6. p95_trade_value,47310.0,35100.0,4.0,5.0,0.8,0.55,1. ABOVE BASELINE,6.0,7.0,0.8571428571428571
+MTB,Finance,Banks - Major Regional,20__0,20,0.0,7. p90_trade_value,25900.0,17280.0,3.0,8.0,0.375,0.55,2. BELOW BASELINE,9.0,15.0,0.6
+MTB,Finance,Banks - Major Regional,20__0,20,0.0,8. p75_trade_value,15750.0,7680.0,13.0,20.0,0.65,0.55,2. BELOW BASELINE,22.0,35.0,0.6285714285714286
+MTG,Finance,Insurance - Multi line,0__2,0,2.0,1. p999999_trade_value,10980.0,10980.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+NAVI,Finance,Financial - Consumer Loans,0__0,0,0.0,1. p999999_trade_value,7920.0,7920.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+NBTB,Finance,Banks - Northeast,5__0,5,0.0,1. p999999_trade_value,5400.0,5400.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+NDAQ,Finance,Securities and Exchanges,25__1,25,1.0,1. p999999_trade_value,288000.0,288000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+NDAQ,Finance,Securities and Exchanges,25__1,25,1.0,5. p99_trade_value,137389.0,43750.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+NDAQ,Finance,Securities and Exchanges,25__1,25,1.0,6. p95_trade_value,30959.999999999996,20433.0,5.0,8.0,0.625,0.55,2. BELOW BASELINE,6.0,11.0,0.5454545454545454
+NDAQ,Finance,Securities and Exchanges,25__1,25,1.0,7. p90_trade_value,20320.0,12100.0,10.0,11.0,0.9090909090909091,0.55,2. BELOW BASELINE,16.0,22.0,0.7272727272727273
+NDAQ,Finance,Securities and Exchanges,25__1,25,1.0,8. p75_trade_value,11520.0,7370.0,21.0,33.0,0.6363636363636364,0.55,2. BELOW BASELINE,37.0,55.0,0.6727272727272727
+NLOP,Finance,REIT and Equity Trust - Other,0__0,0,0.0,1. p999999_trade_value,3685.0,3685.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+NLY,Finance,REIT and Equity Trust,25__1,25,1.0,1. p999999_trade_value,31500.0,31500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+NLY,Finance,REIT and Equity Trust,25__1,25,1.0,5. p99_trade_value,18997.0,17370.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+NLY,Finance,REIT and Equity Trust,25__1,25,1.0,6. p95_trade_value,16146.0,11742.0,6.0,10.0,0.6,0.55,2. BELOW BASELINE,8.0,13.0,0.6153846153846154
+NLY,Finance,REIT and Equity Trust,25__1,25,1.0,7. p90_trade_value,11400.0,8480.000000000002,7.0,13.0,0.5384615384615384,0.55,2. BELOW BASELINE,15.0,26.0,0.5769230769230769
+NLY,Finance,REIT and Equity Trust,25__1,25,1.0,8. p75_trade_value,7889.0,6080.0,24.0,38.0,0.631578947368421,0.55,2. BELOW BASELINE,39.0,64.0,0.609375
+NOAH,Finance,Financial - Investment Management,5__0,5,0.0,1. p999999_trade_value,4250.0,4250.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+NRDS,Finance,Financial - Miscellaneous Services,10__0,10,0.0,1. p999999_trade_value,9196.0,9196.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+NRDS,Finance,Financial - Miscellaneous Services,10__0,10,0.0,7. p90_trade_value,6300.0,6300.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+NRDS,Finance,Financial - Miscellaneous Services,10__0,10,0.0,8. p75_trade_value,5400.0,5220.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,5.0,0.0
+NSA,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,10000.0,10000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+NTRS,Finance,Banks - Major Regional,25__1,25,1.0,1. p999999_trade_value,121875.0,121875.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+NTRS,Finance,Banks - Major Regional,25__1,25,1.0,5. p99_trade_value,57500.0,53200.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+NTRS,Finance,Banks - Major Regional,25__1,25,1.0,6. p95_trade_value,46516.99999999999,21000.0,10.0,10.0,1.0,0.55,1. ABOVE BASELINE,13.0,13.0,1.0
+NTRS,Finance,Banks - Major Regional,25__1,25,1.0,7. p90_trade_value,19360.000000000004,13800.0,9.0,13.0,0.6923076923076923,0.55,1. ABOVE BASELINE,22.0,26.0,0.8461538461538461
+NTRS,Finance,Banks - Major Regional,25__1,25,1.0,8. p75_trade_value,13700.0,7600.0,35.0,38.0,0.9210526315789473,0.55,1. ABOVE BASELINE,57.0,64.0,0.890625
+NU,Finance,Banks - Foreign,35__3,35,3.0,1. p999999_trade_value,438750.0,438750.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+NU,Finance,Banks - Foreign,35__3,35,3.0,4. p999_trade_value,360000.0,347999.99999999994,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+NU,Finance,Banks - Foreign,35__3,35,3.0,5. p99_trade_value,321387.00000000006,115000.0,11.0,18.0,0.6111111111111112,0.55,1. ABOVE BASELINE,14.0,21.0,0.6666666666666666
+NU,Finance,Banks - Foreign,35__3,35,3.0,6. p95_trade_value,110000.0,27500.0,55.0,82.0,0.6707317073170732,0.55,1. ABOVE BASELINE,69.0,103.0,0.6699029126213593
+NU,Finance,Banks - Foreign,35__3,35,3.0,7. p90_trade_value,27346.999999999996,14784.0,54.0,102.0,0.5294117647058824,0.55,2. BELOW BASELINE,123.0,205.0,0.6
+NU,Finance,Banks - Foreign,35__3,35,3.0,8. p75_trade_value,14768.0,7700.0,195.0,307.0,0.6351791530944625,0.55,2. BELOW BASELINE,318.0,512.0,0.62109375
+NWG,Finance,Banks - Foreign,10__0,10,0.0,1. p999999_trade_value,13410.0,13410.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+NWG,Finance,Banks - Foreign,10__0,10,0.0,8. p75_trade_value,5190.0,5190.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+O,Finance,REIT and Equity Trust - Retail,20__0,20,0.0,1. p999999_trade_value,210300.0,210300.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+O,Finance,REIT and Equity Trust - Retail,20__0,20,0.0,5. p99_trade_value,182490.0,182490.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+O,Finance,REIT and Equity Trust - Retail,20__0,20,0.0,6. p95_trade_value,18550.0,14000.0,2.0,7.0,0.2857142857142857,0.55,2. BELOW BASELINE,3.0,9.0,0.3333333333333333
+O,Finance,REIT and Equity Trust - Retail,20__0,20,0.0,7. p90_trade_value,13547.0,10200.0,4.0,9.0,0.4444444444444444,0.55,2. BELOW BASELINE,7.0,18.0,0.3888888888888889
+O,Finance,REIT and Equity Trust - Retail,20__0,20,0.0,8. p75_trade_value,10186.0,7220.0,16.0,26.0,0.6153846153846154,0.55,2. BELOW BASELINE,23.0,44.0,0.5227272727272727
+OBDC,Finance,Financial - Miscellaneous Services,0__0,0,0.0,1. p999999_trade_value,3900.0,3900.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+OFS,Finance,Financial - SBIC & Commercial Industry,0__0,0,0.0,1. p999999_trade_value,5000.0,5000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+OHI,Finance,REIT and Equity Trust - Other,15__1,15,1.0,1. p999999_trade_value,275000.0,275000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+OHI,Finance,REIT and Equity Trust - Other,15__1,15,1.0,6. p95_trade_value,154256.0,154256.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+OHI,Finance,REIT and Equity Trust - Other,15__1,15,1.0,7. p90_trade_value,154008.0,154008.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+OHI,Finance,REIT and Equity Trust - Other,15__1,15,1.0,8. p75_trade_value,75000.0,44100.0,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
+OMF,Finance,Financial - Consumer Loans,20__0,20,0.0,1. p999999_trade_value,55000.0,55000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+OMF,Finance,Financial - Consumer Loans,20__0,20,0.0,5. p99_trade_value,45000.0,45000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+OMF,Finance,Financial - Consumer Loans,20__0,20,0.0,6. p95_trade_value,40365.0,25500.0,3.0,5.0,0.6,0.55,2. BELOW BASELINE,3.0,7.0,0.42857142857142855
+OMF,Finance,Financial - Consumer Loans,20__0,20,0.0,7. p90_trade_value,20520.0,14160.0,3.0,7.0,0.42857142857142855,0.55,2. BELOW BASELINE,6.0,14.0,0.42857142857142855
+OMF,Finance,Financial - Consumer Loans,20__0,20,0.0,8. p75_trade_value,13082.0,7500.0,13.0,22.0,0.5909090909090909,0.55,2. BELOW BASELINE,19.0,36.0,0.5277777777777778
+OPRT,Finance,Financial - Miscellaneous Services,10__0,10,0.0,1. p999999_trade_value,7920.0,7920.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+OPRT,Finance,Financial - Miscellaneous Services,10__0,10,0.0,8. p75_trade_value,4000.0,4000.0,4.0,4.0,1.0,0.55,2. BELOW BASELINE,4.0,5.0,0.8
+OPY,Finance,Financial - Investment Bank,10__0,10,0.0,1. p999999_trade_value,10450.000000000002,10450.000000000002,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+OPY,Finance,Financial - Investment Bank,10__0,10,0.0,7. p90_trade_value,9720.0,9720.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+ORI,Finance,Insurance - Multi line,10__0,10,0.0,1. p999999_trade_value,58960.0,58960.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ORI,Finance,Insurance - Multi line,10__0,10,0.0,8. p75_trade_value,52000.0,37520.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+OSCR,Finance,Insurance - Multi line,30__2,30,2.0,1. p999999_trade_value,722000.0,722000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+OSCR,Finance,Insurance - Multi line,30__2,30,2.0,5. p99_trade_value,515759.99999999994,193750.0,0.0,10.0,0.0,0.55,2. BELOW BASELINE,0.0,11.0,0.0
+OSCR,Finance,Insurance - Multi line,30__2,30,2.0,6. p95_trade_value,155000.0,33990.0,12.0,42.0,0.2857142857142857,0.55,2. BELOW BASELINE,12.0,53.0,0.22641509433962265
+OSCR,Finance,Insurance - Multi line,30__2,30,2.0,7. p90_trade_value,33205.0,17750.0,21.0,52.0,0.40384615384615385,0.55,2. BELOW BASELINE,33.0,105.0,0.3142857142857143
+OSCR,Finance,Insurance - Multi line,30__2,30,2.0,8. p75_trade_value,17675.0,9400.0,53.0,158.0,0.33544303797468356,0.55,2. BELOW BASELINE,86.0,263.0,0.3269961977186312
+OUT,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,10125.0,10125.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+OWL,Finance,Financial - Investment Management,25__1,25,1.0,1. p999999_trade_value,495300.0,495300.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+OWL,Finance,Financial - Investment Management,25__1,25,1.0,5. p99_trade_value,345000.0,200000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+OWL,Finance,Financial - Investment Management,25__1,25,1.0,6. p95_trade_value,190500.0,34110.0,5.0,12.0,0.4166666666666667,0.55,2. BELOW BASELINE,7.0,15.0,0.4666666666666667
+OWL,Finance,Financial - Investment Management,25__1,25,1.0,7. p90_trade_value,33750.0,15360.0,9.0,15.0,0.6,0.55,2. BELOW BASELINE,16.0,30.0,0.5333333333333333
+OWL,Finance,Financial - Investment Management,25__1,25,1.0,8. p75_trade_value,15240.0,7920.0,19.0,44.0,0.4318181818181818,0.55,2. BELOW BASELINE,35.0,74.0,0.47297297297297297
+OZK,Finance,Banks - Northeast,25__1,25,1.0,1. p999999_trade_value,45898.99999999999,45898.99999999999,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+OZK,Finance,Banks - Northeast,25__1,25,1.0,5. p99_trade_value,31581.0,31581.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+OZK,Finance,Banks - Northeast,25__1,25,1.0,6. p95_trade_value,30000.0,19260.0,5.0,8.0,0.625,0.55,1. ABOVE BASELINE,7.0,10.0,0.7
+OZK,Finance,Banks - Northeast,25__1,25,1.0,7. p90_trade_value,18900.0,12180.0,9.0,9.0,1.0,0.55,1. ABOVE BASELINE,16.0,19.0,0.8421052631578947
+OZK,Finance,Banks - Northeast,25__1,25,1.0,8. p75_trade_value,12000.0,7505.0,25.0,29.0,0.8620689655172413,0.55,1. ABOVE BASELINE,41.0,48.0,0.8541666666666666
+PB,Finance,Banks - Southwest,0__0,0,0.0,1. p999999_trade_value,4830.0,4830.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+PEB,Finance,REIT and Equity Trust - Other,0__0,0,0.0,1. p999999_trade_value,3060.0,3060.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PECO,Finance,REIT and Equity Trust - Retail,0__0,0,0.0,1. p999999_trade_value,4000.0,4000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PFG,Finance,Insurance - Multi line,10__0,10,0.0,1. p999999_trade_value,41065.0,41065.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PFG,Finance,Insurance - Multi line,10__0,10,0.0,7. p90_trade_value,22200.0,22200.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+PFG,Finance,Insurance - Multi line,10__0,10,0.0,8. p75_trade_value,14784.0,14535.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,3.0,4.0,0.75
+PFSI,Finance,Financial - Mortgage & Related Services,10__2,10,2.0,1. p999999_trade_value,131250.0,131250.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+PFSI,Finance,Financial - Mortgage & Related Services,10__2,10,2.0,7. p90_trade_value,55500.0,55500.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+PFSI,Finance,Financial - Mortgage & Related Services,10__2,10,2.0,8. p75_trade_value,33750.0,33750.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+PGR,Finance,Insurance - Property and Casualty,30__0,30,0.0,1. p999999_trade_value,399749.99999999994,399749.99999999994,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PGR,Finance,Insurance - Property and Casualty,30__0,30,0.0,4. p999_trade_value,176000.00000000003,176000.00000000003,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+PGR,Finance,Insurance - Property and Casualty,30__0,30,0.0,5. p99_trade_value,137640.0,43710.0,7.0,13.0,0.5384615384615384,0.55,2. BELOW BASELINE,9.0,15.0,0.6
+PGR,Finance,Insurance - Property and Casualty,30__0,30,0.0,6. p95_trade_value,43000.0,21560.0,31.0,56.0,0.5535714285714286,0.55,2. BELOW BASELINE,40.0,71.0,0.5633802816901409
+PGR,Finance,Insurance - Property and Casualty,30__0,30,0.0,7. p90_trade_value,21216.0,13300.0,41.0,70.0,0.5857142857142857,0.55,2. BELOW BASELINE,81.0,141.0,0.574468085106383
+PGR,Finance,Insurance - Property and Casualty,30__0,30,0.0,8. p75_trade_value,13200.0,7750.0,137.0,213.0,0.6431924882629108,0.55,2. BELOW BASELINE,218.0,354.0,0.615819209039548
+PGY,Finance,Financial - Miscellaneous Services,25__1,25,1.0,1. p999999_trade_value,63440.0,63440.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PGY,Finance,Financial - Miscellaneous Services,25__1,25,1.0,5. p99_trade_value,46670.0,42415.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+PGY,Finance,Financial - Miscellaneous Services,25__1,25,1.0,6. p95_trade_value,42100.0,29250.0,11.0,14.0,0.7857142857142857,0.55,1. ABOVE BASELINE,15.0,18.0,0.8333333333333334
+PGY,Finance,Financial - Miscellaneous Services,25__1,25,1.0,7. p90_trade_value,28050.0,15750.0,13.0,18.0,0.7222222222222222,0.55,1. ABOVE BASELINE,28.0,36.0,0.7777777777777778
+PGY,Finance,Financial - Miscellaneous Services,25__1,25,1.0,8. p75_trade_value,15562.0,8786.0,39.0,53.0,0.7358490566037735,0.55,1. ABOVE BASELINE,67.0,89.0,0.7528089887640449
+PINE,Finance,REIT and Equity Trust - Other,0__0,0,0.0,1. p999999_trade_value,7000.0,7000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+PIPR,Finance,Financial - Investment Bank,10__0,10,0.0,1. p999999_trade_value,14880.000000000002,14880.000000000002,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PIPR,Finance,Financial - Investment Bank,10__0,10,0.0,8. p75_trade_value,13800.0,13800.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+PJT,Finance,Financial - Miscellaneous Services,5__0,5,0.0,1. p999999_trade_value,4940.000000000001,4940.000000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+PK,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,12060.0,12060.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PLD,Finance,REIT and Equity Trust - Other,25__1,25,1.0,1. p999999_trade_value,210000.0,210000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PLD,Finance,REIT and Equity Trust - Other,25__1,25,1.0,5. p99_trade_value,125000.0,108500.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
+PLD,Finance,REIT and Equity Trust - Other,25__1,25,1.0,6. p95_trade_value,100000.0,36000.0,5.0,14.0,0.35714285714285715,0.55,2. BELOW BASELINE,8.0,18.0,0.4444444444444444
+PLD,Finance,REIT and Equity Trust - Other,25__1,25,1.0,7. p90_trade_value,35530.0,19760.0,9.0,17.0,0.5294117647058824,0.55,2. BELOW BASELINE,17.0,35.0,0.4857142857142857
+PLD,Finance,REIT and Equity Trust - Other,25__1,25,1.0,8. p75_trade_value,19600.0,9100.0,31.0,51.0,0.6078431372549019,0.55,2. BELOW BASELINE,48.0,86.0,0.5581395348837209
+PLMR,Finance,Insurance - Property and Casualty,10__0,10,0.0,1. p999999_trade_value,20000.0,20000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PLMR,Finance,Insurance - Property and Casualty,10__0,10,0.0,8. p75_trade_value,10500.0,7350.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+PMT,Finance,REIT and Equity Trust,0__1,0,1.0,1. p999999_trade_value,44880.0,44880.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+PNC,Finance,Financial - Investment Bank,30__0,30,0.0,1. p999999_trade_value,161250.0,161250.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PNC,Finance,Financial - Investment Bank,30__0,30,0.0,5. p99_trade_value,136500.0,86025.0,2.0,6.0,0.3333333333333333,0.55,2. BELOW BASELINE,3.0,7.0,0.42857142857142855
+PNC,Finance,Financial - Investment Bank,30__0,30,0.0,6. p95_trade_value,71198.0,33000.0,11.0,25.0,0.44,0.55,2. BELOW BASELINE,14.0,32.0,0.4375
+PNC,Finance,Financial - Investment Bank,30__0,30,0.0,7. p90_trade_value,32129.999999999996,19120.0,15.0,31.0,0.4838709677419355,0.55,2. BELOW BASELINE,29.0,63.0,0.4603174603174603
+PNC,Finance,Financial - Investment Bank,30__0,30,0.0,8. p75_trade_value,18625.0,8802.0,46.0,95.0,0.4842105263157895,0.55,2. BELOW BASELINE,75.0,158.0,0.47468354430379744
+PNFP,Finance,Banks - Southeast,5__1,5,1.0,1. p999999_trade_value,40460.0,40460.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PRAA,Finance,Financial - Miscellaneous Services,10__0,10,0.0,1. p999999_trade_value,10370.0,10370.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PRAA,Finance,Financial - Miscellaneous Services,10__0,10,0.0,7. p90_trade_value,8500.0,8500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+PRAA,Finance,Financial - Miscellaneous Services,10__0,10,0.0,8. p75_trade_value,6370.0,5200.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,5.0,5.0,1.0
+PRG,Finance,Financial - Consumer Loans,10__0,10,0.0,1. p999999_trade_value,7500.0,7500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+PRG,Finance,Financial - Consumer Loans,10__0,10,0.0,8. p75_trade_value,5980.0,5400.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+PRI,Finance,Insurance - Life Insurance,5__0,5,0.0,1. p999999_trade_value,5004.0,5004.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+PRI,Finance,Insurance - Life Insurance,5__0,5,0.0,8. p75_trade_value,4664.0,4664.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+PRU,Finance,Insurance - Multi line,25__1,25,1.0,1. p999999_trade_value,71487.0,71487.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+PRU,Finance,Insurance - Multi line,25__1,25,1.0,5. p99_trade_value,62000.0,48990.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+PRU,Finance,Insurance - Multi line,25__1,25,1.0,6. p95_trade_value,41364.00000000001,22701.000000000004,4.0,10.0,0.4,0.55,2. BELOW BASELINE,4.0,13.0,0.3076923076923077
+PRU,Finance,Insurance - Multi line,25__1,25,1.0,7. p90_trade_value,21624.0,15400.0,7.0,12.0,0.5833333333333334,0.55,2. BELOW BASELINE,11.0,25.0,0.44
+PRU,Finance,Insurance - Multi line,25__1,25,1.0,8. p75_trade_value,15000.0,7944.0,18.0,36.0,0.5,0.55,2. BELOW BASELINE,29.0,61.0,0.47540983606557374
+PSA,Finance,REIT and Equity Trust - Other,20__0,20,0.0,1. p999999_trade_value,99000.0,99000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PSA,Finance,REIT and Equity Trust - Other,20__0,20,0.0,5. p99_trade_value,62250.0,62250.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+PSA,Finance,REIT and Equity Trust - Other,20__0,20,0.0,6. p95_trade_value,52529.99999999999,26250.0,3.0,5.0,0.6,0.55,2. BELOW BASELINE,4.0,7.0,0.5714285714285714
+PSA,Finance,REIT and Equity Trust - Other,20__0,20,0.0,7. p90_trade_value,25500.0,14784.0,3.0,6.0,0.5,0.55,2. BELOW BASELINE,7.0,13.0,0.5384615384615384
+PSA,Finance,REIT and Equity Trust - Other,20__0,20,0.0,8. p75_trade_value,13750.0,7090.000000000001,12.0,19.0,0.631578947368421,0.55,2. BELOW BASELINE,19.0,32.0,0.59375
+PSEC,Finance,Financial - Investment Management,10__0,10,0.0,1. p999999_trade_value,45350.0,45350.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PSEC,Finance,Financial - Investment Management,10__0,10,0.0,8. p75_trade_value,45000.0,45000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+PWP,Finance,Financial - Miscellaneous Services,5__0,5,0.0,1. p999999_trade_value,12201.0,12201.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PX,Finance,Financial - Miscellaneous Services,0__0,0,0.0,1. p999999_trade_value,5000.0,5000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+RDFN,Finance,Real Estate - Operations,30__0,30,0.0,1. p999999_trade_value,603500.0,603500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+RDFN,Finance,Real Estate - Operations,30__0,30,0.0,5. p99_trade_value,467500.0,255000.0,5.0,8.0,0.625,0.55,1. ABOVE BASELINE,6.0,9.0,0.6666666666666666
+RDFN,Finance,Real Estate - Operations,30__0,30,0.0,6. p95_trade_value,212500.0,21015.0,16.0,34.0,0.47058823529411764,0.55,2. BELOW BASELINE,22.0,43.0,0.5116279069767442
+RDFN,Finance,Real Estate - Operations,30__0,30,0.0,7. p90_trade_value,19800.0,13260.0,30.0,41.0,0.7317073170731707,0.55,2. BELOW BASELINE,52.0,84.0,0.6190476190476191
+RDFN,Finance,Real Estate - Operations,30__0,30,0.0,8. p75_trade_value,13229.999999999998,7300.0,75.0,129.0,0.5813953488372093,0.55,2. BELOW BASELINE,127.0,213.0,0.596244131455399
+RDN,Finance,Insurance - Multi line,5__3,5,3.0,1. p999999_trade_value,20130.0,20130.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+REG,Finance,REIT and Equity Trust - Retail,5__0,5,0.0,1. p999999_trade_value,4410.0,4410.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+REXR,Finance,REIT and Equity Trust - Other,15__0,15,0.0,1. p999999_trade_value,27100.0,27100.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+REXR,Finance,REIT and Equity Trust - Other,15__0,15,0.0,6. p95_trade_value,27027.0,26600.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
+REXR,Finance,REIT and Equity Trust - Other,15__0,15,0.0,7. p90_trade_value,25000.0,25000.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,5.0,6.0,0.8333333333333334
+REXR,Finance,REIT and Equity Trust - Other,15__0,15,0.0,8. p75_trade_value,13110.0,5900.0,5.0,6.0,0.8333333333333334,0.55,1. ABOVE BASELINE,10.0,12.0,0.8333333333333334
+RF,Finance,Banks - Southeast,20__0,20,0.0,1. p999999_trade_value,52991.99999999999,52991.99999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+RF,Finance,Banks - Southeast,20__0,20,0.0,6. p95_trade_value,35190.0,30490.000000000004,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+RF,Finance,Banks - Southeast,20__0,20,0.0,7. p90_trade_value,23494.000000000004,21300.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,3.0,8.0,0.375
+RF,Finance,Banks - Southeast,20__0,20,0.0,8. p75_trade_value,19080.0,8160.000000000001,5.0,12.0,0.4166666666666667,0.55,2. BELOW BASELINE,8.0,20.0,0.4
+RGA,Finance,Insurance - Life Insurance,10__0,10,0.0,1. p999999_trade_value,9990.0,9990.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+RGA,Finance,Insurance - Life Insurance,10__0,10,0.0,7. p90_trade_value,9800.0,9800.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+RGA,Finance,Insurance - Life Insurance,10__0,10,0.0,8. p75_trade_value,8880.000000000002,8750.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+RHP,Finance,REIT and Equity Trust - Other,5__0,5,0.0,2. p99999_trade_value,7259.999999999999,7259.999999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+RIOT,Finance,Financial - Miscellaneous Services,40__1,40,1.0,1. p999999_trade_value,3340500.0,3340500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+RIOT,Finance,Financial - Miscellaneous Services,40__1,40,1.0,3. p9999_trade_value,2735712.0,2735712.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+RIOT,Finance,Financial - Miscellaneous Services,40__1,40,1.0,4. p999_trade_value,2687232.0,422835.99999999994,7.0,9.0,0.7777777777777778,0.55,1. ABOVE BASELINE,9.0,11.0,0.8181818181818182
+RIOT,Finance,Financial - Miscellaneous Services,40__1,40,1.0,5. p99_trade_value,369000.0,48778.0,43.0,95.0,0.45263157894736844,0.55,2. BELOW BASELINE,52.0,106.0,0.49056603773584906
+RIOT,Finance,Financial - Miscellaneous Services,40__1,40,1.0,6. p95_trade_value,48720.0,17928.0,226.0,424.0,0.5330188679245284,0.55,2. BELOW BASELINE,278.0,530.0,0.5245283018867924
+RIOT,Finance,Financial - Miscellaneous Services,40__1,40,1.0,7. p90_trade_value,17919.0,12096.0,266.0,530.0,0.5018867924528302,0.55,2. BELOW BASELINE,544.0,1060.0,0.5132075471698113
+RIOT,Finance,Financial - Miscellaneous Services,40__1,40,1.0,8. p75_trade_value,12090.0,7245.0,849.0,1590.0,0.5339622641509434,0.55,2. BELOW BASELINE,1393.0,2650.0,0.5256603773584906
+RITM,Finance,Financial - Miscellaneous Services,10__0,10,0.0,1. p999999_trade_value,14000.0,14000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+RITM,Finance,Financial - Miscellaneous Services,10__0,10,0.0,8. p75_trade_value,8000.0,8000.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+RJF,Finance,Financial - Investment Bank,20__1,20,1.0,1. p999999_trade_value,498000.0,498000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+RJF,Finance,Financial - Investment Bank,20__1,20,1.0,5. p99_trade_value,198000.0,198000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+RJF,Finance,Financial - Investment Bank,20__1,20,1.0,6. p95_trade_value,121500.0,27675.0,2.0,6.0,0.3333333333333333,0.55,2. BELOW BASELINE,3.0,8.0,0.375
+RJF,Finance,Financial - Investment Bank,20__1,20,1.0,7. p90_trade_value,27000.0,17985.0,4.0,7.0,0.5714285714285714,0.55,2. BELOW BASELINE,7.0,15.0,0.4666666666666667
+RJF,Finance,Financial - Investment Bank,20__1,20,1.0,8. p75_trade_value,17430.0,9420.0,10.0,23.0,0.43478260869565216,0.55,2. BELOW BASELINE,17.0,38.0,0.4473684210526316
+RKT,Finance,Financial - Mortgage & Related Services,30__0,30,0.0,1. p999999_trade_value,371360.0,371360.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+RKT,Finance,Financial - Mortgage & Related Services,30__0,30,0.0,4. p999_trade_value,182500.0,182500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+RKT,Finance,Financial - Mortgage & Related Services,30__0,30,0.0,5. p99_trade_value,124991.99999999999,73920.0,3.0,10.0,0.3,0.55,2. BELOW BASELINE,5.0,12.0,0.4166666666666667
+RKT,Finance,Financial - Mortgage & Related Services,30__0,30,0.0,6. p95_trade_value,73500.0,30000.0,21.0,46.0,0.45652173913043476,0.55,2. BELOW BASELINE,26.0,58.0,0.4482758620689655
+RKT,Finance,Financial - Mortgage & Related Services,30__0,30,0.0,7. p90_trade_value,28240.000000000004,15854.999999999998,22.0,56.0,0.39285714285714285,0.55,2. BELOW BASELINE,48.0,114.0,0.42105263157894735
+RKT,Finance,Financial - Mortgage & Related Services,30__0,30,0.0,8. p75_trade_value,15720.000000000002,8600.0,76.0,169.0,0.44970414201183434,0.55,2. BELOW BASELINE,124.0,283.0,0.4381625441696113
+RLI,Finance,Insurance - Property and Casualty,5__3,5,3.0,1. p999999_trade_value,14625.0,14625.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+RMAX,Finance,Real Estate - Operations,10__0,10,0.0,1. p999999_trade_value,9000.0,9000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+RMAX,Finance,Real Estate - Operations,10__0,10,0.0,8. p75_trade_value,6320.0,6320.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+RNR,Finance,Insurance - Property and Casualty,20__0,20,0.0,1. p999999_trade_value,30000.0,30000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+RNR,Finance,Insurance - Property and Casualty,20__0,20,0.0,6. p95_trade_value,15360.0,14100.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+RNR,Finance,Insurance - Property and Casualty,20__0,20,0.0,7. p90_trade_value,11700.0,10500.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,6.0,0.0
+RNR,Finance,Insurance - Property and Casualty,20__0,20,0.0,8. p75_trade_value,9870.0,7285.000000000001,0.0,9.0,0.0,0.55,2. BELOW BASELINE,0.0,15.0,0.0
+ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,1. p999999_trade_value,158400.0,158400.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,4. p999_trade_value,113400.0,112239.99999999999,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,5. p99_trade_value,99449.99999999999,46530.0,12.0,25.0,0.48,0.55,2. BELOW BASELINE,14.0,28.0,0.5
+ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,6. p95_trade_value,46500.00000000001,22100.0,60.0,110.0,0.5454545454545454,0.55,2. BELOW BASELINE,74.0,138.0,0.5362318840579711
+ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,7. p90_trade_value,22000.0,15190.0,62.0,138.0,0.4492753623188406,0.55,2. BELOW BASELINE,136.0,276.0,0.4927536231884058
+ROOT,Finance,Insurance - Property and Casualty,35__0,35,0.0,8. p75_trade_value,15000.0,8325.0,217.0,410.0,0.5292682926829269,0.55,2. BELOW BASELINE,353.0,686.0,0.5145772594752187
+RWAY,Finance,Financial - SBIC & Commercial Industry,5__1,5,1.0,1. p999999_trade_value,52710.0,52710.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+RY,Finance,Banks - Foreign,20__0,20,0.0,1. p999999_trade_value,30000.0,30000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+RY,Finance,Banks - Foreign,20__0,20,0.0,6. p95_trade_value,18795.0,15330.000000000002,1.0,5.0,0.2,0.55,2. BELOW BASELINE,2.0,7.0,0.2857142857142857
+RY,Finance,Banks - Foreign,20__0,20,0.0,7. p90_trade_value,13440.0,11977.999999999998,2.0,6.0,0.3333333333333333,0.55,2. BELOW BASELINE,4.0,13.0,0.3076923076923077
+RY,Finance,Banks - Foreign,20__0,20,0.0,8. p75_trade_value,11972.999999999998,7125.0,11.0,18.0,0.6111111111111112,0.55,2. BELOW BASELINE,15.0,31.0,0.4838709677419355
+RYAN,Finance,Insurance - Brokerage,15__0,15,0.0,1. p999999_trade_value,132719.99999999997,132719.99999999997,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+RYAN,Finance,Insurance - Brokerage,15__0,15,0.0,6. p95_trade_value,26180.0,26180.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+RYAN,Finance,Insurance - Brokerage,15__0,15,0.0,7. p90_trade_value,25499.999999999996,25499.999999999996,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+RYAN,Finance,Insurance - Brokerage,15__0,15,0.0,8. p75_trade_value,20000.0,11499.999999999998,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,6.0,6.0,1.0
+SAFE,Finance,REIT and Equity Trust - Residential,0__0,0,0.0,1. p999999_trade_value,3500.0,3500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+SAN,Finance,Banks - Foreign,5__0,5,0.0,1. p999999_trade_value,4420.0,4420.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SBAC,Finance,REIT and Equity Trust - Other,20__0,20,0.0,1. p999999_trade_value,103800.0,103800.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+SBAC,Finance,REIT and Equity Trust - Other,20__0,20,0.0,6. p95_trade_value,42600.0,30545.0,3.0,5.0,0.6,0.55,2. BELOW BASELINE,3.0,6.0,0.5
+SBAC,Finance,REIT and Equity Trust - Other,20__0,20,0.0,7. p90_trade_value,26250.0,20000.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,4.0,10.0,0.4
+SBAC,Finance,REIT and Equity Trust - Other,20__0,20,0.0,8. p75_trade_value,19800.0,8100.0,9.0,15.0,0.6,0.55,2. BELOW BASELINE,13.0,25.0,0.52
+SBRA,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,4620.0,4620.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SCHW,Finance,Financial - Investment Bank,35__3,35,3.0,1. p999999_trade_value,745000.0,745000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SCHW,Finance,Financial - Investment Bank,35__3,35,3.0,4. p999_trade_value,676000.0,510000.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+SCHW,Finance,Financial - Investment Bank,35__3,35,3.0,5. p99_trade_value,458597.99999999994,98340.0,21.0,40.0,0.525,0.55,2. BELOW BASELINE,24.0,45.0,0.5333333333333333
+SCHW,Finance,Financial - Investment Bank,35__3,35,3.0,6. p95_trade_value,98136.0,26400.0,108.0,178.0,0.6067415730337079,0.55,2. BELOW BASELINE,132.0,223.0,0.5919282511210763
+SCHW,Finance,Financial - Investment Bank,35__3,35,3.0,7. p90_trade_value,26394.0,15604.0,146.0,223.0,0.6547085201793722,0.55,2. BELOW BASELINE,278.0,446.0,0.6233183856502242
+SCHW,Finance,Financial - Investment Bank,35__3,35,3.0,8. p75_trade_value,15587.0,8239.0,444.0,669.0,0.6636771300448431,0.55,2. BELOW BASELINE,722.0,1115.0,0.6475336322869956
+SEG,Finance,Real Estate - Operations,0__0,0,0.0,1. p999999_trade_value,3080.0,3080.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SF,Finance,Financial - Investment Bank,15__0,15,0.0,1. p999999_trade_value,330000.0,330000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+SF,Finance,Financial - Investment Bank,15__0,15,0.0,6. p95_trade_value,278600.0,278600.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+SF,Finance,Financial - Investment Bank,15__0,15,0.0,7. p90_trade_value,33750.0,14700.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+SF,Finance,Financial - Investment Bank,15__0,15,0.0,8. p75_trade_value,12000.0,12000.0,0.0,10.0,0.0,0.55,2. BELOW BASELINE,0.0,14.0,0.0
+SIGI,Finance,Insurance - Property and Casualty,0__0,0,0.0,1. p999999_trade_value,3300.0,3300.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SII,Finance,Financial - Investment Management,10__0,10,0.0,1. p999999_trade_value,7437.0,7437.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SII,Finance,Financial - Investment Management,10__0,10,0.0,7. p90_trade_value,6300.0,6300.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+SII,Finance,Financial - Investment Management,10__0,10,0.0,8. p75_trade_value,6250.0,6250.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+SITC,Finance,REIT and Equity Trust - Retail,5__0,5,0.0,1. p999999_trade_value,4500.0,4500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+SKT,Finance,REIT and Equity Trust - Retail,5__0,5,0.0,1. p999999_trade_value,12000.0,12000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SKWD,Finance,Insurance - Property and Casualty,0__2,0,2.0,1. p999999_trade_value,13500.0,13500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SLF,Finance,Insurance - Life Insurance,5__0,5,0.0,1. p999999_trade_value,3600.0,3600.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+SLG,Finance,REIT and Equity Trust - Other,25__1,25,1.0,1. p999999_trade_value,265930.0,265930.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SLG,Finance,REIT and Equity Trust - Other,25__1,25,1.0,5. p99_trade_value,240000.0,210000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+SLG,Finance,REIT and Equity Trust - Other,25__1,25,1.0,6. p95_trade_value,181500.00000000003,20640.0,6.0,8.0,0.75,0.55,2. BELOW BASELINE,8.0,11.0,0.7272727272727273
+SLG,Finance,REIT and Equity Trust - Other,25__1,25,1.0,7. p90_trade_value,19200.0,14144.0,6.0,10.0,0.6,0.55,2. BELOW BASELINE,14.0,21.0,0.6666666666666666
+SLG,Finance,REIT and Equity Trust - Other,25__1,25,1.0,8. p75_trade_value,13585.000000000002,7686.0,16.0,30.0,0.5333333333333333,0.55,2. BELOW BASELINE,30.0,51.0,0.5882352941176471
+SLM,Finance,Financial - Consumer Loans,20__0,20,0.0,1. p999999_trade_value,52038.0,52038.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SLM,Finance,Financial - Consumer Loans,20__0,20,0.0,6. p95_trade_value,32850.0,26100.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+SLM,Finance,Financial - Consumer Loans,20__0,20,0.0,7. p90_trade_value,21425.0,16992.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,2.0,8.0,0.25
+SLM,Finance,Financial - Consumer Loans,20__0,20,0.0,8. p75_trade_value,15000.0,12200.0,1.0,10.0,0.1,0.55,2. BELOW BASELINE,3.0,18.0,0.16666666666666666
+SLQT,Finance,Insurance - Multi line,15__0,15,0.0,1. p999999_trade_value,11900.000000000002,11900.000000000002,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+SLQT,Finance,Insurance - Multi line,15__0,15,0.0,6. p95_trade_value,9120.0,9120.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+SLQT,Finance,Insurance - Multi line,15__0,15,0.0,7. p90_trade_value,7800.0,7152.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+SLQT,Finance,Insurance - Multi line,15__0,15,0.0,8. p75_trade_value,5500.0,5500.0,4.0,4.0,1.0,0.55,2. BELOW BASELINE,5.0,8.0,0.625
+SNV,Finance,Banks - Southeast,20__0,20,0.0,1. p999999_trade_value,38340.0,38340.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+SNV,Finance,Banks - Southeast,20__0,20,0.0,6. p95_trade_value,31339.0,23584.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+SNV,Finance,Banks - Southeast,20__0,20,0.0,7. p90_trade_value,17040.0,15015.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,1.0,6.0,0.16666666666666666
+SNV,Finance,Banks - Southeast,20__0,20,0.0,8. p75_trade_value,13400.0,8745.0,5.0,9.0,0.5555555555555556,0.55,2. BELOW BASELINE,6.0,15.0,0.4
+SOFI,Finance,Financial - Miscellaneous Services,45__0,45,0.0,1. p999999_trade_value,4015544.0,4015544.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+SOFI,Finance,Financial - Miscellaneous Services,45__0,45,0.0,4. p999_trade_value,1968780.0,238928.00000000003,5.0,16.0,0.3125,0.55,2. BELOW BASELINE,5.0,18.0,0.2777777777777778
+SOFI,Finance,Financial - Miscellaneous Services,45__0,45,0.0,5. p99_trade_value,215496.0,45825.0,93.0,161.0,0.577639751552795,0.55,2. BELOW BASELINE,98.0,179.0,0.547486033519553
+SOFI,Finance,Financial - Miscellaneous Services,45__0,45,0.0,6. p95_trade_value,45500.0,20541.0,448.0,715.0,0.6265734265734266,0.55,2. BELOW BASELINE,546.0,894.0,0.610738255033557
+SOFI,Finance,Financial - Miscellaneous Services,45__0,45,0.0,7. p90_trade_value,20540.0,13800.0,554.0,895.0,0.6189944134078212,0.55,2. BELOW BASELINE,1100.0,1789.0,0.6148686416992734
+SOFI,Finance,Financial - Miscellaneous Services,45__0,45,0.0,8. p75_trade_value,13763.999999999998,7714.0,1570.0,2670.0,0.5880149812734082,0.55,2. BELOW BASELINE,2670.0,4459.0,0.5987889661359049
+SPG,Finance,REIT and Equity Trust - Retail,25__1,25,1.0,1. p999999_trade_value,36264.0,36264.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+SPG,Finance,REIT and Equity Trust - Retail,25__1,25,1.0,5. p99_trade_value,35000.0,30809.999999999996,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+SPG,Finance,REIT and Equity Trust - Retail,25__1,25,1.0,6. p95_trade_value,28670.0,20590.0,8.0,14.0,0.5714285714285714,0.55,2. BELOW BASELINE,10.0,18.0,0.5555555555555556
+SPG,Finance,REIT and Equity Trust - Retail,25__1,25,1.0,7. p90_trade_value,20088.000000000004,16500.0,12.0,18.0,0.6666666666666666,0.55,2. BELOW BASELINE,22.0,36.0,0.6111111111111112
+SPG,Finance,REIT and Equity Trust - Retail,25__1,25,1.0,8. p75_trade_value,16280.000000000002,8580.0,31.0,53.0,0.5849056603773585,0.55,2. BELOW BASELINE,53.0,89.0,0.5955056179775281
+SPGI,Finance,Securities and Exchanges,30__0,30,0.0,1. p999999_trade_value,322400.0,322400.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SPGI,Finance,Securities and Exchanges,30__0,30,0.0,5. p99_trade_value,203999.99999999997,110940.00000000001,6.0,6.0,1.0,0.55,1. ABOVE BASELINE,7.0,7.0,1.0
+SPGI,Finance,Securities and Exchanges,30__0,30,0.0,6. p95_trade_value,110080.0,43000.0,9.0,24.0,0.375,0.55,2. BELOW BASELINE,16.0,31.0,0.5161290322580645
+SPGI,Finance,Securities and Exchanges,30__0,30,0.0,7. p90_trade_value,42500.0,18630.0,11.0,30.0,0.36666666666666664,0.55,2. BELOW BASELINE,27.0,61.0,0.4426229508196721
+SPGI,Finance,Securities and Exchanges,30__0,30,0.0,8. p75_trade_value,18612.0,8680.0,56.0,92.0,0.6086956521739131,0.55,2. BELOW BASELINE,83.0,153.0,0.5424836601307189
+SPNT,Finance,Insurance - Multi line,10__0,10,0.0,1. p999999_trade_value,6000.0,6000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SPNT,Finance,Insurance - Multi line,10__0,10,0.0,8. p75_trade_value,4800.0,4800.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+SRG,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,13122.999999999998,13122.999999999998,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+STAG,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,6000.0,6000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+STEP,Finance,Financial - Miscellaneous Services,10__0,10,0.0,1. p999999_trade_value,11550.0,11550.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+STEP,Finance,Financial - Miscellaneous Services,10__0,10,0.0,8. p75_trade_value,9610.0,9610.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+STT,Finance,Banks - Major Regional,25__1,25,1.0,1. p999999_trade_value,231000.0,231000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+STT,Finance,Banks - Major Regional,25__1,25,1.0,5. p99_trade_value,135000.0,111191.99999999999,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+STT,Finance,Banks - Major Regional,25__1,25,1.0,6. p95_trade_value,97790.0,21600.0,4.0,16.0,0.25,0.55,2. BELOW BASELINE,5.0,20.0,0.25
+STT,Finance,Banks - Major Regional,25__1,25,1.0,7. p90_trade_value,21550.0,15500.0,8.0,20.0,0.4,0.55,2. BELOW BASELINE,13.0,40.0,0.325
+STT,Finance,Banks - Major Regional,25__1,25,1.0,8. p75_trade_value,15000.0,6656.0,25.0,60.0,0.4166666666666667,0.55,2. BELOW BASELINE,38.0,100.0,0.38
+STWD,Finance,REIT and Equity Trust,15__0,15,0.0,1. p999999_trade_value,24466.0,24466.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+STWD,Finance,REIT and Equity Trust,15__0,15,0.0,6. p95_trade_value,10665.0,10665.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+STWD,Finance,REIT and Equity Trust,15__0,15,0.0,7. p90_trade_value,9945.0,9675.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,3.0,4.0,0.75
+STWD,Finance,REIT and Equity Trust,15__0,15,0.0,8. p75_trade_value,8595.0,6000.0,6.0,6.0,1.0,0.55,2. BELOW BASELINE,9.0,10.0,0.9
+SUI,Finance,REIT and Equity Trust - Residential,25__1,25,1.0,1. p999999_trade_value,280000.0,280000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SUI,Finance,REIT and Equity Trust - Residential,25__1,25,1.0,5. p99_trade_value,192500.00000000003,146000.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+SUI,Finance,REIT and Equity Trust - Residential,25__1,25,1.0,6. p95_trade_value,121695.0,38800.0,1.0,10.0,0.1,0.55,2. BELOW BASELINE,2.0,13.0,0.15384615384615385
+SUI,Finance,REIT and Equity Trust - Residential,25__1,25,1.0,7. p90_trade_value,38600.0,25482.000000000004,0.0,9.0,0.0,0.55,2. BELOW BASELINE,2.0,22.0,0.09090909090909091
+SUI,Finance,REIT and Equity Trust - Residential,25__1,25,1.0,8. p75_trade_value,25000.0,15000.0,5.0,34.0,0.14705882352941177,0.55,2. BELOW BASELINE,7.0,56.0,0.125
+SUPV,Finance,Banks - Foreign,10__0,10,0.0,1. p999999_trade_value,9600.0,9600.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+SUPV,Finance,Banks - Foreign,10__0,10,0.0,7. p90_trade_value,6975.0,6975.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+SUPV,Finance,Banks - Foreign,10__0,10,0.0,8. p75_trade_value,5460.000000000001,5460.000000000001,1.0,1.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+SVC,Finance,REIT and Equity Trust - Other,0__0,0,0.0,1. p999999_trade_value,3240.0,3240.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SYBT,Finance,Banks - Southeast,5__0,5,0.0,1. p999999_trade_value,7750.0,7750.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+SYF,Finance,Financial - Miscellaneous Services,30__2,30,2.0,1. p999999_trade_value,651525.0,651525.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SYF,Finance,Financial - Miscellaneous Services,30__2,30,2.0,5. p99_trade_value,600000.0,107500.0,6.0,6.0,1.0,0.55,1. ABOVE BASELINE,7.0,7.0,1.0
+SYF,Finance,Financial - Miscellaneous Services,30__2,30,2.0,6. p95_trade_value,106880.0,38100.0,22.0,28.0,0.7857142857142857,0.55,1. ABOVE BASELINE,29.0,35.0,0.8285714285714286
+SYF,Finance,Financial - Miscellaneous Services,30__2,30,2.0,7. p90_trade_value,38000.0,20200.0,28.0,35.0,0.8,0.55,1. ABOVE BASELINE,57.0,70.0,0.8142857142857143
+SYF,Finance,Financial - Miscellaneous Services,30__2,30,2.0,8. p75_trade_value,20000.0,9702.0,72.0,103.0,0.6990291262135923,0.55,1. ABOVE BASELINE,129.0,173.0,0.7456647398843931
+TBBK,Finance,Banks - Northeast,15__0,15,0.0,1. p999999_trade_value,52785.0,52785.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+TBBK,Finance,Banks - Northeast,15__0,15,0.0,7. p90_trade_value,49010.0,25000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+TBBK,Finance,Banks - Northeast,15__0,15,0.0,8. p75_trade_value,22999.999999999996,22000.000000000004,0.0,6.0,0.0,0.55,2. BELOW BASELINE,1.0,10.0,0.1
+TCBI,Finance,Banks - Southwest,10__0,10,0.0,1. p999999_trade_value,4920.0,4920.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+TCBI,Finance,Banks - Southwest,10__0,10,0.0,8. p75_trade_value,4776.0,4776.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+TD,Finance,Banks - Foreign,20__0,20,0.0,1. p999999_trade_value,48860.0,48860.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+TD,Finance,Banks - Foreign,20__0,20,0.0,6. p95_trade_value,22750.0,15435.0,0.0,4.0,0.0,0.55,2. BELOW BASELINE,0.0,5.0,0.0
+TD,Finance,Banks - Foreign,20__0,20,0.0,7. p90_trade_value,14850.0,10625.0,4.0,5.0,0.8,0.55,2. BELOW BASELINE,4.0,10.0,0.4
+TD,Finance,Banks - Foreign,20__0,20,0.0,8. p75_trade_value,9960.0,6750.0,10.0,15.0,0.6666666666666666,0.55,2. BELOW BASELINE,14.0,25.0,0.56
+TFC,Finance,Banks - Major Regional,30__0,30,0.0,1. p999999_trade_value,719880.0,719880.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+TFC,Finance,Banks - Major Regional,30__0,30,0.0,5. p99_trade_value,237840.0,81708.0,6.0,9.0,0.6666666666666666,0.55,1. ABOVE BASELINE,7.0,10.0,0.7
+TFC,Finance,Banks - Major Regional,30__0,30,0.0,6. p95_trade_value,80000.0,32110.000000000004,29.0,36.0,0.8055555555555556,0.55,1. ABOVE BASELINE,36.0,46.0,0.782608695652174
+TFC,Finance,Banks - Major Regional,30__0,30,0.0,7. p90_trade_value,31500.0,18156.0,27.0,45.0,0.6,0.55,1. ABOVE BASELINE,63.0,91.0,0.6923076923076923
+TFC,Finance,Banks - Major Regional,30__0,30,0.0,8. p75_trade_value,18109.0,9048.0,84.0,135.0,0.6222222222222222,0.55,1. ABOVE BASELINE,147.0,226.0,0.6504424778761062
+TFIN,Finance,Financial - Miscellaneous Services,5__1,5,1.0,1. p999999_trade_value,56000.0,56000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+TFIN,Finance,Financial - Miscellaneous Services,5__1,5,1.0,8. p75_trade_value,6500.0,6500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+THFF,Finance,Banks - Midwest,0__0,0,0.0,1. p999999_trade_value,3304.0,3304.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+TIGR,Finance,Financial - Investment Bank,35__3,35,3.0,1. p999999_trade_value,169232.00000000003,169232.00000000003,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+TIGR,Finance,Financial - Investment Bank,35__3,35,3.0,4. p999_trade_value,127010.00000000001,113100.0,3.0,4.0,0.75,0.55,1. ABOVE BASELINE,4.0,5.0,0.8
+TIGR,Finance,Financial - Investment Bank,35__3,35,3.0,5. p99_trade_value,112080.0,69825.0,22.0,43.0,0.5116279069767442,0.55,2. BELOW BASELINE,26.0,48.0,0.5416666666666666
+TIGR,Finance,Financial - Investment Bank,35__3,35,3.0,6. p95_trade_value,69550.0,26975.0,112.0,192.0,0.5833333333333334,0.55,2. BELOW BASELINE,138.0,240.0,0.575
+TIGR,Finance,Financial - Investment Bank,35__3,35,3.0,7. p90_trade_value,26946.000000000004,17072.0,113.0,239.0,0.47280334728033474,0.55,2. BELOW BASELINE,251.0,479.0,0.524008350730689
+TIGR,Finance,Financial - Investment Bank,35__3,35,3.0,8. p75_trade_value,17000.0,9250.0,310.0,719.0,0.43115438108484005,0.55,2. BELOW BASELINE,561.0,1198.0,0.4682804674457429
+TIPT,Finance,Insurance - Brokerage,15__0,15,0.0,1. p999999_trade_value,30800.0,30800.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+TIPT,Finance,Insurance - Brokerage,15__0,15,0.0,6. p95_trade_value,30075.0,30075.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+TIPT,Finance,Insurance - Brokerage,15__0,15,0.0,7. p90_trade_value,26880.0,26400.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+TIPT,Finance,Insurance - Brokerage,15__0,15,0.0,8. p75_trade_value,20856.0,15000.0,3.0,6.0,0.5,0.55,2. BELOW BASELINE,5.0,10.0,0.5
+TMP,Finance,Banks - Northeast,0__0,0,0.0,1. p999999_trade_value,3500.0,3500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+TPG,Finance,Financial - Investment Management,15__0,15,0.0,1. p999999_trade_value,38880.0,38880.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+TPG,Finance,Financial - Investment Management,15__0,15,0.0,6. p95_trade_value,31850.0,31850.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+TPG,Finance,Financial - Investment Management,15__0,15,0.0,7. p90_trade_value,27359.999999999996,25000.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+TPG,Finance,Financial - Investment Management,15__0,15,0.0,8. p75_trade_value,20025.0,11000.000000000002,1.0,5.0,0.2,0.55,2. BELOW BASELINE,1.0,9.0,0.1111111111111111
+TREE,Finance,Financial - Mortgage & Related Services,20__0,20,0.0,1. p999999_trade_value,75240.0,75240.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+TREE,Finance,Financial - Mortgage & Related Services,20__0,20,0.0,5. p99_trade_value,60000.0,60000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+TREE,Finance,Financial - Mortgage & Related Services,20__0,20,0.0,6. p95_trade_value,49250.0,35280.0,3.0,5.0,0.6,0.55,1. ABOVE BASELINE,5.0,7.0,0.7142857142857143
+TREE,Finance,Financial - Mortgage & Related Services,20__0,20,0.0,7. p90_trade_value,30000.0,19500.0,5.0,7.0,0.7142857142857143,0.55,1. ABOVE BASELINE,10.0,14.0,0.7142857142857143
+TREE,Finance,Financial - Mortgage & Related Services,20__0,20,0.0,8. p75_trade_value,19404.0,9994.0,8.0,22.0,0.36363636363636365,0.55,2. BELOW BASELINE,18.0,36.0,0.5
+TROW,Finance,Financial - Investment Management,25__0,25,0.0,1. p999999_trade_value,707700.0,707700.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+TROW,Finance,Financial - Investment Management,25__0,25,0.0,5. p99_trade_value,462500.0,397125.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+TROW,Finance,Financial - Investment Management,25__0,25,0.0,6. p95_trade_value,338249.99999999994,77000.00000000001,9.0,11.0,0.8181818181818182,0.55,2. BELOW BASELINE,11.0,14.0,0.7857142857142857
+TROW,Finance,Financial - Investment Management,25__0,25,0.0,7. p90_trade_value,70600.0,24800.0,5.0,14.0,0.35714285714285715,0.55,2. BELOW BASELINE,16.0,28.0,0.5714285714285714
+TROW,Finance,Financial - Investment Management,25__0,25,0.0,8. p75_trade_value,24480.0,9000.0,31.0,42.0,0.7380952380952381,0.55,2. BELOW BASELINE,47.0,70.0,0.6714285714285714
+TRUP,Finance,Insurance - Accident and Health,20__0,20,0.0,1. p999999_trade_value,225000.0,225000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+TRUP,Finance,Insurance - Accident and Health,20__0,20,0.0,5. p99_trade_value,88000.00000000001,88000.00000000001,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+TRUP,Finance,Insurance - Accident and Health,20__0,20,0.0,6. p95_trade_value,66500.0,32120.000000000004,4.0,5.0,0.8,0.55,2. BELOW BASELINE,5.0,7.0,0.7142857142857143
+TRUP,Finance,Insurance - Accident and Health,20__0,20,0.0,7. p90_trade_value,30250.0,15000.0,2.0,7.0,0.2857142857142857,0.55,2. BELOW BASELINE,7.0,14.0,0.5
+TRUP,Finance,Insurance - Accident and Health,20__0,20,0.0,8. p75_trade_value,13140.0,7020.0,12.0,21.0,0.5714285714285714,0.55,2. BELOW BASELINE,19.0,35.0,0.5428571428571428
+TRV,Finance,Insurance - Property and Casualty,25__1,25,1.0,1. p999999_trade_value,176000.00000000003,176000.00000000003,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+TRV,Finance,Insurance - Property and Casualty,25__1,25,1.0,5. p99_trade_value,74000.0,55120.00000000001,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
+TRV,Finance,Insurance - Property and Casualty,25__1,25,1.0,6. p95_trade_value,42330.0,17280.0,8.0,12.0,0.6666666666666666,0.55,1. ABOVE BASELINE,11.0,16.0,0.6875
+TRV,Finance,Insurance - Property and Casualty,25__1,25,1.0,7. p90_trade_value,17000.0,11520.0,7.0,16.0,0.4375,0.55,2. BELOW BASELINE,18.0,32.0,0.5625
+TRV,Finance,Insurance - Property and Casualty,25__1,25,1.0,8. p75_trade_value,11160.0,7400.0,20.0,46.0,0.43478260869565216,0.55,2. BELOW BASELINE,38.0,78.0,0.48717948717948717
+TW,Finance,Financial - Investment Bank,25__1,25,1.0,1. p999999_trade_value,376200.0,376200.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+TW,Finance,Financial - Investment Bank,25__1,25,1.0,5. p99_trade_value,255750.0,187550.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+TW,Finance,Financial - Investment Bank,25__1,25,1.0,6. p95_trade_value,156000.0,24975.0,9.0,13.0,0.6923076923076923,0.55,1. ABOVE BASELINE,13.0,17.0,0.7647058823529411
+TW,Finance,Financial - Investment Bank,25__1,25,1.0,7. p90_trade_value,24790.0,15675.0,4.0,16.0,0.25,0.55,2. BELOW BASELINE,17.0,33.0,0.5151515151515151
+TW,Finance,Financial - Investment Bank,25__1,25,1.0,8. p75_trade_value,15435.000000000002,10710.0,39.0,48.0,0.8125,0.55,2. BELOW BASELINE,56.0,81.0,0.691358024691358
+TWO,Finance,REIT and Equity Trust,15__0,15,0.0,1. p999999_trade_value,72658.0,72658.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+TWO,Finance,REIT and Equity Trust,15__0,15,0.0,7. p90_trade_value,25650.0,25650.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+TWO,Finance,REIT and Equity Trust,15__0,15,0.0,8. p75_trade_value,13244.999999999998,10500.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,5.0,0.0
+UBFO,Finance,Banks - West,0__2,0,2.0,1. p999999_trade_value,8990.0,8990.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+UBS,Finance,Banks - Foreign,25__1,25,1.0,1. p999999_trade_value,541713.0,541713.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+UBS,Finance,Banks - Foreign,25__1,25,1.0,5. p99_trade_value,146969.99999999997,146969.99999999997,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+UBS,Finance,Banks - Foreign,25__1,25,1.0,6. p95_trade_value,115020.0,36905.0,6.0,8.0,0.75,0.55,1. ABOVE BASELINE,8.0,10.0,0.8
+UBS,Finance,Banks - Foreign,25__1,25,1.0,7. p90_trade_value,30000.0,11880.0,7.0,10.0,0.7,0.55,1. ABOVE BASELINE,15.0,20.0,0.75
+UBS,Finance,Banks - Foreign,25__1,25,1.0,8. p75_trade_value,11850.0,7917.0,18.0,27.0,0.6666666666666666,0.55,1. ABOVE BASELINE,33.0,47.0,0.7021276595744681
+UDR,Finance,REIT and Equity Trust - Residential,5__0,5,0.0,1. p999999_trade_value,5000.0,5000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+UMBF,Finance,Banks - Midwest,0__0,0,0.0,1. p999999_trade_value,3135.0,3135.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+UNIT,Finance,REIT and Equity Trust - Other,10__0,10,0.0,1. p999999_trade_value,10905.0,10905.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+UNIT,Finance,REIT and Equity Trust - Other,10__0,10,0.0,7. p90_trade_value,9300.0,9300.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+UNIT,Finance,REIT and Equity Trust - Other,10__0,10,0.0,8. p75_trade_value,7092.0,7092.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+UNM,Finance,Insurance - Accident and Health,20__1,20,1.0,1. p999999_trade_value,212000.0,212000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+UNM,Finance,Insurance - Accident and Health,20__1,20,1.0,6. p95_trade_value,104790.00000000001,46191.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+UNM,Finance,Insurance - Accident and Health,20__1,20,1.0,7. p90_trade_value,45978.0,38475.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,6.0,6.0,1.0
+UNM,Finance,Insurance - Accident and Health,20__1,20,1.0,8. p75_trade_value,33740.0,12475.0,7.0,9.0,0.7777777777777778,0.55,1. ABOVE BASELINE,13.0,15.0,0.8666666666666667
+UPBD,Finance,Financial - Leasing Companies,5__0,5,0.0,1. p999999_trade_value,4512.0,4512.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+UPST,Finance,Financial - Miscellaneous Services,45__2,45,2.0,1. p999999_trade_value,2730000.0,2730000.0,0.0,1.0,0.0,0.55,1. ABOVE BASELINE,0.0,1.0,0.0
+UPST,Finance,Financial - Miscellaneous Services,45__2,45,2.0,3. p9999_trade_value,1211012.0,1049580.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,2.0,3.0,0.6666666666666666
+UPST,Finance,Financial - Miscellaneous Services,45__2,45,2.0,4. p999_trade_value,975660.0,321999.99999999994,19.0,25.0,0.76,0.55,1. ABOVE BASELINE,21.0,28.0,0.75
+UPST,Finance,Financial - Miscellaneous Services,45__2,45,2.0,5. p99_trade_value,306000.0,82832.0,143.0,249.0,0.5742971887550201,0.55,1. ABOVE BASELINE,164.0,277.0,0.592057761732852
+UPST,Finance,Financial - Miscellaneous Services,45__2,45,2.0,6. p95_trade_value,82725.0,28000.0,652.0,1109.0,0.587917042380523,0.55,1. ABOVE BASELINE,816.0,1386.0,0.5887445887445888
+UPST,Finance,Financial - Miscellaneous Services,45__2,45,2.0,7. p90_trade_value,27945.0,17250.0,816.0,1391.0,0.586628324946082,0.55,1. ABOVE BASELINE,1632.0,2777.0,0.5876845516744689
+UPST,Finance,Financial - Miscellaneous Services,45__2,45,2.0,8. p75_trade_value,17248.0,8961.0,2469.0,4140.0,0.5963768115942029,0.55,1. ABOVE BASELINE,4101.0,6917.0,0.5928870897788059
+USB,Finance,Banks - Major Regional,30__0,30,0.0,1. p999999_trade_value,222000.0,222000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+USB,Finance,Banks - Major Regional,30__0,30,0.0,5. p99_trade_value,198000.0,60000.0,5.0,9.0,0.5555555555555556,0.55,2. BELOW BASELINE,5.0,10.0,0.5
+USB,Finance,Banks - Major Regional,30__0,30,0.0,6. p95_trade_value,59925.0,28000.0,15.0,40.0,0.375,0.55,2. BELOW BASELINE,20.0,50.0,0.4
+USB,Finance,Banks - Major Regional,30__0,30,0.0,7. p90_trade_value,27984.000000000004,15000.0,19.0,46.0,0.41304347826086957,0.55,2. BELOW BASELINE,39.0,96.0,0.40625
+USB,Finance,Banks - Major Regional,30__0,30,0.0,8. p75_trade_value,14840.0,7500.0,70.0,143.0,0.48951048951048953,0.55,2. BELOW BASELINE,109.0,239.0,0.4560669456066946
+UVE,Finance,Insurance - Property and Casualty,5__3,5,3.0,1. p999999_trade_value,14000.0,14000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+UWMC,Finance,Financial - Mortgage & Related Services,20__0,20,0.0,1. p999999_trade_value,150000.0,150000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+UWMC,Finance,Financial - Mortgage & Related Services,20__0,20,0.0,6. p95_trade_value,64000.0,42000.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+UWMC,Finance,Financial - Mortgage & Related Services,20__0,20,0.0,7. p90_trade_value,22050.0,16025.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,3.0,8.0,0.375
+UWMC,Finance,Financial - Mortgage & Related Services,20__0,20,0.0,8. p75_trade_value,15000.0,9786.000000000002,8.0,10.0,0.8,0.55,2. BELOW BASELINE,11.0,18.0,0.6111111111111112
+VCTR,Finance,Financial - Investment Management,10__0,10,0.0,1. p999999_trade_value,9025.0,9025.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+VCTR,Finance,Financial - Investment Management,10__0,10,0.0,8. p75_trade_value,7600.0,7600.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+VICI,Finance,REIT and Equity Trust - Other,15__0,15,0.0,1. p999999_trade_value,81970.0,81970.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+VICI,Finance,REIT and Equity Trust - Other,15__0,15,0.0,6. p95_trade_value,77350.0,46965.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+VICI,Finance,REIT and Equity Trust - Other,15__0,15,0.0,7. p90_trade_value,36610.0,28454.999999999996,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,5.0,5.0,1.0
+VICI,Finance,REIT and Equity Trust - Other,15__0,15,0.0,8. p75_trade_value,27195.0,12705.0,6.0,7.0,0.8571428571428571,0.55,1. ABOVE BASELINE,11.0,12.0,0.9166666666666666
+VIRT,Finance,Financial - Miscellaneous Services,15__0,15,0.0,1. p999999_trade_value,32835.0,32835.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+VIRT,Finance,Financial - Miscellaneous Services,15__0,15,0.0,6. p95_trade_value,32000.0,17745.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+VIRT,Finance,Financial - Miscellaneous Services,15__0,15,0.0,7. p90_trade_value,15730.000000000002,12320.000000000002,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
+VIRT,Finance,Financial - Miscellaneous Services,15__0,15,0.0,8. p75_trade_value,9900.0,7095.0,3.0,7.0,0.42857142857142855,0.55,2. BELOW BASELINE,7.0,13.0,0.5384615384615384
+VLY,Finance,Banks - Northeast,15__0,15,0.0,1. p999999_trade_value,225000.0,225000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+VLY,Finance,Banks - Northeast,15__0,15,0.0,6. p95_trade_value,49350.0,49350.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+VLY,Finance,Banks - Northeast,15__0,15,0.0,7. p90_trade_value,20850.0,20850.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+VLY,Finance,Banks - Northeast,15__0,15,0.0,8. p75_trade_value,18810.000000000004,11400.0,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,3.0,6.0,0.5
+VNO,Finance,REIT and Equity Trust - Other,15__0,15,0.0,1. p999999_trade_value,144000.0,144000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+VNO,Finance,REIT and Equity Trust - Other,15__0,15,0.0,6. p95_trade_value,70000.0,34000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+VNO,Finance,REIT and Equity Trust - Other,15__0,15,0.0,7. p90_trade_value,17325.0,13200.0,3.0,3.0,1.0,0.55,2. BELOW BASELINE,5.0,6.0,0.8333333333333334
+VNO,Finance,REIT and Equity Trust - Other,15__0,15,0.0,8. p75_trade_value,9900.0,7600.0,3.0,8.0,0.375,0.55,2. BELOW BASELINE,8.0,14.0,0.5714285714285714
+VOYA,Finance,Insurance - Life Insurance,10__0,10,0.0,1. p999999_trade_value,8755.0,8755.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+VOYA,Finance,Insurance - Life Insurance,10__0,10,0.0,7. p90_trade_value,8700.0,8700.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+VOYA,Finance,Insurance - Life Insurance,10__0,10,0.0,8. p75_trade_value,7500.0,7440.000000000001,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+VTR,Finance,REIT and Equity Trust - Other,15__0,15,0.0,1. p999999_trade_value,59840.0,59840.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+VTR,Finance,REIT and Equity Trust - Other,15__0,15,0.0,6. p95_trade_value,38961.0,38961.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+VTR,Finance,REIT and Equity Trust - Other,15__0,15,0.0,7. p90_trade_value,23376.0,23376.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+VTR,Finance,REIT and Equity Trust - Other,15__0,15,0.0,8. p75_trade_value,16915.0,10625.0,3.0,3.0,1.0,0.55,2. BELOW BASELINE,5.0,7.0,0.7142857142857143
+WAL,Finance,Banks - West,25__1,25,1.0,1. p999999_trade_value,149950.0,149950.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+WAL,Finance,Banks - West,25__1,25,1.0,5. p99_trade_value,120000.0,35670.0,3.0,5.0,0.6,0.55,1. ABOVE BASELINE,4.0,6.0,0.6666666666666666
+WAL,Finance,Banks - West,25__1,25,1.0,6. p95_trade_value,33968.0,17500.0,16.0,22.0,0.7272727272727273,0.55,1. ABOVE BASELINE,20.0,28.0,0.7142857142857143
+WAL,Finance,Banks - West,25__1,25,1.0,7. p90_trade_value,17200.0,12749.999999999998,14.0,28.0,0.5,0.55,2. BELOW BASELINE,34.0,56.0,0.6071428571428571
+WAL,Finance,Banks - West,25__1,25,1.0,8. p75_trade_value,12480.0,8200.0,32.0,83.0,0.3855421686746988,0.55,2. BELOW BASELINE,66.0,139.0,0.4748201438848921
+WBS,Finance,Banks - Northeast,15__0,15,0.0,1. p999999_trade_value,128280.0,128280.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+WBS,Finance,Banks - Northeast,15__0,15,0.0,6. p95_trade_value,35904.0,35904.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+WBS,Finance,Banks - Northeast,15__0,15,0.0,7. p90_trade_value,25520.0,25520.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+WBS,Finance,Banks - Northeast,15__0,15,0.0,8. p75_trade_value,25440.0,10400.0,3.0,5.0,0.6,0.55,2. BELOW BASELINE,4.0,8.0,0.5
+WELL,Finance,REIT and Equity Trust - Other,20__0,20,0.0,1. p999999_trade_value,117739.99999999999,117739.99999999999,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+WELL,Finance,REIT and Equity Trust - Other,20__0,20,0.0,5. p99_trade_value,117600.0,117600.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+WELL,Finance,REIT and Equity Trust - Other,20__0,20,0.0,6. p95_trade_value,38500.0,19000.0,4.0,7.0,0.5714285714285714,0.55,1. ABOVE BASELINE,6.0,9.0,0.6666666666666666
+WELL,Finance,REIT and Equity Trust - Other,20__0,20,0.0,7. p90_trade_value,17300.0,13650.0,6.0,9.0,0.6666666666666666,0.55,1. ABOVE BASELINE,12.0,18.0,0.6666666666666666
+WELL,Finance,REIT and Equity Trust - Other,20__0,20,0.0,8. p75_trade_value,12919.999999999998,7670.0,17.0,25.0,0.68,0.55,1. ABOVE BASELINE,29.0,43.0,0.6744186046511628
+WFC,Finance,Financial - Investment Bank,40__0,40,0.0,1. p999999_trade_value,4240000.0,4240000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+WFC,Finance,Financial - Investment Bank,40__0,40,0.0,4. p999_trade_value,2323953.0,700000.0,5.0,8.0,0.625,0.55,1. ABOVE BASELINE,6.0,9.0,0.6666666666666666
+WFC,Finance,Financial - Investment Bank,40__0,40,0.0,5. p99_trade_value,640000.0,87465.0,48.0,73.0,0.6575342465753424,0.55,1. ABOVE BASELINE,54.0,82.0,0.6585365853658537
+WFC,Finance,Financial - Investment Bank,40__0,40,0.0,6. p95_trade_value,85950.0,24480.0,205.0,325.0,0.6307692307692307,0.55,1. ABOVE BASELINE,259.0,407.0,0.6363636363636364
+WFC,Finance,Financial - Investment Bank,40__0,40,0.0,7. p90_trade_value,24472.000000000004,15497.999999999998,234.0,404.0,0.5792079207920792,0.55,1. ABOVE BASELINE,493.0,811.0,0.6078914919852034
+WFC,Finance,Financial - Investment Bank,40__0,40,0.0,8. p75_trade_value,15477.000000000002,8295.0,688.0,1218.0,0.5648604269293924,0.55,1. ABOVE BASELINE,1181.0,2029.0,0.5820601281419419
+WPC,Finance,REIT and Equity Trust - Other,10__0,10,0.0,1. p999999_trade_value,18090.0,18090.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+WPC,Finance,REIT and Equity Trust - Other,10__0,10,0.0,7. p90_trade_value,15525.0,15525.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+WPC,Finance,REIT and Equity Trust - Other,10__0,10,0.0,8. p75_trade_value,6000.0,5720.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,3.0,4.0,0.75
+WRB,Finance,Insurance - Property and Casualty,15__0,15,0.0,1. p999999_trade_value,14000.0,14000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+WRB,Finance,Insurance - Property and Casualty,15__0,15,0.0,6. p95_trade_value,12750.0,12750.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+WRB,Finance,Insurance - Property and Casualty,15__0,15,0.0,7. p90_trade_value,12500.0,12500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+WRB,Finance,Insurance - Property and Casualty,15__0,15,0.0,8. p75_trade_value,10000.0,6440.000000000001,5.0,5.0,1.0,0.55,2. BELOW BASELINE,6.0,8.0,0.75
+WSC,Finance,Real Estate - Operations,25__1,25,1.0,1. p999999_trade_value,606060.0,606060.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+WSC,Finance,Real Estate - Operations,25__1,25,1.0,5. p99_trade_value,184000.0,166000.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+WSC,Finance,Real Estate - Operations,25__1,25,1.0,6. p95_trade_value,80000.0,27500.0,2.0,9.0,0.2222222222222222,0.55,2. BELOW BASELINE,2.0,12.0,0.16666666666666666
+WSC,Finance,Real Estate - Operations,25__1,25,1.0,7. p90_trade_value,27390.000000000004,17080.0,4.0,11.0,0.36363636363636365,0.55,2. BELOW BASELINE,6.0,23.0,0.2608695652173913
+WSC,Finance,Real Estate - Operations,25__1,25,1.0,8. p75_trade_value,17000.0,8388.0,11.0,33.0,0.3333333333333333,0.55,2. BELOW BASELINE,17.0,56.0,0.30357142857142855
+WT,Finance,Financial - Miscellaneous Services,5__0,5,0.0,1. p999999_trade_value,11200.000000000002,11200.000000000002,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+WTFC,Finance,Banks - Midwest,0__0,0,0.0,1. p999999_trade_value,5850.0,5850.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+WTW,Finance,Insurance - Brokerage,25__1,25,1.0,1. p999999_trade_value,261260.99999999997,261260.99999999997,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+WTW,Finance,Insurance - Brokerage,25__1,25,1.0,5. p99_trade_value,175250.0,175250.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+WTW,Finance,Insurance - Brokerage,25__1,25,1.0,6. p95_trade_value,153439.0,36946.0,6.0,10.0,0.6,0.55,1. ABOVE BASELINE,9.0,13.0,0.6923076923076923
+WTW,Finance,Insurance - Brokerage,25__1,25,1.0,7. p90_trade_value,35500.0,16000.0,6.0,13.0,0.46153846153846156,0.55,2. BELOW BASELINE,15.0,26.0,0.5769230769230769
+WTW,Finance,Insurance - Brokerage,25__1,25,1.0,8. p75_trade_value,14819.0,5700.0,28.0,38.0,0.7368421052631579,0.55,2. BELOW BASELINE,43.0,64.0,0.671875
+WULF,Finance,Financial - Miscellaneous Services,35__3,35,3.0,1. p999999_trade_value,364000.0,364000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+WULF,Finance,Financial - Miscellaneous Services,35__3,35,3.0,4. p999_trade_value,294000.0,270000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+WULF,Finance,Financial - Miscellaneous Services,35__3,35,3.0,5. p99_trade_value,250000.0,90000.0,5.0,26.0,0.19230769230769232,0.55,2. BELOW BASELINE,6.0,29.0,0.20689655172413793
+WULF,Finance,Financial - Miscellaneous Services,35__3,35,3.0,6. p95_trade_value,88700.0,31500.0,44.0,103.0,0.42718446601941745,0.55,2. BELOW BASELINE,50.0,132.0,0.3787878787878788
+WULF,Finance,Financial - Miscellaneous Services,35__3,35,3.0,7. p90_trade_value,31250.0,19020.0,59.0,132.0,0.44696969696969696,0.55,2. BELOW BASELINE,109.0,264.0,0.4128787878787879
+WULF,Finance,Financial - Miscellaneous Services,35__3,35,3.0,8. p75_trade_value,18945.0,9616.0,179.0,395.0,0.4531645569620253,0.55,2. BELOW BASELINE,288.0,659.0,0.4370257966616085
+XP,Finance,Financial - Miscellaneous Services,25__0,25,0.0,1. p999999_trade_value,1860000.0,1860000.0,0.0,1.0,0.0,0.55,1. ABOVE BASELINE,0.0,1.0,0.0
+XP,Finance,Financial - Miscellaneous Services,25__0,25,0.0,5. p99_trade_value,319320.0,219560.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
+XP,Finance,Financial - Miscellaneous Services,25__0,25,0.0,6. p95_trade_value,209000.0,123425.0,7.0,14.0,0.5,0.55,2. BELOW BASELINE,10.0,18.0,0.5555555555555556
+XP,Finance,Financial - Miscellaneous Services,25__0,25,0.0,7. p90_trade_value,119960.00000000001,50000.0,8.0,17.0,0.47058823529411764,0.55,2. BELOW BASELINE,18.0,35.0,0.5142857142857142
+XP,Finance,Financial - Miscellaneous Services,25__0,25,0.0,8. p75_trade_value,41958.0,8778.0,27.0,52.0,0.5192307692307693,0.55,2. BELOW BASELINE,45.0,87.0,0.5172413793103449
+ZG,Finance,Financial - Mortgage & Related Services,15__0,15,0.0,1. p999999_trade_value,30000.0,30000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ZG,Finance,Financial - Mortgage & Related Services,15__0,15,0.0,6. p95_trade_value,22000.000000000004,14500.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+ZG,Finance,Financial - Mortgage & Related Services,15__0,15,0.0,7. p90_trade_value,13865.0,12180.0,3.0,3.0,1.0,0.55,2. BELOW BASELINE,5.0,6.0,0.8333333333333334
+ZG,Finance,Financial - Mortgage & Related Services,15__0,15,0.0,8. p75_trade_value,11200.000000000002,7809.0,3.0,8.0,0.375,0.55,2. BELOW BASELINE,8.0,14.0,0.5714285714285714
+ZION,Finance,Banks - West,25__1,25,1.0,1. p999999_trade_value,84348.0,84348.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ZION,Finance,Banks - West,25__1,25,1.0,5. p99_trade_value,56490.0,47139.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+ZION,Finance,Banks - West,25__1,25,1.0,6. p95_trade_value,46816.0,31575.0,6.0,8.0,0.75,0.55,1. ABOVE BASELINE,9.0,11.0,0.8181818181818182
+ZION,Finance,Banks - West,25__1,25,1.0,7. p90_trade_value,29759.999999999996,20640.0,6.0,10.0,0.6,0.55,1. ABOVE BASELINE,15.0,21.0,0.7142857142857143
+ZION,Finance,Banks - West,25__1,25,1.0,8. p75_trade_value,20496.0,8474.999999999998,23.0,31.0,0.7419354838709677,0.55,1. ABOVE BASELINE,38.0,52.0,0.7307692307692307

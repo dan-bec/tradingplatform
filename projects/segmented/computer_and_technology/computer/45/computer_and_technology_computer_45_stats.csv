@@ -1,0 +1,5 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ADBE,Computer and Technology,Computer - Software,0.55,,,,46976,45__2,45,2.0,16260.0,25725.0,71242.5,252693.98,944166.25,1652632.37,1694768.24
+CRM,Computer and Technology,Computer - Software,0.55,,,,44564,45__1,45,1.0,18025.0,28350.0,71228.85,256612.29,1066962.14,3194570.85,4279457.08
+DELL,Computer and Technology,Computer - Micro Computers,0.55,651000.0,1. p999999_trade_value,1.0,30630,45__2,45,2.0,16536.0,25628.8,66000.0,201141.36,493764.97,611603.45,647060.34
+ORCL,Computer and Technology,Computer - Software,0.55,,,,38469,45__2,45,2.0,17823.4,29246.0,71915.0,241625.6,770612.8,1399837.56,1651983.76

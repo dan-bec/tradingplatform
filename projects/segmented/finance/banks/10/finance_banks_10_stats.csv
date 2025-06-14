@@ -1,0 +1,11 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+BANC,Finance,Banks - Southwest,0.55,6266.0,8. p75_trade_value,5.0,13,10__0,10,0.0,10359.0,20261.6,31615.52,34170.15,34425.62,34451.16,34453.72
+BBAR,Finance,Banks - Foreign,0.55,7200.0,8. p75_trade_value,4.0,17,10__0,10,0.0,8414.0,12229.0,23361.8,25866.68,26117.17,26142.22,26144.72
+BOH,Finance,Banks - West,0.55,,,,9,10__0,10,0.0,10800.0,14400.0,17280.0,17928.0,17992.8,17999.28,17999.93
+CFR,Finance,Banks - Southwest,0.55,,,,13,10__0,10,0.0,7614.0,9558.0,11631.6,12098.16,12144.82,12149.48,12149.95
+EBC,Finance,Banks - Northeast,0.55,5500.000000000001,8. p75_trade_value,6.0,16,10__0,10,0.0,11600.0,12750.0,14550.0,14955.0,14995.5,14999.55,14999.95
+ING,Finance,Banks - Foreign,0.55,,,,6,10__0,10,0.0,6415.0,6945.0,7369.0,7464.4,7473.94,7474.89,7474.99
+ITUB,Finance,Banks - Foreign,0.55,7030.0,8. p75_trade_value,2.0,7,10__0,10,0.0,14218.0,19609.0,23921.8,24892.18,24989.22,24998.92,24999.89
+NWG,Finance,Banks - Foreign,0.55,,,,6,10__0,10,0.0,9300.0,11355.0,12999.0,13368.9,13405.89,13409.59,13409.96
+SUPV,Finance,Banks - Foreign,0.55,,,,12,10__0,10,0.0,6823.5,8156.25,9311.25,9571.13,9597.11,9599.71,9599.97
+TCBI,Finance,Banks - Southwest,0.55,4776.0,8. p75_trade_value,2.0,7,10__0,10,0.0,4833.6,4876.8,4911.36,4919.14,4919.91,4919.99,4920.0

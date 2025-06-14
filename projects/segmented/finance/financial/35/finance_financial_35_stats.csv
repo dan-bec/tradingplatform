@@ -1,0 +1,14 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+APLD,Finance,Financial - Miscellaneous Services,0.55,,,,5264,35__3,35,3.0,16134.3,27800.55,98100.0,361687.45,658083.86,686965.89,689854.09
+APO,Finance,Financial - Investment Management,0.55,,,,5152,35__0,35,0.0,16000.0,25289.0,57174.23,151698.0,556550.4,601055.04,605505.5
+BLK,Finance,Financial - Investment Management,0.55,,,,3790,35__0,35,0.0,16201.1,25088.0,63652.65,150472.64,213633.0,223863.3,224886.33
+BULL,Finance,Financial - Miscellaneous Services,0.55,800000.0,1. p999999_trade_value,1.0,2031,35__0,35,0.0,14700.0,23658.0,54845.1,202225.05,690380.0,789038.0,798903.8
+COF,Finance,Financial - Consumer Loans,0.55,708000.0,4. p999_trade_value,6.0,5515,35__2,35,2.0,18240.0,33000.0,138249.04,659797.08,3356793.35,3972741.33,4034336.13
+CRCL,Finance,Financial - Miscellaneous Services,0.55,,,,2055,35__0,35,0.0,14365.6,23901.2,70289.4,200845.3,326391.45,335174.14,336052.41
+HUT,Finance,Financial - Miscellaneous Services,0.55,83040.0,5. p99_trade_value,28.0,2725,35__3,35,3.0,19363.2,30682.0,82831.2,159161.76,433685.93,496968.59,503296.86
+IBKR,Finance,Financial - Investment Bank,0.55,501830.0,1. p999999_trade_value,1.0,1991,35__0,35,0.0,15620.0,22025.0,54839.0,195224.25,443755.83,496022.58,501249.26
+IREN,Finance,Financial - Miscellaneous Services,0.55,,,,4725,35__0,35,0.0,14339.2,20492.8,54887.28,149631.18,333036.0,379803.6,384480.36
+KKR,Finance,Financial - Investment Management,0.55,325863.0,4. p999_trade_value,4.0,3220,35__3,35,3.0,15178.0,30009.75,111008.45,325476.9,355060.44,359506.04,359950.6
+SCHW,Finance,Financial - Investment Bank,0.55,745000.0,1. p999999_trade_value,1.0,4457,35__3,35,3.0,15593.8,26395.2,98225.76,486560.69,714253.6,741925.36,744692.54
+TIGR,Finance,Financial - Investment Bank,0.55,113100.0,4. p999_trade_value,5.0,4788,35__3,35,3.0,17021.6,26964.85,69585.75,112297.26,149020.33,167210.83,169029.88
+WULF,Finance,Financial - Miscellaneous Services,0.55,,,,2634,35__3,35,3.0,18997.5,31337.5,90000.0,257340.0,345569.0,362156.9,363815.69

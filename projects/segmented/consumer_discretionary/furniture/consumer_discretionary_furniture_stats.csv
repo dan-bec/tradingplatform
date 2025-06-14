@@ -1,0 +1,8 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AMWD,Consumer Discretionary,Furniture,0.55,,,,6,10__0,10,0.0,16740.0,17370.0,17874.0,17987.4,17998.74,17999.87,17999.99
+LEG,Consumer Discretionary,Furniture,0.55,16873.0,1. p999999_trade_value,1.0,6,10__0,10,0.0,10839.5,13856.25,16269.65,16812.67,16866.97,16872.4,16872.94
+LZB,Consumer Discretionary,Furniture,0.55,,,,1,0__0,0,0.0,4565.0,4565.0,4565.0,4565.0,4565.0,4565.0,4565.0
+MBC,Consumer Discretionary,Furniture,0.55,,,,1,0__0,0,0.0,3500.0,3500.0,3500.0,3500.0,3500.0,3500.0,3500.0
+MLKN,Consumer Discretionary,Furniture,0.55,18000.0,8. p75_trade_value,4.0,16,10__0,10,0.0,21207.5,21250.0,21250.0,21250.0,21250.0,21250.0,21250.0
+SNBR,Consumer Discretionary,Furniture,0.55,10400.0,8. p75_trade_value,7.0,27,15__0,15,0.0,19446.0,24702.0,38855.7,43197.57,43631.76,43675.18,43679.52
+VIRC,Consumer Discretionary,Furniture,0.55,,,,9,10__0,10,0.0,9620.0,9760.0,9872.0,9897.2,9899.72,9899.97,9900.0

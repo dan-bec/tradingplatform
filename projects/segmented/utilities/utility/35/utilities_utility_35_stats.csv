@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+NEE,Utilities,Utility - Electric Power,0.55,,,,2958,35__4,35,4.0,15802.4,25116.7,88901.01,480921.06,1013348.9,1152534.89,1166453.49

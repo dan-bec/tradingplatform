@@ -1,0 +1,11 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ARE,Finance,REIT and Equity Trust - Other,0.55,95250.0,1. p999999_trade_value,1.0,107,20__0,20,0.0,16068.0,39610.5,88275.0,94693.5,95194.35,95244.44,95249.44
+BXP,Finance,REIT and Equity Trust - Other,0.55,7220.0,8. p75_trade_value,32.0,125,20__0,20,0.0,14522.0,20474.0,73350.24,145110.88,153313.59,154133.86,154215.89
+CXW,Finance,REIT and Equity Trust - Other,0.55,6859.999999999999,8. p75_trade_value,35.0,138,20__0,20,0.0,11231.5,16129.1,95025.0,145890.0,149589.0,149958.9,149995.89
+DBRG,Finance,REIT and Equity Trust,0.55,8200.0,8. p75_trade_value,42.0,165,20__0,20,0.0,20304.0,38270.0,137600.0,169697.6,171409.76,171580.98,171598.1
+DOC,Finance,REIT and Equity Trust - Other,0.55,6675.0,8. p75_trade_value,16.0,62,20__0,20,0.0,13689.0,16550.4,32811.48,42656.15,43640.61,43739.06,43748.91
+IIPR,Finance,REIT and Equity Trust - Other,0.55,19900.0,6. p95_trade_value,4.0,72,20__0,20,0.0,10804.5,17271.0,32523.05,36385.81,36772.08,36810.71,36814.57
+O,Finance,REIT and Equity Trust - Retail,0.55,210300.0,1. p999999_trade_value,1.0,173,20__0,20,0.0,10197.2,13728.2,64453.2,205516.68,209821.67,210252.17,210295.22
+PSA,Finance,REIT and Equity Trust - Other,0.55,99000.0,1. p999999_trade_value,1.0,127,20__0,20,0.0,14163.6,26025.0,59722.8,94369.5,98536.95,98953.7,98995.37
+SBAC,Finance,REIT and Equity Trust - Other,0.55,,,,97,20__0,20,0.0,19880.0,30545.0,45048.0,97924.8,103212.48,103741.25,103794.12
+WELL,Finance,REIT and Equity Trust - Other,0.55,7670.0,8. p75_trade_value,43.0,172,20__0,20,0.0,13577.0,18065.0,61439.0,117716.06,117737.61,117739.76,117739.98

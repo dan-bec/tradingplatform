@@ -1,0 +1,22 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+MTZ,Construction,Building Products - Heavy Construction,30__1,30,1.0,1. p999999_trade_value,2520000.0,2520000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MTZ,Construction,Building Products - Heavy Construction,30__1,30,1.0,5. p99_trade_value,1300000.0,144000.0,3.0,7.0,0.42857142857142855,0.55,2. BELOW BASELINE,3.0,8.0,0.375
+MTZ,Construction,Building Products - Heavy Construction,30__1,30,1.0,6. p95_trade_value,141000.0,40150.0,23.0,31.0,0.7419354838709677,0.55,2. BELOW BASELINE,26.0,39.0,0.6666666666666666
+MTZ,Construction,Building Products - Heavy Construction,30__1,30,1.0,7. p90_trade_value,35520.00000000001,18490.0,26.0,38.0,0.6842105263157895,0.55,2. BELOW BASELINE,52.0,77.0,0.6753246753246753
+MTZ,Construction,Building Products - Heavy Construction,30__1,30,1.0,8. p75_trade_value,18450.0,8525.0,83.0,116.0,0.7155172413793104,0.55,2. BELOW BASELINE,135.0,193.0,0.6994818652849741
+PHM,Construction,Building Products - Home Builders,30__2,30,2.0,1. p999999_trade_value,1115478.0,1115478.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,1.0,1.0
+PHM,Construction,Building Products - Home Builders,30__2,30,2.0,5. p99_trade_value,640000.0,176000.00000000003,3.0,6.0,0.5,0.55,2. BELOW BASELINE,4.0,7.0,0.5714285714285714
+PHM,Construction,Building Products - Home Builders,30__2,30,2.0,6. p95_trade_value,88452.0,23750.0,7.0,26.0,0.2692307692307692,0.55,2. BELOW BASELINE,11.0,33.0,0.3333333333333333
+PHM,Construction,Building Products - Home Builders,30__2,30,2.0,7. p90_trade_value,22500.0,13120.000000000002,21.0,33.0,0.6363636363636364,0.55,2. BELOW BASELINE,32.0,66.0,0.48484848484848486
+PHM,Construction,Building Products - Home Builders,30__2,30,2.0,8. p75_trade_value,13119.999999999998,7409.999999999999,52.0,99.0,0.5252525252525253,0.55,2. BELOW BASELINE,84.0,165.0,0.509090909090909
+TOL,Construction,Building Products - Home Builders,30__0,30,0.0,1. p999999_trade_value,228690.0,228690.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+TOL,Construction,Building Products - Home Builders,30__0,30,0.0,4. p999_trade_value,202350.0,202350.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+TOL,Construction,Building Products - Home Builders,30__0,30,0.0,5. p99_trade_value,170715.0,49715.0,11.0,14.0,0.7857142857142857,0.55,1. ABOVE BASELINE,13.0,16.0,0.8125
+TOL,Construction,Building Products - Home Builders,30__0,30,0.0,6. p95_trade_value,49389.0,21120.0,31.0,57.0,0.543859649122807,0.55,2. BELOW BASELINE,44.0,73.0,0.6027397260273972
+TOL,Construction,Building Products - Home Builders,30__0,30,0.0,7. p90_trade_value,21000.0,14057.999999999998,52.0,72.0,0.7222222222222222,0.55,2. BELOW BASELINE,96.0,145.0,0.6620689655172414
+TOL,Construction,Building Products - Home Builders,30__0,30,0.0,8. p75_trade_value,14029.999999999998,8000.0,137.0,218.0,0.6284403669724771,0.55,2. BELOW BASELINE,233.0,363.0,0.6418732782369146
+TT,Construction,Building Products - Air Conditioner and Heating,30__0,30,0.0,1. p999999_trade_value,405499.99999999994,405499.99999999994,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+TT,Construction,Building Products - Air Conditioner and Heating,30__0,30,0.0,5. p99_trade_value,268000.0,145555.0,2.0,6.0,0.3333333333333333,0.55,2. BELOW BASELINE,3.0,7.0,0.42857142857142855
+TT,Construction,Building Products - Air Conditioner and Heating,30__0,30,0.0,6. p95_trade_value,110000.0,22940.0,14.0,24.0,0.5833333333333334,0.55,2. BELOW BASELINE,17.0,31.0,0.5483870967741935
+TT,Construction,Building Products - Air Conditioner and Heating,30__0,30,0.0,7. p90_trade_value,22630.0,11520.0,14.0,33.0,0.42424242424242425,0.55,2. BELOW BASELINE,31.0,64.0,0.484375
+TT,Construction,Building Products - Air Conditioner and Heating,30__0,30,0.0,8. p75_trade_value,11421.0,7380.000000000001,57.0,91.0,0.6263736263736264,0.55,2. BELOW BASELINE,88.0,155.0,0.567741935483871

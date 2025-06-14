@@ -1,0 +1,25 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CRH,Construction,Building Products - Miscellaneous,35__1,35,1.0,1. p999999_trade_value,1250000.0,1250000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CRH,Construction,Building Products - Miscellaneous,35__1,35,1.0,4. p999_trade_value,1000000.0,1000000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+CRH,Construction,Building Products - Miscellaneous,35__1,35,1.0,5. p99_trade_value,800000.0,180375.00000000003,4.0,18.0,0.2222222222222222,0.55,2. BELOW BASELINE,6.0,20.0,0.3
+CRH,Construction,Building Products - Miscellaneous,35__1,35,1.0,6. p95_trade_value,180000.0,45580.0,27.0,77.0,0.35064935064935066,0.55,2. BELOW BASELINE,33.0,97.0,0.3402061855670103
+CRH,Construction,Building Products - Miscellaneous,35__1,35,1.0,7. p90_trade_value,45000.0,18090.0,29.0,96.0,0.3020833333333333,0.55,2. BELOW BASELINE,62.0,193.0,0.32124352331606215
+CRH,Construction,Building Products - Miscellaneous,35__1,35,1.0,8. p75_trade_value,18017.0,8820.0,63.0,289.0,0.2179930795847751,0.55,2. BELOW BASELINE,125.0,482.0,0.25933609958506226
+DHI,Construction,Building Products - Home Builders,35__0,35,0.0,1. p999999_trade_value,481500.0,481500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+DHI,Construction,Building Products - Home Builders,35__0,35,0.0,4. p999_trade_value,478500.0,419159.99999999994,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+DHI,Construction,Building Products - Home Builders,35__0,35,0.0,5. p99_trade_value,265000.0,63420.00000000001,19.0,24.0,0.7916666666666666,0.55,2. BELOW BASELINE,21.0,27.0,0.7777777777777778
+DHI,Construction,Building Products - Home Builders,35__0,35,0.0,6. p95_trade_value,63350.0,22816.0,63.0,104.0,0.6057692307692307,0.55,2. BELOW BASELINE,84.0,131.0,0.6412213740458015
+DHI,Construction,Building Products - Home Builders,35__0,35,0.0,7. p90_trade_value,22800.0,15120.000000000002,72.0,132.0,0.5454545454545454,0.55,2. BELOW BASELINE,156.0,263.0,0.5931558935361216
+DHI,Construction,Building Products - Home Builders,35__0,35,0.0,8. p75_trade_value,15047.999999999998,8250.0,207.0,392.0,0.5280612244897959,0.55,2. BELOW BASELINE,363.0,655.0,0.5541984732824428
+LEN,Construction,Building Products - Home Builders,35__2,35,2.0,1. p999999_trade_value,3700000.0,3700000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+LEN,Construction,Building Products - Home Builders,35__2,35,2.0,4. p999_trade_value,676499.9999999999,435659.99999999994,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
+LEN,Construction,Building Products - Home Builders,35__2,35,2.0,5. p99_trade_value,399497.0,83000.0,13.0,34.0,0.38235294117647056,0.55,2. BELOW BASELINE,16.0,38.0,0.42105263157894735
+LEN,Construction,Building Products - Home Builders,35__2,35,2.0,6. p95_trade_value,82668.0,24960.000000000004,62.0,152.0,0.40789473684210525,0.55,2. BELOW BASELINE,78.0,190.0,0.4105263157894737
+LEN,Construction,Building Products - Home Builders,35__2,35,2.0,7. p90_trade_value,24948.0,16400.0,92.0,189.0,0.48677248677248675,0.55,2. BELOW BASELINE,170.0,379.0,0.44854881266490765
+LEN,Construction,Building Products - Home Builders,35__2,35,2.0,8. p75_trade_value,16344.0,8487.0,277.0,569.0,0.4868189806678383,0.55,2. BELOW BASELINE,447.0,948.0,0.47151898734177217
+URI,Construction,Building Products - Miscellaneous,35__4,35,4.0,1. p999999_trade_value,2367200.0000000005,2367200.0000000005,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+URI,Construction,Building Products - Miscellaneous,35__4,35,4.0,4. p999_trade_value,1734300.0,739750.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+URI,Construction,Building Products - Miscellaneous,35__4,35,4.0,5. p99_trade_value,318600.0,64160.0,23.0,35.0,0.6571428571428571,0.55,2. BELOW BASELINE,23.0,39.0,0.5897435897435898
+URI,Construction,Building Products - Miscellaneous,35__4,35,4.0,6. p95_trade_value,63750.0,22460.000000000004,87.0,154.0,0.564935064935065,0.55,2. BELOW BASELINE,110.0,193.0,0.5699481865284974
+URI,Construction,Building Products - Miscellaneous,35__4,35,4.0,7. p90_trade_value,22325.0,16000.0,115.0,196.0,0.5867346938775511,0.55,2. BELOW BASELINE,225.0,389.0,0.5784061696658098
+URI,Construction,Building Products - Miscellaneous,35__4,35,4.0,8. p75_trade_value,15985.0,9000.0,358.0,594.0,0.6026936026936027,0.55,2. BELOW BASELINE,583.0,983.0,0.5930824008138352

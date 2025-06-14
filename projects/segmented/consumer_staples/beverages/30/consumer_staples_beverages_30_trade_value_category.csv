@@ -1,0 +1,6 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+MNST,Consumer Staples,Beverages - Soft drinks,30__2,30,2.0,1. p999999_trade_value,715000.0,715000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MNST,Consumer Staples,Beverages - Soft drinks,30__2,30,2.0,5. p99_trade_value,570000.0,240000.0,3.0,7.0,0.42857142857142855,0.55,2. BELOW BASELINE,4.0,8.0,0.5
+MNST,Consumer Staples,Beverages - Soft drinks,30__2,30,2.0,6. p95_trade_value,232438.0,34320.0,9.0,30.0,0.3,0.55,2. BELOW BASELINE,13.0,38.0,0.34210526315789475
+MNST,Consumer Staples,Beverages - Soft drinks,30__2,30,2.0,7. p90_trade_value,34048.0,20900.0,11.0,37.0,0.2972972972972973,0.55,2. BELOW BASELINE,24.0,75.0,0.32
+MNST,Consumer Staples,Beverages - Soft drinks,30__2,30,2.0,8. p75_trade_value,20500.0,8900.0,41.0,112.0,0.36607142857142855,0.55,2. BELOW BASELINE,65.0,187.0,0.34759358288770054

@@ -1,0 +1,6 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+CWK,Finance,Real Estate - Operations,0.55,60000.0,8. p75_trade_value,2.0,7,10__2,10,2.0,108000.0,144000.0,172800.0,179280.0,179928.0,179992.8,179999.28
+EXPI,Finance,Real Estate - Operations,0.55,,,,17,10__0,10,0.0,11901.6,13043.2,14288.64,14568.86,14596.89,14599.69,14599.97
+FIP,Finance,Real Estate - Operations,0.55,8350.0,8. p75_trade_value,3.0,9,10__0,10,0.0,9690.0,9870.0,10014.0,10046.4,10049.64,10049.96,10050.0
+HOUS,Finance,Real Estate - Operations,0.55,5000.0,1. p999999_trade_value,2.0,6,10__0,10,0.0,5000.0,5000.0,5000.0,5000.0,5000.0,5000.0,5000.0
+RMAX,Finance,Real Estate - Operations,0.55,9000.0,1. p999999_trade_value,1.0,6,10__0,10,0.0,7660.0,8330.0,8866.0,8986.6,8998.66,8999.87,8999.99

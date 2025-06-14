@@ -1,0 +1,13 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+ABNB,Consumer Discretionary,Leisure and Recreation Services,40__0,40,0.0,1. p999999_trade_value,1302500.0,1302500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ABNB,Consumer Discretionary,Leisure and Recreation Services,40__0,40,0.0,4. p999_trade_value,755450.0,360580.0,7.0,9.0,0.7777777777777778,0.55,1. ABOVE BASELINE,8.0,10.0,0.8
+ABNB,Consumer Discretionary,Leisure and Recreation Services,40__0,40,0.0,5. p99_trade_value,358688.0,118580.0,39.0,84.0,0.4642857142857143,0.55,2. BELOW BASELINE,47.0,94.0,0.5
+ABNB,Consumer Discretionary,Leisure and Recreation Services,40__0,40,0.0,6. p95_trade_value,118275.0,27450.0,209.0,373.0,0.5603217158176944,0.55,2. BELOW BASELINE,256.0,467.0,0.5481798715203426
+ABNB,Consumer Discretionary,Leisure and Recreation Services,40__0,40,0.0,7. p90_trade_value,27400.0,16800.0,266.0,467.0,0.569593147751606,0.55,2. BELOW BASELINE,522.0,934.0,0.5588865096359743
+ABNB,Consumer Discretionary,Leisure and Recreation Services,40__0,40,0.0,8. p75_trade_value,16770.0,8610.0,784.0,1398.0,0.5608011444921316,0.55,2. BELOW BASELINE,1306.0,2332.0,0.5600343053173242
+RCL,Consumer Discretionary,Leisure and Recreation Services,40__0,40,0.0,1. p999999_trade_value,4490240.0,4490240.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+RCL,Consumer Discretionary,Leisure and Recreation Services,40__0,40,0.0,4. p999_trade_value,3806179.9999999995,726218.0,5.0,5.0,1.0,0.55,1. ABOVE BASELINE,6.0,6.0,1.0
+RCL,Consumer Discretionary,Leisure and Recreation Services,40__0,40,0.0,5. p99_trade_value,621040.0,84669.0,35.0,51.0,0.6862745098039216,0.55,1. ABOVE BASELINE,41.0,57.0,0.7192982456140351
+RCL,Consumer Discretionary,Leisure and Recreation Services,40__0,40,0.0,6. p95_trade_value,84000.0,22125.0,116.0,226.0,0.5132743362831859,0.55,2. BELOW BASELINE,157.0,283.0,0.5547703180212014
+RCL,Consumer Discretionary,Leisure and Recreation Services,40__0,40,0.0,7. p90_trade_value,22092.0,13875.0,150.0,281.0,0.5338078291814946,0.55,2. BELOW BASELINE,307.0,564.0,0.5443262411347518
+RCL,Consumer Discretionary,Leisure and Recreation Services,40__0,40,0.0,8. p75_trade_value,13869.999999999998,7560.000000000001,483.0,848.0,0.5695754716981132,0.55,2. BELOW BASELINE,790.0,1412.0,0.5594900849858357

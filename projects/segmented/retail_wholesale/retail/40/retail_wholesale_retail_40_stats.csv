@@ -1,0 +1,11 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ANF,Retail-Wholesale,Retail - Apparel and Shoes,0.55,,,,7934,40__0,40,0.0,17322.0,27584.8,83703.0,403898.3,772978.65,1101047.87,1133854.79
+CAVA,Retail-Wholesale,Retail - Restaurants,0.55,836073.0,3. p9999_trade_value,2.0,13277,40__1,40,1.0,15412.6,24305.0,65154.0,332303.9,830807.49,2281265.15,2480376.52
+CMG,Retail-Wholesale,Retail - Restaurants,0.55,,,,6604,40__1,40,1.0,14898.5,23843.7,83179.0,461542.98,706466.38,822742.44,834370.04
+DECK,Retail-Wholesale,Retail - Apparel and Shoes,0.55,,,,6625,40__0,40,0.0,18806.0,31652.0,174356.0,686016.0,1219091.2,1464709.12,1489270.91
+DG,Retail-Wholesale,Retail - Discount Stores,0.55,,,,5845,40__1,40,1.0,16104.6,24892.0,85512.0,435439.87,1079568.22,1201456.82,1213645.68
+DLTR,Retail-Wholesale,Retail - Discount Stores,0.55,,,,7508,40__0,40,0.0,14914.2,24600.0,115302.2,609727.5,2750640.0,2750640.0,2750640.0
+HD,Retail-Wholesale,Retail - Home Furnishings,0.55,409875.0,3. p9999_trade_value,2.0,15029,40__1,40,1.0,15300.0,22911.8,54324.92,224396.4,388769.97,728626.22,779362.62
+MCD,Retail-Wholesale,Retail - Restaurants,0.55,,,,10411,40__1,40,1.0,13750.0,20857.5,54951.0,312196.0,651775.28,659208.01,659920.8
+SBUX,Retail-Wholesale,Retail - Restaurants,0.55,23850.0,6. p95_trade_value,502.0,10021,40__1,40,1.0,15092.0,23850.0,74956.8,421598.0,1403426.4,1841436.17,1885186.82
+ULTA,Retail-Wholesale,Retail - Miscellaneous,0.55,525000.0,1. p999999_trade_value,1.0,9309,40__1,40,1.0,14134.0,22770.0,52106.0,205000.0,465028.56,519002.86,524400.29

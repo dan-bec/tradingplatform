@@ -1,0 +1,8 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+TSM,Computer and Technology,Semiconductor - Circuit Foundry,50__3,50,3.0,1. p999999_trade_value,2140000.0,2140000.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,1.0,1.0
+TSM,Computer and Technology,Semiconductor - Circuit Foundry,50__3,50,3.0,3. p9999_trade_value,2106000.0,1221080.0,3.0,9.0,0.3333333333333333,0.55,2. BELOW BASELINE,4.0,10.0,0.4
+TSM,Computer and Technology,Semiconductor - Circuit Foundry,50__3,50,3.0,4. p999_trade_value,1215000.0,430000.0,55.0,81.0,0.6790123456790124,0.55,2. BELOW BASELINE,59.0,91.0,0.6483516483516484
+TSM,Computer and Technology,Semiconductor - Circuit Foundry,50__3,50,3.0,5. p99_trade_value,428000.0,91884.0,380.0,814.0,0.4668304668304668,0.55,2. BELOW BASELINE,439.0,905.0,0.4850828729281768
+TSM,Computer and Technology,Semiconductor - Circuit Foundry,50__3,50,3.0,6. p95_trade_value,91845.0,30000.0,1867.0,3625.0,0.5150344827586207,0.55,2. BELOW BASELINE,2306.0,4530.0,0.5090507726269315
+TSM,Computer and Technology,Semiconductor - Circuit Foundry,50__3,50,3.0,7. p90_trade_value,29975.0,18525.0,2407.0,4525.0,0.5319337016574586,0.55,2. BELOW BASELINE,4713.0,9055.0,0.5204859193815572
+TSM,Computer and Technology,Semiconductor - Circuit Foundry,50__3,50,3.0,8. p75_trade_value,18522.0,9416.0,6822.0,13566.0,0.502874834144184,0.55,2. BELOW BASELINE,11535.0,22621.0,0.5099244065249104

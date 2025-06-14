@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ACN,Computer and Technology,Computers - IT Services,0.55,,,,3942,35__0,35,0.0,13982.4,19745.0,52534.32,243862.49,672118.0,679211.8,679921.18
+BBAI,Computer and Technology,Computers - IT Services,0.55,,,,2819,35__0,35,0.0,13004.0,19924.0,48600.6,103179.58,168669.69,183366.97,184836.7
+FICO,Computer and Technology,Computers - IT Services,0.55,55000.0,5. p99_trade_value,41.0,4025,35__0,35,0.0,16378.8,23360.0,54976.0,149522.69,216000.0,216000.0,216000.0

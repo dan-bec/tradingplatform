@@ -1,0 +1,17 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+NTNX,Computer and Technology,Computers - IT Services,30__2,30,2.0,1. p999999_trade_value,1615170.0,1615170.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,1.0,1.0
+NTNX,Computer and Technology,Computers - IT Services,30__2,30,2.0,5. p99_trade_value,549500.0,192500.00000000003,2.0,6.0,0.3333333333333333,0.55,2. BELOW BASELINE,3.0,7.0,0.42857142857142855
+NTNX,Computer and Technology,Computers - IT Services,30__2,30,2.0,6. p95_trade_value,169273.99999999997,28980.0,13.0,30.0,0.43333333333333335,0.55,2. BELOW BASELINE,16.0,37.0,0.43243243243243246
+NTNX,Computer and Technology,Computers - IT Services,30__2,30,2.0,7. p90_trade_value,28559.999999999996,16548.0,16.0,37.0,0.43243243243243246,0.55,2. BELOW BASELINE,32.0,74.0,0.43243243243243246
+NTNX,Computer and Technology,Computers - IT Services,30__2,30,2.0,8. p75_trade_value,16300.0,8075.0,62.0,109.0,0.5688073394495413,0.55,2. BELOW BASELINE,94.0,183.0,0.5136612021857924
+SERV,Computer and Technology,Computers - IT Services,30__0,30,0.0,1. p999999_trade_value,172000.0,172000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SERV,Computer and Technology,Computers - IT Services,30__0,30,0.0,4. p999_trade_value,95000.0,95000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+SERV,Computer and Technology,Computers - IT Services,30__0,30,0.0,5. p99_trade_value,78000.0,37000.0,6.0,10.0,0.6,0.55,1. ABOVE BASELINE,8.0,12.0,0.6666666666666666
+SERV,Computer and Technology,Computers - IT Services,30__0,30,0.0,6. p95_trade_value,34125.0,17500.0,35.0,48.0,0.7291666666666666,0.55,1. ABOVE BASELINE,43.0,60.0,0.7166666666666667
+SERV,Computer and Technology,Computers - IT Services,30__0,30,0.0,7. p90_trade_value,17300.0,12240.0,35.0,60.0,0.5833333333333334,0.55,1. ABOVE BASELINE,78.0,120.0,0.65
+SERV,Computer and Technology,Computers - IT Services,30__0,30,0.0,8. p75_trade_value,12215.0,7700.0,100.0,179.0,0.5586592178770949,0.55,1. ABOVE BASELINE,178.0,299.0,0.5953177257525084
+WIX,Computer and Technology,Computers - IT Services,30__2,30,2.0,1. p999999_trade_value,570964.0,570964.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+WIX,Computer and Technology,Computers - IT Services,30__2,30,2.0,5. p99_trade_value,438966.0,242904.0,1.0,6.0,0.16666666666666666,0.55,2. BELOW BASELINE,2.0,7.0,0.2857142857142857
+WIX,Computer and Technology,Computers - IT Services,30__2,30,2.0,6. p95_trade_value,189000.00000000003,57743.00000000001,1.0,28.0,0.03571428571428571,0.55,2. BELOW BASELINE,3.0,35.0,0.08571428571428572
+WIX,Computer and Technology,Computers - IT Services,30__2,30,2.0,7. p90_trade_value,57720.00000000001,25480.0,9.0,34.0,0.2647058823529412,0.55,2. BELOW BASELINE,12.0,69.0,0.17391304347826086
+WIX,Computer and Technology,Computers - IT Services,30__2,30,2.0,8. p75_trade_value,24000.0,9425.0,43.0,106.0,0.4056603773584906,0.55,2. BELOW BASELINE,55.0,175.0,0.3142857142857143

@@ -1,0 +1,8 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+CNH,Industrial Products,Manufacturing - Farm Equipment,0.55,50000.0,1. p999999_trade_value,1.0,7,10__0,10,0.0,35840.0,42920.0,48584.0,49858.4,49985.84,49998.58,49999.86
+GGG,Industrial Products,Manufacturing - General Industrial ,0.55,17577.0,8. p75_trade_value,2.0,7,10__0,10,0.0,27144.2,34319.6,40059.92,41351.49,41480.65,41493.56,41494.86
+IEX,Industrial Products,Manufacturing - General Industrial ,0.55,,,,9,10__0,10,0.0,9000.0,10000.0,10800.0,10980.0,10998.0,10999.8,10999.98
+KAI,Industrial Products,Manufacturing - General Industrial ,0.55,,,,8,10__0,10,0.0,55000.0,72500.0,86500.0,89650.0,89965.0,89996.5,89999.65
+LECO,Industrial Products,Manufacturing - Tools & Related Products,0.55,8350.0,8. p75_trade_value,3.0,10,10__0,10,0.0,11756.7,14878.35,17375.67,17937.57,17993.76,17999.38,17999.94
+MTW,Industrial Products,Manufacturing - Construction and Mining,0.55,6480.0,8. p75_trade_value,2.0,6,10__0,10,0.0,8880.0,10080.0,11040.0,11256.0,11277.6,11279.76,11279.98
+RBC,Industrial Products,Manufacturing - General Industrial ,0.55,7840.000000000001,7. p90_trade_value,2.0,13,10__0,10,0.0,7832.0,8180.0,8588.0,8679.8,8688.98,8689.9,8689.99

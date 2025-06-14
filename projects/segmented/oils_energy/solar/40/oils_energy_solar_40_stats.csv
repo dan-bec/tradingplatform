@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ENPH,Oils-Energy,Solar,0.55,442000.0,3. p9999_trade_value,2.0,11501,40__1,40,1.0,13930.0,21120.0,49970.0,235650.0,432382.0,736567.83,771017.28

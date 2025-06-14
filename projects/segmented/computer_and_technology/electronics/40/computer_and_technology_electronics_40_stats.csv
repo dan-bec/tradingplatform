@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AMAT,Computer and Technology,Electronics - Semiconductors,0.55,922350.0,3. p9999_trade_value,2.0,14927,40__1,40,1.0,16050.0,24600.0,74466.2,201954.09,704448.39,992663.66,1003766.37
+CLS,Computer and Technology,Electronics - Manufacturing Services,0.55,8576.0,8. p75_trade_value,1414.0,5654,40__0,40,0.0,16994.9,26880.75,102264.45,766597.94,1115153.89,1205015.39,1214001.54
+LRCX,Computer and Technology,Electronics - Semiconductors,0.55,60030.00000000001,5. p99_trade_value,137.0,13654,40__1,40,1.0,14957.0,24037.0,60014.1,156062.9,283762.45,331343.55,336373.16

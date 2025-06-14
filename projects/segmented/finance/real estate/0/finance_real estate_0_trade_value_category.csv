@@ -1,0 +1,8 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CIGI,Finance,Real Estate - Operations,0__0,0,0.0,1. p999999_trade_value,4800.0,4800.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+DOUG,Finance,Real Estate - Operations,0__0,0,0.0,1. p999999_trade_value,4700.0,4700.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+FOR,Finance,Real Estate - Development,0__0,0,0.0,1. p999999_trade_value,4500.0,4500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FPH,Finance,Real Estate - Development,0__0,0,0.0,1. p999999_trade_value,3050.0,3050.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+LEGH,Finance,Real Estate - Operations,0__0,0,0.0,1. p999999_trade_value,3300.0,3300.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+LSEA,Finance,Real Estate - Development,0__0,0,0.0,1. p999999_trade_value,5800.0,5800.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SEG,Finance,Real Estate - Operations,0__0,0,0.0,1. p999999_trade_value,3080.0,3080.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0

@@ -1,0 +1,14 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+BYD,Consumer Discretionary,Gaming,20__1,20,1.0,1. p999999_trade_value,277992.0,277992.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BYD,Consumer Discretionary,Gaming,20__1,20,1.0,5. p99_trade_value,270000.0,270000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+BYD,Consumer Discretionary,Gaming,20__1,20,1.0,6. p95_trade_value,210000.0,51060.0,4.0,4.0,1.0,0.55,1. ABOVE BASELINE,6.0,6.0,1.0
+BYD,Consumer Discretionary,Gaming,20__1,20,1.0,7. p90_trade_value,50298.0,22000.000000000004,6.0,6.0,1.0,0.55,1. ABOVE BASELINE,12.0,12.0,1.0
+BYD,Consumer Discretionary,Gaming,20__1,20,1.0,8. p75_trade_value,21605.0,9800.0,13.0,17.0,0.7647058823529411,0.55,1. ABOVE BASELINE,25.0,29.0,0.8620689655172413
+IGT,Consumer Discretionary,Gaming,20__1,20,1.0,1. p999999_trade_value,156000.0,156000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+IGT,Consumer Discretionary,Gaming,20__1,20,1.0,6. p95_trade_value,102306.0,92250.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+IGT,Consumer Discretionary,Gaming,20__1,20,1.0,7. p90_trade_value,87670.0,42000.0,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,4.0,7.0,0.5714285714285714
+IGT,Consumer Discretionary,Gaming,20__1,20,1.0,8. p75_trade_value,34590.0,7575.0,3.0,9.0,0.3333333333333333,0.55,2. BELOW BASELINE,7.0,16.0,0.4375
+MLCO,Consumer Discretionary,Gaming,20__1,20,1.0,1. p999999_trade_value,306250.0,306250.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MLCO,Consumer Discretionary,Gaming,20__1,20,1.0,6. p95_trade_value,55379.99999999999,55350.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+MLCO,Consumer Discretionary,Gaming,20__1,20,1.0,7. p90_trade_value,46150.0,30000.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,7.0,7.0,1.0
+MLCO,Consumer Discretionary,Gaming,20__1,20,1.0,8. p75_trade_value,24510.0,10800.0,6.0,10.0,0.6,0.55,1. ABOVE BASELINE,13.0,17.0,0.7647058823529411

@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+CEG,Oils-Energy,Alternative Energy - Other,0.55,9440.0,8. p75_trade_value,4884.0,19528,45__1,45,1.0,18700.0,29000.0,86499.16,533466.04,1301956.26,2629752.22,2853938.42
+GEV,Oils-Energy,Alternative Energy - Other,0.55,,,,18488,45__1,45,1.0,18623.0,28892.5,93332.1,587517.2,1982817.9,2610186.75,2689218.67
+OKLO,Oils-Energy,Alternative Energy - Other,0.55,252000.0,4. p999_trade_value,21.0,20325,45__2,45,2.0,16720.0,25369.0,70843.2,251963.71,500180.32,723778.94,749627.89

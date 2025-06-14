@@ -1,0 +1,13 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AEO,Retail-Wholesale,Retail - Apparel and Shoes,0.55,200000.0,5. p99_trade_value,4.0,362,25__1,25,1.0,14994.6,26627.9,184750.0,230631.1,246205.51,247762.95,247918.7
+BOOT,Retail-Wholesale,Retail - Apparel and Shoes,0.55,,,,518,25__1,25,1.0,17226.0,35085.0,95935.4,127245.0,134224.5,134922.45,134992.24
+CAKE,Retail-Wholesale,Retail - Restaurants,0.55,12537.0,7. p90_trade_value,19.0,188,25__1,25,1.0,12511.1,16539.5,75047.32,75364.0,75364.0,75364.0,75364.0
+CASY,Retail-Wholesale,Retail - Convenience Stores,0.55,525000.0,1. p999999_trade_value,1.0,519,25__1,25,1.0,17550.0,24315.2,60892.5,325756.48,505075.65,523007.56,524800.76
+CBRL,Retail-Wholesale,Retail - Restaurants,0.55,,,,207,25__1,25,1.0,20364.0,28935.0,82594.2,112483.45,114230.84,114405.58,114423.06
+MNSO,Retail-Wholesale,Retail - Apparel and Shoes,0.55,73760.0,1. p999999_trade_value,1.0,217,25__1,25,1.0,11776.0,17935.0,43614.24,70774.88,73461.49,73730.15,73757.01
+PLCE,Retail-Wholesale,Retail - Apparel and Shoes,0.55,13500.0,7. p90_trade_value,51.0,508,25__1,25,1.0,13406.2,17860.0,36592.9,103664.0,125566.4,127756.64,127975.66
+PZZA,Retail-Wholesale,Retail - Restaurants,0.55,,,,305,25__1,25,1.0,13790.4,24274.0,105323.4,324000.0,392400.0,399240.0,399924.0
+SFIX,Retail-Wholesale,Retail - Apparel and Shoes,0.55,,,,181,25__1,25,1.0,11817.0,17420.0,117024.0,190121.6,199012.16,199901.22,199990.12
+TSCO,Retail-Wholesale,Retail - Miscellaneous,0.55,263500.0,1. p999999_trade_value,1.0,500,25__1,25,1.0,12362.1,21868.0,70619.89,255017.0,262651.7,263415.17,263491.52
+YUM,Retail-Wholesale,Retail - Restaurants,0.55,330000.0,1. p999999_trade_value,1.0,322,25__1,25,1.0,12599.0,22985.25,74112.0,257775.0,322777.5,329277.75,329927.78
+YUMC,Retail-Wholesale,Retail - Restaurants,0.55,97500.0,5. p99_trade_value,4.0,331,25__1,25,1.0,14960.0,27847.5,90750.0,223900.0,274390.0,279439.0,279943.9

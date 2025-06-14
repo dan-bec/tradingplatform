@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+TKC,Computer and Technology,Wireless Non-US ,0.55,,,,1,0__2,0,2.0,8466.0,8466.0,8466.0,8466.0,8466.0,8466.0,8466.0

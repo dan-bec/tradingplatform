@@ -1,0 +1,6 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+IRBT,Industrial Products,Industrial Automation and Robotics,25__1,25,1.0,1. p999999_trade_value,24000.0,24000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+IRBT,Industrial Products,Industrial Automation and Robotics,25__1,25,1.0,5. p99_trade_value,18000.0,17570.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+IRBT,Industrial Products,Industrial Automation and Robotics,25__1,25,1.0,6. p95_trade_value,17000.0,13000.0,3.0,9.0,0.3333333333333333,0.55,2. BELOW BASELINE,4.0,12.0,0.3333333333333333
+IRBT,Industrial Products,Industrial Automation and Robotics,25__1,25,1.0,7. p90_trade_value,12974.0,10200.0,4.0,11.0,0.36363636363636365,0.55,2. BELOW BASELINE,8.0,23.0,0.34782608695652173
+IRBT,Industrial Products,Industrial Automation and Robotics,25__1,25,1.0,8. p75_trade_value,10000.0,6789.999999999999,17.0,33.0,0.5151515151515151,0.55,2. BELOW BASELINE,25.0,56.0,0.44642857142857145
