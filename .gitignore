@@ -407,3 +407,4 @@ FodyWeavers.xsd
 *.db
 /data
 /data
+*.DS_Store
