@@ -1,0 +1,66 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+AG,Basic Materials,Mining - Silver,25__1,25,1.0,1. p999999_trade_value,47500.0,47500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+AG,Basic Materials,Mining - Silver,25__1,25,1.0,5. p99_trade_value,46800.0,40000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+AG,Basic Materials,Mining - Silver,25__1,25,1.0,6. p95_trade_value,32802.00000000001,15200.0,5.0,12.0,0.4166666666666667,0.55,2. BELOW BASELINE,6.0,15.0,0.4
+AG,Basic Materials,Mining - Silver,25__1,25,1.0,7. p90_trade_value,15000.0,12180.0,10.0,15.0,0.6666666666666666,0.55,2. BELOW BASELINE,16.0,30.0,0.5333333333333333
+AG,Basic Materials,Mining - Silver,25__1,25,1.0,8. p75_trade_value,12000.0,7000.0,21.0,46.0,0.45652173913043476,0.55,2. BELOW BASELINE,37.0,76.0,0.4868421052631579
+AMR,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,1. p999999_trade_value,36000.0,36000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AMR,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,5. p99_trade_value,34500.0,31680.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+AMR,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,6. p95_trade_value,28704.000000000004,15000.0,10.0,17.0,0.5882352941176471,0.55,2. BELOW BASELINE,11.0,21.0,0.5238095238095238
+AMR,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,7. p90_trade_value,14797.999999999998,11600.0,14.0,19.0,0.7368421052631579,0.55,2. BELOW BASELINE,25.0,40.0,0.625
+AMR,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,8. p75_trade_value,11550.0,7500.0,43.0,63.0,0.6825396825396826,0.55,2. BELOW BASELINE,68.0,103.0,0.6601941747572816
+AU,Basic Materials,Mining - Gold,25__1,25,1.0,1. p999999_trade_value,204000.0,204000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AU,Basic Materials,Mining - Gold,25__1,25,1.0,5. p99_trade_value,126000.0,102295.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+AU,Basic Materials,Mining - Gold,25__1,25,1.0,6. p95_trade_value,100000.0,37500.0,10.0,11.0,0.9090909090909091,0.55,1. ABOVE BASELINE,13.0,14.0,0.9285714285714286
+AU,Basic Materials,Mining - Gold,25__1,25,1.0,7. p90_trade_value,32250.0,21948.0,11.0,13.0,0.8461538461538461,0.55,1. ABOVE BASELINE,24.0,27.0,0.8888888888888888
+AU,Basic Materials,Mining - Gold,25__1,25,1.0,8. p75_trade_value,21762.0,9071.0,31.0,40.0,0.775,0.55,1. ABOVE BASELINE,55.0,67.0,0.8208955223880597
+BHP,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,1. p999999_trade_value,107500.0,107500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BHP,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,5. p99_trade_value,100290.0,48888.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+BHP,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,6. p95_trade_value,42000.0,20020.0,10.0,15.0,0.6666666666666666,0.55,2. BELOW BASELINE,11.0,19.0,0.5789473684210527
+BHP,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,7. p90_trade_value,20010.0,13960.0,12.0,19.0,0.631578947368421,0.55,2. BELOW BASELINE,23.0,38.0,0.6052631578947368
+BHP,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,8. p75_trade_value,13100.0,6800.0,41.0,58.0,0.7068965517241379,0.55,2. BELOW BASELINE,64.0,96.0,0.6666666666666666
+NXE,Basic Materials,Mining - Miscellaneous,25__0,25,0.0,1. p999999_trade_value,860000.0,860000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+NXE,Basic Materials,Mining - Miscellaneous,25__0,25,0.0,5. p99_trade_value,400000.0,400000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+NXE,Basic Materials,Mining - Miscellaneous,25__0,25,0.0,6. p95_trade_value,150000.0,70560.0,0.0,8.0,0.0,0.55,2. BELOW BASELINE,1.0,10.0,0.1
+NXE,Basic Materials,Mining - Miscellaneous,25__0,25,0.0,7. p90_trade_value,52250.0,22270.0,3.0,10.0,0.3,0.55,2. BELOW BASELINE,4.0,20.0,0.2
+NXE,Basic Materials,Mining - Miscellaneous,25__0,25,0.0,8. p75_trade_value,21000.000000000004,9080.000000000002,9.0,28.0,0.32142857142857145,0.55,2. BELOW BASELINE,13.0,48.0,0.2708333333333333
+PAAS,Basic Materials,Mining - Silver,25__1,25,1.0,1. p999999_trade_value,244740.0,244740.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+PAAS,Basic Materials,Mining - Silver,25__1,25,1.0,5. p99_trade_value,45276.00000000001,38500.0,3.0,3.0,1.0,0.55,2. BELOW BASELINE,3.0,4.0,0.75
+PAAS,Basic Materials,Mining - Silver,25__1,25,1.0,6. p95_trade_value,36000.0,22500.0,10.0,16.0,0.625,0.55,2. BELOW BASELINE,13.0,20.0,0.65
+PAAS,Basic Materials,Mining - Silver,25__1,25,1.0,7. p90_trade_value,21960.0,15225.0,14.0,19.0,0.7368421052631579,0.55,2. BELOW BASELINE,27.0,39.0,0.6923076923076923
+PAAS,Basic Materials,Mining - Silver,25__1,25,1.0,8. p75_trade_value,14535.0,8500.0,39.0,58.0,0.6724137931034483,0.55,2. BELOW BASELINE,66.0,97.0,0.6804123711340206
+RGLD,Basic Materials,Mining - Gold,25__1,25,1.0,1. p999999_trade_value,204590.0,204590.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+RGLD,Basic Materials,Mining - Gold,25__1,25,1.0,5. p99_trade_value,154690.0,154690.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+RGLD,Basic Materials,Mining - Gold,25__1,25,1.0,6. p95_trade_value,125000.0,56791.99999999999,6.0,8.0,0.75,0.55,1. ABOVE BASELINE,9.0,11.0,0.8181818181818182
+RGLD,Basic Materials,Mining - Gold,25__1,25,1.0,7. p90_trade_value,44550.0,22080.0,8.0,11.0,0.7272727272727273,0.55,1. ABOVE BASELINE,17.0,22.0,0.7727272727272727
+RGLD,Basic Materials,Mining - Gold,25__1,25,1.0,8. p75_trade_value,22000.0,8512.0,16.0,32.0,0.5,0.55,2. BELOW BASELINE,33.0,54.0,0.6111111111111112
+SCCO,Basic Materials,Mining - Non Ferrous,25__1,25,1.0,1. p999999_trade_value,287500.0,287500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SCCO,Basic Materials,Mining - Non Ferrous,25__1,25,1.0,5. p99_trade_value,105000.0,87500.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+SCCO,Basic Materials,Mining - Non Ferrous,25__1,25,1.0,6. p95_trade_value,84280.0,34000.0,7.0,12.0,0.5833333333333334,0.55,2. BELOW BASELINE,8.0,16.0,0.5
+SCCO,Basic Materials,Mining - Non Ferrous,25__1,25,1.0,7. p90_trade_value,31842.0,18170.0,10.0,15.0,0.6666666666666666,0.55,2. BELOW BASELINE,18.0,31.0,0.5806451612903226
+SCCO,Basic Materials,Mining - Non Ferrous,25__1,25,1.0,8. p75_trade_value,18096.0,7800.0,36.0,49.0,0.7346938775510204,0.55,2. BELOW BASELINE,54.0,80.0,0.675
+TMC,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,1. p999999_trade_value,64000.0,64000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+TMC,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,5. p99_trade_value,62144.00000000001,59579.99999999999,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+TMC,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,6. p95_trade_value,46529.99999999999,22816.0,3.0,10.0,0.3,0.55,2. BELOW BASELINE,3.0,13.0,0.23076923076923078
+TMC,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,7. p90_trade_value,18360.0,13144.0,6.0,13.0,0.46153846153846156,0.55,2. BELOW BASELINE,9.0,26.0,0.34615384615384615
+TMC,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,8. p75_trade_value,12450.0,8000.0,13.0,37.0,0.35135135135135137,0.55,2. BELOW BASELINE,22.0,63.0,0.3492063492063492
+UEC,Basic Materials,Mining - Miscellaneous,25__0,25,0.0,1. p999999_trade_value,245400.0,245400.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+UEC,Basic Materials,Mining - Miscellaneous,25__0,25,0.0,5. p99_trade_value,203400.0,203400.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+UEC,Basic Materials,Mining - Miscellaneous,25__0,25,0.0,6. p95_trade_value,137500.0,72000.0,3.0,8.0,0.375,0.55,2. BELOW BASELINE,4.0,10.0,0.4
+UEC,Basic Materials,Mining - Miscellaneous,25__0,25,0.0,7. p90_trade_value,70000.0,30000.0,8.0,14.0,0.5714285714285714,0.55,2. BELOW BASELINE,12.0,24.0,0.5
+UEC,Basic Materials,Mining - Miscellaneous,25__0,25,0.0,8. p75_trade_value,29168.0,13500.0,10.0,24.0,0.4166666666666667,0.55,2. BELOW BASELINE,22.0,48.0,0.4583333333333333
+USAR,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,1. p999999_trade_value,51428.0,51428.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+USAR,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,5. p99_trade_value,41322.0,40000.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+USAR,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,6. p95_trade_value,38100.0,18200.0,11.0,16.0,0.6875,0.55,2. BELOW BASELINE,12.0,20.0,0.6
+USAR,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,7. p90_trade_value,18038.0,13500.0,15.0,21.0,0.7142857142857143,0.55,2. BELOW BASELINE,27.0,41.0,0.6585365853658537
+USAR,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,8. p75_trade_value,13230.000000000002,8400.0,34.0,59.0,0.576271186440678,0.55,2. BELOW BASELINE,61.0,100.0,0.61
+UUUU,Basic Materials,Mining - Non Ferrous,25__1,25,1.0,1. p999999_trade_value,89964.0,89964.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+UUUU,Basic Materials,Mining - Non Ferrous,25__1,25,1.0,5. p99_trade_value,85000.00000000001,84000.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+UUUU,Basic Materials,Mining - Non Ferrous,25__1,25,1.0,6. p95_trade_value,75000.0,22290.0,2.0,8.0,0.25,0.55,2. BELOW BASELINE,2.0,11.0,0.18181818181818182
+UUUU,Basic Materials,Mining - Non Ferrous,25__1,25,1.0,7. p90_trade_value,22000.0,16680.0,5.0,11.0,0.45454545454545453,0.55,2. BELOW BASELINE,7.0,22.0,0.3181818181818182
+UUUU,Basic Materials,Mining - Non Ferrous,25__1,25,1.0,8. p75_trade_value,15539.999999999998,8145.0,6.0,32.0,0.1875,0.55,2. BELOW BASELINE,13.0,54.0,0.24074074074074073
+WPM,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,1. p999999_trade_value,100992.0,100992.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+WPM,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,5. p99_trade_value,100000.0,30239.999999999996,2.0,4.0,0.5,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+WPM,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,6. p95_trade_value,29750.0,19000.0,17.0,17.0,1.0,0.55,2. BELOW BASELINE,20.0,22.0,0.9090909090909091
+WPM,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,7. p90_trade_value,18834.0,12126.0,13.0,19.0,0.6842105263157895,0.55,2. BELOW BASELINE,33.0,41.0,0.8048780487804879
+WPM,Basic Materials,Mining - Miscellaneous,25__1,25,1.0,8. p75_trade_value,12000.0,6700.0,43.0,61.0,0.7049180327868853,0.55,2. BELOW BASELINE,76.0,102.0,0.7450980392156863

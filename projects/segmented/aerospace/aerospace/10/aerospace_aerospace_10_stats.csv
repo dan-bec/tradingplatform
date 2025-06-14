@@ -1,0 +1,5 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+DRS,Aerospace,Aerospace - Defense Equipment,0.55,5800.0,8. p75_trade_value,2.0,8,10__0,10,0.0,6654.4,7651.2,8448.64,8628.06,8646.01,8647.8,8647.98
+MRCY,Aerospace,Aerospace - Defense Equipment,0.55,22440.0,8. p75_trade_value,5.0,16,10__0,10,0.0,48840.0,59225.0,71765.0,74586.5,74868.65,74896.87,74899.69
+SPR,Aerospace,Aerospace - Defense Equipment,0.55,63690.00000000001,1. p999999_trade_value,1.0,11,10__0,10,0.0,25000.0,44345.0,59821.0,63303.1,63651.31,63686.13,63689.61
+TGI,Aerospace,Aerospace - Defense Equipment,0.55,6450.0,7. p90_trade_value,3.0,11,10__0,10,0.0,6450.0,7215.0,7827.0,7964.7,7978.47,7979.85,7979.98

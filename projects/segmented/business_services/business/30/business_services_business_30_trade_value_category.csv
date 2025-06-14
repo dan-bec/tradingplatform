@@ -1,0 +1,6 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CTAS,Business Services,Business - Services,30__0,30,0.0,1. p999999_trade_value,316260.0,316260.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CTAS,Business Services,Business - Services,30__0,30,0.0,5. p99_trade_value,300000.0,141040.0,3.0,6.0,0.5,0.55,2. BELOW BASELINE,4.0,7.0,0.5714285714285714
+CTAS,Business Services,Business - Services,30__0,30,0.0,6. p95_trade_value,128000.0,30294.0,7.0,28.0,0.25,0.55,2. BELOW BASELINE,11.0,35.0,0.3142857142857143
+CTAS,Business Services,Business - Services,30__0,30,0.0,7. p90_trade_value,29640.000000000004,18720.0,12.0,34.0,0.35294117647058826,0.55,2. BELOW BASELINE,23.0,69.0,0.3333333333333333
+CTAS,Business Services,Business - Services,30__0,30,0.0,8. p75_trade_value,18600.0,8490.0,52.0,102.0,0.5098039215686274,0.55,2. BELOW BASELINE,75.0,171.0,0.43859649122807015

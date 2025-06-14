@@ -1,0 +1,7 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ASPI,Basic Materials,Chemical - Diversified ,0.55,75000.0,1. p999999_trade_value,1.0,309,25__1,25,1.0,10612.8,14410.0,29720.0,69740.9,74474.09,74947.41,74994.74
+CE,Basic Materials,Chemical - Specialty,0.55,,,,340,25__0,25,0.0,17411.0,33869.5,97962.95,1780545.9,2357764.59,2415486.46,2421258.65
+DQ,Basic Materials,Chemical - Specialty,0.55,10449.0,8. p75_trade_value,72.0,288,25__1,25,1.0,25000.0,41088.5,95035.2,104139.0,104913.9,104991.39,104999.14
+LYB,Basic Materials,Chemical - Diversified ,0.55,62825.0,1. p999999_trade_value,1.0,227,25__1,25,1.0,11538.0,22728.0,58435.32,62299.55,62772.45,62819.75,62824.47
+PPG,Basic Materials,Chemical - Specialty,0.55,,,,224,25__1,25,1.0,19810.0,36192.75,95750.68,172147.89,187314.79,188831.48,188983.15
+SHW,Basic Materials,Chemical - Specialty,0.55,,,,454,25__1,25,1.0,16654.0,30620.6,112909.2,320769.0,331776.9,332877.69,332987.77

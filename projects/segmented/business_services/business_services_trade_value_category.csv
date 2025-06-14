@@ -1,0 +1,633 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+ABM,Business Services,Business - Services,10__2,10,2.0,1. p999999_trade_value,140000.0,140000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ABM,Business Services,Business - Services,10__2,10,2.0,7. p90_trade_value,20000.0,20000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+ABM,Business Services,Business - Services,10__2,10,2.0,8. p75_trade_value,10500.0,7500.0,7.0,7.0,1.0,0.55,2. BELOW BASELINE,7.0,9.0,0.7777777777777778
+ADTN,Business Services,Technology Services,10__0,10,0.0,1. p999999_trade_value,14105.000000000002,14105.000000000002,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ADTN,Business Services,Technology Services,10__0,10,0.0,7. p90_trade_value,12599.999999999998,12599.999999999998,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+ADTN,Business Services,Technology Services,10__0,10,0.0,8. p75_trade_value,8330.0,5790.000000000001,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+AIRS,Business Services,Technology Services,0__2,0,2.0,1. p999999_trade_value,10500.0,10500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AISP,Business Services,Technology Services,20__0,20,0.0,1. p999999_trade_value,21560.000000000004,21560.000000000004,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+AISP,Business Services,Technology Services,20__0,20,0.0,6. p95_trade_value,19230.0,12440.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,1.0,5.0,0.2
+AISP,Business Services,Technology Services,20__0,20,0.0,7. p90_trade_value,10725.000000000002,8800.0,4.0,5.0,0.8,0.55,2. BELOW BASELINE,5.0,10.0,0.5
+AISP,Business Services,Technology Services,20__0,20,0.0,8. p75_trade_value,8575.0,5700.0,8.0,13.0,0.6153846153846154,0.55,2. BELOW BASELINE,13.0,23.0,0.5652173913043478
+ALLT,Business Services,Technology Services,15__0,15,0.0,1. p999999_trade_value,13800.0,13800.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ALLT,Business Services,Technology Services,15__0,15,0.0,7. p90_trade_value,11046.0,11046.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+ALLT,Business Services,Technology Services,15__0,15,0.0,8. p75_trade_value,10800.0,10050.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,5.0,5.0,1.0
+AMBR,Business Services,Technology Services,0__2,0,2.0,1. p999999_trade_value,20475.0,20475.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+AMPL,Business Services,Technology Services,15__0,15,0.0,1. p999999_trade_value,150000.0,150000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AMPL,Business Services,Technology Services,15__0,15,0.0,6. p95_trade_value,15000.0,15000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+AMPL,Business Services,Technology Services,15__0,15,0.0,7. p90_trade_value,14520.000000000002,13750.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+AMPL,Business Services,Technology Services,15__0,15,0.0,8. p75_trade_value,10440.0,7650.0,5.0,6.0,0.8333333333333334,0.55,2. BELOW BASELINE,7.0,10.0,0.7
+AMPX,Business Services,Technology Services,15__0,15,0.0,1. p999999_trade_value,16410.0,16410.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AMPX,Business Services,Technology Services,15__0,15,0.0,6. p95_trade_value,10500.0,10200.000000000002,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+AMPX,Business Services,Technology Services,15__0,15,0.0,7. p90_trade_value,9880.000000000002,9180.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,5.0,0.2
+AMPX,Business Services,Technology Services,15__0,15,0.0,8. p75_trade_value,8785.0,7875.0,1.0,6.0,0.16666666666666666,0.55,2. BELOW BASELINE,2.0,11.0,0.18181818181818182
+APG,Business Services,Business - Services,15__0,15,0.0,1. p999999_trade_value,7000.0,7000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+APG,Business Services,Business - Services,15__0,15,0.0,6. p95_trade_value,4900.0,4900.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+APG,Business Services,Business - Services,15__0,15,0.0,7. p90_trade_value,4590.0,4590.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+APG,Business Services,Business - Services,15__0,15,0.0,8. p75_trade_value,4488.0,3960.0,3.0,5.0,0.6,0.55,1. ABOVE BASELINE,6.0,8.0,0.75
+API,Business Services,Technology Services,10__0,10,0.0,1. p999999_trade_value,12500.0,12500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+API,Business Services,Technology Services,10__0,10,0.0,7. p90_trade_value,7535.000000000001,7535.000000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+API,Business Services,Technology Services,10__0,10,0.0,8. p75_trade_value,7500.0,5952.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+APP,Business Services,Technology Services,50__2,50,2.0,1. p999999_trade_value,5540000.0,5540000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+APP,Business Services,Technology Services,50__2,50,2.0,2. p99999_trade_value,5193040.0,5193040.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+APP,Business Services,Technology Services,50__2,50,2.0,3. p9999_trade_value,4357820.0,2145000.0,9.0,10.0,0.9,0.55,1. ABOVE BASELINE,11.0,12.0,0.9166666666666666
+APP,Business Services,Technology Services,50__2,50,2.0,4. p999_trade_value,2136700.0,392035.00000000006,66.0,99.0,0.6666666666666666,0.55,1. ABOVE BASELINE,77.0,111.0,0.6936936936936937
+APP,Business Services,Technology Services,50__2,50,2.0,5. p99_trade_value,392000.00000000006,94080.0,625.0,994.0,0.6287726358148893,0.55,1. ABOVE BASELINE,702.0,1105.0,0.6352941176470588
+APP,Business Services,Technology Services,50__2,50,2.0,6. p95_trade_value,94050.0,32500.0,2413.0,4420.0,0.5459276018099547,0.55,2. BELOW BASELINE,3115.0,5525.0,0.5638009049773756
+APP,Business Services,Technology Services,50__2,50,2.0,7. p90_trade_value,32480.0,20250.0,3014.0,5530.0,0.5450271247739602,0.55,2. BELOW BASELINE,6129.0,11055.0,0.5544097693351425
+APP,Business Services,Technology Services,50__2,50,2.0,8. p75_trade_value,20240.0,10220.0,8487.0,16588.0,0.5116349168073306,0.55,2. BELOW BASELINE,14616.0,27643.0,0.5287414535325399
+ARBE,Business Services,Technology Services,20__0,20,0.0,1. p999999_trade_value,19500.0,19500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ARBE,Business Services,Technology Services,20__0,20,0.0,5. p99_trade_value,18700.0,18700.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+ARBE,Business Services,Technology Services,20__0,20,0.0,6. p95_trade_value,17940.0,13439.999999999998,5.0,5.0,1.0,0.55,1. ABOVE BASELINE,7.0,7.0,1.0
+ARBE,Business Services,Technology Services,20__0,20,0.0,7. p90_trade_value,12975.0,9870.0,4.0,6.0,0.6666666666666666,0.55,1. ABOVE BASELINE,11.0,13.0,0.8461538461538461
+ARBE,Business Services,Technology Services,20__0,20,0.0,8. p75_trade_value,9869.999999999998,6937.0,16.0,20.0,0.8,0.55,1. ABOVE BASELINE,27.0,33.0,0.8181818181818182
+AREN,Business Services,Technology Services,0__0,0,0.0,1. p999999_trade_value,3500.0,3500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ARIS,Business Services,Waste Removal Services,5__0,5,0.0,1. p999999_trade_value,3915.0,3915.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ARMK,Business Services,Business - Services,15__0,15,0.0,1. p999999_trade_value,55000.0,55000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ARMK,Business Services,Business - Services,15__0,15,0.0,6. p95_trade_value,30294.0,30294.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+ARMK,Business Services,Business - Services,15__0,15,0.0,7. p90_trade_value,12870.000000000002,12852.000000000002,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+ARMK,Business Services,Business - Services,15__0,15,0.0,8. p75_trade_value,12060.0,7900.0,5.0,6.0,0.8333333333333334,0.55,2. BELOW BASELINE,6.0,10.0,0.6
+ASST,Business Services,Technology Services,10__0,10,0.0,1. p999999_trade_value,12000.0,12000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ASST,Business Services,Technology Services,10__0,10,0.0,7. p90_trade_value,6375.0,6375.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+ASST,Business Services,Technology Services,10__0,10,0.0,8. p75_trade_value,5120.0,4750.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+AUR,Business Services,Technology Services,30__0,30,0.0,1. p999999_trade_value,348161.0,348161.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+AUR,Business Services,Technology Services,30__0,30,0.0,5. p99_trade_value,95000.0,55000.0,2.0,6.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,7.0,0.2857142857142857
+AUR,Business Services,Technology Services,30__0,30,0.0,6. p95_trade_value,47760.0,19305.0,12.0,24.0,0.5,0.55,2. BELOW BASELINE,14.0,31.0,0.45161290322580644
+AUR,Business Services,Technology Services,30__0,30,0.0,7. p90_trade_value,19214.0,13500.0,16.0,30.0,0.5333333333333333,0.55,2. BELOW BASELINE,30.0,61.0,0.4918032786885246
+AUR,Business Services,Technology Services,30__0,30,0.0,8. p75_trade_value,13440.0,7500.0,46.0,93.0,0.4946236559139785,0.55,2. BELOW BASELINE,76.0,154.0,0.4935064935064935
+AYI,Business Services,Technology Services,25__0,25,0.0,1. p999999_trade_value,872340.0000000001,872340.0000000001,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+AYI,Business Services,Technology Services,25__0,25,0.0,5. p99_trade_value,651000.0000000001,651000.0000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+AYI,Business Services,Technology Services,25__0,25,0.0,6. p95_trade_value,227150.0,28400.0,4.0,8.0,0.5,0.55,2. BELOW BASELINE,4.0,11.0,0.36363636363636365
+AYI,Business Services,Technology Services,25__0,25,0.0,7. p90_trade_value,27089.999999999996,16020.000000000002,1.0,11.0,0.09090909090909091,0.55,2. BELOW BASELINE,5.0,22.0,0.22727272727272727
+AYI,Business Services,Technology Services,25__0,25,0.0,8. p75_trade_value,15900.0,9569.999999999998,7.0,32.0,0.21875,0.55,2. BELOW BASELINE,12.0,54.0,0.2222222222222222
+BAH,Business Services,Consulting Services,30__0,30,0.0,1. p999999_trade_value,475439.99999999994,475439.99999999994,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BAH,Business Services,Consulting Services,30__0,30,0.0,5. p99_trade_value,345420.0,134000.0,6.0,7.0,0.8571428571428571,0.55,1. ABOVE BASELINE,7.0,8.0,0.875
+BAH,Business Services,Consulting Services,30__0,30,0.0,6. p95_trade_value,124500.0,27000.0,13.0,30.0,0.43333333333333335,0.55,2. BELOW BASELINE,20.0,38.0,0.5263157894736842
+BAH,Business Services,Consulting Services,30__0,30,0.0,7. p90_trade_value,26520.0,15990.0,15.0,37.0,0.40540540540540543,0.55,2. BELOW BASELINE,35.0,75.0,0.4666666666666667
+BAH,Business Services,Consulting Services,30__0,30,0.0,8. p75_trade_value,15660.000000000002,8555.000000000002,55.0,111.0,0.4954954954954955,0.55,2. BELOW BASELINE,90.0,186.0,0.4838709677419355
+BCO,Business Services,Outsourcing,15__0,15,0.0,1. p999999_trade_value,11340.0,11340.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BCO,Business Services,Outsourcing,15__0,15,0.0,6. p95_trade_value,9875.0,8819.999999999998,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+BCO,Business Services,Outsourcing,15__0,15,0.0,7. p90_trade_value,8240.0,7519.999999999999,2.0,2.0,1.0,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+BCO,Business Services,Outsourcing,15__0,15,0.0,8. p75_trade_value,7000.0,5576.0,5.0,7.0,0.7142857142857143,0.55,2. BELOW BASELINE,8.0,12.0,0.6666666666666666
+BFAM,Business Services,Business - Services,15__0,15,0.0,6. p95_trade_value,7259.999999999999,7259.999999999999,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+BFAM,Business Services,Business - Services,15__0,15,0.0,7. p90_trade_value,7040.000000000001,7040.000000000001,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+BFAM,Business Services,Business - Services,15__0,15,0.0,8. p75_trade_value,6600.0,6400.0,7.0,7.0,1.0,0.55,1. ABOVE BASELINE,11.0,11.0,1.0
+BITF,Business Services,Technology Services,20__0,20,0.0,1. p999999_trade_value,20000.0,20000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BITF,Business Services,Technology Services,20__0,20,0.0,6. p95_trade_value,18110.000000000004,15000.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,2.0,5.0,0.4
+BITF,Business Services,Technology Services,20__0,20,0.0,7. p90_trade_value,13390.0,11310.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,3.0,9.0,0.3333333333333333
+BITF,Business Services,Technology Services,20__0,20,0.0,8. p75_trade_value,11170.0,7830.000000000001,11.0,13.0,0.8461538461538461,0.55,2. BELOW BASELINE,14.0,22.0,0.6363636363636364
+BKKT,Business Services,Technology Services,10__0,10,0.0,1. p999999_trade_value,13260.0,13260.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BKKT,Business Services,Technology Services,10__0,10,0.0,7. p90_trade_value,9600.0,9600.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+BKKT,Business Services,Technology Services,10__0,10,0.0,8. p75_trade_value,9119.999999999998,9000.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+BKSY,Business Services,Technology Services,20__0,20,0.0,1. p999999_trade_value,90740.0,90740.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BKSY,Business Services,Technology Services,20__0,20,0.0,5. p99_trade_value,80000.0,80000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+BKSY,Business Services,Technology Services,20__0,20,0.0,6. p95_trade_value,75000.0,28665.000000000004,4.0,7.0,0.5714285714285714,0.55,2. BELOW BASELINE,4.0,9.0,0.4444444444444444
+BKSY,Business Services,Technology Services,20__0,20,0.0,7. p90_trade_value,28070.0,17380.0,6.0,9.0,0.6666666666666666,0.55,2. BELOW BASELINE,10.0,18.0,0.5555555555555556
+BKSY,Business Services,Technology Services,20__0,20,0.0,8. p75_trade_value,17160.000000000004,10020.0,12.0,26.0,0.46153846153846156,0.55,2. BELOW BASELINE,22.0,44.0,0.5
+BLDE,Business Services,Technology Services,10__0,10,0.0,1. p999999_trade_value,22714.999999999996,22714.999999999996,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BLDE,Business Services,Technology Services,10__0,10,0.0,7. p90_trade_value,12040.0,12040.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+BLDE,Business Services,Technology Services,10__0,10,0.0,8. p75_trade_value,9000.0,8430.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+BTBT,Business Services,Technology Services,25__1,25,1.0,1. p999999_trade_value,64750.0,64750.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BTBT,Business Services,Technology Services,25__1,25,1.0,5. p99_trade_value,56000.0,52500.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+BTBT,Business Services,Technology Services,25__1,25,1.0,6. p95_trade_value,33345.0,14875.0,8.0,11.0,0.7272727272727273,0.55,2. BELOW BASELINE,10.0,14.0,0.7142857142857143
+BTBT,Business Services,Technology Services,25__1,25,1.0,7. p90_trade_value,14575.0,10250.0,11.0,15.0,0.7333333333333333,0.55,2. BELOW BASELINE,21.0,29.0,0.7241379310344828
+BTBT,Business Services,Technology Services,25__1,25,1.0,8. p75_trade_value,10000.0,7080.0,25.0,40.0,0.625,0.55,2. BELOW BASELINE,46.0,69.0,0.6666666666666666
+BTCM,Business Services,Technology Services,0__0,0,0.0,1. p999999_trade_value,3675.0,3675.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BTDR,Business Services,Technology Services,30__0,30,0.0,1. p999999_trade_value,359904.0,359904.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BTDR,Business Services,Technology Services,30__0,30,0.0,4. p999_trade_value,267914.0,267914.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+BTDR,Business Services,Technology Services,30__0,30,0.0,5. p99_trade_value,162336.0,70094.0,13.0,15.0,0.8666666666666667,0.55,1. ABOVE BASELINE,15.0,17.0,0.8823529411764706
+BTDR,Business Services,Technology Services,30__0,30,0.0,6. p95_trade_value,70074.0,30000.0,45.0,69.0,0.6521739130434783,0.55,1. ABOVE BASELINE,60.0,86.0,0.6976744186046512
+BTDR,Business Services,Technology Services,30__0,30,0.0,7. p90_trade_value,29840.000000000004,19600.0,52.0,84.0,0.6190476190476191,0.55,1. ABOVE BASELINE,112.0,170.0,0.6588235294117647
+BTDR,Business Services,Technology Services,30__0,30,0.0,8. p75_trade_value,19549.999999999996,10528.000000000002,173.0,253.0,0.6837944664031621,0.55,1. ABOVE BASELINE,285.0,423.0,0.6737588652482269
+BYRN,Business Services,Technology Services,20__0,20,0.0,1. p999999_trade_value,34950.0,34950.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BYRN,Business Services,Technology Services,20__0,20,0.0,6. p95_trade_value,15500.0,12600.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+BYRN,Business Services,Technology Services,20__0,20,0.0,7. p90_trade_value,12400.0,9600.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,4.0,9.0,0.4444444444444444
+BYRN,Business Services,Technology Services,20__0,20,0.0,8. p75_trade_value,9090.0,6500.0,6.0,12.0,0.5,0.55,2. BELOW BASELINE,10.0,21.0,0.47619047619047616
+CCRN,Business Services,Staffing Firms,5__0,5,0.0,1. p999999_trade_value,5250.0,5250.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CDLX,Business Services,Technology Services,10__0,10,0.0,1. p999999_trade_value,13500.0,13500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CDLX,Business Services,Technology Services,10__0,10,0.0,7. p90_trade_value,11599.999999999998,11599.999999999998,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+CDLX,Business Services,Technology Services,10__0,10,0.0,8. p75_trade_value,7000.0,6000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,3.0,4.0,0.75
+CIFR,Business Services,Technology Services,25__1,25,1.0,1. p999999_trade_value,575000.0,575000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CIFR,Business Services,Technology Services,25__1,25,1.0,5. p99_trade_value,400000.0,149990.0,4.0,5.0,0.8,0.55,1. ABOVE BASELINE,5.0,6.0,0.8333333333333334
+CIFR,Business Services,Technology Services,25__1,25,1.0,6. p95_trade_value,68400.0,22400.0,7.0,22.0,0.3181818181818182,0.55,2. BELOW BASELINE,12.0,28.0,0.42857142857142855
+CIFR,Business Services,Technology Services,25__1,25,1.0,7. p90_trade_value,21960.0,14616.0,14.0,27.0,0.5185185185185185,0.55,2. BELOW BASELINE,26.0,55.0,0.4727272727272727
+CIFR,Business Services,Technology Services,25__1,25,1.0,8. p75_trade_value,14364.000000000002,7560.000000000001,43.0,83.0,0.5180722891566265,0.55,2. BELOW BASELINE,69.0,138.0,0.5
+CLH,Business Services,Waste Removal Services,20__0,20,0.0,1. p999999_trade_value,77400.0,77400.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CLH,Business Services,Waste Removal Services,20__0,20,0.0,5. p99_trade_value,72000.0,72000.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+CLH,Business Services,Waste Removal Services,20__0,20,0.0,6. p95_trade_value,65319.99999999999,23850.0,3.0,6.0,0.5,0.55,2. BELOW BASELINE,4.0,8.0,0.5
+CLH,Business Services,Waste Removal Services,20__0,20,0.0,7. p90_trade_value,22000.000000000004,12000.0,1.0,7.0,0.14285714285714285,0.55,2. BELOW BASELINE,5.0,15.0,0.3333333333333333
+CLH,Business Services,Waste Removal Services,20__0,20,0.0,8. p75_trade_value,10800.0,6320.0,17.0,22.0,0.7727272727272727,0.55,2. BELOW BASELINE,22.0,37.0,0.5945945945945946
+CMPO,Business Services,Financial Transaction Services,15__0,15,0.0,1. p999999_trade_value,483000.0,483000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CMPO,Business Services,Financial Transaction Services,15__0,15,0.0,6. p95_trade_value,16752.0,14352.000000000002,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+CMPO,Business Services,Financial Transaction Services,15__0,15,0.0,7. p90_trade_value,14170.000000000002,14170.000000000002,0.0,4.0,0.0,0.55,2. BELOW BASELINE,0.0,7.0,0.0
+CMPO,Business Services,Financial Transaction Services,15__0,15,0.0,8. p75_trade_value,12740.0,11760.0,0.0,4.0,0.0,0.55,2. BELOW BASELINE,0.0,11.0,0.0
+CNDT,Business Services,Outsourcing,10__0,10,0.0,1. p999999_trade_value,12500.0,12500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CNDT,Business Services,Outsourcing,10__0,10,0.0,8. p75_trade_value,12475.0,12475.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+CNXC,Business Services,Business - Services,20__0,20,0.0,1. p999999_trade_value,51923.0,51923.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CNXC,Business Services,Business - Services,20__0,20,0.0,5. p99_trade_value,40320.0,40320.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+CNXC,Business Services,Business - Services,20__0,20,0.0,6. p95_trade_value,37521.0,21600.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,3.0,6.0,0.5
+CNXC,Business Services,Business - Services,20__0,20,0.0,7. p90_trade_value,19140.0,16850.0,2.0,5.0,0.4,0.55,2. BELOW BASELINE,5.0,11.0,0.45454545454545453
+CNXC,Business Services,Business - Services,20__0,20,0.0,8. p75_trade_value,16000.0,9594.0,7.0,15.0,0.4666666666666667,0.55,2. BELOW BASELINE,12.0,26.0,0.46153846153846156
+COHR,Business Services,Technology Services,35__1,35,1.0,1. p999999_trade_value,1312500.0,1312500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+COHR,Business Services,Technology Services,35__1,35,1.0,4. p999_trade_value,825000.0,670220.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+COHR,Business Services,Technology Services,35__1,35,1.0,5. p99_trade_value,479000.0,128109.99999999999,22.0,30.0,0.7333333333333333,0.55,1. ABOVE BASELINE,26.0,34.0,0.7647058823529411
+COHR,Business Services,Technology Services,35__1,35,1.0,6. p95_trade_value,128079.0,32240.000000000004,97.0,133.0,0.7293233082706767,0.55,1. ABOVE BASELINE,123.0,167.0,0.7365269461077845
+COHR,Business Services,Technology Services,35__1,35,1.0,7. p90_trade_value,32175.0,19220.0,108.0,166.0,0.6506024096385542,0.55,1. ABOVE BASELINE,231.0,333.0,0.6936936936936937
+COHR,Business Services,Technology Services,35__1,35,1.0,8. p75_trade_value,19210.0,8990.0,285.0,499.0,0.5711422845691383,0.55,1. ABOVE BASELINE,516.0,832.0,0.6201923076923077
+COUR,Business Services,Technology Services,20__0,20,0.0,1. p999999_trade_value,44865.0,44865.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+COUR,Business Services,Technology Services,20__0,20,0.0,6. p95_trade_value,17820.0,17470.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+COUR,Business Services,Technology Services,20__0,20,0.0,7. p90_trade_value,15540.0,10945.0,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,3.0,6.0,0.5
+COUR,Business Services,Technology Services,20__0,20,0.0,8. p75_trade_value,10784.0,8025.0,5.0,9.0,0.5555555555555556,0.55,2. BELOW BASELINE,8.0,15.0,0.5333333333333333
+CPAY,Business Services,Financial Transaction Services,25__1,25,1.0,1. p999999_trade_value,137100.0,137100.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CPAY,Business Services,Financial Transaction Services,25__1,25,1.0,5. p99_trade_value,75000.0,43499.99999999999,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+CPAY,Business Services,Financial Transaction Services,25__1,25,1.0,6. p95_trade_value,25000.0,11340.0,10.0,12.0,0.8333333333333334,0.55,2. BELOW BASELINE,11.0,15.0,0.7333333333333333
+CPAY,Business Services,Financial Transaction Services,25__1,25,1.0,7. p90_trade_value,10200.0,8800.0,8.0,14.0,0.5714285714285714,0.55,2. BELOW BASELINE,19.0,29.0,0.6551724137931034
+CPAY,Business Services,Financial Transaction Services,25__1,25,1.0,8. p75_trade_value,8685.0,4820.0,36.0,44.0,0.8181818181818182,0.55,2. BELOW BASELINE,55.0,73.0,0.7534246575342466
+CPRT,Business Services,Auction and Valuation Services,25__1,25,1.0,1. p999999_trade_value,330000.0,330000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CPRT,Business Services,Auction and Valuation Services,25__1,25,1.0,5. p99_trade_value,96425.0,96425.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+CPRT,Business Services,Auction and Valuation Services,25__1,25,1.0,6. p95_trade_value,81395.99999999999,23170.0,4.0,8.0,0.5,0.55,2. BELOW BASELINE,6.0,10.0,0.6
+CPRT,Business Services,Auction and Valuation Services,25__1,25,1.0,7. p90_trade_value,20250.0,14363.999999999998,6.0,10.0,0.6,0.55,2. BELOW BASELINE,12.0,20.0,0.6
+CPRT,Business Services,Auction and Valuation Services,25__1,25,1.0,8. p75_trade_value,11499.999999999998,7000.0,15.0,30.0,0.5,0.55,2. BELOW BASELINE,27.0,50.0,0.54
+CRCT,Business Services,Technology Services,5__0,5,0.0,1. p999999_trade_value,4800.0,4800.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CRVL,Business Services,Business - Services,5__0,5,0.0,1. p999999_trade_value,5500.0,5500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CTAS,Business Services,Business - Services,30__0,30,0.0,1. p999999_trade_value,316260.0,316260.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CTAS,Business Services,Business - Services,30__0,30,0.0,5. p99_trade_value,300000.0,141040.0,3.0,6.0,0.5,0.55,2. BELOW BASELINE,4.0,7.0,0.5714285714285714
+CTAS,Business Services,Business - Services,30__0,30,0.0,6. p95_trade_value,128000.0,30294.0,7.0,28.0,0.25,0.55,2. BELOW BASELINE,11.0,35.0,0.3142857142857143
+CTAS,Business Services,Business - Services,30__0,30,0.0,7. p90_trade_value,29640.000000000004,18720.0,12.0,34.0,0.35294117647058826,0.55,2. BELOW BASELINE,23.0,69.0,0.3333333333333333
+CTAS,Business Services,Business - Services,30__0,30,0.0,8. p75_trade_value,18600.0,8490.0,52.0,102.0,0.5098039215686274,0.55,2. BELOW BASELINE,75.0,171.0,0.43859649122807015
+CTLP,Business Services,Financial Transaction Services,5__0,5,0.0,1. p999999_trade_value,4000.0,4000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CWST,Business Services,Waste Removal Services,15__0,15,0.0,1. p999999_trade_value,10000.0,10000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CWST,Business Services,Waste Removal Services,15__0,15,0.0,6. p95_trade_value,9600.0,8195.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+CWST,Business Services,Waste Removal Services,15__0,15,0.0,7. p90_trade_value,7700.0,7500.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+CWST,Business Services,Waste Removal Services,15__0,15,0.0,8. p75_trade_value,7150.0,5280.0,2.0,6.0,0.3333333333333333,0.55,2. BELOW BASELINE,5.0,11.0,0.45454545454545453
+CXAI,Business Services,Technology Services,5__0,5,0.0,1. p999999_trade_value,7720.0,7720.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CXM,Business Services,Technology Services,10__0,10,0.0,1. p999999_trade_value,14925.0,14925.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CXM,Business Services,Technology Services,10__0,10,0.0,8. p75_trade_value,12000.0,12000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+CXT,Business Services,Technology Services,0__0,0,0.0,1. p999999_trade_value,3600.0,3600.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+DAO,Business Services,Technology Services,5__0,5,0.0,1. p999999_trade_value,5840.000000000001,5840.000000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+DAVE,Business Services,Technology Services,30__0,30,0.0,1. p999999_trade_value,291550.0,291550.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+DAVE,Business Services,Technology Services,30__0,30,0.0,5. p99_trade_value,192000.0,74400.0,3.0,10.0,0.3,0.55,2. BELOW BASELINE,3.0,11.0,0.2727272727272727
+DAVE,Business Services,Technology Services,30__0,30,0.0,6. p95_trade_value,72600.0,29760.000000000004,16.0,36.0,0.4444444444444444,0.55,2. BELOW BASELINE,19.0,47.0,0.40425531914893614
+DAVE,Business Services,Technology Services,30__0,30,0.0,7. p90_trade_value,29609.999999999996,15500.0,20.0,46.0,0.43478260869565216,0.55,2. BELOW BASELINE,39.0,93.0,0.41935483870967744
+DAVE,Business Services,Technology Services,30__0,30,0.0,8. p75_trade_value,15400.0,9750.0,33.0,139.0,0.23741007194244604,0.55,2. BELOW BASELINE,72.0,232.0,0.3103448275862069
+DLHC,Business Services,Staffing Firms,0__2,0,2.0,1. p999999_trade_value,9000.0,9000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+DLO,Business Services,Financial Transaction Services,20__0,20,0.0,1. p999999_trade_value,40000.0,40000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+DLO,Business Services,Financial Transaction Services,20__0,20,0.0,6. p95_trade_value,35000.0,27900.0,4.0,4.0,1.0,0.55,2. BELOW BASELINE,4.0,5.0,0.8
+DLO,Business Services,Financial Transaction Services,20__0,20,0.0,7. p90_trade_value,27000.0,22000.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,6.0,9.0,0.6666666666666666
+DLO,Business Services,Financial Transaction Services,20__0,20,0.0,8. p75_trade_value,20790.0,10300.0,7.0,12.0,0.5833333333333334,0.55,2. BELOW BASELINE,13.0,21.0,0.6190476190476191
+DLX,Business Services,Business - Office Products,0__0,0,0.0,1. p999999_trade_value,4148.0,4148.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+DNB,Business Services,Business - Information Services,20__0,20,0.0,1. p999999_trade_value,79820.0,79820.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+DNB,Business Services,Business - Information Services,20__0,20,0.0,6. p95_trade_value,50000.0,26879.999999999996,0.0,3.0,0.0,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+DNB,Business Services,Business - Information Services,20__0,20,0.0,7. p90_trade_value,26236.0,23870.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,1.0,7.0,0.14285714285714285
+DNB,Business Services,Business - Information Services,20__0,20,0.0,8. p75_trade_value,17803.0,9030.0,1.0,11.0,0.09090909090909091,0.55,2. BELOW BASELINE,2.0,18.0,0.1111111111111111
+DSP,Business Services,Technology Services,5__0,5,0.0,1. p999999_trade_value,5985.0,5985.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+DUOL,Business Services,Technology Services,35__3,35,3.0,1. p999999_trade_value,1006669.9999999999,1006669.9999999999,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+DUOL,Business Services,Technology Services,35__3,35,3.0,4. p999_trade_value,476000.0,300000.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
+DUOL,Business Services,Technology Services,35__3,35,3.0,5. p99_trade_value,276320.0,70112.0,27.0,33.0,0.8181818181818182,0.55,1. ABOVE BASELINE,30.0,37.0,0.8108108108108109
+DUOL,Business Services,Technology Services,35__3,35,3.0,6. p95_trade_value,69741.0,27180.0,83.0,144.0,0.5763888888888888,0.55,1. ABOVE BASELINE,113.0,181.0,0.6243093922651933
+DUOL,Business Services,Technology Services,35__3,35,3.0,7. p90_trade_value,27150.0,17160.000000000004,120.0,181.0,0.6629834254143646,0.55,1. ABOVE BASELINE,233.0,362.0,0.643646408839779
+DUOL,Business Services,Technology Services,35__3,35,3.0,8. p75_trade_value,17150.0,9300.0,310.0,545.0,0.5688073394495413,0.55,1. ABOVE BASELINE,543.0,907.0,0.5986769570011026
+EFX,Business Services,Consulting Services,30__0,30,0.0,1. p999999_trade_value,784960.0,784960.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+EFX,Business Services,Consulting Services,30__0,30,0.0,5. p99_trade_value,186127.0,72640.00000000001,1.0,6.0,0.16666666666666666,0.55,2. BELOW BASELINE,1.0,7.0,0.14285714285714285
+EFX,Business Services,Consulting Services,30__0,30,0.0,6. p95_trade_value,64640.00000000001,30000.0,3.0,25.0,0.12,0.55,2. BELOW BASELINE,4.0,32.0,0.125
+EFX,Business Services,Consulting Services,30__0,30,0.0,7. p90_trade_value,28800.0,19039.999999999996,8.0,30.0,0.26666666666666666,0.55,2. BELOW BASELINE,12.0,62.0,0.1935483870967742
+EFX,Business Services,Consulting Services,30__0,30,0.0,8. p75_trade_value,18560.0,9339.0,41.0,93.0,0.44086021505376344,0.55,2. BELOW BASELINE,53.0,155.0,0.3419354838709677
+EVTC,Business Services,Financial Transaction Services,0__0,0,0.0,1. p999999_trade_value,4000.0,4000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+EXFY,Business Services,Financial Transaction Services,0__0,0,0.0,1. p999999_trade_value,5400.0,5400.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+EXPO,Business Services,Consulting Services,5__3,5,3.0,1. p999999_trade_value,25499.999999999996,25499.999999999996,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+FA,Business Services,Technology Services,0__0,0,0.0,1. p999999_trade_value,4000.0,4000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+FC,Business Services,Consulting Services,5__3,5,3.0,1. p999999_trade_value,14000.0,14000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+FCFS,Business Services,Financial Transaction Services,5__0,5,0.0,1. p999999_trade_value,8080.0,8080.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FCFS,Business Services,Financial Transaction Services,5__0,5,0.0,8. p75_trade_value,4160.0,4160.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+FCN,Business Services,Consulting Services,15__0,15,0.0,1. p999999_trade_value,27000.0,27000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+FCN,Business Services,Consulting Services,15__0,15,0.0,6. p95_trade_value,13860.0,13860.0,3.0,3.0,1.0,0.55,2. BELOW BASELINE,3.0,4.0,0.75
+FCN,Business Services,Consulting Services,15__0,15,0.0,7. p90_trade_value,13419.999999999998,13419.999999999998,1.0,1.0,1.0,0.55,2. BELOW BASELINE,4.0,5.0,0.8
+FCN,Business Services,Consulting Services,15__0,15,0.0,8. p75_trade_value,13020.000000000002,11340.0,4.0,7.0,0.5714285714285714,0.55,2. BELOW BASELINE,8.0,12.0,0.6666666666666666
+FDS,Business Services,Business - Information Services,25__1,25,1.0,1. p999999_trade_value,34629.0,34629.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FDS,Business Services,Business - Information Services,25__1,25,1.0,5. p99_trade_value,20880.0,20880.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+FDS,Business Services,Business - Information Services,25__1,25,1.0,6. p95_trade_value,18139.0,14000.0,0.0,9.0,0.0,0.55,2. BELOW BASELINE,2.0,11.0,0.18181818181818182
+FDS,Business Services,Business - Information Services,25__1,25,1.0,7. p90_trade_value,13630.000000000002,10400.0,5.0,10.0,0.5,0.55,2. BELOW BASELINE,7.0,21.0,0.3333333333333333
+FDS,Business Services,Business - Information Services,25__1,25,1.0,8. p75_trade_value,10080.000000000002,6930.0,19.0,27.0,0.7037037037037037,0.55,2. BELOW BASELINE,26.0,48.0,0.5416666666666666
+FI,Business Services,Financial Transaction Services,35__4,35,4.0,1. p999999_trade_value,1360944.0,1360944.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+FI,Business Services,Financial Transaction Services,35__4,35,4.0,4. p999_trade_value,513930.0,513930.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+FI,Business Services,Financial Transaction Services,35__4,35,4.0,5. p99_trade_value,386037.0,45355.0,3.0,18.0,0.16666666666666666,0.55,2. BELOW BASELINE,3.0,20.0,0.15
+FI,Business Services,Financial Transaction Services,35__4,35,4.0,6. p95_trade_value,45125.0,19390.0,44.0,78.0,0.5641025641025641,0.55,2. BELOW BASELINE,47.0,98.0,0.47959183673469385
+FI,Business Services,Financial Transaction Services,35__4,35,4.0,7. p90_trade_value,19320.0,14525.0,62.0,97.0,0.6391752577319587,0.55,2. BELOW BASELINE,109.0,195.0,0.558974358974359
+FI,Business Services,Financial Transaction Services,35__4,35,4.0,8. p75_trade_value,14354.999999999998,8030.0,148.0,291.0,0.5085910652920962,0.55,2. BELOW BASELINE,257.0,486.0,0.5288065843621399
+FIS,Business Services,Financial Transaction Services,25__1,25,1.0,1. p999999_trade_value,375000.0,375000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+FIS,Business Services,Financial Transaction Services,25__1,25,1.0,5. p99_trade_value,185625.0,89010.0,0.0,4.0,0.0,0.55,2. BELOW BASELINE,0.0,5.0,0.0
+FIS,Business Services,Financial Transaction Services,25__1,25,1.0,6. p95_trade_value,71344.0,22935.000000000004,6.0,20.0,0.3,0.55,2. BELOW BASELINE,6.0,25.0,0.24
+FIS,Business Services,Financial Transaction Services,25__1,25,1.0,7. p90_trade_value,20685.0,15930.000000000002,6.0,25.0,0.24,0.55,2. BELOW BASELINE,12.0,50.0,0.24
+FIS,Business Services,Financial Transaction Services,25__1,25,1.0,8. p75_trade_value,15900.0,7640.000000000001,18.0,75.0,0.24,0.55,2. BELOW BASELINE,30.0,125.0,0.24
+FNGR,Business Services,Technology Services,20__0,20,0.0,1. p999999_trade_value,37575.0,37575.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FNGR,Business Services,Technology Services,20__0,20,0.0,6. p95_trade_value,11130.0,9000.0,4.0,4.0,1.0,0.55,1. ABOVE BASELINE,5.0,5.0,1.0
+FNGR,Business Services,Technology Services,20__0,20,0.0,7. p90_trade_value,8430.0,8000.0,2.0,5.0,0.4,0.55,2. BELOW BASELINE,7.0,10.0,0.7
+FNGR,Business Services,Technology Services,20__0,20,0.0,8. p75_trade_value,7800.0,6000.0,6.0,18.0,0.3333333333333333,0.55,2. BELOW BASELINE,13.0,28.0,0.4642857142857143
+FOUR,Business Services,Financial Transaction Services,30__0,30,0.0,1. p999999_trade_value,311200.0,311200.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FOUR,Business Services,Financial Transaction Services,30__0,30,0.0,5. p99_trade_value,279680.0,80000.0,2.0,8.0,0.25,0.55,2. BELOW BASELINE,3.0,9.0,0.3333333333333333
+FOUR,Business Services,Financial Transaction Services,30__0,30,0.0,6. p95_trade_value,78000.0,29600.0,15.0,35.0,0.42857142857142855,0.55,2. BELOW BASELINE,18.0,44.0,0.4090909090909091
+FOUR,Business Services,Financial Transaction Services,30__0,30,0.0,7. p90_trade_value,29500.0,18315.0,22.0,44.0,0.5,0.55,2. BELOW BASELINE,40.0,88.0,0.45454545454545453
+FOUR,Business Services,Financial Transaction Services,30__0,30,0.0,8. p75_trade_value,18200.0,9840.0,72.0,132.0,0.5454545454545454,0.55,2. BELOW BASELINE,112.0,220.0,0.509090909090909
+FRSX,Business Services,Technology Services,0__0,0,0.0,1. p999999_trade_value,3100.0,3100.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+FUTU,Business Services,Technology Services,40__1,40,1.0,1. p999999_trade_value,551135.0,551135.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FUTU,Business Services,Technology Services,40__1,40,1.0,3. p9999_trade_value,550000.0,550000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+FUTU,Business Services,Technology Services,40__1,40,1.0,4. p999_trade_value,338960.0,173544.99999999997,7.0,11.0,0.6363636363636364,0.55,2. BELOW BASELINE,8.0,13.0,0.6153846153846154
+FUTU,Business Services,Technology Services,40__1,40,1.0,5. p99_trade_value,169840.0,74025.0,60.0,108.0,0.5555555555555556,0.55,2. BELOW BASELINE,68.0,121.0,0.5619834710743802
+FUTU,Business Services,Technology Services,40__1,40,1.0,6. p95_trade_value,73125.0,27606.0,267.0,483.0,0.5527950310559007,0.55,2. BELOW BASELINE,335.0,604.0,0.554635761589404
+FUTU,Business Services,Technology Services,40__1,40,1.0,7. p90_trade_value,27571.000000000004,16875.0,327.0,603.0,0.5422885572139303,0.55,2. BELOW BASELINE,662.0,1207.0,0.5484672742336372
+FUTU,Business Services,Technology Services,40__1,40,1.0,8. p75_trade_value,16836.0,8880.0,946.0,1816.0,0.5209251101321586,0.55,2. BELOW BASELINE,1608.0,3023.0,0.5319219318557724
+GAMB,Business Services,Advertising and Marketing,10__0,10,0.0,1. p999999_trade_value,17430.0,17430.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+GAMB,Business Services,Advertising and Marketing,10__0,10,0.0,7. p90_trade_value,11400.0,11400.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+GAMB,Business Services,Advertising and Marketing,10__0,10,0.0,8. p75_trade_value,7920.0,7920.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+GCI,Business Services,Advertising and Marketing,5__0,5,0.0,1. p999999_trade_value,5700.0,5700.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+GCT,Business Services,Technology Services,25__1,25,1.0,1. p999999_trade_value,480000.0,480000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+GCT,Business Services,Technology Services,25__1,25,1.0,5. p99_trade_value,217354.99999999997,60900.0,3.0,4.0,0.75,0.55,1. ABOVE BASELINE,4.0,5.0,0.8
+GCT,Business Services,Technology Services,25__1,25,1.0,6. p95_trade_value,53769.99999999999,31080.0,7.0,16.0,0.4375,0.55,2. BELOW BASELINE,11.0,21.0,0.5238095238095238
+GCT,Business Services,Technology Services,25__1,25,1.0,7. p90_trade_value,30360.000000000004,19520.0,12.0,20.0,0.6,0.55,2. BELOW BASELINE,23.0,41.0,0.5609756097560976
+GCT,Business Services,Technology Services,25__1,25,1.0,8. p75_trade_value,19500.0,9180.000000000002,20.0,60.0,0.3333333333333333,0.55,2. BELOW BASELINE,43.0,101.0,0.42574257425742573
+GDS,Business Services,Technology Services,30__0,30,0.0,1. p999999_trade_value,232648.0,232648.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+GDS,Business Services,Technology Services,30__0,30,0.0,5. p99_trade_value,198750.0,70000.0,6.0,9.0,0.6666666666666666,0.55,1. ABOVE BASELINE,7.0,10.0,0.7
+GDS,Business Services,Technology Services,30__0,30,0.0,6. p95_trade_value,69561.0,24900.0,18.0,37.0,0.4864864864864865,0.55,2. BELOW BASELINE,25.0,47.0,0.5319148936170213
+GDS,Business Services,Technology Services,30__0,30,0.0,7. p90_trade_value,24395.999999999996,16440.0,22.0,48.0,0.4583333333333333,0.55,2. BELOW BASELINE,47.0,95.0,0.49473684210526314
+GDS,Business Services,Technology Services,30__0,30,0.0,8. p75_trade_value,16400.0,8350.0,66.0,136.0,0.4852941176470588,0.55,2. BELOW BASELINE,113.0,231.0,0.48917748917748916
+GEN,Business Services,Technology Services,15__0,15,0.0,1. p999999_trade_value,51000.00000000001,51000.00000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+GEN,Business Services,Technology Services,15__0,15,0.0,6. p95_trade_value,27000.0,27000.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+GEN,Business Services,Technology Services,15__0,15,0.0,7. p90_trade_value,19860.0,19860.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+GEN,Business Services,Technology Services,15__0,15,0.0,8. p75_trade_value,18000.0,9680.000000000002,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,3.0,6.0,0.5
+GEO,Business Services,Government Services,35__1,35,1.0,1. p999999_trade_value,1513000.0,1513000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+GEO,Business Services,Government Services,35__1,35,1.0,4. p999_trade_value,405000.00000000006,405000.00000000006,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+GEO,Business Services,Government Services,35__1,35,1.0,5. p99_trade_value,375000.0,121891.00000000001,8.0,17.0,0.47058823529411764,0.55,2. BELOW BASELINE,10.0,19.0,0.5263157894736842
+GEO,Business Services,Government Services,35__1,35,1.0,6. p95_trade_value,115000.0,32500.0,34.0,76.0,0.4473684210526316,0.55,2. BELOW BASELINE,44.0,95.0,0.4631578947368421
+GEO,Business Services,Government Services,35__1,35,1.0,7. p90_trade_value,32370.0,18630.0,44.0,93.0,0.4731182795698925,0.55,2. BELOW BASELINE,88.0,188.0,0.46808510638297873
+GEO,Business Services,Government Services,35__1,35,1.0,8. p75_trade_value,18495.0,9000.0,148.0,283.0,0.5229681978798587,0.55,2. BELOW BASELINE,236.0,471.0,0.5010615711252654
+GFL,Business Services,Waste Removal Services,15__0,15,0.0,1. p999999_trade_value,78510.0,78510.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+GFL,Business Services,Waste Removal Services,15__0,15,0.0,6. p95_trade_value,53010.0,25000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+GFL,Business Services,Waste Removal Services,15__0,15,0.0,7. p90_trade_value,13000.0,9008.999999999998,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,3.0,6.0,0.5
+GFL,Business Services,Waste Removal Services,15__0,15,0.0,8. p75_trade_value,8750.0,6859.999999999999,4.0,8.0,0.5,0.55,2. BELOW BASELINE,7.0,14.0,0.5
+GPN,Business Services,Financial Transaction Services,30__0,30,0.0,1. p999999_trade_value,614999.9999999999,614999.9999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+GPN,Business Services,Financial Transaction Services,30__0,30,0.0,4. p999_trade_value,270000.0,270000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+GPN,Business Services,Financial Transaction Services,30__0,30,0.0,5. p99_trade_value,242352.0,128075.0,4.0,9.0,0.4444444444444444,0.55,2. BELOW BASELINE,4.0,11.0,0.36363636363636365
+GPN,Business Services,Financial Transaction Services,30__0,30,0.0,6. p95_trade_value,109460.00000000001,24765.0,25.0,43.0,0.5813953488372093,0.55,2. BELOW BASELINE,29.0,54.0,0.5370370370370371
+GPN,Business Services,Financial Transaction Services,30__0,30,0.0,7. p90_trade_value,24200.0,15554.999999999998,30.0,53.0,0.5660377358490566,0.55,2. BELOW BASELINE,59.0,107.0,0.5514018691588785
+GPN,Business Services,Financial Transaction Services,30__0,30,0.0,8. p75_trade_value,15375.0,8500.0,76.0,159.0,0.4779874213836478,0.55,2. BELOW BASELINE,135.0,266.0,0.5075187969924813
+GRRR,Business Services,Technology Services,35__0,35,0.0,1. p999999_trade_value,296400.00000000006,296400.00000000006,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+GRRR,Business Services,Technology Services,35__0,35,0.0,4. p999_trade_value,208550.0,208550.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+GRRR,Business Services,Technology Services,35__0,35,0.0,5. p99_trade_value,200000.0,67080.0,8.0,18.0,0.4444444444444444,0.55,2. BELOW BASELINE,8.0,20.0,0.4
+GRRR,Business Services,Technology Services,35__0,35,0.0,6. p95_trade_value,64740.0,21390.0,33.0,79.0,0.4177215189873418,0.55,2. BELOW BASELINE,41.0,99.0,0.41414141414141414
+GRRR,Business Services,Technology Services,35__0,35,0.0,7. p90_trade_value,21360.0,13319.999999999998,47.0,98.0,0.47959183673469385,0.55,2. BELOW BASELINE,88.0,197.0,0.4467005076142132
+GRRR,Business Services,Technology Services,35__0,35,0.0,8. p75_trade_value,13300.0,7500.0,183.0,305.0,0.6,0.55,2. BELOW BASELINE,271.0,502.0,0.5398406374501992
+HCSG,Business Services,Business - Services,5__3,5,3.0,1. p999999_trade_value,21000.0,21000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+HOLO,Business Services,Technology Services,20__0,20,0.0,1. p999999_trade_value,14910.0,14910.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+HOLO,Business Services,Technology Services,20__0,20,0.0,6. p95_trade_value,10920.0,10000.0,0.0,4.0,0.0,0.55,2. BELOW BASELINE,0.0,5.0,0.0
+HOLO,Business Services,Technology Services,20__0,20,0.0,7. p90_trade_value,9760.0,9065.0,0.0,4.0,0.0,0.55,2. BELOW BASELINE,0.0,9.0,0.0
+HOLO,Business Services,Technology Services,20__0,20,0.0,8. p75_trade_value,9000.0,6000.0,2.0,14.0,0.14285714285714285,0.55,2. BELOW BASELINE,2.0,23.0,0.08695652173913043
+HURN,Business Services,Consulting Services,15__0,15,0.0,1. p999999_trade_value,43500.0,43500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+HURN,Business Services,Consulting Services,15__0,15,0.0,6. p95_trade_value,37500.0,37500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+HURN,Business Services,Consulting Services,15__0,15,0.0,7. p90_trade_value,34200.0,27500.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+HURN,Business Services,Consulting Services,15__0,15,0.0,8. p75_trade_value,22800.0,12980.000000000002,4.0,5.0,0.8,0.55,1. ABOVE BASELINE,8.0,9.0,0.8888888888888888
+IAS,Business Services,Advertising and Marketing,5__0,5,0.0,1. p999999_trade_value,10150.0,10150.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+IAS,Business Services,Advertising and Marketing,5__0,5,0.0,8. p75_trade_value,6000.0,6000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+IBTA,Business Services,Technology Services,20__1,20,1.0,1. p999999_trade_value,386750.0,386750.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+IBTA,Business Services,Technology Services,20__1,20,1.0,6. p95_trade_value,217000.0,50500.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
+IBTA,Business Services,Technology Services,20__1,20,1.0,7. p90_trade_value,19000.0,13050.0,3.0,4.0,0.75,0.55,1. ABOVE BASELINE,6.0,8.0,0.75
+IBTA,Business Services,Technology Services,20__1,20,1.0,8. p75_trade_value,11900.0,6650.0,8.0,11.0,0.7272727272727273,0.55,1. ABOVE BASELINE,14.0,19.0,0.7368421052631579
+ICFI,Business Services,Government Services,0__0,0,0.0,1. p999999_trade_value,3765.0,3765.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+IMXI,Business Services,Financial Transaction Services,5__1,5,1.0,1. p999999_trade_value,50000.0,50000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+INGM,Business Services,Technology Services,0__0,0,0.0,1. p999999_trade_value,5016.0,5016.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+INSE,Business Services,Technology Services,0__0,0,0.0,1. p999999_trade_value,3510.0,3510.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+IPG,Business Services,Advertising and Marketing,15__0,15,0.0,1. p999999_trade_value,99315.0,99315.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+IPG,Business Services,Advertising and Marketing,15__0,15,0.0,6. p95_trade_value,31700.0,31700.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+IPG,Business Services,Advertising and Marketing,15__0,15,0.0,7. p90_trade_value,29280.0,29280.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+IPG,Business Services,Advertising and Marketing,15__0,15,0.0,8. p75_trade_value,27500.0,20000.0,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
+IRM,Business Services,Business - Information Services,25__1,25,1.0,1. p999999_trade_value,276675.0,276675.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+IRM,Business Services,Business - Information Services,25__1,25,1.0,5. p99_trade_value,102885.00000000001,62729.99999999999,0.0,3.0,0.0,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+IRM,Business Services,Business - Information Services,25__1,25,1.0,6. p95_trade_value,59241.0,20817.0,8.0,15.0,0.5333333333333333,0.55,2. BELOW BASELINE,9.0,19.0,0.47368421052631576
+IRM,Business Services,Business - Information Services,25__1,25,1.0,7. p90_trade_value,20475.0,15860.0,8.0,19.0,0.42105263157894735,0.55,2. BELOW BASELINE,17.0,38.0,0.4473684210526316
+IRM,Business Services,Business - Information Services,25__1,25,1.0,8. p75_trade_value,15600.0,8120.0,20.0,57.0,0.3508771929824561,0.55,2. BELOW BASELINE,37.0,95.0,0.3894736842105263
+IT,Business Services,Consulting Services,25__1,25,1.0,1. p999999_trade_value,459540.00000000006,459540.00000000006,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+IT,Business Services,Consulting Services,25__1,25,1.0,5. p99_trade_value,368599.99999999994,153180.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+IT,Business Services,Consulting Services,25__1,25,1.0,6. p95_trade_value,48492.0,22959.999999999996,4.0,11.0,0.36363636363636365,0.55,2. BELOW BASELINE,6.0,14.0,0.42857142857142855
+IT,Business Services,Consulting Services,25__1,25,1.0,7. p90_trade_value,20600.0,12000.0,4.0,15.0,0.26666666666666666,0.55,2. BELOW BASELINE,10.0,29.0,0.3448275862068966
+IT,Business Services,Consulting Services,25__1,25,1.0,8. p75_trade_value,11960.0,6888.0,24.0,41.0,0.5853658536585366,0.55,2. BELOW BASELINE,34.0,70.0,0.4857142857142857
+J,Business Services,Technology Services,20__2,20,2.0,1. p999999_trade_value,938854.9999999999,938854.9999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+J,Business Services,Technology Services,20__2,20,2.0,6. p95_trade_value,595000.0,302500.0,0.0,4.0,0.0,0.55,2. BELOW BASELINE,0.0,5.0,0.0
+J,Business Services,Technology Services,20__2,20,2.0,7. p90_trade_value,268125.0,195999.99999999997,4.0,4.0,1.0,0.55,2. BELOW BASELINE,4.0,9.0,0.4444444444444444
+J,Business Services,Technology Services,20__2,20,2.0,8. p75_trade_value,120050.0,13650.0,8.0,14.0,0.5714285714285714,0.55,2. BELOW BASELINE,12.0,23.0,0.5217391304347826
+JAMF,Business Services,Technology Services,10__0,10,0.0,1. p999999_trade_value,5700.0,5700.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+JAMF,Business Services,Technology Services,10__0,10,0.0,8. p75_trade_value,4515.0,4515.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+JBTM,Business Services,Technology Services,10__0,10,0.0,1. p999999_trade_value,56550.0,56550.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+JBTM,Business Services,Technology Services,10__0,10,0.0,7. p90_trade_value,55100.0,55100.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+JBTM,Business Services,Technology Services,10__0,10,0.0,8. p75_trade_value,11899.999999999998,11899.999999999998,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+KD,Business Services,Technology Services,25__1,25,1.0,1. p999999_trade_value,102897.0,102897.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+KD,Business Services,Technology Services,25__1,25,1.0,5. p99_trade_value,39270.0,37500.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+KD,Business Services,Technology Services,25__1,25,1.0,6. p95_trade_value,33915.0,26418.0,7.0,12.0,0.5833333333333334,0.55,2. BELOW BASELINE,9.0,15.0,0.6
+KD,Business Services,Technology Services,25__1,25,1.0,7. p90_trade_value,26250.0,18750.0,14.0,17.0,0.8235294117647058,0.55,2. BELOW BASELINE,23.0,32.0,0.71875
+KD,Business Services,Technology Services,25__1,25,1.0,8. p75_trade_value,18480.0,9800.0,25.0,42.0,0.5952380952380952,0.55,2. BELOW BASELINE,48.0,74.0,0.6486486486486487
+KFY,Business Services,Staffing Firms,5__0,5,0.0,1. p999999_trade_value,12500.0,12500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+KIDZ,Business Services,Technology Services,5__0,5,0.0,1. p999999_trade_value,6884.999999999999,6884.999999999999,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+KSPI,Business Services,Financial Transaction Services,15__0,15,0.0,1. p999999_trade_value,77610.0,77610.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+KSPI,Business Services,Financial Transaction Services,15__0,15,0.0,6. p95_trade_value,60000.0,60000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+KSPI,Business Services,Financial Transaction Services,15__0,15,0.0,7. p90_trade_value,37940.0,37940.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+KSPI,Business Services,Financial Transaction Services,15__0,15,0.0,8. p75_trade_value,28979.999999999996,13800.0,1.0,5.0,0.2,0.55,2. BELOW BASELINE,1.0,8.0,0.125
+LMB,Business Services,Building Products - Maintenance Service,10__0,10,0.0,1. p999999_trade_value,12791.999999999998,12791.999999999998,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+LMB,Business Services,Building Products - Maintenance Service,10__0,10,0.0,7. p90_trade_value,7050.0,7050.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+LMB,Business Services,Building Products - Maintenance Service,10__0,10,0.0,8. p75_trade_value,6812.0,6290.000000000001,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,5.0,0.4
+LNZA,Business Services,Technology Services,5__0,5,0.0,1. p999999_trade_value,13005.000000000002,13005.000000000002,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+LQDT,Business Services,Auction and Valuation Services,15__0,15,0.0,1. p999999_trade_value,27040.000000000004,27040.000000000004,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+LQDT,Business Services,Auction and Valuation Services,15__0,15,0.0,6. p95_trade_value,17489.999999999996,17489.999999999996,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+LQDT,Business Services,Auction and Valuation Services,15__0,15,0.0,7. p90_trade_value,15040.0,15040.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+LQDT,Business Services,Auction and Valuation Services,15__0,15,0.0,8. p75_trade_value,14880.000000000002,10850.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,6.0,6.0,1.0
+MA,Business Services,Financial Transaction Services,40__1,40,1.0,1. p999999_trade_value,432500.0,432500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MA,Business Services,Financial Transaction Services,40__1,40,1.0,4. p999_trade_value,414671.99999999994,202491.0,3.0,5.0,0.6,0.55,1. ABOVE BASELINE,4.0,6.0,0.6666666666666666
+MA,Business Services,Financial Transaction Services,40__1,40,1.0,5. p99_trade_value,172746.0,66150.0,34.0,52.0,0.6538461538461539,0.55,1. ABOVE BASELINE,38.0,58.0,0.6551724137931034
+MA,Business Services,Financial Transaction Services,40__1,40,1.0,6. p95_trade_value,64365.0,23206.0,124.0,228.0,0.543859649122807,0.55,2. BELOW BASELINE,162.0,286.0,0.5664335664335665
+MA,Business Services,Financial Transaction Services,40__1,40,1.0,7. p90_trade_value,23190.0,14400.0,134.0,290.0,0.46206896551724136,0.55,2. BELOW BASELINE,296.0,576.0,0.5138888888888888
+MA,Business Services,Financial Transaction Services,40__1,40,1.0,8. p75_trade_value,14385.0,7830.0,412.0,851.0,0.48413631022326675,0.55,2. BELOW BASELINE,708.0,1427.0,0.49614576033637003
+MAN,Business Services,Staffing Firms,10__0,10,0.0,1. p999999_trade_value,130000.0,130000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MAN,Business Services,Staffing Firms,10__0,10,0.0,7. p90_trade_value,17875.0,17875.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+MAN,Business Services,Staffing Firms,10__0,10,0.0,8. p75_trade_value,10725.0,8775.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+MAPS,Business Services,Technology Services,0__0,0,0.0,1. p999999_trade_value,4980.0,4980.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MAX,Business Services,Technology Services,15__0,15,0.0,1. p999999_trade_value,18000.0,18000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MAX,Business Services,Technology Services,15__0,15,0.0,6. p95_trade_value,16275.0,13940.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+MAX,Business Services,Technology Services,15__0,15,0.0,7. p90_trade_value,13500.0,12160.0,3.0,3.0,1.0,0.55,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
+MAX,Business Services,Technology Services,15__0,15,0.0,8. p75_trade_value,11390.0,10200.0,0.0,8.0,0.0,0.55,2. BELOW BASELINE,4.0,14.0,0.2857142857142857
+MEG,Business Services,Waste Removal Services,10__0,10,0.0,1. p999999_trade_value,10380.0,10380.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MEG,Business Services,Waste Removal Services,10__0,10,0.0,7. p90_trade_value,8910.0,8910.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+MEG,Business Services,Waste Removal Services,10__0,10,0.0,8. p75_trade_value,4410.0,4410.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+MIR,Business Services,Technology Services,25__1,25,1.0,1. p999999_trade_value,40040.0,40040.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MIR,Business Services,Technology Services,25__1,25,1.0,5. p99_trade_value,37485.0,37485.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+MIR,Business Services,Technology Services,25__1,25,1.0,6. p95_trade_value,35550.0,22400.0,6.0,8.0,0.75,0.55,2. BELOW BASELINE,7.0,10.0,0.7
+MIR,Business Services,Technology Services,25__1,25,1.0,7. p90_trade_value,20995.0,13769.999999999998,5.0,10.0,0.5,0.55,2. BELOW BASELINE,12.0,20.0,0.6
+MIR,Business Services,Technology Services,25__1,25,1.0,8. p75_trade_value,13390.0,9000.0,24.0,30.0,0.8,0.55,2. BELOW BASELINE,36.0,50.0,0.72
+MKTW,Business Services,Technology Services,0__0,0,0.0,1. p999999_trade_value,3300.0,3300.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MLGO,Business Services,Technology Services,20__0,20,0.0,1. p999999_trade_value,74850.0,74850.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MLGO,Business Services,Technology Services,20__0,20,0.0,5. p99_trade_value,18000.0,18000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+MLGO,Business Services,Technology Services,20__0,20,0.0,6. p95_trade_value,16915.0,15500.0,3.0,5.0,0.6,0.55,1. ABOVE BASELINE,5.0,7.0,0.7142857142857143
+MLGO,Business Services,Technology Services,20__0,20,0.0,7. p90_trade_value,14000.0,10980.0,3.0,6.0,0.5,0.55,2. BELOW BASELINE,8.0,13.0,0.6153846153846154
+MLGO,Business Services,Technology Services,20__0,20,0.0,8. p75_trade_value,10890.0,7484.999999999999,4.0,18.0,0.2222222222222222,0.55,2. BELOW BASELINE,12.0,31.0,0.3870967741935484
+MMS,Business Services,Government Services,15__1,15,1.0,1. p999999_trade_value,608000.0,608000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MMS,Business Services,Government Services,15__1,15,1.0,6. p95_trade_value,240000.0,240000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+MMS,Business Services,Government Services,15__1,15,1.0,7. p90_trade_value,132900.0,120000.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+MMS,Business Services,Government Services,15__1,15,1.0,8. p75_trade_value,97500.0,11160.0,5.0,6.0,0.8333333333333334,0.55,1. ABOVE BASELINE,9.0,10.0,0.9
+MOGO,Business Services,Technology Services,0__0,0,0.0,1. p999999_trade_value,5000.0,5000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MORN,Business Services,Business - Information Services,10__0,10,0.0,1. p999999_trade_value,7670.0,7670.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MORN,Business Services,Business - Information Services,10__0,10,0.0,7. p90_trade_value,6600.0,6600.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+MORN,Business Services,Business - Information Services,10__0,10,0.0,8. p75_trade_value,6490.000000000001,6490.000000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+MQ,Business Services,Financial Transaction Services,20__1,20,1.0,1. p999999_trade_value,282000.0,282000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MQ,Business Services,Financial Transaction Services,20__1,20,1.0,6. p95_trade_value,150400.0,23650.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
+MQ,Business Services,Financial Transaction Services,20__1,20,1.0,7. p90_trade_value,20000.0,13640.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,5.0,8.0,0.625
+MQ,Business Services,Financial Transaction Services,20__1,20,1.0,8. p75_trade_value,13566.0,6689.999999999999,12.0,12.0,1.0,0.55,2. BELOW BASELINE,17.0,20.0,0.85
+MVST,Business Services,Technology Services,20__0,20,0.0,1. p999999_trade_value,30000.0,30000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MVST,Business Services,Technology Services,20__0,20,0.0,5. p99_trade_value,23520.0,23520.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+MVST,Business Services,Technology Services,20__0,20,0.0,6. p95_trade_value,22000.0,14000.0,4.0,7.0,0.5714285714285714,0.55,2. BELOW BASELINE,5.0,9.0,0.5555555555555556
+MVST,Business Services,Technology Services,20__0,20,0.0,7. p90_trade_value,13150.0,10656.0,3.0,9.0,0.3333333333333333,0.55,2. BELOW BASELINE,8.0,18.0,0.4444444444444444
+MVST,Business Services,Technology Services,20__0,20,0.0,8. p75_trade_value,10500.0,7320.0,9.0,26.0,0.34615384615384615,0.55,2. BELOW BASELINE,17.0,44.0,0.38636363636363635
+NEXN,Business Services,Advertising and Marketing,0__0,0,0.0,1. p999999_trade_value,3750.0,3750.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+NN,Business Services,Technology Services,20__0,20,0.0,1. p999999_trade_value,50000.0,50000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+NN,Business Services,Technology Services,20__0,20,0.0,5. p99_trade_value,27200.0,27200.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+NN,Business Services,Technology Services,20__0,20,0.0,6. p95_trade_value,27000.0,15750.0,2.0,6.0,0.3333333333333333,0.55,2. BELOW BASELINE,3.0,8.0,0.375
+NN,Business Services,Technology Services,20__0,20,0.0,7. p90_trade_value,14625.0,10380.0,2.0,7.0,0.2857142857142857,0.55,2. BELOW BASELINE,5.0,15.0,0.3333333333333333
+NN,Business Services,Technology Services,20__0,20,0.0,8. p75_trade_value,10275.0,6500.0,10.0,23.0,0.43478260869565216,0.55,2. BELOW BASELINE,15.0,38.0,0.39473684210526316
+NNOX,Business Services,Technology Services,20__0,20,0.0,1. p999999_trade_value,10200.0,10200.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+NNOX,Business Services,Technology Services,20__0,20,0.0,6. p95_trade_value,10000.0,6500.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,2.0,5.0,0.4
+NNOX,Business Services,Technology Services,20__0,20,0.0,7. p90_trade_value,6435.000000000001,6299.999999999999,2.0,4.0,0.5,0.55,2. BELOW BASELINE,4.0,9.0,0.4444444444444444
+NNOX,Business Services,Technology Services,20__0,20,0.0,8. p75_trade_value,6000.0,4950.0,8.0,14.0,0.5714285714285714,0.55,2. BELOW BASELINE,12.0,23.0,0.5217391304347826
+NOTE,Business Services,Technology Services,10__0,10,0.0,1. p999999_trade_value,12000.0,12000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+NOTE,Business Services,Technology Services,10__0,10,0.0,8. p75_trade_value,5330.0,5330.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+NPO,Business Services,Technology Services,20__0,20,0.0,1. p999999_trade_value,175000.0,175000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+NPO,Business Services,Technology Services,20__0,20,0.0,6. p95_trade_value,60000.0,50000.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+NPO,Business Services,Technology Services,20__0,20,0.0,7. p90_trade_value,42500.0,23500.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,7.0,0.0
+NPO,Business Services,Technology Services,20__0,20,0.0,8. p75_trade_value,19565.0,7800.0,6.0,11.0,0.5454545454545454,0.55,2. BELOW BASELINE,6.0,18.0,0.3333333333333333
+NSP,Business Services,Staffing Firms,15__0,15,0.0,1. p999999_trade_value,132500.0,132500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+NSP,Business Services,Staffing Firms,15__0,15,0.0,7. p90_trade_value,80000.0,80000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+NSP,Business Services,Staffing Firms,15__0,15,0.0,8. p75_trade_value,67500.0,11040.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,2.0,5.0,0.4
+NVEE,Business Services,Technology Services,5__3,5,3.0,1. p999999_trade_value,18000.0,18000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+NVRI,Business Services,Waste Removal Services,0__0,0,0.0,1. p999999_trade_value,4410.0,4410.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+OCFT,Business Services,Technology Services,0__2,0,2.0,1. p999999_trade_value,14550.0,14550.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+OMC,Business Services,Advertising and Marketing,20__0,20,0.0,1. p999999_trade_value,129465.00000000001,129465.00000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+OMC,Business Services,Advertising and Marketing,20__0,20,0.0,5. p99_trade_value,107250.0,107250.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+OMC,Business Services,Advertising and Marketing,20__0,20,0.0,6. p95_trade_value,85000.0,25200.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
+OMC,Business Services,Advertising and Marketing,20__0,20,0.0,7. p90_trade_value,23520.0,15570.000000000002,3.0,6.0,0.5,0.55,2. BELOW BASELINE,7.0,12.0,0.5833333333333334
+OMC,Business Services,Advertising and Marketing,20__0,20,0.0,8. p75_trade_value,14850.0,9500.0,9.0,17.0,0.5294117647058824,0.55,2. BELOW BASELINE,16.0,29.0,0.5517241379310345
+OPFI,Business Services,Financial Transaction Services,20__0,20,0.0,1. p999999_trade_value,14985.0,14985.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+OPFI,Business Services,Financial Transaction Services,20__0,20,0.0,6. p95_trade_value,14000.0,12000.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+OPFI,Business Services,Financial Transaction Services,20__0,20,0.0,7. p90_trade_value,11310.0,8415.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,4.0,9.0,0.4444444444444444
+OPFI,Business Services,Financial Transaction Services,20__0,20,0.0,8. p75_trade_value,8370.0,6400.0,7.0,13.0,0.5384615384615384,0.55,2. BELOW BASELINE,11.0,22.0,0.5
+PAGS,Business Services,Financial Transaction Services,15__0,15,0.0,1. p999999_trade_value,112500.0,112500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PAGS,Business Services,Financial Transaction Services,15__0,15,0.0,6. p95_trade_value,46953.0,46953.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+PAGS,Business Services,Financial Transaction Services,15__0,15,0.0,7. p90_trade_value,32440.000000000004,30000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+PAGS,Business Services,Financial Transaction Services,15__0,15,0.0,8. p75_trade_value,23348.0,7050.0,3.0,6.0,0.5,0.55,2. BELOW BASELINE,5.0,10.0,0.5
+PAR,Business Services,Financial Transaction Services,15__0,15,0.0,1. p999999_trade_value,67725.0,67725.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PAR,Business Services,Financial Transaction Services,15__0,15,0.0,6. p95_trade_value,66250.0,66250.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+PAR,Business Services,Financial Transaction Services,15__0,15,0.0,7. p90_trade_value,40970.0,32500.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+PAR,Business Services,Financial Transaction Services,15__0,15,0.0,8. p75_trade_value,28700.0,9065.0,4.0,5.0,0.8,0.55,2. BELOW BASELINE,6.0,9.0,0.6666666666666666
+PAY,Business Services,Financial Transaction Services,20__0,20,0.0,1. p999999_trade_value,212840.0,212840.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+PAY,Business Services,Financial Transaction Services,20__0,20,0.0,6. p95_trade_value,210000.0,27565.000000000004,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+PAY,Business Services,Financial Transaction Services,20__0,20,0.0,7. p90_trade_value,22110.0,15839.999999999998,0.0,3.0,0.0,0.55,2. BELOW BASELINE,1.0,7.0,0.14285714285714285
+PAY,Business Services,Financial Transaction Services,20__0,20,0.0,8. p75_trade_value,14689.999999999998,6459.999999999999,2.0,9.0,0.2222222222222222,0.55,2. BELOW BASELINE,3.0,16.0,0.1875
+PAYO,Business Services,Financial Transaction Services,10__0,10,0.0,1. p999999_trade_value,23968.0,23968.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PAYO,Business Services,Financial Transaction Services,10__0,10,0.0,8. p75_trade_value,15719.0,13888.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+PCT,Business Services,Waste Removal Services,30__0,30,0.0,1. p999999_trade_value,288810.0,288810.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+PCT,Business Services,Waste Removal Services,30__0,30,0.0,5. p99_trade_value,252000.0,125220.0,2.0,7.0,0.2857142857142857,0.55,2. BELOW BASELINE,2.0,8.0,0.25
+PCT,Business Services,Waste Removal Services,30__0,30,0.0,6. p95_trade_value,110000.0,27721.999999999996,17.0,31.0,0.5483870967741935,0.55,2. BELOW BASELINE,19.0,39.0,0.48717948717948717
+PCT,Business Services,Waste Removal Services,30__0,30,0.0,7. p90_trade_value,27360.000000000004,15913.999999999998,17.0,39.0,0.4358974358974359,0.55,2. BELOW BASELINE,36.0,78.0,0.46153846153846156
+PCT,Business Services,Waste Removal Services,30__0,30,0.0,8. p75_trade_value,15840.0,8100.0,66.0,117.0,0.5641025641025641,0.55,2. BELOW BASELINE,102.0,195.0,0.5230769230769231
+PDYN,Business Services,Technology Services,20__0,20,0.0,1. p999999_trade_value,33000.0,33000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PDYN,Business Services,Technology Services,20__0,20,0.0,5. p99_trade_value,25080.0,25080.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+PDYN,Business Services,Technology Services,20__0,20,0.0,6. p95_trade_value,18000.0,17150.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
+PDYN,Business Services,Technology Services,20__0,20,0.0,7. p90_trade_value,14160.0,12000.0,4.0,6.0,0.6666666666666666,0.55,2. BELOW BASELINE,8.0,12.0,0.6666666666666666
+PDYN,Business Services,Technology Services,20__0,20,0.0,8. p75_trade_value,11000.000000000002,7884.0,7.0,16.0,0.4375,0.55,2. BELOW BASELINE,15.0,28.0,0.5357142857142857
+PNR,Business Services,Waste Removal Services,20__1,20,1.0,1. p999999_trade_value,293287.5,293287.5,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PNR,Business Services,Waste Removal Services,20__1,20,1.0,5. p99_trade_value,180000.0,180000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+PNR,Business Services,Waste Removal Services,20__1,20,1.0,6. p95_trade_value,172499.99999999997,79200.0,4.0,5.0,0.8,0.55,1. ABOVE BASELINE,6.0,7.0,0.8571428571428571
+PNR,Business Services,Waste Removal Services,20__1,20,1.0,7. p90_trade_value,60970.00000000001,47190.0,3.0,7.0,0.42857142857142855,0.55,2. BELOW BASELINE,9.0,14.0,0.6428571428571429
+PNR,Business Services,Waste Removal Services,20__1,20,1.0,8. p75_trade_value,42500.0,13625.0,8.0,21.0,0.38095238095238093,0.55,2. BELOW BASELINE,17.0,35.0,0.4857142857142857
+PRTH,Business Services,Technology Services,0__0,0,0.0,1. p999999_trade_value,4000.0,4000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PSFE,Business Services,Financial Transaction Services,15__0,15,0.0,1. p999999_trade_value,64000.0,64000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PSFE,Business Services,Financial Transaction Services,15__0,15,0.0,7. p90_trade_value,34720.0,34720.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+PSFE,Business Services,Financial Transaction Services,15__0,15,0.0,8. p75_trade_value,19500.0,13200.0,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+PSN,Business Services,Technology Services,25__1,25,1.0,1. p999999_trade_value,148800.0,148800.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PSN,Business Services,Technology Services,25__1,25,1.0,5. p99_trade_value,20100.0,18600.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+PSN,Business Services,Technology Services,25__1,25,1.0,6. p95_trade_value,18290.0,14904.000000000002,6.0,9.0,0.6666666666666666,0.55,2. BELOW BASELINE,8.0,12.0,0.6666666666666666
+PSN,Business Services,Technology Services,25__1,25,1.0,7. p90_trade_value,14720.000000000002,9900.0,9.0,12.0,0.75,0.55,2. BELOW BASELINE,17.0,24.0,0.7083333333333334
+PSN,Business Services,Technology Services,25__1,25,1.0,8. p75_trade_value,9490.0,7000.0,27.0,34.0,0.7941176470588235,0.55,2. BELOW BASELINE,44.0,58.0,0.7586206896551724
+PYPL,Business Services,Financial Transaction Services,40__0,40,0.0,1. p999999_trade_value,1695000.0,1695000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+PYPL,Business Services,Financial Transaction Services,40__0,40,0.0,3. p9999_trade_value,1397638.0,1397638.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+PYPL,Business Services,Financial Transaction Services,40__0,40,0.0,4. p999_trade_value,817950.0,396000.0,7.0,15.0,0.4666666666666667,0.55,2. BELOW BASELINE,7.0,17.0,0.4117647058823529
+PYPL,Business Services,Financial Transaction Services,40__0,40,0.0,5. p99_trade_value,394506.0,94176.0,79.0,146.0,0.541095890410959,0.55,2. BELOW BASELINE,86.0,163.0,0.5276073619631901
+PYPL,Business Services,Financial Transaction Services,40__0,40,0.0,6. p95_trade_value,93939.0,26409.999999999996,348.0,648.0,0.5370370370370371,0.55,2. BELOW BASELINE,434.0,811.0,0.5351418002466092
+PYPL,Business Services,Financial Transaction Services,40__0,40,0.0,7. p90_trade_value,26400.0,16542.999999999996,435.0,811.0,0.5363748458692972,0.55,2. BELOW BASELINE,869.0,1622.0,0.5357583230579531
+PYPL,Business Services,Financial Transaction Services,40__0,40,0.0,8. p75_trade_value,16500.0,8610.0,1241.0,2433.0,0.5100698725852857,0.55,2. BELOW BASELINE,2110.0,4055.0,0.5203452527743526
+QFIN,Business Services,Technology Services,20__0,20,0.0,1. p999999_trade_value,37500.0,37500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+QFIN,Business Services,Technology Services,20__0,20,0.0,6. p95_trade_value,13440.0,11550.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+QFIN,Business Services,Technology Services,20__0,20,0.0,7. p90_trade_value,11000.000000000002,10020.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,7.0,0.0
+QFIN,Business Services,Technology Services,20__0,20,0.0,8. p75_trade_value,9735.0,6840.000000000001,4.0,9.0,0.4444444444444444,0.55,2. BELOW BASELINE,4.0,16.0,0.25
+QXO,Business Services,Technology Services,20__0,20,0.0,1. p999999_trade_value,53020.00000000001,53020.00000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+QXO,Business Services,Technology Services,20__0,20,0.0,5. p99_trade_value,36000.0,36000.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+QXO,Business Services,Technology Services,20__0,20,0.0,6. p95_trade_value,35910.0,16000.0,2.0,5.0,0.4,0.55,2. BELOW BASELINE,3.0,7.0,0.42857142857142855
+QXO,Business Services,Technology Services,20__0,20,0.0,7. p90_trade_value,14489.999999999998,13964.999999999998,3.0,4.0,0.75,0.55,2. BELOW BASELINE,6.0,11.0,0.5454545454545454
+QXO,Business Services,Technology Services,20__0,20,0.0,8. p75_trade_value,12599.999999999998,8000.0,9.0,18.0,0.5,0.55,2. BELOW BASELINE,15.0,29.0,0.5172413793103449
+RAMP,Business Services,Technology Services,15__0,15,0.0,1. p999999_trade_value,120000.0,120000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+RAMP,Business Services,Technology Services,15__0,15,0.0,6. p95_trade_value,20000.0,19800.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+RAMP,Business Services,Technology Services,15__0,15,0.0,7. p90_trade_value,15900.0,15500.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,5.0,0.2
+RAMP,Business Services,Technology Services,15__0,15,0.0,8. p75_trade_value,10750.0,6000.0,1.0,5.0,0.2,0.55,2. BELOW BASELINE,2.0,10.0,0.2
+RBA,Business Services,Financial Transaction Services,20__0,20,0.0,1. p999999_trade_value,25830.0,25830.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+RBA,Business Services,Financial Transaction Services,20__0,20,0.0,6. p95_trade_value,20055.0,13456.0,4.0,6.0,0.6666666666666666,0.55,2. BELOW BASELINE,4.0,7.0,0.5714285714285714
+RBA,Business Services,Financial Transaction Services,20__0,20,0.0,7. p90_trade_value,13440.0,8547.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,5.0,10.0,0.5
+RBA,Business Services,Financial Transaction Services,20__0,20,0.0,8. p75_trade_value,7410.000000000001,5040.0,10.0,13.0,0.7692307692307693,0.55,2. BELOW BASELINE,15.0,23.0,0.6521739130434783
+RCAT,Business Services,Technology Services,35__0,35,0.0,1. p999999_trade_value,79560.0,79560.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+RCAT,Business Services,Technology Services,35__0,35,0.0,4. p999_trade_value,77500.0,77500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+RCAT,Business Services,Technology Services,35__0,35,0.0,5. p99_trade_value,76076.0,35620.0,10.0,18.0,0.5555555555555556,0.55,2. BELOW BASELINE,10.0,20.0,0.5
+RCAT,Business Services,Technology Services,35__0,35,0.0,6. p95_trade_value,35000.0,17875.0,54.0,80.0,0.675,0.55,2. BELOW BASELINE,64.0,100.0,0.64
+RCAT,Business Services,Technology Services,35__0,35,0.0,7. p90_trade_value,17800.0,12600.0,60.0,103.0,0.5825242718446602,0.55,2. BELOW BASELINE,124.0,203.0,0.6108374384236454
+RCAT,Business Services,Technology Services,35__0,35,0.0,8. p75_trade_value,12599.999999999998,7800.0,187.0,292.0,0.6404109589041096,0.55,2. BELOW BASELINE,311.0,495.0,0.6282828282828283
+RELY,Business Services,Financial Transaction Services,20__0,20,0.0,1. p999999_trade_value,192000.0,192000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+RELY,Business Services,Financial Transaction Services,20__0,20,0.0,5. p99_trade_value,126500.0,126500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+RELY,Business Services,Financial Transaction Services,20__0,20,0.0,6. p95_trade_value,114769.99999999999,45375.00000000001,1.0,4.0,0.25,0.55,2. BELOW BASELINE,2.0,6.0,0.3333333333333333
+RELY,Business Services,Financial Transaction Services,20__0,20,0.0,7. p90_trade_value,35750.0,30000.0,2.0,6.0,0.3333333333333333,0.55,2. BELOW BASELINE,4.0,12.0,0.3333333333333333
+RELY,Business Services,Financial Transaction Services,20__0,20,0.0,8. p75_trade_value,27500.0,11499.999999999998,9.0,17.0,0.5294117647058824,0.55,2. BELOW BASELINE,13.0,29.0,0.4482758620689655
+RHI,Business Services,Staffing Firms,15__0,15,0.0,1. p999999_trade_value,62579.99999999999,62579.99999999999,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+RHI,Business Services,Staffing Firms,15__0,15,0.0,6. p95_trade_value,47120.00000000001,47120.00000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+RHI,Business Services,Staffing Firms,15__0,15,0.0,7. p90_trade_value,22325.0,22325.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+RHI,Business Services,Staffing Firms,15__0,15,0.0,8. p75_trade_value,21000.0,20454.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,2.0,6.0,0.3333333333333333
+RILY,Business Services,Auction and Valuation Services,30__0,30,0.0,1. p999999_trade_value,330000.00000000006,330000.00000000006,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+RILY,Business Services,Auction and Valuation Services,30__0,30,0.0,4. p999_trade_value,97845.99999999999,97845.99999999999,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+RILY,Business Services,Auction and Valuation Services,30__0,30,0.0,5. p99_trade_value,95095.0,33660.0,5.0,13.0,0.38461538461538464,0.55,2. BELOW BASELINE,6.0,15.0,0.4
+RILY,Business Services,Auction and Valuation Services,30__0,30,0.0,6. p95_trade_value,33380.0,15000.0,21.0,65.0,0.3230769230769231,0.55,2. BELOW BASELINE,27.0,80.0,0.3375
+RILY,Business Services,Auction and Valuation Services,30__0,30,0.0,7. p90_trade_value,14969.999999999998,11560.0,30.0,63.0,0.47619047619047616,0.55,2. BELOW BASELINE,57.0,143.0,0.3986013986013986
+RILY,Business Services,Auction and Valuation Services,30__0,30,0.0,8. p75_trade_value,11515.0,7034.999999999999,104.0,212.0,0.49056603773584906,0.55,2. BELOW BASELINE,161.0,355.0,0.4535211267605634
+ROL,Business Services,Building Products - Maintenance Service,20__0,20,0.0,1. p999999_trade_value,40400.0,40400.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ROL,Business Services,Building Products - Maintenance Service,20__0,20,0.0,6. p95_trade_value,25280.0,16650.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+ROL,Business Services,Building Products - Maintenance Service,20__0,20,0.0,7. p90_trade_value,14400.0,13200.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,3.0,6.0,0.5
+ROL,Business Services,Building Products - Maintenance Service,20__0,20,0.0,8. p75_trade_value,13050.0,7934.999999999999,5.0,9.0,0.5555555555555556,0.55,2. BELOW BASELINE,8.0,15.0,0.5333333333333333
+RSG,Business Services,Waste Removal Services,20__0,20,0.0,1. p999999_trade_value,167250.0,167250.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+RSG,Business Services,Waste Removal Services,20__0,20,0.0,5. p99_trade_value,83160.0,83160.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+RSG,Business Services,Waste Removal Services,20__0,20,0.0,6. p95_trade_value,63640.0,28404.999999999996,4.0,4.0,1.0,0.55,2. BELOW BASELINE,5.0,6.0,0.8333333333333334
+RSG,Business Services,Waste Removal Services,20__0,20,0.0,7. p90_trade_value,24955.0,17640.0,4.0,6.0,0.6666666666666666,0.55,2. BELOW BASELINE,9.0,12.0,0.75
+RSG,Business Services,Waste Removal Services,20__0,20,0.0,8. p75_trade_value,15869.999999999998,8190.000000000001,14.0,18.0,0.7777777777777778,0.55,2. BELOW BASELINE,23.0,30.0,0.7666666666666667
+RTO,Business Services,Business - Services,10__0,10,0.0,1. p999999_trade_value,57400.0,57400.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+RTO,Business Services,Business - Services,10__0,10,0.0,7. p90_trade_value,15920.000000000002,15920.000000000002,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+RTO,Business Services,Business - Services,10__0,10,0.0,8. p75_trade_value,15840.0,13500.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,3.0,4.0,0.75
+RXT,Business Services,Technology Services,0__2,0,2.0,1. p999999_trade_value,9500.0,9500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+RZLV,Business Services,Technology Services,10__0,10,0.0,1. p999999_trade_value,8835.0,8835.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+RZLV,Business Services,Technology Services,10__0,10,0.0,8. p75_trade_value,4750.0,4750.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+SCS,Business Services,Business - Office Products,15__0,15,0.0,1. p999999_trade_value,10045.0,10045.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SCS,Business Services,Business - Office Products,15__0,15,0.0,6. p95_trade_value,9550.0,9550.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+SCS,Business Services,Business - Office Products,15__0,15,0.0,7. p90_trade_value,8460.0,8460.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+SCS,Business Services,Business - Office Products,15__0,15,0.0,8. p75_trade_value,6000.0,4080.0000000000005,4.0,4.0,1.0,0.55,2. BELOW BASELINE,6.0,7.0,0.8571428571428571
+SEZL,Business Services,Financial Transaction Services,25__1,25,1.0,1. p999999_trade_value,56536.0,56536.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SEZL,Business Services,Financial Transaction Services,25__1,25,1.0,5. p99_trade_value,55000.0,49400.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+SEZL,Business Services,Financial Transaction Services,25__1,25,1.0,6. p95_trade_value,44958.0,31850.0,15.0,15.0,1.0,0.55,1. ABOVE BASELINE,19.0,19.0,1.0
+SEZL,Business Services,Financial Transaction Services,25__1,25,1.0,7. p90_trade_value,31529.000000000004,18000.0,14.0,18.0,0.7777777777777778,0.55,1. ABOVE BASELINE,33.0,37.0,0.8918918918918919
+SEZL,Business Services,Financial Transaction Services,25__1,25,1.0,8. p75_trade_value,16225.0,8550.0,46.0,56.0,0.8214285714285714,0.55,1. ABOVE BASELINE,79.0,93.0,0.8494623655913979
+SNDK,Business Services,Technology Services,25__0,25,0.0,1. p999999_trade_value,1509200.0000000002,1509200.0000000002,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,1.0,1.0
+SNDK,Business Services,Technology Services,25__0,25,0.0,5. p99_trade_value,576240.0,102825.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+SNDK,Business Services,Technology Services,25__0,25,0.0,6. p95_trade_value,99675.0,33345.00000000001,2.0,8.0,0.25,0.55,2. BELOW BASELINE,4.0,11.0,0.36363636363636365
+SNDK,Business Services,Technology Services,25__0,25,0.0,7. p90_trade_value,30625.0,22000.000000000004,4.0,11.0,0.36363636363636365,0.55,2. BELOW BASELINE,8.0,22.0,0.36363636363636365
+SNDK,Business Services,Technology Services,25__0,25,0.0,8. p75_trade_value,19440.0,10750.0,21.0,32.0,0.65625,0.55,2. BELOW BASELINE,29.0,54.0,0.5370370370370371
+SPSC,Business Services,Business - Services,15__0,15,0.0,1. p999999_trade_value,36260.0,36260.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SPSC,Business Services,Business - Services,15__0,15,0.0,7. p90_trade_value,19800.0,19800.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+SPSC,Business Services,Business - Services,15__0,15,0.0,8. p75_trade_value,18400.0,11340.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,4.0,5.0,0.8
+SPXC,Business Services,Technology Services,10__0,10,0.0,1. p999999_trade_value,41720.0,41720.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SPXC,Business Services,Technology Services,10__0,10,0.0,8. p75_trade_value,36079.99999999999,33000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+STN,Business Services,Consulting Services,0__0,0,0.0,1. p999999_trade_value,3200.0,3200.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SYM,Business Services,Technology Services,30__0,30,0.0,1. p999999_trade_value,675000.0,675000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+SYM,Business Services,Technology Services,30__0,30,0.0,4. p999_trade_value,300807.0,300807.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+SYM,Business Services,Technology Services,30__0,30,0.0,5. p99_trade_value,161553.0,92400.0,7.0,12.0,0.5833333333333334,0.55,2. BELOW BASELINE,8.0,14.0,0.5714285714285714
+SYM,Business Services,Technology Services,30__0,30,0.0,6. p95_trade_value,89100.00000000001,26250.0,21.0,55.0,0.38181818181818183,0.55,2. BELOW BASELINE,29.0,69.0,0.42028985507246375
+SYM,Business Services,Technology Services,30__0,30,0.0,7. p90_trade_value,26200.0,17000.0,32.0,70.0,0.45714285714285713,0.55,2. BELOW BASELINE,61.0,139.0,0.43884892086330934
+SYM,Business Services,Technology Services,30__0,30,0.0,8. p75_trade_value,16875.0,8820.0,101.0,202.0,0.5,0.55,2. BELOW BASELINE,162.0,341.0,0.4750733137829912
+TNET,Business Services,Outsourcing,15__0,15,0.0,1. p999999_trade_value,53000.0,53000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+TNET,Business Services,Outsourcing,15__0,15,0.0,6. p95_trade_value,31000.0,12600.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+TNET,Business Services,Outsourcing,15__0,15,0.0,7. p90_trade_value,12599.999999999998,12319.999999999998,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,5.0,0.0
+TNET,Business Services,Outsourcing,15__0,15,0.0,8. p75_trade_value,12240.0,8820.0,0.0,7.0,0.0,0.55,2. BELOW BASELINE,0.0,12.0,0.0
+TRI,Business Services,Business - Services,10__0,10,0.0,1. p999999_trade_value,38000.0,38000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+TRI,Business Services,Business - Services,10__0,10,0.0,7. p90_trade_value,24552.0,24552.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+TRI,Business Services,Business - Services,10__0,10,0.0,8. p75_trade_value,18000.0,13500.0,3.0,3.0,1.0,0.55,2. BELOW BASELINE,4.0,5.0,0.8
+TRU,Business Services,Business - Information Services,25__1,25,1.0,1. p999999_trade_value,352500.0,352500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+TRU,Business Services,Business - Information Services,25__1,25,1.0,5. p99_trade_value,247500.0,109794.0,3.0,3.0,1.0,0.55,2. BELOW BASELINE,3.0,4.0,0.75
+TRU,Business Services,Business - Information Services,25__1,25,1.0,6. p95_trade_value,87500.0,20640.0,6.0,16.0,0.375,0.55,2. BELOW BASELINE,9.0,20.0,0.45
+TRU,Business Services,Business - Information Services,25__1,25,1.0,7. p90_trade_value,20250.0,12180.000000000002,14.0,20.0,0.7,0.55,2. BELOW BASELINE,23.0,40.0,0.575
+TRU,Business Services,Business - Information Services,25__1,25,1.0,8. p75_trade_value,12000.0,7425.0,35.0,61.0,0.5737704918032787,0.55,2. BELOW BASELINE,58.0,101.0,0.5742574257425742
+TTEC,Business Services,Technology Services,5__0,5,0.0,1. p999999_trade_value,8985.0,8985.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ULS,Business Services,Business - Services,10__0,10,0.0,1. p999999_trade_value,78108.0,78108.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ULS,Business Services,Business - Services,10__0,10,0.0,7. p90_trade_value,53000.0,53000.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+ULS,Business Services,Business - Services,10__0,10,0.0,8. p75_trade_value,20750.0,20750.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+UMAC,Business Services,Technology Services,20__0,20,0.0,1. p999999_trade_value,24864.0,24864.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+UMAC,Business Services,Technology Services,20__0,20,0.0,6. p95_trade_value,21616.000000000004,15900.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
+UMAC,Business Services,Technology Services,20__0,20,0.0,7. p90_trade_value,15385.0,12760.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,6.0,7.0,0.8571428571428571
+UMAC,Business Services,Technology Services,20__0,20,0.0,8. p75_trade_value,12624.0,6900.0,9.0,10.0,0.9,0.55,1. ABOVE BASELINE,15.0,17.0,0.8823529411764706
+UPXI,Business Services,Technology Services,10__0,10,0.0,8. p75_trade_value,40999.99999999999,20499.999999999996,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+V,Business Services,Financial Transaction Services,40__1,40,1.0,1. p999999_trade_value,1096902.0,1096902.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,2.0,1.0
+V,Business Services,Financial Transaction Services,40__1,40,1.0,4. p999_trade_value,807500.0,297500.0,4.0,11.0,0.36363636363636365,0.55,2. BELOW BASELINE,6.0,13.0,0.46153846153846156
+V,Business Services,Financial Transaction Services,40__1,40,1.0,5. p99_trade_value,287254.0,59109.0,56.0,113.0,0.49557522123893805,0.55,2. BELOW BASELINE,62.0,126.0,0.49206349206349204
+V,Business Services,Financial Transaction Services,40__1,40,1.0,6. p95_trade_value,58950.0,22455.0,247.0,504.0,0.49007936507936506,0.55,2. BELOW BASELINE,309.0,630.0,0.49047619047619045
+V,Business Services,Financial Transaction Services,40__1,40,1.0,7. p90_trade_value,22400.000000000004,15000.0,320.0,630.0,0.5079365079365079,0.55,2. BELOW BASELINE,629.0,1260.0,0.4992063492063492
+V,Business Services,Financial Transaction Services,40__1,40,1.0,8. p75_trade_value,14985.0,7950.0,923.0,1890.0,0.4883597883597884,0.55,2. BELOW BASELINE,1552.0,3150.0,0.4926984126984127
+VERI,Business Services,Technology Services,5__0,5,0.0,1. p999999_trade_value,4375.0,4375.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+VERI,Business Services,Technology Services,5__0,5,0.0,8. p75_trade_value,4200.0,4200.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+VLTO,Business Services,Waste Removal Services,20__0,20,0.0,1. p999999_trade_value,78000.0,78000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+VLTO,Business Services,Waste Removal Services,20__0,20,0.0,6. p95_trade_value,50400.0,33465.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+VLTO,Business Services,Waste Removal Services,20__0,20,0.0,7. p90_trade_value,33174.0,25935.000000000004,4.0,4.0,1.0,0.55,1. ABOVE BASELINE,8.0,8.0,1.0
+VLTO,Business Services,Waste Removal Services,20__0,20,0.0,8. p75_trade_value,22116.000000000004,8280.0,11.0,12.0,0.9166666666666666,0.55,1. ABOVE BASELINE,19.0,20.0,0.95
+VMEO,Business Services,Technology Services,10__0,10,0.0,1. p999999_trade_value,7400.0,7400.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+VMEO,Business Services,Technology Services,10__0,10,0.0,8. p75_trade_value,4975.0,4975.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+VNT,Business Services,Technology Services,10__0,10,0.0,1. p999999_trade_value,20000.0,20000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+VNT,Business Services,Technology Services,10__0,10,0.0,8. p75_trade_value,14920.000000000002,14920.000000000002,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+VRAR,Business Services,Technology Services,10__0,10,0.0,1. p999999_trade_value,5000.0,5000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+VRAR,Business Services,Technology Services,10__0,10,0.0,7. p90_trade_value,4600.0,4600.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+VRAR,Business Services,Technology Services,10__0,10,0.0,8. p75_trade_value,4500.0,4500.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,3.0,4.0,0.75
+VRSK,Business Services,Business - Information Services,20__0,20,0.0,1. p999999_trade_value,84920.0,84920.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+VRSK,Business Services,Business - Information Services,20__0,20,0.0,6. p95_trade_value,26240.000000000004,14760.0,3.0,3.0,1.0,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+VRSK,Business Services,Business - Information Services,20__0,20,0.0,7. p90_trade_value,14160.0,9900.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,5.0,9.0,0.5555555555555556
+VRSK,Business Services,Business - Information Services,20__0,20,0.0,8. p75_trade_value,9690.0,8030.0,7.0,12.0,0.5833333333333334,0.55,2. BELOW BASELINE,12.0,21.0,0.5714285714285714
+VVX,Business Services,Technology Services,5__0,5,0.0,1. p999999_trade_value,3800.0,3800.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+WCN,Business Services,Waste Removal Services,15__0,15,0.0,1. p999999_trade_value,180000.0,180000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+WCN,Business Services,Waste Removal Services,15__0,15,0.0,6. p95_trade_value,114000.0,101745.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+WCN,Business Services,Waste Removal Services,15__0,15,0.0,7. p90_trade_value,37375.0,23600.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+WCN,Business Services,Waste Removal Services,15__0,15,0.0,8. p75_trade_value,20000.0,5520.0,4.0,6.0,0.6666666666666666,0.55,2. BELOW BASELINE,7.0,11.0,0.6363636363636364
+WEX,Business Services,Financial Transaction Services,20__1,20,1.0,1. p999999_trade_value,577500.0,577500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+WEX,Business Services,Financial Transaction Services,20__1,20,1.0,5. p99_trade_value,550000.0,550000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+WEX,Business Services,Financial Transaction Services,20__1,20,1.0,6. p95_trade_value,232500.0,45000.0,0.0,5.0,0.0,0.55,2. BELOW BASELINE,0.0,7.0,0.0
+WEX,Business Services,Financial Transaction Services,20__1,20,1.0,7. p90_trade_value,33000.0,15600.0,5.0,6.0,0.8333333333333334,0.55,2. BELOW BASELINE,5.0,13.0,0.38461538461538464
+WEX,Business Services,Financial Transaction Services,20__1,20,1.0,8. p75_trade_value,15200.0,6480.0,10.0,20.0,0.5,0.55,2. BELOW BASELINE,15.0,33.0,0.45454545454545453
+WLDN,Business Services,Business - Services,5__0,5,0.0,1. p999999_trade_value,5400.0,5400.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+WM,Business Services,Waste Removal Services,30__0,30,0.0,1. p999999_trade_value,104000.0,104000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+WM,Business Services,Waste Removal Services,30__0,30,0.0,5. p99_trade_value,98009.99999999999,68055.0,2.0,6.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,7.0,0.2857142857142857
+WM,Business Services,Waste Removal Services,30__0,30,0.0,6. p95_trade_value,65940.0,22630.0,13.0,28.0,0.4642857142857143,0.55,2. BELOW BASELINE,15.0,35.0,0.42857142857142855
+WM,Business Services,Waste Removal Services,30__0,30,0.0,7. p90_trade_value,21456.0,14560.0,17.0,35.0,0.4857142857142857,0.55,2. BELOW BASELINE,32.0,70.0,0.45714285714285713
+WM,Business Services,Waste Removal Services,30__0,30,0.0,8. p75_trade_value,14525.0,8500.0,65.0,104.0,0.625,0.55,2. BELOW BASELINE,97.0,174.0,0.5574712643678161
+WNS,Business Services,Business - Services,20__1,20,1.0,1. p999999_trade_value,462500.0,462500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+WNS,Business Services,Business - Services,20__1,20,1.0,6. p95_trade_value,243460.0,86580.0,3.0,4.0,0.75,0.55,1. ABOVE BASELINE,4.0,5.0,0.8
+WNS,Business Services,Business - Services,20__1,20,1.0,7. p90_trade_value,75000.0,40001.0,2.0,5.0,0.4,0.55,2. BELOW BASELINE,6.0,10.0,0.6
+WNS,Business Services,Business - Services,20__1,20,1.0,8. p75_trade_value,39420.00000000001,15000.0,5.0,16.0,0.3125,0.55,2. BELOW BASELINE,11.0,26.0,0.4230769230769231
+WPP,Business Services,Advertising and Marketing,5__0,5,0.0,1. p999999_trade_value,3825.0,3825.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+WU,Business Services,Financial Transaction Services,15__0,15,0.0,1. p999999_trade_value,50000.0,50000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+WU,Business Services,Financial Transaction Services,15__0,15,0.0,6. p95_trade_value,33820.00000000001,33820.00000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+WU,Business Services,Financial Transaction Services,15__0,15,0.0,7. p90_trade_value,23575.0,22500.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+WU,Business Services,Financial Transaction Services,15__0,15,0.0,8. p75_trade_value,22000.0,14950.0,6.0,6.0,1.0,0.55,2. BELOW BASELINE,8.0,10.0,0.8
+XPER,Business Services,Technology Services,0__1,0,1.0,1. p999999_trade_value,30000.0,30000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+XYL,Business Services,Waste Removal Services,15__0,15,0.0,1. p999999_trade_value,97500.0,97500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+XYL,Business Services,Waste Removal Services,15__0,15,0.0,6. p95_trade_value,66330.0,63420.00000000001,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+XYL,Business Services,Waste Removal Services,15__0,15,0.0,7. p90_trade_value,57600.0,50400.0,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,2.0,6.0,0.3333333333333333
+XYL,Business Services,Waste Removal Services,15__0,15,0.0,8. p75_trade_value,35000.0,10500.0,3.0,8.0,0.375,0.55,2. BELOW BASELINE,5.0,14.0,0.35714285714285715
+YEXT,Business Services,Technology Services,15__0,15,0.0,1. p999999_trade_value,150000.0,150000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+YEXT,Business Services,Technology Services,15__0,15,0.0,6. p95_trade_value,121325.0,121325.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+YEXT,Business Services,Technology Services,15__0,15,0.0,7. p90_trade_value,90000.0,64760.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+YEXT,Business Services,Technology Services,15__0,15,0.0,8. p75_trade_value,60000.0,20000.0,0.0,5.0,0.0,0.55,2. BELOW BASELINE,0.0,9.0,0.0
+YMM,Business Services,Technology Services,20__0,20,0.0,1. p999999_trade_value,98000.00000000001,98000.00000000001,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+YMM,Business Services,Technology Services,20__0,20,0.0,6. p95_trade_value,47500.0,35000.00000000001,1.0,4.0,0.25,0.55,2. BELOW BASELINE,2.0,5.0,0.4
+YMM,Business Services,Technology Services,20__0,20,0.0,7. p90_trade_value,33000.0,24500.0,4.0,4.0,1.0,0.55,2. BELOW BASELINE,6.0,9.0,0.6666666666666666
+YMM,Business Services,Technology Services,20__0,20,0.0,8. p75_trade_value,24464.999999999996,11976.0,9.0,12.0,0.75,0.55,2. BELOW BASELINE,15.0,21.0,0.7142857142857143
+ZENA,Business Services,Technology Services,10__0,10,0.0,1. p999999_trade_value,57760.0,57760.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ZENA,Business Services,Technology Services,10__0,10,0.0,8. p75_trade_value,8250.0,5964.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+ZETA,Business Services,Technology Services,35__3,35,3.0,1. p999999_trade_value,725000.0,725000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ZETA,Business Services,Technology Services,35__3,35,3.0,4. p999_trade_value,687500.0,641760.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+ZETA,Business Services,Technology Services,35__3,35,3.0,5. p99_trade_value,525000.0,110000.0,11.0,17.0,0.6470588235294118,0.55,1. ABOVE BASELINE,15.0,21.0,0.7142857142857143
+ZETA,Business Services,Technology Services,35__3,35,3.0,6. p95_trade_value,105000.0,29302.0,56.0,84.0,0.6666666666666666,0.55,1. ABOVE BASELINE,71.0,105.0,0.6761904761904762
+ZETA,Business Services,Technology Services,35__3,35,3.0,7. p90_trade_value,29040.000000000004,16400.0,56.0,104.0,0.5384615384615384,0.55,2. BELOW BASELINE,127.0,209.0,0.6076555023923444
+ZETA,Business Services,Technology Services,35__3,35,3.0,8. p75_trade_value,16319.999999999998,8904.0,205.0,313.0,0.6549520766773163,0.55,2. BELOW BASELINE,332.0,522.0,0.6360153256704981
+ZIP,Business Services,Business - Services,0__1,0,1.0,1. p999999_trade_value,22425.0,22425.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ZWS,Business Services,Waste Removal Services,10__0,10,0.0,1. p999999_trade_value,9800.0,9800.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ZWS,Business Services,Waste Removal Services,10__0,10,0.0,8. p75_trade_value,5250.0,5250.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666

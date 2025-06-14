@@ -18,7 +18,9 @@ print(f"Start time: {start_time:.2f} seconds")
 # Define file paths
 data_path = 'data'
 full_db_path = Path(f"{data_path}/master_database.db")
+replace_db_path = Path(f"{data_path}/backup_database.db")
 project = 'pharma'
+prep_schema = 'prep'
 
 # Connect to DuckDB
 con = duckdb.connect(str(full_db_path))
@@ -57,25 +59,52 @@ DROP TABLE pharma._large_trades;
  DROP TABLE banks.securities;                                        
  DROP TABLE banks.security_percentiles;                              
  DROP TABLE banks._large_trades;    
+
+ {prep_schema}.security_percentiles
+where security in ('MRK','ABBV','MSTR','AAPL','BK','CMA','FCNCA','GS','AMGN','LLY','TSLA','NVDA','BAC','GME','PLTR')
+order by sector, industry, security
+
+select * from
+{prep_schema}.clustered_securities 
+WHERE security in ('MRK','ABBV','MSTR','AAPL','BK','CMA','FCNCA','GS','AMGN','LLY','TSLA','NVDA','BAC','GME','PLTR')
+order by cluster, num_trades desc
+limit 100
+
+select * from
+ {prep_schema}.clustered_securities
+where security in ('MRK','ABBV','MSTR','AAPL','BK','CMA','FCNCA','GS','AMGN','LLY','TSLA','NVDA','BAC','GME','PLTR')
+order by security
+
+
+select * from
+{prep_schema}.itm_percentages
+where security in ('MRK','ABBV','MSTR','AAPL','BK','CMA','FCNCA','GS','AMGN','LLY','TSLA','NVDA','BAC','GME','PLTR','PFE')
+order by security, trade_value_category
+select * from information_schema.columns
+    order by table_schema, table_name, ordinal_position
+    
+select * from
+{prep_schema}.unusual_baselines
+where security in ('MRK','ABBV','MSTR','AAPL','BK','CMA','FCNCA','GS','AMGN','LLY','TSLA','NVDA','BAC','GME','PLTR','PFE')
+order by security
 '''
+
 # Get unique rows from query
 result = con.execute(f"""
-select security,max(trade_date)
-from pharma.notable_options_trades
-where security = 'MRK'
-group by 1
-                     ;  
+select sector, industry, count(*)
+                     from raw_data.sector_industry
+                     group by 1,2
+                     order by 1,2
 """).fetchdf()
 print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
-# result.to_csv(sys.stdout, index=False)
+#result.to_csv(sys.stdout, index=False)
+
+
+# Explicitly close the connection
+con.close()
 
 # Capture and print end time, then calculate duration
 end_time = time.time()
 print(f"End time: {end_time:.2f} seconds")
 duration = end_time - start_time
 print(f"Execution time: {duration:.2f} seconds")
-
-# Explicitly close the connection
-con.close()
-
-''' '''

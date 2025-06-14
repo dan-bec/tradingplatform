@@ -1,0 +1,6 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CGAU,Basic Materials,Mining - Gold,0__0,0,0.0,1. p999999_trade_value,3100.0,3100.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+DC,Basic Materials,Mining - Gold,0__0,0,0.0,1. p999999_trade_value,3237.0000000000005,3237.0000000000005,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+EU,Basic Materials,Mining - Miscellaneous,0__0,0,0.0,1. p999999_trade_value,5478.0,5478.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+HYMC,Basic Materials,Mining - Miscellaneous,0__0,0,0.0,1. p999999_trade_value,4280.0,4280.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ODV,Basic Materials,Mining - Gold,0__0,0,0.0,1. p999999_trade_value,4000.0,4000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0

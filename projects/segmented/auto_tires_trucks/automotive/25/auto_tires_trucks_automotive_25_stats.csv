@@ -1,0 +1,12 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+APTV,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,236847.99999999994,5. p99_trade_value,5.0,425,25__0,25,0.0,49482.0,92400.0,229684.48,429440.0,501944.0,509194.4,509919.44
+CMI,Auto-Tires-Trucks,Automotive - Internal Combustion Engines,0.55,22000.000000000004,7. p90_trade_value,29.0,287,25__1,25,1.0,21436.0,35616.0,108140.0,308990.99,372449.1,378794.91,379429.49
+HOG,Auto-Tires-Trucks,Automotive - Domestic,0.55,8320.0,8. p75_trade_value,82.0,328,25__1,25,1.0,15227.2,26133.0,57660.15,107460.76,125154.08,126923.41,127100.34
+HSAI,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,429,25__1,25,1.0,14527.0,18450.0,41218.4,93392.84,99159.28,99735.93,99793.59
+LAZR,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,16492.0,6. p95_trade_value,17.0,337,25__1,25,1.0,11850.0,16354.4,35268.48,272800.0,333280.0,339328.0,339932.8
+PCAR,Auto-Tires-Trucks,Automotive - Domestic,0.55,,,,244,25__1,25,1.0,16071.0,24347.25,46776.8,98283.5,108234.35,109229.44,109328.94
+PII,Auto-Tires-Trucks,Automotive - Domestic,0.55,19000.0,7. p90_trade_value,46.0,460,25__1,25,1.0,18640.0,31853.0,114069.25,391395.0,430639.5,434563.95,434956.39
+STLA,Auto-Tires-Trucks,Automotive - Foreign,0.55,122834.99999999999,1. p999999_trade_value,1.0,202,25__1,25,1.0,29836.5,49749.0,92370.85,122265.17,122778.02,122829.3,122834.43
+TM,Auto-Tires-Trucks,Automotive - Foreign,0.55,,,,379,25__1,25,1.0,11385.0,20052.5,45539.2,184439.38,227035.14,231294.71,231720.67
+WRD,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,410,25__1,25,1.0,12546.0,19692.75,29817.93,49336.21,54235.62,54725.56,54774.56
+ZK,Auto-Tires-Trucks,Automotive - Foreign,0.55,12492.0,8. p75_trade_value,77.0,307,25__1,25,1.0,21310.0,39245.5,78545.8,128025.8,130972.58,131267.26,131296.73

@@ -1,0 +1,7 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+ALB,Basic Materials,Chemical - Diversified ,35__0,35,0.0,1. p999999_trade_value,585752.0,585752.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ALB,Basic Materials,Chemical - Diversified ,35__0,35,0.0,4. p999_trade_value,410000.0,334295.0,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+ALB,Basic Materials,Chemical - Diversified ,35__0,35,0.0,5. p99_trade_value,319500.0,68115.00000000001,18.0,27.0,0.6666666666666666,0.55,2. BELOW BASELINE,20.0,31.0,0.6451612903225806
+ALB,Basic Materials,Chemical - Diversified ,35__0,35,0.0,6. p95_trade_value,66400.0,24400.0,78.0,121.0,0.6446280991735537,0.55,2. BELOW BASELINE,98.0,152.0,0.6447368421052632
+ALB,Basic Materials,Chemical - Diversified ,35__0,35,0.0,7. p90_trade_value,24392.999999999996,14575.0,81.0,154.0,0.525974025974026,0.55,2. BELOW BASELINE,179.0,306.0,0.5849673202614379
+ALB,Basic Materials,Chemical - Diversified ,35__0,35,0.0,8. p75_trade_value,14522.0,7844.0,242.0,451.0,0.5365853658536586,0.55,2. BELOW BASELINE,421.0,757.0,0.5561426684280053

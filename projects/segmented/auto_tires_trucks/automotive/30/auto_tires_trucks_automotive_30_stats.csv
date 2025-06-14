@@ -1,0 +1,5 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+LCID,Auto-Tires-Trucks,Automotive - Domestic,0.55,,,,907,30__0,30,0.0,9655.0,13934.9,35940.6,519970.0,519970.0,519970.0,519970.0
+MOD,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,54000.0,6. p95_trade_value,48.0,955,30__2,30,2.0,22280.0,52015.5,200596.5,526242.0,549424.2,551742.42,551974.24
+QS,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,23600.0,5. p99_trade_value,8.0,871,30__0,30,0.0,11280.0,13959.0,23218.0,38882.2,41184.22,41414.42,41437.44
+RACE,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,1148,30__0,30,0.0,15160.0,23509.5,56868.8,291609.05,371114.7,380011.47,380901.15

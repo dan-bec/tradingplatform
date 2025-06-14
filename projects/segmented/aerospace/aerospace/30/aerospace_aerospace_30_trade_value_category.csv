@@ -1,0 +1,33 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+AVAV,Aerospace,Aerospace - Defense Equipment,30__0,30,0.0,1. p999999_trade_value,115500.0,115500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AVAV,Aerospace,Aerospace - Defense Equipment,30__0,30,0.0,5. p99_trade_value,108000.0,55000.0,2.0,7.0,0.2857142857142857,0.55,2. BELOW BASELINE,3.0,8.0,0.375
+AVAV,Aerospace,Aerospace - Defense Equipment,30__0,30,0.0,6. p95_trade_value,50000.0,18200.0,19.0,30.0,0.6333333333333333,0.55,2. BELOW BASELINE,22.0,38.0,0.5789473684210527
+AVAV,Aerospace,Aerospace - Defense Equipment,30__0,30,0.0,7. p90_trade_value,18000.0,12288.0,22.0,41.0,0.5365853658536586,0.55,2. BELOW BASELINE,44.0,79.0,0.5569620253164557
+AVAV,Aerospace,Aerospace - Defense Equipment,30__0,30,0.0,8. p75_trade_value,12160.0,7200.0,52.0,111.0,0.46846846846846846,0.55,2. BELOW BASELINE,96.0,190.0,0.5052631578947369
+EH,Aerospace,Aerospace - Defense Equipment,30__0,30,0.0,1. p999999_trade_value,182160.0,182160.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+EH,Aerospace,Aerospace - Defense Equipment,30__0,30,0.0,4. p999_trade_value,92540.0,92540.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+EH,Aerospace,Aerospace - Defense Equipment,30__0,30,0.0,5. p99_trade_value,56485.0,43600.0,4.0,12.0,0.3333333333333333,0.55,2. BELOW BASELINE,6.0,14.0,0.42857142857142855
+EH,Aerospace,Aerospace - Defense Equipment,30__0,30,0.0,6. p95_trade_value,42500.0,24480.0,29.0,55.0,0.5272727272727272,0.55,2. BELOW BASELINE,35.0,69.0,0.5072463768115942
+EH,Aerospace,Aerospace - Defense Equipment,30__0,30,0.0,7. p90_trade_value,24100.0,16758.0,30.0,68.0,0.4411764705882353,0.55,2. BELOW BASELINE,65.0,137.0,0.4744525547445255
+EH,Aerospace,Aerospace - Defense Equipment,30__0,30,0.0,8. p75_trade_value,16710.0,9480.0,84.0,206.0,0.4077669902912621,0.55,2. BELOW BASELINE,149.0,343.0,0.43440233236151604
+GD,Aerospace,Aerospace - Defense,30__0,30,0.0,1. p999999_trade_value,172040.0,172040.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+GD,Aerospace,Aerospace - Defense,30__0,30,0.0,5. p99_trade_value,166320.0,57090.0,3.0,7.0,0.42857142857142855,0.55,2. BELOW BASELINE,4.0,8.0,0.5
+GD,Aerospace,Aerospace - Defense,30__0,30,0.0,6. p95_trade_value,51940.00000000001,24189.999999999996,16.0,28.0,0.5714285714285714,0.55,2. BELOW BASELINE,20.0,36.0,0.5555555555555556
+GD,Aerospace,Aerospace - Defense,30__0,30,0.0,7. p90_trade_value,23460.0,12760.0,22.0,36.0,0.6111111111111112,0.55,2. BELOW BASELINE,42.0,72.0,0.5833333333333334
+GD,Aerospace,Aerospace - Defense,30__0,30,0.0,8. p75_trade_value,12750.0,7098.0,54.0,108.0,0.5,0.55,2. BELOW BASELINE,96.0,180.0,0.5333333333333333
+HWM,Aerospace,Aerospace - Defense,30__2,30,2.0,1. p999999_trade_value,980527.0,980527.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+HWM,Aerospace,Aerospace - Defense,30__2,30,2.0,5. p99_trade_value,400500.0,187440.0,5.0,9.0,0.5555555555555556,0.55,1. ABOVE BASELINE,6.0,10.0,0.6
+HWM,Aerospace,Aerospace - Defense,30__2,30,2.0,6. p95_trade_value,183399.99999999997,29000.0,32.0,40.0,0.8,0.55,1. ABOVE BASELINE,38.0,50.0,0.76
+HWM,Aerospace,Aerospace - Defense,30__2,30,2.0,7. p90_trade_value,28400.0,18737.0,32.0,50.0,0.64,0.55,1. ABOVE BASELINE,70.0,100.0,0.7
+HWM,Aerospace,Aerospace - Defense,30__2,30,2.0,8. p75_trade_value,18620.0,9135.0,112.0,151.0,0.7417218543046358,0.55,1. ABOVE BASELINE,182.0,251.0,0.7250996015936255
+NOC,Aerospace,Aerospace - Defense,30__0,30,0.0,1. p999999_trade_value,231040.0,231040.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+NOC,Aerospace,Aerospace - Defense,30__0,30,0.0,4. p999_trade_value,188602.0,188602.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+NOC,Aerospace,Aerospace - Defense,30__0,30,0.0,5. p99_trade_value,168215.0,75330.0,4.0,9.0,0.4444444444444444,0.55,2. BELOW BASELINE,5.0,12.0,0.4166666666666667
+NOC,Aerospace,Aerospace - Defense,30__0,30,0.0,6. p95_trade_value,74500.0,18920.0,28.0,45.0,0.6222222222222222,0.55,2. BELOW BASELINE,33.0,57.0,0.5789473684210527
+NOC,Aerospace,Aerospace - Defense,30__0,30,0.0,7. p90_trade_value,18900.0,13000.0,30.0,58.0,0.5172413793103449,0.55,2. BELOW BASELINE,63.0,115.0,0.5478260869565217
+NOC,Aerospace,Aerospace - Defense,30__0,30,0.0,8. p75_trade_value,12825.0,7200.0,87.0,171.0,0.5087719298245614,0.55,2. BELOW BASELINE,150.0,286.0,0.5244755244755245
+TDG,Aerospace,Aerospace - Defense Equipment,30__0,30,0.0,1. p999999_trade_value,245000.0,245000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+TDG,Aerospace,Aerospace - Defense Equipment,30__0,30,0.0,5. p99_trade_value,205040.0,58279.99999999999,9.0,14.0,0.6428571428571429,0.55,2. BELOW BASELINE,10.0,16.0,0.625
+TDG,Aerospace,Aerospace - Defense Equipment,30__0,30,0.0,6. p95_trade_value,54050.0,24714.0,32.0,61.0,0.5245901639344263,0.55,2. BELOW BASELINE,42.0,77.0,0.5454545454545454
+TDG,Aerospace,Aerospace - Defense Equipment,30__0,30,0.0,7. p90_trade_value,24687.0,19112.0,62.0,76.0,0.8157894736842105,0.55,2. BELOW BASELINE,104.0,153.0,0.6797385620915033
+TDG,Aerospace,Aerospace - Defense Equipment,30__0,30,0.0,8. p75_trade_value,19080.0,11592.0,180.0,229.0,0.7860262008733624,0.55,2. BELOW BASELINE,284.0,382.0,0.743455497382199

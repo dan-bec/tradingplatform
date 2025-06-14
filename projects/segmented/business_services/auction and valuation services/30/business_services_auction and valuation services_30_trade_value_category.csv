@@ -1,0 +1,7 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+RILY,Business Services,Auction and Valuation Services,30__0,30,0.0,1. p999999_trade_value,330000.00000000006,330000.00000000006,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+RILY,Business Services,Auction and Valuation Services,30__0,30,0.0,4. p999_trade_value,97845.99999999999,97845.99999999999,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+RILY,Business Services,Auction and Valuation Services,30__0,30,0.0,5. p99_trade_value,95095.0,33660.0,5.0,13.0,0.38461538461538464,0.55,2. BELOW BASELINE,6.0,15.0,0.4
+RILY,Business Services,Auction and Valuation Services,30__0,30,0.0,6. p95_trade_value,33380.0,15000.0,21.0,65.0,0.3230769230769231,0.55,2. BELOW BASELINE,27.0,80.0,0.3375
+RILY,Business Services,Auction and Valuation Services,30__0,30,0.0,7. p90_trade_value,14969.999999999998,11560.0,30.0,63.0,0.47619047619047616,0.55,2. BELOW BASELINE,57.0,143.0,0.3986013986013986
+RILY,Business Services,Auction and Valuation Services,30__0,30,0.0,8. p75_trade_value,11515.0,7034.999999999999,104.0,212.0,0.49056603773584906,0.55,2. BELOW BASELINE,161.0,355.0,0.4535211267605634
