@@ -1,5 +1,18 @@
 from pathlib import Path
 from datetime import datetime, timedelta
+import duckdb
+from functools import lru_cache, wraps
+
+def cache_and_handle_errors(func):
+    @lru_cache(maxsize=None)
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        try:
+            return func(*args, **kwargs)
+        except Exception as e:
+            print(f"Error fetching data: {e}")
+            raise
+    return wrapper
 
 # Base directory (assumes config.py is in the /scripts folder)
 SCRIPT_DIR = Path(__file__).parent
@@ -15,6 +28,7 @@ GDRIVE_FOLDER = "1ItSs-28eBoL1zGSKXwoKwnlHTZeQRcJQ"
 DATA_PATH = REPO_ROOT / "data"
 FULL_DB_PATH = DATA_PATH / "master_database.db"
 PROJECTS_PATH = REPO_ROOT / "projects"
+RAW = "raw_data"
 PREP = "prep"
 COMPILED = "compiled"
 SEGMENTED = "segmented"
@@ -41,6 +55,14 @@ MAX_K = 10
 # OPTIMAL ITM
 ITM_THRESHOLD = 0.65
 
-PREP_OUTPUT_DIR = PROJECTS_PATH / str(int(ITM_THRESHOLD*100)) / PREP
-COMPILED_OUTPUT_DIR = PROJECTS_PATH / str(int(ITM_THRESHOLD*100)) / COMPILED
-SEGMENTED_OUTPUT_DIR = PROJECTS_PATH / str(int(ITM_THRESHOLD*100)) / SEGMENTED
+@cache_and_handle_errors
+def latest_db_date():
+    con = duckdb.connect(FULL_DB_PATH) 
+    result = con.execute(f"SELECT max(data_date) FROM {PREP}.filtered_short_term_otm_options_trades;").fetchone()[0] # type: ignore
+    result = result.strftime("%Y-%m-%d")
+    con.close()
+    return result
+
+PREP_OUTPUT_DIR = PROJECTS_PATH / latest_db_date() / str(int(ITM_THRESHOLD*100)) / PREP
+COMPILED_OUTPUT_DIR = PROJECTS_PATH / latest_db_date() / str(int(ITM_THRESHOLD*100)) / COMPILED
+SEGMENTED_OUTPUT_DIR = PROJECTS_PATH / latest_db_date() / str(int(ITM_THRESHOLD*100)) / SEGMENTED

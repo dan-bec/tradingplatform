@@ -24,6 +24,27 @@ def run_script(script_name, args_list):
     cmd = ["python3", config.SCRIPT_DIR / script_name] + args_list
     subprocess.run(cmd, check=True)
 
+def export_settings():
+    # Define the output directory and file
+    output_dir = config.PROJECTS_PATH
+    os.makedirs(output_dir, exist_ok=True)  # Create directory if it doesn't exist
+    output_file = os.path.join(output_dir, 'settings.txt')
+
+    # Get all settings from config, excluding special attributes
+    settings_dict = {k: v for k, v in vars(config).items() if not k.startswith('__')}
+
+    # Define the subset of keys to export
+    desired_keys = {'STRICT_OTM', 'MIN_TRADE_VALUE', 'TOP_N_TRADES', 'EXPIRATION_DAYS_OUT', 'NUMBER_OF_BINS', ''}
+
+    # Filter the settings to include only the desired keys that exist in config
+    subset_dict = {k: settings_dict[k] for k in desired_keys & settings_dict.keys()}
+
+    # Write the subset of settings to the file
+    with open(output_file, 'w') as f:
+        for key in sorted(subset_dict):
+            value = subset_dict[key]
+            f.write(f"{key}: {repr(value)}\n")
+
 def push_to_github():
     # Set the repository root (parent of /scripts)
     repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -105,6 +126,8 @@ def main():
 
     run_script("v3_5_combined_analysis_and_output.py", ["--itm-threshold", str(args.itm_threshold)])
 
+    export_settings()
+    
     # push results to GitHub
     # push_to_github()
 

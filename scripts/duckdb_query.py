@@ -41,18 +41,7 @@ SELECT 'DROP TABLE ' || table_schema || '.' || table_name || ';'
 FROM information_schema.tables
 where table_schema = 'pharma'
 
-DROP TABLE pharma.filtered_option_trade_data;                       
-DROP TABLE pharma.notable_options_trades;                           
-DROP TABLE pharma.securities;                                       
-DROP TABLE pharma.security_percentiles;                             
-DROP TABLE pharma.successful_options_trades;                        
-DROP TABLE pharma.targeted_options_trades;                          
-DROP TABLE pharma._large_trades;  
-
- DROP TABLE banks.filtered_option_trade_data;                        
- DROP TABLE banks.securities;                                        
- DROP TABLE banks.security_percentiles;                              
- DROP TABLE banks._large_trades;    
+DROP TABLE pharma.filtered_option_trade_data;    
 
  {prep_schema}.security_percentiles
 where security in ('MRK','ABBV','MSTR','AAPL','BK','CMA','FCNCA','GS','AMGN','LLY','TSLA','NVDA','BAC','GME','PLTR')
@@ -87,15 +76,15 @@ select sector, industry, count(*)
                      from raw_data.sector_industry
                      group by 1,2
                      order by 1,2
-                     
+select * from
+{prep_schema}.unusual_baselines
+where security in ('MRK','ABBV','MSTR','AAPL','BK','CMA','FCNCA','GS','AMGN','LLY','TSLA','NVDA','BAC','GME','PLTR','PFE')
+order by security                     
 '''
 
 # Get unique rows from query
 result = con.execute(f"""
-select * from
-{prep_schema}.unusual_baselines
-where security in ('MRK','ABBV','MSTR','AAPL','BK','CMA','FCNCA','GS','AMGN','LLY','TSLA','NVDA','BAC','GME','PLTR','PFE')
-order by security
+select min(data_date) dd from raw_data.all_options_trades_data
 """).fetchdf()
 print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
 # result.to_csv(sys.stdout, index=False)
