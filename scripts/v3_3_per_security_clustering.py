@@ -74,39 +74,23 @@ con.execute(f"""
 """)
 print(f"Security percentiles data written to {perc_output}")
 
-# Begin Clustering Analysis
-query = f"SELECT * FROM {prep_schema}.filtered_short_term_otm_options_trades"
-df = con.execute(query).fetchdf()
+# Load security_percentiles for clustering
+security_percentiles_df = con.execute(f"SELECT * FROM {prep_schema}.security_percentiles").fetchdf()
 
-# Use raw trade_value
-trade_value_col = 'trade_value'
-percentile_prefix = 'p'
-percentile_suffix = '_trade_value'
+# Define percentile columns to use for clustering
+percentile_columns = ['p90_trade_value', 'p95_trade_value', 'p99_trade_value', 'p999_trade_value', 'p9999_trade_value', 'p99999_trade_value', 'p999999_trade_value']
 
-# Calculate number of trades per security
-trade_counts = df.groupby('security').size().reset_index(name='num_trades')
-num_trades_col = 'num_trades'
+# Create security_features from pre-calculated percentiles
+security_features = security_percentiles_df[['security', 'sector', 'industry', 'qualifying_trades'] + percentile_columns].copy()
+security_features.rename(columns={'qualifying_trades': 'num_trades'}, inplace=True)
 
-# Calculate percentiles per security using raw trade_value
-quantile_levels = [0.90, 0.95, 0.99, 0.999, 0.9999, 0.99999, 0.999999]
-percentiles = df.groupby('security')[trade_value_col].quantile(quantile_levels).unstack().reset_index() # type: ignore
-percentile_columns = [f"{percentile_prefix}{int(q * 1000000)}{percentile_suffix}" for q in quantile_levels]
-percentiles.columns = ['security'] + percentile_columns
-
-# Merge the features
-security_features = trade_counts.merge(percentiles, on='security', how='inner')
-
-# Handle missing values
+# Handle missing values (though unlikely with PERCENTILE_CONT)
 security_features.fillna(0, inplace=True)
 
 # Step 1: Bin stocks by N.5 part of round(log10(num_trades))
 # Calculate log10 of num_trades
 log_num_trades = np.log10(security_features['num_trades'].astype(float))
-
-# Round to nearest 0.5
 rounded_log = np.round(log_num_trades * 2) / 2
-
-# Multiply by 10 to get bin labels (5, 10, 15, 20, 25, etc.)
 security_features['trade_volume_bin'] = (rounded_log * 10).astype(int)
 
 # Step 2: Apply KMeans clustering within each log-based bin with dynamic k using KneeLocator
@@ -190,16 +174,12 @@ security_features['trade_volume_bin_rank'] = security_features['trade_volume_bin
 
 # Plot and save cluster visualization without log scales
 plt.figure(figsize=(10, 6))
-sns.scatterplot(data=security_features, x='trade_volume_bin', y=f'p950000{percentile_suffix}', hue='final_cluster', palette='deep')
+sns.scatterplot(data=security_features, x='trade_volume_bin', y=f'p95_trade_value', hue='final_cluster', palette='deep')
 plt.title('Security Clusters Based on Trade Features (Binned by log10(num_trades))')
 plt.xlabel('Number of Trades')
 plt.ylabel('95th Percentile Trade Value')
 plt.savefig(output_dir / 'cluster_scatter_binned.png')
 plt.close()
-
-# Add sector and industry to security_features
-security_info = df.groupby('security').agg({'sector': 'first', 'industry': 'first'}).reset_index()
-security_features = security_features.merge(security_info, on='security', how='left')
 
 # Save the clustered securities to DuckDB
 con.execute(f"CREATE OR REPLACE TABLE {prep_schema}.clustered_securities AS SELECT * FROM security_features")
