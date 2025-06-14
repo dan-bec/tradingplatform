@@ -51,6 +51,7 @@ con.execute(f"DROP SCHEMA IF EXISTS {prep_schema} CASCADE;")
 con.execute(f"CREATE SCHEMA {prep_schema};")
 print(f"CREATE OR REPLACE SCHEMA {prep_schema};")
 
+print(f"Building {prep_schema}.filtered_short_term_otm_options_trades table")
 # Create trades_data table with only the relevant trades
 con.execute(f"""
     CREATE OR REPLACE TABLE {prep_schema}.filtered_short_term_otm_options_trades AS
