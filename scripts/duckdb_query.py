@@ -87,6 +87,7 @@ select sector, industry, count(*)
                      from raw_data.sector_industry
                      group by 1,2
                      order by 1,2
+                     
 '''
 
 # Get unique rows from query
