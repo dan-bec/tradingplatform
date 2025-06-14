@@ -23,13 +23,15 @@ def run_script(script_name, args_list):
     subprocess.run(cmd, check=True)
 
 def push_to_github():
-    # Commit and push to GitHub
-    repo_root = os.path.dirname(os.path.abspath(__file__))  # /scripts folder
-    os.chdir(repo_root)  # Stay in /scripts for relative paths to work
-    subprocess.run(["git", "add", "../*"], check=True)  # Add changes in repo root
+    # Set the repository root (parent of /scripts)
+    repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    # Add all changes from the repository root
+    subprocess.run(["git", "-C", repo_root, "add", "."], check=True)
+    # Commit with a timestamped message
     commit_message = f"Update outputs {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-    subprocess.run(["git", "commit", "-m", commit_message], check=True)
-    subprocess.run(["git", "push"], check=True)    
+    subprocess.run(["git", "-C", repo_root, "commit", "-m", commit_message], check=True)
+    # Push to the specified branch (adjust 'main' to your branch name)
+    subprocess.run(["git", "-C", repo_root, "push", "origin", "main"], check=True)
 
 def main():
     # Capture and print start time
@@ -92,5 +94,3 @@ def main():
 
 if __name__ == "__main__":
     push_to_github()
-
-
