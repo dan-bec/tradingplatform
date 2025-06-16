@@ -27,7 +27,7 @@ full_db_path = config.FULL_DB_PATH
 prep_schema = config.PREP
 compiled_schema = config.COMPILED
 itm_threshold = args.itm_threshold  # Target ITM rate
-itm_threshold_100 = str(int(itm_threshold * 100))
+itm_threshold_100 = config.itm_str_prep(itm_threshold)
 compiled_dir = config.COMPILED_OUTPUT_DIR
 compiled_dir.mkdir(parents=True, exist_ok=True)
 
@@ -126,7 +126,7 @@ con.execute(f"""
     , cs.cluster
     , ip.trade_value_category
     , ip.min_trade_value as category_minimum
-    , ip.max_trade_value as categiry_maximum
+    , ip.max_trade_value as category_maximum
     , fstoot.*
     FROM raw_data.sector_industry si
     JOIN {prep_schema}.filtered_short_term_otm_options_trades fstoot on fstoot.security = si.security

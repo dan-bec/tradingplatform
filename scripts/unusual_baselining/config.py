@@ -42,6 +42,7 @@ RAW = "raw_data"
 PREP = "prep"
 COMPILED = "compiled"
 SEGMENTED = "segmented"
+UNUSUAL = "u_a"
 
 STOCK_SUMMARY_DIR = DATA_PATH / "stocks" / "daily"
 OPTION_TRADE_DIR = DATA_PATH / "options" / "trades"
@@ -64,7 +65,7 @@ MAX_K = 10
 
 # OPTIMAL ITM
 ITM_THRESHOLD = 0.75
-ITM_THRESHOLD_100 = str(int(ITM_THRESHOLD*100))
+ITM_THRESHOLD_100 = itm_str_prep(ITM_THRESHOLD*100)
 
 @cache_and_handle_errors
 def latest_db_date():

@@ -5,6 +5,7 @@ import time
 import duckdb
 import pandas as pd
 from tabulate import tabulate
+import sys
 
 # Capture and print start time
 start_time = time.time()
@@ -15,6 +16,8 @@ data_path = config.DATA_PATH
 full_db_path = config.FULL_DB_PATH
 prep_schema = config.PREP
 compiled_schema = config.COMPILED
+itm_threshold = config.ITM_THRESHOLD
+itm_threshold_100 = config.itm_str_prep(itm_threshold)
 
 # Connect to DuckDB
 con = duckdb.connect(str(full_db_path))
@@ -87,10 +90,12 @@ select min_trade_value, expiration_days_out, otm_range, number_of_bins, max(data
 
 # Get unique rows from query
 result = con.execute(f"""
-drop schema raw_data cascade;
+select data_date,security, sector, industry, option_ticker, option_type, expiration,strike_price, option_condition_name, final_cluster, trade_value, trade_value_category, option_type, category_minimum, categiry_maximum
+from {compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100} 
+where data_date > current_date() - INTERVAL 7 DAYS
 """).fetchdf()
-print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
-# result.to_csv(sys.stdout, index=False)
+# print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
+result.to_csv(sys.stdout, index=False)
 
 
 # Explicitly close the connection
