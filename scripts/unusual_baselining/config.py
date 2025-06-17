@@ -65,7 +65,7 @@ MAX_K = 10
 
 # OPTIMAL ITM
 ITM_THRESHOLD = 0.75
-ITM_THRESHOLD_100 = itm_str_prep(ITM_THRESHOLD*100)
+ITM_THRESHOLD_100 = itm_str_prep(ITM_THRESHOLD)
 
 @cache_and_handle_errors
 def latest_db_date():

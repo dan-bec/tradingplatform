@@ -86,13 +86,16 @@ order by security
 
 select min_trade_value, expiration_days_out, otm_range, number_of_bins, max(data_date) as data_date from {prep_schema}.filtered_short_term_otm_options_trades group by 1,2,3,4;
 
+select data_date,security, sector, industry, option_ticker, option_type, expiration,strike_price, option_condition_name, final_cluster, trade_value, trade_value_category, option_type, category_minimum, categiry_maximum
+from {compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100} 
+where data_date > current_date() - INTERVAL 7 DAYS
 '''
 
 # Get unique rows from query
 result = con.execute(f"""
-select data_date,security, sector, industry, option_ticker, option_type, expiration,strike_price, option_condition_name, final_cluster, trade_value, trade_value_category, option_type, category_minimum, categiry_maximum
-from {compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100} 
-where data_date > current_date() - INTERVAL 7 DAYS
+select *
+                     from information_schema.columns
+                     order by table_schema, table_name, ordinal_position
 """).fetchdf()
 # print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
 result.to_csv(sys.stdout, index=False)
