@@ -1,0 +1,15 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AMP,Finance,Financial - Investment Management,0.75,,,,187,25__0,25,0.0,13296.0,16575.0,28271.6,32430.84,32943.08,32994.31,32999.43
+ARES,Finance,Financial - Investment Management,0.75,,,,276,25__0,25,0.0,20142.0,45855.0,145172.75,174717.8,179471.78,179947.18,179994.72
+BAM,Finance,Financial - Miscellaneous Services,0.75,12000.0,6. p95_trade_value,15.0,287,25__0,25,0.0,9012.0,11928.0,112345.2,182406.3,196035.63,197398.56,197534.86
+CG,Finance,Financial - Investment Management,0.75,,,,301,25__0,25,0.0,13500.0,20205.0,43890.0,384310.0,428401.0,432810.1,433251.01
+GLXY,Finance,Financial - Miscellaneous Services,0.75,,,,336,25__0,25,0.0,17300.0,24040.5,234227.0,549568.6,576956.86,579695.69,579969.57
+JEF,Finance,Financial - Miscellaneous Services,0.75,56100.0,1. p999999_trade_value,1.0,301,25__0,25,0.0,16269.0,24875.0,34000.0,50970.0,55587.0,56048.7,56094.87
+LPLA,Finance,Financial - Investment Bank,0.75,,,,300,25__2,25,2.0,36730.0,117459.0,287055.0,908446.92,995344.69,1004034.47,1004903.45
+MCO,Finance,Financial - Miscellaneous Services,0.75,41820.0,5. p99_trade_value,5.0,434,25__0,25,0.0,11646.0,16273.25,40168.35,84563.55,98456.36,99845.64,99984.56
+MKTX,Finance,Financial - Investment Bank,0.75,,,,235,25__0,25,0.0,12216.0,38700.8,204228.0,273411.53,275718.65,275949.37,275972.44
+OWL,Finance,Financial - Investment Management,0.75,495300.0,1. p999999_trade_value,1.0,295,25__0,25,0.0,15312.0,33858.0,191070.0,451111.8,490881.18,494858.12,495255.81
+PGY,Finance,Financial - Miscellaneous Services,0.75,29250.0,6. p95_trade_value,18.0,352,25__0,25,0.0,15731.2,28590.0,42254.35,57553.73,62851.37,63381.14,63434.11
+TROW,Finance,Financial - Investment Management,0.75,707700.0,1. p999999_trade_value,1.0,278,25__2,25,2.0,24576.0,71560.0,351791.25,639779.6,700907.96,707020.8,707632.08
+TW,Finance,Financial - Investment Bank,0.75,187550.0,5. p99_trade_value,4.0,321,25__0,25,0.0,15675.0,24975.0,181240.0,337656.0,372345.6,375814.56,376161.46
+XP,Finance,Financial - Miscellaneous Services,0.75,219560.0,5. p99_trade_value,4.0,346,25__2,25,2.0,56500.0,122558.75,214808.0,1328465.4,1806846.54,1854684.65,1859468.47

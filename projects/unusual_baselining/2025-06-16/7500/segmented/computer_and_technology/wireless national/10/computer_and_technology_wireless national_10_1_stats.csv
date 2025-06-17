@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+USM,Computer and Technology,Wireless National,0.75,53535.0,1. p999999_trade_value,1.0,12,10__0,10,0.0,38500.0,46090.75,52046.15,53386.12,53520.11,53533.51,53534.85

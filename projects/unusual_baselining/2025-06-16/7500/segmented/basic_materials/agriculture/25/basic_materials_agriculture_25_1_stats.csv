@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+CALM,Basic Materials,Agriculture - Products,0.75,48179.99999999999,5. p99_trade_value,4.0,326,25__0,25,0.0,13936.0,19960.0,46635.0,103641.2,116225.72,117484.17,117610.02

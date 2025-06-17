@@ -1,0 +1,11 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+BUD,Consumer Staples,Beverages - Alcohol,25__0,25,0.0,1. p999999_trade_value,165000.00000000003,165000.00000000003,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+BUD,Consumer Staples,Beverages - Alcohol,25__0,25,0.0,5. p99_trade_value,120000.0,102000.00000000001,1.0,2.0,0.5,0.75,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+BUD,Consumer Staples,Beverages - Alcohol,25__0,25,0.0,6. p95_trade_value,75000.0,29000.0,7.0,12.0,0.5833333333333334,0.75,2. BELOW BASELINE,9.0,15.0,0.6
+BUD,Consumer Staples,Beverages - Alcohol,25__0,25,0.0,7. p90_trade_value,28980.0,17500.0,6.0,14.0,0.42857142857142855,0.75,2. BELOW BASELINE,15.0,29.0,0.5172413793103449
+BUD,Consumer Staples,Beverages - Alcohol,25__0,25,0.0,8. p75_trade_value,17400.0,9840.0,28.0,43.0,0.6511627906976745,0.75,2. BELOW BASELINE,43.0,72.0,0.5972222222222222
+SAM,Consumer Staples,Beverages - Alcohol,25__0,25,0.0,1. p999999_trade_value,129150.0,129150.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+SAM,Consumer Staples,Beverages - Alcohol,25__0,25,0.0,5. p99_trade_value,90610.0,90610.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
+SAM,Consumer Staples,Beverages - Alcohol,25__0,25,0.0,6. p95_trade_value,71440.0,20000.0,3.0,8.0,0.375,0.75,2. BELOW BASELINE,4.0,10.0,0.4
+SAM,Consumer Staples,Beverages - Alcohol,25__0,25,0.0,7. p90_trade_value,19241.0,15730.000000000002,2.0,9.0,0.2222222222222222,0.75,2. BELOW BASELINE,6.0,19.0,0.3157894736842105
+SAM,Consumer Staples,Beverages - Alcohol,25__0,25,0.0,8. p75_trade_value,15640.0,7200.0,15.0,29.0,0.5172413793103449,0.75,2. BELOW BASELINE,21.0,48.0,0.4375

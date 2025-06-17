@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+FNKO,Consumer Discretionary,Consumer Products - Discretionary,0.75,,,,45,15__1,15,1.0,33730.0,62368.0,747000.0,1222200.0,1269720.0,1274472.0,1274947.2
+K,Consumer Discretionary,Consumer Products - Discretionary,0.75,,,,52,15__0,15,0.0,7342.0,12525.0,70252.85,113382.78,117695.78,118127.08,118170.21
+SPB,Consumer Discretionary,Consumer Products - Discretionary,0.75,9455.0,6. p95_trade_value,2.0,27,15__0,15,0.0,8247.0,9138.5,13003.3,14125.33,14237.53,14248.75,14249.88

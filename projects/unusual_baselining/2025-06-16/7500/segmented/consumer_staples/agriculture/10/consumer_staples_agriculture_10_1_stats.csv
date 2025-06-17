@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AGRO,Consumer Staples,Agriculture - Operations,0.75,,,,7,10__0,10,0.0,11880.0,17400.0,21816.0,22809.6,22908.96,22918.9,22919.89
+CVGW,Consumer Staples,Agriculture - Operations,0.75,,,,14,10__0,10,0.0,8267.5,9191.25,9438.25,9493.83,9499.38,9499.94,9499.99
+LMNR,Consumer Staples,Agriculture - Operations,0.75,6900.0,1. p999999_trade_value,1.0,10,10__0,10,0.0,5990.1,6445.05,6809.01,6890.9,6899.09,6899.91,6899.99

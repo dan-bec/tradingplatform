@@ -1,0 +1,17 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CWST,Business Services,Waste Removal Services,15__0,15,0.0,1. p999999_trade_value,10000.0,10000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+CWST,Business Services,Waste Removal Services,15__0,15,0.0,6. p95_trade_value,9600.0,8195.0,2.0,2.0,1.0,0.75,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+CWST,Business Services,Waste Removal Services,15__0,15,0.0,7. p90_trade_value,7700.0,7150.0,0.0,2.0,0.0,0.75,2. BELOW BASELINE,2.0,5.0,0.4
+CWST,Business Services,Waste Removal Services,15__0,15,0.0,8. p75_trade_value,6625.0,5250.0,2.0,6.0,0.3333333333333333,0.75,2. BELOW BASELINE,4.0,11.0,0.36363636363636365
+GFL,Business Services,Waste Removal Services,15__0,15,0.0,1. p999999_trade_value,78510.0,78510.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+GFL,Business Services,Waste Removal Services,15__0,15,0.0,6. p95_trade_value,53010.0,25000.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+GFL,Business Services,Waste Removal Services,15__0,15,0.0,7. p90_trade_value,13000.0,9008.999999999998,2.0,3.0,0.6666666666666666,0.75,2. BELOW BASELINE,3.0,6.0,0.5
+GFL,Business Services,Waste Removal Services,15__0,15,0.0,8. p75_trade_value,8750.0,6859.999999999999,4.0,8.0,0.5,0.75,2. BELOW BASELINE,7.0,14.0,0.5
+WCN,Business Services,Waste Removal Services,15__0,15,0.0,1. p999999_trade_value,180000.0,180000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+WCN,Business Services,Waste Removal Services,15__0,15,0.0,6. p95_trade_value,114000.0,114000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+WCN,Business Services,Waste Removal Services,15__0,15,0.0,7. p90_trade_value,101745.0,37375.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,3.0,4.0,0.75
+WCN,Business Services,Waste Removal Services,15__0,15,0.0,8. p75_trade_value,23600.0,5520.0,4.0,7.0,0.5714285714285714,0.75,2. BELOW BASELINE,7.0,11.0,0.6363636363636364
+XYL,Business Services,Waste Removal Services,15__0,15,0.0,1. p999999_trade_value,66330.0,66330.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+XYL,Business Services,Waste Removal Services,15__0,15,0.0,6. p95_trade_value,63420.00000000001,57600.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+XYL,Business Services,Waste Removal Services,15__0,15,0.0,7. p90_trade_value,50730.0,35000.0,1.0,3.0,0.3333333333333333,0.75,2. BELOW BASELINE,2.0,6.0,0.3333333333333333
+XYL,Business Services,Waste Removal Services,15__0,15,0.0,8. p75_trade_value,24420.0,10220.0,4.0,8.0,0.5,0.75,2. BELOW BASELINE,6.0,14.0,0.42857142857142855

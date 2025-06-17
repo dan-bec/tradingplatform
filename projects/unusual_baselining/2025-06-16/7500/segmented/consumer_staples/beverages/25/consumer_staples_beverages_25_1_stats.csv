@@ -1,0 +1,3 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+BUD,Consumer Staples,Beverages - Alcohol,0.75,165000.00000000003,1. p999999_trade_value,1.0,286,25__0,25,0.0,17450.0,28995.0,79050.0,152175.0,163717.5,164871.75,164987.17
+SAM,Consumer Staples,Beverages - Alcohol,0.75,129150.0,1. p999999_trade_value,1.0,186,25__0,25,0.0,15685.0,19810.25,74315.5,122020.1,128437.01,129078.7,129142.87

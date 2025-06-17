@@ -1,0 +1,7 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+NU,Finance,Banks - Foreign,35__2,35,2.0,1. p999999_trade_value,438750.0,438750.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+NU,Finance,Banks - Foreign,35__2,35,2.0,4. p999_trade_value,360000.0,347999.99999999994,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,3.0,3.0,1.0
+NU,Finance,Banks - Foreign,35__2,35,2.0,5. p99_trade_value,321387.00000000006,124000.0,11.0,18.0,0.6111111111111112,0.75,2. BELOW BASELINE,14.0,21.0,0.6666666666666666
+NU,Finance,Banks - Foreign,35__2,35,2.0,6. p95_trade_value,115000.0,27972.000000000004,54.0,81.0,0.6666666666666666,0.75,2. BELOW BASELINE,68.0,102.0,0.6666666666666666
+NU,Finance,Banks - Foreign,35__2,35,2.0,7. p90_trade_value,27728.000000000004,14912.0,55.0,101.0,0.5445544554455446,0.75,2. BELOW BASELINE,123.0,203.0,0.6059113300492611
+NU,Finance,Banks - Foreign,35__2,35,2.0,8. p75_trade_value,14879.999999999998,7742.999999999999,195.0,303.0,0.6435643564356436,0.75,2. BELOW BASELINE,318.0,506.0,0.6284584980237155

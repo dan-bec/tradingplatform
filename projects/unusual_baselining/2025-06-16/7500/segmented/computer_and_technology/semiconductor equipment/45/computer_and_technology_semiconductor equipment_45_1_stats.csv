@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ASML,Computer and Technology,Semiconductor Equipment - Wafer Fabrication,0.75,,,,46064,45__1,45,1.0,17507.0,27000.0,64074.0,199637.78,481574.8,754939.83,835597.98

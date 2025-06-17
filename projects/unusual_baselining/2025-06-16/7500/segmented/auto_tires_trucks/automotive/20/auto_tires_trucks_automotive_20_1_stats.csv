@@ -1,0 +1,10 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+BLBD,Auto-Tires-Trucks,Automotive - Domestic,0.75,,,,100,20__0,20,0.0,11757.0,13190.0,25008.7,25783.87,25861.39,25869.14,25869.91
+CHPT,Auto-Tires-Trucks,Automotive - Original Equipment,0.75,,,,95,20__2,20,2.0,100000.0,154500.0,401920.0,428992.0,431699.2,431969.92,431996.99
+CWH,Auto-Tires-Trucks,Automotive - Original Equipment,0.75,60000.0,6. p95_trade_value,8.0,142,20__1,20,1.0,20149.0,59775.0,386297.4,614079.76,630657.98,632315.8,632481.58
+DAN,Auto-Tires-Trucks,Automotive - Original Equipment,0.75,,,,145,20__0,20,0.0,17617.2,22046.0,83564.76,104967.42,107786.74,108068.67,108096.87
+EVGO,Auto-Tires-Trucks,Automotive - Original Equipment,0.75,,,,157,20__0,20,0.0,10020.0,12220.0,19220.0,27786.0,28698.6,28789.86,28798.99
+LEA,Auto-Tires-Trucks,Automotive - Original Equipment,0.75,,,,63,20__0,20,0.0,20248.0,52050.0,138000.0,193800.0,199380.0,199938.0,199993.8
+LKQ,Auto-Tires-Trucks,Automotive - Replacement Parts,0.75,,,,75,20__1,20,1.0,22066.4,48375.0,190698.4,423025.84,446258.58,448581.86,448814.19
+MGA,Auto-Tires-Trucks,Automotive - Original Equipment,0.75,,,,149,20__3,20,3.0,11908.0,21608.0,127800.0,1586472.0,1811047.2,1833504.72,1835750.47
+SES,Auto-Tires-Trucks,Automotive - Original Equipment,0.75,,,,83,20__0,20,0.0,9791.0,12399.0,23482.2,26648.22,26964.82,26996.48,26999.65

@@ -1,0 +1,14 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AEVA,Auto-Tires-Trucks,Automotive - Original Equipment,0.75,12300.0,8. p75_trade_value,9.0,34,15__0,15,0.0,19476.6,55575.0,68256.2,69699.62,69843.96,69858.4,69859.84
+ALSN,Auto-Tires-Trucks,Automotive - Original Equipment,0.75,28500.0,7. p90_trade_value,3.0,26,15__0,15,0.0,22750.0,38625.0,55500.0,59550.0,59955.0,59995.5,59999.55
+BWA,Auto-Tires-Trucks,Automotive - Original Equipment,0.75,,,,41,15__0,15,0.0,11200.0,13300.0,24132.0,29413.2,29941.32,29994.13,29999.41
+CARG,Auto-Tires-Trucks,Automotive - Replacement Parts,0.75,,,,23,15__0,15,0.0,9960.0,11830.8,14537.64,15178.76,15242.88,15249.29,15249.93
+CPS,Auto-Tires-Trucks,Automotive - Original Equipment,0.75,,,,18,15__0,15,0.0,9840.0,15676.5,36423.3,41091.33,41558.13,41604.81,41609.48
+CYD,Auto-Tires-Trucks,Automotive - Original Equipment,0.75,15000.0,1. p999999_trade_value,1.0,27,15__0,15,0.0,12600.0,13850.0,14740.0,14974.0,14997.4,14999.74,14999.97
+FFAI,Auto-Tires-Trucks,Automotive - Original Equipment,0.75,,,,25,15__0,15,0.0,6780.4,7621.6,7933.76,7971.78,7975.58,7975.96,7976.0
+HMC,Auto-Tires-Trucks,Automotive - Foreign,0.75,20460.0,1. p999999_trade_value,1.0,52,15__0,15,0.0,14540.0,16787.25,20123.4,20426.34,20456.63,20459.66,20459.97
+INVZ,Auto-Tires-Trucks,Automotive - Original Equipment,0.75,,,,51,15__0,15,0.0,60000.0,108625.0,200000.0,236000.0,239600.0,239960.0,239996.0
+LCII,Auto-Tires-Trucks,Automotive - Original Equipment,0.75,6900.0,8. p75_trade_value,6.0,22,15__0,15,0.0,9055.0,24210.0,40010.0,43601.0,43960.1,43996.01,43999.6
+OSK,Auto-Tires-Trucks,Automotive - Original Equipment,0.75,208000.0,1. p999999_trade_value,1.0,43,15__0,15,0.0,13732.0,28741.0,157180.0,202918.0,207491.8,207949.18,207994.92
+VFS,Auto-Tires-Trucks,Automotive - Domestic,0.75,,,,35,15__0,15,0.0,7050.0,7601.7,9612.44,10418.44,10499.04,10507.1,10507.91
+WKHS,Auto-Tires-Trucks,Automotive - Original Equipment,0.75,,,,28,15__0,15,0.0,11189.5,14752.75,17101.75,17460.18,17496.02,17499.6,17499.96

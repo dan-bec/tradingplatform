@@ -1,0 +1,14 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CAT,Industrial Products,Manufacturing - Construction and Mining,40__0,40,0.0,1. p999999_trade_value,1600000.0,1600000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+CAT,Industrial Products,Manufacturing - Construction and Mining,40__0,40,0.0,3. p9999_trade_value,1337500.0,1337500.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+CAT,Industrial Products,Manufacturing - Construction and Mining,40__0,40,0.0,4. p999_trade_value,815570.0,370500.00000000006,4.0,9.0,0.4444444444444444,0.75,2. BELOW BASELINE,6.0,11.0,0.5454545454545454
+CAT,Industrial Products,Manufacturing - Construction and Mining,40__0,40,0.0,5. p99_trade_value,340000.00000000006,66000.0,50.0,96.0,0.5208333333333334,0.75,2. BELOW BASELINE,56.0,107.0,0.5233644859813084
+CAT,Industrial Products,Manufacturing - Construction and Mining,40__0,40,0.0,6. p95_trade_value,65675.0,23716.0,241.0,428.0,0.5630841121495327,0.75,2. BELOW BASELINE,297.0,535.0,0.5551401869158878
+CAT,Industrial Products,Manufacturing - Construction and Mining,40__0,40,0.0,7. p90_trade_value,23635.0,14900.0,298.0,537.0,0.5549348230912476,0.75,2. BELOW BASELINE,595.0,1072.0,0.5550373134328358
+CAT,Industrial Products,Manufacturing - Construction and Mining,40__0,40,0.0,8. p75_trade_value,14880.000000000002,8250.0,841.0,1608.0,0.5230099502487562,0.75,2. BELOW BASELINE,1436.0,2680.0,0.5358208955223881
+DE,Industrial Products,Manufacturing - Farm Equipment,40__0,40,0.0,1. p999999_trade_value,1620000.0,1620000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+DE,Industrial Products,Manufacturing - Farm Equipment,40__0,40,0.0,4. p999_trade_value,506250.0,188000.0,3.0,5.0,0.6,0.75,2. BELOW BASELINE,3.0,6.0,0.5
+DE,Industrial Products,Manufacturing - Farm Equipment,40__0,40,0.0,5. p99_trade_value,142882.0,52400.0,31.0,52.0,0.5961538461538461,0.75,2. BELOW BASELINE,34.0,58.0,0.5862068965517241
+DE,Industrial Products,Manufacturing - Farm Equipment,40__0,40,0.0,6. p95_trade_value,52250.0,23320.0,149.0,232.0,0.6422413793103449,0.75,2. BELOW BASELINE,183.0,290.0,0.6310344827586207
+DE,Industrial Products,Manufacturing - Farm Equipment,40__0,40,0.0,7. p90_trade_value,23254.0,14950.0,169.0,288.0,0.5868055555555556,0.75,2. BELOW BASELINE,352.0,578.0,0.6089965397923875
+DE,Industrial Products,Manufacturing - Farm Equipment,40__0,40,0.0,8. p75_trade_value,14910.0,8225.0,495.0,866.0,0.5715935334872979,0.75,2. BELOW BASELINE,847.0,1444.0,0.5865650969529086

@@ -1,0 +1,56 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AEE,Utilities,Utility - Electric Power,0.75,19845.0,1. p999999_trade_value,1.0,43,15__0,15,0.0,12000.0,16011.9,19227.6,19783.26,19838.83,19844.38,19844.94
+AEP,Utilities,Utility - Electric Power,0.75,130391.00000000001,5. p99_trade_value,3.0,240,25__0,25,0.0,13750.0,24586.75,126338.51,153431.28,154825.13,154964.51,154978.45
+AES,Utilities,Utility - Electric Power,0.75,200000.0,1. p999999_trade_value,1.0,525,25__0,25,0.0,18944.0,31455.0,92500.0,167956.35,196795.64,199679.56,199967.96
+ATO,Utilities,Utility - Gas Distribution,0.75,7200.0,8. p75_trade_value,13.0,52,15__0,15,0.0,10735.0,18793.25,148590.42,149202.04,149263.2,149269.32,149269.93
+AVA,Utilities,Utility - Electric Power,0.75,,,,1,0__2,0,2.0,3500.0,3500.0,3500.0,3500.0,3500.0,3500.0,3500.0
+AWK,Utilities,Utility - Water Supply,0.75,33408.0,1. p999999_trade_value,1.0,55,15__0,15,0.0,8866.8,12210.0,26254.08,32692.61,33336.46,33400.85,33407.28
+AWR,Utilities,Utility - Water Supply,0.75,9700.0,8. p75_trade_value,2.0,8,10__0,10,0.0,12700.0,16200.0,19000.0,19630.0,19693.0,19699.3,19699.93
+BCE,Utilities,Diversified Communication Services,0.75,,,,62,20__0,20,0.0,15000.0,36795.75,166558.8,210983.88,215426.39,215870.64,215915.06
+BEP,Utilities,Utility - Electric Power,0.75,44955.0,1. p999999_trade_value,1.0,10,10__0,10,0.0,10345.5,27650.25,41494.05,44608.9,44920.39,44951.54,44954.65
+BIPC,Utilities,Utility - Gas Distribution,0.75,,,,1,0__2,0,2.0,3500.0,3500.0,3500.0,3500.0,3500.0,3500.0,3500.0
+CMS,Utilities,Utility - Electric Power,0.75,10005.0,8. p75_trade_value,12.0,47,15__0,15,0.0,23628.0,25910.5,84744.02,106484.4,108658.44,108875.84,108897.58
+CNP,Utilities,Utility - Electric Power,0.75,41490.0,1. p999999_trade_value,1.0,35,15__0,15,0.0,19531.8,30000.0,37583.4,41099.34,41450.93,41486.09,41489.61
+CTRI,Utilities,Utility - Electric Power,0.75,,,,8,10__0,10,0.0,9450.0,9975.0,10395.0,10489.5,10498.95,10499.9,10499.99
+D,Utilities,Utility - Electric Power,0.75,,,,165,20__0,20,0.0,18215.4,24216.8,48195.36,132790.54,146695.05,148085.51,148224.55
+DTE,Utilities,Utility - Electric Power,0.75,72720.0,1. p999999_trade_value,1.0,21,15__0,15,0.0,45360.0,65340.0,71244.0,72572.4,72705.24,72718.52,72719.85
+DUK,Utilities,Utility - Electric Power,0.75,80000.0,5. p99_trade_value,5.0,471,25__0,25,0.0,13800.0,26488.5,71152.0,1036943.0,1156694.3,1168669.43,1169866.94
+ED,Utilities,Utility - Electric Power,0.75,12710.0,7. p90_trade_value,14.0,115,20__0,20,0.0,12710.0,23720.0,119369.5,142324.03,144745.9,144988.09,145012.31
+EIX,Utilities,Utility - Electric Power,0.75,,,,713,30__2,30,2.0,16233.0,22186.0,106323.2,353207.52,426604.75,433944.48,434678.45
+ES,Utilities,Utility - Electric Power,0.75,,,,20,15__0,15,0.0,30746.75,79374.38,121278.87,130707.39,131650.24,131744.52,131753.95
+ETR,Utilities,Utility - Electric Power,0.75,68750.0,1. p999999_trade_value,1.0,180,25__0,25,0.0,10725.5,16675.0,46395.16,67802.37,68655.24,68740.52,68749.05
+EVRG,Utilities,Utility - Electric Power,0.75,10125.0,7. p90_trade_value,3.0,24,15__0,15,0.0,10090.5,11684.75,12614.5,12790.45,12808.05,12809.8,12809.98
+EXC,Utilities,Utility - Electric Power,0.75,,,,68,20__0,20,0.0,13469.6,20030.0,56295.0,63229.5,63922.95,63992.3,63999.23
+FE,Utilities,Utility - Electric Power,0.75,,,,45,15__0,15,0.0,11718.0,13362.0,20672.4,22767.24,22976.72,22997.67,22999.77
+HE,Utilities,Utility - Electric Power,0.75,18000.0,6. p95_trade_value,4.0,66,20__0,20,0.0,14051.0,17995.5,72818.2,112581.82,116558.18,116955.82,116995.58
+IDA,Utilities,Utility - Electric Power,0.75,4200.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,4117.5,4158.75,4191.75,4199.18,4199.92,4199.99,4200.0
+IDT,Utilities,Diversified Communication Services,0.75,,,,4,5__0,5,0.0,9231.5,9538.25,9783.65,9838.87,9844.39,9844.94,9844.99
+LBTYA,Utilities,Diversified Communication Services,0.75,,,,23,15__0,15,0.0,11405.0,16671.0,31581.0,35234.1,35599.41,35635.94,35639.59
+LLYVA,Utilities,Diversified Communication Services,0.75,,,,4,5__0,5,0.0,11476.0,12238.0,12847.6,12984.76,12998.48,12999.85,12999.98
+LNT,Utilities,Utility - Electric Power,0.75,37050.0,8. p75_trade_value,3.0,12,10__3,10,3.0,44925.0,88370.0,129994.0,139359.4,140295.94,140389.59,140398.96
+LUMN,Utilities,Diversified Communication Services,0.75,,,,538,25__0,25,0.0,11907.6,17262.85,53498.94,267780.0,296778.0,299677.8,299967.78
+MDU,Utilities,Utility - Gas Distribution,0.75,,,,20,15__0,15,0.0,12570.0,15750.0,27150.0,29715.0,29971.5,29997.15,29999.71
+MYRG,Utilities,Electric Construction,0.75,,,,21,15__0,15,0.0,20217.0,20217.0,69843.4,81009.34,82125.93,82237.59,82248.76
+NEE,Utilities,Utility - Electric Power,0.75,,,,2955,35__2,35,2.0,15781.2,25359.0,90791.34,480985.32,1013505.8,1152550.58,1166455.06
+NGG,Utilities,Utility - Electric Power,0.75,13339.999999999998,1. p999999_trade_value,1.0,17,10__0,10,0.0,8835.0,12928.0,13257.6,13331.76,13339.18,13339.92,13339.99
+NI,Utilities,Utility - Electric Power,0.75,15225.0,1. p999999_trade_value,1.0,4,5__3,5,3.0,12154.5,13689.75,14917.95,15194.3,15221.93,15224.69,15224.97
+NRG,Utilities,Utility - Electric Power,0.75,225000.0,4. p999_trade_value,2.0,1299,30__2,30,2.0,17840.0,30110.4,79808.0,217848.0,252964.75,256718.87,257094.29
+NWN,Utilities,Utility - Gas Distribution,0.75,8000.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,7700.0,7850.0,7970.0,7997.0,7999.7,7999.97,8000.0
+PAM,Utilities,Utility - Electric Power,0.75,,,,17,10__3,10,3.0,63424.0,94532.0,119274.4,124841.44,125398.14,125453.81,125459.38
+PCG,Utilities,Utility - Electric Power,0.75,,,,520,25__0,25,0.0,16326.0,37321.4,209160.0,787025.0,798702.5,799870.25,799987.02
+PEG,Utilities,Utility - Electric Power,0.75,,,,113,20__3,20,3.0,26581.2,118093.0,525030.0,1741782.0,1876438.2,1889903.82,1891250.38
+PNW,Utilities,Utility - Electric Power,0.75,11305.0,8. p75_trade_value,3.0,11,10__0,10,0.0,16000.0,17145.0,18061.0,18267.1,18287.71,18289.77,18289.98
+POR,Utilities,Utility - Electric Power,0.75,4500.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,4355.0,4427.5,4485.5,4498.55,4499.86,4499.99,4500.0
+PPL,Utilities,Utility - Electric Power,0.75,107236.00000000001,1. p999999_trade_value,1.0,67,20__0,20,0.0,41454.0,54224.8,87008.32,105213.23,107033.72,107215.77,107233.98
+SO,Utilities,Utility - Electric Power,0.75,,,,301,25__0,25,0.0,28000.0,47880.0,99920.0,141700.0,150070.0,150907.0,150990.7
+SR,Utilities,Utility - Gas Distribution,0.75,,,,1,0__0,0,0.0,16500.0,16500.0,16500.0,16500.0,16500.0,16500.0,16500.0
+SRE,Utilities,Utility - Gas Distribution,0.75,93335.0,1. p999999_trade_value,1.0,62,20__0,20,0.0,13325.0,17910.0,73703.37,91371.84,93138.68,93315.37,93333.04
+SWX,Utilities,Utility - Gas Distribution,0.75,,,,3,5__0,5,0.0,5347.2,5385.6,5416.32,5423.23,5423.92,5423.99,5424.0
+TAC,Utilities,Utility - Electric Power,0.75,,,,13,10__3,10,3.0,49200.0,75750.0,99150.0,104415.0,104941.5,104994.15,104999.42
+TDS,Utilities,Wireline - National,0.75,940000.0,1. p999999_trade_value,1.0,62,20__1,20,1.0,30229.5,65522.7,458100.0,891810.0,935181.0,939518.1,939951.81
+TU,Utilities,Diversified Communication Services,0.75,,,,1,0__2,0,2.0,6520.0,6520.0,6520.0,6520.0,6520.0,6520.0,6520.0
+UGI,Utilities,Utility - Gas Distribution,0.75,,,,14,10__0,10,0.0,9587.1,9813.0,9906.6,9927.66,9929.77,9929.98,9930.0
+VEON,Utilities,Diversified Communication Services,0.75,27000.0,1. p999999_trade_value,1.0,3,5__3,5,3.0,22500.0,24750.0,26550.0,26955.0,26995.5,26999.55,26999.96
+VST,Utilities,Utility - Electric Power,0.75,,,,28376,45__3,45,3.0,20790.0,33750.0,95602.5,416208.38,1165687.5,2900429.88,3299912.99
+WEC,Utilities,Utility - Electric Power,0.75,,,,80,20__0,20,0.0,13566.0,20381.75,64076.65,64336.17,64362.12,64364.71,64364.97
+XEL,Utilities,Utility - Electric Power,0.75,,,,73,20__0,20,0.0,8796.0,13842.0,19391.2,20875.12,21023.51,21038.35,21039.84

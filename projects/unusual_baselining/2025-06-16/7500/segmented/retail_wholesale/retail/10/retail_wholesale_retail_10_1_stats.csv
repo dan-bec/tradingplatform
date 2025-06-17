@@ -1,0 +1,12 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ARHS,Retail-Wholesale,Retail - Miscellaneous,0.75,,,,11,10__0,10,0.0,10000.0,11237.5,12227.5,12450.25,12472.53,12474.75,12474.98
+BJRI,Retail-Wholesale,Retail - Restaurants,0.75,,,,11,10__0,10,0.0,23400.0,27237.5,30307.5,30998.25,31067.33,31074.23,31074.92
+FBIN,Retail-Wholesale,Retail - Home Furnishings,0.75,149600.0,1. p999999_trade_value,2.0,12,10__3,10,3.0,139960.0,149600.0,149600.0,149600.0,149600.0,149600.0,149600.0
+FLWS,Retail-Wholesale,Retail - Mail Order,0.75,4800.0,8. p75_trade_value,2.0,6,10__0,10,0.0,6000.0,6600.0,7080.0,7188.0,7198.8,7199.88,7199.99
+FOSL,Retail-Wholesale,Retail - Apparel and Shoes,0.75,,,,6,10__0,10,0.0,10237.5,11156.25,11891.25,12056.63,12073.16,12074.82,12074.98
+GCO,Retail-Wholesale,Retail - Apparel and Shoes,0.75,,,,16,10__0,10,0.0,24040.0,35170.0,54778.0,59189.8,59630.98,59675.1,59679.51
+LE,Retail-Wholesale,Retail - Catalog Shopping,0.75,,,,6,10__0,10,0.0,4395.0,4492.5,4570.5,4588.05,4589.8,4589.98,4590.0
+ODP,Retail-Wholesale,Retail - Miscellaneous,0.75,47250.00000000001,8. p75_trade_value,4.0,16,10__3,10,3.0,70450.0,104775.0,174075.0,189667.5,191226.75,191382.68,191398.27
+RRGB,Retail-Wholesale,Retail - Restaurants,0.75,,,,13,10__0,10,0.0,11176.0,13148.0,14981.6,15394.16,15435.42,15439.54,15439.95
+SBH,Retail-Wholesale,Retail - Miscellaneous,0.75,5295.0,8. p75_trade_value,2.0,8,10__0,10,0.0,9079.5,13494.75,17026.95,17821.7,17901.17,17909.12,17909.91
+SCVL,Retail-Wholesale,Retail - Apparel and Shoes,0.75,22500.0,1. p999999_trade_value,1.0,13,10__0,10,0.0,12250.0,16500.0,21300.0,22380.0,22488.0,22498.8,22499.88

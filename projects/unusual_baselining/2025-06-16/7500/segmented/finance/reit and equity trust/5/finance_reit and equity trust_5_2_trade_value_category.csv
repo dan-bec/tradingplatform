@@ -1,0 +1,26 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+ADC,Finance,REIT and Equity Trust - Retail,5__0,5,0.0,1. p999999_trade_value,7000.0,7000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+AHR,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,10625.0,10625.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+BIP,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,8910.0,8910.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+CMCT,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,7030.0,7030.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+COLD,Finance,REIT and Equity Trust - Other,5__3,5,3.0,1. p999999_trade_value,14894.999999999998,14894.999999999998,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+CPT,Finance,REIT and Equity Trust - Residential,5__0,5,0.0,1. p999999_trade_value,5220.0,5220.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+CTRE,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,6200.0,6200.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+CUBE,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,4400.0,4400.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+EFC,Finance,REIT and Equity Trust,5__3,5,3.0,1. p999999_trade_value,19980.0,19980.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+EGP,Finance,REIT and Equity Trust - Other,5__0,5,0.0,2. p99999_trade_value,5259.999999999999,5259.999999999999,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+EPR,Finance,REIT and Equity Trust - Retail,5__0,5,0.0,1. p999999_trade_value,5215.0,5215.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+EPR,Finance,REIT and Equity Trust - Retail,5__0,5,0.0,8. p75_trade_value,4400.0,4400.0,1.0,1.0,1.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
+HIW,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,5220.0,5220.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+KIM,Finance,REIT and Equity Trust - Retail,5__1,5,1.0,1. p999999_trade_value,90200.0,90200.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+NSA,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,10000.0,10000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+OUT,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,10125.0,10125.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+PK,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,12060.0,12060.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+REG,Finance,REIT and Equity Trust - Retail,5__0,5,0.0,1. p999999_trade_value,4410.0,4410.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+RHP,Finance,REIT and Equity Trust - Other,5__0,5,0.0,2. p99999_trade_value,7259.999999999999,7259.999999999999,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+SBRA,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,4620.0,4620.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+SITC,Finance,REIT and Equity Trust - Retail,5__0,5,0.0,1. p999999_trade_value,4500.0,4500.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+SKT,Finance,REIT and Equity Trust - Retail,5__0,5,0.0,1. p999999_trade_value,12000.0,12000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+SRG,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,13122.999999999998,13122.999999999998,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+STAG,Finance,REIT and Equity Trust - Other,5__0,5,0.0,1. p999999_trade_value,6000.0,6000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+UDR,Finance,REIT and Equity Trust - Residential,5__0,5,0.0,1. p999999_trade_value,5000.0,5000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0

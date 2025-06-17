@@ -1,0 +1,15 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+BIRD,Retail-Wholesale,Retail - Apparel and Shoes,5__0,5,0.0,1. p999999_trade_value,12350.0,12350.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+CNXN,Retail-Wholesale,Retail - Computer Hardware,5__0,5,0.0,1. p999999_trade_value,10720.0,10720.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+CURV,Retail-Wholesale,Retail - Apparel and Shoes,5__3,5,3.0,1. p999999_trade_value,25000.0,25000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+FIGS,Retail-Wholesale,Retail - Apparel and Shoes,5__3,5,3.0,1. p999999_trade_value,19800.0,19800.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+FWRG,Retail-Wholesale,Retail - Restaurants,5__3,5,3.0,1. p999999_trade_value,16060.0,16060.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+HZO,Retail-Wholesale,Retail - Miscellaneous,5__0,5,0.0,1. p999999_trade_value,10800.0,10800.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+NSIT,Retail-Wholesale,Retail - Mail Order,5__0,5,0.0,1. p999999_trade_value,6000.0,6000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+PBPB,Retail-Wholesale,Retail - Restaurants,5__0,5,0.0,1. p999999_trade_value,3230.0000000000005,3230.0000000000005,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+PSMT,Retail-Wholesale,Retail - Discount Stores,5__0,5,0.0,1. p999999_trade_value,13900.0,13900.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+PSMT,Retail-Wholesale,Retail - Discount Stores,5__0,5,0.0,8. p75_trade_value,6216.0,6216.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
+SPWH,Retail-Wholesale,Retail - Apparel and Shoes,5__0,5,0.0,1. p999999_trade_value,4500.0,4500.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+VRA,Retail-Wholesale,Retail - Apparel and Shoes,5__0,5,0.0,1. p999999_trade_value,5000.0,5000.0,3.0,3.0,1.0,0.75,1. ABOVE BASELINE,3.0,3.0,1.0
+ZUMZ,Retail-Wholesale,Retail - Apparel and Shoes,5__3,5,3.0,1. p999999_trade_value,21250.0,21250.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+ZUMZ,Retail-Wholesale,Retail - Apparel and Shoes,5__3,5,3.0,8. p75_trade_value,4750.0,4750.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5

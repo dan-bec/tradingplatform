@@ -1,0 +1,7 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+PTON,Consumer Discretionary,Leisure and Recreation Products,35__0,35,0.0,1. p999999_trade_value,588000.0,588000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+PTON,Consumer Discretionary,Leisure and Recreation Products,35__0,35,0.0,4. p999_trade_value,547792.0,508350.0,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,3.0,3.0,1.0
+PTON,Consumer Discretionary,Leisure and Recreation Products,35__0,35,0.0,5. p99_trade_value,429000.0,103235.99999999999,19.0,25.0,0.76,0.75,1. ABOVE BASELINE,22.0,28.0,0.7857142857142857
+PTON,Consumer Discretionary,Leisure and Recreation Products,35__0,35,0.0,6. p95_trade_value,97727.00000000001,22995.0,57.0,111.0,0.5135135135135135,0.75,2. BELOW BASELINE,79.0,139.0,0.5683453237410072
+PTON,Consumer Discretionary,Leisure and Recreation Products,35__0,35,0.0,7. p90_trade_value,22563.000000000004,13780.000000000002,77.0,139.0,0.5539568345323741,0.75,2. BELOW BASELINE,156.0,278.0,0.5611510791366906
+PTON,Consumer Discretionary,Leisure and Recreation Products,35__0,35,0.0,8. p75_trade_value,13750.0,7752.0,234.0,417.0,0.5611510791366906,0.75,2. BELOW BASELINE,390.0,695.0,0.5611510791366906

@@ -1,0 +1,8 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CRWD,Computer and Technology,Security,50__3,50,3.0,1. p999999_trade_value,1947037.9999999998,1947037.9999999998,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+CRWD,Computer and Technology,Security,50__3,50,3.0,3. p9999_trade_value,859908.0,651000.0000000001,5.0,6.0,0.8333333333333334,0.75,1. ABOVE BASELINE,6.0,7.0,0.8571428571428571
+CRWD,Computer and Technology,Security,50__3,50,3.0,4. p999_trade_value,540000.0,207206.99999999997,36.0,62.0,0.5806451612903226,0.75,2. BELOW BASELINE,42.0,69.0,0.6086956521739131
+CRWD,Computer and Technology,Security,50__3,50,3.0,5. p99_trade_value,207000.0,59400.0,350.0,617.0,0.5672609400324149,0.75,2. BELOW BASELINE,392.0,686.0,0.5714285714285714
+CRWD,Computer and Technology,Security,50__3,50,3.0,6. p95_trade_value,59280.00000000001,24400.0,1558.0,2743.0,0.5679912504557054,0.75,2. BELOW BASELINE,1950.0,3429.0,0.5686789151356081
+CRWD,Computer and Technology,Security,50__3,50,3.0,7. p90_trade_value,24395.0,15552.000000000002,1921.0,3424.0,0.5610397196261683,0.75,2. BELOW BASELINE,3871.0,6853.0,0.5648621041879469
+CRWD,Computer and Technology,Security,50__3,50,3.0,8. p75_trade_value,15550.0,8415.0,5714.0,10281.0,0.5557825114288494,0.75,2. BELOW BASELINE,9585.0,17134.0,0.5594140305824676

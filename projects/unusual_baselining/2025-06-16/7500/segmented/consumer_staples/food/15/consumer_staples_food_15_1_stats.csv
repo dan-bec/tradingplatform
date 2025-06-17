@@ -1,0 +1,5 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+CHEF,Consumer Staples,Food - Miscellaneous,0.75,38750.0,7. p90_trade_value,2.0,19,15__0,15,0.0,37750.0,40633.5,54194.7,57245.97,57551.1,57581.61,57584.66
+OTLY,Consumer Staples,Food - Dairy Products,0.75,,,,25,15__0,15,0.0,44004.0,72464.0,99098.8,105309.88,105930.99,105993.1,105999.31
+THS,Consumer Staples,Food - Miscellaneous,0.75,50000.0,7. p90_trade_value,2.0,20,15__1,15,1.0,45500.0,68750.0,353750.0,417875.0,424287.5,424928.75,424992.87
+UTZ,Consumer Staples,Food - Miscellaneous,0.75,,,,18,15__0,15,0.0,16200.0,19300.0,20660.0,20966.0,20996.6,20999.66,20999.97

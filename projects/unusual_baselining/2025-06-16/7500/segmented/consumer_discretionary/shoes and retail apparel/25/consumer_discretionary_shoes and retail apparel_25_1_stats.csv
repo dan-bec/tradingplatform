@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+BIRK,Consumer Discretionary,Shoes and Retail Apparel ,0.75,405000.00000000006,1. p999999_trade_value,1.0,371,25__2,25,2.0,30525.0,65875.0,190182.6,343950.0,398895.0,404389.5,404938.95

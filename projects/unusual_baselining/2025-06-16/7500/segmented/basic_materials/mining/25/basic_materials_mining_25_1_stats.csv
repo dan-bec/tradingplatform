@@ -1,0 +1,14 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AG,Basic Materials,Mining - Silver,0.75,,,,295,25__0,25,0.0,12108.0,15060.0,33233.88,47294.2,47479.42,47497.94,47499.79
+AMR,Basic Materials,Mining - Miscellaneous,0.75,36000.0,1. p999999_trade_value,1.0,391,25__0,25,0.0,11600.0,15000.0,29001.6,35415.0,35941.5,35994.15,35999.41
+AU,Basic Materials,Mining - Gold,0.75,9071.0,8. p75_trade_value,67.0,266,25__0,25,0.0,21855.0,36187.5,100803.25,183330.0,201933.0,203793.3,203979.33
+BHP,Basic Materials,Mining - Miscellaneous,0.75,,,,369,25__0,25,0.0,13968.0,20016.0,44204.16,104846.72,107234.67,107473.47,107497.35
+NXE,Basic Materials,Mining - Miscellaneous,0.75,860000.0,1. p999999_trade_value,1.0,189,25__2,25,2.0,23016.0,63236.0,180000.0,773520.0,851352.0,859135.2,859913.52
+PAAS,Basic Materials,Mining - Silver,0.75,,,,377,25__0,25,0.0,15267.0,22520.0,36600.0,169741.54,237240.15,243990.02,244665.0
+RGLD,Basic Materials,Mining - Gold,0.75,56791.99999999999,6. p95_trade_value,11.0,218,25__0,25,0.0,22024.0,46386.3,149642.7,204590.0,204590.0,204590.0,204590.0
+SCCO,Basic Materials,Mining - Non Ferrous,0.75,287500.0,1. p999999_trade_value,1.0,302,25__0,25,0.0,18162.6,33892.1,87467.8,232567.5,282006.75,286950.68,287445.07
+TMC,Basic Materials,Mining - Miscellaneous,0.75,,,,252,25__0,25,0.0,13074.6,20365.2,52924.5,63534.14,63953.41,63995.34,63999.53
+UEC,Basic Materials,Mining - Miscellaneous,0.75,245400.0,1. p999999_trade_value,1.0,195,25__2,25,2.0,30000.0,70600.0,141454.0,237252.0,244585.2,245318.52,245391.85
+USAR,Basic Materials,Mining - Miscellaneous,0.75,,,,414,25__0,25,0.0,13194.0,17597.3,38061.0,47254.22,51010.62,51386.26,51423.83
+UUUU,Basic Materials,Mining - Non Ferrous,0.75,,,,220,25__0,25,0.0,15654.0,22014.5,82290.0,88876.88,89855.29,89953.13,89962.91
+WPM,Basic Materials,Mining - Miscellaneous,0.75,100992.0,1. p999999_trade_value,1.0,408,25__0,25,0.0,12037.8,19000.0,30205.7,100588.26,100951.63,100987.96,100991.6

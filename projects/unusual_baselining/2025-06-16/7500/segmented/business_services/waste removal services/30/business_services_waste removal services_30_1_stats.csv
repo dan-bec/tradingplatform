@@ -1,0 +1,3 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+PCT,Business Services,Waste Removal Services,0.75,,,,768,30__2,30,2.0,15777.0,27059.0,115022.6,260576.73,285986.67,288527.67,288781.77
+WM,Business Services,Waste Removal Services,0.75,,,,691,30__2,30,2.0,14560.0,22043.0,66151.5,99866.9,103586.69,103958.67,103995.87

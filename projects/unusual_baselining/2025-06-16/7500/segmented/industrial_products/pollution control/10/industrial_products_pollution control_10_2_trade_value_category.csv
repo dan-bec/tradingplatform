@@ -1,0 +1,5 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+ATMU,Industrial Products,Pollution Control,10__0,10,0.0,1. p999999_trade_value,17500.0,17500.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+ATMU,Industrial Products,Pollution Control,10__0,10,0.0,8. p75_trade_value,10600.0,9500.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+ERII,Industrial Products,Pollution Control,10__0,10,0.0,1. p999999_trade_value,7920.0,7920.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+ERII,Industrial Products,Pollution Control,10__0,10,0.0,8. p75_trade_value,5000.0,5000.0,3.0,3.0,1.0,0.75,1. ABOVE BASELINE,4.0,4.0,1.0

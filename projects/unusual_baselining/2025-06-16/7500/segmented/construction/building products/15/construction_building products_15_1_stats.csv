@@ -1,0 +1,17 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AWI,Construction,Building Products - Miscellaneous,0.75,25160.0,7. p90_trade_value,2.0,18,15__0,15,0.0,15402.0,25976.0,29675.2,30507.52,30590.75,30599.08,30599.91
+BZH,Construction,Building Products - Home Builders,0.75,,,,48,15__0,15,0.0,14164.5,19535.25,32474.4,33523.44,33628.34,33638.83,33639.88
+CCS,Construction,Building Products - Home Builders,0.75,60000.0,1. p999999_trade_value,1.0,25,15__0,15,0.0,8520.0,21720.0,51600.0,59160.0,59916.0,59991.6,59999.16
+CVCO,Construction,Building Products - Mobile Homes and RV Builders,0.75,,,,51,15__0,15,0.0,12980.0,20820.0,123900.0,187530.0,193893.0,194529.3,194592.93
+CX,Construction,Building Products - Concrete and Aggregates,0.75,8151.000000000001,8. p75_trade_value,6.0,23,15__0,15,0.0,16877.2,17960.0,62460.0,73746.0,74874.6,74987.46,74998.75
+EXP,Construction,Building Products - Concrete and Aggregates,0.75,,,,45,15__0,15,0.0,12672.0,14782.0,16112.8,16461.28,16496.13,16499.61,16499.96
+IBP,Construction,Building Products - Miscellaneous,0.75,,,,19,15__0,15,0.0,7089.6,9750.0,15150.0,16365.0,16486.5,16498.65,16499.86
+MTH,Construction,Building Products - Home Builders,0.75,,,,40,15__0,15,0.0,9312.0,10633.0,37281.84,51161.78,52549.78,52688.58,52702.46
+NX,Construction,Building Products - Miscellaneous,0.75,,,,28,15__0,15,0.0,27414.0,35832.0,66645.4,76846.54,77866.65,77968.67,77978.87
+PATK,Construction,Building Products - Mobile Homes and RV Builders,0.75,349800.0,1. p999999_trade_value,1.0,24,15__1,15,1.0,96400.0,181290.0,313368.0,346156.8,349435.68,349763.57,349796.36
+ROAD,Construction,Building Products - Miscellaneous,0.75,17640.0,8. p75_trade_value,6.0,22,15__0,15,0.0,22572.0,31771.5,91697.5,105919.75,107341.98,107484.2,107498.42
+TPC,Construction,Building Products - Heavy Construction,0.75,,,,28,15__0,15,0.0,8800.0,10260.5,11605.86,11917.39,11948.54,11951.65,11951.97
+WFG,Construction,Building Products - Wood,0.75,7761.0,8. p75_trade_value,8.0,31,15__0,15,0.0,8400.0,8400.0,16380.0,19458.0,19765.8,19796.58,19799.66
+WMS,Construction,Building Products - Miscellaneous,0.75,258000.0,1. p999999_trade_value,1.0,43,15__0,15,0.0,19594.4,44617.5,179040.0,250104.0,257210.4,257921.04,257992.1
+WOR,Construction,Building Products - Wood,0.75,13500.0,1. p999999_trade_value,1.0,18,15__0,15,0.0,8871.5,9598.5,12719.7,13421.97,13492.2,13499.22,13499.92
+WY,Construction,Building Products - Wood,0.75,,,,43,15__0,15,0.0,9495.0,10436.0,26597.0,36859.7,37885.97,37988.6,37998.86

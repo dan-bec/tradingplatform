@@ -1,0 +1,8 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+DLO,Business Services,Financial Transaction Services,0.75,,,,81,20__0,20,0.0,22000.0,27900.0,36000.0,39600.0,39960.0,39996.0,39999.6
+MQ,Business Services,Financial Transaction Services,0.75,282000.0,1. p999999_trade_value,1.0,78,20__1,20,1.0,13588.2,20547.5,180668.0,271866.8,280986.68,281898.67,281989.87
+OPFI,Business Services,Financial Transaction Services,0.75,,,,83,20__0,20,0.0,8406.0,11931.0,14177.3,14904.23,14976.92,14984.19,14984.92
+PAY,Business Services,Financial Transaction Services,0.75,,,,64,20__0,20,0.0,15495.0,26746.75,211050.8,212661.08,212822.11,212838.21,212839.82
+RBA,Business Services,Financial Transaction Services,0.75,,,,92,20__0,20,0.0,8433.3,13456.0,20574.75,25304.48,25777.45,25824.74,25829.47
+RELY,Business Services,Financial Transaction Services,0.75,192000.0,1. p999999_trade_value,1.0,114,20__0,20,0.0,29250.0,39118.75,124975.1,184598.5,191259.85,191925.99,191992.6
+WEX,Business Services,Financial Transaction Services,0.75,,,,129,20__1,20,1.0,15280.0,40200.0,461100.0,573980.0,577148.0,577464.8,577496.48

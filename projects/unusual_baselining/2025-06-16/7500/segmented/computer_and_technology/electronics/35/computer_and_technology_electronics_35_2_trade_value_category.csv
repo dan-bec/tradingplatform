@@ -1,0 +1,25 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+AAOI,Computer and Technology,Electronics - Semiconductors,35__0,35,0.0,1. p999999_trade_value,384784.99999999994,384784.99999999994,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+AAOI,Computer and Technology,Electronics - Semiconductors,35__0,35,0.0,4. p999_trade_value,278160.0,278160.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+AAOI,Computer and Technology,Electronics - Semiconductors,35__0,35,0.0,5. p99_trade_value,276020.0,51840.00000000001,8.0,17.0,0.47058823529411764,0.75,2. BELOW BASELINE,10.0,19.0,0.5263157894736842
+AAOI,Computer and Technology,Electronics - Semiconductors,35__0,35,0.0,6. p95_trade_value,51740.0,26865.000000000004,44.0,73.0,0.6027397260273972,0.75,2. BELOW BASELINE,54.0,92.0,0.5869565217391305
+AAOI,Computer and Technology,Electronics - Semiconductors,35__0,35,0.0,7. p90_trade_value,26620.000000000004,18000.0,39.0,92.0,0.42391304347826086,0.75,2. BELOW BASELINE,93.0,184.0,0.5054347826086957
+AAOI,Computer and Technology,Electronics - Semiconductors,35__0,35,0.0,8. p75_trade_value,17935.0,9200.0,131.0,273.0,0.47985347985347987,0.75,2. BELOW BASELINE,224.0,457.0,0.49015317286652077
+CRDO,Computer and Technology,Electronics - Semiconductors,35__2,35,2.0,1. p999999_trade_value,572565.0,572565.0,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+CRDO,Computer and Technology,Electronics - Semiconductors,35__2,35,2.0,4. p999_trade_value,299410.0,218484.0,0.0,2.0,0.0,0.75,2. BELOW BASELINE,2.0,4.0,0.5
+CRDO,Computer and Technology,Electronics - Semiconductors,35__2,35,2.0,5. p99_trade_value,207480.00000000003,85250.0,10.0,30.0,0.3333333333333333,0.75,2. BELOW BASELINE,12.0,34.0,0.35294117647058826
+CRDO,Computer and Technology,Electronics - Semiconductors,35__2,35,2.0,6. p95_trade_value,83580.0,27783.0,68.0,134.0,0.5074626865671642,0.75,2. BELOW BASELINE,80.0,168.0,0.47619047619047616
+CRDO,Computer and Technology,Electronics - Semiconductors,35__2,35,2.0,7. p90_trade_value,27750.0,18000.0,112.0,171.0,0.6549707602339181,0.75,2. BELOW BASELINE,192.0,339.0,0.5663716814159292
+CRDO,Computer and Technology,Electronics - Semiconductors,35__2,35,2.0,8. p75_trade_value,17955.0,9300.0,288.0,502.0,0.5737051792828686,0.75,2. BELOW BASELINE,480.0,841.0,0.5707491082045184
+KLAC,Computer and Technology,Electronics - Miscellaneous Products,35__2,35,2.0,1. p999999_trade_value,798560.0,798560.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+KLAC,Computer and Technology,Electronics - Miscellaneous Products,35__2,35,2.0,4. p999_trade_value,486500.0,334600.0,4.0,4.0,1.0,0.75,2. BELOW BASELINE,4.0,5.0,0.8
+KLAC,Computer and Technology,Electronics - Miscellaneous Products,35__2,35,2.0,5. p99_trade_value,330000.0,86699.99999999999,24.0,37.0,0.6486486486486487,0.75,2. BELOW BASELINE,28.0,42.0,0.6666666666666666
+KLAC,Computer and Technology,Electronics - Miscellaneous Products,35__2,35,2.0,6. p95_trade_value,85649.0,29120.0,121.0,164.0,0.7378048780487805,0.75,2. BELOW BASELINE,149.0,206.0,0.7233009708737864
+KLAC,Computer and Technology,Electronics - Miscellaneous Products,35__2,35,2.0,7. p90_trade_value,29082.0,18989.999999999996,151.0,205.0,0.7365853658536585,0.75,2. BELOW BASELINE,300.0,411.0,0.7299270072992701
+KLAC,Computer and Technology,Electronics - Miscellaneous Products,35__2,35,2.0,8. p75_trade_value,18936.0,10260.0,428.0,616.0,0.6948051948051948,0.75,2. BELOW BASELINE,728.0,1027.0,0.7088607594936709
+SMR,Computer and Technology,Electronics - Power Generation,35__2,35,2.0,1. p999999_trade_value,1033500.0,1033500.0,1.0,1.0,1.0,0.75,2. BELOW BASELINE,1.0,1.0,1.0
+SMR,Computer and Technology,Electronics - Power Generation,35__2,35,2.0,4. p999_trade_value,828000.0,443610.00000000006,1.0,4.0,0.25,0.75,2. BELOW BASELINE,2.0,5.0,0.4
+SMR,Computer and Technology,Electronics - Power Generation,35__2,35,2.0,5. p99_trade_value,400000.0,140140.0,26.0,40.0,0.65,0.75,2. BELOW BASELINE,28.0,45.0,0.6222222222222222
+SMR,Computer and Technology,Electronics - Power Generation,35__2,35,2.0,6. p95_trade_value,138000.0,32000.0,94.0,179.0,0.5251396648044693,0.75,2. BELOW BASELINE,122.0,224.0,0.5446428571428571
+SMR,Computer and Technology,Electronics - Power Generation,35__2,35,2.0,7. p90_trade_value,31850.0,18000.0,149.0,224.0,0.6651785714285714,0.75,2. BELOW BASELINE,271.0,448.0,0.6049107142857143
+SMR,Computer and Technology,Electronics - Power Generation,35__2,35,2.0,8. p75_trade_value,17994.0,8750.0,400.0,672.0,0.5952380952380952,0.75,2. BELOW BASELINE,671.0,1120.0,0.5991071428571428

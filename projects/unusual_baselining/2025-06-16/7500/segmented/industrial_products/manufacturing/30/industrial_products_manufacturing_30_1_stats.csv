@@ -1,0 +1,5 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+EMR,Industrial Products,Manufacturing - Electronics,0.75,,,,759,30__2,30,2.0,15300.0,27775.0,159950.0,358885.84,420638.58,426813.86,427431.39
+GNRC,Industrial Products,Manufacturing - General Industrial ,0.75,,,,863,30__2,30,2.0,15032.0,26100.4,66388.8,107716.5,118771.65,119877.17,119987.72
+PH,Industrial Products,Manufacturing - General Industrial ,0.75,,,,966,30__1,30,1.0,31299.0,60532.5,284840.0,1053004.75,1831050.48,1908855.05,1916635.5
+POWL,Industrial Products,Manufacturing - Electronics,0.75,345000.0,4. p999_trade_value,2.0,1312,30__2,30,2.0,13400.9,20745.0,43529.0,258495.35,431021.1,442702.11,443870.21

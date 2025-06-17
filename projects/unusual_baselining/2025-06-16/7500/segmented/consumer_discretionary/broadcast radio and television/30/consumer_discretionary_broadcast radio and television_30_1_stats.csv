@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+FUBO,Consumer Discretionary,Broadcast Radio and Television,0.75,,,,1299,30__2,30,2.0,13393.6,20201.8,45220.0,128800.24,212696.83,223634.68,224728.47
+SIRI,Consumer Discretionary,Broadcast Radio and Television,0.75,511658.0,1. p999999_trade_value,1.0,1380,30__2,30,2.0,15000.0,27000.0,91761.0,477452.0,507568.16,511249.02,511617.1
+WBD,Consumer Discretionary,Broadcast Radio and Television,0.75,,,,849,30__1,30,1.0,14975.4,25133.2,72519.0,1423284.0,2943578.4,3095607.84,3110810.78

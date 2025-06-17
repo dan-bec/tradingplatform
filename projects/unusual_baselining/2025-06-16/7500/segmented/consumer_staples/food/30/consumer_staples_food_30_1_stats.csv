@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+HSY,Consumer Staples,Food - Confectionery,0.75,30000.0,6. p95_trade_value,74.0,1421,30__2,30,2.0,17160.0,30000.0,127500.0,249500.0,370682.0,387168.2,388816.82
+KHC,Consumer Staples,Food - Miscellaneous,0.75,100000.0,4. p999_trade_value,2.0,1007,30__2,30,2.0,12000.0,18000.0,59741.04,99999.7,150366.4,155436.64,155943.66
+LW,Consumer Staples,Food - Miscellaneous,0.75,,,,1163,30__1,30,1.0,15186.0,26576.0,124145.0,440280.0,1598940.0,1734894.0,1748489.4

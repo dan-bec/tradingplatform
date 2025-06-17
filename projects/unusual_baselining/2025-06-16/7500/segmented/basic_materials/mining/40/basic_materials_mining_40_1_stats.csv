@@ -1,0 +1,3 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+CCJ,Basic Materials,Mining - Miscellaneous,0.75,,,,6485,40__2,40,2.0,18750.0,35370.0,201708.48,651233.28,1720142.55,1985935.45,2012514.75
+FCX,Basic Materials,Mining - Non Ferrous,0.75,,,,6593,40__0,40,0.0,16295.0,26610.0,89705.68,334080.0,842201.6,858220.16,859822.02

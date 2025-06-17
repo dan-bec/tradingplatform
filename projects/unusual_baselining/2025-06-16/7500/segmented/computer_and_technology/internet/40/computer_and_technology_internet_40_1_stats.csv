@@ -1,0 +1,17 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ALAB,Computer and Technology,Internet - Software,0.75,715340.0,4. p999_trade_value,11.0,10318,40__2,40,2.0,17106.0,27000.0,104668.15,697633.33,1697660.0,3403977.0,3580397.7
+ANET,Computer and Technology,Internet - Software,0.75,208680.00000000003,4. p999_trade_value,15.0,14820,40__0,40,0.0,15660.0,23275.0,60165.99,208622.67,507122.2,868567.04,920481.7
+DASH,Computer and Technology,Internet - Services,0.75,1074000.0,3. p9999_trade_value,2.0,10991,40__0,40,0.0,17721.0,29492.0,79113.5,415490.0,1064694.0,1146098.1,1154109.81
+DDOG,Computer and Technology,Internet - Software,0.75,,,,15301,40__0,40,0.0,16005.0,26325.0,85000.0,383500.0,931385.0,1287524.0,1341502.4
+NBIS,Computer and Technology,Internet - Software and Services,0.75,,,,14488,40__0,40,0.0,19650.0,32864.25,93273.3,247877.64,488966.16,803785.95,850778.6
+NET,Computer and Technology,Internet - Software,0.75,488565.00000000006,4. p999_trade_value,9.0,8240,40__0,40,0.0,16200.6,25047.55,73431.43,464736.46,1190480.85,1523048.09,1556304.81
+QBTS,Computer and Technology,Internet - Software,0.75,,,,9684,40__0,40,0.0,14704.2,22000.0,52151.98,105000.0,215230.5,359023.05,373402.3
+QUBT,Computer and Technology,Internet - Software,0.75,,,,7567,40__0,40,0.0,17000.0,25392.5,64922.78,211899.94,582144.24,598214.42,599821.44
+RGTI,Computer and Technology,Internet - Software,0.75,,,,15475,40__0,40,0.0,15400.0,22500.0,57172.0,183976.56,345807.4,492978.6,508297.86
+SNAP,Computer and Technology,Internet - Software,0.75,,,,7170,40__0,40,0.0,12988.3,19514.9,60193.44,338821.25,1741541.47,3864096.55,4076352.05
+TEAM,Computer and Technology,Internet - Software,0.75,,,,6986,40__0,40,0.0,15617.0,23760.0,60160.0,268896.6,1311585.0,1556758.5,1581275.85
+TTD,Computer and Technology,Internet - Services,0.75,646704.0000000001,3. p9999_trade_value,2.0,12573,40__0,40,0.0,15967.4,24600.0,66099.6,222508.08,604365.79,970733.15,1012668.52
+TWLO,Computer and Technology,Internet - Software,0.75,260000.0,4. p999_trade_value,6.0,5729,40__0,40,0.0,16425.8,26258.4,73990.2,237490.24,331904.37,367315.44,370856.54
+U,Computer and Technology,Internet - Software,0.75,,,,9676,40__0,40,0.0,13991.5,21930.0,62126.25,216000.0,469528.4,1475000.84,1575548.08
+WDAY,Computer and Technology,Internet - Software,0.75,,,,7294,40__0,40,0.0,16281.4,25563.6,72507.0,396238.5,1175883.25,1699338.33,1751683.83
+XYZ,Computer and Technology,Internet - Software,0.75,,,,8119,40__2,40,2.0,16800.0,29867.5,135547.08,554088.36,2108062.22,3538020.72,3681016.57

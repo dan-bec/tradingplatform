@@ -1,0 +1,6 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+AA,Industrial Products,Metal Products - Distribution,30__0,30,0.0,1. p999999_trade_value,840000.0,840000.0,3.0,3.0,1.0,0.75,1. ABOVE BASELINE,3.0,3.0,1.0
+AA,Industrial Products,Metal Products - Distribution,30__0,30,0.0,5. p99_trade_value,744571.9999999999,110000.0,11.0,14.0,0.7857142857142857,0.75,1. ABOVE BASELINE,14.0,17.0,0.8235294117647058
+AA,Industrial Products,Metal Products - Distribution,30__0,30,0.0,6. p95_trade_value,103000.0,30239.999999999996,53.0,66.0,0.803030303030303,0.75,1. ABOVE BASELINE,67.0,83.0,0.8072289156626506
+AA,Industrial Products,Metal Products - Distribution,30__0,30,0.0,7. p90_trade_value,30000.0,17408.0,50.0,82.0,0.6097560975609756,0.75,2. BELOW BASELINE,117.0,165.0,0.7090909090909091
+AA,Industrial Products,Metal Products - Distribution,30__0,30,0.0,8. p75_trade_value,17290.0,8463.000000000002,145.0,248.0,0.5846774193548387,0.75,2. BELOW BASELINE,262.0,413.0,0.6343825665859564

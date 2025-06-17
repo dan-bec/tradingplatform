@@ -1,0 +1,6 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+ATGE,Consumer Discretionary,Schools,20__1,20,1.0,1. p999999_trade_value,519480.0,519480.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+ATGE,Consumer Discretionary,Schools,20__1,20,1.0,5. p99_trade_value,442500.0,442500.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
+ATGE,Consumer Discretionary,Schools,20__1,20,1.0,6. p95_trade_value,249750.0,76800.0,4.0,4.0,1.0,0.75,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
+ATGE,Consumer Discretionary,Schools,20__1,20,1.0,7. p90_trade_value,75000.0,25000.0,0.0,5.0,0.0,0.75,2. BELOW BASELINE,4.0,11.0,0.36363636363636365
+ATGE,Consumer Discretionary,Schools,20__1,20,1.0,8. p75_trade_value,21000.0,8000.0,9.0,15.0,0.6,0.75,2. BELOW BASELINE,13.0,26.0,0.5

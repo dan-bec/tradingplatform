@@ -1,0 +1,7 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CROX,Consumer Discretionary,Textile - Apparel,35__1,35,1.0,1. p999999_trade_value,2082240.0000000002,2082240.0000000002,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+CROX,Consumer Discretionary,Textile - Apparel,35__1,35,1.0,4. p999_trade_value,1898753.0000000002,960000.0,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,3.0,3.0,1.0
+CROX,Consumer Discretionary,Textile - Apparel,35__1,35,1.0,5. p99_trade_value,675000.0,80960.0,11.0,26.0,0.4230769230769231,0.75,2. BELOW BASELINE,14.0,29.0,0.4827586206896552
+CROX,Consumer Discretionary,Textile - Apparel,35__1,35,1.0,6. p95_trade_value,80000.0,24750.0,47.0,112.0,0.41964285714285715,0.75,2. BELOW BASELINE,61.0,141.0,0.4326241134751773
+CROX,Consumer Discretionary,Textile - Apparel,35__1,35,1.0,7. p90_trade_value,24700.0,14960.000000000002,70.0,141.0,0.49645390070921985,0.75,2. BELOW BASELINE,131.0,282.0,0.4645390070921986
+CROX,Consumer Discretionary,Textile - Apparel,35__1,35,1.0,8. p75_trade_value,14900.0,7705.0,207.0,420.0,0.4928571428571429,0.75,2. BELOW BASELINE,338.0,702.0,0.48148148148148145

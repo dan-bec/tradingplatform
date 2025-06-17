@@ -1,0 +1,6 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+RL,Consumer Discretionary,Textile - Apparel,25__0,25,0.0,1. p999999_trade_value,328860.0,328860.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+RL,Consumer Discretionary,Textile - Apparel,25__0,25,0.0,5. p99_trade_value,287280.0,194832.0,2.0,5.0,0.4,0.75,2. BELOW BASELINE,3.0,6.0,0.5
+RL,Consumer Discretionary,Textile - Apparel,25__0,25,0.0,6. p95_trade_value,165667.99999999997,53550.0,10.0,20.0,0.5,0.75,2. BELOW BASELINE,13.0,26.0,0.5
+RL,Consumer Discretionary,Textile - Apparel,25__0,25,0.0,7. p90_trade_value,53300.0,18450.0,13.0,26.0,0.5,0.75,2. BELOW BASELINE,26.0,52.0,0.5
+RL,Consumer Discretionary,Textile - Apparel,25__0,25,0.0,8. p75_trade_value,18210.000000000004,10030.000000000002,34.0,77.0,0.44155844155844154,0.75,2. BELOW BASELINE,60.0,129.0,0.46511627906976744

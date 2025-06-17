@@ -1,0 +1,5 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+PFGC,Retail-Wholesale,Food - Natural Foods Products,20__1,20,1.0,1. p999999_trade_value,537500.0,537500.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+PFGC,Retail-Wholesale,Food - Natural Foods Products,20__1,20,1.0,6. p95_trade_value,287500.0,101250.0,3.0,3.0,1.0,0.75,1. ABOVE BASELINE,4.0,4.0,1.0
+PFGC,Retail-Wholesale,Food - Natural Foods Products,20__1,20,1.0,7. p90_trade_value,52500.0,48020.0,0.0,3.0,0.0,0.75,2. BELOW BASELINE,4.0,7.0,0.5714285714285714
+PFGC,Retail-Wholesale,Food - Natural Foods Products,20__1,20,1.0,8. p75_trade_value,35700.0,18810.0,6.0,9.0,0.6666666666666666,0.75,2. BELOW BASELINE,10.0,16.0,0.625

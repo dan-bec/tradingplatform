@@ -1,0 +1,11 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CWK,Finance,Real Estate - Operations,10__3,10,3.0,1. p999999_trade_value,180000.0,180000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+CWK,Finance,Real Estate - Operations,10__3,10,3.0,8. p75_trade_value,60000.0,60000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+EXPI,Finance,Real Estate - Operations,10__0,10,0.0,1. p999999_trade_value,14600.0,14600.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+EXPI,Finance,Real Estate - Operations,10__0,10,0.0,7. p90_trade_value,12654.0,12654.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
+EXPI,Finance,Real Estate - Operations,10__0,10,0.0,8. p75_trade_value,11399.999999999998,6750.0,0.0,3.0,0.0,0.75,2. BELOW BASELINE,0.0,5.0,0.0
+FIP,Finance,Real Estate - Operations,10__0,10,0.0,1. p999999_trade_value,10050.0,10050.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+FIP,Finance,Real Estate - Operations,10__0,10,0.0,8. p75_trade_value,9600.0,8350.0,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,3.0,3.0,1.0
+HOUS,Finance,Real Estate - Operations,10__0,10,0.0,1. p999999_trade_value,5000.0,5000.0,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+RMAX,Finance,Real Estate - Operations,10__0,10,0.0,1. p999999_trade_value,9000.0,9000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+RMAX,Finance,Real Estate - Operations,10__0,10,0.0,8. p75_trade_value,6320.0,6320.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5

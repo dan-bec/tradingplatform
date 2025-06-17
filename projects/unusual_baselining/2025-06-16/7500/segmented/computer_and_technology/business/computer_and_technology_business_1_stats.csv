@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+PLUS,Computer and Technology,Business - Software Services,0.75,,,,12,10__0,10,0.0,9540.0,25530.0,41106.0,44610.6,44961.06,44996.11,44999.61

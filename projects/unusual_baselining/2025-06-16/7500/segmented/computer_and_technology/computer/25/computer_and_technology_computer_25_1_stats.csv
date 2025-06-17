@@ -1,0 +1,6 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ANSS,Computer and Technology,Computer - Software,0.75,,,,280,25__0,25,0.0,8820.0,15200.0,55025.0,199053.0,222405.3,224740.53,224974.05
+CACI,Computer and Technology,Computer - Services,0.75,25350.0,6. p95_trade_value,11.0,210,25__0,25,0.0,12077.1,24715.5,84414.05,262835.51,264747.55,264938.76,264957.88
+LOGI,Computer and Technology,Computer - Peripheral Equipment,0.75,226875.0,1. p999999_trade_value,1.0,329,25__0,25,0.0,15990.0,24552.0,96100.0,185227.2,222710.22,226458.52,226833.35
+MANH,Computer and Technology,Computer - Software,0.75,623360.0,1. p999999_trade_value,1.0,241,25__0,25,0.0,14690.0,25884.0,57088.0,507605.6,611784.56,622202.46,623244.25
+PTC,Computer and Technology,Computer - Software,0.75,430168.99999999994,1. p999999_trade_value,1.0,384,25__0,25,0.0,20580.0,38000.0,104474.0,373841.57,424536.26,429605.73,430112.67

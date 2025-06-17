@@ -1,0 +1,25 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+AAL,Transportation,Transportation - Airline,35__2,35,2.0,1. p999999_trade_value,1140000.0,1140000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+AAL,Transportation,Transportation - Airline,35__2,35,2.0,4. p999_trade_value,828000.0,819000.0,3.0,4.0,0.75,0.75,1. ABOVE BASELINE,4.0,5.0,0.8
+AAL,Transportation,Transportation - Airline,35__2,35,2.0,5. p99_trade_value,795000.0,88200.0,24.0,36.0,0.6666666666666666,0.75,2. BELOW BASELINE,28.0,41.0,0.6829268292682927
+AAL,Transportation,Transportation - Airline,35__2,35,2.0,6. p95_trade_value,87514.0,23880.0,95.0,164.0,0.5792682926829268,0.75,2. BELOW BASELINE,123.0,205.0,0.6
+AAL,Transportation,Transportation - Airline,35__2,35,2.0,7. p90_trade_value,23835.0,14850.0,126.0,205.0,0.6146341463414634,0.75,2. BELOW BASELINE,249.0,410.0,0.6073170731707317
+AAL,Transportation,Transportation - Airline,35__2,35,2.0,8. p75_trade_value,14841.0,8224.0,337.0,615.0,0.5479674796747968,0.75,2. BELOW BASELINE,586.0,1025.0,0.5717073170731707
+CAR,Transportation,Transportation - Services,35__0,35,0.0,1. p999999_trade_value,1065999.9999999998,1065999.9999999998,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+CAR,Transportation,Transportation - Services,35__0,35,0.0,4. p999_trade_value,875000.0,552500.0,2.0,3.0,0.6666666666666666,0.75,2. BELOW BASELINE,2.0,4.0,0.5
+CAR,Transportation,Transportation - Services,35__0,35,0.0,5. p99_trade_value,425000.0,70512.0,12.0,32.0,0.375,0.75,2. BELOW BASELINE,14.0,36.0,0.3888888888888889
+CAR,Transportation,Transportation - Services,35__0,35,0.0,6. p95_trade_value,70000.0,23680.0,72.0,141.0,0.5106382978723404,0.75,2. BELOW BASELINE,86.0,177.0,0.4858757062146893
+CAR,Transportation,Transportation - Services,35__0,35,0.0,7. p90_trade_value,23500.0,14000.0,119.0,176.0,0.6761363636363636,0.75,2. BELOW BASELINE,205.0,353.0,0.5807365439093485
+CAR,Transportation,Transportation - Services,35__0,35,0.0,8. p75_trade_value,13940.0,7440.000000000001,324.0,531.0,0.6101694915254238,0.75,2. BELOW BASELINE,529.0,884.0,0.5984162895927602
+LUV,Transportation,Transportation - Airline,35__2,35,2.0,1. p999999_trade_value,470000.0,470000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+LUV,Transportation,Transportation - Airline,35__2,35,2.0,4. p999_trade_value,432216.0,432216.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+LUV,Transportation,Transportation - Airline,35__2,35,2.0,5. p99_trade_value,391816.0,122256.0,13.0,17.0,0.7647058823529411,0.75,1. ABOVE BASELINE,15.0,19.0,0.7894736842105263
+LUV,Transportation,Transportation - Airline,35__2,35,2.0,6. p95_trade_value,122000.0,39975.0,45.0,73.0,0.6164383561643836,0.75,2. BELOW BASELINE,60.0,92.0,0.6521739130434783
+LUV,Transportation,Transportation - Airline,35__2,35,2.0,7. p90_trade_value,38200.0,21780.0,40.0,92.0,0.43478260869565216,0.75,2. BELOW BASELINE,100.0,184.0,0.5434782608695652
+LUV,Transportation,Transportation - Airline,35__2,35,2.0,8. p75_trade_value,21600.0,9504.0,143.0,273.0,0.5238095238095238,0.75,2. BELOW BASELINE,243.0,457.0,0.5317286652078774
+ZIM,Transportation,Transportation - Shipping,35__0,35,0.0,1. p999999_trade_value,420000.0,420000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+ZIM,Transportation,Transportation - Shipping,35__0,35,0.0,4. p999_trade_value,325143.0,227736.0,2.0,3.0,0.6666666666666666,0.75,2. BELOW BASELINE,3.0,4.0,0.75
+ZIM,Transportation,Transportation - Shipping,35__0,35,0.0,5. p99_trade_value,194376.0,48750.0,21.0,30.0,0.7,0.75,2. BELOW BASELINE,24.0,34.0,0.7058823529411765
+ZIM,Transportation,Transportation - Shipping,35__0,35,0.0,6. p95_trade_value,48000.0,22764.0,77.0,127.0,0.6062992125984252,0.75,2. BELOW BASELINE,101.0,161.0,0.6273291925465838
+ZIM,Transportation,Transportation - Shipping,35__0,35,0.0,7. p90_trade_value,22599.999999999996,15750.0,90.0,163.0,0.5521472392638037,0.75,2. BELOW BASELINE,191.0,324.0,0.5895061728395061
+ZIM,Transportation,Transportation - Shipping,35__0,35,0.0,8. p75_trade_value,15624.0,8748.0,277.0,482.0,0.5746887966804979,0.75,2. BELOW BASELINE,468.0,806.0,0.5806451612903226

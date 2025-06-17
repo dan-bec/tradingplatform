@@ -1,0 +1,61 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CNM,Industrial Products,Manufacturing - Tools & Related Products,25__2,25,2.0,1. p999999_trade_value,573750.0,573750.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+CNM,Industrial Products,Manufacturing - Tools & Related Products,25__2,25,2.0,5. p99_trade_value,282348.0,233470.00000000003,2.0,3.0,0.6666666666666666,0.75,2. BELOW BASELINE,2.0,4.0,0.5
+CNM,Industrial Products,Manufacturing - Tools & Related Products,25__2,25,2.0,6. p95_trade_value,193936.0,87500.0,7.0,15.0,0.4666666666666667,0.75,2. BELOW BASELINE,9.0,19.0,0.47368421052631576
+CNM,Industrial Products,Manufacturing - Tools & Related Products,25__2,25,2.0,7. p90_trade_value,77700.0,41030.0,13.0,19.0,0.6842105263157895,0.75,2. BELOW BASELINE,22.0,38.0,0.5789473684210527
+CNM,Industrial Products,Manufacturing - Tools & Related Products,25__2,25,2.0,8. p75_trade_value,40257.0,12600.0,31.0,55.0,0.5636363636363636,0.75,2. BELOW BASELINE,53.0,93.0,0.5698924731182796
+CR,Industrial Products,Manufacturing - General Industrial ,25__2,25,2.0,1. p999999_trade_value,742500.0,742500.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+CR,Industrial Products,Manufacturing - General Industrial ,25__2,25,2.0,5. p99_trade_value,262500.0,192318.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+CR,Industrial Products,Manufacturing - General Industrial ,25__2,25,2.0,6. p95_trade_value,184000.0,77070.0,7.0,10.0,0.7,0.75,2. BELOW BASELINE,9.0,13.0,0.6923076923076923
+CR,Industrial Products,Manufacturing - General Industrial ,25__2,25,2.0,7. p90_trade_value,70620.0,50000.0,6.0,10.0,0.6,0.75,2. BELOW BASELINE,15.0,23.0,0.6521739130434783
+CR,Industrial Products,Manufacturing - General Industrial ,25__2,25,2.0,8. p75_trade_value,44100.0,8200.0,11.0,33.0,0.3333333333333333,0.75,2. BELOW BASELINE,26.0,56.0,0.4642857142857143
+DOV,Industrial Products,Manufacturing - General Industrial ,25__2,25,2.0,1. p999999_trade_value,387000.0,387000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+DOV,Industrial Products,Manufacturing - General Industrial ,25__2,25,2.0,5. p99_trade_value,250000.0,150000.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+DOV,Industrial Products,Manufacturing - General Industrial ,25__2,25,2.0,6. p95_trade_value,147000.0,95410.0,8.0,10.0,0.8,0.75,2. BELOW BASELINE,10.0,13.0,0.7692307692307693
+DOV,Industrial Products,Manufacturing - General Industrial ,25__2,25,2.0,7. p90_trade_value,92015.0,50000.0,8.0,13.0,0.6153846153846154,0.75,2. BELOW BASELINE,18.0,26.0,0.6923076923076923
+DOV,Industrial Products,Manufacturing - General Industrial ,25__2,25,2.0,8. p75_trade_value,43026.0,16560.0,27.0,38.0,0.7105263157894737,0.75,2. BELOW BASELINE,45.0,64.0,0.703125
+FERG,Industrial Products,Manufacturing - General Industrial ,25__0,25,0.0,1. p999999_trade_value,886000.0,886000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+FERG,Industrial Products,Manufacturing - General Industrial ,25__0,25,0.0,5. p99_trade_value,63750.0,62500.0,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,3.0,3.0,1.0
+FERG,Industrial Products,Manufacturing - General Industrial ,25__0,25,0.0,6. p95_trade_value,52394.99999999999,14450.0,3.0,10.0,0.3,0.75,2. BELOW BASELINE,6.0,13.0,0.46153846153846156
+FERG,Industrial Products,Manufacturing - General Industrial ,25__0,25,0.0,7. p90_trade_value,14350.0,10800.0,5.0,12.0,0.4166666666666667,0.75,2. BELOW BASELINE,11.0,25.0,0.44
+FERG,Industrial Products,Manufacturing - General Industrial ,25__0,25,0.0,8. p75_trade_value,10750.0,6969.999999999999,19.0,37.0,0.5135135135135135,0.75,2. BELOW BASELINE,30.0,62.0,0.4838709677419355
+GTLS,Industrial Products,Manufacturing - General Industrial ,25__0,25,0.0,1. p999999_trade_value,367500.0,367500.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+GTLS,Industrial Products,Manufacturing - General Industrial ,25__0,25,0.0,5. p99_trade_value,244000.0,29500.0,6.0,6.0,1.0,0.75,1. ABOVE BASELINE,7.0,7.0,1.0
+GTLS,Industrial Products,Manufacturing - General Industrial ,25__0,25,0.0,6. p95_trade_value,28400.0,18125.0,16.0,20.0,0.8,0.75,1. ABOVE BASELINE,23.0,27.0,0.8518518518518519
+GTLS,Industrial Products,Manufacturing - General Industrial ,25__0,25,0.0,7. p90_trade_value,17640.0,13110.0,15.0,26.0,0.5769230769230769,0.75,2. BELOW BASELINE,38.0,53.0,0.7169811320754716
+GTLS,Industrial Products,Manufacturing - General Industrial ,25__0,25,0.0,8. p75_trade_value,13000.0,7789.999999999999,56.0,79.0,0.7088607594936709,0.75,2. BELOW BASELINE,94.0,132.0,0.7121212121212122
+HUBB,Industrial Products,Manufacturing - Electrical Utilities ,25__2,25,2.0,1. p999999_trade_value,502000.0,502000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+HUBB,Industrial Products,Manufacturing - Electrical Utilities ,25__2,25,2.0,5. p99_trade_value,302400.0,235000.0,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,3.0,3.0,1.0
+HUBB,Industrial Products,Manufacturing - Electrical Utilities ,25__2,25,2.0,6. p95_trade_value,193120.0,46399.99999999999,8.0,11.0,0.7272727272727273,0.75,2. BELOW BASELINE,11.0,14.0,0.7857142857142857
+HUBB,Industrial Products,Manufacturing - Electrical Utilities ,25__2,25,2.0,7. p90_trade_value,45000.0,20800.0,8.0,14.0,0.5714285714285714,0.75,2. BELOW BASELINE,19.0,28.0,0.6785714285714286
+HUBB,Industrial Products,Manufacturing - Electrical Utilities ,25__2,25,2.0,8. p75_trade_value,20100.0,12600.0,25.0,43.0,0.5813953488372093,0.75,2. BELOW BASELINE,44.0,71.0,0.6197183098591549
+IR,Industrial Products,Manufacturing - General Industrial ,25__0,25,0.0,1. p999999_trade_value,149000.0,149000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+IR,Industrial Products,Manufacturing - General Industrial ,25__0,25,0.0,5. p99_trade_value,89640.0,84240.0,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,3.0,3.0,1.0
+IR,Industrial Products,Manufacturing - General Industrial ,25__0,25,0.0,6. p95_trade_value,82500.0,31500.0,9.0,10.0,0.9,0.75,1. ABOVE BASELINE,12.0,13.0,0.9230769230769231
+IR,Industrial Products,Manufacturing - General Industrial ,25__0,25,0.0,7. p90_trade_value,28667.0,16600.0,6.0,13.0,0.46153846153846156,0.75,2. BELOW BASELINE,18.0,26.0,0.6923076923076923
+IR,Industrial Products,Manufacturing - General Industrial ,25__0,25,0.0,8. p75_trade_value,16500.0,10500.0,27.0,38.0,0.7105263157894737,0.75,2. BELOW BASELINE,45.0,64.0,0.703125
+PLUG,Industrial Products,Manufacturing - Electronics,25__0,25,0.0,1. p999999_trade_value,175800.0,175800.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+PLUG,Industrial Products,Manufacturing - Electronics,25__0,25,0.0,5. p99_trade_value,75966.0,63000.0,0.0,4.0,0.0,0.75,2. BELOW BASELINE,1.0,5.0,0.2
+PLUG,Industrial Products,Manufacturing - Electronics,25__0,25,0.0,6. p95_trade_value,55250.0,20322.0,4.0,16.0,0.25,0.75,2. BELOW BASELINE,5.0,21.0,0.23809523809523808
+PLUG,Industrial Products,Manufacturing - Electronics,25__0,25,0.0,7. p90_trade_value,19325.0,13574.0,11.0,21.0,0.5238095238095238,0.75,2. BELOW BASELINE,16.0,42.0,0.38095238095238093
+PLUG,Industrial Products,Manufacturing - Electronics,25__0,25,0.0,8. p75_trade_value,13317.000000000002,8295.0,26.0,63.0,0.4126984126984127,0.75,2. BELOW BASELINE,42.0,105.0,0.4
+RRX,Industrial Products,Manufacturing - General Industrial ,25__2,25,2.0,1. p999999_trade_value,313000.0,313000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+RRX,Industrial Products,Manufacturing - General Industrial ,25__2,25,2.0,5. p99_trade_value,275000.0,275000.0,1.0,1.0,1.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
+RRX,Industrial Products,Manufacturing - General Industrial ,25__2,25,2.0,6. p95_trade_value,255430.00000000003,68200.0,7.0,8.0,0.875,0.75,2. BELOW BASELINE,8.0,10.0,0.8
+RRX,Industrial Products,Manufacturing - General Industrial ,25__2,25,2.0,7. p90_trade_value,57600.0,22500.0,9.0,10.0,0.9,0.75,2. BELOW BASELINE,17.0,20.0,0.85
+RRX,Industrial Products,Manufacturing - General Industrial ,25__2,25,2.0,8. p75_trade_value,21840.0,8000.0,19.0,28.0,0.6785714285714286,0.75,2. BELOW BASELINE,36.0,48.0,0.75
+SWK,Industrial Products,Manufacturing - Tools & Related Products,25__0,25,0.0,1. p999999_trade_value,140000.0,140000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+SWK,Industrial Products,Manufacturing - Tools & Related Products,25__0,25,0.0,5. p99_trade_value,99528.0,67500.0,2.0,4.0,0.5,0.75,2. BELOW BASELINE,3.0,5.0,0.6
+SWK,Industrial Products,Manufacturing - Tools & Related Products,25__0,25,0.0,6. p95_trade_value,59380.99999999999,29295.000000000004,9.0,19.0,0.47368421052631576,0.75,2. BELOW BASELINE,12.0,24.0,0.5
+SWK,Industrial Products,Manufacturing - Tools & Related Products,25__0,25,0.0,7. p90_trade_value,28730.0,16191.0,11.0,23.0,0.4782608695652174,0.75,2. BELOW BASELINE,23.0,47.0,0.48936170212765956
+SWK,Industrial Products,Manufacturing - Tools & Related Products,25__0,25,0.0,8. p75_trade_value,16065.0,8640.0,45.0,73.0,0.6164383561643836,0.75,2. BELOW BASELINE,68.0,120.0,0.5666666666666667
+TRMB,Industrial Products,Manufacturing - General Industrial ,25__0,25,0.0,1. p999999_trade_value,359580.0,359580.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+TRMB,Industrial Products,Manufacturing - General Industrial ,25__0,25,0.0,5. p99_trade_value,216840.0,216840.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+TRMB,Industrial Products,Manufacturing - General Industrial ,25__0,25,0.0,6. p95_trade_value,207720.00000000003,60008.00000000001,4.0,8.0,0.5,0.75,2. BELOW BASELINE,6.0,10.0,0.6
+TRMB,Industrial Products,Manufacturing - General Industrial ,25__0,25,0.0,7. p90_trade_value,47500.0,12960.0,8.0,9.0,0.8888888888888888,0.75,2. BELOW BASELINE,14.0,19.0,0.7368421052631579
+TRMB,Industrial Products,Manufacturing - General Industrial ,25__0,25,0.0,8. p75_trade_value,11625.0,8500.0,19.0,29.0,0.6551724137931034,0.75,2. BELOW BASELINE,33.0,48.0,0.6875
+ZBRA,Industrial Products,Manufacturing - Thermal Products,25__0,25,0.0,1. p999999_trade_value,78000.0,78000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+ZBRA,Industrial Products,Manufacturing - Thermal Products,25__0,25,0.0,5. p99_trade_value,66000.0,50000.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+ZBRA,Industrial Products,Manufacturing - Thermal Products,25__0,25,0.0,6. p95_trade_value,49000.0,26300.0,6.0,10.0,0.6,0.75,2. BELOW BASELINE,8.0,13.0,0.6153846153846154
+ZBRA,Industrial Products,Manufacturing - Thermal Products,25__0,25,0.0,7. p90_trade_value,24750.0,14310.0,2.0,12.0,0.16666666666666666,0.75,2. BELOW BASELINE,10.0,25.0,0.4
+ZBRA,Industrial Products,Manufacturing - Thermal Products,25__0,25,0.0,8. p75_trade_value,12900.0,7650.0,23.0,37.0,0.6216216216216216,0.75,2. BELOW BASELINE,33.0,62.0,0.532258064516129

@@ -1,0 +1,8 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+COST,Retail-Wholesale,Retail - Discount Stores,50__3,50,3.0,1. p999999_trade_value,1281791.0,1281791.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+COST,Retail-Wholesale,Retail - Discount Stores,50__3,50,3.0,3. p9999_trade_value,1180000.0,771308.0,2.0,8.0,0.25,0.75,2. BELOW BASELINE,2.0,9.0,0.2222222222222222
+COST,Retail-Wholesale,Retail - Discount Stores,50__3,50,3.0,4. p999_trade_value,764050.0,254508.0,30.0,72.0,0.4166666666666667,0.75,2. BELOW BASELINE,32.0,81.0,0.3950617283950617
+COST,Retail-Wholesale,Retail - Discount Stores,50__3,50,3.0,5. p99_trade_value,253692.0,66340.0,354.0,728.0,0.48626373626373626,0.75,2. BELOW BASELINE,386.0,809.0,0.47713226205191595
+COST,Retail-Wholesale,Retail - Discount Stores,50__3,50,3.0,6. p95_trade_value,66300.0,24358.0,1651.0,3234.0,0.5105132962275819,0.75,2. BELOW BASELINE,2037.0,4043.0,0.5038337867919861
+COST,Retail-Wholesale,Retail - Discount Stores,50__3,50,3.0,7. p90_trade_value,24354.0,15714.000000000002,2055.0,4043.0,0.5082859262923571,0.75,2. BELOW BASELINE,4092.0,8086.0,0.5060598565421717
+COST,Retail-Wholesale,Retail - Discount Stores,50__3,50,3.0,8. p75_trade_value,15707.999999999998,8550.0,5829.0,12178.0,0.47865002463458695,0.75,2. BELOW BASELINE,9921.0,20264.0,0.48958744571654167

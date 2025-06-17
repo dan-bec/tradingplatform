@@ -1,0 +1,5 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+BRC,Industrial Products,Security and Safety Services,0.75,,,,1,0__2,0,2.0,3400.0,3400.0,3400.0,3400.0,3400.0,3400.0,3400.0
+IDN,Industrial Products,Security and Safety Services,0.75,4080.0000000000005,1. p999999_trade_value,1.0,1,0__2,0,2.0,4080.0,4080.0,4080.0,4080.0,4080.0,4080.0,4080.0
+REZI,Industrial Products,Security and Safety Services,0.75,5070.0,1. p999999_trade_value,1.0,1,0__2,0,2.0,5070.0,5070.0,5070.0,5070.0,5070.0,5070.0,5070.0
+WRAP,Industrial Products,Security and Safety Services,0.75,5000.0,1. p999999_trade_value,1.0,1,0__2,0,2.0,5000.0,5000.0,5000.0,5000.0,5000.0,5000.0,5000.0

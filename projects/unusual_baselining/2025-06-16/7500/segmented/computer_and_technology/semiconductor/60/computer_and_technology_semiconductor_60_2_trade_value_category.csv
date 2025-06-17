@@ -1,0 +1,9 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+NVDA,Computer and Technology,Semiconductor - General,60__0,60,0.0,1. p999999_trade_value,46080000.0,29534180.0,2.0,2.0,1.0,0.75,2. BELOW BASELINE,2.0,2.0,1.0
+NVDA,Computer and Technology,Semiconductor - General,60__0,60,0.0,2. p99999_trade_value,19578240.000000004,8166900.0,12.0,16.0,0.75,0.75,2. BELOW BASELINE,14.0,18.0,0.7777777777777778
+NVDA,Computer and Technology,Semiconductor - General,60__0,60,0.0,3. p9999_trade_value,8139239.999999999,2248926.0,95.0,158.0,0.6012658227848101,0.75,2. BELOW BASELINE,109.0,176.0,0.6193181818181818
+NVDA,Computer and Technology,Semiconductor - General,60__0,60,0.0,4. p999_trade_value,2248000.0,396000.0,874.0,1585.0,0.5514195583596214,0.75,2. BELOW BASELINE,983.0,1761.0,0.5582055650198751
+NVDA,Computer and Technology,Semiconductor - General,60__0,60,0.0,5. p99_trade_value,395970.0,86715.0,9233.0,15835.0,0.5830754657404483,0.75,2. BELOW BASELINE,10216.0,17596.0,0.5805864969311207
+NVDA,Computer and Technology,Semiconductor - General,60__0,60,0.0,6. p95_trade_value,86710.0,31500.0,40739.0,70421.0,0.5785064114397694,0.75,2. BELOW BASELINE,50955.0,88017.0,0.5789222536555438
+NVDA,Computer and Technology,Semiconductor - General,60__0,60,0.0,7. p90_trade_value,31495.999999999996,19800.0,49193.0,88114.0,0.5582881267448987,0.75,2. BELOW BASELINE,100148.0,176131.0,0.5685995083205114
+NVDA,Computer and Technology,Semiconductor - General,60__0,60,0.0,8. p75_trade_value,19798.0,9983.0,139736.0,263757.0,0.5297906785412331,0.75,2. BELOW BASELINE,239884.0,439888.0,0.5453297202924381

@@ -1,0 +1,19 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+AIR,Aerospace,Aerospace - Defense Equipment,15__0,15,0.0,1. p999999_trade_value,12480.0,12480.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+AIR,Aerospace,Aerospace - Defense Equipment,15__0,15,0.0,6. p95_trade_value,9400.0,9400.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+AIR,Aerospace,Aerospace - Defense Equipment,15__0,15,0.0,7. p90_trade_value,9075.000000000002,7578.999999999999,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,4.0,4.0,1.0
+AIR,Aerospace,Aerospace - Defense Equipment,15__0,15,0.0,8. p75_trade_value,7000.0,5850.0,5.0,6.0,0.8333333333333334,0.75,1. ABOVE BASELINE,9.0,10.0,0.9
+HXL,Aerospace,Aerospace - Defense Equipment,15__0,15,0.0,1. p999999_trade_value,15300.0,15300.0,0.0,2.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
+HXL,Aerospace,Aerospace - Defense Equipment,15__0,15,0.0,8. p75_trade_value,14400.0,8448.0,1.0,3.0,0.3333333333333333,0.75,2. BELOW BASELINE,1.0,5.0,0.2
+LOAR,Aerospace,Aerospace - Defense Equipment,15__0,15,0.0,1. p999999_trade_value,175075.0,175075.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+LOAR,Aerospace,Aerospace - Defense Equipment,15__0,15,0.0,6. p95_trade_value,76960.0,76960.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+LOAR,Aerospace,Aerospace - Defense Equipment,15__0,15,0.0,7. p90_trade_value,59150.0,16835.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,3.0,4.0,0.75
+LOAR,Aerospace,Aerospace - Defense Equipment,15__0,15,0.0,8. p75_trade_value,11069.999999999998,6400.0,4.0,5.0,0.8,0.75,2. BELOW BASELINE,7.0,9.0,0.7777777777777778
+TDY,Aerospace,Aerospace - Defense Equipment,15__0,15,0.0,1. p999999_trade_value,53340.0,53340.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+TDY,Aerospace,Aerospace - Defense Equipment,15__0,15,0.0,6. p95_trade_value,29000.0,29000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
+TDY,Aerospace,Aerospace - Defense Equipment,15__0,15,0.0,7. p90_trade_value,21000.0,16576.0,2.0,2.0,1.0,0.75,2. BELOW BASELINE,2.0,4.0,0.5
+TDY,Aerospace,Aerospace - Defense Equipment,15__0,15,0.0,8. p75_trade_value,13840.0,6400.0,4.0,6.0,0.6666666666666666,0.75,2. BELOW BASELINE,6.0,10.0,0.6
+TXT,Aerospace,Aerospace - Defense,15__0,15,0.0,1. p999999_trade_value,86961.0,86961.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+TXT,Aerospace,Aerospace - Defense,15__0,15,0.0,6. p95_trade_value,40630.0,26000.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+TXT,Aerospace,Aerospace - Defense,15__0,15,0.0,7. p90_trade_value,15400.0,10924.999999999998,3.0,3.0,1.0,0.75,2. BELOW BASELINE,5.0,6.0,0.8333333333333334
+TXT,Aerospace,Aerospace - Defense,15__0,15,0.0,8. p75_trade_value,8744.999999999998,6552.000000000001,8.0,8.0,1.0,0.75,2. BELOW BASELINE,13.0,14.0,0.9285714285714286

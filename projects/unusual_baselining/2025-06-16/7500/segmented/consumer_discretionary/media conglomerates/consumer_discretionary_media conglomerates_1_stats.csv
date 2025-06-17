@@ -1,0 +1,12 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+BATRK,Consumer Discretionary,Media Conglomerates,0.75,3660.0,1. p999999_trade_value,1.0,1,0__2,0,2.0,3660.0,3660.0,3660.0,3660.0,3660.0,3660.0,3660.0
+BZFD,Consumer Discretionary,Media Conglomerates,0.75,6900.0,1. p999999_trade_value,1.0,9,10__0,10,0.0,5380.0,6140.0,6748.0,6884.8,6898.48,6899.85,6899.98
+DIS,Consumer Discretionary,Media Conglomerates,0.75,677430.0,3. p9999_trade_value,2.0,14576,40__0,40,0.0,15750.0,24800.0,75221.25,295241.62,600830.77,790216.63,807535.66
+FWONK,Consumer Discretionary,Media Conglomerates,0.75,251125.0,1. p999999_trade_value,1.0,13,10__3,10,3.0,163200.0,210700.0,243040.0,250316.5,251044.15,251116.92,251124.19
+LION,Consumer Discretionary,Media Conglomerates,0.75,3359.9999999999995,3. p9999_trade_value,1.0,2,5__0,5,0.0,3334.0,3347.0,3357.4,3359.74,3359.97,3360.0,3360.0
+MSGE,Consumer Discretionary,Media Conglomerates,0.75,3300.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,3294.0,3297.0,3299.4,3299.94,3299.99,3300.0,3300.0
+NXST,Consumer Discretionary,Media Conglomerates,0.75,60259.99999999999,5. p99_trade_value,2.0,105,20__0,20,0.0,23600.0,37701.6,60089.6,70779.04,71877.9,71987.79,71998.78
+PARA,Consumer Discretionary,Media Conglomerates,0.75,,,,121,20__0,20,0.0,25000.0,44000.0,120000.0,138867.2,141182.72,141414.27,141437.43
+SBGI,Consumer Discretionary,Media Conglomerates,0.75,5000.0,8. p75_trade_value,7.0,14,10__0,10,0.0,7427.0,9895.5,12979.1,13672.91,13742.29,13749.23,13749.92
+SPHR,Consumer Discretionary,Media Conglomerates,0.75,94871.99999999999,5. p99_trade_value,6.0,572,30__0,30,0.0,18413.4,38654.9,94820.88,310000.0,310000.0,310000.0,310000.0
+TME,Consumer Discretionary,Media Conglomerates,0.75,,,,181,25__0,25,0.0,16835.0,30150.0,104980.0,159740.0,159740.0,159740.0,159740.0

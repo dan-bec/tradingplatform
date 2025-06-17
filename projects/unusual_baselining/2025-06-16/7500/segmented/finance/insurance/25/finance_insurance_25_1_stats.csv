@@ -1,0 +1,15 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AFL,Finance,Insurance - Accident and Health,0.75,136375.0,5. p99_trade_value,3.0,203,25__0,25,0.0,14676.0,31639.9,135297.5,175555.95,181378.1,181960.31,182018.53
+ALL,Finance,Insurance - Property and Casualty,0.75,,,,531,25__0,25,0.0,19000.0,27775.0,77802.5,253900.0,287290.0,290629.0,290962.9
+AON,Finance,Insurance - Brokerage,0.75,520000.0,1. p999999_trade_value,1.0,451,25__0,25,0.0,15808.0,20250.0,190000.0,502000.0,518200.0,519820.0,519982.0
+BHF,Finance,Insurance - Life Insurance,0.75,,,,312,25__0,25,0.0,21937.5,28420.5,74278.4,657013.0,857701.3,877770.13,879777.01
+CRBG,Finance,Insurance - Multi line,0.75,,,,206,25__0,25,0.0,14747.5,24600.0,59625.0,356040.0,413604.0,419360.4,419936.04
+EG,Finance,Insurance - Multi line,0.75,660000.0000000001,1. p999999_trade_value,1.0,224,25__0,25,0.0,14023.0,23991.0,52385.0,546270.0,648627.0,658862.7,659886.27
+ETOR,Finance,Insurance - Brokerage,0.75,117000.0,1. p999999_trade_value,1.0,266,25__0,25,0.0,19355.0,36324.75,81903.7,116969.0,116996.9,116999.69,116999.97
+GL,Finance,Insurance - Accident and Health,0.75,,,,232,25__0,25,0.0,21271.5,33360.0,61209.5,101597.29,107503.73,108094.37,108153.44
+LNC,Finance,Insurance - Life Insurance,0.75,,,,202,25__0,25,0.0,12960.0,19237.5,39785.76,96981.63,108698.16,109869.82,109986.98
+MCY,Finance,Insurance - Property and Casualty,0.75,,,,317,25__0,25,0.0,14464.0,27219.0,132025.6,360396.9,403689.69,408018.97,408451.9
+MET,Finance,Insurance - Multi line,0.75,,,,214,25__0,25,0.0,15540.0,25567.5,38056.06,61414.15,64641.41,64964.14,64996.41
+PRU,Finance,Insurance - Multi line,0.75,,,,240,25__0,25,0.0,15459.0,22715.45,46015.86,69219.61,71260.26,71464.33,71484.73
+TRV,Finance,Insurance - Property and Casualty,0.75,176000.00000000003,1. p999999_trade_value,1.0,310,25__0,25,0.0,11540.5,17154.0,53968.9,144482.0,172848.2,175684.82,175968.48
+WTW,Finance,Insurance - Brokerage,0.75,175250.0,5. p99_trade_value,3.0,256,25__0,25,0.0,15409.5,35861.5,163253.95,239328.2,259067.72,261041.67,261239.07

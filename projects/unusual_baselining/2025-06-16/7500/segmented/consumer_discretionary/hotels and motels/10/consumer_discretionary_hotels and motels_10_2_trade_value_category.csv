@@ -1,0 +1,4 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+HGV,Consumer Discretionary,Hotels and Motels,10__0,10,0.0,2. p99999_trade_value,24224.999999999996,24224.999999999996,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+HGV,Consumer Discretionary,Hotels and Motels,10__0,10,0.0,7. p90_trade_value,24000.0,24000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+HGV,Consumer Discretionary,Hotels and Motels,10__0,10,0.0,8. p75_trade_value,17400.0,10150.0,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,4.0,4.0,1.0

@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+BE,Oils-Energy,Alternative Energy - Other,0.75,573560.0,1. p999999_trade_value,1.0,2429,35__0,35,0.0,13400.0,19688.0,58190.76,254662.68,517735.42,567977.54,573001.75
+NNE,Oils-Energy,Alternative Energy - Other,0.75,,,,2735,35__2,35,2.0,18180.0,33012.0,102890.4,270268.28,434748.64,466834.86,470043.49
+TLN,Oils-Energy,Alternative Energy - Other,0.75,,,,4032,35__2,35,2.0,22800.0,34844.5,169367.6,661769.61,900918.54,945091.85,949509.19

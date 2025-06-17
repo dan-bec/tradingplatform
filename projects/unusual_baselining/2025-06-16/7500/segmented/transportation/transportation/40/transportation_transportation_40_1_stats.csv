@@ -1,0 +1,5 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+DAL,Transportation,Transportation - Airline,0.75,,,,6935,40__0,40,0.0,15274.8,24683.8,82842.36,701012.4,1488997.09,1813762.91,1846239.49
+FDX,Transportation,Transportation - Air Freight and Cargo,0.75,,,,16116,40__0,40,0.0,15000.0,22210.0,55327.5,275947.86,785284.58,1269027.8,1331102.78
+UAL,Transportation,Transportation - Airline,0.75,,,,13954,40__2,40,2.0,16738.0,26339.6,81906.45,582919.0,1434420.3,2236887.65,2319887.76
+UPS,Transportation,Transportation - Air Freight and Cargo,0.75,878162.9999999999,1. p999999_trade_value,1.0,6987,40__0,40,0.0,13153.2,20583.0,60084.84,255500.0,568569.33,847203.63,875067.06

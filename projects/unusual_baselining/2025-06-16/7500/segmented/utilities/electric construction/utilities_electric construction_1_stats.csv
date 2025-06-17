@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+MYRG,Utilities,Electric Construction,0.75,,,,21,15__0,15,0.0,20217.0,20217.0,69843.4,81009.34,82125.93,82237.59,82248.76

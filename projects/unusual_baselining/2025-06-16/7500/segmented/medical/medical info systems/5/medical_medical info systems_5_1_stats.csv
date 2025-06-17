@@ -1,0 +1,7 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+BFLY,Medical,Medical Info Systems,0.75,13000.0,1. p999999_trade_value,1.0,4,5__0,5,0.0,10564.0,11782.0,12756.4,12975.64,12997.56,12999.76,12999.98
+CTEV,Medical,Medical Info Systems,0.75,,,,5,5__3,5,3.0,12892.0,14256.0,15347.2,15592.72,15617.27,15619.73,15619.97
+HCAT,Medical,Medical Info Systems,0.75,45350.0,8. p75_trade_value,2.0,5,5__1,5,1.0,47906.0,48758.0,49439.6,49592.96,49608.3,49609.83,49609.98
+OM,Medical,Medical Info Systems,0.75,,,,2,5__0,5,0.0,4797.0,4888.5,4961.7,4978.17,4979.82,4979.98,4980.0
+SENS,Medical,Medical Info Systems,0.75,5150.0,1. p999999_trade_value,1.0,4,5__0,5,0.0,4715.0,4932.5,5106.5,5145.65,5149.56,5149.96,5150.0
+SOPH,Medical,Medical Info Systems,0.75,,,,2,5__0,5,0.0,3975.0,3987.5,3997.5,3999.75,3999.98,4000.0,4000.0

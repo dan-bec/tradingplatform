@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+IDCC,Computer and Technology,Wireless Equipment,0.75,19250.0,5. p99_trade_value,2.0,201,25__0,25,0.0,7920.0,10070.0,15180.0,21850.0,22435.0,22493.5,22499.35
+JNPR,Computer and Technology,Wireless Equipment,0.75,391995.0,5. p99_trade_value,3.0,265,25__2,25,2.0,50000.0,88800.0,333118.2,419899.52,424489.95,424949.0,424994.9
+MSI,Computer and Technology,Wireless Equipment,0.75,49600.0,5. p99_trade_value,3.0,235,25__0,25,0.0,13300.0,19810.0,42705.14,92427.86,97631.79,98152.18,98204.22

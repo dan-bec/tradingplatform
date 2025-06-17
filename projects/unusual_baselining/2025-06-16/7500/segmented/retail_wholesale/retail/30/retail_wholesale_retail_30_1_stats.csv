@@ -1,0 +1,19 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+BBWI,Retail-Wholesale,Retail - Miscellaneous,0.75,443250.0,1. p999999_trade_value,1.0,609,30__0,30,0.0,18821.0,41422.4,196958.56,392634.0,438188.4,442743.84,443199.38
+DRI,Retail-Wholesale,Retail - Restaurants,0.75,,,,833,30__0,30,0.0,16648.0,28488.0,185117.76,381562.24,383756.22,383975.62,383997.56
+FL,Retail-Wholesale,Retail - Apparel and Shoes,0.75,,,,948,30__2,30,2.0,18037.5,26627.5,85368.36,303313.7,322831.37,324783.14,324978.31
+FND,Retail-Wholesale,Retail - Home Furnishings,0.75,,,,709,30__1,30,1.0,23840.0,48420.0,166383.8,1087106.0,1409210.6,1441421.06,1444642.11
+GAP,Retail-Wholesale,Retail - Apparel and Shoes,0.75,495000.0,4. p999_trade_value,2.0,1591,30__0,30,0.0,18830.0,36090.0,147300.0,468450.0,511820.0,514682.0,514968.2
+KR,Retail-Wholesale,Retail - Supermarkets,0.75,378000.0,4. p999_trade_value,2.0,1233,30__2,30,2.0,12301.4,18854.4,72110.0,361644.0,391152.0,392815.2,392981.52
+M,Retail-Wholesale,Retail - Regional Department Stores,0.75,453050.0,1. p999999_trade_value,1.0,1069,30__2,30,2.0,13390.4,25189.2,70085.6,346649.83,443055.98,452050.6,452950.06
+PLAY,Retail-Wholesale,Retail - Restaurants,0.75,24975.000000000004,6. p95_trade_value,30.0,591,30__1,30,1.0,18500.0,24925.0,135905.5,1644070.96,3328857.5,3497336.15,3514184.01
+ROST,Retail-Wholesale,Retail - Discount Stores,0.75,642928.0,4. p999_trade_value,2.0,1390,30__0,30,0.0,12603.0,23856.0,144000.0,636809.81,828333.16,855249.32,857940.93
+SG,Retail-Wholesale,Retail - Restaurants,0.75,,,,1354,30__0,30,0.0,20423.7,43742.4,156637.96,741072.63,1137178.07,1191701.81,1197154.18
+SHAK,Retail-Wholesale,Retail - Restaurants,0.75,519040.00000000006,4. p999_trade_value,3.0,1151,30__0,30,0.0,15200.0,24550.0,108975.0,519040.0,1071775.6,1136417.56,1142881.76
+SIG,Retail-Wholesale,Retail - Jewelry,0.75,657000.0,4. p999_trade_value,2.0,1124,30__0,30,0.0,19756.8,30993.25,156562.0,649470.19,678606.62,681066.66,681312.67
+SN,Retail-Wholesale,Retail - Miscellaneous,0.75,,,,947,30__1,30,1.0,22760.6,44907.0,164546.9,1934937.5,2643452.15,2714303.62,2721388.76
+TPR,Retail-Wholesale,Retail - Apparel and Shoes,0.75,1434445.0,4. p999_trade_value,2.0,1179,30__1,30,1.0,19164.0,67144.0,356940.0,1341689.2,1601582.2,1621668.22,1623676.82
+TXRH,Retail-Wholesale,Retail - Restaurants,0.75,,,,569,30__0,30,0.0,13288.0,21156.0,142733.04,665777.98,915198.6,940140.66,942634.87
+URBN,Retail-Wholesale,Retail - Apparel and Shoes,0.75,534720.0,1. p999999_trade_value,1.0,783,30__0,30,0.0,20756.0,38354.4,188520.0,382448.96,519492.9,533197.29,534567.73
+VSCO,Retail-Wholesale,Retail - Apparel and Shoes,0.75,,,,957,30__0,30,0.0,19157.8,39680.0,116513.6,339150.0,371415.0,374641.5,374964.15
+WBA,Retail-Wholesale,Retail - Pharmacies and Drug Stores,0.75,145548.0,4. p999_trade_value,2.0,1677,30__2,30,2.0,13440.0,20389.6,54422.4,143008.94,187544.24,195154.42,195915.44

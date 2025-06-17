@@ -1,0 +1,5 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ASGN,Computer and Technology,Computers - IT Services,0.75,30000.0,1. p999999_trade_value,1.0,11,10__0,10,0.0,22500.0,26250.0,29250.0,29925.0,29992.5,29999.25,29999.93
+BZUN,Computer and Technology,Computers - IT Services,0.75,,,,8,10__0,10,0.0,15841.5,20095.75,23499.15,24264.92,24341.49,24349.15,24349.91
+DOX,Computer and Technology,Computers - IT Services,0.75,45000.0,1. p999999_trade_value,1.0,9,10__0,10,0.0,21400.0,33200.0,42640.0,44764.0,44976.4,44997.64,44999.76
+STEM,Computer and Technology,Computers - IT Services,0.75,,,,14,10__0,10,0.0,12770.6,17822.7,23564.54,24856.45,24985.65,24998.56,24999.86

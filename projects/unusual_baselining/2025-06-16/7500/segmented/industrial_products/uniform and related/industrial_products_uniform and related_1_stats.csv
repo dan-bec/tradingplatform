@@ -1,0 +1,3 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+UNF,Industrial Products,Uniform and Related,0.75,66000.0,7. p90_trade_value,2.0,17,10__0,10,0.0,65400.0,67200.0,71040.0,71904.0,71990.4,71999.04,71999.9
+VSTS,Industrial Products,Uniform and Related,0.75,,,,22,15__0,15,0.0,14767.5,23503.45,38912.02,42491.3,42849.23,42885.02,42888.6

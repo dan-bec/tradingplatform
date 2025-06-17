@@ -1,0 +1,3 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+CAT,Industrial Products,Manufacturing - Construction and Mining,0.75,1337500.0,3. p9999_trade_value,2.0,10689,40__0,40,0.0,14900.0,23683.6,65714.0,349516.0,1301591.22,1571944.0,1597194.4
+DE,Industrial Products,Manufacturing - Farm Equipment,0.75,,,,5777,40__0,40,0.0,14926.0,23320.0,52286.0,152988.43,976698.0,1555669.8,1613566.98

@@ -1,0 +1,6 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ASLE,Aerospace,Aerospace - Defense Equipment,0.75,,,,5,5__0,5,0.0,6978.0,7129.0,7249.8,7276.98,7279.7,7279.97,7280.0
+CAE,Aerospace,Aerospace - Defense Equipment,0.75,4000.0,8. p75_trade_value,2.0,5,5__0,5,0.0,5002.0,5336.0,5603.2,5663.32,5669.33,5669.93,5669.99
+DCO,Aerospace,Aerospace - Defense Equipment,0.75,,,,4,5__3,5,3.0,14910.0,15855.0,16611.0,16781.1,16798.11,16799.81,16799.98
+POWW,Aerospace,Aerospace - Defense Equipment,0.75,,,,4,5__0,5,0.0,5536.3,5683.15,5800.63,5827.06,5829.71,5829.97,5830.0
+SARO,Aerospace,Aerospace - Defense,0.75,4000.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,3960.0,3980.0,3996.0,3999.6,3999.96,4000.0,4000.0

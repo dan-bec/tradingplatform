@@ -1,0 +1,7 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AIT,Industrial Products,Manufacturing - General Industrial ,0.75,24100.0,1. p999999_trade_value,1.0,58,20__0,20,0.0,12348.0,13117.5,21763.0,23866.3,24076.63,24097.66,24099.77
+AOS,Industrial Products,Manufacturing - Electronics,0.75,143550.0,6. p95_trade_value,4.0,65,20__1,20,1.0,21793.0,139082.0,214440.4,231945.04,233695.5,233870.55,233888.06
+ITW,Industrial Products,Manufacturing - General Industrial ,0.75,,,,156,20__0,20,0.0,17552.0,38145.0,73404.0,163065.0,173806.5,174880.65,174988.06
+MIDD,Industrial Products,Manufacturing - General Industrial ,0.75,79360.0,1. p999999_trade_value,1.0,124,20__0,20,0.0,17500.0,22500.0,49947.0,76056.22,79029.62,79326.96,79356.7
+OTIS,Industrial Products,Manufacturing - General Industrial ,0.75,,,,71,20__0,20,0.0,10575.0,19405.0,55102.5,65922.75,67004.77,67112.98,67123.8
+XMTR,Industrial Products,Manufacturing - General Industrial ,0.75,,,,60,20__0,20,0.0,20624.0,28070.0,37305.0,42880.5,43438.05,43493.81,43499.38

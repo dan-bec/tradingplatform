@@ -1,0 +1,7 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+MO,Consumer Staples,Tobacco,30__2,30,2.0,1. p999999_trade_value,600000.0,600000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+MO,Consumer Staples,Tobacco,30__2,30,2.0,4. p999_trade_value,360000.0,360000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+MO,Consumer Staples,Tobacco,30__2,30,2.0,5. p99_trade_value,150000.0,66000.0,9.0,14.0,0.6428571428571429,0.75,2. BELOW BASELINE,11.0,16.0,0.6875
+MO,Consumer Staples,Tobacco,30__2,30,2.0,6. p95_trade_value,58500.0,20801.0,46.0,62.0,0.7419354838709677,0.75,2. BELOW BASELINE,57.0,78.0,0.7307692307692307
+MO,Consumer Staples,Tobacco,30__2,30,2.0,7. p90_trade_value,20746.0,12000.0,56.0,77.0,0.7272727272727273,0.75,2. BELOW BASELINE,113.0,155.0,0.7290322580645161
+MO,Consumer Staples,Tobacco,30__2,30,2.0,8. p75_trade_value,11988.0,7040.000000000001,167.0,231.0,0.7229437229437229,0.75,2. BELOW BASELINE,280.0,386.0,0.7253886010362695

@@ -1,0 +1,5 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ALTG,Industrial Products,Manufacturing - General Industrial ,0.75,10325.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,9889.5,10107.25,10281.45,10320.64,10324.56,10324.96,10325.0
+DNOW,Industrial Products,Manufacturing - General Industrial ,0.75,,,,2,5__0,5,0.0,4497.0,4498.5,4499.7,4499.97,4500.0,4500.0,4500.0
+ENS,Industrial Products,Manufacturing - Electronics,0.75,,,,4,5__0,5,0.0,8817.2,9848.6,10673.72,10859.37,10877.94,10879.79,10879.98
+SXI,Industrial Products,Manufacturing - General Industrial ,0.75,,,,3,5__0,5,0.0,11100.0,11550.0,11910.0,11991.0,11999.1,11999.91,11999.99

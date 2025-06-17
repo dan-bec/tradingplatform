@@ -1,0 +1,10 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+BKE,Retail-Wholesale,Retail - Apparel and Shoes,0.75,,,,19,15__0,15,0.0,5920.0,6939.0,7939.8,8164.98,8187.5,8189.75,8189.97
+BLMN,Retail-Wholesale,Retail - Restaurants,0.75,41580.0,1. p999999_trade_value,1.0,56,15__0,15,0.0,12620.0,14991.25,28509.25,40272.93,41449.29,41566.93,41578.69
+CTRN,Retail-Wholesale,Retail - Apparel and Shoes,0.75,7500.0,8. p75_trade_value,6.0,22,15__0,15,0.0,8270.0,10390.0,11290.0,11479.0,11497.9,11499.79,11499.98
+DBI,Retail-Wholesale,Retail - Apparel and Shoes,0.75,66000.0,6. p95_trade_value,2.0,28,15__0,15,0.0,35479.0,63900.0,83520.0,89352.0,89935.2,89993.52,89999.35
+DIN,Retail-Wholesale,Retail - Restaurants,0.75,18000.0,8. p75_trade_value,5.0,20,15__0,15,0.0,28008.0,28158.75,29355.75,29625.08,29652.01,29654.7,29654.97
+GOOS,Retail-Wholesale,Retail - Apparel and Shoes,0.75,,,,19,15__0,15,0.0,9208.0,12982.8,27258.96,30471.1,30792.31,30824.43,30827.64
+IMKTA,Retail-Wholesale,Retail - Supermarkets,0.75,,,,19,15__0,15,0.0,6950.8,7602.6,10832.52,11559.25,11631.93,11639.19,11639.92
+PTLO,Retail-Wholesale,Retail - Restaurants,0.75,52200.0,1. p999999_trade_value,1.0,28,15__0,15,0.0,19603.0,36537.5,49648.5,51944.85,52174.48,52197.45,52199.74
+WOOF,Retail-Wholesale,Retail - Miscellaneous,0.75,,,,54,15__0,15,0.0,43680.0,181750.0,250000.0,250000.0,250000.0,250000.0,250000.0

@@ -1,0 +1,31 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+ASPI,Basic Materials,Chemical - Diversified ,25__0,25,0.0,1. p999999_trade_value,75000.0,75000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+ASPI,Basic Materials,Chemical - Diversified ,25__0,25,0.0,5. p99_trade_value,57925.0,30000.0,1.0,3.0,0.3333333333333333,0.75,2. BELOW BASELINE,2.0,4.0,0.5
+ASPI,Basic Materials,Chemical - Diversified ,25__0,25,0.0,6. p95_trade_value,26500.0,14850.0,5.0,12.0,0.4166666666666667,0.75,2. BELOW BASELINE,7.0,16.0,0.4375
+ASPI,Basic Materials,Chemical - Diversified ,25__0,25,0.0,7. p90_trade_value,13750.0,10764.0,8.0,15.0,0.5333333333333333,0.75,2. BELOW BASELINE,15.0,31.0,0.4838709677419355
+ASPI,Basic Materials,Chemical - Diversified ,25__0,25,0.0,8. p75_trade_value,10575.0,7300.0,35.0,47.0,0.7446808510638298,0.75,2. BELOW BASELINE,50.0,78.0,0.6410256410256411
+CE,Basic Materials,Chemical - Specialty,25__2,25,2.0,1. p999999_trade_value,2421900.0,2421900.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+CE,Basic Materials,Chemical - Specialty,25__2,25,2.0,5. p99_trade_value,530000.0,113795.0,1.0,3.0,0.3333333333333333,0.75,2. BELOW BASELINE,1.0,4.0,0.25
+CE,Basic Materials,Chemical - Specialty,25__2,25,2.0,6. p95_trade_value,73200.0,35000.0,5.0,13.0,0.38461538461538464,0.75,2. BELOW BASELINE,6.0,17.0,0.35294117647058826
+CE,Basic Materials,Chemical - Specialty,25__2,25,2.0,7. p90_trade_value,33810.0,17600.0,7.0,17.0,0.4117647058823529,0.75,2. BELOW BASELINE,13.0,34.0,0.38235294117647056
+CE,Basic Materials,Chemical - Specialty,25__2,25,2.0,8. p75_trade_value,17390.0,7880.000000000001,27.0,51.0,0.5294117647058824,0.75,2. BELOW BASELINE,40.0,85.0,0.47058823529411764
+DQ,Basic Materials,Chemical - Specialty,25__0,25,0.0,1. p999999_trade_value,105000.0,105000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+DQ,Basic Materials,Chemical - Specialty,25__0,25,0.0,5. p99_trade_value,102000.0,95939.99999999999,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,3.0,3.0,1.0
+DQ,Basic Materials,Chemical - Specialty,25__0,25,0.0,6. p95_trade_value,94900.0,41610.0,11.0,12.0,0.9166666666666666,0.75,1. ABOVE BASELINE,14.0,15.0,0.9333333333333333
+DQ,Basic Materials,Chemical - Specialty,25__0,25,0.0,7. p90_trade_value,40120.0,25000.0,10.0,15.0,0.6666666666666666,0.75,2. BELOW BASELINE,24.0,30.0,0.8
+DQ,Basic Materials,Chemical - Specialty,25__0,25,0.0,8. p75_trade_value,24805.0,10449.0,29.0,42.0,0.6904761904761905,0.75,2. BELOW BASELINE,53.0,72.0,0.7361111111111112
+LYB,Basic Materials,Chemical - Diversified ,25__0,25,0.0,1. p999999_trade_value,62825.0,62825.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+LYB,Basic Materials,Chemical - Diversified ,25__0,25,0.0,5. p99_trade_value,60500.0,60000.0,0.0,2.0,0.0,0.75,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+LYB,Basic Materials,Chemical - Diversified ,25__0,25,0.0,6. p95_trade_value,53981.99999999999,23039.999999999996,1.0,9.0,0.1111111111111111,0.75,2. BELOW BASELINE,2.0,12.0,0.16666666666666666
+LYB,Basic Materials,Chemical - Diversified ,25__0,25,0.0,7. p90_trade_value,22000.000000000004,11895.0,6.0,11.0,0.5454545454545454,0.75,2. BELOW BASELINE,8.0,23.0,0.34782608695652173
+LYB,Basic Materials,Chemical - Diversified ,25__0,25,0.0,8. p75_trade_value,11299.999999999998,7155.000000000001,19.0,34.0,0.5588235294117647,0.75,2. BELOW BASELINE,27.0,57.0,0.47368421052631576
+PPG,Basic Materials,Chemical - Specialty,25__0,25,0.0,1. p999999_trade_value,189000.0,189000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+PPG,Basic Materials,Chemical - Specialty,25__0,25,0.0,5. p99_trade_value,113430.0,98300.0,0.0,2.0,0.0,0.75,2. BELOW BASELINE,0.0,3.0,0.0
+PPG,Basic Materials,Chemical - Specialty,25__0,25,0.0,6. p95_trade_value,87216.00000000001,36465.0,3.0,9.0,0.3333333333333333,0.75,2. BELOW BASELINE,3.0,12.0,0.25
+PPG,Basic Materials,Chemical - Specialty,25__0,25,0.0,7. p90_trade_value,34650.0,19900.0,6.0,11.0,0.5454545454545454,0.75,2. BELOW BASELINE,9.0,23.0,0.391304347826087
+PPG,Basic Materials,Chemical - Specialty,25__0,25,0.0,8. p75_trade_value,19600.0,9605.0,24.0,33.0,0.7272727272727273,0.75,2. BELOW BASELINE,33.0,56.0,0.5892857142857143
+SHW,Basic Materials,Chemical - Specialty,25__0,25,0.0,1. p999999_trade_value,333000.0,333000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+SHW,Basic Materials,Chemical - Specialty,25__0,25,0.0,5. p99_trade_value,306000.0,119460.00000000001,3.0,4.0,0.75,0.75,2. BELOW BASELINE,3.0,5.0,0.6
+SHW,Basic Materials,Chemical - Specialty,25__0,25,0.0,6. p95_trade_value,107100.0,32490.000000000004,12.0,18.0,0.6666666666666666,0.75,2. BELOW BASELINE,15.0,23.0,0.6521739130434783
+SHW,Basic Materials,Chemical - Specialty,25__0,25,0.0,7. p90_trade_value,29614.0,16790.0,16.0,22.0,0.7272727272727273,0.75,2. BELOW BASELINE,31.0,45.0,0.6888888888888889
+SHW,Basic Materials,Chemical - Specialty,25__0,25,0.0,8. p75_trade_value,16720.0,8100.0,53.0,70.0,0.7571428571428571,0.75,2. BELOW BASELINE,84.0,115.0,0.7304347826086957
