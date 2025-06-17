@@ -42,15 +42,30 @@ def export_settings():
             f.write(f"{key}: {repr(value)}\n")
 
 def push_to_github():
-    # Set the repository root (parent of /scripts)
     repo_root = config.REPO_ROOT
-    # Add all changes from the repository root
-    subprocess.run(["git", "-C", repo_root, "add", "."], check=True)
-    # Commit with a timestamped message
-    commit_message = f"Update outputs {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-    subprocess.run(["git", "-C", repo_root, "commit", "-m", commit_message], check=True)
-    # Push to the specified branch (adjust 'main' to your branch name)
-    subprocess.run(["git", "-C", repo_root, "push", "origin", "main"], check=True)
+    try:
+        # Add all changes
+        result = subprocess.run(["git", "-C", repo_root, "add", "."], check=True, capture_output=True, text=True)
+        print(f"Git add output: {result.stdout}")
+        
+        # Check if there are changes to commit
+        status = subprocess.run(["git", "-C", repo_root, "status", "--porcelain"], capture_output=True, text=True)
+        if not status.stdout:
+            print("No changes to commit.")
+            return
+        
+        # Commit changes
+        commit_message = f"Update outputs {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+        result = subprocess.run(["git", "-C", repo_root, "commit", "-m", commit_message], check=True, capture_output=True, text=True)
+        print(f"Git commit output: {result.stdout}")
+        
+        # Push to remote
+        result = subprocess.run(["git", "-C", repo_root, "push", "origin", "main"], check=True, capture_output=True, text=True)
+        print(f"Git push output: {result.stdout}")
+    except subprocess.CalledProcessError as e:
+        print(f"Git command failed: {e.cmd}")
+        print(f"Error output: {e.stderr}")
+        raise
 
 def push_to_drive():
     # Authenticate with Google Drive
@@ -134,7 +149,7 @@ if __name__ == "__main__":
     start_time = time.time()
     print(f"Main Start time: {start_time:.2f} seconds")
 
-    main()
+    push_to_github()
 
     # Print execution time
     end_time = time.time()
