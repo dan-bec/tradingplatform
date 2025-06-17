@@ -94,8 +94,7 @@ where data_date > current_date() - INTERVAL 7 DAYS
 # Get unique rows from query
 result = con.execute(f"""
 select *
-                     from information_schema.columns
-                     order by table_schema, table_name, ordinal_position
+                     from {prep_schema}.unusual_baselines_{itm_threshold_100} where security = 'ABBV'
 """).fetchdf()
 # print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
 result.to_csv(sys.stdout, index=False)

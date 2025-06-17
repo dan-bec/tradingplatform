@@ -48,21 +48,28 @@ def get_static_string(file_path, var_name):
     except Exception as e:
         raise Exception(f"Error reading {var_name} from {file_path}: {e}")
 
+    '''
+    {
+        "prefix": "us_stocks_sip/trades_v1",
+        "download_dir": config.STOCK_TRADE_DIR,
+        "description": "Stocks Trades"
+    },
+    '''
 # Define multiple passes with their respective configurations
 PASSES = [
     {
         "prefix": "us_stocks_sip/day_aggs_v1",
-        "download_dir": Path("data/stocks/daily"),
+        "download_dir": config.STOCK_SUMMARY_DIR,
         "description": "Stocks Daily Aggregates"
     },
     {
         "prefix": "us_options_opra/day_aggs_v1",
-        "download_dir": Path("data/options/daily"),
+        "download_dir": config.OPTION_SUMMARY_DIR,
         "description": "Options Daily Aggregates"
     },
     {
         "prefix": "us_options_opra/trades_v1",
-        "download_dir": Path("data/options/trades"),
+        "download_dir": config.OPTION_TRADE_DIR,
         "description": "Options Trades"
     }
 ]

@@ -159,7 +159,54 @@ if condition_codes:
             "INSERT INTO raw_data.option_condition_codes (id, type, name, asset_class, data_types) VALUES (?, ?, ?, ?, ?)",
             (code.get("id"), code.get("type"), code.get("name"), code.get("asset_class"), data_types_str)
         )
-    print("Condition codes fetched and stored in the database.")
+    print("Option condition codes fetched and stored in the database.")
+else:
+    print("No condition codes fetched.")
+
+# Fetch stock condition codes from Polygon.io
+condition_codes = []
+url = "https://api.polygon.io/v3/reference/conditions"
+params = {
+    "asset_class": "stocks",
+    "order": "asc",
+    "limit": 1000,
+    "sort": "id",
+    "apiKey": API_KEY
+}
+first_request = True
+while url:
+    if first_request:
+        response = requests.get(url, params=params)
+        first_request = False
+    else:
+        response = requests.get(url)
+    if response.status_code == 200:
+        data = response.json()
+        condition_codes.extend(data.get("results", []))
+        url = data.get("next_url")
+    else:
+        print(f"Failed to fetch condition codes: {response.status_code}")
+        break
+
+# Create condition_codes table in DuckDB
+if condition_codes:
+    con.execute("""
+        CREATE OR REPLACE TABLE raw_data.stock_condition_codes (
+            id INTEGER,
+            type VARCHAR,
+            name VARCHAR,
+            asset_class VARCHAR,
+            data_types VARCHAR
+        )
+    """)
+    print("CREATE OR REPLACE TABLE raw_data.stock_condition_codes")
+    for code in condition_codes:
+        data_types_str = ",".join(code.get("data_types", []))
+        con.execute(
+            "INSERT INTO raw_data.stock_condition_codes (id, type, name, asset_class, data_types) VALUES (?, ?, ?, ?, ?)",
+            (code.get("id"), code.get("type"), code.get("name"), code.get("asset_class"), data_types_str)
+        )
+    print("Stock condition codes fetched and stored in the database.")
 else:
     print("No condition codes fetched.")
 

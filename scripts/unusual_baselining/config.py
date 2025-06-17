@@ -45,6 +45,8 @@ SEGMENTED = "segmented"
 UNUSUAL = "u_a"
 
 STOCK_SUMMARY_DIR = DATA_PATH / "stocks" / "daily"
+STOCK_TRADE_DIR = DATA_PATH / "stocks" / "trades"
+OPTION_SUMMARY_DIR = DATA_PATH / "options" / "daily"
 OPTION_TRADE_DIR = DATA_PATH / "options" / "trades"
 SECTORS_CSV = DATA_PATH / "stocks" / "sectors_industries.csv"
 
@@ -64,7 +66,7 @@ NUMBER_OF_BINS = 20
 MAX_K = 10
 
 # OPTIMAL ITM
-ITM_THRESHOLD = 0.75
+ITM_THRESHOLD = 0.55
 ITM_THRESHOLD_100 = itm_str_prep(ITM_THRESHOLD)
 
 @cache_and_handle_errors
