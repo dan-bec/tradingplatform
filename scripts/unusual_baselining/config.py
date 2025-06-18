@@ -1,7 +1,18 @@
+import sys
 from pathlib import Path
 from datetime import datetime, timedelta
 import duckdb
 from functools import lru_cache, wraps
+
+# Determine the project root dynamically
+APP_DIR = Path(__file__).parent
+REPO_ROOT = APP_DIR.parents[1]  
+
+# Insert the project root into sys.path if not already present
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from scripts.config import DATA_PATH, FULL_DB_PATH, SHARED_DATA_PATH, RAW_SCHEMA
 
 def cache_and_handle_errors(func):
     @lru_cache(maxsize=None)
@@ -34,13 +45,9 @@ APP_DIR = Path(__file__).parent
 APP_NAME = APP_DIR.name
 TASKS_DIR = APP_DIR / "tasks"
 SCRIPT_DIR = APP_DIR.parent
-REPO_ROOT = SCRIPT_DIR.parent
-DATA_PATH = REPO_ROOT / "data"
 
 # Common paths used across scripts
-FULL_DB_PATH = DATA_PATH / "master_database.db"
 PROJECTS_PATH = REPO_ROOT / "projects" / APP_NAME
-RAW = "raw_data"
 APP_SCHEMA_PREFIX = "ub_"
 PREP = "prep"
 COMPILED = "compiled"
@@ -49,7 +56,6 @@ PREP_SCHEMA = APP_SCHEMA_PREFIX + PREP
 COMPILED_SCHEMA = APP_SCHEMA_PREFIX + COMPILED
 SEGMENTED_SCHEMA = APP_SCHEMA_PREFIX + SEGMENTED
 
-SHARED_DATA_PATH = REPO_ROOT / "src" / "BullseyeApp" / "Shared" / "Data"
 GDRIVE_CREDS = SHARED_DATA_PATH / "Credentials.json"
 GDRIVE_FOLDER = "1ItSs-28eBoL1zGSKXwoKwnlHTZeQRcJQ"
 

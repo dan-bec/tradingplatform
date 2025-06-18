@@ -3,11 +3,11 @@ from pathlib import Path
 
 # Determine the project root dynamically
 TASK_SCRIPT_DIR = Path(__file__).parent
-PROJECT_ROOT = TASK_SCRIPT_DIR.parents[2]  
+REPO_ROOT = TASK_SCRIPT_DIR.parents[2]  
 
 # Insert the project root into sys.path if not already present
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
     
 import scripts.raw_data.config as config
 import os

@@ -3,11 +3,11 @@ from pathlib import Path
 
 # Determine the project root dynamically
 TASK_SCRIPT_DIR = Path(__file__).parent
-PROJECT_ROOT = TASK_SCRIPT_DIR.parents[2]  
+REPO_ROOT = TASK_SCRIPT_DIR.parents[2]  
 
 # Insert the project root into sys.path if not already present
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
     
 import scripts.unusual_baselining.config as config
 import time
@@ -24,6 +24,7 @@ from kneed import KneeLocator
 
 ### SETTINGS ###
 full_db_path = config.FULL_DB_PATH
+raw_schema = config.RAW_SCHEMA
 prep_schema = config.PREP_SCHEMA
 output_dir = config.PREP_OUTPUT_DIR
 output_dir.mkdir(parents=True, exist_ok=True)
@@ -31,6 +32,7 @@ output_dir.mkdir(parents=True, exist_ok=True)
 def main(number_of_bins,max_k):
     # Connect to DuckDB
     con = duckdb.connect(full_db_path)
+    print(f"Connected to DuckDB database: {full_db_path}")
 
     # Pre-aggregate results based on binning
     con.execute(f"""

@@ -1,24 +1,27 @@
+import sys
 from pathlib import Path
 from datetime import datetime, timedelta
-import duckdb
 from functools import lru_cache, wraps
 
-# Base directory (assumes config.py is in the /scripts folder)
+# Determine the project root dynamically
 APP_DIR = Path(__file__).parent
+REPO_ROOT = APP_DIR.parents[1]  
+
+# Insert the project root into sys.path if not already present
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from scripts.config import DATA_PATH, FULL_DB_PATH, SHARED_DATA_PATH, RAW_SCHEMA
+
+# Base directory (assumes config.py is in the /scripts folder)
 APP_NAME = APP_DIR.name
 TASKS_DIR = APP_DIR / "tasks"
-SCRIPT_DIR = APP_DIR.parent
-REPO_ROOT = SCRIPT_DIR.parent
-DATA_PATH = REPO_ROOT / "data"
-FULL_DB_PATH = DATA_PATH / "master_database.db"
 
 # Common paths used across scripts
 S3_ENDPOINT = "https://files.polygon.io"  # Polygon S3-compatible endpoint
 BUCKET_NAME = "flatfiles"  # Polygon bucket name
 SHARED_DATA_PATH = REPO_ROOT / "src" / "BullseyeApp" / "Shared" / "Data"
 DATASERVICES_PATH = SHARED_DATA_PATH / "DataService.cs"
-
-RAW = "raw_data"
 
 STOCK_SUMMARY_DIR = DATA_PATH / "stocks" / "daily"
 STOCK_TRADE_DIR = DATA_PATH / "stocks" / "trades"

@@ -3,12 +3,12 @@ from pathlib import Path
 
 # Determine the project root dynamically
 TASK_SCRIPT_DIR = Path(__file__).parent
-PROJECT_ROOT = TASK_SCRIPT_DIR.parents[2]  
+REPO_ROOT = TASK_SCRIPT_DIR.parents[2]  
 
 # Insert the project root into sys.path if not already present
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
-    
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
 import scripts.unusual_baselining.config as config
 import time
 import duckdb
@@ -27,6 +27,7 @@ print(f"Start time: {start_time:.2f} seconds")
 
 # Define file paths
 full_db_path = config.FULL_DB_PATH
+raw_schema = config.RAW_SCHEMA
 prep_schema = config.PREP_SCHEMA
 output_dir = config.PREP_OUTPUT_DIR
 
@@ -45,7 +46,7 @@ def main(otm_range, min_trade_value, expiration_days_out):
         """).fetchone()
         if current_settings:
             current_min_trade_value, current_expiration_days_out, current_otm_range, current_max_data_date = current_settings
-            raw_max_data_date = con.execute(f"SELECT MAX(data_date) FROM raw_data.all_options_trades_data").fetchone()[0] # type: ignore
+            raw_max_data_date = con.execute(f"SELECT MAX(data_date) FROM {raw_schema}.all_options_trades_data").fetchone()[0] # type: ignore
             print(f"raw max date: {raw_max_data_date}. prep max date: {current_max_data_date}")
             if (current_min_trade_value == min_trade_value and
                 current_expiration_days_out == expiration_days_out and
@@ -81,10 +82,10 @@ def main(otm_range, min_trade_value, expiration_days_out):
                     , std.close as security_close
                     , row_number() OVER (PARTITION BY atd.security ORDER BY trade_value DESC) AS trade_rank
                     , log10(trade_value) AS trade_value_log10
-                FROM raw_data.all_options_trades_data atd
-                JOIN raw_data.option_condition_codes occ ON occ.id = atd.conditions
-                JOIN raw_data.sector_industry si ON si.security = atd.security
-                JOIN raw_data.stock_daily_data std ON std.security = atd.security AND std.data_date = atd.data_date
+                FROM {raw_schema}.all_options_trades_data atd
+                JOIN {raw_schema}.option_condition_codes occ ON occ.id = atd.conditions
+                JOIN {raw_schema}.sector_industry si ON si.security = atd.security
+                JOIN {raw_schema}.stock_daily_data std ON std.security = atd.security AND std.data_date = atd.data_date
                 WHERE 1=1
                     AND atd.conditions >= 209 -- Filters out Late, Canceled trades
                     AND atd.conditions < 248 -- Filters out after market trading
@@ -113,7 +114,7 @@ def main(otm_range, min_trade_value, expiration_days_out):
                     , min(CASE WHEN sdd.data_date = uqo.expiration THEN sdd.low  END) as low_expiration
                     , min(CASE WHEN sdd.data_date = uqo.expiration THEN sdd.close  END) as close_expiration
                 FROM _unique_qualifying_options uqo
-                LEFT JOIN raw_data.stock_daily_data sdd ON sdd.security = uqo.security and sdd.data_date > uqo.data_date and sdd.data_date <= uqo.expiration
+                LEFT JOIN {raw_schema}.stock_daily_data sdd ON sdd.security = uqo.security and sdd.data_date > uqo.data_date and sdd.data_date <= uqo.expiration
                 GROUP BY 1,2,3,4
             )
 

@@ -3,11 +3,11 @@ from pathlib import Path
 
 # Determine the project root dynamically
 TASK_SCRIPT_DIR = Path(__file__).parent
-PROJECT_ROOT = TASK_SCRIPT_DIR.parents[2]  
+REPO_ROOT = TASK_SCRIPT_DIR.parents[2]  
 
 # Insert the project root into sys.path if not already present
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
     
 import scripts.unusual_baselining.config as config
 import time
@@ -21,15 +21,12 @@ prep_schema = config.PREP_SCHEMA
 output_dir = config.PREP_OUTPUT_DIR
 output_dir.mkdir(parents=True, exist_ok=True)
 
-# Capture and print start time
-start_time = time.time()
-print(f"Start time: {start_time:.2f} seconds")
-
 def main(itm_threshold):
     itm_threshold_100 = config.itm_str_prep(itm_threshold)
 
     # Connect to DuckDB
     con = duckdb.connect(full_db_path)
+    print(f"Connected to DuckDB database: {full_db_path}")
 
     # Pre-aggregate results based on trade_value_category
     con.execute(f"""

@@ -3,11 +3,11 @@ from pathlib import Path
 
 # Determine the project root dynamically
 TASK_SCRIPT_DIR = Path(__file__).parent
-PROJECT_ROOT = TASK_SCRIPT_DIR.parents[2]  
+REPO_ROOT = TASK_SCRIPT_DIR.parents[2]  
 
 # Insert the project root into sys.path if not already present
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
     
 import scripts.unusual_baselining.config as config
 import time
@@ -19,6 +19,7 @@ from collections import defaultdict
 ### SETTINGS ###
 projects_path = config.PROJECTS_PATH
 full_db_path = config.FULL_DB_PATH
+raw_schema = config.RAW_SCHEMA
 prep_schema = config.PREP_SCHEMA
 compiled_schema = config.COMPILED_SCHEMA
 compiled_dir = config.COMPILED_OUTPUT_DIR
@@ -38,6 +39,7 @@ def main(itm_threshold):
     itm_threshold_100 = config.itm_str_prep(itm_threshold)
     # Connect to DuckDB
     con = duckdb.connect(full_db_path)
+    print(f"Connected to DuckDB database: {full_db_path}")
 
     con.execute(f"CREATE SCHEMA IF NOT EXISTS {compiled_schema};")
     print(f"CREATE OR REPLACE SCHEMA {compiled_schema};")
@@ -62,7 +64,7 @@ def main(itm_threshold):
         , sp.p9999_trade_value
         , sp.p99999_trade_value
         , sp.p999999_trade_value
-        FROM raw_data.sector_industry si
+        FROM {raw_schema}.sector_industry si
         JOIN {prep_schema}.unusual_baselines_{itm_threshold_100} ub on ub.security = si.security
         JOIN {prep_schema}.security_percentiles sp on sp.security = si.security
         JOIN {prep_schema}.clustered_securities cs on cs.security = si.security
@@ -100,7 +102,7 @@ def main(itm_threshold):
         , ip.itm_running_total
         , ip.running_total
         , ip.itm_running_pct
-        FROM raw_data.sector_industry si
+        FROM {raw_schema}.sector_industry si
         JOIN {prep_schema}.itm_percentages ip on ip.security = si.security
         JOIN {prep_schema}.clustered_securities cs on cs.security = si.security
         LEFT JOIN {prep_schema}.unusual_baselines_{itm_threshold_100} ub on ub.security = si.security and ip.min_trade_value >= ub.unusual_baseline
@@ -132,7 +134,7 @@ def main(itm_threshold):
         , ip.min_trade_value as category_minimum
         , ip.max_trade_value as category_maximum
         , fstoot.*
-        FROM raw_data.sector_industry si
+        FROM {raw_schema}.sector_industry si
         JOIN {prep_schema}.filtered_short_term_otm_options_trades fstoot on fstoot.security = si.security
         JOIN {prep_schema}.unusual_baselines_{itm_threshold_100} ub on ub.security = si.security and fstoot.trade_value >= ub.unusual_baseline
         JOIN {prep_schema}.clustered_securities cs on cs.security = si.security
@@ -160,7 +162,7 @@ def main(itm_threshold):
     segmented_dir.mkdir(parents=True, exist_ok=True)
 
     # Get all unique sectors
-    sectors = con.execute(f"SELECT DISTINCT sector FROM raw_data.sector_industry").fetchall()
+    sectors = con.execute(f"SELECT DISTINCT sector FROM {raw_schema}.sector_industry").fetchall()
     sectors = [row[0] for row in sectors]
 
     for sector in sectors:
@@ -183,7 +185,7 @@ def main(itm_threshold):
                 # print(f"File written: {file_path}")
         
         # Get industries for this sector
-        industries = con.execute("SELECT DISTINCT industry FROM raw_data.sector_industry WHERE sector = ?", [sector]).fetchall()
+        industries = con.execute(f"SELECT DISTINCT industry FROM {raw_schema}.sector_industry WHERE sector = ?", [sector]).fetchall()
         industries = [row[0] for row in industries]
         
         # Group industries by processed name

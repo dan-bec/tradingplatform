@@ -3,11 +3,11 @@ from pathlib import Path
 
 # Determine the project root dynamically
 TASK_SCRIPT_DIR = Path(__file__).parent
-PROJECT_ROOT = TASK_SCRIPT_DIR.parents[2]  
+REPO_ROOT = TASK_SCRIPT_DIR.parents[2]  
 
 # Insert the project root into sys.path if not already present
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
     
 import scripts.raw_data.config as config
 import re
@@ -22,6 +22,7 @@ full_db_path = config.FULL_DB_PATH
 stock_summary_dir = config.STOCK_SUMMARY_DIR
 sectors_industries_csv = config.SECTORS_CSV
 option_trade_dir = config.OPTION_TRADE_DIR
+raw_schema = config.RAW_SCHEMA
 print(sectors_industries_csv)
 
 # Connect to DuckDB
@@ -77,7 +78,7 @@ def get_files_to_load(src_tbl: str, directory_path: Path, num_files_to_load: int
 
     # Get existing dates from the database
     try:
-        existing_dates = set(row[0] for row in db_connection.execute(f"SELECT DISTINCT data_date FROM raw_data.{src_tbl}").fetchall())
+        existing_dates = set(row[0] for row in db_connection.execute(f"SELECT DISTINCT data_date FROM {raw_schema}.{src_tbl}").fetchall())
     except duckdb.CatalogException:
         existing_dates = set()
 
@@ -104,8 +105,8 @@ def main(num_files_to_load):
     print(f"Start time: {start_time:.2f} seconds")
 
     # Create trades_data table with only the relevant files
-    con.execute(f"CREATE SCHEMA IF NOT EXISTS raw_data")
-    print("CREATE SCHEMA IF NOT EXISTS raw_data")
+    con.execute(f"CREATE SCHEMA IF NOT EXISTS {raw_schema}")
+    print(f"CREATE SCHEMA IF NOT EXISTS {raw_schema}")
 
     #### CONDITIONS ####
 
@@ -136,8 +137,8 @@ def main(num_files_to_load):
 
     # Create condition_codes table in DuckDB
     if condition_codes:
-        con.execute("""
-            CREATE OR REPLACE TABLE raw_data.option_condition_codes (
+        con.execute(f"""
+            CREATE OR REPLACE TABLE {raw_schema}.option_condition_codes (
                 id INTEGER,
                 type VARCHAR,
                 name VARCHAR,
@@ -145,11 +146,11 @@ def main(num_files_to_load):
                 data_types VARCHAR
             )
         """)
-        print("CREATE OR REPLACE TABLE raw_data.option_condition_codes")
+        print(f"CREATE OR REPLACE TABLE {raw_schema}.option_condition_codes")
         for code in condition_codes:
             data_types_str = ",".join(code.get("data_types", []))
             con.execute(
-                "INSERT INTO raw_data.option_condition_codes (id, type, name, asset_class, data_types) VALUES (?, ?, ?, ?, ?)",
+                f"INSERT INTO {raw_schema}.option_condition_codes (id, type, name, asset_class, data_types) VALUES (?, ?, ?, ?, ?)",
                 (code.get("id"), code.get("type"), code.get("name"), code.get("asset_class"), data_types_str)
             )
         print("Option condition codes fetched and stored in the database.")
@@ -183,8 +184,8 @@ def main(num_files_to_load):
 
     # Create condition_codes table in DuckDB
     if condition_codes:
-        con.execute("""
-            CREATE OR REPLACE TABLE raw_data.stock_condition_codes (
+        con.execute(f"""
+            CREATE OR REPLACE TABLE {raw_schema}.stock_condition_codes (
                 id INTEGER,
                 type VARCHAR,
                 name VARCHAR,
@@ -192,11 +193,11 @@ def main(num_files_to_load):
                 data_types VARCHAR
             )
         """)
-        print("CREATE OR REPLACE TABLE raw_data.stock_condition_codes")
+        print(f"CREATE OR REPLACE TABLE {raw_schema}.stock_condition_codes")
         for code in condition_codes:
             data_types_str = ",".join(code.get("data_types", []))
             con.execute(
-                "INSERT INTO raw_data.stock_condition_codes (id, type, name, asset_class, data_types) VALUES (?, ?, ?, ?, ?)",
+                f"INSERT INTO {raw_schema}.stock_condition_codes (id, type, name, asset_class, data_types) VALUES (?, ?, ?, ?, ?)",
                 (code.get("id"), code.get("type"), code.get("name"), code.get("asset_class"), data_types_str)
             )
         print("Stock condition codes fetched and stored in the database.")
@@ -207,7 +208,7 @@ def main(num_files_to_load):
 
     # Create trades_data table with only the relevant files
     con.execute(f"""
-        CREATE TABLE IF NOT EXISTS raw_data.stock_daily_data (
+        CREATE TABLE IF NOT EXISTS {raw_schema}.stock_daily_data (
                 security VARCHAR,
                 volume BIGINT,
                 open DOUBLE,
@@ -220,13 +221,13 @@ def main(num_files_to_load):
                 PRIMARY KEY (data_date, security)
             )
     """)
-    print(f"Created raw_data.stock_daily_data db table")
+    print(f"Created {raw_schema}.stock_daily_data db table")
 
     stock_daily_files = get_files_to_load('stock_daily_data',stock_summary_dir, num_files_to_load, con)
     # Load only the new files
     if stock_daily_files:
         con.execute(f"""
-            INSERT INTO raw_data.stock_daily_data
+            INSERT INTO {raw_schema}.stock_daily_data
             SELECT 
                 ticker,
                 volume,
@@ -245,16 +246,16 @@ def main(num_files_to_load):
                 ) AS data_date
             FROM read_csv_auto({stock_daily_files}, filename=True, compression='gzip')
         """)
-        print(f"Loaded data from {len(stock_daily_files)} new files into raw_data.stock_daily_data")
+        print(f"Loaded data from {len(stock_daily_files)} new files into {raw_schema}.stock_daily_data")
     else:
-        print("No new data to load to raw_data.stock_daily_data.")
-    print("!!!ROWS IN raw_data.stock_daily_data!!!:", con.execute(f"SELECT COUNT(*) FROM raw_data.stock_daily_data").fetchone()[0]) # type: ignore
+        print("No new data to load to {raw_schema}.stock_daily_data.")
+    print("!!!ROWS IN {raw_schema}.stock_daily_data!!!:", con.execute(f"SELECT COUNT(*) FROM {raw_schema}.stock_daily_data").fetchone()[0]) # type: ignore
 
     #### RAW TRADE DATA ####
 
     # Create trades_data table with only the relevant files
     con.execute(f"""
-        CREATE TABLE IF NOT EXISTS raw_data.all_options_trades_data (
+        CREATE TABLE IF NOT EXISTS {raw_schema}.all_options_trades_data (
                 option_ticker VARCHAR,
                 security VARCHAR,
                 option_type VARCHAR,
@@ -270,13 +271,13 @@ def main(num_files_to_load):
                 data_date DATE
             )
     """)
-    print(f"Created raw_data.all_options_trades_data db table")
+    print(f"Created {raw_schema}.all_options_trades_data db table")
 
     option_trade_files = get_files_to_load('all_options_trades_data',option_trade_dir, num_files_to_load, con)
     # Load only the new files
     if option_trade_files:
         con.execute(f"""
-            INSERT INTO raw_data.all_options_trades_data
+            INSERT INTO {raw_schema}.all_options_trades_data
             SELECT 
                 ticker AS option_ticker,
                 REGEXP_EXTRACT(ticker, '^O:([A-Z]+)\d{{0,1}}\d{{6}}[CP]\d{{8}}$', 1) AS security,
@@ -307,14 +308,14 @@ def main(num_files_to_load):
                 ) AS data_date
             FROM read_csv_auto({option_trade_files}, filename=True, compression='gzip')
         """)
-        print(f"Loaded data from {len(option_trade_files)} new files into raw_data.all_options_trades_data")
+        print(f"Loaded data from {len(option_trade_files)} new files into {raw_schema}.all_options_trades_data")
     else:
-        print("No new data to load to raw_data.all_options_trades_data.")
-    print("!!!ROWS IN raw_data.all_options_trades_data!!!:", con.execute(f"SELECT COUNT(*) FROM raw_data.all_options_trades_data").fetchone()[0]) # type: ignore
+        print(f"No new data to load to {raw_schema}.all_options_trades_data.")
+    print(f"!!!ROWS IN {raw_schema}.all_options_trades_data!!!:", con.execute(f"SELECT COUNT(*) FROM {raw_schema}.all_options_trades_data").fetchone()[0]) # type: ignore
 
     if sectors_industries_csv:
         con.execute(f"""
-            CREATE OR REPLACE TABLE raw_data.sector_industry AS
+            CREATE OR REPLACE TABLE {raw_schema}.sector_industry AS
             SELECT 
                 security,
                 company_name,
@@ -323,8 +324,8 @@ def main(num_files_to_load):
             FROM read_csv_auto('{sectors_industries_csv}', filename=True)
         """)
     else:
-        print("No new data to load to raw_data.sector_industry.")
-    print("!!!ROWS IN raw_data.sector_industry!!!:", con.execute(f"SELECT COUNT(*) FROM raw_data.sector_industry").fetchone()[0]) # type: ignore
+        print(f"No new data to load to {raw_schema}.sector_industry.")
+    print(f"!!!ROWS IN {raw_schema}.sector_industry!!!:", con.execute(f"SELECT COUNT(*) FROM {raw_schema}.sector_industry").fetchone()[0]) # type: ignore
 
     # Explicitly close the connection
     con.close()
