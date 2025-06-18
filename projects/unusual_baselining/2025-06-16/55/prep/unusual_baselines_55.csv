@@ -1,0 +1,2807 @@
+security,sector,industry,level_1,unusual_baseline,trade_value_category,number_of_trades
+A,Medical,Medical - Products,0,195000.0,5. p99_trade_value,6.0
+AA,Industrial Products,Metal Products - Distribution,0,8463.000000000002,8. p75_trade_value,413.0
+AAL,Transportation,Transportation - Airline,0,14850.0,7. p90_trade_value,410.0
+AAOI,Computer and Technology,Electronics - Semiconductors,0,278160.0,4. p999_trade_value,2.0
+AAON,Construction,Building Products - Air Conditioner and Heating,0,,,
+AAP,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,0,,,
+AAPL,Computer and Technology,Computer - Micro Computers,0,795832.0,3. p9999_trade_value,44.0
+AB,Finance,Financial - Investment Management,0,,,
+ABAT,Computer and Technology,Electronics - Miscellaneous Products,0,8000.0,1. p999999_trade_value,1.0
+ABBV,Medical,Large Cap Pharmaceuticals,0,8400.0,8. p75_trade_value,1790.0
+ABCL,Medical,Medical - Biomedical and Genetics,0,,,
+ABEO,Medical,Medical - Biomedical and Genetics,0,7200.0,8. p75_trade_value,11.0
+ABG,Retail-Wholesale,Automotive - Retail and Whole Sales,0,8800.0,8. p75_trade_value,7.0
+ABL,Finance,Insurance - Life Insurance,0,,,
+ABM,Business Services,Business - Services,0,,,
+ABNB,Consumer Discretionary,Leisure and Recreation Services,0,360580.0,4. p999_trade_value,10.0
+ABR,Finance,REIT and Equity Trust,0,315000.0,1. p999999_trade_value,1.0
+ABSI,Medical,Medical - Biomedical and Genetics,0,,,
+ABT,Medical,Medical - Products,0,458000.0,1. p999999_trade_value,1.0
+ABUS,Medical,Medical - Biomedical and Genetics,0,,,
+ACA,Construction,Building Products - Miscellaneous,0,30000.0,8. p75_trade_value,3.0
+ACAD,Medical,Medical - Biomedical and Genetics,0,152750.0,1. p999999_trade_value,1.0
+ACB,Medical,Medical - Products,0,,,
+ACDC,Oils-Energy,Oil and Gas - Field Services,0,5000.0,8. p75_trade_value,6.0
+ACGL,Finance,Insurance - Property and Casualty,0,,,
+ACHC,Medical,Medical - Hospital,0,,,
+ACHR,Aerospace,Aerospace - Defense,0,7261.0,8. p75_trade_value,1222.0
+ACI,Consumer Staples,Consumer Products - Staples,0,,,
+ACIC,Finance,Insurance - Property and Casualty,0,4990.000000000001,8. p75_trade_value,5.0
+ACIW,Computer and Technology,Computer - Software,0,5216.0,1. p999999_trade_value,1.0
+ACLS,Computer and Technology,Electronics - Manufacturing Machinery,0,249000.0,1. p999999_trade_value,1.0
+ACLX,Medical,Medical - Biomedical and Genetics,0,,,
+ACM,Construction,Engineering - R and D Services,0,,,
+ACMR,Computer and Technology,Semiconductor Equipment - Material Services,0,,,
+ACN,Computer and Technology,Computers - IT Services,0,,,
+ACNT,Industrial Products,Manufacturing - General Industrial ,0,,,
+ACRS,Medical,Medical - Drugs,0,,,
+ACVA,Retail-Wholesale,Internet - Commerce,0,123400.0,1. p999999_trade_value,1.0
+ADBE,Computer and Technology,Computer - Software,0,,,
+ADC,Finance,REIT and Equity Trust - Retail,0,,,
+ADCT,Medical,Medical - Biomedical and Genetics,0,,,
+ADI,Computer and Technology,Semiconductor - Analog and Mixed,0,,,
+ADM,Consumer Staples,Agriculture - Operations,0,,,
+ADMA,Medical,Medical - Biomedical and Genetics,0,396795.0,5. p99_trade_value,4.0
+ADNT,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+ADP,Computer and Technology,Internet - Software,0,,,
+ADSK,Computer and Technology,Internet - Software,0,,,
+ADT,Industrial Products,Security and Safety Services,0,,,
+ADTN,Business Services,Technology Services,0,,,
+ADUS,Medical,Medical - Outpatient and Home Healthcare,0,,,
+AEE,Utilities,Utility - Electric Power,0,19845.0,1. p999999_trade_value,1.0
+AEHR,Computer and Technology,Electronics - Measuring Instruments,0,26070.000000000004,1. p999999_trade_value,1.0
+AEIS,Computer and Technology,Semiconductor Equipment - Wafer Fabrication,0,13769.999999999998,8. p75_trade_value,34.0
+AEM,Basic Materials,Mining - Gold,0,363000.0,4. p999_trade_value,2.0
+AEO,Retail-Wholesale,Retail - Apparel and Shoes,0,200000.0,5. p99_trade_value,4.0
+AEP,Utilities,Utility - Electric Power,0,7100.0,8. p75_trade_value,60.0
+AER,Transportation,Transportation - Equipment and Leasing,0,32130.0,6. p95_trade_value,12.0
+AES,Utilities,Utility - Electric Power,0,31500.0,6. p95_trade_value,27.0
+AESI,Oils-Energy,Oil and Gas - Integrated - United States,0,10000.0,1. p999999_trade_value,1.0
+AEVA,Auto-Tires-Trucks,Automotive - Original Equipment,0,12300.0,8. p75_trade_value,9.0
+AEYE,Computer and Technology,Internet - Software,0,,,
+AFG,Finance,Insurance - Property and Casualty,0,3750.0,1. p999999_trade_value,1.0
+AFL,Finance,Insurance - Accident and Health,0,136375.0,5. p99_trade_value,3.0
+AFRM,Computer and Technology,Internet - Software,0,8760.0,8. p75_trade_value,5162.0
+AFYA,Consumer Discretionary,Schools,0,,,
+AG,Basic Materials,Mining - Silver,0,,,
+AGCO,Industrial Products,Manufacturing - Farm Equipment,0,58800.0,1. p999999_trade_value,1.0
+AGEN,Medical,Medical - Biomedical and Genetics,0,14700.0,1. p999999_trade_value,1.0
+AGI,Basic Materials,Mining - Gold,0,6840.000000000001,8. p75_trade_value,39.0
+AGIO,Medical,Medical - Biomedical and Genetics,0,100000.0,1. p999999_trade_value,1.0
+AGL,Medical,Medical Services,0,13894.999999999998,8. p75_trade_value,3.0
+AGM,Finance,Financial - Mortgage & Related Services,0,,,
+AGNC,Finance,REIT and Equity Trust,0,100000.0,5. p99_trade_value,4.0
+AGO,Finance,Insurance - Multi line,0,,,
+AGRO,Consumer Staples,Agriculture - Operations,0,,,
+AGX,Construction,Building Products - Miscellaneous,0,220000.0,1. p999999_trade_value,1.0
+AGYS,Computer and Technology,Computer - Integrated Systems,0,,,
+AHCO,Medical,Medical - Products,0,,,
+AHR,Finance,REIT and Equity Trust - Other,0,,,
+AHT,Finance,REIT and Equity Trust - Other,0,,,
+AI,Computer and Technology,Computers - IT Services,0,,,
+AIG,Finance,Insurance - Multi line,0,,,
+AIOT,Transportation,Transportation - Services,0,,,
+AIP,Computer and Technology,Internet - Software,0,8640.0,8. p75_trade_value,3.0
+AIR,Aerospace,Aerospace - Defense Equipment,0,5850.0,8. p75_trade_value,10.0
+AIRG,Computer and Technology,Communication - Components,0,,,
+AIRS,Business Services,Technology Services,0,10500.0,1. p999999_trade_value,1.0
+AISP,Business Services,Technology Services,0,,,
+AIT,Industrial Products,Manufacturing - General Industrial ,0,24100.0,1. p999999_trade_value,1.0
+AIZ,Finance,Insurance - Multi line,0,15480.000000000002,1. p999999_trade_value,1.0
+AJG,Finance,Insurance - Brokerage,0,,,
+AKAM,Computer and Technology,Internet - Services,0,,,
+AKBA,Medical,Medical - Drugs,0,3500.0,1. p999999_trade_value,1.0
+AKR,Finance,REIT and Equity Trust - Retail,0,5824.0,1. p999999_trade_value,1.0
+AKRO,Medical,Medical - Biomedical and Genetics,0,683530.0,1. p999999_trade_value,1.0
+AL,Transportation,Transportation - Equipment and Leasing,0,16000.0,1. p999999_trade_value,1.0
+ALAB,Computer and Technology,Internet - Software,0,9000.0,8. p75_trade_value,2605.0
+ALB,Basic Materials,Chemical - Diversified ,0,,,
+ALC,Medical,Medical - Instruments,0,95000.0,6. p95_trade_value,13.0
+ALDX,Medical,Medical - Drugs,0,,,
+ALEC,Medical,Medical - Biomedical and Genetics,0,,,
+ALEX,Finance,REIT and Equity Trust - Other,0,,,
+ALGM,Computer and Technology,Electronics - Semiconductors,0,,,
+ALGN,Medical,Medical - Dental Supplies,0,,,
+ALGS,Medical,Medical - Biomedical and Genetics,0,,,
+ALGT,Transportation,Transportation - Airline,0,9625.0,8. p75_trade_value,16.0
+ALHC,Medical,Medical Services,0,160310.0,6. p95_trade_value,4.0
+ALIT,Computer and Technology,Internet - Software,0,7500.0,8. p75_trade_value,19.0
+ALK,Transportation,Transportation - Airline,0,,,
+ALKS,Medical,Medical - Biomedical and Genetics,0,22500.0,8. p75_trade_value,13.0
+ALKT,Computer and Technology,Internet - Software,0,,,
+ALL,Finance,Insurance - Property and Casualty,0,,,
+ALLE,Industrial Products,Security and Safety Services,0,,,
+ALLO,Medical,Medical - Biomedical and Genetics,0,13860.0,8. p75_trade_value,3.0
+ALLT,Business Services,Technology Services,0,10050.0,8. p75_trade_value,5.0
+ALLY,Finance,Financial - Consumer Loans,0,,,
+ALNY,Medical,Medical - Biomedical and Genetics,0,,,
+ALRM,Industrial Products,Security and Safety Services,0,45500.0,1. p999999_trade_value,1.0
+ALSN,Auto-Tires-Trucks,Automotive - Original Equipment,0,28500.0,7. p90_trade_value,3.0
+ALT,Medical,Medical - Drugs,0,44800.0,5. p99_trade_value,6.0
+ALTG,Industrial Products,Manufacturing - General Industrial ,0,10325.0,1. p999999_trade_value,1.0
+ALTO,Consumer Discretionary,Consumer Products - Discretionary,0,7455.0,1. p999999_trade_value,1.0
+ALTS,Finance,Financial - Miscellaneous Services,0,,,
+ALUR,Medical,Medical - Products,0,4800.0,1. p999999_trade_value,1.0
+ALV,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+ALXO,Medical,Medical - Biomedical and Genetics,0,,,
+AM,Oils-Energy,Oil and Gas - Integrated - United States,0,5145.0,8. p75_trade_value,2.0
+AMAT,Computer and Technology,Electronics - Semiconductors,0,922350.0,3. p9999_trade_value,2.0
+AMBA,Computer and Technology,Electronics - Semiconductors,0,7400.0,8. p75_trade_value,136.0
+AMBC,Finance,Insurance - Property and Casualty,0,,,
+AMBR,Business Services,Technology Services,0,,,
+AMC,Consumer Discretionary,Leisure and Recreation Services,0,,,
+AMCR,Industrial Products,Containers - Paper and Packaging,0,11844.000000000002,1. p999999_trade_value,1.0
+AMCX,Consumer Discretionary,Broadcast Radio and Television,0,5160.0,8. p75_trade_value,2.0
+AMD,Computer and Technology,Computer - Integrated Systems,0,,,
+AME,Computer and Technology,Electronics - Testing Equipment,0,,,
+AMED,Medical,Medical - Outpatient and Home Healthcare,0,,,
+AMG,Finance,Financial - Investment Management,0,9500.0,1. p999999_trade_value,1.0
+AMGN,Medical,Medical - Biomedical and Genetics,0,,,
+AMH,Finance,REIT and Equity Trust - Residential,0,3680.0000000000005,1. p999999_trade_value,1.0
+AMKR,Computer and Technology,Electronics - Semiconductors,0,,,
+AMLX,Medical,Medical - Drugs,0,4550.0,1. p999999_trade_value,1.0
+AMN,Medical,Medical Services,0,,,
+AMP,Finance,Financial - Investment Management,0,,,
+AMPL,Business Services,Technology Services,0,150000.0,1. p999999_trade_value,1.0
+AMPX,Business Services,Technology Services,0,16410.0,1. p999999_trade_value,1.0
+AMPY,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,42000.00000000001,1. p999999_trade_value,1.0
+AMR,Basic Materials,Mining - Miscellaneous,0,36000.0,1. p999999_trade_value,1.0
+AMRC,Oils-Energy,Alternative Energy - Other,0,,,
+AMRK,Consumer Discretionary,Precious Metals and Jewels,0,16000.0,6. p95_trade_value,5.0
+AMRN,Medical,Medical - Biomedical and Genetics,0,8625.0,1. p999999_trade_value,1.0
+AMRX,Medical,Medical - Drugs,0,,,
+AMSC,Computer and Technology,Electronics - Miscellaneous Components,0,,,
+AMT,Finance,REIT and Equity Trust - Other,0,,,
+AMTM,Construction,Engineering - R and D Services,0,390000.0,1. p999999_trade_value,1.0
+AMTX,Oils-Energy,Biofuels,0,,,
+AMWD,Consumer Discretionary,Furniture,0,,,
+AMWL,Medical,Medical Info Systems,0,,,
+AMZN,Computer and Technology,Internet - Software and Services,0,,,
+AN,Retail-Wholesale,Automotive - Retail and Whole Sales,0,6955.0,8. p75_trade_value,37.0
+ANAB,Medical,Medical - Biomedical and Genetics,0,202390.0,5. p99_trade_value,4.0
+ANET,Computer and Technology,Internet - Software,0,15660.0,7. p90_trade_value,1483.0
+ANF,Retail-Wholesale,Retail - Apparel and Shoes,0,,,
+ANGI,Computer and Technology,Internet - Content,0,,,
+ANIK,Medical,Medical - Biomedical and Genetics,0,,,
+ANIP,Medical,Medical - Biomedical and Genetics,0,,,
+ANNX,Medical,Medical - Biomedical and Genetics,0,,,
+ANRO,Medical,Medical - Biomedical and Genetics,0,12540.0,7. p90_trade_value,6.0
+ANSS,Computer and Technology,Computer - Software,0,,,
+ANVS,Medical,Medical - Biomedical and Genetics,0,,,
+AON,Finance,Insurance - Brokerage,0,520000.0,1. p999999_trade_value,1.0
+AOS,Industrial Products,Manufacturing - Electronics,0,143550.0,6. p95_trade_value,4.0
+AOSL,Computer and Technology,Electronics - Semiconductors,0,52200.0,5. p99_trade_value,2.0
+APA,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,,,
+APAM,Finance,Financial - Investment Management,0,,,
+APD,Basic Materials,Chemical - Diversified ,0,,,
+APG,Business Services,Business - Services,0,3960.0,8. p75_trade_value,8.0
+APGE,Medical,Medical - Biomedical and Genetics,0,,,
+APH,Computer and Technology,Electronics - Connectors,0,330000.0,1. p999999_trade_value,1.0
+API,Business Services,Technology Services,0,,,
+APLD,Finance,Financial - Miscellaneous Services,0,,,
+APLS,Medical,Medical - Biomedical and Genetics,0,,,
+APLT,Medical,Medical - Biomedical and Genetics,0,525000.0,1. p999999_trade_value,1.0
+APO,Finance,Financial - Investment Management,0,,,
+APOG,Industrial Products,Glass Products,0,,,
+APP,Business Services,Technology Services,0,93940.0,5. p99_trade_value,1113.0
+APPF,Computer and Technology,Internet - Software,0,648750.0,1. p999999_trade_value,1.0
+APPN,Computer and Technology,Internet - Software,0,,,
+APPS,Computer and Technology,Internet - Software,0,,,
+APTV,Auto-Tires-Trucks,Automotive - Original Equipment,0,236847.99999999994,5. p99_trade_value,5.0
+AQST,Medical,Medical - Drugs,0,,,
+AR,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,,,
+ARBE,Business Services,Technology Services,0,6937.0,8. p75_trade_value,33.0
+ARCB,Transportation,Transportation - Truck,0,468000.0,1. p999999_trade_value,1.0
+ARCC,Finance,Financial - SBIC & Commercial Industry,0,,,
+ARCT,Medical,Medical - Biomedical and Genetics,0,,,
+ARDT,Medical,Medical Services,0,,,
+ARDX,Medical,Medical - Drugs,0,6250.0,8. p75_trade_value,22.0
+ARE,Finance,REIT and Equity Trust - Other,0,95250.0,1. p999999_trade_value,1.0
+AREN,Business Services,Technology Services,0,,,
+ARES,Finance,Financial - Investment Management,0,,,
+ARGX,Medical,Medical - Biomedical and Genetics,0,14500.0,7. p90_trade_value,67.0
+ARHS,Retail-Wholesale,Retail - Miscellaneous,0,,,
+ARIS,Business Services,Waste Removal Services,0,3915.0,1. p999999_trade_value,1.0
+ARLO,Computer and Technology,Internet - Software,0,,,
+ARLP,Oils-Energy,Coal,0,,,
+ARM,Computer and Technology,Electronics - Semiconductors,0,820000.0,1. p999999_trade_value,1.0
+ARMK,Business Services,Business - Services,0,30294.0,1. p999999_trade_value,1.0
+AROC,Oils-Energy,Oil and Gas - Field Services,0,5915.0,1. p999999_trade_value,1.0
+ARQQ,Computer and Technology,Internet - Software,0,16000.0,6. p95_trade_value,10.0
+ARQT,Medical,Medical - Biomedical and Genetics,0,,,
+ARR,Finance,REIT and Equity Trust,0,16379.999999999998,7. p90_trade_value,4.0
+ARRY,Oils-Energy,Solar,0,,,
+ARVN,Medical,Medical - Biomedical and Genetics,0,503470.00000000006,1. p999999_trade_value,1.0
+ARW,Computer and Technology,Electronics - Parts Distribution,0,,,
+ARWR,Medical,Medical - Biomedical and Genetics,0,54329.99999999999,1. p999999_trade_value,1.0
+AS,Consumer Discretionary,Leisure and Recreation Products,0,208425.0,1. p999999_trade_value,1.0
+ASAN,Computer and Technology,Internet - Software,0,118881.0,1. p999999_trade_value,1.0
+ASB,Finance,Banks - Midwest,0,13500.0,1. p999999_trade_value,1.0
+ASC,Transportation,Transportation - Shipping,0,4428.0,8. p75_trade_value,3.0
+ASGN,Computer and Technology,Computers - IT Services,0,30000.0,1. p999999_trade_value,1.0
+ASH,Basic Materials,Chemical - Specialty,0,,,
+ASLE,Aerospace,Aerospace - Defense Equipment,0,,,
+ASML,Computer and Technology,Semiconductor Equipment - Wafer Fabrication,0,,,
+ASND,Medical,Medical - Biomedical and Genetics,0,,,
+ASO,Consumer Discretionary,Leisure and Recreation Products,0,361760.00000000006,1. p999999_trade_value,1.0
+ASPI,Basic Materials,Chemical - Diversified ,0,75000.0,1. p999999_trade_value,1.0
+ASPN,Construction,Building Products - Miscellaneous,0,,,
+ASST,Business Services,Technology Services,0,,,
+ASTH,Medical,Medical - Outpatient and Home Healthcare,0,940320.0000000001,6. p95_trade_value,2.0
+ASTL,Basic Materials,Steel - Producers,0,241500.0,1. p999999_trade_value,1.0
+ASTS,Computer and Technology,Wireless Equipment,0,,,
+ASUR,Computer and Technology,Internet - Delivery Services,0,,,
+ATAI,Medical,Medical - Outpatient and Home Healthcare,0,7950.0,8. p75_trade_value,5.0
+ATAT,Consumer Discretionary,Leisure and Recreation Services,0,,,
+ATEC,Medical,Medical - Instruments,0,15750.0,8. p75_trade_value,18.0
+ATEN,Computer and Technology,Communication - Network Software,0,7227.0,1. p999999_trade_value,1.0
+ATEX,Computer and Technology,Communication - Infrastructure,0,,,
+ATGE,Consumer Discretionary,Schools,0,,,
+ATHA,Medical,Medical - Biomedical and Genetics,0,5100.0,8. p75_trade_value,3.0
+ATHM,Computer and Technology,Internet - Services,0,10000.0,8. p75_trade_value,3.0
+ATI,Basic Materials,Steel - Speciality,0,6000.0,8. p75_trade_value,33.0
+ATKR,Industrial Products,Wire and Cable Products,0,,,
+ATLX,Basic Materials,Mining - Miscellaneous,0,,,
+ATMU,Industrial Products,Pollution Control,0,17500.0,1. p999999_trade_value,1.0
+ATO,Utilities,Utility - Gas Distribution,0,7200.0,8. p75_trade_value,13.0
+ATOM,Computer and Technology,Electronics - Semiconductors,0,11088.000000000002,7. p90_trade_value,12.0
+ATR,Industrial Products,Containers - Paper and Packaging,0,,,
+ATRC,Medical,Medical - Products,0,5200.0,1. p999999_trade_value,1.0
+ATUS,Computer and Technology,Communication - Components,0,4325.0,1. p999999_trade_value,1.0
+ATXS,Medical,Medical - Biomedical and Genetics,0,5100.0,1. p999999_trade_value,1.0
+ATYR,Medical,Medical - Biomedical and Genetics,0,,,
+AU,Basic Materials,Mining - Gold,0,9071.0,8. p75_trade_value,67.0
+AUPH,Medical,Medical - Drugs,0,,,
+AUR,Business Services,Technology Services,0,,,
+AURA,Medical,Medical - Biomedical and Genetics,0,,,
+AUTL,Medical,Medical - Biomedical and Genetics,0,8070.0,1. p999999_trade_value,1.0
+AVA,Utilities,Utility - Electric Power,0,,,
+AVAV,Aerospace,Aerospace - Defense Equipment,0,115500.0,1. p999999_trade_value,1.0
+AVB,Finance,REIT and Equity Trust - Residential,0,14100.0,1. p999999_trade_value,1.0
+AVDL,Medical,Medical - Drugs,0,74250.00000000001,1. p999999_trade_value,1.0
+AVGO,Computer and Technology,Electronics - Semiconductors,0,763500.0,3. p9999_trade_value,21.0
+AVNS,Medical,Medical - Instruments,0,6500.0,1. p999999_trade_value,1.0
+AVNW,Computer and Technology,Wireless Equipment,0,4130.0,1. p999999_trade_value,1.0
+AVO,Consumer Staples,Agriculture - Operations,0,,,
+AVPT,Computer and Technology,Internet - Software,0,260000.0,1. p999999_trade_value,1.0
+AVT,Computer and Technology,Electronics - Parts Distribution,0,,,
+AVTR,Medical,Medical Services,0,429795.0,1. p999999_trade_value,1.0
+AVXL,Medical,Medical - Biomedical and Genetics,0,,,
+AVY,Industrial Products,Containers - Paper and Packaging,0,,,
+AWI,Construction,Building Products - Miscellaneous,0,6250.0,8. p75_trade_value,5.0
+AWK,Utilities,Utility - Water Supply,0,33408.0,1. p999999_trade_value,1.0
+AWR,Utilities,Utility - Water Supply,0,9700.0,8. p75_trade_value,2.0
+AX,Finance,Financial - Miscellaneous Services,0,23000.0,1. p999999_trade_value,1.0
+AXGN,Medical,Medical - Instruments,0,,,
+AXL,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+AXON,Aerospace,Aerospace - Defense Equipment,0,217500.0,4. p999_trade_value,6.0
+AXP,Finance,Financial - Miscellaneous Services,0,,,
+AXS,Finance,Insurance - Property and Casualty,0,,,
+AXSM,Medical,Medical - Biomedical and Genetics,0,960000.0,1. p999999_trade_value,1.0
+AXTA,Basic Materials,Chemical - Specialty,0,14500.0,1. p999999_trade_value,1.0
+AXTI,Computer and Technology,Electronics - Semiconductors,0,4800.0,1. p999999_trade_value,1.0
+AYI,Business Services,Technology Services,0,,,
+AZ,Computer and Technology,Internet - Software,0,,,
+AZEK,Construction,Building Products - Air Conditioner and Heating,0,130000.0,1. p999999_trade_value,1.0
+AZN,Medical,Medical - Biomedical and Genetics,0,804004.0,1. p999999_trade_value,1.0
+AZO,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,0,,,
+AZTA,Medical,Medical Info Systems,0,12665.0,8. p75_trade_value,2.0
+AZZ,Industrial Products,Manufacturing - Electronics,0,,,
+B,Basic Materials,Mining - Gold,0,27500.0,1. p999999_trade_value,1.0
+BA,Aerospace,Aerospace - Defense,0,57000.0,5. p99_trade_value,675.0
+BABA,Retail-Wholesale,Internet - Commerce,0,,,
+BAC,Finance,Financial - Investment Bank,0,240000.0,4. p999_trade_value,15.0
+BAH,Business Services,Consulting Services,0,134000.0,5. p99_trade_value,8.0
+BALL,Industrial Products,Containers - Metal and Glass,0,,,
+BAM,Finance,Financial - Miscellaneous Services,0,5850.0,8. p75_trade_value,72.0
+BANC,Finance,Banks - Southwest,0,6266.0,8. p75_trade_value,5.0
+BAND,Computer and Technology,Communication - Infrastructure,0,,,
+BAP,Finance,Banks - Foreign,0,4509.999999999999,3. p9999_trade_value,1.0
+BARK,Consumer Discretionary,Consumer Services - Miscellaneous,0,5000.0,1. p999999_trade_value,1.0
+BASE,Computer and Technology,Internet - Software,0,13860.000000000002,1. p999999_trade_value,1.0
+BATRK,Consumer Discretionary,Media Conglomerates,0,3660.0,1. p999999_trade_value,1.0
+BAX,Medical,Medical - Products,0,,,
+BB,Computer and Technology,Internet - Software,0,,,
+BBAI,Computer and Technology,Computers - IT Services,0,,,
+BBAR,Finance,Banks - Foreign,0,7200.0,8. p75_trade_value,4.0
+BBIO,Medical,Medical - Generic Drugs,0,,,
+BBVA,Finance,Banks - Foreign,0,10010.0,8. p75_trade_value,9.0
+BBW,Retail-Wholesale,Retail - Miscellaneous,0,10319.999999999998,8. p75_trade_value,15.0
+BBWI,Retail-Wholesale,Retail - Miscellaneous,0,443250.0,1. p999999_trade_value,1.0
+BBY,Retail-Wholesale,Retail - Consumer Electronics,0,,,
+BC,Consumer Discretionary,Leisure and Recreation Products,0,38400.0,7. p90_trade_value,4.0
+BCAB,Medical,Medical - Biomedical and Genetics,0,6075.0,1. p999999_trade_value,1.0
+BCAX,Medical,Medical - Biomedical and Genetics,0,,,
+BCC,Construction,Building Products - Wood,0,4500.0,8. p75_trade_value,2.0
+BCE,Utilities,Diversified Communication Services,0,,,
+BCO,Business Services,Outsourcing,0,,,
+BCPC,Basic Materials,Chemical - Specialty,0,3500.0,1. p999999_trade_value,1.0
+BCRX,Medical,Medical - Drugs,0,,,
+BCS,Finance,Banks - Foreign,0,,,
+BCYC,Medical,Medical - Biomedical and Genetics,0,,,
+BDC,Industrial Products,Wire and Cable Products,0,6120.0,8. p75_trade_value,6.0
+BDSX,Medical,Medical Services,0,,,
+BDTX,Medical,Medical - Biomedical and Genetics,0,,,
+BDX,Medical,Medical - Dental Supplies,0,821520.0000000001,1. p999999_trade_value,1.0
+BE,Oils-Energy,Alternative Energy - Other,0,573560.0,1. p999999_trade_value,1.0
+BEAM,Medical,Medical - Biomedical and Genetics,0,15200.0,6. p95_trade_value,7.0
+BEEM,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+BEKE,Computer and Technology,Internet - Services,0,789842.0,1. p999999_trade_value,1.0
+BELFB,Computer and Technology,Electronics - Miscellaneous Products,0,4440.000000000001,1. p999999_trade_value,1.0
+BEN,Finance,Financial - Investment Management,0,14850.0,8. p75_trade_value,11.0
+BEP,Utilities,Utility - Electric Power,0,44955.0,1. p999999_trade_value,1.0
+BEPC,Oils-Energy,Alternative Energy - Other,0,,,
+BFAM,Business Services,Business - Services,0,6400.0,8. p75_trade_value,11.0
+BFH,Finance,Financial - Miscellaneous Services,0,,,
+BFLY,Medical,Medical Info Systems,0,13000.0,1. p999999_trade_value,1.0
+BG,Basic Materials,Agriculture - Products,0,250000.0,1. p999999_trade_value,1.0
+BGC,Finance,Financial - Investment Bank,0,,,
+BGFV,Retail-Wholesale,Retail - Miscellaneous,0,,,
+BGS,Consumer Staples,Food - Miscellaneous,0,10430.0,7. p90_trade_value,2.0
+BHC,Medical,Medical - Generic Drugs,0,,,
+BHE,Computer and Technology,Electronics - Manufacturing Services,0,,,
+BHF,Finance,Insurance - Life Insurance,0,,,
+BHP,Basic Materials,Mining - Miscellaneous,0,,,
+BHVN,Medical,Medical - Biomedical and Genetics,0,,,
+BIDU,Computer and Technology,Internet - Services,0,159000.0,4. p999_trade_value,21.0
+BIGC,Computer and Technology,Internet - Software,0,,,
+BIIB,Medical,Medical - Biomedical and Genetics,0,,,
+BILI,Consumer Discretionary,Broadcast Radio and Television,0,,,
+BILL,Computer and Technology,Internet - Software,0,,,
+BIO,Medical,Medical - Products,0,101250.0,6. p95_trade_value,2.0
+BIP,Finance,REIT and Equity Trust - Other,0,8910.0,1. p999999_trade_value,1.0
+BIPC,Utilities,Utility - Gas Distribution,0,,,
+BIRD,Retail-Wholesale,Retail - Apparel and Shoes,0,,,
+BIRK,Consumer Discretionary,Shoes and Retail Apparel ,0,405000.00000000006,1. p999999_trade_value,1.0
+BITF,Business Services,Technology Services,0,20000.0,1. p999999_trade_value,1.0
+BJ,Consumer Staples,Consumer Products - Staples,0,,,
+BJRI,Retail-Wholesale,Retail - Restaurants,0,,,
+BK,Finance,Banks - Major Regional,0,6559.999999999999,8. p75_trade_value,111.0
+BKD,Medical,Medical - Nursing Homes,0,4000.0,1. p999999_trade_value,1.0
+BKE,Retail-Wholesale,Retail - Apparel and Shoes,0,,,
+BKKT,Business Services,Technology Services,0,,,
+BKNG,Retail-Wholesale,Internet - Commerce,0,202600.0,4. p999_trade_value,36.0
+BKR,Oils-Energy,Oil and Gas - Field Services,0,84000.0,5. p99_trade_value,3.0
+BKSY,Business Services,Technology Services,0,,,
+BKU,Finance,Banks - Major Regional,0,3750.0,1. p999999_trade_value,1.0
+BL,Computer and Technology,Internet - Software,0,152950.0,1. p999999_trade_value,1.0
+BLBD,Auto-Tires-Trucks,Automotive - Domestic,0,,,
+BLCO,Medical,Medical Services,0,,,
+BLD,Construction,Building Products - Miscellaneous,0,,,
+BLDE,Business Services,Technology Services,0,22714.999999999996,1. p999999_trade_value,1.0
+BLDR,Retail-Wholesale,Building Products - Retail,0,61294.99999999999,5. p99_trade_value,13.0
+BLFS,Medical,Medical - Products,0,,,
+BLK,Finance,Financial - Investment Management,0,,,
+BLKB,Computer and Technology,Computer - Software,0,7600.0,1. p999999_trade_value,2.0
+BLMN,Retail-Wholesale,Retail - Restaurants,0,41580.0,1. p999999_trade_value,1.0
+BLND,Computer and Technology,Internet - Software,0,12500.0,1. p999999_trade_value,1.0
+BLNK,Computer and Technology,Electronics - Miscellaneous Services,0,7280.0,8. p75_trade_value,2.0
+BLRX,Medical,Medical - Drugs,0,3730.0000000000005,1. p999999_trade_value,1.0
+BLZE,Computer and Technology,Internet - Software,0,5000.0,1. p999999_trade_value,1.0
+BMA,Finance,Banks - Foreign,0,29000.0,1. p999999_trade_value,1.0
+BMBL,Computer and Technology,Internet - Software,0,290910.0,5. p99_trade_value,2.0
+BMEA,Medical,Medical - Biomedical and Genetics,0,,,
+BMI,Computer and Technology,Instruments - Control,0,18720.0,1. p999999_trade_value,1.0
+BMO,Finance,Banks - Foreign,0,10000.0,7. p90_trade_value,7.0
+BMRA,Medical,Medical - Drugs,0,,,
+BMRN,Medical,Medical - Biomedical and Genetics,0,102000.0,5. p99_trade_value,3.0
+BMY,Medical,Medical - Biomedical and Genetics,0,7984.0,8. p75_trade_value,656.0
+BN,Finance,Real Estate - Operations,0,,,
+BNED,Consumer Discretionary,Consumer Products - Discretionary,0,,,
+BNGO,Medical,Medical - Biomedical and Genetics,0,,,
+BNS,Finance,Banks - Foreign,0,21000.0,6. p95_trade_value,2.0
+BNTX,Medical,Medical - Biomedical and Genetics,0,,,
+BOH,Finance,Banks - West,0,,,
+BOKF,Finance,Banks - Southwest,0,9900.0,1. p999999_trade_value,1.0
+BOOT,Retail-Wholesale,Retail - Apparel and Shoes,0,,,
+BOX,Computer and Technology,Internet - Software,0,,,
+BP,Oils-Energy,Oil and Gas - Integrated - International,0,,,
+BPMC,Medical,Medical - Biomedical and Genetics,0,107414.99999999999,5. p99_trade_value,6.0
+BPOP,Finance,Banks - Southeast,0,13097.999999999998,1. p999999_trade_value,1.0
+BR,Computer and Technology,Internet - Software,0,12782.0,7. p90_trade_value,3.0
+BRBR,Consumer Staples,Food - Miscellaneous,0,,,
+BRC,Industrial Products,Security and Safety Services,0,,,
+BRFS,Consumer Staples,Food - Miscellaneous,0,,,
+BRKR,Computer and Technology,Instruments - Scientific,0,224460.0,1. p999999_trade_value,1.0
+BRO,Finance,Insurance - Brokerage,0,191040.0,1. p999999_trade_value,1.0
+BROS,Retail-Wholesale,Retail - Restaurants,0,,,
+BRY,Oils-Energy,Oil and Gas - Integrated - United States,0,4900.0,1. p999999_trade_value,1.0
+BRZE,Computer and Technology,Internet - Software,0,8240.0,8. p75_trade_value,97.0
+BSX,Medical,Medical - Products,0,,,
+BSY,Computer and Technology,Internet - Software,0,5950.0,8. p75_trade_value,6.0
+BTAI,Medical,Medical - Biomedical and Genetics,0,,,
+BTBT,Business Services,Technology Services,0,64750.0,1. p999999_trade_value,1.0
+BTCM,Business Services,Technology Services,0,3675.0,1. p999999_trade_value,1.0
+BTDR,Business Services,Technology Services,0,10544.999999999998,8. p75_trade_value,424.0
+BTG,Basic Materials,Mining - Gold,0,28000.0,7. p90_trade_value,2.0
+BTI,Consumer Staples,Tobacco,0,7540.000000000001,8. p75_trade_value,87.0
+BTM,Finance,Financial - Miscellaneous Services,0,,,
+BTSG,Medical,Medical Services,0,49500.0,8. p75_trade_value,2.0
+BTU,Oils-Energy,Coal,0,495000.0,1. p999999_trade_value,1.0
+BUD,Consumer Staples,Beverages - Alcohol,0,165000.00000000003,1. p999999_trade_value,1.0
+BULL,Finance,Financial - Miscellaneous Services,0,800000.0,1. p999999_trade_value,1.0
+BUR,Finance,Financial - Miscellaneous Services,0,,,
+BURL,Retail-Wholesale,Retail - Discount Stores,0,950000.0,4. p999_trade_value,4.0
+BVS,Medical,Medical - Drugs,0,,,
+BW,Computer and Technology,Electronics - Power Generation,0,,,
+BWA,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+BWIN,Finance,Insurance - Life Insurance,0,,,
+BWXT,Aerospace,Aerospace - Defense Equipment,0,995219.9999999999,1. p999999_trade_value,1.0
+BX,Finance,Financial - Miscellaneous Services,0,837600.0,1. p999999_trade_value,2.0
+BXMT,Finance,REIT and Equity Trust,0,,,
+BXP,Finance,REIT and Equity Trust - Other,0,7285.000000000001,8. p75_trade_value,31.0
+BXSL,Finance,Financial - SBIC & Commercial Industry,0,,,
+BYD,Consumer Discretionary,Gaming,0,9800.0,8. p75_trade_value,29.0
+BYND,Consumer Staples,Food - Meat Products,0,,,
+BYON,Retail-Wholesale,Internet - Commerce,0,52500.0,5. p99_trade_value,5.0
+BYRN,Business Services,Technology Services,0,,,
+BZ,Computer and Technology,Internet - Software,0,,,
+BZAI,Unclassified,Unclassified,0,,,
+BZFD,Consumer Discretionary,Media Conglomerates,0,6900.0,1. p999999_trade_value,1.0
+BZH,Construction,Building Products - Home Builders,0,,,
+BZUN,Computer and Technology,Computers - IT Services,0,,,
+C,Finance,Financial - Investment Bank,0,920465.0,1. p999999_trade_value,1.0
+CAAP,Transportation,Transportation - Airline,0,6000.0,1. p999999_trade_value,2.0
+CABA,Medical,Medical - Biomedical and Genetics,0,,,
+CACC,Finance,Financial - Consumer Loans,0,,,
+CACI,Computer and Technology,Computer - Services,0,7950.0,8. p75_trade_value,53.0
+CADE,Finance,Banks - Southeast,0,3750.0,1. p999999_trade_value,1.0
+CADL,Medical,Medical - Biomedical and Genetics,0,,,
+CAE,Aerospace,Aerospace - Defense Equipment,0,4000.0,8. p75_trade_value,2.0
+CAG,Consumer Staples,Food - Miscellaneous,0,8710.0,8. p75_trade_value,34.0
+CAH,Medical,Medical - Dental Supplies,0,,,
+CAKE,Retail-Wholesale,Retail - Restaurants,0,12537.0,7. p90_trade_value,19.0
+CAL,Consumer Discretionary,Shoes and Retail Apparel ,0,29160.000000000004,1. p999999_trade_value,1.0
+CALM,Basic Materials,Agriculture - Products,0,48179.99999999999,5. p99_trade_value,4.0
+CALX,Computer and Technology,Internet - Software,0,12375.0,8. p75_trade_value,9.0
+CAMT,Computer and Technology,Electronics - Measuring Instruments,0,40999.99999999999,1. p999999_trade_value,1.0
+CAN,Finance,Financial - Miscellaneous Services,0,79758.0,1. p999999_trade_value,1.0
+CAPL,Oils-Energy,Oil and Gas - Refining and Marketing - Master Limited Partnerships,0,30439.0,1. p999999_trade_value,1.0
+CAPR,Medical,Medical - Products,0,391000.0,1. p999999_trade_value,1.0
+CAR,Transportation,Transportation - Services,0,552500.0,4. p999_trade_value,4.0
+CARG,Auto-Tires-Trucks,Automotive - Replacement Parts,0,,,
+CARR,Construction,Building Products - Air Conditioner and Heating,0,364320.0,1. p999999_trade_value,1.0
+CART,Retail-Wholesale,Internet - Commerce,0,7789.999999999999,8. p75_trade_value,284.0
+CASY,Retail-Wholesale,Retail - Convenience Stores,0,525000.0,1. p999999_trade_value,1.0
+CAT,Industrial Products,Manufacturing - Construction and Mining,0,1337500.0,3. p9999_trade_value,2.0
+CATO,Retail-Wholesale,Retail - Apparel and Shoes,0,,,
+CATX,Medical,Medical - Drugs,0,,,
+CAVA,Retail-Wholesale,Retail - Restaurants,0,836073.0,3. p9999_trade_value,2.0
+CB,Finance,Insurance - Property and Casualty,0,57000.0,1. p999999_trade_value,1.0
+CBOE,Finance,Securities and Exchanges,0,262500.0,1. p999999_trade_value,1.0
+CBRE,Finance,Real Estate - Operations,0,548475.0,1. p999999_trade_value,1.0
+CBRL,Retail-Wholesale,Retail - Restaurants,0,,,
+CBSH,Finance,Banks - Midwest,0,,,
+CBT,Basic Materials,Chemical - Diversified ,0,21000.0,1. p999999_trade_value,1.0
+CC,Basic Materials,Chemical - Diversified ,0,,,
+CCB,Finance,Banks - West,0,9000.0,1. p999999_trade_value,1.0
+CCCC,Medical,Medical - Biomedical and Genetics,0,850000.0,1. p999999_trade_value,1.0
+CCCS,Computer and Technology,Internet - Software,0,10000.0,8. p75_trade_value,2.0
+CCEP,Consumer Staples,Beverages - Soft drinks,0,,,
+CCI,Finance,REIT and Equity Trust - Other,0,340000.0,1. p999999_trade_value,1.0
+CCJ,Basic Materials,Mining - Miscellaneous,0,,,
+CCK,Industrial Products,Containers - Metal and Glass,0,638820.0000000001,1. p999999_trade_value,1.0
+CCL,Consumer Discretionary,Leisure and Recreation Services,0,,,
+CCLD,Medical,Medical Info Systems,0,4768.0,1. p999999_trade_value,1.0
+CCOI,Computer and Technology,Wireless National,0,,,
+CCRN,Business Services,Staffing Firms,0,,,
+CCS,Construction,Building Products - Home Builders,0,60000.0,1. p999999_trade_value,1.0
+CCSI,Computer and Technology,Internet - Software,0,5500.000000000001,1. p999999_trade_value,1.0
+CDE,Basic Materials,Mining - Non Ferrous,0,,,
+CDLX,Business Services,Technology Services,0,11599.999999999998,7. p90_trade_value,2.0
+CDNA,Medical,Medical Services,0,,,
+CDNS,Computer and Technology,Computer - Software,0,332464.0,1. p999999_trade_value,1.0
+CDTX,Medical,Medical - Biomedical and Genetics,0,10620.0,1. p999999_trade_value,1.0
+CDW,Computer and Technology,Computers - IT Services,0,,,
+CDXS,Medical,Medical - Biomedical and Genetics,0,,,
+CDZI,Consumer Staples,Agriculture - Operations,0,,,
+CE,Basic Materials,Chemical - Specialty,0,,,
+CECO,Industrial Products,Pollution Control,0,3950.0,1. p999999_trade_value,1.0
+CEG,Oils-Energy,Alternative Energy - Other,0,9450.0,8. p75_trade_value,4922.0
+CELC,Medical,Medical - Biomedical and Genetics,0,14500.0,1. p999999_trade_value,1.0
+CELH,Consumer Staples,Food - Miscellaneous,0,900000.0,1. p999999_trade_value,1.0
+CENT,Consumer Discretionary,Consumer Products - Discretionary,0,,,
+CENX,Industrial Products,Metal Products - Procurement and Fabrication,0,,,
+CEP,Unclassified,Unclassified,0,,,
+CEPU,Oils-Energy,Alternative Energy - Other,0,6000.0,1. p999999_trade_value,1.0
+CERS,Medical,Medical - Products,0,3020.0000000000005,1. p999999_trade_value,1.0
+CERT,Medical,Medical - Biomedical and Genetics,0,,,
+CEVA,Computer and Technology,Electronics - Semiconductors,0,4950.0,1. p999999_trade_value,1.0
+CF,Basic Materials,Fertilizers,0,437400.0,1. p999999_trade_value,1.0
+CFG,Finance,Banks - Northeast,0,39780.0,6. p95_trade_value,9.0
+CFLT,Computer and Technology,Internet - Software,0,,,
+CFR,Finance,Banks - Southwest,0,,,
+CG,Finance,Financial - Investment Management,0,,,
+CGC,Medical,Medical - Products,0,,,
+CGEM,Medical,Medical - Biomedical and Genetics,0,,,
+CGEN,Medical,Medical - Biomedical and Genetics,0,,,
+CGNT,Computer and Technology,Internet - Software,0,,,
+CGNX,Computer and Technology,Electronics - Testing Equipment,0,,,
+CGON,Medical,Medical - Biomedical and Genetics,0,9000.0,8. p75_trade_value,23.0
+CHCT,Finance,REIT and Equity Trust - Other,0,,,
+CHD,Consumer Staples,Consumer Products - Staples,0,,,
+CHDN,Consumer Discretionary,Gaming,0,216000.0,1. p999999_trade_value,1.0
+CHE,Medical,Medical - Outpatient and Home Healthcare,0,,,
+CHEF,Consumer Staples,Food - Miscellaneous,0,38750.0,7. p90_trade_value,2.0
+CHGG,Computer and Technology,Internet - Software,0,,,
+CHH,Consumer Discretionary,Hotels and Motels,0,3340.9999999999995,3. p9999_trade_value,1.0
+CHKP,Computer and Technology,Security,0,,,
+CHPT,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+CHRD,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,,,
+CHRS,Medical,Medical - Biomedical and Genetics,0,,,
+CHRW,Transportation,Transportation - Services,0,229860.0,5. p99_trade_value,3.0
+CHTR,Consumer Discretionary,Cable Television,0,,,
+CHWY,Retail-Wholesale,Internet - Commerce,0,,,
+CHX,Construction,Engineering - R and D Services,0,3375.0,1. p999999_trade_value,1.0
+CI,Medical,Medical - HMOs,0,77600.0,5. p99_trade_value,25.0
+CIA,Finance,Insurance - Life Insurance,0,3240.0,1. p999999_trade_value,1.0
+CIEN,Computer and Technology,Communication - Components,0,,,
+CIFR,Business Services,Technology Services,0,149990.0,5. p99_trade_value,6.0
+CIGI,Finance,Real Estate - Operations,0,4800.0,1. p999999_trade_value,1.0
+CIM,Finance,REIT and Equity Trust,0,,,
+CINF,Finance,Insurance - Property and Casualty,0,38000.0,6. p95_trade_value,3.0
+CIVI,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,,,
+CL,Consumer Staples,Consumer Products - Staples,0,877710.0,1. p999999_trade_value,1.0
+CLB,Oils-Energy,Oil and Gas - Field Services,0,,,
+CLBK,Finance,Financial - Miscellaneous Services,0,,,
+CLBR,Unclassified,Unclassified,0,,,
+CLBT,Computer and Technology,Internet - Software,0,7808.0,8. p75_trade_value,33.0
+CLDX,Medical,Medical - Biomedical and Genetics,0,76140.0,6. p95_trade_value,4.0
+CLF,Basic Materials,Steel - Producers,0,266000.0,1. p999999_trade_value,1.0
+CLFD,Computer and Technology,Wireless Equipment,0,21440.0,1. p999999_trade_value,1.0
+CLH,Business Services,Waste Removal Services,0,,,
+CLMT,Oils-Energy,Oil and Gas - Integrated - United States,0,168750.0,5. p99_trade_value,8.0
+CLOV,Medical,Medical Info Systems,0,12909.0,6. p95_trade_value,16.0
+CLPT,Medical,Medical - Instruments,0,11205.0,8. p75_trade_value,6.0
+CLS,Computer and Technology,Electronics - Manufacturing Services,0,8517.0,8. p75_trade_value,1428.0
+CLSD,Medical,Medical - Biomedical and Genetics,0,,,
+CLSK,Finance,Financial - Miscellaneous Services,0,,,
+CLW,Basic Materials,Paper and Related Products,0,,,
+CLX,Consumer Staples,Consumer Products - Staples,0,,,
+CM,Finance,Banks - Foreign,0,20000.0,5. p99_trade_value,2.0
+CMA,Finance,Banks - Major Regional,0,,,
+CMBT,Transportation,Transportation - Shipping,0,3250.0,1. p999999_trade_value,1.0
+CMC,Basic Materials,Steel - Producers,0,,,
+CMCL,Basic Materials,Mining - Gold,0,5400.0,1. p999999_trade_value,1.0
+CMCM,Computer and Technology,Internet - Software,0,3500.0,1. p999999_trade_value,2.0
+CMCO,Industrial Products,Manufacturing - Material Handling,0,,,
+CMCSA,Consumer Discretionary,Cable Television,0,,,
+CMCT,Finance,REIT and Equity Trust - Other,0,,,
+CME,Finance,Securities and Exchanges,0,9125.0,8. p75_trade_value,222.0
+CMG,Retail-Wholesale,Retail - Restaurants,0,,,
+CMI,Auto-Tires-Trucks,Automotive - Internal Combustion Engines,0,22000.000000000004,7. p90_trade_value,29.0
+CMP,Basic Materials,Chemical - Diversified ,0,38120.00000000001,6. p95_trade_value,2.0
+CMPO,Business Services,Financial Transaction Services,0,,,
+CMPR,Consumer Discretionary,Consumer Services - Miscellaneous,0,9500.0,8. p75_trade_value,5.0
+CMPS,Medical,Medical Services,0,,,
+CMPX,Medical,Medical - Biomedical and Genetics,0,,,
+CMS,Utilities,Utility - Electric Power,0,10005.0,8. p75_trade_value,12.0
+CMTL,Computer and Technology,Wireless Equipment,0,6182.0,8. p75_trade_value,7.0
+CNA,Finance,Insurance - Property and Casualty,0,36000.0,1. p999999_trade_value,1.0
+CNC,Medical,Medical - HMOs,0,149680.00000000003,5. p99_trade_value,13.0
+CNDT,Business Services,Outsourcing,0,,,
+CNH,Industrial Products,Manufacturing - Farm Equipment,0,,,
+CNI,Transportation,Transportation - Rail,0,,,
+CNK,Consumer Discretionary,Film and Television Production and Distribution,0,175000.0,6. p95_trade_value,6.0
+CNM,Industrial Products,Manufacturing - Tools & Related Products,0,,,
+CNMD,Medical,Medical - Dental Supplies,0,,,
+CNNE,Finance,Financial - Investment Management,0,45500.0,1. p999999_trade_value,1.0
+CNO,Finance,Insurance - Multi line,0,,,
+CNP,Utilities,Utility - Electric Power,0,41490.0,1. p999999_trade_value,1.0
+CNQ,Oils-Energy,Oil and Gas - Exploration and Production - Canadian,0,55319.99999999999,1. p999999_trade_value,1.0
+CNR,Oils-Energy,Coal,0,,,
+CNTA,Medical,Medical - Drugs,0,600000.0,1. p999999_trade_value,1.0
+CNX,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,250000.0,5. p99_trade_value,2.0
+CNXC,Business Services,Business - Services,0,,,
+CNXN,Retail-Wholesale,Retail - Computer Hardware,0,,,
+COCO,Consumer Staples,Beverages - Soft drinks,0,,,
+COF,Finance,Financial - Consumer Loans,0,708000.0,4. p999_trade_value,6.0
+COGT,Medical,Medical - Biomedical and Genetics,0,,,
+COHR,Business Services,Technology Services,0,8988.000000000002,8. p75_trade_value,832.0
+COHU,Computer and Technology,Electronics - Manufacturing Machinery,0,,,
+COIN,Finance,Financial - Miscellaneous Services,0,,,
+COLB,Finance,Banks - West,0,,,
+COLD,Finance,REIT and Equity Trust - Other,0,,,
+COLL,Medical,Medical - Drugs,0,,,
+COLM,Consumer Discretionary,Textile - Apparel,0,5670.0,8. p75_trade_value,6.0
+COMM,Computer and Technology,Communication - Infrastructure,0,,,
+COMP,Computer and Technology,Internet - Software,0,75000.0,1. p999999_trade_value,1.0
+COO,Medical,Medical - Dental Supplies,0,,,
+COOP,Finance,Financial - Consumer Loans,0,,,
+COP,Oils-Energy,Oil and Gas - Integrated - United States,0,,,
+COR,Medical,Medical Services,0,,,
+CORT,Medical,Medical - Drugs,0,,,
+CORZ,Finance,Financial - Miscellaneous Services,0,574770.0,4. p999_trade_value,6.0
+COST,Retail-Wholesale,Retail - Discount Stores,0,,,
+COTY,Consumer Staples,Cosmetics,0,12000.0,1. p999999_trade_value,1.0
+COUR,Business Services,Technology Services,0,44865.0,1. p999999_trade_value,1.0
+CP,Transportation,Transportation - Rail,0,,,
+CPA,Transportation,Transportation - Airline,0,,,
+CPAY,Business Services,Financial Transaction Services,0,,,
+CPB,Consumer Staples,Food - Miscellaneous,0,,,
+CPF,Finance,Banks - West,0,11250.0,1. p999999_trade_value,1.0
+CPIX,Medical,Medical - Drugs,0,,,
+CPNG,Retail-Wholesale,Internet - Commerce,0,323082.0,1. p999999_trade_value,1.0
+CPRI,Retail-Wholesale,Retail - Apparel and Shoes,0,,,
+CPRT,Business Services,Auction and Valuation Services,0,96425.0,5. p99_trade_value,2.0
+CPRX,Medical,Medical - Drugs,0,,,
+CPS,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+CPT,Finance,REIT and Equity Trust - Residential,0,5220.0,1. p999999_trade_value,1.0
+CQP,Oils-Energy,Alternative Energy - Other,0,7000.0,1. p999999_trade_value,1.0
+CR,Industrial Products,Manufacturing - General Industrial ,0,742500.0,1. p999999_trade_value,1.0
+CRBG,Finance,Insurance - Multi line,0,,,
+CRBP,Medical,Medical - Drugs,0,,,
+CRC,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,,,
+CRCL,Finance,Financial - Miscellaneous Services,0,336150.0,1. p999999_trade_value,1.0
+CRCT,Business Services,Technology Services,0,,,
+CRDF,Medical,Medical - Biomedical and Genetics,0,31200.0,7. p90_trade_value,2.0
+CRDO,Computer and Technology,Electronics - Semiconductors,0,572565.0,1. p999999_trade_value,2.0
+CRGY,Oils-Energy,Alternative Energy - Other,0,,,
+CRH,Construction,Building Products - Miscellaneous,0,1000000.0,4. p999_trade_value,2.0
+CRI,Consumer Discretionary,Shoes and Retail Apparel ,0,74759.99999999999,7. p90_trade_value,14.0
+CRK,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,,,
+CRL,Medical,Medical Services,0,7400.0,8. p75_trade_value,119.0
+CRM,Computer and Technology,Computer - Software,0,,,
+CRMD,Medical,Medical - Biomedical and Genetics,0,,,
+CRNC,Computer and Technology,Computers - IT Services,0,97200.00000000001,1. p999999_trade_value,1.0
+CRNT,Computer and Technology,Wireless Non-US ,0,5700.0,1. p999999_trade_value,1.0
+CRNX,Medical,Medical - Drugs,0,,,
+CRON,Medical,Medical - Drugs,0,4990.000000000001,1. p999999_trade_value,1.0
+CROX,Consumer Discretionary,Textile - Apparel,0,960000.0,4. p999_trade_value,3.0
+CRS,Basic Materials,Steel - Speciality,0,,,
+CRSP,Medical,Medical - Biomedical and Genetics,0,259870.00000000003,1. p999999_trade_value,2.0
+CRSR,Consumer Discretionary,Gaming,0,150500.0,1. p999999_trade_value,1.0
+CRTO,Computer and Technology,Internet - Software and Services,0,,,
+CRUS,Computer and Technology,Electronics - Semiconductors,0,259870.00000000003,5. p99_trade_value,3.0
+CRVL,Business Services,Business - Services,0,5500.0,1. p999999_trade_value,1.0
+CRVS,Medical,Medical - Biomedical and Genetics,0,,,
+CRWD,Computer and Technology,Security,0,8415.0,8. p75_trade_value,17134.0
+CRWV,Computer and Technology,Internet - Software,0,889600.0,3. p9999_trade_value,5.0
+CSCO,Computer and Technology,Computer - Networking,0,,,
+CSGP,Computer and Technology,Computers - IT Services,0,386880.0,1. p999999_trade_value,1.0
+CSIQ,Oils-Energy,Solar,0,38960.0,1. p999999_trade_value,1.0
+CSL,Conglomerates,Diversified Operations,0,8480.0,8. p75_trade_value,6.0
+CSTL,Medical,Medical - Biomedical and Genetics,0,,,
+CSTM,Industrial Products,Metal Products - Distribution,0,,,
+CSWC,Finance,Financial - Investment Management,0,3720.0000000000005,1. p999999_trade_value,1.0
+CSX,Transportation,Transportation - Rail,0,,,
+CTAS,Business Services,Business - Services,0,316260.0,1. p999999_trade_value,1.0
+CTEV,Medical,Medical Info Systems,0,,,
+CTLP,Business Services,Financial Transaction Services,0,,,
+CTMX,Medical,Medical - Biomedical and Genetics,0,,,
+CTO,Finance,REIT and Equity Trust - Other,0,3465.0,1. p999999_trade_value,1.0
+CTRA,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,33000.0,5. p99_trade_value,2.0
+CTRE,Finance,REIT and Equity Trust - Other,0,,,
+CTRI,Utilities,Utility - Electric Power,0,,,
+CTRN,Retail-Wholesale,Retail - Apparel and Shoes,0,7500.0,8. p75_trade_value,6.0
+CTSH,Computer and Technology,Computers - IT Services,0,9450.0,8. p75_trade_value,99.0
+CTVA,Consumer Staples,Agriculture - Operations,0,,,
+CTXR,Medical,Medical - Drugs,0,,,
+CUBE,Finance,REIT and Equity Trust - Other,0,,,
+CUBI,Finance,Banks - Southeast,0,,,
+CUK,Consumer Discretionary,Leisure and Recreation Services,0,,,
+CURI,Consumer Discretionary,Film and Television Production and Distribution,0,4200.0,1. p999999_trade_value,1.0
+CURV,Retail-Wholesale,Retail - Apparel and Shoes,0,25000.0,1. p999999_trade_value,1.0
+CVAC,Medical,Medical - Biomedical and Genetics,0,21420.0,1. p999999_trade_value,1.0
+CVCO,Construction,Building Products - Mobile Homes and RV Builders,0,,,
+CVE,Oils-Energy,Oil and Gas - Integrated - Canadian,0,95800.0,1. p999999_trade_value,1.0
+CVEO,Consumer Discretionary,Hotels and Motels,0,5000.0,1. p999999_trade_value,1.0
+CVGW,Consumer Staples,Agriculture - Operations,0,,,
+CVI,Oils-Energy,Oil and Gas - Refining and Marketing,0,140000.0,6. p95_trade_value,4.0
+CVLT,Computer and Technology,Computer - Software,0,765000.0,4. p999_trade_value,2.0
+CVNA,Retail-Wholesale,Internet - Commerce,0,,,
+CVRX,Medical,Medical - Instruments,0,,,
+CVS,Medical,Medical Services,0,,,
+CVX,Oils-Energy,Oil and Gas - Integrated - International,0,224000.0,4. p999_trade_value,9.0
+CW,Aerospace,Aerospace - Defense Equipment,0,8910.0,8. p75_trade_value,41.0
+CWAN,Computer and Technology,Internet - Software,0,38720.00000000001,1. p999999_trade_value,1.0
+CWEN,Oils-Energy,Alternative Energy - Other,0,,,
+CWH,Auto-Tires-Trucks,Automotive - Original Equipment,0,8125.0,8. p75_trade_value,36.0
+CWK,Finance,Real Estate - Operations,0,60000.0,8. p75_trade_value,2.0
+CWST,Business Services,Waste Removal Services,0,,,
+CX,Construction,Building Products - Concrete and Aggregates,0,8151.000000000001,8. p75_trade_value,6.0
+CXAI,Business Services,Technology Services,0,,,
+CXDO,Computer and Technology,Internet - Services,0,,,
+CXM,Business Services,Technology Services,0,,,
+CXT,Business Services,Technology Services,0,3600.0,1. p999999_trade_value,1.0
+CXW,Finance,REIT and Equity Trust - Other,0,6880.0,8. p75_trade_value,34.0
+CYBN,Medical,Medical - Biomedical and Genetics,0,,,
+CYBR,Computer and Technology,Security,0,177100.0,1. p999999_trade_value,1.0
+CYD,Auto-Tires-Trucks,Automotive - Original Equipment,0,15000.0,1. p999999_trade_value,1.0
+CYH,Medical,Medical - Hospital,0,,,
+CYRX,Transportation,Transportation - Services,0,3690.0,1. p999999_trade_value,1.0
+CYTK,Medical,Medical - Biomedical and Genetics,0,,,
+CZR,Consumer Discretionary,Leisure and Recreation Services,0,,,
+D,Utilities,Utility - Electric Power,0,,,
+DAC,Transportation,Transportation - Shipping,0,5050.0,8. p75_trade_value,4.0
+DADA,Retail-Wholesale,Internet - Commerce,0,,,
+DAKT,Computer and Technology,Electronics - Miscellaneous Products,0,42500.0,6. p95_trade_value,3.0
+DAL,Transportation,Transportation - Airline,0,,,
+DAN,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+DAO,Business Services,Technology Services,0,,,
+DAR,Consumer Staples,Food - Miscellaneous,0,8064.0,8. p75_trade_value,43.0
+DASH,Computer and Technology,Internet - Services,0,9333.0,8. p75_trade_value,2748.0
+DAVA,Computer and Technology,Computers - IT Services,0,,,
+DAVE,Business Services,Technology Services,0,,,
+DAWN,Medical,Medical - Biomedical and Genetics,0,,,
+DAY,Computer and Technology,Internet - Software,0,15500.0,6. p95_trade_value,2.0
+DB,Finance,Banks - Foreign,0,,,
+DBD,Computer and Technology,Internet - Software,0,4400.0,8. p75_trade_value,6.0
+DBI,Retail-Wholesale,Retail - Apparel and Shoes,0,66000.0,6. p95_trade_value,2.0
+DBRG,Finance,REIT and Equity Trust,0,8200.0,8. p75_trade_value,42.0
+DBX,Computer and Technology,Internet - Services,0,38976.0,6. p95_trade_value,19.0
+DC,Basic Materials,Mining - Gold,0,,,
+DCGO,Medical,Medical Services,0,,,
+DCI,Industrial Products,Pollution Control,0,8189.999999999999,1. p999999_trade_value,1.0
+DCO,Aerospace,Aerospace - Defense Equipment,0,,,
+DCOM,Finance,Banks - Southeast,0,,,
+DCTH,Medical,Medical - Instruments,0,8469.999999999998,2. p99999_trade_value,1.0
+DD,Basic Materials,Chemical - Diversified ,0,150660.0,1. p999999_trade_value,1.0
+DDD,Industrial Products,Commercial Printing,0,7230.0,8. p75_trade_value,3.0
+DDOG,Computer and Technology,Internet - Software,0,,,
+DE,Industrial Products,Manufacturing - Farm Equipment,0,8225.0,8. p75_trade_value,1444.0
+DEA,Finance,REIT and Equity Trust - Other,0,,,
+DECK,Retail-Wholesale,Retail - Apparel and Shoes,0,,,
+DEI,Finance,REIT and Equity Trust - Other,0,,,
+DELL,Computer and Technology,Computer - Micro Computers,0,651000.0,1. p999999_trade_value,1.0
+DEO,Consumer Staples,Beverages - Alcohol,0,,,
+DFDV,Computer and Technology,Internet - Software,0,49750.0,1. p999999_trade_value,1.0
+DFH,Construction,Building Products - Home Builders,0,,,
+DFIN,Computer and Technology,Internet - Software and Services,0,,,
+DG,Retail-Wholesale,Retail - Discount Stores,0,,,
+DGX,Medical,Medical - Outpatient and Home Healthcare,0,,,
+DHI,Construction,Building Products - Home Builders,0,481500.0,1. p999999_trade_value,1.0
+DHR,Medical,Medical Services,0,95000.0,5. p99_trade_value,27.0
+DHT,Transportation,Transportation - Shipping,0,,,
+DIN,Retail-Wholesale,Retail - Restaurants,0,18000.0,8. p75_trade_value,5.0
+DINO,Oils-Energy,Oil and Gas - Refining and Marketing,0,,,
+DIOD,Computer and Technology,Electronics - Semiconductors,0,,,
+DIS,Consumer Discretionary,Media Conglomerates,0,8320.0,8. p75_trade_value,3651.0
+DJT,Computer and Technology,Internet - Software,0,,,
+DK,Oils-Energy,Oil and Gas - Refining and Marketing,0,,,
+DKL,Oils-Energy,Oil and Gas - Production Pipeline - MLB,0,31680.0,8. p75_trade_value,2.0
+DKNG,Consumer Discretionary,Gaming,0,,,
+DKS,Retail-Wholesale,Retail - Miscellaneous,0,,,
+DLB,Consumer Discretionary,Audio Video Production,0,,,
+DLHC,Business Services,Staffing Firms,0,,,
+DLO,Business Services,Financial Transaction Services,0,,,
+DLR,Finance,REIT and Equity Trust - Other,0,,,
+DLTR,Retail-Wholesale,Retail - Discount Stores,0,,,
+DLX,Business Services,Business - Office Products,0,4148.0,1. p999999_trade_value,1.0
+DMRC,Industrial Products,Security and Safety Services,0,,,
+DNA,Medical,Medical - Biomedical and Genetics,0,12375.0,7. p90_trade_value,18.0
+DNB,Business Services,Business - Information Services,0,79820.0,1. p999999_trade_value,1.0
+DNLI,Medical,Medical - Biomedical and Genetics,0,41000.0,8. p75_trade_value,3.0
+DNN,Basic Materials,Mining - Miscellaneous,0,25000.0,8. p75_trade_value,7.0
+DNOW,Industrial Products,Manufacturing - General Industrial ,0,,,
+DNTH,Medical,Medical - Biomedical and Genetics,0,26250.0,1. p999999_trade_value,1.0
+DNUT,Consumer Staples,Consumer Products - Staples,0,11060.0,7. p90_trade_value,2.0
+DOC,Finance,REIT and Equity Trust - Other,0,6675.0,8. p75_trade_value,16.0
+DOCN,Computer and Technology,Internet - Software,0,,,
+DOCS,Medical,Medical Services,0,190000.0,4. p999_trade_value,2.0
+DOCU,Computer and Technology,Internet - Software,0,183000.0,4. p999_trade_value,4.0
+DOLE,Consumer Staples,Agriculture - Operations,0,,,
+DOMO,Computer and Technology,Internet - Software,0,,,
+DOOO,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+DORM,Auto-Tires-Trucks,Automotive - Replacement Parts,0,30000.0,8. p75_trade_value,2.0
+DOUG,Finance,Real Estate - Operations,0,,,
+DOV,Industrial Products,Manufacturing - General Industrial ,0,387000.0,1. p999999_trade_value,1.0
+DOW,Basic Materials,Chemical - Diversified ,0,,,
+DOX,Computer and Technology,Computers - IT Services,0,45000.0,1. p999999_trade_value,1.0
+DOYU,Consumer Discretionary,Gaming,0,,,
+DPZ,Retail-Wholesale,Retail - Restaurants,0,623700.0,1. p999999_trade_value,1.0
+DQ,Basic Materials,Chemical - Specialty,0,10449.0,8. p75_trade_value,72.0
+DRD,Basic Materials,Mining - Gold,0,28000.0,1. p999999_trade_value,1.0
+DRI,Retail-Wholesale,Retail - Restaurants,0,,,
+DRS,Aerospace,Aerospace - Defense Equipment,0,5800.0,8. p75_trade_value,2.0
+DRVN,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,0,4320.0,1. p999999_trade_value,1.0
+DSGX,Computer and Technology,Computer - Software,0,7103.999999999999,8. p75_trade_value,6.0
+DSP,Business Services,Technology Services,0,,,
+DSX,Transportation,Transportation - Shipping,0,,,
+DT,Computer and Technology,Computers - IT Services,0,,,
+DTE,Utilities,Utility - Electric Power,0,72720.0,1. p999999_trade_value,1.0
+DTM,Oils-Energy,Oil and Gas - Integrated - United States,0,15730.000000000002,1. p999999_trade_value,1.0
+DUK,Utilities,Utility - Electric Power,0,80000.0,5. p99_trade_value,5.0
+DUOL,Business Services,Technology Services,0,9303.0,8. p75_trade_value,904.0
+DV,Computer and Technology,Internet - Software,0,550000.0,1. p999999_trade_value,1.0
+DVA,Medical,Medical - Outpatient and Home Healthcare,0,396440.0,1. p999999_trade_value,1.0
+DVAX,Medical,Medical - Biomedical and Genetics,0,9690.0,8. p75_trade_value,3.0
+DVN,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,,,
+DWTX,Medical,Medical - Biomedical and Genetics,0,,,
+DXC,Computer and Technology,Computers - IT Services,0,,,
+DXCM,Medical,Medical - Instruments,0,100000.0,5. p99_trade_value,21.0
+DXPE,Industrial Products,Manufacturing - General Industrial ,0,17200.0,7. p90_trade_value,7.0
+DY,Construction,Building Products - Heavy Construction,0,,,
+DYAI,Medical,Medical - Biomedical and Genetics,0,,,
+DYN,Medical,Medical - Drugs,0,489755.0,5. p99_trade_value,2.0
+EA,Consumer Discretionary,Gaming,0,580000.0,4. p999_trade_value,3.0
+EAT,Retail-Wholesale,Retail - Restaurants,0,,,
+EB,Computer and Technology,Internet - Services,0,6500.0,1. p999999_trade_value,2.0
+EBAY,Retail-Wholesale,Internet - Commerce,0,807360.0,1. p999999_trade_value,1.0
+EBC,Finance,Banks - Northeast,0,5500.000000000001,8. p75_trade_value,6.0
+EBF,Industrial Products,Office Supplies,0,,,
+EBS,Medical,Medical - Biomedical and Genetics,0,,,
+EC,Oils-Energy,Oil and Gas - Integrated - International,0,5135.0,8. p75_trade_value,2.0
+ECL,Basic Materials,Chemical - Specialty,0,9610.0,6. p95_trade_value,9.0
+ECPG,Finance,Financial - Consumer Loans,0,10400.0,8. p75_trade_value,2.0
+ED,Utilities,Utility - Electric Power,0,6669.999999999999,8. p75_trade_value,29.0
+EDAP,Medical,Medical - Instruments,0,,,
+EDIT,Medical,Medical - Biomedical and Genetics,0,,,
+EDU,Consumer Discretionary,Schools,0,,,
+EEFT,Finance,Financial - Miscellaneous Services,0,20470.0,1. p999999_trade_value,1.0
+EFC,Finance,REIT and Equity Trust,0,19980.0,1. p999999_trade_value,1.0
+EFSC,Finance,Banks - Midwest,0,4500.0,1. p999999_trade_value,1.0
+EFX,Business Services,Consulting Services,0,,,
+EG,Finance,Insurance - Multi line,0,660000.0000000001,1. p999999_trade_value,1.0
+EGO,Basic Materials,Mining - Gold,0,32250.0,6. p95_trade_value,2.0
+EGP,Finance,REIT and Equity Trust - Other,0,5259.999999999999,2. p99999_trade_value,1.0
+EH,Aerospace,Aerospace - Defense Equipment,0,92540.0,4. p999_trade_value,2.0
+EHC,Medical,Medical - Outpatient and Home Healthcare,0,,,
+EHTH,Finance,Insurance - Brokerage,0,,,
+EIX,Utilities,Utility - Electric Power,0,,,
+EL,Consumer Staples,Cosmetics,0,358920.0,4. p999_trade_value,4.0
+ELAN,Medical,Medical - Outpatient and Home Healthcare,0,,,
+ELDN,Medical,Medical - Biomedical and Genetics,0,,,
+ELF,Consumer Staples,Cosmetics,0,,,
+ELME,Finance,REIT and Equity Trust - Residential,0,6000.0,1. p999999_trade_value,1.0
+ELS,Finance,REIT and Equity Trust - Residential,0,,,
+ELV,Medical,Medical Services,0,9360.0,8. p75_trade_value,597.0
+EME,Construction,Building Products - Heavy Construction,0,8200.0,8. p75_trade_value,99.0
+EMN,Basic Materials,Chemical - Diversified ,0,77350.0,1. p999999_trade_value,1.0
+EMR,Industrial Products,Manufacturing - Electronics,0,,,
+ENB,Oils-Energy,Oil and Gas - Production and Pipelines,0,9000.0,8. p75_trade_value,14.0
+ENOV,Medical,Medical Info Systems,0,,,
+ENPH,Oils-Energy,Solar,0,442000.0,3. p9999_trade_value,2.0
+ENS,Industrial Products,Manufacturing - Electronics,0,,,
+ENSG,Medical,Medical - Nursing Homes,0,6785.000000000001,8. p75_trade_value,4.0
+ENTG,Computer and Technology,Electronics - Manufacturing Machinery,0,,,
+ENVA,Finance,Financial - Consumer Loans,0,6250.0,8. p75_trade_value,2.0
+ENVX,Oils-Energy,Alternative Energy - Other,0,220000.0,1. p999999_trade_value,1.0
+EOG,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,,,
+EOLS,Medical,Medical - Products,0,,,
+EOSE,Industrial Products,Industrial Services,0,150000.0,1. p999999_trade_value,1.0
+EPAM,Computer and Technology,Computers - IT Services,0,9600.0,8. p75_trade_value,66.0
+EPD,Oils-Energy,Oil and Gas - Production Pipeline - MLB,0,52200.0,1. p999999_trade_value,1.0
+EPR,Finance,REIT and Equity Trust - Retail,0,,,
+EQH,Finance,Insurance - Multi line,0,7650.0,8. p75_trade_value,4.0
+EQIX,Finance,REIT and Equity Trust - Retail,0,,,
+EQNR,Oils-Energy,Oil and Gas - Refining and Marketing,0,144840.0,5. p99_trade_value,2.0
+EQR,Finance,REIT and Equity Trust - Residential,0,6000.0,7. p90_trade_value,2.0
+EQT,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,416520.0,4. p999_trade_value,2.0
+EQX,Basic Materials,Mining - Gold,0,,,
+ERIC,Computer and Technology,Wireless Equipment,0,46500.0,1. p999999_trade_value,1.0
+ERIE,Finance,Insurance - Brokerage,0,,,
+ERII,Industrial Products,Pollution Control,0,5000.0,8. p75_trade_value,4.0
+ERJ,Aerospace,Aerospace - Defense,0,,,
+ERO,Basic Materials,Mining - Non Ferrous,0,,,
+ES,Utilities,Utility - Electric Power,0,,,
+ESAB,Industrial Products,Metal Products - Procurement and Fabrication,0,24480.0,1. p999999_trade_value,1.0
+ESE,Industrial Products,Manufacturing - Electronics,0,,,
+ESI,Basic Materials,Chemical - Specialty,0,,,
+ESLT,Aerospace,Aerospace - Defense Equipment,0,8192.0,8. p75_trade_value,21.0
+ESPR,Medical,Medical - Drugs,0,8964.0,1. p999999_trade_value,1.0
+ESS,Finance,REIT and Equity Trust - Residential,0,,,
+ESTA,Medical,Medical Services,0,,,
+ESTC,Computer and Technology,Internet - Software,0,9850.0,8. p75_trade_value,397.0
+ET,Oils-Energy,Oil and Gas - Production Pipeline - MLB,0,105000.0,5. p99_trade_value,11.0
+ETD,Retail-Wholesale,Retail - Home Furnishings,0,4000.0,1. p999999_trade_value,1.0
+ETN,Industrial Products,Manufacturing - Electronics,0,105000.0,5. p99_trade_value,42.0
+ETNB,Medical,Medical - Biomedical and Genetics,0,11940.0,1. p999999_trade_value,1.0
+ETON,Medical,Medical - Biomedical and Genetics,0,,,
+ETOR,Finance,Insurance - Brokerage,0,117000.0,1. p999999_trade_value,1.0
+ETR,Utilities,Utility - Electric Power,0,68750.0,1. p999999_trade_value,1.0
+ETSY,Retail-Wholesale,Internet - Commerce,0,145000.0,5. p99_trade_value,38.0
+EU,Basic Materials,Mining - Miscellaneous,0,5478.0,1. p999999_trade_value,1.0
+EVER,Finance,Insurance - Multi line,0,,,
+EVGO,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+EVH,Computer and Technology,Internet - Software,0,95600.0,1. p999999_trade_value,1.0
+EVLV,Computer and Technology,Computers - IT Services,0,17988.0,6. p95_trade_value,2.0
+EVR,Finance,Financial - Investment Bank,0,445670.0,1. p999999_trade_value,1.0
+EVRG,Utilities,Utility - Electric Power,0,9305.999999999998,8. p75_trade_value,6.0
+EVTC,Business Services,Financial Transaction Services,0,4000.0,1. p999999_trade_value,1.0
+EW,Medical,Medical - Instruments,0,,,
+EWBC,Finance,Banks - West,0,27000.0,7. p90_trade_value,4.0
+EWCZ,Consumer Staples,Cosmetics,0,60000.0,1. p999999_trade_value,1.0
+EWTX,Medical,Medical - Biomedical and Genetics,0,7589.999999999999,8. p75_trade_value,155.0
+EXAS,Medical,Medical - Biomedical and Genetics,0,,,
+EXC,Utilities,Utility - Electric Power,0,,,
+EXE,Oils-Energy,Alternative Energy - Other,0,60000.0,6. p95_trade_value,39.0
+EXEL,Medical,Medical - Biomedical and Genetics,0,,,
+EXFY,Business Services,Financial Transaction Services,0,,,
+EXK,Basic Materials,Mining - Silver,0,12650.0,6. p95_trade_value,2.0
+EXP,Construction,Building Products - Concrete and Aggregates,0,,,
+EXPD,Transportation,Transportation - Services,0,,,
+EXPE,Retail-Wholesale,Internet - Commerce,0,498000.0,4. p999_trade_value,3.0
+EXPI,Finance,Real Estate - Operations,0,,,
+EXPO,Business Services,Consulting Services,0,,,
+EXR,Finance,REIT and Equity Trust - Other,0,,,
+EXTR,Computer and Technology,Computer - Networking,0,78771.99999999999,1. p999999_trade_value,1.0
+EYE,Consumer Staples,Consumer Products - Staples,0,24000.0,6. p95_trade_value,2.0
+EYEN,Medical,Medical - Biomedical and Genetics,0,,,
+EYPT,Medical,Medical - Biomedical and Genetics,0,,,
+EZPW,Finance,Financial - Consumer Loans,0,,,
+F,Auto-Tires-Trucks,Automotive - Domestic,0,299760.00000000006,4. p999_trade_value,4.0
+FA,Business Services,Technology Services,0,,,
+FAF,Finance,Insurance - Property and Casualty,0,3960.0,1. p999999_trade_value,1.0
+FANG,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,,,
+FARO,Computer and Technology,Computer - Integrated Systems,0,20000.0,1. p999999_trade_value,1.0
+FAST,Retail-Wholesale,Building Products - Retail,0,,,
+FATE,Medical,Medical - Biomedical and Genetics,0,7475.0,8. p75_trade_value,2.0
+FBIN,Retail-Wholesale,Retail - Home Furnishings,0,149600.0,1. p999999_trade_value,2.0
+FBIO,Medical,Medical - Biomedical and Genetics,0,,,
+FBK,Finance,Banks - Northeast,0,6500.0,1. p999999_trade_value,1.0
+FC,Business Services,Consulting Services,0,,,
+FCBC,Finance,Banks - Southeast,0,,,
+FCEL,Oils-Energy,Alternative Energy - Other,0,45000.0,1. p999999_trade_value,1.0
+FCFS,Business Services,Financial Transaction Services,0,4160.0,8. p75_trade_value,2.0
+FCN,Business Services,Consulting Services,0,,,
+FCNCA,Finance,Banks - Southeast,0,,,
+FCX,Basic Materials,Mining - Non Ferrous,0,,,
+FDMT,Medical,Medical - Drugs,0,,,
+FDP,Consumer Staples,Agriculture - Operations,0,8800.0,7. p90_trade_value,2.0
+FDS,Business Services,Business - Information Services,0,20880.0,5. p99_trade_value,2.0
+FDX,Transportation,Transportation - Air Freight and Cargo,0,,,
+FE,Utilities,Utility - Electric Power,0,,,
+FERG,Industrial Products,Manufacturing - General Industrial ,0,62500.0,5. p99_trade_value,3.0
+FFAI,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+FFIC,Finance,Financial - Savings and Loan,0,,,
+FFIV,Computer and Technology,Internet - Software,0,8470.0,8. p75_trade_value,128.0
+FGEN,Medical,Medical - Drugs,0,7265.000000000001,1. p999999_trade_value,1.0
+FHI,Finance,Financial - Investment Management,0,12000.0,1. p999999_trade_value,1.0
+FHN,Finance,Banks - Southwest,0,21440.0,6. p95_trade_value,4.0
+FI,Business Services,Financial Transaction Services,0,,,
+FICO,Computer and Technology,Computers - IT Services,0,55000.0,5. p99_trade_value,41.0
+FIGS,Retail-Wholesale,Retail - Apparel and Shoes,0,,,
+FINV,Finance,Financial - Miscellaneous Services,0,29970.0,8. p75_trade_value,2.0
+FIP,Finance,Real Estate - Operations,0,8350.0,8. p75_trade_value,3.0
+FIS,Business Services,Financial Transaction Services,0,,,
+FITB,Finance,Banks - Major Regional,0,123000.0,5. p99_trade_value,2.0
+FIVE,Retail-Wholesale,Retail - Miscellaneous,0,777000.0,1. p999999_trade_value,1.0
+FIVN,Computer and Technology,Internet - Software,0,287500.0,1. p999999_trade_value,1.0
+FIX,Construction,Building Products - Air Conditioner and Heating,0,274160.0,1. p999999_trade_value,1.0
+FIZZ,Consumer Staples,Beverages - Soft drinks,0,,,
+FL,Retail-Wholesale,Retail - Apparel and Shoes,0,,,
+FLEX,Computer and Technology,Electronics - Miscellaneous Products,0,170170.0,1. p999999_trade_value,1.0
+FLG,Finance,Banks - Northeast,0,,,
+FLGT,Medical,Medical Info Systems,0,3900.0,1. p999999_trade_value,1.0
+FLNC,Oils-Energy,Alternative Energy - Other,0,,,
+FLNG,Transportation,Transportation - Shipping,0,,,
+FLO,Consumer Staples,Food - Miscellaneous,0,,,
+FLR,Construction,Engineering - R and D Services,0,8000.0,8. p75_trade_value,140.0
+FLS,Industrial Products,Manufacturing - General Industrial ,0,60600.0,1. p999999_trade_value,1.0
+FLUT,Consumer Discretionary,Gaming,0,,,
+FLWS,Retail-Wholesale,Retail - Mail Order,0,4800.0,8. p75_trade_value,2.0
+FLYW,Computer and Technology,Internet - Software,0,,,
+FMC,Consumer Staples,Agriculture - Operations,0,,,
+FMNB,Finance,Banks - Midwest,0,,,
+FMX,Consumer Staples,Beverages - Soft drinks,0,11130.000000000002,8. p75_trade_value,3.0
+FN,Computer and Technology,Electronics - Miscellaneous Components,0,,,
+FND,Retail-Wholesale,Retail - Home Furnishings,0,166495.0,5. p99_trade_value,8.0
+FNF,Finance,Insurance - Multi line,0,,,
+FNGR,Business Services,Technology Services,0,9000.0,6. p95_trade_value,5.0
+FNKO,Consumer Discretionary,Consumer Products - Discretionary,0,,,
+FNV,Basic Materials,Mining - Gold,0,,,
+FOA,Finance,Financial - Mortgage & Related Services,0,5865.0,1. p999999_trade_value,1.0
+FOLD,Medical,Medical - Biomedical and Genetics,0,,,
+FOR,Finance,Real Estate - Development,0,4500.0,1. p999999_trade_value,1.0
+FORM,Computer and Technology,Electronics - Semiconductors,0,,,
+FOSL,Retail-Wholesale,Retail - Apparel and Shoes,0,,,
+FOUR,Business Services,Financial Transaction Services,0,311200.0,1. p999999_trade_value,1.0
+FOX,Consumer Discretionary,Broadcast Radio and Television,0,6761.999999999999,1. p999999_trade_value,1.0
+FOXA,Consumer Discretionary,Broadcast Radio and Television,0,,,
+FOXF,Auto-Tires-Trucks,Automotive - Domestic,0,55000.0,1. p999999_trade_value,1.0
+FPH,Finance,Real Estate - Development,0,,,
+FRGE,Finance,Financial - Miscellaneous Services,0,5830.0,1. p999999_trade_value,1.0
+FRHC,Finance,Financial - Miscellaneous Services,0,12000.0,1. p999999_trade_value,1.0
+FRME,Finance,Banks - Midwest,0,,,
+FRO,Transportation,Transportation - Shipping,0,,,
+FROG,Computer and Technology,Internet - Software,0,250740.0,1. p999999_trade_value,1.0
+FRPT,Consumer Staples,Food - Miscellaneous,0,7800.0,8. p75_trade_value,115.0
+FRSH,Computer and Technology,Internet - Software,0,84254.00000000001,1. p999999_trade_value,1.0
+FRSX,Business Services,Technology Services,0,,,
+FRT,Finance,REIT and Equity Trust - Retail,0,128810.00000000001,8. p75_trade_value,3.0
+FSK,Finance,Financial - SBIC & Commercial Industry,0,4800.0,8. p75_trade_value,3.0
+FSLR,Oils-Energy,Solar,0,,,
+FSLY,Computer and Technology,Internet - Software,0,8576.0,8. p75_trade_value,96.0
+FSM,Basic Materials,Mining - Miscellaneous,0,13540.0,1. p999999_trade_value,1.0
+FSS,Conglomerates,Diversified Operations,0,,,
+FTAI,Aerospace,Aerospace - Defense Equipment,0,,,
+FTDR,Construction,Building Products - Miscellaneous,0,,,
+FTEK,Industrial Products,Pollution Control,0,9970.0,1. p999999_trade_value,1.0
+FTI,Oils-Energy,Oil and Gas - Field Services,0,52529.99999999999,8. p75_trade_value,13.0
+FTNT,Computer and Technology,Security,0,980500.0,1. p999999_trade_value,1.0
+FTRE,Medical,Medical - Biomedical and Genetics,0,145000.0,1. p999999_trade_value,1.0
+FTV,Computer and Technology,Electronics - Testing Equipment,0,82390.00000000001,6. p95_trade_value,3.0
+FUBO,Consumer Discretionary,Broadcast Radio and Television,0,,,
+FUL,Basic Materials,Chemical - Specialty,0,,,
+FUN,Consumer Discretionary,Leisure and Recreation Services,0,,,
+FUTU,Business Services,Technology Services,0,550000.0,3. p9999_trade_value,2.0
+FVCB,Finance,Banks - Southeast,0,,,
+FVRR,Retail-Wholesale,Internet - Commerce,0,136640.0,1. p999999_trade_value,1.0
+FWONK,Consumer Discretionary,Media Conglomerates,0,251125.0,1. p999999_trade_value,1.0
+FWRD,Transportation,Transportation - Truck,0,,,
+FWRG,Retail-Wholesale,Retail - Restaurants,0,16060.0,1. p999999_trade_value,1.0
+FYBR,Computer and Technology,Communication - Network Software,0,,,
+G,Computer and Technology,Computers - IT Services,0,3569.9999999999995,2. p99999_trade_value,1.0
+GALT,Medical,Medical - Drugs,0,,,
+GAMB,Business Services,Advertising and Marketing,0,11400.0,7. p90_trade_value,2.0
+GANX,Medical,Medical - Drugs,0,7500.0,1. p999999_trade_value,1.0
+GAP,Retail-Wholesale,Retail - Apparel and Shoes,0,495000.0,4. p999_trade_value,2.0
+GATX,Transportation,Transportation - Equipment and Leasing,0,3020.0,1. p999999_trade_value,1.0
+GBCI,Finance,Banks - West,0,,,
+GBDC,Finance,Financial - SBIC & Commercial Industry,0,7450.0,1. p999999_trade_value,1.0
+GBTG,Computer and Technology,Internet - Software,0,,,
+GBX,Transportation,Transportation - Equipment and Leasing,0,50745.0,1. p999999_trade_value,1.0
+GCI,Business Services,Advertising and Marketing,0,,,
+GCO,Retail-Wholesale,Retail - Apparel and Shoes,0,,,
+GCT,Business Services,Technology Services,0,69859.99999999999,5. p99_trade_value,4.0
+GD,Aerospace,Aerospace - Defense,0,172040.0,1. p999999_trade_value,1.0
+GDDY,Computer and Technology,Internet - Delivery Services,0,,,
+GDEN,Consumer Discretionary,Gaming,0,,,
+GDRX,Medical,Medical Services,0,,,
+GDS,Business Services,Technology Services,0,24900.0,6. p95_trade_value,47.0
+GDYN,Computer and Technology,Computers - IT Services,0,6750.0,8. p75_trade_value,2.0
+GE,Aerospace,Aerospace - Defense,0,820000.0,4. p999_trade_value,11.0
+GEF,Industrial Products,Containers - Paper and Packaging,0,8000.0,8. p75_trade_value,2.0
+GEHC,Medical,Medical - Products,0,8815.0,8. p75_trade_value,200.0
+GEL,Oils-Energy,Oil and Gas - Refining and Marketing - Master Limited Partnerships,0,,,
+GEN,Business Services,Technology Services,0,,,
+GENI,Computer and Technology,Internet - Content,0,21000.0,6. p95_trade_value,4.0
+GEO,Business Services,Government Services,0,405000.00000000006,4. p999_trade_value,2.0
+GERN,Medical,Medical - Biomedical and Genetics,0,,,
+GES,Consumer Discretionary,Textile - Apparel,0,,,
+GETY,Computer and Technology,Internet - Software,0,,,
+GEV,Oils-Energy,Alternative Energy - Other,0,,,
+GEVO,Oils-Energy,Alternative Energy - Other,0,,,
+GFF,Conglomerates,Diversified Operations,0,,,
+GFI,Basic Materials,Mining - Gold,0,74000.0,5. p99_trade_value,2.0
+GFL,Business Services,Waste Removal Services,0,,,
+GFS,Computer and Technology,Electronics - Semiconductors,0,,,
+GGAL,Finance,Banks - Foreign,0,,,
+GGG,Industrial Products,Manufacturing - General Industrial ,0,17577.0,8. p75_trade_value,2.0
+GH,Medical,Medical - Biomedical and Genetics,0,,,
+GHRS,Medical,Medical - Biomedical and Genetics,0,19900.0,8. p75_trade_value,2.0
+GIB,Computer and Technology,Computer - Services,0,,,
+GIII,Consumer Discretionary,Textile - Apparel,0,8900.0,7. p90_trade_value,3.0
+GIL,Consumer Discretionary,Textile - Apparel,0,3840.0000000000005,8. p75_trade_value,2.0
+GILD,Medical,Medical - Biomedical and Genetics,0,,,
+GIS,Consumer Staples,Food - Miscellaneous,0,300000.0,1. p999999_trade_value,1.0
+GKOS,Medical,Medical - Instruments,0,,,
+GL,Finance,Insurance - Accident and Health,0,,,
+GLAD,Finance,Financial - SBIC & Commercial Industry,0,3339.0,1. p999999_trade_value,1.0
+GLBE,Retail-Wholesale,Internet - Commerce,0,,,
+GLDD,Construction,Building Products - Heavy Construction,0,5625.0,1. p999999_trade_value,1.0
+GLNG,Oils-Energy,Oil and Gas - Integrated - International,0,,,
+GLOB,Computer and Technology,Internet - Software and Services,0,8000.0,8. p75_trade_value,79.0
+GLPG,Medical,Medical - Biomedical and Genetics,0,,,
+GLPI,Finance,REIT and Equity Trust - Other,0,8750.0,7. p90_trade_value,5.0
+GLUE,Medical,Medical - Biomedical and Genetics,0,21060.0,1. p999999_trade_value,1.0
+GLW,Computer and Technology,Communication - Components,0,,,
+GLXY,Finance,Financial - Miscellaneous Services,0,,,
+GM,Auto-Tires-Trucks,Automotive - Domestic,0,490000.0,4. p999_trade_value,8.0
+GMAB,Medical,Medical - Biomedical and Genetics,0,,,
+GME,Consumer Discretionary,Gaming,0,,,
+GMED,Medical,Medical - Instruments,0,240000.0,5. p99_trade_value,2.0
+GMS,Retail-Wholesale,Building Products - Retail,0,,,
+GNK,Transportation,Transportation - Shipping,0,,,
+GNLX,Medical,Medical - Biomedical and Genetics,0,,,
+GNRC,Industrial Products,Manufacturing - General Industrial ,0,,,
+GNW,Finance,Insurance - Life Insurance,0,13619.999999999998,8. p75_trade_value,7.0
+GO,Consumer Staples,Consumer Products - Staples,0,7200.0,8. p75_trade_value,14.0
+GOGL,Transportation,Transportation - Shipping,0,11360.0,8. p75_trade_value,11.0
+GOGO,Computer and Technology,Wireless National,0,19800.0,1. p999999_trade_value,1.0
+GOLF,Consumer Discretionary,Leisure and Recreation Products,0,11250.0,1. p999999_trade_value,1.0
+GOOG,Computer and Technology,Internet - Services,0,,,
+GOOGL,Computer and Technology,Internet - Services,0,,,
+GOOS,Retail-Wholesale,Retail - Apparel and Shoes,0,,,
+GOTU,Consumer Discretionary,Schools,0,7275.0,6. p95_trade_value,2.0
+GPC,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,0,565000.0,1. p999999_trade_value,1.0
+GPCR,Medical,Medical - Biomedical and Genetics,0,,,
+GPI,Retail-Wholesale,Automotive - Retail and Whole Sales,0,,,
+GPN,Business Services,Financial Transaction Services,0,,,
+GPOR,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,,,
+GPRE,Basic Materials,Chemical - Specialty,0,48000.0,1. p999999_trade_value,1.0
+GPRK,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,5490.0,1. p999999_trade_value,1.0
+GPRO,Consumer Discretionary,Audio Video Production,0,4980.0,1. p999999_trade_value,1.0
+GRAB,Computer and Technology,Internet - Software,0,73840.0,5. p99_trade_value,5.0
+GRAL,Medical,Medical - Biomedical and Genetics,0,93000.0,1. p999999_trade_value,1.0
+GRBK,Finance,Real Estate - Development,0,11850.0,8. p75_trade_value,7.0
+GRFS,Medical,Medical - Drugs,0,16887.0,7. p90_trade_value,2.0
+GRMN,Computer and Technology,Electronics - Miscellaneous Products,0,23265.0,6. p95_trade_value,29.0
+GRND,Computer and Technology,Internet - Software,0,221680.00000000003,1. p999999_trade_value,1.0
+GRPN,Retail-Wholesale,Internet - Commerce,0,223500.0,1. p999999_trade_value,1.0
+GRRR,Business Services,Technology Services,0,,,
+GRWG,Basic Materials,Agriculture - Products,0,5575.0,1. p999999_trade_value,1.0
+GS,Finance,Financial - Investment Bank,0,258000.0,4. p999_trade_value,36.0
+GSAT,Computer and Technology,Satellite and Communication,0,36600.0,6. p95_trade_value,7.0
+GSHD,Finance,Insurance - Multi line,0,,,
+GSK,Medical,Medical - Biomedical and Genetics,0,,,
+GSL,Transportation,Transportation - Shipping,0,,,
+GSM,Basic Materials,Mining - Miscellaneous,0,,,
+GT,Auto-Tires-Trucks,Rubber - Tires,0,,,
+GTES,Industrial Products,Manufacturing - General Industrial ,0,97500.0,1. p999999_trade_value,1.0
+GTLB,Computer and Technology,Internet - Software,0,8730.000000000002,8. p75_trade_value,699.0
+GTLS,Industrial Products,Manufacturing - General Industrial ,0,7789.999999999999,8. p75_trade_value,132.0
+GTM,Computer and Technology,Internet - Software,0,,,
+GTX,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+GVA,Construction,Building Products - Heavy Construction,0,21560.0,1. p999999_trade_value,1.0
+GWRE,Computer and Technology,Internet - Software,0,,,
+GWW,Industrial Products,Industrial Services,0,,,
+GXO,Transportation,Transportation - Air Freight and Cargo,0,,,
+H,Consumer Discretionary,Hotels and Motels,0,45090.0,6. p95_trade_value,9.0
+HAE,Medical,Medical - Products,0,960000.0,5. p99_trade_value,2.0
+HAIN,Consumer Staples,Food - Miscellaneous,0,4860.0,1. p999999_trade_value,1.0
+HAL,Oils-Energy,Oil and Gas - Field Services,0,73724.00000000001,5. p99_trade_value,9.0
+HALO,Medical,Medical - Biomedical and Genetics,0,,,
+HAS,Consumer Discretionary,Toys - Games - Hobbies,0,,,
+HASI,Finance,Financial - Miscellaneous Services,0,7125.0,8. p75_trade_value,9.0
+HAYW,Computer and Technology,Electronics - Miscellaneous Products,0,,,
+HBAN,Finance,Banks - Midwest,0,,,
+HBI,Consumer Discretionary,Textile - Apparel,0,,,
+HBM,Basic Materials,Mining - Miscellaneous,0,,,
+HCA,Medical,Medical - Hospital,0,19220.0,7. p90_trade_value,230.0
+HCAT,Medical,Medical Info Systems,0,45350.0,8. p75_trade_value,2.0
+HCC,Oils-Energy,Coal,0,169980.0,1. p999999_trade_value,1.0
+HCI,Finance,Insurance - Property and Casualty,0,10784.0,8. p75_trade_value,2.0
+HCM,Medical,Medical - Biomedical and Genetics,0,5500.0,1. p999999_trade_value,1.0
+HCSG,Business Services,Business - Services,0,,,
+HD,Retail-Wholesale,Retail - Home Furnishings,0,,,
+HDB,Finance,Banks - Foreign,0,240000.0,1. p999999_trade_value,1.0
+HE,Utilities,Utility - Electric Power,0,8832.0,8. p75_trade_value,17.0
+HEI,Aerospace,Aerospace - Defense Equipment,0,,,
+HELE,Consumer Staples,Cosmetics,0,138000.0,1. p999999_trade_value,1.0
+HES,Oils-Energy,Oil and Gas - Integrated - United States,0,,,
+HESM,Oils-Energy,Energy and Pipeline - Master Limited Partnerships,0,,,
+HGV,Consumer Discretionary,Hotels and Motels,0,10150.0,8. p75_trade_value,4.0
+HHH,Finance,Real Estate - Development,0,91908.0,1. p999999_trade_value,1.0
+HIG,Finance,Insurance - Property and Casualty,0,6600.0,8. p75_trade_value,27.0
+HII,Aerospace,Aerospace - Defense,0,8100.0,8. p75_trade_value,35.0
+HIMS,Medical,Medical Info Systems,0,,,
+HIMX,Computer and Technology,Electronics - Semiconductors,0,,,
+HIPO,Finance,Insurance - Multi line,0,22000.000000000004,6. p95_trade_value,2.0
+HITI,Medical,Medical - Products,0,,,
+HIVE,Finance,Financial - Miscellaneous Services,0,93709.0,1. p999999_trade_value,1.0
+HIW,Finance,REIT and Equity Trust - Other,0,,,
+HL,Basic Materials,Mining - Silver,0,92000.0,1. p999999_trade_value,1.0
+HLF,Retail-Wholesale,Retail - Pharmacies and Drug Stores,0,120000.0,1. p999999_trade_value,2.0
+HLI,Finance,Financial - Miscellaneous Services,0,,,
+HLIT,Computer and Technology,Communication - Components,0,,,
+HLNE,Finance,Financial - Investment Management,0,,,
+HLT,Consumer Discretionary,Hotels and Motels,0,,,
+HLX,Oils-Energy,Oil and Gas - Field Services,0,45400.0,1. p999999_trade_value,1.0
+HMC,Auto-Tires-Trucks,Automotive - Foreign,0,20460.0,1. p999999_trade_value,1.0
+HMY,Basic Materials,Mining - Gold,0,10950.0,8. p75_trade_value,25.0
+HNGE,Medical,Medical Info Systems,0,4680.0,8. p75_trade_value,2.0
+HNRG,Oils-Energy,Alternative Energy - Other,0,49335.0,6. p95_trade_value,7.0
+HNST,Consumer Discretionary,Consumer Products - Discretionary,0,,,
+HOG,Auto-Tires-Trucks,Automotive - Domestic,0,8320.0,8. p75_trade_value,82.0
+HOLO,Business Services,Technology Services,0,,,
+HOLX,Medical,Medical - Instruments,0,228000.0,5. p99_trade_value,2.0
+HON,Conglomerates,Diversified Operations,0,,,
+HOOD,Finance,Financial - Investment Bank,0,1035000.0,3. p9999_trade_value,8.0
+HOUS,Finance,Real Estate - Operations,0,5000.0,1. p999999_trade_value,2.0
+HOWL,Medical,Medical - Biomedical and Genetics,0,,,
+HP,Oils-Energy,Oil and Gas - Drilling,0,700000.0,1. p999999_trade_value,1.0
+HPE,Computer and Technology,Computer - Integrated Systems,0,21229.0,6. p95_trade_value,66.0
+HPK,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,,,
+HPP,Finance,REIT and Equity Trust - Other,0,8091.0,8. p75_trade_value,2.0
+HPQ,Computer and Technology,Computer - Micro Computers,0,,,
+HQY,Medical,Medical Services,0,80000.0,1. p999999_trade_value,1.0
+HR,Finance,REIT and Equity Trust - Other,0,,,
+HRB,Consumer Discretionary,Consumer Services - Miscellaneous,0,19250.0,1. p999999_trade_value,2.0
+HRI,Transportation,Transportation - Equipment and Leasing,0,,,
+HRL,Consumer Staples,Food - Meat Products,0,6800.0,8. p75_trade_value,21.0
+HRMY,Medical,Medical - Biomedical and Genetics,0,,,
+HROW,Medical,Medical - Drugs,0,,,
+HRTG,Finance,Insurance - Property and Casualty,0,10800.0,8. p75_trade_value,4.0
+HRTX,Medical,Medical - Drugs,0,5000.0,1. p999999_trade_value,1.0
+HSAI,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+HSBC,Finance,Banks - Foreign,0,40365.0,5. p99_trade_value,2.0
+HSIC,Medical,Medical - Dental Supplies,0,,,
+HST,Finance,REIT and Equity Trust - Other,0,,,
+HSY,Consumer Staples,Food - Confectionery,0,8680.0,8. p75_trade_value,357.0
+HTGC,Finance,Financial - SBIC & Commercial Industry,0,,,
+HTHT,Consumer Discretionary,Hotels and Motels,0,,,
+HTZ,Transportation,Transportation - Services,0,,,
+HUBB,Industrial Products,Manufacturing - Electrical Utilities ,0,12600.0,8. p75_trade_value,71.0
+HUBS,Computer and Technology,Internet - Software,0,,,
+HUM,Medical,Medical - HMOs,0,,,
+HUMA,Medical,Medical - Biomedical and Genetics,0,,,
+HUN,Basic Materials,Chemical - Diversified ,0,,,
+HURN,Business Services,Consulting Services,0,12980.000000000002,8. p75_trade_value,9.0
+HUSA,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,,,
+HUT,Finance,Financial - Miscellaneous Services,0,86064.0,5. p99_trade_value,28.0
+HUYA,Computer and Technology,Internet - Software and Services,0,,,
+HWC,Finance,Banks - Southeast,0,,,
+HWKN,Basic Materials,Chemical - Specialty,0,3850.0,1. p999999_trade_value,1.0
+HWM,Aerospace,Aerospace - Defense,0,9240.0,8. p75_trade_value,251.0
+HXL,Aerospace,Aerospace - Defense Equipment,0,,,
+HYLN,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+HYMC,Basic Materials,Mining - Miscellaneous,0,,,
+HYPR,Medical,Medical - Instruments,0,,,
+HZO,Retail-Wholesale,Retail - Miscellaneous,0,10800.0,1. p999999_trade_value,1.0
+IAC,Conglomerates,Diversified Operations,0,,,
+IAG,Basic Materials,Mining - Gold,0,,,
+IART,Medical,Medical - Instruments,0,,,
+IAS,Business Services,Advertising and Marketing,0,6000.0,8. p75_trade_value,2.0
+IBKR,Finance,Financial - Investment Bank,0,501830.0,1. p999999_trade_value,1.0
+IBM,Computer and Technology,Computer - Integrated Systems,0,24070.0,6. p95_trade_value,719.0
+IBN,Finance,Banks - Foreign,0,,,
+IBP,Construction,Building Products - Miscellaneous,0,,,
+IBRX,Medical,Medical - Biomedical and Genetics,0,,,
+IBTA,Business Services,Technology Services,0,6720.0,8. p75_trade_value,18.0
+ICAD,Computer and Technology,Computer - Software,0,,,
+ICE,Finance,Securities and Exchanges,0,9030.0,8. p75_trade_value,89.0
+ICFI,Business Services,Government Services,0,,,
+ICHR,Computer and Technology,Electronics - Semiconductors,0,17290.0,8. p75_trade_value,2.0
+ICL,Basic Materials,Fertilizers,0,,,
+ICLR,Medical,Medical Services,0,766800.0,1. p999999_trade_value,1.0
+ICUI,Medical,Medical - Products,0,,,
+IDA,Utilities,Utility - Electric Power,0,4200.0,1. p999999_trade_value,1.0
+IDCC,Computer and Technology,Wireless Equipment,0,10070.0,6. p95_trade_value,11.0
+IDN,Industrial Products,Security and Safety Services,0,4080.0000000000005,1. p999999_trade_value,1.0
+IDR,Basic Materials,Mining - Gold,0,,,
+IDT,Utilities,Diversified Communication Services,0,,,
+IDXX,Medical,Medical - Instruments,0,577395.0,1. p999999_trade_value,1.0
+IDYA,Medical,Medical - Biomedical and Genetics,0,,,
+IEP,Conglomerates,Diversified Operations,0,160000.0,1. p999999_trade_value,1.0
+IESC,Computer and Technology,Electronics - Miscellaneous Services,0,26000.0,6. p95_trade_value,23.0
+IEX,Industrial Products,Manufacturing - General Industrial ,0,,,
+IFF,Basic Materials,Chemical - Specialty,0,,,
+IFRX,Medical,Medical - Biomedical and Genetics,0,,,
+IGMS,Medical,Medical - Biomedical and Genetics,0,6500.0,1. p999999_trade_value,1.0
+IGT,Consumer Discretionary,Gaming,0,156000.0,1. p999999_trade_value,1.0
+IHRT,Consumer Discretionary,Broadcast Radio and Television,0,,,
+IIIN,Industrial Products,Wire and Cable Products,0,4250.0,1. p999999_trade_value,1.0
+IIIV,Computer and Technology,Internet - Software,0,,,
+IIPR,Finance,REIT and Equity Trust - Other,0,19900.0,6. p95_trade_value,4.0
+ILMN,Medical,Medical - Biomedical and Genetics,0,,,
+IMAX,Consumer Discretionary,Film and Television Production and Distribution,0,10764.0,8. p75_trade_value,3.0
+IMCR,Medical,Medical - Biomedical and Genetics,0,,,
+IMKTA,Retail-Wholesale,Retail - Supermarkets,0,,,
+IMMR,Computer and Technology,Computer - Peripheral Equipment,0,,,
+IMNM,Medical,Medical - Biomedical and Genetics,0,,,
+IMO,Oils-Energy,Oil and Gas - Integrated - Canadian,0,,,
+IMPP,Transportation,Transportation - Shipping,0,,,
+IMTX,Medical,Medical - Biomedical and Genetics,0,50000.0,1. p999999_trade_value,1.0
+IMUX,Medical,Medical - Biomedical and Genetics,0,,,
+IMVT,Medical,Medical - Biomedical and Genetics,0,363636.0,1. p999999_trade_value,1.0
+IMXI,Business Services,Financial Transaction Services,0,,,
+INBK,Finance,Banks - Northeast,0,,,
+INBX,Medical,Medical - Biomedical and Genetics,0,8825.0,1. p999999_trade_value,1.0
+INCY,Medical,Medical - Biomedical and Genetics,0,250000.0,1. p999999_trade_value,1.0
+INDI,Computer and Technology,Electronics - Semiconductors,0,,,
+INDV,Medical,Medical - Drugs,0,,,
+INFA,Computer and Technology,Internet - Software,0,,,
+INFY,Computer and Technology,Computers - IT Services,0,,,
+ING,Finance,Banks - Foreign,0,,,
+INGM,Business Services,Technology Services,0,,,
+INGR,Consumer Staples,Food - Miscellaneous,0,,,
+INMB,Medical,Medical - Biomedical and Genetics,0,,,
+INMD,Medical,Medical - Products,0,,,
+INOD,Computer and Technology,Computer - Services,0,,,
+INSE,Business Services,Technology Services,0,,,
+INSG,Computer and Technology,Internet - Software,0,,,
+INSM,Medical,Medical - Biomedical and Genetics,0,,,
+INSP,Medical,Medical Info Systems,0,10080.0,8. p75_trade_value,173.0
+INSW,Transportation,Transportation - Shipping,0,10000.0,8. p75_trade_value,9.0
+INTA,Computer and Technology,Internet - Software,0,,,
+INTC,Computer and Technology,Semiconductor - General,0,826200.0,3. p9999_trade_value,4.0
+INTT,Computer and Technology,Electronics - Measuring Instruments,0,,,
+INTU,Computer and Technology,Computer - Software,0,,,
+INVA,Medical,Large Cap Pharmaceuticals,0,,,
+INVH,Finance,REIT and Equity Trust - Residential,0,,,
+INVZ,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+INZY,Medical,Medical - Biomedical and Genetics,0,,,
+IONQ,Computer and Technology,Computer - Integrated Systems,0,,,
+IONS,Medical,Medical - Drugs,0,,,
+IOT,Computer and Technology,Internet - Software,0,9685.0,8. p75_trade_value,735.0
+IOVA,Medical,Medical - Biomedical and Genetics,0,22750.0,6. p95_trade_value,46.0
+IP,Basic Materials,Paper and Related Products,0,,,
+IPG,Business Services,Advertising and Marketing,0,,,
+IPGP,Computer and Technology,Lasers Systems and Components,0,,,
+IPI,Basic Materials,Fertilizers,0,,,
+IQ,Computer and Technology,Internet - Services,0,,,
+IQV,Medical,Medical - Instruments,0,7680.000000000001,8. p75_trade_value,113.0
+IR,Industrial Products,Manufacturing - General Industrial ,0,31500.0,6. p95_trade_value,13.0
+IRBT,Industrial Products,Industrial Automation and Robotics,0,,,
+IRD,Medical,Medical - Biomedical and Genetics,0,,,
+IRDM,Computer and Technology,Satellite and Communication,0,,,
+IREN,Finance,Financial - Miscellaneous Services,0,,,
+IRM,Business Services,Business - Information Services,0,276675.0,1. p999999_trade_value,1.0
+IRON,Medical,Medical - Biomedical and Genetics,0,,,
+IRTC,Medical,Medical Info Systems,0,90000.0,5. p99_trade_value,2.0
+ISPO,Consumer Discretionary,Leisure and Recreation Services,0,,,
+ISRG,Medical,Medical - Instruments,0,,,
+ISSC,Aerospace,Aerospace - Defense Equipment,0,,,
+IT,Business Services,Consulting Services,0,,,
+ITGR,Medical,Medical - Instruments,0,6800.0,8. p75_trade_value,2.0
+ITOS,Medical,Medical - Biomedical and Genetics,0,,,
+ITP,Basic Materials,Paper and Related Products,0,,,
+ITRI,Computer and Technology,Electronics - Testing Equipment,0,13000.0,1. p999999_trade_value,1.0
+ITRN,Industrial Products,Security and Safety Services,0,6000.0,1. p999999_trade_value,1.0
+ITT,Conglomerates,Diversified Operations,0,448000.0,1. p999999_trade_value,1.0
+ITUB,Finance,Banks - Foreign,0,7030.0,8. p75_trade_value,2.0
+ITW,Industrial Products,Manufacturing - General Industrial ,0,,,
+IVVD,Medical,Medical - Biomedical and Genetics,0,,,
+IVZ,Finance,Financial - Investment Management,0,,,
+J,Business Services,Technology Services,0,,,
+JACK,Retail-Wholesale,Retail - Restaurants,0,8640.0,8. p75_trade_value,40.0
+JAKK,Consumer Discretionary,Toys - Games - Hobbies,0,3500.0,1. p999999_trade_value,1.0
+JAMF,Business Services,Technology Services,0,,,
+JANX,Medical,Medical - Biomedical and Genetics,0,,,
+JAZZ,Medical,Medical - Biomedical and Genetics,0,,,
+JBHT,Transportation,Transportation - Truck,0,175560.0,5. p99_trade_value,4.0
+JBL,Computer and Technology,Electronics - Manufacturing Services,0,449000.0,4. p999_trade_value,2.0
+JBLU,Transportation,Transportation - Airline,0,,,
+JBTM,Business Services,Technology Services,0,,,
+JCI,Construction,Building Products - Wood,0,,,
+JD,Retail-Wholesale,Internet - Commerce,0,,,
+JEF,Finance,Financial - Miscellaneous Services,0,56100.0,1. p999999_trade_value,1.0
+JELD,Construction,Building Products - Wood,0,,,
+JHX,Construction,Building Products - Miscellaneous,0,14800.0,8. p75_trade_value,3.0
+JJSF,Consumer Staples,Food - Miscellaneous,0,55000.0,1. p999999_trade_value,1.0
+JKHY,Computer and Technology,Computers - IT Services,0,4248.0,8. p75_trade_value,5.0
+JKS,Oils-Energy,Solar,0,,,
+JLL,Finance,Real Estate - Operations,0,13330.000000000002,8. p75_trade_value,15.0
+JMIA,Retail-Wholesale,Internet - Commerce,0,,,
+JNJ,Medical,Large Cap Pharmaceuticals,0,344999.99999999994,4. p999_trade_value,7.0
+JNPR,Computer and Technology,Wireless Equipment,0,391995.0,5. p99_trade_value,3.0
+JOBY,Transportation,Transportation - Airline,0,171100.0,1. p999999_trade_value,1.0
+JOE,Finance,Real Estate - Development,0,,,
+JOYY,Computer and Technology,Internet - Services,0,5000.0,8. p75_trade_value,2.0
+JPM,Finance,Financial - Investment Bank,0,,,
+JSPR,Medical,Medical - Biomedical and Genetics,0,300000.0,1. p999999_trade_value,1.0
+JXN,Finance,Insurance - Life Insurance,0,10000.0,8. p75_trade_value,28.0
+K,Consumer Discretionary,Consumer Products - Discretionary,0,,,
+KAI,Industrial Products,Manufacturing - General Industrial ,0,,,
+KALU,Industrial Products,Metal Products - Procurement and Fabrication,0,,,
+KALV,Medical,Medical - Drugs,0,74000.0,1. p999999_trade_value,1.0
+KAR,Auto-Tires-Trucks,Automotive - Original Equipment,0,3900.0,1. p999999_trade_value,1.0
+KB,Finance,Banks - Foreign,0,3444.9999999999995,4. p999_trade_value,1.0
+KBH,Construction,Building Products - Home Builders,0,18500.0,6. p95_trade_value,38.0
+KBR,Construction,Engineering - R and D Services,0,12599.999999999998,8. p75_trade_value,18.0
+KC,Computer and Technology,Internet - Software,0,,,
+KD,Business Services,Technology Services,0,,,
+KDP,Consumer Staples,Beverages - Soft drinks,0,,,
+KEX,Transportation,Transportation - Shipping,0,8835.0,8. p75_trade_value,8.0
+KEY,Finance,Banks - Major Regional,0,340000.00000000006,5. p99_trade_value,3.0
+KEYS,Computer and Technology,Electronics - Measuring Instruments,0,270000.0,1. p999999_trade_value,1.0
+KFY,Business Services,Staffing Firms,0,12500.0,1. p999999_trade_value,1.0
+KGC,Basic Materials,Mining - Gold,0,,,
+KGS,Oils-Energy,Oil and Gas - Mechanical and and Equipment,0,14500.0,1. p999999_trade_value,1.0
+KHC,Consumer Staples,Food - Miscellaneous,0,100000.0,4. p999_trade_value,2.0
+KIDZ,Business Services,Technology Services,0,,,
+KIM,Finance,REIT and Equity Trust - Retail,0,90200.0,1. p999999_trade_value,1.0
+KIND,Computer and Technology,Internet - Software,0,,,
+KINS,Finance,Insurance - Property and Casualty,0,7800.0,8. p75_trade_value,3.0
+KKR,Finance,Financial - Investment Management,0,325863.0,4. p999_trade_value,4.0
+KLAC,Computer and Technology,Electronics - Miscellaneous Products,0,,,
+KLC,Consumer Discretionary,Schools,0,,,
+KLG,Consumer Staples,Consumer Products - Staples,0,12100.000000000002,1. p999999_trade_value,2.0
+KLIC,Computer and Technology,Electronics - Manufacturing Machinery,0,,,
+KLXE,Oils-Energy,Oil and Gas - Field Services,0,7475.0,1. p999999_trade_value,2.0
+KMB,Consumer Staples,Consumer Products - Staples,0,,,
+KMI,Oils-Energy,Oil and Gas - Production and Pipelines,0,161000.00000000003,1. p999999_trade_value,1.0
+KMT,Industrial Products,Manufacturing - Tools & Related Products,0,6960.000000000001,1. p999999_trade_value,1.0
+KMX,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,0,645000.0,4. p999_trade_value,2.0
+KN,Computer and Technology,Communication - Components,0,7500.0,1. p999999_trade_value,1.0
+KNF,Construction,Building Products - Miscellaneous,0,95004.0,7. p90_trade_value,6.0
+KNSA,Medical,Medical - Biomedical and Genetics,0,3400.0,1. p999999_trade_value,1.0
+KNSL,Finance,Insurance - Property and Casualty,0,,,
+KNTK,Oils-Energy,Oil and Gas - Field Services,0,106820.0,1. p999999_trade_value,1.0
+KNX,Transportation,Transportation - Truck,0,,,
+KO,Consumer Staples,Beverages - Soft drinks,0,,,
+KOD,Medical,Medical - Biomedical and Genetics,0,,,
+KODK,Computer and Technology,Electronics - Miscellaneous Products,0,,,
+KOPN,Computer and Technology,Electronics - Miscellaneous Products,0,20000.0,1. p999999_trade_value,1.0
+KOS,Oils-Energy,Oil and Gas - Exploration and Production - International,0,5000.0,8. p75_trade_value,3.0
+KR,Retail-Wholesale,Retail - Supermarkets,0,78750.0,5. p99_trade_value,13.0
+KRC,Finance,REIT and Equity Trust - Other,0,,,
+KRNT,Industrial Products,Commercial Printing,0,4840.000000000001,1. p999999_trade_value,1.0
+KROS,Medical,Medical - Biomedical and Genetics,0,,,
+KRYS,Medical,Medical - Biomedical and Genetics,0,517175.0,5. p99_trade_value,3.0
+KSPI,Business Services,Financial Transaction Services,0,,,
+KSS,Retail-Wholesale,Retail - Regional Department Stores,0,,,
+KTB,Consumer Discretionary,Textile - Apparel,0,,,
+KTOS,Aerospace,Aerospace - Defense Equipment,0,,,
+KULR,Computer and Technology,Electronics - Semiconductors,0,7400.0,8. p75_trade_value,153.0
+KURA,Medical,Medical - Biomedical and Genetics,0,,,
+KVUE,Consumer Staples,Consumer Products - Staples,0,279378.0,1. p999999_trade_value,1.0
+KVYO,Computer and Technology,Internet - Software,0,,,
+KW,Finance,Real Estate - Operations,0,25725.0,1. p999999_trade_value,1.0
+KWR,Basic Materials,Chemical - Specialty,0,,,
+KXIN,Auto-Tires-Trucks,Automotive - Foreign,0,,,
+KYMR,Medical,Medical - Biomedical and Genetics,0,,,
+KZIA,Medical,Medical - Biomedical and Genetics,0,,,
+L,Finance,Insurance - Multi line,0,,,
+LAC,Basic Materials,Mining - Miscellaneous,0,,,
+LAD,Retail-Wholesale,Automotive - Retail and Whole Sales,0,192030.00000000003,1. p999999_trade_value,1.0
+LAES,Computer and Technology,Electronics - Semiconductors,0,,,
+LAKE,Industrial Products,Security and Safety Services,0,,,
+LAMR,Finance,REIT and Equity Trust - Other,0,,,
+LANC,Consumer Staples,Food - Miscellaneous,0,4300.0,8. p75_trade_value,5.0
+LASE,Industrial Products,Manufacturing - General Industrial ,0,7125.0,8. p75_trade_value,9.0
+LASR,Computer and Technology,Electronics - Semiconductors,0,,,
+LAZ,Finance,Financial - Miscellaneous Services,0,,,
+LAZR,Auto-Tires-Trucks,Automotive - Original Equipment,0,16492.0,6. p95_trade_value,17.0
+LB,Oils-Energy,Oil and Gas - Integrated - United States,0,,,
+LBRT,Oils-Energy,Oil and Gas - Field Services,0,,,
+LBTYA,Utilities,Diversified Communication Services,0,,,
+LC,Finance,Financial - Miscellaneous Services,0,64850.0,1. p999999_trade_value,1.0
+LCID,Auto-Tires-Trucks,Automotive - Domestic,0,,,
+LCII,Auto-Tires-Trucks,Automotive - Original Equipment,0,6900.0,8. p75_trade_value,6.0
+LDOS,Computer and Technology,Computers - IT Services,0,18060.0,6. p95_trade_value,15.0
+LE,Retail-Wholesale,Retail - Catalog Shopping,0,,,
+LEA,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+LECO,Industrial Products,Manufacturing - Tools & Related Products,0,8350.0,8. p75_trade_value,3.0
+LEG,Consumer Discretionary,Furniture,0,16873.0,1. p999999_trade_value,1.0
+LEGH,Finance,Real Estate - Operations,0,3300.0,1. p999999_trade_value,1.0
+LEGN,Medical,Medical - Biomedical and Genetics,0,7560.000000000001,8. p75_trade_value,43.0
+LEN,Construction,Building Products - Home Builders,0,435659.99999999994,4. p999_trade_value,4.0
+LESL,Consumer Staples,Consumer Products - Staples,0,6990.000000000001,8. p75_trade_value,3.0
+LEU,Basic Materials,Mining - Non Ferrous,0,7840.000000000001,8. p75_trade_value,594.0
+LEVI,Retail-Wholesale,Retail - Apparel and Shoes,0,,,
+LFCR,Medical,Medical - Biomedical and Genetics,0,3640.0,1. p999999_trade_value,1.0
+LFMD,Medical,Medical Services,0,7530.0,8. p75_trade_value,29.0
+LFST,Medical,Medical - Outpatient and Home Healthcare,0,8560.0,8. p75_trade_value,2.0
+LFUS,Computer and Technology,Electronics - Miscellaneous Components,0,20400.0,1. p999999_trade_value,1.0
+LFVN,Medical,Medical - Dental Supplies,0,,,
+LFWD,Computer and Technology,Internet - Software,0,11985.0,1. p999999_trade_value,1.0
+LGIH,Finance,Real Estate - Development,0,11850.0,8. p75_trade_value,6.0
+LGND,Medical,Medical - Biomedical and Genetics,0,,,
+LH,Medical,Medical Services,0,500000.0,1. p999999_trade_value,1.0
+LHX,Aerospace,Aerospace - Defense,0,,,
+LI,Auto-Tires-Trucks,Automotive - Foreign,0,242200.0,1. p999999_trade_value,1.0
+LIF,Industrial Products,Security and Safety Services,0,,,
+LII,Construction,Building Products - Air Conditioner and Heating,0,348750.0,1. p999999_trade_value,1.0
+LILA,Computer and Technology,Wireless National,0,,,
+LIN,Basic Materials,Chemical - Specialty,0,,,
+LINC,Consumer Discretionary,Schools,0,,,
+LINE,Finance,REIT and Equity Trust - Other,0,6500.0,8. p75_trade_value,8.0
+LION,Consumer Discretionary,Media Conglomerates,0,3359.9999999999995,3. p9999_trade_value,1.0
+LITE,Computer and Technology,Communication - Components,0,9430.0,8. p75_trade_value,225.0
+LITM,Oils-Energy,Alternative Energy - Other,0,,,
+LIVN,Medical,Medical - Instruments,0,9975.0,1. p999999_trade_value,1.0
+LKQ,Auto-Tires-Trucks,Automotive - Replacement Parts,0,,,
+LLY,Medical,Large Cap Pharmaceuticals,0,847800.0,3. p9999_trade_value,9.0
+LLYVA,Utilities,Diversified Communication Services,0,,,
+LMAT,Medical,Medical - Products,0,47125.0,1. p999999_trade_value,1.0
+LMB,Business Services,Building Products - Maintenance Service,0,12791.999999999998,1. p999999_trade_value,1.0
+LMND,Finance,Insurance - Multi line,0,,,
+LMNR,Consumer Staples,Agriculture - Operations,0,6900.0,1. p999999_trade_value,1.0
+LMT,Aerospace,Aerospace - Defense,0,7500.0,8. p75_trade_value,1912.0
+LNC,Finance,Insurance - Life Insurance,0,,,
+LNG,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,902870.0000000001,1. p999999_trade_value,1.0
+LNN,Industrial Products,Manufacturing - Farm Equipment,0,11200.0,6. p95_trade_value,2.0
+LNSR,Medical,Medical - Instruments,0,,,
+LNT,Utilities,Utility - Electric Power,0,37050.0,8. p75_trade_value,3.0
+LNTH,Medical,Medical - Products,0,,,
+LNW,Consumer Discretionary,Gaming,0,6090.0,8. p75_trade_value,8.0
+LNZA,Business Services,Technology Services,0,,,
+LOAR,Aerospace,Aerospace - Defense Equipment,0,76960.0,6. p95_trade_value,2.0
+LODE,Basic Materials,Mining - Gold,0,,,
+LOGC,Retail-Wholesale,Internet - Commerce,0,127000.0,1. p999999_trade_value,1.0
+LOGI,Computer and Technology,Computer - Peripheral Equipment,0,24800.0,6. p95_trade_value,17.0
+LOMA,Construction,Building Products - Home Builders,0,8294.999999999998,8. p75_trade_value,2.0
+LOPE,Consumer Discretionary,Schools,0,,,
+LOVE,Retail-Wholesale,Retail - Home Furnishings,0,,,
+LOW,Retail-Wholesale,Retail - Home Furnishings,0,20559.0,6. p95_trade_value,160.0
+LPG,Transportation,Transportation - Shipping,0,6831.0,8. p75_trade_value,6.0
+LPLA,Finance,Financial - Investment Bank,0,,,
+LPRO,Finance,Financial - Consumer Loans,0,,,
+LPSN,Computer and Technology,Internet - Services,0,,,
+LPTX,Medical,Medical - Biomedical and Genetics,0,,,
+LPX,Construction,Building Products - Wood,0,,,
+LQDA,Medical,Medical - Biomedical and Genetics,0,284715.0,1. p999999_trade_value,1.0
+LQDT,Business Services,Auction and Valuation Services,0,10850.0,8. p75_trade_value,6.0
+LRCX,Computer and Technology,Electronics - Semiconductors,0,60319.99999999999,5. p99_trade_value,135.0
+LRMR,Medical,Medical - Drugs,0,,,
+LRN,Consumer Discretionary,Schools,0,8265.0,8. p75_trade_value,166.0
+LSCC,Computer and Technology,Electronics - Semiconductors,0,994725.0,1. p999999_trade_value,1.0
+LSEA,Finance,Real Estate - Development,0,5800.0,1. p999999_trade_value,1.0
+LSPD,Computer and Technology,Internet - Software,0,,,
+LSTR,Transportation,Transportation - Truck,0,443680.0,1. p999999_trade_value,1.0
+LTBR,Oils-Energy,Alternative Energy - Other,0,7600.0,8. p75_trade_value,152.0
+LTH,Consumer Discretionary,Leisure and Recreation Services,0,7425.0,8. p75_trade_value,15.0
+LTRX,Computer and Technology,Computer - Networking,0,,,
+LU,Finance,Financial - Miscellaneous Services,0,22500.0,1. p999999_trade_value,1.0
+LUCK,Consumer Discretionary,Leisure and Recreation Services,0,,,
+LULU,Consumer Discretionary,Textile - Apparel,0,,,
+LUMN,Utilities,Diversified Communication Services,0,,,
+LUNR,Aerospace,Aerospace - Defense,0,,,
+LUV,Transportation,Transportation - Airline,0,39975.0,6. p95_trade_value,92.0
+LVS,Consumer Discretionary,Gaming,0,604800.0,1. p999999_trade_value,1.0
+LVWR,Auto-Tires-Trucks,Automotive - Domestic,0,6964.999999999999,8. p75_trade_value,3.0
+LW,Consumer Staples,Food - Miscellaneous,0,,,
+LWLG,Basic Materials,Chemical - Plastic,0,3660.0,1. p999999_trade_value,1.0
+LX,Finance,Financial - Consumer Loans,0,7500.0,8. p75_trade_value,26.0
+LXEO,Medical,Medical - Drugs,0,,,
+LXRX,Medical,Medical - Biomedical and Genetics,0,,,
+LXU,Basic Materials,Chemical - Diversified ,0,5990.000000000001,1. p999999_trade_value,1.0
+LYB,Basic Materials,Chemical - Diversified ,0,62825.0,1. p999999_trade_value,1.0
+LYFT,Computer and Technology,Internet - Services,0,184932.0,4. p999_trade_value,4.0
+LYV,Consumer Discretionary,Film and Television Production and Distribution,0,,,
+LZ,Industrial Products,Industrial Services,0,,,
+LZB,Consumer Discretionary,Furniture,0,,,
+M,Retail-Wholesale,Retail - Regional Department Stores,0,453050.0,1. p999999_trade_value,1.0
+MA,Business Services,Financial Transaction Services,0,432500.0,1. p999999_trade_value,1.0
+MAA,Finance,REIT and Equity Trust - Residential,0,5820.0,8. p75_trade_value,5.0
+MAC,Finance,REIT and Equity Trust - Retail,0,60000.0,1. p999999_trade_value,1.0
+MAG,Basic Materials,Mining - Silver,0,,,
+MAGN,Construction,Engineering - R and D Services,0,132000.0,1. p999999_trade_value,1.0
+MAIN,Finance,Financial - SBIC & Commercial Industry,0,,,
+MAMA,Consumer Staples,Food - Miscellaneous,0,10700.0,1. p999999_trade_value,1.0
+MAN,Business Services,Staffing Firms,0,,,
+MANH,Computer and Technology,Computer - Software,0,623360.0,1. p999999_trade_value,1.0
+MANU,Consumer Discretionary,Leisure and Recreation Services,0,7000.0,1. p999999_trade_value,1.0
+MAPS,Business Services,Technology Services,0,,,
+MAR,Consumer Discretionary,Hotels and Motels,0,,,
+MARA,Finance,Financial - Miscellaneous Services,0,1018470.0000000001,3. p9999_trade_value,5.0
+MAS,Construction,Building Products - Miscellaneous,0,,,
+MASI,Medical,Medical - Instruments,0,32560.000000000004,6. p95_trade_value,8.0
+MASS,Medical,Medical - Instruments,0,,,
+MAT,Consumer Discretionary,Toys - Games - Hobbies,0,43616.0,5. p99_trade_value,2.0
+MATV,Basic Materials,Chemical - Specialty,0,,,
+MATW,Consumer Staples,Funeral Services,0,,,
+MATX,Transportation,Transportation - Services,0,544439.0,1. p999999_trade_value,1.0
+MAX,Business Services,Technology Services,0,18000.0,1. p999999_trade_value,1.0
+MAXN,Oils-Energy,Solar,0,,,
+MBC,Consumer Discretionary,Furniture,0,,,
+MBI,Finance,Insurance - Multi line,0,,,
+MBLY,Auto-Tires-Trucks,Automotive - Original Equipment,0,609960.0,1. p999999_trade_value,1.0
+MBOT,Medical,Medical - Instruments,0,7000.0,8. p75_trade_value,2.0
+MBUU,Consumer Discretionary,Leisure and Recreation Products,0,,,
+MC,Finance,Financial - Investment Bank,0,16000.0,8. p75_trade_value,8.0
+MCD,Retail-Wholesale,Retail - Restaurants,0,,,
+MCFT,Consumer Discretionary,Leisure and Recreation Products,0,57840.0,1. p999999_trade_value,1.0
+MCHP,Computer and Technology,Semiconductor - Analog and Mixed,0,,,
+MCK,Medical,Medical - Dental Supplies,0,450000.0,1. p999999_trade_value,1.0
+MCO,Finance,Financial - Miscellaneous Services,0,16335.000000000002,6. p95_trade_value,22.0
+MCRB,Medical,Medical - Biomedical and Genetics,0,,,
+MCRI,Consumer Discretionary,Gaming,0,10143.0,1. p999999_trade_value,1.0
+MCS,Consumer Discretionary,Leisure and Recreation Services,0,4000.0,1. p999999_trade_value,1.0
+MCW,Auto-Tires-Trucks,Automotive - Replacement Parts,0,,,
+MCY,Finance,Insurance - Property and Casualty,0,,,
+MDB,Computer and Technology,Internet - Software,0,2745000.0,3. p9999_trade_value,3.0
+MDGL,Medical,Medical - Drugs,0,,,
+MDLZ,Consumer Staples,Food - Miscellaneous,0,72000.0,1. p999999_trade_value,1.0
+MDT,Medical,Medical - Products,0,9869.999999999998,8. p75_trade_value,329.0
+MDU,Utilities,Utility - Gas Distribution,0,,,
+MDXG,Medical,Medical - Biomedical and Genetics,0,6250.0,1. p999999_trade_value,1.0
+MED,Consumer Staples,Food - Miscellaneous,0,9504.0,7. p90_trade_value,2.0
+MEDP,Medical,Medical Services,0,540000.0,1. p999999_trade_value,1.0
+MEG,Business Services,Waste Removal Services,0,,,
+MEI,Computer and Technology,Electronics - Connectors,0,23500.0,1. p999999_trade_value,1.0
+MELI,Retail-Wholesale,Internet - Commerce,0,792500.0,3. p9999_trade_value,3.0
+MEOH,Basic Materials,Chemical - Diversified ,0,15000.0,1. p999999_trade_value,1.0
+MERC,Basic Materials,Paper and Related Products,0,,,
+MESO,Medical,Medical - Biomedical and Genetics,0,,,
+MET,Finance,Insurance - Multi line,0,,,
+META,Computer and Technology,Internet - Software,0,9440.0,8. p75_trade_value,163997.0
+METC,Oils-Energy,Coal,0,,,
+MFC,Finance,Insurance - Life Insurance,0,,,
+MG,Computer and Technology,Electronics - Miscellaneous Products,0,,,
+MGA,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+MGIC,Computer and Technology,Computer - Software,0,,,
+MGM,Consumer Discretionary,Gaming,0,525000.0,4. p999_trade_value,2.0
+MGNI,Computer and Technology,Internet - Software,0,,,
+MGNX,Medical,Medical - Products,0,7000.0,1. p999999_trade_value,1.0
+MGPI,Consumer Staples,Beverages - Alcohol,0,20910.0,8. p75_trade_value,3.0
+MGTX,Medical,Medical - Biomedical and Genetics,0,,,
+MGY,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,19300.0,1. p999999_trade_value,1.0
+MHK,Consumer Discretionary,Textile - Home Furnishing,0,,,
+MHO,Construction,Building Products - Home Builders,0,12900.0,6. p95_trade_value,5.0
+MIDD,Industrial Products,Manufacturing - General Industrial ,0,79360.0,1. p999999_trade_value,1.0
+MIR,Business Services,Technology Services,0,,,
+MIRM,Medical,Medical - Biomedical and Genetics,0,59359.99999999999,1. p999999_trade_value,1.0
+MIST,Medical,Medical - Biomedical and Genetics,0,,,
+MITK,Computer and Technology,Computer - Optical Imaging,0,14954.999999999998,1. p999999_trade_value,1.0
+MKC,Consumer Staples,Food - Miscellaneous,0,312500.0,1. p999999_trade_value,1.0
+MKL,Conglomerates,Diversified Operations,0,5080.0,8. p75_trade_value,33.0
+MKSI,Computer and Technology,Electronics - Miscellaneous Products,0,11610.0,8. p75_trade_value,18.0
+MKTW,Business Services,Technology Services,0,,,
+MKTX,Finance,Financial - Investment Bank,0,,,
+MLCO,Consumer Discretionary,Gaming,0,11550.0,8. p75_trade_value,16.0
+MLGO,Business Services,Technology Services,0,15500.0,6. p95_trade_value,7.0
+MLI,Industrial Products,Metal Products - Procurement and Fabrication,0,,,
+MLKN,Consumer Discretionary,Furniture,0,18000.0,8. p75_trade_value,4.0
+MLM,Construction,Building Products - Concrete and Aggregates,0,80359.99999999999,1. p999999_trade_value,1.0
+MLR,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+MLTX,Medical,Medical - Biomedical and Genetics,0,23625.000000000004,1. p999999_trade_value,1.0
+MLYS,Medical,Medical - Biomedical and Genetics,0,,,
+MMC,Finance,Insurance - Brokerage,0,6959.999999999999,8. p75_trade_value,28.0
+MMI,Finance,Real Estate - Development,0,4500.0,1. p999999_trade_value,1.0
+MMM,Conglomerates,Diversified Operations,0,,,
+MMS,Business Services,Government Services,0,11160.0,8. p75_trade_value,10.0
+MMSI,Medical,Medical - Dental Supplies,0,,,
+MMYT,Computer and Technology,Internet - Delivery Services,0,,,
+MNDY,Computer and Technology,Internet - Software,0,,,
+MNKD,Medical,Medical - Biomedical and Genetics,0,54304.0,7. p90_trade_value,2.0
+MNMD,Medical,Medical - Biomedical and Genetics,0,48330.0,1. p999999_trade_value,1.0
+MNSO,Retail-Wholesale,Retail - Apparel and Shoes,0,73760.0,1. p999999_trade_value,1.0
+MNST,Consumer Staples,Beverages - Soft drinks,0,715000.0,1. p999999_trade_value,1.0
+MO,Consumer Staples,Tobacco,0,7040.000000000001,8. p75_trade_value,386.0
+MOD,Auto-Tires-Trucks,Automotive - Original Equipment,0,51165.0,6. p95_trade_value,48.0
+MODG,Consumer Discretionary,Leisure and Recreation Products,0,12780.0,1. p999999_trade_value,1.0
+MODV,Medical,Medical Services,0,,,
+MOGO,Business Services,Technology Services,0,,,
+MOH,Medical,Medical - HMOs,0,18000.0,7. p90_trade_value,64.0
+MOMO,Computer and Technology,Internet - Software,0,,,
+MORN,Business Services,Business - Information Services,0,,,
+MOS,Basic Materials,Fertilizers,0,7600.0,8. p75_trade_value,114.0
+MP,Basic Materials,Mining - Miscellaneous,0,427760.00000000006,1. p999999_trade_value,1.0
+MPAA,Auto-Tires-Trucks,Automotive - Replacement Parts,0,7000.0,8. p75_trade_value,2.0
+MPC,Oils-Energy,Oil and Gas - Refining and Marketing,0,,,
+MPLX,Oils-Energy,Oil and Gas - Production and Pipelines,0,,,
+MPW,Finance,REIT and Equity Trust - Other,0,,,
+MPWR,Computer and Technology,Semiconductor - Analog and Mixed,0,380000.0,1. p999999_trade_value,1.0
+MQ,Business Services,Financial Transaction Services,0,23650.0,6. p95_trade_value,4.0
+MRC,Industrial Products,Steel - Pipe and Tube,0,11519.999999999998,1. p999999_trade_value,1.0
+MRCY,Aerospace,Aerospace - Defense Equipment,0,22440.0,8. p75_trade_value,5.0
+MREO,Medical,Medical - Biomedical and Genetics,0,,,
+MRK,Medical,Large Cap Pharmaceuticals,0,26400.0,6. p95_trade_value,281.0
+MRNA,Medical,Medical - Biomedical and Genetics,0,,,
+MRP,Finance,Real Estate - Operations,0,23380.0,8. p75_trade_value,2.0
+MRSN,Medical,Medical - Biomedical and Genetics,0,,,
+MRTN,Transportation,Transportation - Truck,0,3660.0,1. p999999_trade_value,2.0
+MRUS,Medical,Medical - Biomedical and Genetics,0,712535.0,5. p99_trade_value,2.0
+MRVI,Medical,Medical - Products,0,,,
+MRVL,Computer and Technology,Electronics - Semiconductors,0,9100.0,8. p75_trade_value,7279.0
+MRX,Finance,Financial - Miscellaneous Services,0,,,
+MS,Finance,Financial - Investment Bank,0,65800.0,5. p99_trade_value,58.0
+MSCI,Finance,Financial - Investment Management,0,,,
+MSFT,Computer and Technology,Computer - Software,0,,,
+MSGE,Consumer Discretionary,Media Conglomerates,0,3300.0,1. p999999_trade_value,1.0
+MSGS,Consumer Discretionary,Leisure and Recreation Services,0,22656.0,1. p999999_trade_value,1.0
+MSI,Computer and Technology,Wireless Equipment,0,49600.0,5. p99_trade_value,3.0
+MSM,Industrial Products,Industrial Services,0,10000.0,8. p75_trade_value,35.0
+MSTR,Computer and Technology,Computer - Software,0,5720000.0,3. p9999_trade_value,93.0
+MT,Basic Materials,Steel - Producers,0,,,
+MTB,Finance,Banks - Major Regional,0,35100.0,6. p95_trade_value,7.0
+MTCH,Computer and Technology,Internet - Software,0,422770.0,4. p999_trade_value,2.0
+MTD,Medical,Medical - Instruments,0,5880.0,8. p75_trade_value,41.0
+MTDR,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,42330.0,5. p99_trade_value,3.0
+MTG,Finance,Insurance - Multi line,0,10980.0,1. p999999_trade_value,1.0
+MTH,Construction,Building Products - Home Builders,0,,,
+MTLS,Computer and Technology,Internet - Software,0,,,
+MTN,Consumer Discretionary,Leisure and Recreation Services,0,26055.0,6. p95_trade_value,33.0
+MTSI,Computer and Technology,Semiconductor - Analog and Mixed,0,451248.00000000006,1. p999999_trade_value,1.0
+MTSR,Medical,Medical - Biomedical and Genetics,0,,,
+MTW,Industrial Products,Manufacturing - Construction and Mining,0,6480.0,8. p75_trade_value,2.0
+MTZ,Construction,Building Products - Heavy Construction,0,,,
+MU,Computer and Technology,Computer - Integrated Systems,0,,,
+MUR,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,,,
+MURA,Medical,Medical - Drugs,0,18500.0,8. p75_trade_value,2.0
+MUSA,Retail-Wholesale,Retail - Convenience Stores,0,,,
+MUX,Basic Materials,Mining - Miscellaneous,0,16500.0,1. p999999_trade_value,1.0
+MVIS,Computer and Technology,Lasers Systems and Components,0,,,
+MVST,Business Services,Technology Services,0,,,
+MWA,Industrial Products,Steel - Pipe and Tube,0,8400.0,1. p999999_trade_value,1.0
+MXL,Computer and Technology,Semiconductor - Analog and Mixed,0,,,
+MYGN,Medical,Medical - Biomedical and Genetics,0,21280.0,6. p95_trade_value,2.0
+MYO,Medical,Medical - Products,0,,,
+MYRG,Utilities,Electric Construction,0,,,
+NA,Computer and Technology,Electronics - Semiconductors,0,5000.0,1. p999999_trade_value,1.0
+NAGE,Medical,Medical - Biomedical and Genetics,0,4725.0,8. p75_trade_value,2.0
+NAK,Basic Materials,Mining - Gold,0,,,
+NAMS,Medical,Medical - Drugs,0,,,
+NAT,Transportation,Transportation - Shipping,0,,,
+NATL,Computer and Technology,Internet - Software,0,11000.000000000002,1. p999999_trade_value,1.0
+NAVI,Finance,Financial - Consumer Loans,0,,,
+NB,Basic Materials,Mining - Miscellaneous,0,,,
+NBIS,Computer and Technology,Internet - Software and Services,0,,,
+NBIX,Medical,Medical - Drugs,0,,,
+NBR,Oils-Energy,Oil and Gas - Drilling,0,201600.0,1. p999999_trade_value,1.0
+NBTB,Finance,Banks - Northeast,0,,,
+NCLH,Consumer Discretionary,Leisure and Recreation Services,0,7847.0,8. p75_trade_value,450.0
+NCNO,Computer and Technology,Internet - Software,0,,,
+NDAQ,Finance,Securities and Exchanges,0,288000.0,1. p999999_trade_value,1.0
+NDSN,Industrial Products,Manufacturing - General Industrial ,0,154030.0,1. p999999_trade_value,1.0
+NE,Oils-Energy,Oil and Gas - Drilling,0,30000.0,1. p999999_trade_value,1.0
+NEE,Utilities,Utility - Electric Power,0,,,
+NEGG,Retail-Wholesale,Internet - Commerce,0,,,
+NEM,Basic Materials,Mining - Gold,0,,,
+NEO,Medical,Medical - Biomedical and Genetics,0,,,
+NEOG,Medical,Medical - Products,0,3900.0,8. p75_trade_value,2.0
+NEON,Computer and Technology,Computer - Software,0,,,
+NET,Computer and Technology,Internet - Software,0,25058.0,6. p95_trade_value,412.0
+NEU,Basic Materials,Chemical - Specialty,0,3400.0,1. p999999_trade_value,1.0
+NEXN,Business Services,Advertising and Marketing,0,3750.0,1. p999999_trade_value,1.0
+NEXT,Oils-Energy,Oil and Gas - Production Pipeline - MLB,0,290485.0,1. p999999_trade_value,1.0
+NFE,Oils-Energy,Oil and Gas - Integrated - International,0,129350.0,5. p99_trade_value,7.0
+NFLX,Consumer Discretionary,Broadcast Radio and Television,0,240540.0,4. p999_trade_value,302.0
+NG,Basic Materials,Mining - Gold,0,,,
+NGD,Basic Materials,Mining - Gold,0,38445.0,1. p999999_trade_value,1.0
+NGG,Utilities,Utility - Electric Power,0,13339.999999999998,1. p999999_trade_value,1.0
+NGL,Oils-Energy,Oil and Gas - Refining and Marketing - Master Limited Partnerships,0,,,
+NGNE,Medical,Medical - Biomedical and Genetics,0,6290.000000000001,8. p75_trade_value,25.0
+NGS,Oils-Energy,Oil and Gas - Mechanical and and Equipment,0,,,
+NGVC,Retail-Wholesale,Food - Natural Foods Products,0,6840.000000000001,8. p75_trade_value,3.0
+NGVT,Basic Materials,Chemical - Specialty,0,,,
+NI,Utilities,Utility - Electric Power,0,15225.0,1. p999999_trade_value,1.0
+NICE,Computer and Technology,Internet - Software,0,23585.0,7. p90_trade_value,77.0
+NINE,Oils-Energy,Oil and Gas - Field Services,0,,,
+NIO,Auto-Tires-Trucks,Automotive - Foreign,0,,,
+NIU,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+NKE,Consumer Discretionary,Shoes and Retail Apparel ,0,,,
+NKTR,Medical,Medical - Drugs,0,,,
+NKTX,Medical,Medical - Biomedical and Genetics,0,,,
+NLOP,Finance,REIT and Equity Trust - Other,0,3685.0,1. p999999_trade_value,1.0
+NLY,Finance,REIT and Equity Trust,0,31500.0,1. p999999_trade_value,1.0
+NMAX,Consumer Discretionary,Broadcast Radio and Television,0,,,
+NMM,Transportation,Transportation - Shipping,0,8560.0,8. p75_trade_value,42.0
+NMRA,Medical,Medical - Biomedical and Genetics,0,162000.0,5. p99_trade_value,10.0
+NN,Business Services,Technology Services,0,,,
+NNBR,Industrial Products,Metal Products - Procurement and Fabrication,0,,,
+NNDM,Computer and Technology,Nanotechnology,0,,,
+NNE,Oils-Energy,Alternative Energy - Other,0,,,
+NNOX,Business Services,Technology Services,0,,,
+NNVC,Medical,Medical - Drugs,0,,,
+NOA,Oils-Energy,Oil and Gas - Mechanical and and Equipment,0,7000.0,1. p999999_trade_value,1.0
+NOAH,Finance,Financial - Investment Management,0,,,
+NOC,Aerospace,Aerospace - Defense,0,231040.0,1. p999999_trade_value,1.0
+NOG,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,16500.0,1. p999999_trade_value,1.0
+NOK,Computer and Technology,Wireless Equipment,0,57419.99999999999,1. p999999_trade_value,1.0
+NOTE,Business Services,Technology Services,0,12000.0,1. p999999_trade_value,1.0
+NOTV,Medical,Medical - Drugs,0,,,
+NOV,Oils-Energy,Oil and Gas - Mechanical and and Equipment,0,87071.99999999999,1. p999999_trade_value,1.0
+NOVT,Computer and Technology,Electronics - Miscellaneous Components,0,20000.0,8. p75_trade_value,4.0
+NOW,Computer and Technology,Computers - IT Services,0,,,
+NPCE,Medical,Medical - Instruments,0,,,
+NPO,Business Services,Technology Services,0,,,
+NPWR,Oils-Energy,Alternative Energy - Other,0,12480.000000000002,6. p95_trade_value,2.0
+NRDS,Finance,Financial - Miscellaneous Services,0,,,
+NRDY,Consumer Discretionary,Schools,0,,,
+NRG,Utilities,Utility - Electric Power,0,17920.0,7. p90_trade_value,130.0
+NRIX,Medical,Medical - Biomedical and Genetics,0,,,
+NRP,Oils-Energy,Coal,0,27000.0,8. p75_trade_value,3.0
+NRXP,Medical,Medical - Drugs,0,11519.999999999998,1. p999999_trade_value,1.0
+NSA,Finance,REIT and Equity Trust - Other,0,10000.0,1. p999999_trade_value,1.0
+NSC,Transportation,Transportation - Rail,0,363599.99999999994,1. p999999_trade_value,1.0
+NSIT,Retail-Wholesale,Retail - Mail Order,0,,,
+NSP,Business Services,Staffing Firms,0,80000.0,7. p90_trade_value,2.0
+NSSC,Industrial Products,Security and Safety Services,0,,,
+NTAP,Computer and Technology,Computer- Storage Devices,0,292500.0,1. p999999_trade_value,1.0
+NTES,Computer and Technology,Internet - Software and Services,0,8400.0,8. p75_trade_value,246.0
+NTGR,Computer and Technology,Computer - Networking,0,,,
+NTLA,Medical,Medical - Biomedical and Genetics,0,,,
+NTNX,Computer and Technology,Computers - IT Services,0,,,
+NTR,Basic Materials,Fertilizers,0,,,
+NTRA,Medical,Medical Services,0,,,
+NTRS,Finance,Banks - Major Regional,0,7500.0,8. p75_trade_value,66.0
+NU,Finance,Banks - Foreign,0,27972.000000000004,6. p95_trade_value,102.0
+NUE,Basic Materials,Steel - Producers,0,125000.0,5. p99_trade_value,30.0
+NUVB,Medical,Medical - Biomedical and Genetics,0,3500.0,1. p999999_trade_value,1.0
+NUVL,Medical,Medical - Biomedical and Genetics,0,,,
+NVAX,Medical,Medical - Biomedical and Genetics,0,,,
+NVCR,Medical,Medical - Biomedical and Genetics,0,,,
+NVCT,Medical,Medical - Biomedical and Genetics,0,6500.0,1. p999999_trade_value,1.0
+NVDA,Computer and Technology,Semiconductor - General,0,19800.0,7. p90_trade_value,176131.0
+NVEE,Business Services,Technology Services,0,18000.0,1. p999999_trade_value,1.0
+NVGS,Transportation,Transportation - Shipping,0,,,
+NVMI,Computer and Technology,Electronics - Semiconductors,0,30000.0,6. p95_trade_value,12.0
+NVO,Medical,Large Cap Pharmaceuticals,0,1622400.0,3. p9999_trade_value,2.0
+NVRI,Business Services,Waste Removal Services,0,4410.0,1. p999999_trade_value,1.0
+NVS,Medical,Large Cap Pharmaceuticals,0,,,
+NVST,Medical,Medical - Products,0,,,
+NVT,Computer and Technology,Electronics - Miscellaneous Components,0,,,
+NVTS,Computer and Technology,Electronics - Semiconductors,0,8000.0,8. p75_trade_value,202.0
+NWG,Finance,Banks - Foreign,0,,,
+NWL,Consumer Staples,Consumer Products - Staples,0,140000.0,1. p999999_trade_value,1.0
+NWN,Utilities,Utility - Gas Distribution,0,8000.0,1. p999999_trade_value,1.0
+NWSA,Consumer Discretionary,Film and Television Production and Distribution,0,10600.0,8. p75_trade_value,2.0
+NX,Construction,Building Products - Miscellaneous,0,,,
+NXE,Basic Materials,Mining - Miscellaneous,0,860000.0,1. p999999_trade_value,1.0
+NXPI,Computer and Technology,Semiconductor - Analog and Mixed,0,,,
+NXST,Consumer Discretionary,Media Conglomerates,0,60259.99999999999,5. p99_trade_value,2.0
+NXT,Oils-Energy,Solar,0,,,
+NYT,Consumer Staples,Publishing - Newspapers,0,,,
+O,Finance,REIT and Equity Trust - Retail,0,210300.0,1. p999999_trade_value,1.0
+OC,Construction,Building Products - Miscellaneous,0,119130.0,5. p99_trade_value,2.0
+OCFT,Business Services,Technology Services,0,,,
+OCGN,Medical,Medical - Biomedical and Genetics,0,,,
+OCUL,Medical,Medical - Drugs,0,47150.0,1. p999999_trade_value,1.0
+ODD,Computer and Technology,Internet - Software,0,14419.999999999998,7. p90_trade_value,18.0
+ODFL,Transportation,Transportation - Truck,0,400000.0,1. p999999_trade_value,1.0
+ODP,Retail-Wholesale,Retail - Miscellaneous,0,47250.00000000001,8. p75_trade_value,4.0
+ODV,Basic Materials,Mining - Gold,0,4000.0,1. p999999_trade_value,1.0
+OFIX,Medical,Medical - Instruments,0,,,
+OFS,Finance,Financial - SBIC & Commercial Industry,0,,,
+OGN,Medical,Medical Services,0,130000.0,1. p999999_trade_value,1.0
+OHI,Finance,REIT and Equity Trust - Other,0,,,
+OI,Industrial Products,Glass Products,0,23199.999999999996,7. p90_trade_value,3.0
+OII,Oils-Energy,Oil and Gas - Field Services,0,12750.0,1. p999999_trade_value,1.0
+OKE,Oils-Energy,Oil and Gas - Production Pipeline - MLB,0,102500.0,1. p999999_trade_value,1.0
+OKLO,Oils-Energy,Alternative Energy - Other,0,251888.0,4. p999_trade_value,22.0
+OKTA,Computer and Technology,Security,0,221056.99999999997,4. p999_trade_value,8.0
+OLED,Computer and Technology,Electronics - Miscellaneous Components,0,399839.99999999994,1. p999999_trade_value,1.0
+OLLI,Consumer Staples,Consumer Products - Staples,0,180071.99999999997,5. p99_trade_value,6.0
+OLMA,Medical,Medical - Biomedical and Genetics,0,,,
+OLN,Basic Materials,Chemical - Diversified ,0,,,
+OLO,Computer and Technology,Internet - Software,0,,,
+OM,Medical,Medical Info Systems,0,,,
+OMC,Business Services,Advertising and Marketing,0,,,
+OMCL,Medical,Medical Info Systems,0,,,
+OMER,Medical,Medical - Products,0,,,
+OMEX,Transportation,Transportation - Shipping,0,40500.0,1. p999999_trade_value,1.0
+OMF,Finance,Financial - Consumer Loans,0,,,
+OMI,Medical,Medical - Products,0,,,
+ON,Computer and Technology,Semiconductor - Analog and Mixed,0,,,
+ONC,Medical,Medical - Drugs,0,8400.0,8. p75_trade_value,8.0
+ONDS,Computer and Technology,Communication - Network Software,0,24290.000000000004,6. p95_trade_value,4.0
+ONEW,Consumer Discretionary,Leisure and Recreation Products,0,,,
+ONON,Retail-Wholesale,Retail - Apparel and Shoes,0,654454.9999999999,1. p999999_trade_value,1.0
+ONTO,Computer and Technology,Nanotechnology,0,,,
+OOMA,Computer and Technology,Communication - Components,0,4500.0,1. p999999_trade_value,1.0
+OPCH,Medical,Medical - Outpatient and Home Healthcare,0,,,
+OPEN,Computer and Technology,Internet - Software,0,109200.0,1. p999999_trade_value,1.0
+OPFI,Business Services,Financial Transaction Services,0,,,
+OPK,Medical,Medical - Instruments,0,,,
+OPRA,Computer and Technology,Internet - Content,0,,,
+OPRT,Finance,Financial - Miscellaneous Services,0,,,
+OPRX,Computer and Technology,Computer - Software,0,7240.000000000001,8. p75_trade_value,2.0
+OPTT,Oils-Energy,Alternative Energy - Other,0,48000.0,1. p999999_trade_value,1.0
+OPY,Finance,Financial - Investment Bank,0,9720.0,7. p90_trade_value,3.0
+OR,Basic Materials,Mining - Miscellaneous,0,,,
+ORA,Oils-Energy,Alternative Energy - Other,0,8750.0,8. p75_trade_value,7.0
+ORCL,Computer and Technology,Computer - Software,0,,,
+ORGN,Oils-Energy,Biofuels,0,,,
+ORGO,Medical,Medical - Drugs,0,4950.0,8. p75_trade_value,2.0
+ORI,Finance,Insurance - Multi line,0,58960.0,1. p999999_trade_value,1.0
+ORIC,Medical,Medical - Biomedical and Genetics,0,60000.0,1. p999999_trade_value,1.0
+ORLY,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,0,,,
+ORN,Construction,Building Products - Heavy Construction,0,,,
+OS,Computer and Technology,Internet - Software,0,,,
+OSCR,Finance,Insurance - Multi line,0,,,
+OSIS,Computer and Technology,Electronics - Miscellaneous Components,0,15000.0,8. p75_trade_value,30.0
+OSK,Auto-Tires-Trucks,Automotive - Original Equipment,0,208000.0,1. p999999_trade_value,1.0
+OSPN,Computer and Technology,Internet - Software,0,5874.0,1. p999999_trade_value,1.0
+OSS,Computer and Technology,Electronics - Miscellaneous Products,0,,,
+OTEX,Computer and Technology,Computer - Software,0,22610.0,1. p999999_trade_value,1.0
+OTIS,Industrial Products,Manufacturing - General Industrial ,0,,,
+OTLK,Medical,Medical - Biomedical and Genetics,0,,,
+OTLY,Consumer Staples,Food - Dairy Products,0,,,
+OUST,Computer and Technology,Electronics - Miscellaneous Components,0,15554.0,6. p95_trade_value,8.0
+OUT,Finance,REIT and Equity Trust - Other,0,10125.0,1. p999999_trade_value,1.0
+OVV,Oils-Energy,Oil and Gas - Exploration and Production - Canadian,0,8400.0,8. p75_trade_value,54.0
+OWL,Finance,Financial - Investment Management,0,495300.0,1. p999999_trade_value,1.0
+OXM,Consumer Discretionary,Textile - Apparel,0,25740.000000000004,6. p95_trade_value,5.0
+OXY,Oils-Energy,Oil and Gas - Integrated - United States,0,123190.00000000001,4. p999_trade_value,9.0
+OZK,Finance,Banks - Northeast,0,7505.0,8. p75_trade_value,46.0
+PAA,Oils-Energy,Oil and Gas - Production Pipeline - MLB,0,48660.0,1. p999999_trade_value,1.0
+PAAS,Basic Materials,Mining - Silver,0,,,
+PACB,Medical,Medical - Instruments,0,7180.0,8. p75_trade_value,17.0
+PACK,Industrial Products,Containers - Paper and Packaging,0,,,
+PACS,Medical,Medical Services,0,,,
+PAG,Retail-Wholesale,Automotive - Retail and Whole Sales,0,82225.0,1. p999999_trade_value,1.0
+PAGP,Oils-Energy,Oil and Gas - Production and Pipelines,0,,,
+PAGS,Business Services,Financial Transaction Services,0,112500.0,1. p999999_trade_value,1.0
+PAHC,Medical,Medical - Products,0,,,
+PAM,Utilities,Utility - Electric Power,0,,,
+PANW,Computer and Technology,Security,0,188750.0,4. p999_trade_value,26.0
+PAR,Business Services,Financial Transaction Services,0,66250.0,6. p95_trade_value,2.0
+PARA,Consumer Discretionary,Media Conglomerates,0,,,
+PARR,Oils-Energy,Oil and Gas - Refining and Marketing,0,6650.0,8. p75_trade_value,10.0
+PATH,Computer and Technology,Internet - Software,0,529104.0,1. p999999_trade_value,1.0
+PATK,Construction,Building Products - Mobile Homes and RV Builders,0,349800.0,1. p999999_trade_value,1.0
+PAY,Business Services,Financial Transaction Services,0,,,
+PAYC,Computer and Technology,Internet - Software,0,,,
+PAYO,Business Services,Financial Transaction Services,0,13888.0,8. p75_trade_value,3.0
+PAYX,Computer and Technology,Internet - Software,0,118500.0,5. p99_trade_value,5.0
+PB,Finance,Banks - Southwest,0,,,
+PBF,Oils-Energy,Oil and Gas - Refining and Marketing,0,70200.0,1. p999999_trade_value,1.0
+PBH,Medical,Medical - Products,0,7500.0,1. p999999_trade_value,1.0
+PBI,Computer and Technology,Office Automation and Equipment,0,,,
+PBPB,Retail-Wholesale,Retail - Restaurants,0,3230.0000000000005,1. p999999_trade_value,1.0
+PBR,Oils-Energy,Oil and Gas - Integrated - International,0,,,
+PCAR,Auto-Tires-Trucks,Automotive - Domestic,0,,,
+PCG,Utilities,Utility - Electric Power,0,,,
+PCH,Construction,Building Products - Wood,0,6789.999999999999,8. p75_trade_value,2.0
+PCOR,Computer and Technology,Internet - Software,0,175000.0,5. p99_trade_value,4.0
+PCRX,Medical,Medical - Biomedical and Genetics,0,200000.0,1. p999999_trade_value,1.0
+PCT,Business Services,Waste Removal Services,0,,,
+PCTY,Computer and Technology,Internet - Software,0,,,
+PCVX,Medical,Medical - Biomedical and Genetics,0,329000.0,1. p999999_trade_value,1.0
+PD,Computer and Technology,Internet - Software,0,,,
+PDD,Retail-Wholesale,Internet - Commerce,0,,,
+PDFS,Computer and Technology,Computer - Services,0,10000.0,1. p999999_trade_value,1.0
+PDYN,Business Services,Technology Services,0,25080.0,5. p99_trade_value,2.0
+PEB,Finance,REIT and Equity Trust - Other,0,3060.0,1. p999999_trade_value,1.0
+PECO,Finance,REIT and Equity Trust - Retail,0,4000.0,1. p999999_trade_value,1.0
+PEG,Utilities,Utility - Electric Power,0,,,
+PEGA,Computer and Technology,Computer - Software,0,197105.00000000003,1. p999999_trade_value,1.0
+PEN,Medical,Medical - Instruments,0,625000.0,1. p999999_trade_value,1.0
+PENG,Computer and Technology,Internet - Software,0,86000.0,1. p999999_trade_value,1.0
+PENN,Consumer Discretionary,Gaming,0,174200.0,5. p99_trade_value,10.0
+PEP,Consumer Staples,Beverages - Soft drinks,0,,,
+PEPG,Medical,Medical - Biomedical and Genetics,0,9980.000000000002,8. p75_trade_value,2.0
+PERI,Computer and Technology,Internet - Content,0,5000.0,8. p75_trade_value,3.0
+PFE,Medical,Large Cap Pharmaceuticals,0,381030.0,4. p999_trade_value,8.0
+PFG,Finance,Insurance - Multi line,0,22200.0,7. p90_trade_value,2.0
+PFGC,Retail-Wholesale,Food - Natural Foods Products,0,101250.0,6. p95_trade_value,4.0
+PFSI,Finance,Financial - Mortgage & Related Services,0,,,
+PG,Consumer Staples,Consumer Products - Staples,0,637500.0,1. p999999_trade_value,1.0
+PGEN,Medical,Medical - Biomedical and Genetics,0,14000.0,1. p999999_trade_value,1.0
+PGNY,Medical,Medical Services,0,36000.0,1. p999999_trade_value,1.0
+PGR,Finance,Insurance - Property and Casualty,0,176000.00000000003,4. p999_trade_value,2.0
+PGY,Finance,Financial - Miscellaneous Services,0,8820.0,8. p75_trade_value,88.0
+PH,Industrial Products,Manufacturing - General Industrial ,0,286400.0,5. p99_trade_value,10.0
+PHAT,Medical,Medical - Biomedical and Genetics,0,,,
+PHG,Medical,Medical - Products,0,,,
+PHIN,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+PHM,Construction,Building Products - Home Builders,0,,,
+PHR,Medical,Medical Info Systems,0,,,
+PHUN,Computer and Technology,Internet - Software,0,6500.0,8. p75_trade_value,13.0
+PI,Computer and Technology,Electronics - Semiconductors,0,22999.999999999996,6. p95_trade_value,21.0
+PII,Auto-Tires-Trucks,Automotive - Domestic,0,19000.0,7. p90_trade_value,46.0
+PINC,Medical,Medical Services,0,,,
+PINE,Finance,REIT and Equity Trust - Other,0,,,
+PINS,Computer and Technology,Internet - Software,0,,,
+PIPR,Finance,Financial - Investment Bank,0,13800.0,8. p75_trade_value,2.0
+PJT,Finance,Financial - Miscellaneous Services,0,,,
+PK,Finance,REIT and Equity Trust - Other,0,12060.0,1. p999999_trade_value,1.0
+PKG,Industrial Products,Containers - Paper and Packaging,0,46284.0,1. p999999_trade_value,1.0
+PKX,Basic Materials,Steel - Producers,0,,,
+PL,Computer and Technology,Satellite and Communication,0,,,
+PLAB,Computer and Technology,Semiconductor Equipment - Photomasks,0,21624.0,1. p999999_trade_value,1.0
+PLAY,Retail-Wholesale,Retail - Restaurants,0,7906.0,8. p75_trade_value,148.0
+PLBY,Consumer Discretionary,Leisure and Recreation Products,0,,,
+PLCE,Retail-Wholesale,Retail - Apparel and Shoes,0,13500.0,7. p90_trade_value,51.0
+PLD,Finance,REIT and Equity Trust - Other,0,108500.0,5. p99_trade_value,4.0
+PLL,Basic Materials,Mining - Miscellaneous,0,,,
+PLMR,Finance,Insurance - Property and Casualty,0,7350.0,8. p75_trade_value,3.0
+PLNT,Consumer Discretionary,Leisure and Recreation Services,0,,,
+PLOW,Auto-Tires-Trucks,Automotive - Replacement Parts,0,4450.0,1. p999999_trade_value,1.0
+PLRX,Medical,Medical - Biomedical and Genetics,0,,,
+PLSE,Medical,Medical - Instruments,0,5649.999999999999,8. p75_trade_value,5.0
+PLTR,Computer and Technology,Internet - Software,0,1601400.0,3. p9999_trade_value,32.0
+PLUG,Industrial Products,Manufacturing - Electronics,0,175800.0,1. p999999_trade_value,1.0
+PLUS,Computer and Technology,Business - Software Services,0,,,
+PLXS,Computer and Technology,Electronics - Manufacturing Services,0,7589.999999999999,2. p99999_trade_value,1.0
+PM,Consumer Staples,Tobacco,0,2897388.0,4. p999_trade_value,3.0
+PMT,Finance,REIT and Equity Trust,0,,,
+PNC,Finance,Financial - Investment Bank,0,161250.0,1. p999999_trade_value,1.0
+PNFP,Finance,Banks - Southeast,0,40460.0,1. p999999_trade_value,1.0
+PNR,Business Services,Waste Removal Services,0,293287.5,1. p999999_trade_value,1.0
+PNW,Utilities,Utility - Electric Power,0,11305.0,8. p75_trade_value,3.0
+PODD,Medical,Medical - Products,0,,,
+POET,Computer and Technology,Electronics - Semiconductors,0,,,
+PONY,Transportation,Transportation - Equipment and Leasing,0,,,
+POOL,Consumer Discretionary,Leisure and Recreation Products,0,,,
+POR,Utilities,Utility - Electric Power,0,4500.0,1. p999999_trade_value,1.0
+POST,Consumer Staples,Food - Miscellaneous,0,8400.0,8. p75_trade_value,4.0
+POWI,Computer and Technology,Semiconductors - Power,0,,,
+POWL,Industrial Products,Manufacturing - Electronics,0,345000.0,4. p999_trade_value,2.0
+POWW,Aerospace,Aerospace - Defense Equipment,0,,,
+PPBT,Medical,Medical - Biomedical and Genetics,0,5600.0,1. p999999_trade_value,1.0
+PPC,Consumer Staples,Food - Meat Products,0,,,
+PPG,Basic Materials,Chemical - Specialty,0,,,
+PPIH,Industrial Products,Steel - Pipe and Tube,0,,,
+PPL,Utilities,Utility - Electric Power,0,107236.00000000001,1. p999999_trade_value,1.0
+PPSI,Industrial Products,Manufacturing - Electronics,0,5000.0,1. p999999_trade_value,1.0
+PPTA,Basic Materials,Mining - Miscellaneous,0,11250.0,8. p75_trade_value,14.0
+PR,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,18880.0,7. p90_trade_value,7.0
+PRAA,Finance,Financial - Miscellaneous Services,0,5200.0,8. p75_trade_value,5.0
+PRAX,Medical,Medical - Biomedical and Genetics,0,,,
+PRCH,Computer and Technology,Internet - Software,0,8700.0,8. p75_trade_value,8.0
+PRCT,Medical,Medical - Instruments,0,220000.0,5. p99_trade_value,6.0
+PRG,Finance,Financial - Consumer Loans,0,,,
+PRGO,Medical,Medical - Products,0,372900.0,6. p95_trade_value,3.0
+PRGS,Computer and Technology,Computer - Software,0,,,
+PRI,Finance,Insurance - Life Insurance,0,,,
+PRIM,Construction,Building Products - Heavy Construction,0,32370.0,6. p95_trade_value,13.0
+PRKS,Consumer Discretionary,Leisure and Recreation Services,0,100000.0,1. p999999_trade_value,1.0
+PRLB,Industrial Products,Rubber - Plastics,0,,,
+PRM,Basic Materials,Chemical - Specialty,0,15760.000000000002,1. p999999_trade_value,1.0
+PRMB,Consumer Staples,Beverages - Soft drinks,0,,,
+PRME,Medical,Medical - Biomedical and Genetics,0,,,
+PROK,Medical,Medical - Drugs,0,,,
+PROP,Oils-Energy,Oil and Gas - Integrated - United States,0,,,
+PRQR,Medical,Medical - Biomedical and Genetics,0,,,
+PRSU,Consumer Discretionary,Leisure and Recreation Services,0,,,
+PRTA,Medical,Medical - Biomedical and Genetics,0,,,
+PRTH,Business Services,Technology Services,0,4000.0,1. p999999_trade_value,1.0
+PRU,Finance,Insurance - Multi line,0,,,
+PRVA,Medical,Medical Info Systems,0,50000.0,1. p999999_trade_value,1.0
+PSA,Finance,REIT and Equity Trust - Other,0,99000.0,1. p999999_trade_value,1.0
+PSEC,Finance,Financial - Investment Management,0,45350.0,1. p999999_trade_value,1.0
+PSFE,Business Services,Financial Transaction Services,0,64000.0,1. p999999_trade_value,1.0
+PSMT,Retail-Wholesale,Retail - Discount Stores,0,,,
+PSN,Business Services,Technology Services,0,148800.0,1. p999999_trade_value,1.0
+PSNL,Medical,Medical - Generic Drugs,0,,,
+PSNY,Auto-Tires-Trucks,Automotive - Foreign,0,,,
+PSQH,Retail-Wholesale,Internet - Commerce,0,13850.0,1. p999999_trade_value,1.0
+PSTG,Computer and Technology,Computer- Storage Devices,0,,,
+PSX,Oils-Energy,Oil and Gas - Refining and Marketing,0,,,
+PTC,Computer and Technology,Computer - Software,0,430168.99999999994,1. p999999_trade_value,1.0
+PTCT,Medical,Medical - Biomedical and Genetics,0,,,
+PTEN,Oils-Energy,Oil and Gas - Drilling,0,7740.000000000001,8. p75_trade_value,16.0
+PTGX,Medical,Medical - Biomedical and Genetics,0,,,
+PTLO,Retail-Wholesale,Retail - Restaurants,0,52200.0,1. p999999_trade_value,1.0
+PTON,Consumer Discretionary,Leisure and Recreation Products,0,103235.99999999999,5. p99_trade_value,28.0
+PUBM,Computer and Technology,Internet - Software,0,34900.0,1. p999999_trade_value,1.0
+PVH,Consumer Discretionary,Textile - Apparel,0,,,
+PWP,Finance,Financial - Miscellaneous Services,0,12201.0,1. p999999_trade_value,1.0
+PWR,Construction,Engineering - R and D Services,0,8766.0,8. p75_trade_value,460.0
+PX,Finance,Financial - Miscellaneous Services,0,,,
+PYPL,Business Services,Financial Transaction Services,0,,,
+PYXS,Medical,Medical - Drugs,0,,,
+PZZA,Retail-Wholesale,Retail - Restaurants,0,,,
+QBTS,Computer and Technology,Internet - Software,0,,,
+QCOM,Computer and Technology,Electronics - Semiconductors,0,675675.0,1. p999999_trade_value,1.0
+QDEL,Medical,Medical - Products,0,,,
+QFIN,Business Services,Technology Services,0,,,
+QGEN,Medical,Medical - Biomedical and Genetics,0,12000.0,8. p75_trade_value,16.0
+QIPT,Medical,Medical - Products,0,,,
+QLYS,Computer and Technology,Security,0,222138.0,5. p99_trade_value,2.0
+QMCO,Computer and Technology,Computer- Storage Devices,0,,,
+QNCX,Medical,Medical - Biomedical and Genetics,0,,,
+QNST,Computer and Technology,Internet - Delivery Services,0,8119.999999999999,7. p90_trade_value,2.0
+QRVO,Computer and Technology,Semiconductors - Radio Frequency,0,,,
+QS,Auto-Tires-Trucks,Automotive - Original Equipment,0,23600.0,5. p99_trade_value,8.0
+QSI,Computer and Technology,Electronics - Semiconductors,0,,,
+QSR,Retail-Wholesale,Retail - Restaurants,0,,,
+QTTB,Medical,Medical - Biomedical and Genetics,0,,,
+QTWO,Computer and Technology,Internet - Software,0,54540.00000000001,1. p999999_trade_value,1.0
+QUBT,Computer and Technology,Internet - Software,0,,,
+QUIK,Computer and Technology,Electronics - Semiconductors,0,,,
+QURE,Medical,Medical - Biomedical and Genetics,0,60000.0,1. p999999_trade_value,1.0
+QXO,Business Services,Technology Services,0,,,
+R,Transportation,Transportation - Equipment and Leasing,0,25480.0,1. p999999_trade_value,1.0
+RACE,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+RAIL,Transportation,Transportation - Equipment and Leasing,0,13000.0,1. p999999_trade_value,1.0
+RAMP,Business Services,Technology Services,0,,,
+RAPP,Medical,Medical - Biomedical and Genetics,0,10000.0,1. p999999_trade_value,1.0
+RAPT,Medical,Medical - Biomedical and Genetics,0,,,
+RARE,Medical,Medical - Biomedical and Genetics,0,185000.0,1. p999999_trade_value,1.0
+RBA,Business Services,Financial Transaction Services,0,,,
+RBC,Industrial Products,Manufacturing - General Industrial ,0,7840.000000000001,7. p90_trade_value,2.0
+RBLX,Consumer Discretionary,Gaming,0,8117.999999999999,8. p75_trade_value,2454.0
+RBRK,Computer and Technology,Internet - Software,0,,,
+RCAT,Business Services,Technology Services,0,,,
+RCEL,Medical,Medical - Drugs,0,,,
+RCKT,Medical,Medical - Biomedical and Genetics,0,,,
+RCL,Consumer Discretionary,Leisure and Recreation Services,0,87500.0,5. p99_trade_value,57.0
+RCUS,Medical,Medical - Biomedical and Genetics,0,49335.0,6. p95_trade_value,2.0
+RDDT,Computer and Technology,Internet - Software,0,,,
+RDFN,Finance,Real Estate - Operations,0,255000.0,5. p99_trade_value,9.0
+RDN,Finance,Insurance - Multi line,0,,,
+RDNT,Medical,Medical - Outpatient and Home Healthcare,0,,,
+RDW,Aerospace,Aerospace - Defense,0,63000.0,1. p999999_trade_value,1.0
+RDWR,Computer and Technology,Internet - Software,0,8000.0,8. p75_trade_value,2.0
+REAL,Consumer Discretionary,Consumer Products - Discretionary,0,16500.0,6. p95_trade_value,5.0
+REE,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+REG,Finance,REIT and Equity Trust - Retail,0,,,
+REGN,Medical,Medical - Biomedical and Genetics,0,683100.0,1. p999999_trade_value,1.0
+REKR,Computer and Technology,Internet - Software,0,9540.0,7. p90_trade_value,2.0
+RELL,Computer and Technology,Electronics - Parts Distribution,0,7000.0,1. p999999_trade_value,1.0
+RELY,Business Services,Financial Transaction Services,0,192000.0,1. p999999_trade_value,1.0
+RENB,Medical,Medical - Biomedical and Genetics,0,,,
+REPL,Medical,Medical - Biomedical and Genetics,0,275000.0,1. p999999_trade_value,1.0
+REVG,Transportation,Transportation - Services,0,,,
+REX,Oils-Energy,Biofuels,0,12000.0,8. p75_trade_value,3.0
+REXR,Finance,REIT and Equity Trust - Other,0,5900.0,8. p75_trade_value,12.0
+REYN,Consumer Discretionary,Consumer Products - Discretionary,0,10250.0,1. p999999_trade_value,1.0
+REZI,Industrial Products,Security and Safety Services,0,5070.0,1. p999999_trade_value,1.0
+RF,Finance,Banks - Southeast,0,,,
+RFL,Medical,Medical - Drugs,0,,,
+RGA,Finance,Insurance - Life Insurance,0,,,
+RGEN,Medical,Medical - Biomedical and Genetics,0,,,
+RGLD,Basic Materials,Mining - Gold,0,22080.0,7. p90_trade_value,22.0
+RGLS,Medical,Medical - Drugs,0,7600.0,8. p75_trade_value,6.0
+RGNX,Medical,Medical - Biomedical and Genetics,0,4000.0,8. p75_trade_value,5.0
+RGR,Consumer Discretionary,Leisure and Recreation Products,0,,,
+RGTI,Computer and Technology,Internet - Software,0,,,
+RH,Consumer Staples,Consumer Products - Staples,0,,,
+RHI,Business Services,Staffing Firms,0,62579.99999999999,1. p999999_trade_value,1.0
+RHP,Finance,REIT and Equity Trust - Other,0,,,
+RICK,Consumer Discretionary,Leisure and Recreation Services,0,,,
+RIG,Oils-Energy,Oil and Gas - Drilling,0,,,
+RIGL,Medical,Medical - Drugs,0,11726.0,8. p75_trade_value,2.0
+RILY,Business Services,Auction and Valuation Services,0,,,
+RIO,Basic Materials,Mining - Miscellaneous,0,9600.0,8. p75_trade_value,170.0
+RIOT,Finance,Financial - Miscellaneous Services,0,422835.99999999994,4. p999_trade_value,11.0
+RITM,Finance,Financial - Miscellaneous Services,0,,,
+RIVN,Auto-Tires-Trucks,Automotive - Domestic,0,,,
+RJF,Finance,Financial - Investment Bank,0,498000.0,1. p999999_trade_value,1.0
+RKLB,Aerospace,Aerospace - Defense Equipment,0,952419.9999999999,1. p999999_trade_value,1.0
+RKT,Finance,Financial - Mortgage & Related Services,0,182500.0,4. p999_trade_value,2.0
+RL,Consumer Discretionary,Textile - Apparel,0,328860.0,1. p999999_trade_value,1.0
+RLAY,Medical,Medical - Drugs,0,5000.0,8. p75_trade_value,4.0
+RLI,Finance,Insurance - Property and Casualty,0,,,
+RLMD,Medical,Medical - Drugs,0,,,
+RLX,Consumer Discretionary,Consumer Products - Discretionary,0,,,
+RMAX,Finance,Real Estate - Operations,0,9000.0,1. p999999_trade_value,1.0
+RMBL,Retail-Wholesale,Internet - Commerce,0,,,
+RMBS,Computer and Technology,Electronics - Semiconductors,0,19500.0,6. p95_trade_value,11.0
+RMD,Medical,Medical - Products,0,91840.0,5. p99_trade_value,9.0
+RMTI,Medical,Medical - Products,0,,,
+RNA,Medical,Medical - Biomedical and Genetics,0,520000.0,1. p999999_trade_value,1.0
+RNG,Computer and Technology,Internet - Software and Services,0,,,
+RNR,Finance,Insurance - Property and Casualty,0,,,
+RNW,Oils-Energy,Alternative Energy - Other,0,,,
+ROAD,Construction,Building Products - Miscellaneous,0,17640.0,8. p75_trade_value,6.0
+ROCK,Construction,Building Products - Miscellaneous,0,7325.0,8. p75_trade_value,4.0
+ROG,Computer and Technology,Electronics - Miscellaneous Components,0,40000.0,7. p90_trade_value,3.0
+ROIV,Medical,Medical - Biomedical and Genetics,0,92463.0,6. p95_trade_value,2.0
+ROK,Computer and Technology,Electronics - Miscellaneous Products,0,,,
+ROKU,Consumer Discretionary,Broadcast Radio and Television,0,,,
+ROL,Business Services,Building Products - Maintenance Service,0,40400.0,1. p999999_trade_value,1.0
+ROOT,Finance,Insurance - Property and Casualty,0,158400.0,1. p999999_trade_value,1.0
+ROP,Computer and Technology,Computers - IT Services,0,,,
+ROST,Retail-Wholesale,Retail - Discount Stores,0,642928.0,4. p999_trade_value,2.0
+RPD,Computer and Technology,Internet - Software,0,,,
+RPM,Basic Materials,Chemical - Specialty,0,34500.0,1. p999999_trade_value,1.0
+RPRX,Medical,Medical - Biomedical and Genetics,0,22140.0,8. p75_trade_value,10.0
+RRC,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,39970.0,6. p95_trade_value,6.0
+RRGB,Retail-Wholesale,Retail - Restaurants,0,,,
+RRR,Consumer Discretionary,Gaming,0,,,
+RRX,Industrial Products,Manufacturing - General Industrial ,0,,,
+RS,Basic Materials,Mining - Miscellaneous,0,97049.0,6. p95_trade_value,4.0
+RSG,Business Services,Waste Removal Services,0,167250.0,1. p999999_trade_value,1.0
+RSI,Consumer Discretionary,Gaming,0,19895.0,7. p90_trade_value,5.0
+RTO,Business Services,Business - Services,0,,,
+RTX,Aerospace,Aerospace - Defense,0,,,
+RUM,Computer and Technology,Internet - Software,0,,,
+RUN,Oils-Energy,Solar,0,,,
+RVLV,Consumer Discretionary,Textile - Apparel,0,,,
+RVMD,Medical,Medical - Biomedical and Genetics,0,,,
+RVPH,Medical,Medical - Drugs,0,,,
+RVTY,Medical,Medical Services,0,52030.00000000001,6. p95_trade_value,3.0
+RWAY,Finance,Financial - SBIC & Commercial Industry,0,52710.0,1. p999999_trade_value,1.0
+RXO,Transportation,Transportation - Services,0,14700.0,8. p75_trade_value,3.0
+RXRX,Medical,Medical - Drugs,0,135966.0,4. p999_trade_value,2.0
+RXST,Medical,Medical - Instruments,0,9570.0,8. p75_trade_value,78.0
+RXT,Business Services,Technology Services,0,9500.0,1. p999999_trade_value,1.0
+RY,Finance,Banks - Foreign,0,,,
+RYAAY,Transportation,Transportation - Airline,0,10790.0,8. p75_trade_value,5.0
+RYAM,Basic Materials,Paper and Related Products,0,,,
+RYAN,Finance,Insurance - Brokerage,0,11499.999999999998,8. p75_trade_value,6.0
+RYTM,Medical,Medical - Biomedical and Genetics,0,,,
+RZLT,Medical,Medical - Biomedical and Genetics,0,,,
+RZLV,Business Services,Technology Services,0,,,
+S,Computer and Technology,Security,0,225000.0,1. p999999_trade_value,1.0
+SA,Basic Materials,Mining - Gold,0,,,
+SABR,Computer and Technology,Internet - Software and Services,0,85000.00000000001,1. p999999_trade_value,1.0
+SAFE,Finance,REIT and Equity Trust - Residential,0,,,
+SAGE,Medical,Medical - Biomedical and Genetics,0,5000.0,8. p75_trade_value,3.0
+SAH,Retail-Wholesale,Automotive - Retail and Whole Sales,0,4030.0000000000005,8. p75_trade_value,2.0
+SAIA,Transportation,Transportation - Truck,0,,,
+SAIC,Computer and Technology,Computers - IT Services,0,,,
+SAIL,Computer and Technology,Internet - Software,0,,,
+SAM,Consumer Staples,Beverages - Alcohol,0,129150.0,1. p999999_trade_value,1.0
+SAN,Finance,Banks - Foreign,0,4420.0,1. p999999_trade_value,1.0
+SANA,Medical,Medical - Biomedical and Genetics,0,,,
+SAND,Basic Materials,Mining - Gold,0,8750.0,8. p75_trade_value,2.0
+SANM,Computer and Technology,Electronics - Manufacturing Services,0,23400.0,1. p999999_trade_value,1.0
+SAP,Computer and Technology,Computer - Software,0,310000.0,1. p999999_trade_value,1.0
+SARO,Aerospace,Aerospace - Defense,0,4000.0,1. p999999_trade_value,1.0
+SATL,Computer and Technology,Satellite and Communication,0,6950.0,1. p999999_trade_value,1.0
+SATS,Computer and Technology,Satellite and Communication,0,699525.0,1. p999999_trade_value,1.0
+SAVA,Medical,Medical - Drugs,0,,,
+SB,Transportation,Transportation - Shipping,0,3500.0,1. p999999_trade_value,1.0
+SBAC,Finance,REIT and Equity Trust - Other,0,,,
+SBGI,Consumer Discretionary,Media Conglomerates,0,5000.0,8. p75_trade_value,7.0
+SBH,Retail-Wholesale,Retail - Miscellaneous,0,5295.0,8. p75_trade_value,2.0
+SBLK,Transportation,Transportation - Shipping,0,,,
+SBRA,Finance,REIT and Equity Trust - Other,0,4620.0,1. p999999_trade_value,1.0
+SBSW,Basic Materials,Mining - Miscellaneous,0,6850.0,8. p75_trade_value,7.0
+SBUX,Retail-Wholesale,Retail - Restaurants,0,23985.0,6. p95_trade_value,495.0
+SCCO,Basic Materials,Mining - Non Ferrous,0,287500.0,1. p999999_trade_value,1.0
+SCHL,Consumer Staples,Publishing - Books,0,3960.0,1. p999999_trade_value,1.0
+SCHW,Finance,Financial - Investment Bank,0,745000.0,1. p999999_trade_value,1.0
+SCI,Consumer Staples,Funeral Services,0,,,
+SCPH,Medical,Medical - Biomedical and Genetics,0,,,
+SCS,Business Services,Business - Office Products,0,10045.0,1. p999999_trade_value,1.0
+SCSC,Industrial Products,Industrial Services,0,4500.0,1. p999999_trade_value,1.0
+SCVL,Retail-Wholesale,Retail - Apparel and Shoes,0,22500.0,1. p999999_trade_value,1.0
+SDGR,Medical,Medical Info Systems,0,6400.0,8. p75_trade_value,42.0
+SDRL,Oils-Energy,Oil and Gas - Drilling,0,,,
+SE,Computer and Technology,Internet - Software,0,,,
+SEAT,Computer and Technology,Internet - Software,0,,,
+SEDG,Oils-Energy,Solar,0,11940.0,7. p90_trade_value,166.0
+SEE,Industrial Products,Containers - Paper and Packaging,0,95355.0,8. p75_trade_value,2.0
+SEG,Finance,Real Estate - Operations,0,3080.0,1. p999999_trade_value,1.0
+SEI,Oils-Energy,Oil and Gas - Mechanical and and Equipment,0,,,
+SEM,Medical,Medical - HMOs,0,,,
+SEMR,Computer and Technology,Internet - Software,0,,,
+SENS,Medical,Medical Info Systems,0,5150.0,1. p999999_trade_value,1.0
+SEPN,Medical,Medical - Biomedical and Genetics,0,,,
+SERV,Computer and Technology,Computers - IT Services,0,7740.000000000001,8. p75_trade_value,297.0
+SES,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+SEZL,Business Services,Financial Transaction Services,0,8550.0,8. p75_trade_value,96.0
+SF,Finance,Financial - Investment Bank,0,,,
+SFIX,Retail-Wholesale,Retail - Apparel and Shoes,0,,,
+SFL,Transportation,Transportation - Shipping,0,9960.0,1. p999999_trade_value,1.0
+SFM,Retail-Wholesale,Food - Natural Foods Products,0,,,
+SG,Retail-Wholesale,Retail - Restaurants,0,,,
+SGI,Retail-Wholesale,Retail - Home Furnishings,0,201312.0,1. p999999_trade_value,1.0
+SGML,Computer and Technology,Electronics - Miscellaneous Products,0,,,
+SGMO,Medical,Medical - Biomedical and Genetics,0,,,
+SGMT,Medical,Medical - Biomedical and Genetics,0,,,
+SGRY,Medical,Medical Services,0,,,
+SGU,Computer and Technology,Electronics - Miscellaneous Products,0,,,
+SHAK,Retail-Wholesale,Retail - Restaurants,0,519040.00000000006,4. p999_trade_value,3.0
+SHC,Medical,Medical Services,0,28800.0,1. p999999_trade_value,1.0
+SHCO,Consumer Discretionary,Hotels and Motels,0,,,
+SHEL,Oils-Energy,Oil and Gas - Integrated - International,0,,,
+SHIP,Transportation,Transportation - Shipping,0,,,
+SHLS,Oils-Energy,Solar,0,5970.0,7. p90_trade_value,3.0
+SHOO,Consumer Discretionary,Shoes and Retail Apparel ,0,10500.0,8. p75_trade_value,7.0
+SHOP,Computer and Technology,Internet - Services,0,8280.0,8. p75_trade_value,5708.0
+SHW,Basic Materials,Chemical - Specialty,0,,,
+SIBN,Medical,Medical - Instruments,0,6468.000000000001,1. p999999_trade_value,1.0
+SIFY,Computer and Technology,Internet - Services,0,,,
+SIG,Retail-Wholesale,Retail - Jewelry,0,31000.0,6. p95_trade_value,57.0
+SIGA,Medical,Medical - Drugs,0,,,
+SIGI,Finance,Insurance - Property and Casualty,0,3300.0,1. p999999_trade_value,1.0
+SII,Finance,Financial - Investment Management,0,7437.0,1. p999999_trade_value,1.0
+SIMO,Computer and Technology,Computer - Integrated Systems,0,210000.0,5. p99_trade_value,2.0
+SIRI,Consumer Discretionary,Broadcast Radio and Television,0,511658.0,1. p999999_trade_value,1.0
+SITC,Finance,REIT and Equity Trust - Retail,0,,,
+SITE,Industrial Products,Industrial Services,0,4500.0,8. p75_trade_value,2.0
+SITM,Computer and Technology,Electronics - Miscellaneous Products,0,,,
+SJM,Consumer Staples,Food - Miscellaneous,0,86000.0,5. p99_trade_value,3.0
+SKE,Basic Materials,Mining - Miscellaneous,0,,,
+SKIN,Medical,Medical Services,0,,,
+SKT,Finance,REIT and Equity Trust - Retail,0,12000.0,1. p999999_trade_value,1.0
+SKWD,Finance,Insurance - Property and Casualty,0,13500.0,1. p999999_trade_value,1.0
+SKX,Consumer Discretionary,Shoes and Retail Apparel ,0,,,
+SKY,Construction,Building Products - Mobile Homes and RV Builders,0,57980.00000000001,6. p95_trade_value,20.0
+SKYE,Medical,Medical - Biomedical and Genetics,0,,,
+SKYT,Computer and Technology,Electronics - Semiconductors,0,,,
+SKYW,Transportation,Transportation - Airline,0,,,
+SLAB,Computer and Technology,Semiconductor - Analog and Mixed,0,,,
+SLB,Oils-Energy,Oil and Gas - Field Services,0,97350.0,5. p99_trade_value,17.0
+SLDB,Medical,Medical - Biomedical and Genetics,0,,,
+SLDP,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+SLF,Finance,Insurance - Life Insurance,0,,,
+SLG,Finance,REIT and Equity Trust - Other,0,14700.0,7. p90_trade_value,20.0
+SLGN,Industrial Products,Containers - Metal and Glass,0,4100.0,1. p999999_trade_value,1.0
+SLI,Oils-Energy,Alternative Energy - Other,0,3900.0,1. p999999_trade_value,1.0
+SLM,Finance,Financial - Consumer Loans,0,52038.0,1. p999999_trade_value,1.0
+SLNO,Medical,Medical - Drugs,0,,,
+SLP,Computer and Technology,Computer - Software,0,29000.0,1. p999999_trade_value,1.0
+SLQT,Finance,Insurance - Multi line,0,,,
+SLS,Medical,Medical - Biomedical and Genetics,0,,,
+SLVM,Basic Materials,Paper and Related Products,0,3510.0,8. p75_trade_value,2.0
+SM,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,,,
+SMC,Oils-Energy,Oil and Gas - Production Pipeline - MLB,0,,,
+SMCI,Computer and Technology,Computer- Storage Devices,0,,,
+SMG,Consumer Staples,Agriculture - Operations,0,,,
+SMLR,Medical,Medical - Instruments,0,,,
+SMMT,Medical,Medical - Drugs,0,255000.0,1. p999999_trade_value,1.0
+SMPL,Consumer Staples,Food - Confectionery,0,,,
+SMR,Computer and Technology,Electronics - Power Generation,0,,,
+SMTC,Computer and Technology,Semiconductor - Analog and Mixed,0,11000.000000000002,8. p75_trade_value,177.0
+SMWB,Computer and Technology,Internet - Content,0,,,
+SN,Retail-Wholesale,Retail - Miscellaneous,0,166495.0,5. p99_trade_value,10.0
+SNA,Consumer Discretionary,Tools - Handheld,0,,,
+SNAP,Computer and Technology,Internet - Software,0,,,
+SNBR,Consumer Discretionary,Furniture,0,10400.0,8. p75_trade_value,7.0
+SNCR,Computer and Technology,Internet - Software,0,5500.0,1. p999999_trade_value,1.0
+SNCY,Transportation,Transportation - Airline,0,6560.000000000001,8. p75_trade_value,2.0
+SNDK,Business Services,Technology Services,0,,,
+SNDL,Medical,Medical - Products,0,,,
+SNDR,Transportation,Transportation - Services,0,,,
+SNDX,Medical,Medical - Biomedical and Genetics,0,,,
+SNN,Medical,Medical - Products,0,4200.0,1. p999999_trade_value,1.0
+SNOW,Computer and Technology,Internet - Software,0,,,
+SNPS,Computer and Technology,Computer - Software,0,,,
+SNV,Finance,Banks - Southeast,0,,,
+SNX,Computer and Technology,Electronics - Miscellaneous Products,0,,,
+SNY,Medical,Large Cap Pharmaceuticals,0,217245.00000000003,1. p999999_trade_value,1.0
+SO,Utilities,Utility - Electric Power,0,,,
+SOBO,Oils-Energy,Oil and Gas - Production and Pipelines,0,3800.0,1. p999999_trade_value,1.0
+SOC,Oils-Energy,Oil and Gas - Integrated - United States,0,110000.0,5. p99_trade_value,10.0
+SOFI,Finance,Financial - Miscellaneous Services,0,,,
+SOGP,Consumer Discretionary,Audio Video Production,0,4500.0,1. p999999_trade_value,2.0
+SOLV,Medical,Medical Services,0,350000.0,1. p999999_trade_value,1.0
+SON,Industrial Products,Containers - Paper and Packaging,0,,,
+SOND,Consumer Discretionary,Leisure and Recreation Services,0,,,
+SONO,Consumer Discretionary,Audio Video Production,0,8600.0,8. p75_trade_value,9.0
+SONY,Consumer Discretionary,Audio Video Production,0,6495.0,8. p75_trade_value,36.0
+SOPH,Medical,Medical Info Systems,0,,,
+SOUN,Computer and Technology,Computers - IT Services,0,,,
+SPB,Consumer Discretionary,Consumer Products - Discretionary,0,9455.0,6. p95_trade_value,2.0
+SPCE,Aerospace,Aerospace - Defense,0,,,
+SPG,Finance,REIT and Equity Trust - Retail,0,,,
+SPGI,Finance,Securities and Exchanges,0,110940.00000000001,5. p99_trade_value,7.0
+SPHR,Consumer Discretionary,Media Conglomerates,0,94871.99999999999,5. p99_trade_value,6.0
+SPIR,Aerospace,Aerospace - Defense,0,9600.0,8. p75_trade_value,21.0
+SPNS,Computer and Technology,Computer - Software,0,,,
+SPNT,Finance,Insurance - Multi line,0,6000.0,1. p999999_trade_value,1.0
+SPOT,Computer and Technology,Internet - Software,0,9875.0,8. p75_trade_value,7907.0
+SPR,Aerospace,Aerospace - Defense Equipment,0,63690.00000000001,1. p999999_trade_value,1.0
+SPRO,Medical,Medical - Biomedical and Genetics,0,4470.0,8. p75_trade_value,3.0
+SPRY,Medical,Medical - Drugs,0,25000.0,7. p90_trade_value,4.0
+SPSC,Business Services,Business - Services,0,19800.0,7. p90_trade_value,3.0
+SPT,Computer and Technology,Internet - Services,0,,,
+SPWH,Retail-Wholesale,Retail - Apparel and Shoes,0,,,
+SPXC,Business Services,Technology Services,0,41720.0,1. p999999_trade_value,1.0
+SQM,Basic Materials,Chemical - Specialty,0,6270.0,8. p75_trade_value,7.0
+SR,Utilities,Utility - Gas Distribution,0,,,
+SRAD,Consumer Discretionary,Leisure and Recreation Products,0,,,
+SRE,Utilities,Utility - Gas Distribution,0,93335.0,1. p999999_trade_value,1.0
+SRG,Finance,REIT and Equity Trust - Other,0,,,
+SRL,Conglomerates,Diversified Operations,0,,,
+SRPT,Medical,Medical - Biomedical and Genetics,0,370000.0,4. p999_trade_value,2.0
+SRRK,Medical,Medical - Biomedical and Genetics,0,,,
+SRTS,Medical,Medical - Instruments,0,,,
+SSD,Construction,Building Products - Miscellaneous,0,,,
+SSL,Oils-Energy,Oil and Gas - Integrated - International,0,4490.000000000001,1. p999999_trade_value,1.0
+SSNC,Computer and Technology,Computer - Software,0,17550.0,1. p999999_trade_value,1.0
+SSP,Consumer Discretionary,Broadcast Radio and Television,0,3300.0,1. p999999_trade_value,1.0
+SSRM,Basic Materials,Mining - Miscellaneous,0,35200.0,6. p95_trade_value,2.0
+SSTI,Industrial Products,Security and Safety Services,0,20875.0,1. p999999_trade_value,1.0
+SSTK,Computer and Technology,Internet - Content,0,44910.0,1. p999999_trade_value,1.0
+SSYS,Industrial Products,Commercial Printing,0,,,
+ST,Computer and Technology,Instruments - Control,0,,,
+STAA,Medical,Medical - Dental Supplies,0,11067.0,8. p75_trade_value,17.0
+STAG,Finance,REIT and Equity Trust - Other,0,,,
+STE,Medical,Medical - Instruments,0,,,
+STEM,Computer and Technology,Computers - IT Services,0,,,
+STEP,Finance,Financial - Miscellaneous Services,0,9610.0,8. p75_trade_value,2.0
+STIM,Medical,Medical - Instruments,0,4600.0,8. p75_trade_value,2.0
+STLA,Auto-Tires-Trucks,Automotive - Foreign,0,122834.99999999999,1. p999999_trade_value,1.0
+STLD,Basic Materials,Steel - Producers,0,831600.0,4. p999_trade_value,2.0
+STM,Computer and Technology,Semiconductor - General,0,10400.0,8. p75_trade_value,61.0
+STN,Business Services,Consulting Services,0,3200.0,1. p999999_trade_value,1.0
+STNE,Computer and Technology,Internet - Software,0,100000.0,6. p95_trade_value,8.0
+STNG,Transportation,Transportation - Shipping,0,107084.99999999999,1. p999999_trade_value,1.0
+STOK,Medical,Medical - Biomedical and Genetics,0,12000.0,1. p999999_trade_value,1.0
+STR,Oils-Energy,Oil and Gas - Royalty Trust - United States,0,3075.0,1. p999999_trade_value,1.0
+STRA,Consumer Discretionary,Schools,0,17000.0,1. p999999_trade_value,1.0
+STRL,Construction,Engineering - R and D Services,0,70250.0,1. p999999_trade_value,1.0
+STT,Finance,Banks - Major Regional,0,,,
+STVN,Medical,Medical - Drugs,0,19460.0,1. p999999_trade_value,1.0
+STWD,Finance,REIT and Equity Trust,0,,,
+STX,Computer and Technology,Computer - Integrated Systems,0,419244.00000000006,1. p999999_trade_value,1.0
+STXS,Medical,Medical - Instruments,0,,,
+STZ,Consumer Staples,Beverages - Alcohol,0,8000.0,8. p75_trade_value,471.0
+SU,Oils-Energy,Oil and Gas - Integrated - Canadian,0,19912.0,6. p95_trade_value,22.0
+SUI,Finance,REIT and Equity Trust - Residential,0,280000.0,1. p999999_trade_value,1.0
+SUN,Oils-Energy,Oil and Gas - Refining and Marketing - Master Limited Partnerships,0,,,
+SUP,Auto-Tires-Trucks,Automotive - Original Equipment,0,8000.0,8. p75_trade_value,2.0
+SUPN,Medical,Medical - Generic Drugs,0,10500.0,1. p999999_trade_value,1.0
+SUPV,Finance,Banks - Foreign,0,,,
+SVC,Finance,REIT and Equity Trust - Other,0,3240.0,1. p999999_trade_value,1.0
+SVM,Basic Materials,Mining - Miscellaneous,0,,,
+SW,Basic Materials,Paper and Related Products,0,,,
+SWBI,Consumer Discretionary,Leisure and Recreation Products,0,,,
+SWK,Industrial Products,Manufacturing - Tools & Related Products,0,140000.0,1. p999999_trade_value,1.0
+SWKS,Computer and Technology,Semiconductors - Radio Frequency,0,194260.0,5. p99_trade_value,12.0
+SWTX,Medical,Medical - Biomedical and Genetics,0,,,
+SWX,Utilities,Utility - Gas Distribution,0,,,
+SXC,Oils-Energy,Coal,0,,,
+SXI,Industrial Products,Manufacturing - General Industrial ,0,,,
+SXT,Basic Materials,Chemical - Specialty,0,,,
+SYBT,Finance,Banks - Southeast,0,,,
+SYF,Finance,Financial - Miscellaneous Services,0,9735.0,8. p75_trade_value,172.0
+SYK,Medical,Medical - Products,0,,,
+SYM,Business Services,Technology Services,0,,,
+SYNA,Computer and Technology,Electronics - Semiconductors,0,,,
+SYPR,Computer and Technology,Electronics - Miscellaneous Services,0,,,
+SYRE,Medical,Medical - Biomedical and Genetics,0,,,
+SYY,Consumer Staples,Food - Miscellaneous,0,,,
+T,Computer and Technology,Wireless National,0,8500.0,8. p75_trade_value,551.0
+TAC,Utilities,Utility - Electric Power,0,,,
+TAL,Consumer Discretionary,Schools,0,,,
+TALK,Medical,Medical Info Systems,0,4750.0,8. p75_trade_value,3.0
+TALO,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,5595.0,1. p999999_trade_value,1.0
+TAP,Consumer Staples,Beverages - Alcohol,0,67500.0,5. p99_trade_value,2.0
+TARA,Medical,Medical - Drugs,0,,,
+TARS,Medical,Medical - Biomedical and Genetics,0,8880.000000000002,8. p75_trade_value,16.0
+TASK,Computer and Technology,Computers - IT Services,0,12960.0,8. p75_trade_value,5.0
+TBBB,Consumer Staples,Consumer Products - Staples,0,,,
+TBBK,Finance,Banks - Northeast,0,,,
+TBCH,Computer and Technology,Computer - Peripheral Equipment,0,,,
+TBLA,Computer and Technology,Computers - IT Services,0,,,
+TBPH,Medical,Medical - Drugs,0,,,
+TCBI,Finance,Banks - Southwest,0,4776.0,8. p75_trade_value,2.0
+TCMD,Medical,Medical - Instruments,0,,,
+TCOM,Consumer Discretionary,Leisure and Recreation Services,0,,,
+TCX,Computer and Technology,Internet - Content,0,39780.0,1. p999999_trade_value,1.0
+TD,Finance,Banks - Foreign,0,,,
+TDC,Computer and Technology,Computer- Storage Devices,0,5780.0,8. p75_trade_value,47.0
+TDG,Aerospace,Aerospace - Defense Equipment,0,,,
+TDOC,Medical,Medical Services,0,,,
+TDS,Utilities,Wireline - National,0,940000.0,1. p999999_trade_value,1.0
+TDUP,Consumer Staples,Consumer Products - Staples,0,9750.0,8. p75_trade_value,10.0
+TDW,Oils-Energy,Oil and Gas - Integrated - United States,0,,,
+TDY,Aerospace,Aerospace - Defense Equipment,0,,,
+TEAM,Computer and Technology,Internet - Software,0,,,
+TECH,Medical,Medical - Biomedical and Genetics,0,11760.0,7. p90_trade_value,3.0
+TECK,Basic Materials,Mining - Miscellaneous,0,335500.0,1. p999999_trade_value,1.0
+TECX,Medical,Medical - Biomedical and Genetics,0,,,
+TEL,Computer and Technology,Electronics - Miscellaneous Components,0,61495.00000000001,1. p999999_trade_value,1.0
+TEM,Medical,Medical Info Systems,0,570000.0,3. p9999_trade_value,2.0
+TEN,Transportation,Transportation - Shipping,0,52500.0,1. p999999_trade_value,1.0
+TENB,Computer and Technology,Internet - Software,0,63180.00000000001,6. p95_trade_value,2.0
+TER,Computer and Technology,Electronics - Miscellaneous Products,0,,,
+TERN,Medical,Medical - Biomedical and Genetics,0,30000.0,1. p999999_trade_value,1.0
+TEVA,Medical,Medical - Generic Drugs,0,1680000.0,4. p999_trade_value,2.0
+TEX,Industrial Products,Manufacturing - Construction and Mining,0,,,
+TFC,Finance,Banks - Major Regional,0,8832.0,8. p75_trade_value,219.0
+TFII,Transportation,Transportation - Services,0,11250.0,6. p95_trade_value,2.0
+TFIN,Finance,Financial - Miscellaneous Services,0,56000.0,1. p999999_trade_value,1.0
+TFX,Medical,Medical - Instruments,0,,,
+TGI,Aerospace,Aerospace - Defense Equipment,0,6450.0,7. p90_trade_value,3.0
+TGLS,Retail-Wholesale,Building Products - Retail,0,63360.0,1. p999999_trade_value,1.0
+TGNA,Consumer Discretionary,Broadcast Radio and Television,0,,,
+TGS,Oils-Energy,Oil and Gas - Production and Pipelines,0,,,
+TGT,Retail-Wholesale,Retail - Discount Stores,0,,,
+TGTX,Medical,Medical - Biomedical and Genetics,0,205000.0,1. p999999_trade_value,1.0
+TH,Consumer Discretionary,Leisure and Recreation Services,0,,,
+THC,Medical,Medical - Hospital,0,,,
+THFF,Finance,Banks - Midwest,0,3304.0,1. p999999_trade_value,1.0
+THO,Construction,Building Products - Mobile Homes and RV Builders,0,,,
+THR,Computer and Technology,Instruments - Control,0,,,
+THRY,Computer and Technology,Internet - Software,0,10050.0,8. p75_trade_value,2.0
+THS,Consumer Staples,Food - Miscellaneous,0,40000.0,8. p75_trade_value,5.0
+THTX,Medical,Medical - Biomedical and Genetics,0,5700.0,1. p999999_trade_value,1.0
+TIGO,Computer and Technology,Wireless Non-US ,0,6670.0,1. p999999_trade_value,1.0
+TIGR,Finance,Financial - Investment Bank,0,113100.0,4. p999_trade_value,5.0
+TILE,Consumer Discretionary,Textile - Home Furnishing,0,4000.0,1. p999999_trade_value,1.0
+TIPT,Finance,Insurance - Brokerage,0,,,
+TITN,Retail-Wholesale,Automotive - Retail and Whole Sales,0,,,
+TIXT,Computer and Technology,Internet - Software,0,10000.0,1. p999999_trade_value,1.0
+TJX,Retail-Wholesale,Retail - Discount Stores,0,,,
+TKC,Computer and Technology,Wireless Non-US ,0,,,
+TKO,Consumer Discretionary,Film and Television Production and Distribution,0,206760.0,5. p99_trade_value,21.0
+TKR,Computer and Technology,Electronics - Miscellaneous Products,0,,,
+TLN,Oils-Energy,Alternative Energy - Other,0,,,
+TLRY,Medical,Medical - Products,0,21965.0,5. p99_trade_value,3.0
+TLS,Computer and Technology,Computers - IT Services,0,,,
+TM,Auto-Tires-Trucks,Automotive - Foreign,0,,,
+TMC,Basic Materials,Mining - Miscellaneous,0,,,
+TMDX,Medical,Medical - Instruments,0,14250.0,7. p90_trade_value,268.0
+TME,Consumer Discretionary,Media Conglomerates,0,,,
+TMHC,Construction,Building Products - Home Builders,0,4290.0,8. p75_trade_value,3.0
+TMO,Medical,Medical - Instruments,0,,,
+TMP,Finance,Banks - Northeast,0,,,
+TMUS,Computer and Technology,Wireless National,0,252000.0,4. p999_trade_value,4.0
+TNDM,Medical,Medical - Instruments,0,,,
+TNET,Business Services,Outsourcing,0,,,
+TNGX,Medical,Medical - Biomedical and Genetics,0,,,
+TNK,Transportation,Transportation - Shipping,0,,,
+TNL,Consumer Discretionary,Leisure and Recreation Services,0,34100.0,1. p999999_trade_value,1.0
+TNYA,Medical,Medical - Biomedical and Genetics,0,,,
+TOL,Construction,Building Products - Home Builders,0,49715.0,5. p99_trade_value,16.0
+TOST,Computer and Technology,Internet - Software,0,,,
+TPB,Consumer Staples,Tobacco,0,19610.000000000004,8. p75_trade_value,9.0
+TPC,Construction,Building Products - Heavy Construction,0,,,
+TPG,Finance,Financial - Investment Management,0,,,
+TPH,Construction,Building Products - Home Builders,0,4160.0,1. p999999_trade_value,1.0
+TPIC,Industrial Products,Industrial Services,0,,,
+TPL,Oils-Energy,Alternative Energy - Other,0,125050.0,1. p999999_trade_value,1.0
+TPR,Retail-Wholesale,Retail - Apparel and Shoes,0,1434445.0,4. p999_trade_value,2.0
+TPST,Medical,Medical - Drugs,0,,,
+TR,Consumer Staples,Food - Confectionery,0,7500.0,1. p999999_trade_value,1.0
+TRAW,Medical,Medical - Drugs,0,,,
+TRDA,Medical,Medical - Biomedical and Genetics,0,4860.0,8. p75_trade_value,2.0
+TREE,Finance,Financial - Mortgage & Related Services,0,19500.0,7. p90_trade_value,14.0
+TREX,Construction,Building Products - Wood,0,,,
+TRGP,Oils-Energy,Oil and Gas - Refining and Marketing - Master Limited Partnerships,0,18092.999999999996,7. p90_trade_value,39.0
+TRI,Business Services,Business - Services,0,,,
+TRIP,Retail-Wholesale,Internet - Commerce,0,7700.0,8. p75_trade_value,44.0
+TRMB,Industrial Products,Manufacturing - General Industrial ,0,216840.0,5. p99_trade_value,2.0
+TRMD,Transportation,Transportation - Shipping,0,31160.000000000004,6. p95_trade_value,4.0
+TRML,Medical,Medical - Drugs,0,7560.000000000001,1. p999999_trade_value,1.0
+TRN,Transportation,Transportation - Equipment and Leasing,0,9000.0,1. p999999_trade_value,1.0
+TRNS,Computer and Technology,Instruments - Control,0,,,
+TROW,Finance,Financial - Investment Management,0,707700.0,1. p999999_trade_value,1.0
+TROX,Basic Materials,Chemical - Diversified ,0,22800.0,1. p999999_trade_value,1.0
+TRP,Oils-Energy,Alternative Energy - Other,0,12299.999999999998,8. p75_trade_value,5.0
+TRS,Industrial Products,Metal Products - Procurement and Fabrication,0,,,
+TRU,Business Services,Business - Information Services,0,,,
+TRUE,Computer and Technology,Internet - Services,0,,,
+TRUP,Finance,Insurance - Accident and Health,0,,,
+TRV,Finance,Insurance - Property and Casualty,0,17280.0,6. p95_trade_value,16.0
+TRVG,Computer and Technology,Internet - Services,0,3990.0000000000005,1. p999999_trade_value,1.0
+TRVI,Medical,Medical - Biomedical and Genetics,0,,,
+TS,Industrial Products,Steel - Pipe and Tube,0,,,
+TSAT,Computer and Technology,Satellite and Communication,0,11000.000000000002,1. p999999_trade_value,2.0
+TSCO,Retail-Wholesale,Retail - Miscellaneous,0,263500.0,1. p999999_trade_value,1.0
+TSEM,Computer and Technology,Electronics - Semiconductors,0,487500.0,1. p999999_trade_value,1.0
+TSHA,Medical,Medical - Generic Drugs,0,5700.0,1. p999999_trade_value,1.0
+TSLA,Computer and Technology,Internet - Software and Services,0,,,
+TSM,Computer and Technology,Semiconductor - Circuit Foundry,0,,,
+TSN,Consumer Staples,Food - Meat Products,0,28750.0,5. p99_trade_value,3.0
+TSQ,Consumer Discretionary,Broadcast Radio and Television,0,,,
+TSSI,Construction,Engineering - R and D Services,0,26946.000000000004,1. p999999_trade_value,1.0
+TT,Construction,Building Products - Air Conditioner and Heating,0,405499.99999999994,1. p999999_trade_value,1.0
+TTAN,Computer and Technology,Internet - Software,0,334800.0,4. p999_trade_value,2.0
+TTC,Consumer Discretionary,Tools - Handheld,0,,,
+TTD,Computer and Technology,Internet - Services,0,225860.0,4. p999_trade_value,13.0
+TTE,Oils-Energy,Oil and Gas - Refining and Marketing,0,234254.99999999997,1. p999999_trade_value,1.0
+TTEC,Business Services,Technology Services,0,,,
+TTEK,Industrial Products,Pollution Control,0,64740.0,1. p999999_trade_value,1.0
+TTMI,Computer and Technology,Electronics - Miscellaneous Components,0,5070.0,1. p999999_trade_value,1.0
+TTWO,Consumer Discretionary,Gaming,0,315000.0,4. p999_trade_value,4.0
+TU,Utilities,Diversified Communication Services,0,,,
+TUYA,Computer and Technology,Internet - Software,0,,,
+TVTX,Medical,Medical - Biomedical and Genetics,0,,,
+TW,Finance,Financial - Investment Bank,0,24975.0,6. p95_trade_value,17.0
+TWI,Industrial Products,Manufacturing - Farm Equipment,0,3390.0,1. p999999_trade_value,1.0
+TWLO,Computer and Technology,Internet - Software,0,16465.0,7. p90_trade_value,573.0
+TWO,Finance,REIT and Equity Trust,0,,,
+TWST,Medical,Medical - Biomedical and Genetics,0,375000.0,1. p999999_trade_value,1.0
+TX,Basic Materials,Steel - Producers,0,4000.0,1. p999999_trade_value,1.0
+TXG,Medical,Medical Info Systems,0,,,
+TXN,Computer and Technology,Semiconductor - General,0,388500.0,4. p999_trade_value,8.0
+TXNM,Oils-Energy,Alternative Energy - Other,0,62500.0,1. p999999_trade_value,2.0
+TXO,Oils-Energy,Energy and Pipeline - Master Limited Partnerships,0,4200.0,1. p999999_trade_value,1.0
+TXRH,Retail-Wholesale,Retail - Restaurants,0,,,
+TXT,Aerospace,Aerospace - Defense,0,86961.0,1. p999999_trade_value,1.0
+TYL,Computer and Technology,Internet - Software and Services,0,82800.0,1. p999999_trade_value,1.0
+TYRA,Medical,Medical - Biomedical and Genetics,0,295000.0,1. p999999_trade_value,1.0
+TZOO,Retail-Wholesale,Internet - Commerce,0,,,
+U,Computer and Technology,Internet - Software,0,216000.0,4. p999_trade_value,12.0
+UA,Consumer Discretionary,Textile - Apparel,0,8700.0,1. p999999_trade_value,1.0
+UAA,Consumer Discretionary,Textile - Apparel,0,40000.0,7. p90_trade_value,6.0
+UAL,Transportation,Transportation - Airline,0,,,
+UAMY,Basic Materials,Mining - Non Ferrous,0,,,
+UAN,Basic Materials,Fertilizers,0,25839.999999999996,1. p999999_trade_value,1.0
+UBER,Computer and Technology,Internet - Services,0,8613.0,8. p75_trade_value,7739.0
+UBFO,Finance,Banks - West,0,,,
+UBS,Finance,Banks - Foreign,0,7738.000000000001,8. p75_trade_value,47.0
+UCTT,Computer and Technology,Electronics - Manufacturing Machinery,0,,,
+UDMY,Computer and Technology,Internet - Software,0,,,
+UDR,Finance,REIT and Equity Trust - Residential,0,5000.0,1. p999999_trade_value,1.0
+UEC,Basic Materials,Mining - Miscellaneous,0,245400.0,1. p999999_trade_value,1.0
+UFPI,Construction,Building Products - Wood,0,19500.0,1. p999999_trade_value,1.0
+UFPT,Industrial Products,Containers - Paper and Packaging,0,,,
+UGI,Utilities,Utility - Gas Distribution,0,,,
+UHAL,Transportation,Transportation - Services,0,,,
+UHS,Medical,Medical - Hospital,0,,,
+UIS,Computer and Technology,Computers - IT Services,0,4500.0,1. p999999_trade_value,1.0
+UL,Consumer Staples,Consumer Products - Staples,0,13650.0,8. p75_trade_value,17.0
+ULCC,Transportation,Transportation - Airline,0,167790.0,1. p999999_trade_value,1.0
+ULS,Business Services,Business - Services,0,53000.0,7. p90_trade_value,3.0
+ULTA,Retail-Wholesale,Retail - Miscellaneous,0,525000.0,1. p999999_trade_value,1.0
+UMAC,Business Services,Technology Services,0,6900.0,8. p75_trade_value,20.0
+UMBF,Finance,Banks - Midwest,0,3135.0,1. p999999_trade_value,1.0
+UMC,Computer and Technology,Electronics - Semiconductors,0,45000.0,6. p95_trade_value,2.0
+UNF,Industrial Products,Uniform and Related,0,66000.0,7. p90_trade_value,2.0
+UNFI,Consumer Staples,Food - Miscellaneous,0,54466.0,1. p999999_trade_value,1.0
+UNH,Medical,Medical - HMOs,0,69450.0,5. p99_trade_value,829.0
+UNIT,Finance,REIT and Equity Trust - Other,0,9300.0,7. p90_trade_value,2.0
+UNM,Finance,Insurance - Accident and Health,0,12475.0,8. p75_trade_value,15.0
+UNP,Transportation,Transportation - Rail,0,,,
+UPBD,Finance,Financial - Leasing Companies,0,4512.0,1. p999999_trade_value,1.0
+UPS,Transportation,Transportation - Air Freight and Cargo,0,60605.99999999999,5. p99_trade_value,70.0
+UPST,Finance,Financial - Miscellaneous Services,0,8970.0,8. p75_trade_value,6856.0
+UPWK,Computer and Technology,Internet - Services,0,760000.0,1. p999999_trade_value,1.0
+UPXI,Business Services,Technology Services,0,,,
+URBN,Retail-Wholesale,Retail - Apparel and Shoes,0,8370.0,8. p75_trade_value,196.0
+URGN,Medical,Medical - Biomedical and Genetics,0,8500.0,8. p75_trade_value,123.0
+URI,Construction,Building Products - Miscellaneous,0,,,
+UROY,Oils-Energy,Alternative Energy - Other,0,4360.0,8. p75_trade_value,4.0
+USAR,Basic Materials,Mining - Miscellaneous,0,,,
+USAU,Basic Materials,Mining - Gold,0,,,
+USB,Finance,Banks - Major Regional,0,,,
+USFD,Consumer Staples,Food - Miscellaneous,0,84525.0,1. p999999_trade_value,1.0
+USLM,Construction,Building Products - Concrete and Aggregates,0,4144.0,1. p999999_trade_value,1.0
+USM,Computer and Technology,Wireless National,0,53535.0,1. p999999_trade_value,1.0
+USNA,Medical,Medical - Drugs,0,,,
+USPH,Medical,Medical - Outpatient and Home Healthcare,0,,,
+UTHR,Medical,Medical - Drugs,0,220000.0,1. p999999_trade_value,1.0
+UTI,Consumer Discretionary,Schools,0,38592.0,7. p90_trade_value,2.0
+UTZ,Consumer Staples,Food - Miscellaneous,0,,,
+UUUU,Basic Materials,Mining - Non Ferrous,0,,,
+UVE,Finance,Insurance - Property and Casualty,0,,,
+UVV,Consumer Staples,Tobacco,0,,,
+UWMC,Finance,Financial - Mortgage & Related Services,0,,,
+V,Business Services,Financial Transaction Services,0,,,
+VAC,Consumer Discretionary,Leisure and Recreation Services,0,670000.0,1. p999999_trade_value,1.0
+VAL,Oils-Energy,Oil and Gas - Drilling,0,105042.0,1. p999999_trade_value,1.0
+VALE,Basic Materials,Mining - Iron,0,10241.0,8. p75_trade_value,159.0
+VATE,Conglomerates,Diversified Operations,0,,,
+VC,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+VCEL,Medical,Medical - Biomedical and Genetics,0,17755.0,8. p75_trade_value,10.0
+VCTR,Finance,Financial - Investment Management,0,7600.0,8. p75_trade_value,2.0
+VCYT,Medical,Medical - Instruments,0,,,
+VECO,Computer and Technology,Electronics - Manufacturing Machinery,0,20520.0,8. p75_trade_value,6.0
+VEEV,Medical,Medical Info Systems,0,,,
+VEL,Finance,Financial - Mortgage & Related Services,0,,,
+VEON,Utilities,Diversified Communication Services,0,27000.0,1. p999999_trade_value,1.0
+VERA,Medical,Medical - Biomedical and Genetics,0,,,
+VERI,Business Services,Technology Services,0,,,
+VERU,Medical,Medical - Products,0,,,
+VERV,Medical,Medical - Drugs,0,13100.0,1. p999999_trade_value,1.0
+VERX,Computer and Technology,Internet - Software,0,97999.99999999999,1. p999999_trade_value,1.0
+VET,Oils-Energy,Oil and Gas - Exploration and Production - International,0,,,
+VFC,Consumer Discretionary,Textile - Apparel,0,277992.0,5. p99_trade_value,16.0
+VFS,Auto-Tires-Trucks,Automotive - Domestic,0,,,
+VG,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,,,
+VIAV,Computer and Technology,Communication - Components,0,,,
+VICI,Finance,REIT and Equity Trust - Other,0,12705.0,8. p75_trade_value,12.0
+VICR,Computer and Technology,Electronics - Miscellaneous Components,0,250000.0,1. p999999_trade_value,1.0
+VIK,Consumer Discretionary,Leisure and Recreation Services,0,320000.0,1. p999999_trade_value,1.0
+VIPS,Computer and Technology,Internet - Delivery Services,0,,,
+VIR,Medical,Medical - Biomedical and Genetics,0,50000.0,1. p999999_trade_value,1.0
+VIRC,Consumer Discretionary,Furniture,0,,,
+VIRT,Finance,Financial - Miscellaneous Services,0,17745.0,6. p95_trade_value,3.0
+VIST,Oils-Energy,Oil and Gas - Integrated - International,0,,,
+VITL,Consumer Staples,Food - Miscellaneous,0,30480.0,6. p95_trade_value,8.0
+VKTX,Medical,Medical - Biomedical and Genetics,0,,,
+VLN,Computer and Technology,Electronics - Semiconductors,0,,,
+VLO,Oils-Energy,Oil and Gas - Refining and Marketing,0,,,
+VLRS,Transportation,Transportation - Airline,0,3300.0,1. p999999_trade_value,1.0
+VLTO,Business Services,Waste Removal Services,0,8280.0,8. p75_trade_value,20.0
+VLY,Finance,Banks - Northeast,0,,,
+VMC,Construction,Building Products - Concrete and Aggregates,0,20960.000000000004,7. p90_trade_value,10.0
+VMEO,Business Services,Technology Services,0,,,
+VMI,Industrial Products,Steel - Pipe and Tube,0,,,
+VNDA,Medical,Medical - Biomedical and Genetics,0,6370.0,1. p999999_trade_value,1.0
+VNET,Computer and Technology,Internet - Software,0,102165.00000000001,1. p999999_trade_value,1.0
+VNO,Finance,REIT and Equity Trust - Other,0,,,
+VNOM,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,,,
+VNT,Business Services,Technology Services,0,,,
+VOD,Computer and Technology,Wireless Non-US ,0,,,
+VOYA,Finance,Insurance - Life Insurance,0,,,
+VPG,Computer and Technology,Electronics - Miscellaneous Components,0,,,
+VRA,Retail-Wholesale,Retail - Apparel and Shoes,0,5000.0,1. p999999_trade_value,3.0
+VRAR,Business Services,Technology Services,0,4600.0,7. p90_trade_value,2.0
+VRDN,Medical,Medical - Biomedical and Genetics,0,18660.0,6. p95_trade_value,4.0
+VRNA,Medical,Medical - Biomedical and Genetics,0,,,
+VRNS,Computer and Technology,Security,0,8500.0,8. p75_trade_value,52.0
+VRNT,Computer and Technology,Computer - Software,0,,,
+VRRM,Computer and Technology,Internet - Software,0,,,
+VRSK,Business Services,Business - Information Services,0,,,
+VRSN,Computer and Technology,Internet - Software and Services,0,,,
+VRT,Computer and Technology,Computers - IT Services,0,9100.0,8. p75_trade_value,5241.0
+VRTX,Medical,Medical - Biomedical and Genetics,0,8730.0,8. p75_trade_value,1083.0
+VSAT,Computer and Technology,Wireless Equipment,0,,,
+VSCO,Retail-Wholesale,Retail - Apparel and Shoes,0,,,
+VSEC,Construction,Engineering - R and D Services,0,,,
+VSH,Computer and Technology,Semiconductor - Discretes,0,6435.000000000001,8. p75_trade_value,18.0
+VST,Utilities,Utility - Electric Power,0,,,
+VSTM,Medical,Medical - Biomedical and Genetics,0,,,
+VSTS,Industrial Products,Uniform and Related,0,,,
+VTLE,Oils-Energy,Alternative Energy - Other,0,7830.0,8. p75_trade_value,42.0
+VTR,Finance,REIT and Equity Trust - Other,0,38961.0,6. p95_trade_value,2.0
+VTRS,Medical,Medical Services,0,77952.0,1. p999999_trade_value,1.0
+VTS,Oils-Energy,Oil and Gas - Exploration and Production - United States,0,5400.0,8. p75_trade_value,2.0
+VTSI,Aerospace,Electronics - Military,0,6900.0,8. p75_trade_value,2.0
+VTYX,Medical,Medical - Biomedical and Genetics,0,,,
+VUZI,Computer and Technology,Computer - Peripheral Equipment,0,18600.0,6. p95_trade_value,2.0
+VVV,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,0,6000.0,1. p999999_trade_value,1.0
+VVX,Business Services,Technology Services,0,3800.0,1. p999999_trade_value,1.0
+VXRT,Medical,Medical - Drugs,0,,,
+VYGR,Medical,Medical - Biomedical and Genetics,0,,,
+VZ,Computer and Technology,Wireless National,0,7434.0,8. p75_trade_value,982.0
+W,Retail-Wholesale,Internet - Commerce,0,,,
+WAB,Transportation,Transportation - Equipment and Leasing,0,,,
+WAL,Finance,Banks - West,0,17500.0,6. p95_trade_value,28.0
+WAT,Medical,Medical - Instruments,0,,,
+WAY,Computer and Technology,Internet - Software,0,,,
+WB,Computer and Technology,Internet - Content,0,75000.0,1. p999999_trade_value,1.0
+WBA,Retail-Wholesale,Retail - Pharmacies and Drug Stores,0,7755.000000000001,8. p75_trade_value,420.0
+WBD,Consumer Discretionary,Broadcast Radio and Television,0,,,
+WBS,Finance,Banks - Northeast,0,,,
+WCC,Computer and Technology,Electronics - Parts Distribution,0,8360.0,8. p75_trade_value,132.0
+WCN,Business Services,Waste Removal Services,0,114000.0,6. p95_trade_value,2.0
+WDAY,Computer and Technology,Internet - Software,0,,,
+WDC,Computer and Technology,Computer- Storage Devices,0,980000.0,1. p999999_trade_value,1.0
+WDFC,Consumer Staples,Consumer Products - Staples,0,10170.0,7. p90_trade_value,9.0
+WDS,Oils-Energy,Alternative Energy - Other,0,3750.0,1. p999999_trade_value,1.0
+WEC,Utilities,Utility - Electric Power,0,,,
+WELL,Finance,REIT and Equity Trust - Other,0,7560.000000000001,8. p75_trade_value,43.0
+WEN,Retail-Wholesale,Retail - Restaurants,0,7350.0,8. p75_trade_value,18.0
+WERN,Transportation,Transportation - Truck,0,90000.0,1. p999999_trade_value,3.0
+WES,Oils-Energy,Oil and Gas - Refining and Marketing - Master Limited Partnerships,0,,,
+WEX,Business Services,Financial Transaction Services,0,,,
+WFC,Finance,Financial - Investment Bank,0,8308.0,8. p75_trade_value,2029.0
+WFG,Construction,Building Products - Wood,0,7761.0,8. p75_trade_value,8.0
+WFRD,Oils-Energy,Oil and Gas - Field Services,0,,,
+WGO,Construction,Building Products - Mobile Homes and RV Builders,0,14720.000000000002,7. p90_trade_value,20.0
+WGS,Medical,Medical Services,0,,,
+WH,Consumer Discretionary,Hotels and Motels,0,8500.0,1. p999999_trade_value,1.0
+WHD,Oils-Energy,Oil and Gas - Integrated - United States,0,6000.0,1. p999999_trade_value,1.0
+WHR,Consumer Discretionary,Household Appliances,0,,,
+WIMI,Computer and Technology,Internet - Content,0,,,
+WING,Retail-Wholesale,Retail - Restaurants,0,670680.0,4. p999_trade_value,2.0
+WIX,Computer and Technology,Computers - IT Services,0,570964.0,1. p999999_trade_value,1.0
+WK,Computer and Technology,Internet - Software,0,,,
+WKHS,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+WKSP,Retail-Wholesale,Automotive - Retail and Whole Sales,0,4140.000000000001,1. p999999_trade_value,1.0
+WLDN,Business Services,Business - Services,0,5400.0,1. p999999_trade_value,1.0
+WLK,Basic Materials,Chemical - Plastic,0,161200.0,7. p90_trade_value,4.0
+WLY,Consumer Staples,Publishing - Books,0,,,
+WM,Business Services,Waste Removal Services,0,,,
+WMB,Oils-Energy,Oil and Gas - Production and Pipelines,0,,,
+WMG,Consumer Discretionary,Film and Television Production and Distribution,0,,,
+WMS,Construction,Building Products - Miscellaneous,0,258000.0,1. p999999_trade_value,1.0
+WMT,Retail-Wholesale,Retail - Supermarkets,0,,,
+WNC,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+WNS,Business Services,Business - Services,0,86580.0,6. p95_trade_value,5.0
+WOLF,Computer and Technology,Semiconductor - Discretes,0,450000.0,4. p999_trade_value,4.0
+WOOF,Retail-Wholesale,Retail - Miscellaneous,0,,,
+WOR,Construction,Building Products - Wood,0,13500.0,1. p999999_trade_value,1.0
+WOW,Consumer Discretionary,Cable Television,0,,,
+WPC,Finance,REIT and Equity Trust - Other,0,15525.0,7. p90_trade_value,2.0
+WPM,Basic Materials,Mining - Miscellaneous,0,100992.0,1. p999999_trade_value,1.0
+WPP,Business Services,Advertising and Marketing,0,,,
+WRAP,Industrial Products,Security and Safety Services,0,5000.0,1. p999999_trade_value,1.0
+WRB,Finance,Insurance - Property and Casualty,0,,,
+WRBY,Consumer Staples,Consumer Products - Staples,0,349160.00000000006,1. p999999_trade_value,1.0
+WRD,Auto-Tires-Trucks,Automotive - Original Equipment,0,,,
+WS,Basic Materials,Steel - Speciality,0,,,
+WSC,Finance,Real Estate - Operations,0,,,
+WSM,Retail-Wholesale,Retail - Home Furnishings,0,362000.0,4. p999_trade_value,3.0
+WSO,Construction,Building Products - Air Conditioner and Heating,0,14600.0,8. p75_trade_value,29.0
+WST,Medical,Medical - Dental Supplies,0,25000.0,6. p95_trade_value,20.0
+WT,Finance,Financial - Miscellaneous Services,0,,,
+WTFC,Finance,Banks - Midwest,0,5850.0,1. p999999_trade_value,1.0
+WTS,Computer and Technology,Instruments - Control,0,,,
+WTW,Finance,Insurance - Brokerage,0,36946.0,6. p95_trade_value,13.0
+WU,Business Services,Financial Transaction Services,0,,,
+WULF,Finance,Financial - Miscellaneous Services,0,,,
+WVE,Medical,Medical - Biomedical and Genetics,0,,,
+WWD,Aerospace,Aerospace - Defense Equipment,0,14800.0,8. p75_trade_value,56.0
+WWW,Consumer Discretionary,Shoes and Retail Apparel ,0,9735.0,8. p75_trade_value,32.0
+WY,Construction,Building Products - Wood,0,,,
+WYNN,Consumer Discretionary,Gaming,0,,,
+X,Basic Materials,Steel - Producers,0,6133500.0,3. p9999_trade_value,2.0
+XEL,Utilities,Utility - Electric Power,0,,,
+XENE,Medical,Medical - Biomedical and Genetics,0,490000.0,1. p999999_trade_value,1.0
+XERS,Medical,Medical - Drugs,0,5200.0,1. p999999_trade_value,1.0
+XFOR,Medical,Medical - Biomedical and Genetics,0,,,
+XIFR,Oils-Energy,Energy and Pipeline - Master Limited Partnerships,0,11400.0,7. p90_trade_value,2.0
+XMTR,Industrial Products,Manufacturing - General Industrial ,0,,,
+XNET,Computer and Technology,Internet - Services,0,34965.0,1. p999999_trade_value,1.0
+XOM,Oils-Energy,Oil and Gas - Integrated - International,0,552900.0,1. p999999_trade_value,1.0
+XP,Finance,Financial - Miscellaneous Services,0,219560.0,5. p99_trade_value,4.0
+XPEL,Auto-Tires-Trucks,Automotive - Original Equipment,0,13860.0,1. p999999_trade_value,2.0
+XPER,Business Services,Technology Services,0,,,
+XPEV,Auto-Tires-Trucks,Automotive - Foreign,0,600000.0,4. p999_trade_value,4.0
+XPO,Transportation,Transportation - Truck,0,325347.99999999994,4. p999_trade_value,2.0
+XPOF,Consumer Discretionary,Leisure and Recreation Services,0,,,
+XPRO,Oils-Energy,Oil and Gas - Production and Pipelines,0,4260.0,1. p999999_trade_value,1.0
+XRAY,Medical,Medical - Dental Supplies,0,,,
+XRX,Industrial Products,Office Supplies,0,13169.999999999998,6. p95_trade_value,3.0
+XXII,Consumer Staples,Tobacco,0,,,
+XYL,Business Services,Waste Removal Services,0,,,
+XYZ,Computer and Technology,Internet - Software,0,,,
+YALA,Computer and Technology,Internet - Software,0,4000.0,1. p999999_trade_value,1.0
+YELP,Computer and Technology,Internet - Content,0,9000.0,7. p90_trade_value,6.0
+YETI,Consumer Discretionary,Leisure and Recreation Products,0,,,
+YEXT,Business Services,Technology Services,0,,,
+YMAB,Medical,Medical - Biomedical and Genetics,0,,,
+YMM,Business Services,Technology Services,0,98000.00000000001,1. p999999_trade_value,1.0
+YOU,Computer and Technology,Internet - Software,0,281250.0,1. p999999_trade_value,1.0
+YPF,Oils-Energy,Oil and Gas - Integrated - International,0,8670.0,8. p75_trade_value,75.0
+YRD,Computer and Technology,Internet - Services,0,,,
+YSG,Consumer Staples,Consumer Products - Staples,0,,,
+YUM,Retail-Wholesale,Retail - Restaurants,0,330000.0,1. p999999_trade_value,1.0
+YUMC,Retail-Wholesale,Retail - Restaurants,0,97500.0,5. p99_trade_value,4.0
+Z,Computer and Technology,Internet - Services,0,,,
+ZBH,Medical,Medical - Products,0,9750.0,8. p75_trade_value,25.0
+ZBRA,Industrial Products,Manufacturing - Thermal Products,0,78000.0,1. p999999_trade_value,1.0
+ZD,Computer and Technology,Internet - Software,0,12765.0,7. p90_trade_value,2.0
+ZDGE,Computer and Technology,Internet - Content,0,,,
+ZENA,Business Services,Technology Services,0,,,
+ZETA,Business Services,Technology Services,0,29302.0,6. p95_trade_value,105.0
+ZEUS,Basic Materials,Steel - Producers,0,,,
+ZG,Finance,Financial - Mortgage & Related Services,0,,,
+ZH,Computer and Technology,Internet - Content,0,,,
+ZIM,Transportation,Transportation - Shipping,0,8748.0,8. p75_trade_value,806.0
+ZIMV,Medical,Medical - Products,0,,,
+ZION,Finance,Banks - West,0,8474.999999999998,8. p75_trade_value,52.0
+ZIP,Business Services,Business - Services,0,,,
+ZK,Auto-Tires-Trucks,Automotive - Foreign,0,12492.0,8. p75_trade_value,77.0
+ZLAB,Medical,Medical - Biomedical and Genetics,0,,,
+ZM,Computer and Technology,Internet - Software,0,377718.0,4. p999_trade_value,6.0
+ZNTL,Medical,Medical - Biomedical and Genetics,0,5505.0,8. p75_trade_value,5.0
+ZS,Computer and Technology,Security,0,936000.0,3. p9999_trade_value,2.0
+ZTO,Transportation,Transportation - Services,0,89370.0,1. p999999_trade_value,1.0
+ZTS,Medical,Medical - Drugs,0,219780.00000000003,5. p99_trade_value,12.0
+ZUMZ,Retail-Wholesale,Retail - Apparel and Shoes,0,21250.0,1. p999999_trade_value,1.0
+ZVIA,Consumer Staples,Beverages - Soft drinks,0,,,
+ZVRA,Medical,Medical - Drugs,0,,,
+ZWS,Business Services,Waste Removal Services,0,,,
+ZYME,Medical,Medical - Biomedical and Genetics,0,6720.0,8. p75_trade_value,2.0

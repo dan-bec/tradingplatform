@@ -1,0 +1,18 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+MTSI,Computer and Technology,Semiconductor - Analog and Mixed,20__1,20,1.0,1. p999999_trade_value,451248.00000000006,451248.00000000006,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MTSI,Computer and Technology,Semiconductor - Analog and Mixed,20__1,20,1.0,5. p99_trade_value,275095.0,275095.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+MTSI,Computer and Technology,Semiconductor - Analog and Mixed,20__1,20,1.0,6. p95_trade_value,214200.0,54000.0,2.0,6.0,0.3333333333333333,0.55,2. BELOW BASELINE,3.0,8.0,0.375
+MTSI,Computer and Technology,Semiconductor - Analog and Mixed,20__1,20,1.0,7. p90_trade_value,49979.99999999999,19600.0,1.0,8.0,0.125,0.55,2. BELOW BASELINE,4.0,16.0,0.25
+MTSI,Computer and Technology,Semiconductor - Analog and Mixed,20__1,20,1.0,8. p75_trade_value,18150.0,9065.0,7.0,23.0,0.30434782608695654,0.55,2. BELOW BASELINE,11.0,39.0,0.28205128205128205
+MXL,Computer and Technology,Semiconductor - Analog and Mixed,20__0,20,0.0,1. p999999_trade_value,68600.0,68600.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MXL,Computer and Technology,Semiconductor - Analog and Mixed,20__0,20,0.0,6. p95_trade_value,40269.0,32500.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+MXL,Computer and Technology,Semiconductor - Analog and Mixed,20__0,20,0.0,7. p90_trade_value,31250.0,24000.0,1.0,5.0,0.2,0.55,2. BELOW BASELINE,4.0,10.0,0.4
+MXL,Computer and Technology,Semiconductor - Analog and Mixed,20__0,20,0.0,8. p75_trade_value,23000.0,14250.0,2.0,12.0,0.16666666666666666,0.55,2. BELOW BASELINE,6.0,22.0,0.2727272727272727
+SLAB,Computer and Technology,Semiconductor - Analog and Mixed,20__0,20,0.0,1. p999999_trade_value,17300.0,17300.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+SLAB,Computer and Technology,Semiconductor - Analog and Mixed,20__0,20,0.0,6. p95_trade_value,16960.000000000004,13629.999999999998,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+SLAB,Computer and Technology,Semiconductor - Analog and Mixed,20__0,20,0.0,7. p90_trade_value,13440.0,10240.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,1.0,7.0,0.14285714285714285
+SLAB,Computer and Technology,Semiconductor - Analog and Mixed,20__0,20,0.0,8. p75_trade_value,9600.0,6760.000000000001,3.0,11.0,0.2727272727272727,0.55,2. BELOW BASELINE,4.0,18.0,0.2222222222222222
+VSH,Computer and Technology,Semiconductor - Discretes,20__0,20,0.0,1. p999999_trade_value,160000.0,160000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+VSH,Computer and Technology,Semiconductor - Discretes,20__0,20,0.0,6. p95_trade_value,140000.0,13929.999999999998,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+VSH,Computer and Technology,Semiconductor - Discretes,20__0,20,0.0,7. p90_trade_value,11800.0,10175.000000000002,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,6.0,7.0,0.8571428571428571
+VSH,Computer and Technology,Semiconductor - Discretes,20__0,20,0.0,8. p75_trade_value,8400.0,6435.000000000001,11.0,11.0,1.0,0.55,1. ABOVE BASELINE,17.0,18.0,0.9444444444444444

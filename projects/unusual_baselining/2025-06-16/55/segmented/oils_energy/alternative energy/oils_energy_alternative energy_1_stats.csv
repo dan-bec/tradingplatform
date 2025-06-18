@@ -1,0 +1,32 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AMRC,Oils-Energy,Alternative Energy - Other,0.55,,,,18,15__0,15,0.0,11540.5,17406.0,32461.2,35848.62,36187.36,36221.24,36224.62
+BE,Oils-Energy,Alternative Energy - Other,0.55,573560.0,1. p999999_trade_value,1.0,2429,35__0,35,0.0,13400.0,19688.0,58190.76,254662.68,517735.42,567977.54,573001.75
+BEPC,Oils-Energy,Alternative Energy - Other,0.55,,,,26,15__0,15,0.0,8180.0,8850.0,13280.25,14564.33,14692.73,14705.57,14706.86
+CEG,Oils-Energy,Alternative Energy - Other,0.55,9450.0,8. p75_trade_value,4922.0,19624,45__0,45,0.0,18750.0,29070.0,86518.84,528996.86,1298920.74,2628527.59,2853815.96
+CEPU,Oils-Energy,Alternative Energy - Other,0.55,6000.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,5792.0,5896.0,5979.2,5997.92,5999.79,5999.98,6000.0
+CQP,Oils-Energy,Alternative Energy - Other,0.55,7000.0,1. p999999_trade_value,1.0,5,5__0,5,0.0,6200.0,6600.0,6920.0,6992.0,6999.2,6999.92,6999.99
+CRGY,Oils-Energy,Alternative Energy - Other,0.55,,,,4,5__3,5,3.0,19378.0,20854.0,22034.8,22300.48,22327.05,22329.7,22329.97
+CWEN,Oils-Energy,Alternative Energy - Other,0.55,,,,34,15__0,15,0.0,12390.0,16817.25,29089.61,32589.16,32939.12,32974.11,32977.61
+ENVX,Oils-Energy,Alternative Energy - Other,0.55,220000.0,1. p999999_trade_value,1.0,1486,30__2,30,2.0,12819.5,18849.0,38085.4,137104.42,207778.45,218777.84,219877.78
+EXE,Oils-Energy,Alternative Energy - Other,0.55,60000.0,6. p95_trade_value,39.0,773,30__0,30,0.0,16460.0,58560.0,320376.0,614852.0,690585.2,698158.52,698915.85
+FCEL,Oils-Energy,Alternative Energy - Other,0.55,45000.0,1. p999999_trade_value,1.0,74,20__0,20,0.0,8730.0,12385.6,26633.2,43163.32,44816.33,44981.63,44998.16
+FLNC,Oils-Energy,Alternative Energy - Other,0.55,,,,146,20__0,20,0.0,17749.5,27986.0,55095.5,62097.5,62684.75,62743.47,62749.35
+GEV,Oils-Energy,Alternative Energy - Other,0.55,,,,18716,45__3,45,3.0,18720.0,29022.0,93310.0,581954.0,1976365.5,2609103.75,2689110.37
+GEVO,Oils-Energy,Alternative Energy - Other,0.55,,,,28,15__0,15,0.0,7749.0,9244.0,17300.0,19730.0,19973.0,19997.3,19999.73
+HNRG,Oils-Energy,Alternative Energy - Other,0.55,49335.0,6. p95_trade_value,7.0,133,20__0,20,0.0,15564.0,41334.0,85000.0,101266.32,103492.63,103715.26,103737.53
+LITM,Oils-Energy,Alternative Energy - Other,0.55,,,,33,15__0,15,0.0,7198.0,8368.0,9686.8,9833.68,9848.37,9849.84,9849.98
+LTBR,Oils-Energy,Alternative Energy - Other,0.55,7600.0,8. p75_trade_value,152.0,609,30__2,30,2.0,12500.0,17418.0,28063.6,53200.87,58366.99,58883.6,58935.26
+NNE,Oils-Energy,Alternative Energy - Other,0.55,,,,2735,35__2,35,2.0,18180.0,33012.0,102890.4,270268.28,434748.64,466834.86,470043.49
+NPWR,Oils-Energy,Alternative Energy - Other,0.55,12480.000000000002,6. p95_trade_value,2.0,26,15__0,15,0.0,10897.5,12210.0,12963.75,13108.88,13123.39,13124.84,13124.98
+OKLO,Oils-Energy,Alternative Energy - Other,0.55,251888.0,4. p999_trade_value,22.0,21083,45__1,45,1.0,16767.6,25494.0,69719.88,251883.41,499044.08,722707.76,749520.78
+OPTT,Oils-Energy,Alternative Energy - Other,0.55,48000.0,1. p999999_trade_value,1.0,59,20__0,20,0.0,8985.0,10260.0,28842.6,46084.26,47808.43,47980.84,47998.08
+ORA,Oils-Energy,Alternative Energy - Other,0.55,8750.0,8. p75_trade_value,7.0,28,15__0,15,0.0,11214.0,13095.0,15105.8,15460.58,15496.06,15499.61,15499.96
+RNW,Oils-Energy,Alternative Energy - Other,0.55,,,,2,5__3,5,3.0,22396.0,23448.0,24289.6,24478.96,24497.9,24499.79,24499.98
+SLI,Oils-Energy,Alternative Energy - Other,0.55,3900.0,1. p999999_trade_value,1.0,1,0__2,0,2.0,3900.0,3900.0,3900.0,3900.0,3900.0,3900.0,3900.0
+TLN,Oils-Energy,Alternative Energy - Other,0.55,,,,4032,35__2,35,2.0,22800.0,34844.5,169367.6,661769.61,900918.54,945091.85,949509.19
+TPL,Oils-Energy,Alternative Energy - Other,0.55,125050.0,1. p999999_trade_value,1.0,1326,30__2,30,2.0,14000.0,21575.0,52365.0,110835.0,124380.88,124983.09,125043.31
+TRP,Oils-Energy,Alternative Energy - Other,0.55,12299.999999999998,8. p75_trade_value,5.0,18,15__0,15,0.0,26405.4,38031.4,49425.48,51989.15,52245.51,52271.15,52273.72
+TXNM,Oils-Energy,Alternative Energy - Other,0.55,62500.0,1. p999999_trade_value,2.0,6,10__0,10,0.0,62500.0,62500.0,62500.0,62500.0,62500.0,62500.0,62500.0
+UROY,Oils-Energy,Alternative Energy - Other,0.55,4360.0,8. p75_trade_value,4.0,13,10__0,10,0.0,7000.0,7464.0,8020.8,8146.08,8158.61,8159.86,8159.99
+VTLE,Oils-Energy,Alternative Energy - Other,0.55,7830.0,8. p75_trade_value,42.0,166,20__0,20,0.0,13827.5,26220.0,42295.0,57927.5,58892.75,58989.28,58998.93
+WDS,Oils-Energy,Alternative Energy - Other,0.55,3750.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,3733.0,3741.5,3748.3,3749.83,3749.98,3750.0,3750.0

@@ -1,0 +1,27 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ACVA,Retail-Wholesale,Internet - Commerce,0.55,123400.0,1. p999999_trade_value,1.0,57,20__0,20,0.0,8277.0,16260.0,104704.4,121530.44,123213.04,123381.3,123398.13
+BABA,Retail-Wholesale,Internet - Commerce,0.55,,,,137153,50__4,50,4.0,19530.0,30710.6,85623.04,338772.0,1047858.53,1575167.04,2056349.38
+BKNG,Retail-Wholesale,Internet - Commerce,0.55,202600.0,4. p999_trade_value,36.0,35101,45__0,45,0.0,17200.0,29660.0,78631.0,202340.0,737806.6,958690.8,1050049.08
+BYON,Retail-Wholesale,Internet - Commerce,0.55,52500.0,5. p99_trade_value,5.0,402,25__0,25,0.0,10288.0,16161.0,52493.7,104950.0,122995.0,124799.5,124979.95
+CART,Retail-Wholesale,Internet - Commerce,0.55,7789.999999999999,8. p75_trade_value,284.0,1135,30__2,30,2.0,13048.8,19030.0,56476.8,419464.0,623918.0,647391.8,649739.18
+CHWY,Retail-Wholesale,Internet - Commerce,0.55,,,,3665,35__2,35,2.0,16364.4,27105.4,97815.52,326878.64,436828.13,457682.81,459768.28
+CPNG,Retail-Wholesale,Internet - Commerce,0.55,323082.0,1. p999999_trade_value,1.0,824,30__2,30,2.0,12000.0,18787.5,65728.0,147610.17,305534.82,321327.28,322906.53
+CVNA,Retail-Wholesale,Internet - Commerce,0.55,,,,84260,50__0,50,0.0,26250.0,46782.9,149246.09,468134.47,1427066.25,5191288.34,8280728.83
+DADA,Retail-Wholesale,Internet - Commerce,0.55,,,,4,5__0,5,0.0,7560.0,7980.0,8316.0,8391.6,8399.16,8399.92,8399.99
+EBAY,Retail-Wholesale,Internet - Commerce,0.55,807360.0,1. p999999_trade_value,1.0,1375,30__0,30,0.0,14519.6,25701.9,148000.0,649362.0,797829.94,806406.99,807264.7
+ETSY,Retail-Wholesale,Internet - Commerce,0.55,145000.0,5. p99_trade_value,38.0,3770,35__2,35,2.0,17800.0,29923.5,135895.45,563973.2,823123.05,879262.31,884876.23
+EXPE,Retail-Wholesale,Internet - Commerce,0.55,498000.0,4. p999_trade_value,3.0,2912,35__0,35,0.0,15330.0,22800.0,63247.0,408722.0,803922.29,832720.23,835600.02
+FVRR,Retail-Wholesale,Internet - Commerce,0.55,136640.0,1. p999999_trade_value,1.0,267,25__0,25,0.0,12656.0,16971.5,39072.0,111134.59,134089.46,136384.95,136614.49
+GLBE,Retail-Wholesale,Internet - Commerce,0.55,,,,199,25__0,25,0.0,12360.0,14400.0,31000.2,356071.41,426229.64,433245.46,433947.05
+GRPN,Retail-Wholesale,Internet - Commerce,0.55,223500.0,1. p999999_trade_value,1.0,764,30__0,30,0.0,19241.0,39600.0,143243.25,205569.5,221706.95,223320.7,223482.07
+JD,Retail-Wholesale,Internet - Commerce,0.55,,,,17091,40__0,40,0.0,16150.0,24625.0,67950.0,287649.24,704748.5,869529.91,895692.99
+JMIA,Retail-Wholesale,Internet - Commerce,0.55,,,,71,20__0,20,0.0,9640.0,10267.5,40412.9,72891.29,76139.13,76463.91,76496.39
+LOGC,Retail-Wholesale,Internet - Commerce,0.55,127000.0,1. p999999_trade_value,1.0,12,10__3,10,3.0,91840.5,112862.25,124172.45,126717.25,126971.72,126997.17,126999.72
+MELI,Retail-Wholesale,Internet - Commerce,0.55,792500.0,3. p9999_trade_value,3.0,21371,45__1,45,1.0,14700.0,23730.0,65084.0,284315.5,782088.0,1103159.31,1176815.93
+NEGG,Retail-Wholesale,Internet - Commerce,0.55,,,,2,5__0,5,0.0,4487.0,4538.5,4579.7,4588.97,4589.9,4589.99,4590.0
+PDD,Retail-Wholesale,Internet - Commerce,0.55,,,,54380,45__3,45,3.0,21400.0,33790.5,97726.01,608270.64,2099908.04,3944382.14,4466096.71
+PSQH,Retail-Wholesale,Internet - Commerce,0.55,13850.0,1. p999999_trade_value,1.0,69,20__0,20,0.0,8166.0,9531.0,12932.0,13758.2,13840.82,13849.08,13849.91
+RMBL,Retail-Wholesale,Internet - Commerce,0.55,,,,7,10__0,10,0.0,7760.0,9830.0,11486.0,11858.6,11895.86,11899.59,11899.96
+TRIP,Retail-Wholesale,Internet - Commerce,0.55,7700.0,8. p75_trade_value,44.0,176,20__0,20,0.0,14038.0,21491.25,46027.5,156226.87,164460.19,165283.52,165365.85
+TZOO,Retail-Wholesale,Internet - Commerce,0.55,,,,4,5__0,5,0.0,5509.0,5654.5,5770.9,5797.09,5799.71,5799.97,5800.0
+W,Retail-Wholesale,Internet - Commerce,0.55,,,,4034,35__2,35,2.0,17237.8,31166.4,161002.5,539205.44,788211.62,810251.16,812455.12

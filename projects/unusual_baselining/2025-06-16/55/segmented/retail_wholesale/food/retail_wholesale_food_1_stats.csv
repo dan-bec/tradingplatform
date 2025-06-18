@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+NGVC,Retail-Wholesale,Food - Natural Foods Products,0.55,6840.000000000001,8. p75_trade_value,3.0,9,10__0,10,0.0,9800.0,11400.0,12680.0,12968.0,12996.8,12999.68,12999.97
+PFGC,Retail-Wholesale,Food - Natural Foods Products,0.55,101250.0,6. p95_trade_value,4.0,64,20__1,20,1.0,44324.0,93937.5,380000.0,521750.0,535925.0,537342.5,537484.25
+SFM,Retail-Wholesale,Food - Natural Foods Products,0.55,,,,1180,30__2,30,2.0,14007.0,22064.25,74378.1,161188.76,200180.72,204518.07,204951.81

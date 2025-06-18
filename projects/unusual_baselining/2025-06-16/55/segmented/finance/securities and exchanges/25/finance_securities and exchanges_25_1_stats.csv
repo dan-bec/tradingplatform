@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+CBOE,Finance,Securities and Exchanges,0.55,262500.0,1. p999999_trade_value,1.0,380,25__0,25,0.0,11755.0,16816.05,39695.25,194848.5,255734.85,261823.49,262432.35
+ICE,Finance,Securities and Exchanges,0.55,9030.0,8. p75_trade_value,89.0,353,25__0,25,0.0,14860.0,24003.2,86480.0,441201.44,452972.14,454149.21,454266.92
+NDAQ,Finance,Securities and Exchanges,0.55,288000.0,1. p999999_trade_value,1.0,220,25__0,25,0.0,11578.0,20325.65,41319.9,255016.19,284701.62,287670.16,287967.02

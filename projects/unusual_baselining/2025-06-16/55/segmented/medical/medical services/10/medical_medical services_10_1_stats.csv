@@ -1,0 +1,7 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AGL,Medical,Medical Services,0.55,13894.999999999998,8. p75_trade_value,3.0,11,10__0,10,0.0,17990.0,38995.0,55799.0,59579.9,59957.99,59995.8,59999.58
+ARDT,Medical,Medical Services,0.55,,,,6,10__0,10,0.0,30855.0,32332.5,33514.5,33780.45,33807.05,33809.7,33809.97
+BDSX,Medical,Medical Services,0.55,,,,7,10__0,10,0.0,9960.0,10680.0,11256.0,11385.6,11398.56,11399.86,11399.99
+BTSG,Medical,Medical Services,0.55,49500.0,8. p75_trade_value,2.0,8,10__0,10,0.0,51150.0,53075.0,54615.0,54961.5,54996.15,54999.62,54999.96
+CMPS,Medical,Medical Services,0.55,,,,8,10__0,10,0.0,6484.5,8799.75,10651.95,11068.7,11110.37,11114.54,11114.95
+MODV,Medical,Medical Services,0.55,,,,17,10__0,10,0.0,9284.8,11049.8,16069.96,17199.5,17312.45,17323.74,17324.87

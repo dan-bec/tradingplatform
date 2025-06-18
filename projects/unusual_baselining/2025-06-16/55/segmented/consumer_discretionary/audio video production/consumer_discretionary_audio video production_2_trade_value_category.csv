@@ -1,0 +1,13 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+DLB,Consumer Discretionary,Audio Video Production,5__0,5,0.0,1. p999999_trade_value,6160.0,6160.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+GPRO,Consumer Discretionary,Audio Video Production,5__0,5,0.0,1. p999999_trade_value,4980.0,4980.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SOGP,Consumer Discretionary,Audio Video Production,5__0,5,0.0,1. p999999_trade_value,4500.0,4500.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+SONO,Consumer Discretionary,Audio Video Production,15__0,15,0.0,1. p999999_trade_value,32000.0,32000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SONO,Consumer Discretionary,Audio Video Production,15__0,15,0.0,6. p95_trade_value,28980.0,28980.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+SONO,Consumer Discretionary,Audio Video Production,15__0,15,0.0,7. p90_trade_value,28259.999999999996,14000.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+SONO,Consumer Discretionary,Audio Video Production,15__0,15,0.0,8. p75_trade_value,13619.999999999998,8600.0,3.0,5.0,0.6,0.55,1. ABOVE BASELINE,7.0,9.0,0.7777777777777778
+SONY,Consumer Discretionary,Audio Video Production,20__0,20,0.0,1. p999999_trade_value,94380.0,94380.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SONY,Consumer Discretionary,Audio Video Production,20__0,20,0.0,5. p99_trade_value,78650.0,78650.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+SONY,Consumer Discretionary,Audio Video Production,20__0,20,0.0,6. p95_trade_value,60000.0,20655.0,5.0,6.0,0.8333333333333334,0.55,1. ABOVE BASELINE,7.0,8.0,0.875
+SONY,Consumer Discretionary,Audio Video Production,20__0,20,0.0,7. p90_trade_value,17290.0,11340.0,4.0,7.0,0.5714285714285714,0.55,1. ABOVE BASELINE,11.0,15.0,0.7333333333333333
+SONY,Consumer Discretionary,Audio Video Production,20__0,20,0.0,8. p75_trade_value,9891.0,6495.0,12.0,21.0,0.5714285714285714,0.55,1. ABOVE BASELINE,23.0,36.0,0.6388888888888888

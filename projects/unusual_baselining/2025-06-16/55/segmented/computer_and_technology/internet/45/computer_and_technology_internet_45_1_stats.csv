@@ -1,0 +1,10 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AFRM,Computer and Technology,Internet - Software,0.55,8760.0,8. p75_trade_value,5162.0,20629,45__2,45,2.0,16335.0,25800.0,66948.48,494034.0,4317756.0,4545000.0,4545000.0
+BIDU,Computer and Technology,Internet - Services,0.55,159000.0,4. p999_trade_value,21.0,20242,45__1,45,1.0,14759.0,22200.0,54195.43,158060.1,386240.7,733520.08,789752.01
+CRWV,Computer and Technology,Internet - Software,0.55,889600.0,3. p9999_trade_value,5.0,47455,45__0,45,0.0,17850.0,29000.0,82643.4,292214.1,778065.8,1813146.44,1853010.64
+MDB,Computer and Technology,Internet - Software,0.55,2745000.0,3. p9999_trade_value,3.0,23807,45__3,45,3.0,18936.0,31095.2,83992.5,464268.0,2646108.7,3981009.63,3981630.96
+RDDT,Computer and Technology,Internet - Software,0.55,,,,43975,45__0,45,0.0,18000.0,28561.5,77852.1,322071.96,823606.51,1106253.31,1181310.33
+SHOP,Computer and Technology,Internet - Services,0.55,8280.0,8. p75_trade_value,5708.0,22828,45__1,45,1.0,15100.0,22528.25,56196.36,186259.5,628684.25,1099881.82,1122542.18
+SNOW,Computer and Technology,Internet - Software,0.55,,,,46023,45__0,45,0.0,16375.0,26173.9,77097.5,402772.36,904925.26,1367796.97,1535422.9
+SPOT,Computer and Technology,Internet - Software,0.55,9875.0,8. p75_trade_value,7907.0,31626,45__0,45,0.0,18280.5,28275.0,77750.0,309520.0,962844.0,4755527.71,5497552.77
+UBER,Computer and Technology,Internet - Services,0.55,8613.0,8. p75_trade_value,7739.0,30952,45__1,45,1.0,16240.9,25748.1,73534.11,342178.2,905099.45,1268278.23,1313251.02

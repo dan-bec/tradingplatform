@@ -1,0 +1,7 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+ELF,Consumer Staples,Cosmetics,40__2,40,2.0,1. p999999_trade_value,6500000.0,6500000.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,1.0,1.0
+ELF,Consumer Staples,Cosmetics,40__2,40,2.0,4. p999_trade_value,2046000.0,870000.0,3.0,9.0,0.3333333333333333,0.55,2. BELOW BASELINE,4.0,10.0,0.4
+ELF,Consumer Staples,Cosmetics,40__2,40,2.0,5. p99_trade_value,822000.0,55016.00000000001,41.0,82.0,0.5,0.55,2. BELOW BASELINE,45.0,92.0,0.4891304347826087
+ELF,Consumer Staples,Cosmetics,40__2,40,2.0,6. p95_trade_value,54723.0,21625.0,185.0,367.0,0.5040871934604905,0.55,2. BELOW BASELINE,230.0,459.0,0.5010893246187363
+ELF,Consumer Staples,Cosmetics,40__2,40,2.0,7. p90_trade_value,21600.0,14741.999999999998,236.0,459.0,0.514161220043573,0.55,2. BELOW BASELINE,466.0,918.0,0.5076252723311547
+ELF,Consumer Staples,Cosmetics,40__2,40,2.0,8. p75_trade_value,14720.000000000002,8017.999999999999,710.0,1375.0,0.5163636363636364,0.55,2. BELOW BASELINE,1176.0,2293.0,0.5128652420409944

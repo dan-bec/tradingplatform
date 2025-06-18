@@ -1,0 +1,7 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CVS,Medical,Medical Services,40__0,40,0.0,1. p999999_trade_value,735000.0,735000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CVS,Medical,Medical Services,40__0,40,0.0,4. p999_trade_value,680000.0,341999.99999999994,4.0,6.0,0.6666666666666666,0.55,2. BELOW BASELINE,4.0,7.0,0.5714285714285714
+CVS,Medical,Medical Services,40__0,40,0.0,5. p99_trade_value,327391.0,85000.0,38.0,57.0,0.6666666666666666,0.55,2. BELOW BASELINE,42.0,64.0,0.65625
+CVS,Medical,Medical Services,40__0,40,0.0,6. p95_trade_value,84335.0,23100.0,183.0,257.0,0.7120622568093385,0.55,2. BELOW BASELINE,225.0,321.0,0.7009345794392523
+CVS,Medical,Medical Services,40__0,40,0.0,7. p90_trade_value,23073.999999999996,14260.0,228.0,319.0,0.7147335423197492,0.55,2. BELOW BASELINE,453.0,640.0,0.7078125
+CVS,Medical,Medical Services,40__0,40,0.0,8. p75_trade_value,14256.0,7878.0,605.0,947.0,0.6388595564941922,0.55,2. BELOW BASELINE,1058.0,1587.0,0.6666666666666666

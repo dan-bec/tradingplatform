@@ -1,0 +1,6 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CALM,Basic Materials,Agriculture - Products,25__0,25,0.0,1. p999999_trade_value,117624.0,117624.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CALM,Basic Materials,Agriculture - Products,25__0,25,0.0,5. p99_trade_value,74600.0,48179.99999999999,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+CALM,Basic Materials,Agriculture - Products,25__0,25,0.0,6. p95_trade_value,42000.0,20000.0,1.0,13.0,0.07692307692307693,0.55,2. BELOW BASELINE,5.0,17.0,0.29411764705882354
+CALM,Basic Materials,Agriculture - Products,25__0,25,0.0,7. p90_trade_value,19840.0,14040.0,8.0,16.0,0.5,0.55,2. BELOW BASELINE,13.0,33.0,0.3939393939393939
+CALM,Basic Materials,Agriculture - Products,25__0,25,0.0,8. p75_trade_value,13832.0,7500.0,33.0,50.0,0.66,0.55,2. BELOW BASELINE,46.0,83.0,0.5542168674698795

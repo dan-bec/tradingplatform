@@ -1,0 +1,8 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+DIS,Consumer Discretionary,Media Conglomerates,40__0,40,0.0,1. p999999_trade_value,809460.0,809460.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+DIS,Consumer Discretionary,Media Conglomerates,40__0,40,0.0,3. p9999_trade_value,677430.0,677430.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+DIS,Consumer Discretionary,Media Conglomerates,40__0,40,0.0,4. p999_trade_value,510000.0,295785.0,9.0,13.0,0.6923076923076923,0.55,1. ABOVE BASELINE,11.0,15.0,0.7333333333333333
+DIS,Consumer Discretionary,Media Conglomerates,40__0,40,0.0,5. p99_trade_value,294840.0,75285.0,91.0,131.0,0.6946564885496184,0.55,1. ABOVE BASELINE,102.0,146.0,0.6986301369863014
+DIS,Consumer Discretionary,Media Conglomerates,40__0,40,0.0,6. p95_trade_value,75200.0,24800.0,363.0,584.0,0.6215753424657534,0.55,1. ABOVE BASELINE,465.0,730.0,0.636986301369863
+DIS,Consumer Discretionary,Media Conglomerates,40__0,40,0.0,7. p90_trade_value,24776.0,15750.0,445.0,729.0,0.6104252400548696,0.55,1. ABOVE BASELINE,910.0,1459.0,0.6237148732008225
+DIS,Consumer Discretionary,Media Conglomerates,40__0,40,0.0,8. p75_trade_value,15729.000000000002,8320.0,1320.0,2192.0,0.6021897810218978,0.55,1. ABOVE BASELINE,2230.0,3651.0,0.6107915639550808

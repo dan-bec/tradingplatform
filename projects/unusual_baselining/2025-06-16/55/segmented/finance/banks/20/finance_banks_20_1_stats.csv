@@ -1,0 +1,14 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+BMO,Finance,Banks - Foreign,0.55,10000.0,7. p90_trade_value,7.0,61,20__0,20,0.0,10000.0,11410.0,28860.0,37446.0,38304.6,38390.46,38399.05
+CFG,Finance,Banks - Northeast,0.55,39780.0,6. p95_trade_value,9.0,168,20__0,20,0.0,27380.5,38982.0,105876.97,116133.28,116157.33,116159.73,116159.97
+CM,Finance,Banks - Foreign,0.55,20000.0,5. p99_trade_value,2.0,125,20__0,20,0.0,9102.0,12069.0,19988.0,21046.82,21180.18,21193.52,21194.85
+FHN,Finance,Banks - Southwest,0.55,21440.0,6. p95_trade_value,4.0,72,20__1,20,1.0,12815.0,20389.5,230616.8,654861.68,697286.17,701528.62,701952.86
+FLG,Finance,Banks - Northeast,0.55,,,,160,20__0,20,0.0,13621.2,19185.1,44460.8,74280.83,78262.58,78660.76,78700.58
+HBAN,Finance,Banks - Midwest,0.55,,,,62,20__0,20,0.0,26116.5,41312.0,73722.05,74872.21,74987.22,74998.72,74999.87
+HSBC,Finance,Banks - Foreign,0.55,40365.0,5. p99_trade_value,2.0,162,20__0,20,0.0,11088.0,13626.25,32294.7,74155.72,79991.57,80575.16,80633.52
+IBN,Finance,Banks - Foreign,0.55,,,,107,20__0,20,0.0,10231.0,16376.0,54580.0,86290.0,89629.0,89962.9,89996.29
+MTB,Finance,Banks - Major Regional,0.55,35100.0,6. p95_trade_value,7.0,138,20__0,20,0.0,17280.0,27280.0,52114.38,122270.71,131891.07,132853.11,132949.31
+RF,Finance,Banks - Southeast,0.55,,,,76,20__0,20,0.0,17707.5,22163.5,39640.5,51656.85,52858.49,52978.65,52990.66
+RY,Finance,Banks - Foreign,0.55,,,,124,20__0,20,0.0,11976.5,15046.5,27422.85,30000.0,30000.0,30000.0,30000.0
+SNV,Finance,Banks - Southeast,0.55,,,,57,20__0,20,0.0,14046.0,18348.8,34419.44,37947.94,38300.79,38336.08,38339.61
+TD,Finance,Banks - Foreign,0.55,,,,99,20__0,20,0.0,10093.0,14908.5,23272.2,46301.22,48604.12,48834.41,48857.44

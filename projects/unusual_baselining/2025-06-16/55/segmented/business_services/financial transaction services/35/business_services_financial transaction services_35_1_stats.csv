@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+FI,Business Services,Financial Transaction Services,0.55,,,,1944,35__0,35,0.0,14474.0,19379.5,45256.1,393326.9,1196369.18,1344486.52,1359298.25

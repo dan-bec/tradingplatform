@@ -1,0 +1,4 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+BGFV,Retail-Wholesale,Retail - Miscellaneous,0__2,0,2.0,1. p999999_trade_value,7640.000000000001,7640.000000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CATO,Retail-Wholesale,Retail - Apparel and Shoes,0__2,0,2.0,1. p999999_trade_value,4000.0,4000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ETD,Retail-Wholesale,Retail - Home Furnishings,0__2,0,2.0,1. p999999_trade_value,4000.0,4000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0

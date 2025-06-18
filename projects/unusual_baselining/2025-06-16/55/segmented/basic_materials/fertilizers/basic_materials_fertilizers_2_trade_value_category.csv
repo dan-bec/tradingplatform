@@ -1,0 +1,24 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CF,Basic Materials,Fertilizers,25__0,25,0.0,1. p999999_trade_value,437400.0,437400.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CF,Basic Materials,Fertilizers,25__0,25,0.0,5. p99_trade_value,153000.0,130320.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+CF,Basic Materials,Fertilizers,25__0,25,0.0,6. p95_trade_value,74750.0,30000.0,12.0,20.0,0.6,0.55,2. BELOW BASELINE,15.0,25.0,0.6
+CF,Basic Materials,Fertilizers,25__0,25,0.0,7. p90_trade_value,28600.0,18900.0,11.0,25.0,0.44,0.55,2. BELOW BASELINE,26.0,50.0,0.52
+CF,Basic Materials,Fertilizers,25__0,25,0.0,8. p75_trade_value,18760.0,7919.999999999999,44.0,74.0,0.5945945945945946,0.55,2. BELOW BASELINE,70.0,124.0,0.5645161290322581
+ICL,Basic Materials,Fertilizers,5__0,5,0.0,1. p999999_trade_value,4455.0,4455.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+IPI,Basic Materials,Fertilizers,10__0,10,0.0,1. p999999_trade_value,12705.0,12705.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+IPI,Basic Materials,Fertilizers,10__0,10,0.0,7. p90_trade_value,12669.999999999998,12669.999999999998,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+IPI,Basic Materials,Fertilizers,10__0,10,0.0,8. p75_trade_value,10000.0,10000.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+MOS,Basic Materials,Fertilizers,25__0,25,0.0,1. p999999_trade_value,478326.0,478326.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MOS,Basic Materials,Fertilizers,25__0,25,0.0,5. p99_trade_value,250000.0,58050.0,4.0,4.0,1.0,0.55,1. ABOVE BASELINE,5.0,5.0,1.0
+MOS,Basic Materials,Fertilizers,25__0,25,0.0,6. p95_trade_value,58036.0,19092.0,14.0,18.0,0.7777777777777778,0.55,1. ABOVE BASELINE,19.0,23.0,0.8260869565217391
+MOS,Basic Materials,Fertilizers,25__0,25,0.0,7. p90_trade_value,19008.0,12896.0,15.0,24.0,0.625,0.55,1. ABOVE BASELINE,34.0,47.0,0.723404255319149
+MOS,Basic Materials,Fertilizers,25__0,25,0.0,8. p75_trade_value,12726.0,7600.0,40.0,67.0,0.5970149253731343,0.55,1. ABOVE BASELINE,74.0,114.0,0.6491228070175439
+NTR,Basic Materials,Fertilizers,25__0,25,0.0,1. p999999_trade_value,411680.0,411680.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+NTR,Basic Materials,Fertilizers,25__0,25,0.0,5. p99_trade_value,406720.0,120000.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+NTR,Basic Materials,Fertilizers,25__0,25,0.0,6. p95_trade_value,110000.0,20010.0,9.0,14.0,0.6428571428571429,0.55,2. BELOW BASELINE,10.0,18.0,0.5555555555555556
+NTR,Basic Materials,Fertilizers,25__0,25,0.0,7. p90_trade_value,16169.999999999998,10505.000000000002,9.0,18.0,0.5,0.55,2. BELOW BASELINE,19.0,36.0,0.5277777777777778
+NTR,Basic Materials,Fertilizers,25__0,25,0.0,8. p75_trade_value,10500.0,6720.0,39.0,54.0,0.7222222222222222,0.55,2. BELOW BASELINE,58.0,90.0,0.6444444444444445
+UAN,Basic Materials,Fertilizers,15__0,15,0.0,1. p999999_trade_value,25839.999999999996,25839.999999999996,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+UAN,Basic Materials,Fertilizers,15__0,15,0.0,6. p95_trade_value,18900.0,14100.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+UAN,Basic Materials,Fertilizers,15__0,15,0.0,7. p90_trade_value,9828.0,9180.000000000002,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,5.0,0.2
+UAN,Basic Materials,Fertilizers,15__0,15,0.0,8. p75_trade_value,8815.0,7040.000000000001,1.0,7.0,0.14285714285714285,0.55,2. BELOW BASELINE,2.0,12.0,0.16666666666666666

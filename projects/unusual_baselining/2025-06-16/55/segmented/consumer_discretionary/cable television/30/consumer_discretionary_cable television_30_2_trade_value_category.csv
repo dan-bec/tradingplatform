@@ -1,0 +1,7 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CMCSA,Consumer Discretionary,Cable Television,30__1,30,1.0,1. p999999_trade_value,1680000.0,1680000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CMCSA,Consumer Discretionary,Cable Television,30__1,30,1.0,4. p999_trade_value,1140000.0,1140000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+CMCSA,Consumer Discretionary,Cable Television,30__1,30,1.0,5. p99_trade_value,429000.0,99000.0,4.0,9.0,0.4444444444444444,0.55,2. BELOW BASELINE,4.0,11.0,0.36363636363636365
+CMCSA,Consumer Discretionary,Cable Television,30__1,30,1.0,6. p95_trade_value,93000.0,34694.0,20.0,42.0,0.47619047619047616,0.55,2. BELOW BASELINE,24.0,53.0,0.4528301886792453
+CMCSA,Consumer Discretionary,Cable Television,30__1,30,1.0,7. p90_trade_value,34100.0,21494.0,22.0,52.0,0.4230769230769231,0.55,2. BELOW BASELINE,46.0,105.0,0.4380952380952381
+CMCSA,Consumer Discretionary,Cable Television,30__1,30,1.0,8. p75_trade_value,21045.0,9019.0,104.0,156.0,0.6666666666666666,0.55,2. BELOW BASELINE,150.0,261.0,0.5747126436781609

@@ -1,0 +1,8 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+HOOD,Finance,Financial - Investment Bank,50__3,50,3.0,1. p999999_trade_value,1896000.0,1896000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+HOOD,Finance,Financial - Investment Bank,50__3,50,3.0,3. p9999_trade_value,1217349.9999999998,1035000.0,5.0,7.0,0.7142857142857143,0.55,1. ABOVE BASELINE,6.0,8.0,0.75
+HOOD,Finance,Financial - Investment Bank,50__3,50,3.0,4. p999_trade_value,1010000.0,306159.0,28.0,56.0,0.5,0.55,2. BELOW BASELINE,34.0,64.0,0.53125
+HOOD,Finance,Financial - Investment Bank,50__3,50,3.0,5. p99_trade_value,302400.0,72738.0,363.0,572.0,0.6346153846153846,0.55,2. BELOW BASELINE,397.0,636.0,0.6242138364779874
+HOOD,Finance,Financial - Investment Bank,50__3,50,3.0,6. p95_trade_value,72600.0,27333.999999999996,1528.0,2540.0,0.6015748031496063,0.55,2. BELOW BASELINE,1925.0,3176.0,0.6061083123425692
+HOOD,Finance,Financial - Investment Bank,50__3,50,3.0,7. p90_trade_value,27323.999999999996,17640.0,1946.0,3177.0,0.612527541706012,0.55,2. BELOW BASELINE,3871.0,6353.0,0.6093184322367385
+HOOD,Finance,Financial - Investment Bank,50__3,50,3.0,8. p75_trade_value,17625.0,9400.0,5667.0,9564.0,0.592534504391468,0.55,2. BELOW BASELINE,9538.0,15917.0,0.5992335239052585

@@ -1,0 +1,7 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CHTR,Consumer Discretionary,Cable Television,35__0,35,0.0,1. p999999_trade_value,427500.0,427500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CHTR,Consumer Discretionary,Cable Television,35__0,35,0.0,4. p999_trade_value,351000.0,351000.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+CHTR,Consumer Discretionary,Cable Television,35__0,35,0.0,5. p99_trade_value,217079.99999999997,70650.0,10.0,17.0,0.5882352941176471,0.55,2. BELOW BASELINE,11.0,19.0,0.5789473684210527
+CHTR,Consumer Discretionary,Cable Television,35__0,35,0.0,6. p95_trade_value,62319.99999999999,25350.0,42.0,76.0,0.5526315789473685,0.55,2. BELOW BASELINE,53.0,95.0,0.5578947368421052
+CHTR,Consumer Discretionary,Cable Television,35__0,35,0.0,7. p90_trade_value,25250.0,16688.0,54.0,95.0,0.5684210526315789,0.55,2. BELOW BASELINE,107.0,190.0,0.5631578947368421
+CHTR,Consumer Discretionary,Cable Television,35__0,35,0.0,8. p75_trade_value,16560.0,8600.0,112.0,284.0,0.39436619718309857,0.55,2. BELOW BASELINE,219.0,474.0,0.4620253164556962

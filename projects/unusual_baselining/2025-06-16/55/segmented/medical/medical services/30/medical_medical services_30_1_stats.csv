@@ -1,0 +1,5 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+COR,Medical,Medical Services,0.55,,,,881,30__2,30,2.0,10292.0,15736.0,68350.0,167508.0,180100.8,181360.08,181486.01
+DOCS,Medical,Medical Services,0.55,190000.0,4. p999_trade_value,2.0,1617,30__2,30,2.0,15205.2,21636.0,51378.0,174600.0,280874.18,296638.42,298214.84
+MEDP,Medical,Medical Services,0.55,540000.0,1. p999999_trade_value,1.0,620,30__0,30,0.0,27104.0,45296.5,140951.2,434522.4,529452.24,538945.22,539894.52
+TDOC,Medical,Medical Services,0.55,,,,743,30__2,30,2.0,9942.6,13008.0,30515.0,55134.16,55481.42,55516.14,55519.61

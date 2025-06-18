@@ -1,0 +1,10 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ALK,Transportation,Transportation - Airline,0.55,,,,703,30__1,30,1.0,18531.0,38152.5,386346.4,1165234.0,1691523.4,1744152.34,1749415.23
+FWRD,Transportation,Transportation - Truck,0.55,,,,599,30__2,30,2.0,11130.0,19953.0,120000.0,332260.44,343681.04,344823.1,344937.31
+HTZ,Transportation,Transportation - Services,0.55,,,,1038,30__1,30,1.0,17486.0,28950.7,97500.0,885012.78,1392965.0,1444296.5,1449429.65
+JBLU,Transportation,Transportation - Airline,0.55,,,,588,30__2,30,2.0,9908.2,12998.6,27617.72,61640.67,71990.07,73025.01,73128.5
+JOBY,Transportation,Transportation - Airline,0.55,171100.0,1. p999999_trade_value,1.0,563,30__2,30,2.0,12487.0,19795.0,34795.0,122711.8,166261.18,170616.12,171051.61
+PONY,Transportation,Transportation - Equipment and Leasing,0.55,,,,1260,30__2,30,2.0,15294.8,25840.7,60000.0,167050.0,204474.8,207647.48,207964.75
+SAIA,Transportation,Transportation - Truck,0.55,,,,677,30__0,30,0.0,20232.0,45060.0,176957.2,828748.8,1249274.88,1291327.49,1295532.75
+UNP,Transportation,Transportation - Rail,0.55,,,,1311,30__2,30,2.0,12730.0,18175.0,60105.6,377895.0,574206.0,594720.6,596772.06
+XPO,Transportation,Transportation - Truck,0.55,325347.99999999994,4. p999_trade_value,2.0,1061,30__0,30,0.0,20000.0,30720.0,104256.0,324277.12,399178.99,407057.6,407845.46

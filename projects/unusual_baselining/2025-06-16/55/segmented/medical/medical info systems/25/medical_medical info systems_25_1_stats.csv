@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+CLOV,Medical,Medical Info Systems,0.55,12909.0,6. p95_trade_value,16.0,319,25__0,25,0.0,9936.0,12815.4,20241.9,36165.96,39400.6,39724.06,39756.41

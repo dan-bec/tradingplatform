@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+GOGO,Computer and Technology,Wireless National,0.55,19800.0,1. p999999_trade_value,1.0,90,20__0,20,0.0,11253.6,13978.5,16008.6,19420.86,19762.09,19796.21,19799.62

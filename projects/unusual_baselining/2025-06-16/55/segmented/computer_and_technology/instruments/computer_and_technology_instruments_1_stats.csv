@@ -1,0 +1,7 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+BMI,Computer and Technology,Instruments - Control,0.55,18720.0,1. p999999_trade_value,1.0,18,15__0,15,0.0,11634.0,13161.0,17608.2,18608.82,18708.88,18718.89,18719.89
+BRKR,Computer and Technology,Instruments - Scientific,0.55,224460.0,1. p999999_trade_value,1.0,103,20__1,20,1.0,37350.0,58598.5,171067.4,219198.84,223933.88,224407.39,224454.74
+ST,Computer and Technology,Instruments - Control,0.55,,,,105,20__0,20,0.0,11921.6,16807.4,18179.88,127332.8,138733.28,139873.33,139987.33
+THR,Computer and Technology,Instruments - Control,0.55,,,,1,0__2,0,2.0,8000.0,8000.0,8000.0,8000.0,8000.0,8000.0,8000.0
+TRNS,Computer and Technology,Instruments - Control,0.55,,,,1,0__0,0,0.0,10000.0,10000.0,10000.0,10000.0,10000.0,10000.0,10000.0
+WTS,Computer and Technology,Instruments - Control,0.55,,,,1,0__2,0,2.0,4650.0,4650.0,4650.0,4650.0,4650.0,4650.0,4650.0

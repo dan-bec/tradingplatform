@@ -1,0 +1,5 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+MP,Basic Materials,Mining - Miscellaneous,0.55,427760.00000000006,1. p999999_trade_value,1.0,1248,30__2,30,2.0,13500.0,23519.5,109135.14,286760.8,411828.33,426166.83,427600.68
+RIO,Basic Materials,Mining - Miscellaneous,0.55,9600.0,8. p75_trade_value,170.0,680,30__2,30,2.0,17617.5,28361.25,68069.55,159630.0,177963.0,179796.3,179979.63
+TECK,Basic Materials,Mining - Miscellaneous,0.55,335500.0,1. p999999_trade_value,1.0,1222,30__0,30,0.0,21249.3,61467.75,120606.85,173273.85,315777.19,333527.72,335302.77
+VALE,Basic Materials,Mining - Iron,0.55,10241.0,8. p75_trade_value,159.0,635,30__2,30,2.0,16873.4,28572.0,61650.0,329631.66,348863.17,350786.32,350978.63

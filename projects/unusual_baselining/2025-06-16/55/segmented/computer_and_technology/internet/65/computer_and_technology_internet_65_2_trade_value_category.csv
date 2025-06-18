@@ -1,0 +1,9 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+TSLA,Computer and Technology,Internet - Software and Services,65__0,65,0.0,1. p999999_trade_value,38427200.0,24428720.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+TSLA,Computer and Technology,Internet - Software and Services,65__0,65,0.0,2. p99999_trade_value,20139720.0,7440000.0,20.0,32.0,0.625,0.55,2. BELOW BASELINE,22.0,36.0,0.6111111111111112
+TSLA,Computer and Technology,Internet - Software and Services,65__0,65,0.0,3. p9999_trade_value,7259120.0,1565000.0,159.0,317.0,0.501577287066246,0.55,2. BELOW BASELINE,181.0,353.0,0.5127478753541076
+TSLA,Computer and Technology,Internet - Software and Services,65__0,65,0.0,4. p999_trade_value,1559491.9999999998,302091.0,1575.0,3173.0,0.4963756697132052,0.55,2. BELOW BASELINE,1756.0,3526.0,0.49801474758933634
+TSLA,Computer and Technology,Internet - Software and Services,65__0,65,0.0,5. p99_trade_value,302000.0,80850.0,16204.0,31725.0,0.5107643814026793,0.55,2. BELOW BASELINE,17960.0,35251.0,0.509489092508014
+TSLA,Computer and Technology,Internet - Software and Services,65__0,65,0.0,6. p95_trade_value,80845.0,30100.0,70787.0,141081.0,0.5017472232263736,0.55,2. BELOW BASELINE,88747.0,176332.0,0.5032949209445818
+TSLA,Computer and Technology,Internet - Software and Services,65__0,65,0.0,7. p90_trade_value,30096.000000000004,18910.0,87311.0,176191.0,0.4955474456697561,0.55,2. BELOW BASELINE,176058.0,352523.0,0.49942273270112875
+TSLA,Computer and Technology,Internet - Software and Services,65__0,65,0.0,8. p75_trade_value,18909.0,9756.0,262163.0,528788.0,0.49578091787256895,0.55,2. BELOW BASELINE,438221.0,881311.0,0.49723763801881515

@@ -1,0 +1,5 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+CHWY,Retail-Wholesale,Internet - Commerce,0.55,,,,3665,35__2,35,2.0,16364.4,27105.4,97815.52,326878.64,436828.13,457682.81,459768.28
+ETSY,Retail-Wholesale,Internet - Commerce,0.55,145000.0,5. p99_trade_value,38.0,3770,35__2,35,2.0,17800.0,29923.5,135895.45,563973.2,823123.05,879262.31,884876.23
+EXPE,Retail-Wholesale,Internet - Commerce,0.55,498000.0,4. p999_trade_value,3.0,2912,35__0,35,0.0,15330.0,22800.0,63247.0,408722.0,803922.29,832720.23,835600.02
+W,Retail-Wholesale,Internet - Commerce,0.55,,,,4034,35__2,35,2.0,17237.8,31166.4,161002.5,539205.44,788211.62,810251.16,812455.12

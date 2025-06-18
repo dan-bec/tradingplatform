@@ -1,0 +1,16 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+BABA,Retail-Wholesale,Internet - Commerce,50__4,50,4.0,1. p999999_trade_value,2130000.0,2130000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BABA,Retail-Wholesale,Internet - Commerce,50__4,50,4.0,2. p99999_trade_value,1593000.0,1593000.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+BABA,Retail-Wholesale,Internet - Commerce,50__4,50,4.0,3. p9999_trade_value,1545000.0000000002,1071360.0,6.0,12.0,0.5,0.55,2. BELOW BASELINE,7.0,14.0,0.5
+BABA,Retail-Wholesale,Internet - Commerce,50__4,50,4.0,4. p999_trade_value,1038500.0,339000.0,73.0,124.0,0.5887096774193549,0.55,2. BELOW BASELINE,80.0,138.0,0.5797101449275363
+BABA,Retail-Wholesale,Internet - Commerce,50__4,50,4.0,5. p99_trade_value,337500.0,85648.0,726.0,1234.0,0.5883306320907618,0.55,2. BELOW BASELINE,806.0,1372.0,0.5874635568513119
+BABA,Retail-Wholesale,Internet - Commerce,50__4,50,4.0,6. p95_trade_value,85600.0,30719.0,2969.0,5486.0,0.541195771053591,0.55,2. BELOW BASELINE,3775.0,6858.0,0.5504520268299796
+BABA,Retail-Wholesale,Internet - Commerce,50__4,50,4.0,7. p90_trade_value,30705.0,19530.0,3593.0,6862.0,0.5236082774701253,0.55,2. BELOW BASELINE,7368.0,13720.0,0.5370262390670554
+BABA,Retail-Wholesale,Internet - Commerce,50__4,50,4.0,8. p75_trade_value,19529.0,9960.0,10355.0,20585.0,0.5030361914015059,0.55,2. BELOW BASELINE,17723.0,34305.0,0.5166302288296166
+CVNA,Retail-Wholesale,Internet - Commerce,50__0,50,0.0,1. p999999_trade_value,8624000.0,8624000.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,1.0,1.0
+CVNA,Retail-Wholesale,Internet - Commerce,50__0,50,0.0,3. p9999_trade_value,4550000.0,1428154.0,4.0,8.0,0.5,0.55,2. BELOW BASELINE,5.0,9.0,0.5555555555555556
+CVNA,Retail-Wholesale,Internet - Commerce,50__0,50,0.0,4. p999_trade_value,1425600.0,468531.00000000006,48.0,76.0,0.631578947368421,0.55,2. BELOW BASELINE,53.0,85.0,0.6235294117647059
+CVNA,Retail-Wholesale,Internet - Commerce,50__0,50,0.0,5. p99_trade_value,467000.0,149275.0,491.0,758.0,0.6477572559366754,0.55,2. BELOW BASELINE,544.0,843.0,0.6453143534994069
+CVNA,Retail-Wholesale,Internet - Commerce,50__0,50,0.0,6. p95_trade_value,149226.0,46800.0,1967.0,3370.0,0.583679525222552,0.55,2. BELOW BASELINE,2511.0,4213.0,0.5960123427486351
+CVNA,Retail-Wholesale,Internet - Commerce,50__0,50,0.0,7. p90_trade_value,46781.99999999999,26250.0,2421.0,4219.0,0.5738326617681915,0.55,2. BELOW BASELINE,4932.0,8432.0,0.5849146110056926
+CVNA,Retail-Wholesale,Internet - Commerce,50__0,50,0.0,8. p75_trade_value,26240.000000000004,11400.0,7164.0,12669.0,0.5654747809614018,0.55,2. BELOW BASELINE,12096.0,21101.0,0.5732429742666224

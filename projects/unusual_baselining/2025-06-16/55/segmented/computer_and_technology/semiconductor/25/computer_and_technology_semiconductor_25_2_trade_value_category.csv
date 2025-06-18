@@ -1,0 +1,5 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+STM,Computer and Technology,Semiconductor - General,25__0,25,0.0,1. p999999_trade_value,220000.0,220000.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+STM,Computer and Technology,Semiconductor - General,25__0,25,0.0,6. p95_trade_value,45110.0,30000.0,7.0,10.0,0.7,0.55,1. ABOVE BASELINE,10.0,13.0,0.7692307692307693
+STM,Computer and Technology,Semiconductor - General,25__0,25,0.0,7. p90_trade_value,29700.0,20610.0,7.0,12.0,0.5833333333333334,0.55,1. ABOVE BASELINE,17.0,25.0,0.68
+STM,Computer and Technology,Semiconductor - General,25__0,25,0.0,8. p75_trade_value,20330.0,10400.0,22.0,36.0,0.6111111111111112,0.55,1. ABOVE BASELINE,39.0,61.0,0.639344262295082

@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+META,Computer and Technology,Internet - Software,0.55,9440.0,8. p75_trade_value,163997.0,655793,60__0,60,0.0,18074.8,28720.0,79200.0,315187.2,1175353.87,3735454.44,6383552.95

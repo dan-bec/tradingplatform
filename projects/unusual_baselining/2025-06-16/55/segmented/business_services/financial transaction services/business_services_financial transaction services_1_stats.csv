@@ -1,0 +1,29 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+CMPO,Business Services,Financial Transaction Services,0.55,,,,42,15__0,15,0.0,14170.0,14342.9,291838.32,463883.83,481088.38,482808.84,482980.88
+CPAY,Business Services,Financial Transaction Services,0.55,,,,291,25__0,25,0.0,8685.0,10770.0,26850.0,119091.0,135299.1,136919.91,137081.99
+CTLP,Business Services,Financial Transaction Services,0.55,,,,4,5__0,5,0.0,3866.5,3933.25,3986.65,3998.67,3999.87,3999.99,4000.0
+DLO,Business Services,Financial Transaction Services,0.55,,,,81,20__0,20,0.0,22000.0,27900.0,36000.0,39600.0,39960.0,39996.0,39999.6
+EVTC,Business Services,Financial Transaction Services,0.55,4000.0,1. p999999_trade_value,1.0,1,0__2,0,2.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0
+EXFY,Business Services,Financial Transaction Services,0.55,,,,1,0__2,0,2.0,5400.0,5400.0,5400.0,5400.0,5400.0,5400.0,5400.0
+FCFS,Business Services,Financial Transaction Services,0.55,4160.0,8. p75_trade_value,2.0,5,5__0,5,0.0,6512.0,7296.0,7923.2,8064.32,8078.43,8079.84,8079.98
+FI,Business Services,Financial Transaction Services,0.55,,,,1944,35__0,35,0.0,14474.0,19379.5,45256.1,393326.9,1196369.18,1344486.52,1359298.25
+FIS,Business Services,Financial Transaction Services,0.55,,,,499,25__0,25,0.0,15960.4,20910.0,71697.32,280691.25,365569.12,374056.91,374905.69
+FOUR,Business Services,Financial Transaction Services,0.55,311200.0,1. p999999_trade_value,1.0,865,30__2,30,2.0,18318.0,29580.0,78720.0,283966.72,308476.67,310927.67,311172.77
+GPN,Business Services,Financial Transaction Services,0.55,,,,1063,30__2,30,2.0,15519.0,24708.5,116533.7,268285.82,578361.0,611336.1,614633.61
+IMXI,Business Services,Financial Transaction Services,0.55,,,,2,5__1,5,1.0,46125.0,48062.5,49612.5,49961.25,49996.13,49999.61,49999.96
+KSPI,Business Services,Financial Transaction Services,0.55,,,,31,15__0,15,0.0,28980.0,48970.0,72327.0,77081.7,77557.17,77604.72,77609.47
+MA,Business Services,Financial Transaction Services,0.55,432500.0,1. p999999_trade_value,1.0,5777,40__0,40,0.0,14367.0,23185.2,66392.4,205293.02,422202.55,431470.25,432397.03
+MQ,Business Services,Financial Transaction Services,0.55,23650.0,6. p95_trade_value,4.0,78,20__1,20,1.0,13588.2,20547.5,180668.0,271866.8,280986.68,281898.67,281989.87
+OPFI,Business Services,Financial Transaction Services,0.55,,,,83,20__0,20,0.0,8406.0,11931.0,14177.3,14904.23,14976.92,14984.19,14984.92
+PAGS,Business Services,Financial Transaction Services,0.55,112500.0,1. p999999_trade_value,1.0,40,15__0,15,0.0,24013.2,33165.65,86936.67,109943.67,112244.37,112474.44,112497.44
+PAR,Business Services,Financial Transaction Services,0.55,66250.0,6. p95_trade_value,2.0,33,15__0,15,0.0,31740.0,51082.0,67253.0,67677.8,67720.28,67724.53,67724.95
+PAY,Business Services,Financial Transaction Services,0.55,,,,64,20__0,20,0.0,15495.0,26746.75,211050.8,212661.08,212822.11,212838.21,212839.82
+PAYO,Business Services,Financial Transaction Services,0.55,13888.0,8. p75_trade_value,3.0,10,10__0,10,0.0,16543.9,20255.95,23225.59,23893.76,23960.58,23967.26,23967.93
+PSFE,Business Services,Financial Transaction Services,0.55,64000.0,1. p999999_trade_value,1.0,18,15__0,15,0.0,24066.0,39112.0,59022.4,63502.24,63950.22,63995.02,63999.5
+PYPL,Business Services,Financial Transaction Services,0.55,,,,16187,40__0,40,0.0,16630.2,26564.7,94907.0,395722.12,1039043.0,1646868.99,1690186.9
+RBA,Business Services,Financial Transaction Services,0.55,,,,92,20__0,20,0.0,8433.3,13456.0,20574.75,25304.48,25777.45,25824.74,25829.47
+RELY,Business Services,Financial Transaction Services,0.55,192000.0,1. p999999_trade_value,1.0,114,20__0,20,0.0,29250.0,39118.75,124975.1,184598.5,191259.85,191925.99,191992.6
+SEZL,Business Services,Financial Transaction Services,0.55,8550.0,8. p75_trade_value,96.0,381,25__0,25,0.0,16225.0,31529.0,45846.4,55952.32,56477.63,56530.16,56535.42
+V,Business Services,Financial Transaction Services,0.55,,,,12773,40__0,40,0.0,15000.0,22400.0,57608.32,289590.09,1016679.77,1096902.0,1096902.0
+WEX,Business Services,Financial Transaction Services,0.55,,,,129,20__1,20,1.0,15280.0,40200.0,461100.0,573980.0,577148.0,577464.8,577496.48
+WU,Business Services,Financial Transaction Services,0.55,,,,40,15__0,15,0.0,22050.0,24087.25,43689.8,49368.98,49936.9,49993.69,49999.37

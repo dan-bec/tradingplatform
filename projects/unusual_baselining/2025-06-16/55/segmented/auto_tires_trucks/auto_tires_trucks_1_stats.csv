@@ -1,0 +1,71 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ADNT,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,12,10__0,10,0.0,12575.7,12745.15,12757.03,12759.7,12759.97,12760.0,12760.0
+AEVA,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,12300.0,8. p75_trade_value,9.0,34,15__0,15,0.0,19476.6,55575.0,68256.2,69699.62,69843.96,69858.4,69859.84
+ALSN,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,28500.0,7. p90_trade_value,3.0,26,15__0,15,0.0,22750.0,38625.0,55500.0,59550.0,59955.0,59995.5,59999.55
+ALV,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,14,10__0,10,0.0,7237.5,9157.5,11731.5,12310.65,12368.56,12374.36,12374.94
+APTV,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,236847.99999999994,5. p99_trade_value,5.0,415,25__2,25,2.0,49980.0,94800.0,232669.28,431340.0,502134.0,509213.4,509921.34
+AXL,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,6,10__0,10,0.0,45000.0,62500.0,76500.0,79650.0,79965.0,79996.5,79999.65
+BEEM,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,5,5__0,5,0.0,4470.0,4710.0,4902.0,4945.2,4949.52,4949.95,4950.0
+BLBD,Auto-Tires-Trucks,Automotive - Domestic,0.55,,,,100,20__0,20,0.0,11757.0,13190.0,25008.7,25783.87,25861.39,25869.14,25869.91
+BWA,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,41,15__0,15,0.0,11200.0,13300.0,24132.0,29413.2,29941.32,29994.13,29999.41
+CARG,Auto-Tires-Trucks,Automotive - Replacement Parts,0.55,,,,23,15__0,15,0.0,9960.0,11830.8,14537.64,15178.76,15242.88,15249.29,15249.93
+CHPT,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,95,20__2,20,2.0,100000.0,154500.0,401920.0,428992.0,431699.2,431969.92,431996.99
+CMI,Auto-Tires-Trucks,Automotive - Internal Combustion Engines,0.55,22000.000000000004,7. p90_trade_value,29.0,286,25__0,25,0.0,21530.0,35660.0,108400.0,309237.52,372473.75,378797.38,379429.74
+CPS,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,18,15__0,15,0.0,9840.0,15676.5,36423.3,41091.33,41558.13,41604.81,41609.48
+CWH,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,8125.0,8. p75_trade_value,36.0,142,20__1,20,1.0,20149.0,59775.0,386297.4,614079.76,630657.98,632315.8,632481.58
+CYD,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,15000.0,1. p999999_trade_value,1.0,27,15__0,15,0.0,12600.0,13850.0,14740.0,14974.0,14997.4,14999.74,14999.97
+DAN,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,145,20__0,20,0.0,17617.2,22046.0,83564.76,104967.42,107786.74,108068.67,108096.87
+DOOO,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,11,10__0,10,0.0,17370.0,22095.0,25875.0,26725.5,26810.55,26819.06,26819.91
+DORM,Auto-Tires-Trucks,Automotive - Replacement Parts,0.55,30000.0,8. p75_trade_value,2.0,8,10__0,10,0.0,31500.0,33250.0,34650.0,34965.0,34996.5,34999.65,34999.96
+EVGO,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,157,20__0,20,0.0,10020.0,12220.0,19220.0,27786.0,28698.6,28789.86,28798.99
+F,Auto-Tires-Trucks,Automotive - Domestic,0.55,299760.00000000006,4. p999_trade_value,4.0,3930,35__0,35,0.0,15761.0,24968.25,96431.64,282095.99,416157.81,466341.08,471359.41
+FFAI,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,25,15__0,15,0.0,6780.4,7621.6,7933.76,7971.78,7975.58,7975.96,7976.0
+FOXF,Auto-Tires-Trucks,Automotive - Domestic,0.55,55000.0,1. p999999_trade_value,1.0,8,10__0,10,0.0,37500.0,46250.0,53250.0,54825.0,54982.5,54998.25,54999.83
+GM,Auto-Tires-Trucks,Automotive - Domestic,0.55,490000.0,4. p999_trade_value,8.0,7972,40__0,40,0.0,15145.1,24879.1,79432.0,399070.7,950511.53,1235174.75,1263641.08
+GT,Auto-Tires-Trucks,Rubber - Tires,0.55,,,,136,20__0,20,0.0,20000.0,36145.0,95700.0,104595.0,104959.5,104995.95,104999.6
+GTX,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,6,10__0,10,0.0,18000.0,24000.0,28800.0,29880.0,29988.0,29998.8,29999.88
+HMC,Auto-Tires-Trucks,Automotive - Foreign,0.55,20460.0,1. p999999_trade_value,1.0,52,15__0,15,0.0,14540.0,16787.25,20123.4,20426.34,20456.63,20459.66,20459.97
+HOG,Auto-Tires-Trucks,Automotive - Domestic,0.55,8320.0,8. p75_trade_value,82.0,326,25__0,25,0.0,15248.0,26295.0,57691.25,107581.0,125166.1,126924.61,127100.46
+HSAI,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,429,25__0,25,0.0,14527.0,18450.0,41218.4,93392.84,99159.28,99735.93,99793.59
+HYLN,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,10,10__0,10,0.0,5852.4,6916.2,7767.24,7958.72,7977.87,7979.79,7979.98
+INVZ,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,51,15__0,15,0.0,60000.0,108625.0,200000.0,236000.0,239600.0,239960.0,239996.0
+KAR,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,3900.0,1. p999999_trade_value,1.0,1,0__2,0,2.0,3900.0,3900.0,3900.0,3900.0,3900.0,3900.0,3900.0
+KXIN,Auto-Tires-Trucks,Automotive - Foreign,0.55,,,,2,5__3,5,3.0,21662.7,21782.85,21878.97,21900.6,21902.76,21902.98,21903.0
+LAZR,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,16492.0,6. p95_trade_value,17.0,337,25__0,25,0.0,11850.0,16354.4,35268.48,272800.0,333280.0,339328.0,339932.8
+LCID,Auto-Tires-Trucks,Automotive - Domestic,0.55,,,,858,30__2,30,2.0,9837.0,14018.75,42088.4,519970.0,519970.0,519970.0,519970.0
+LCII,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,6900.0,8. p75_trade_value,6.0,22,15__0,15,0.0,9055.0,24210.0,40010.0,43601.0,43960.1,43996.01,43999.6
+LEA,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,63,20__0,20,0.0,20248.0,52050.0,138000.0,193800.0,199380.0,199938.0,199993.8
+LI,Auto-Tires-Trucks,Automotive - Foreign,0.55,242200.0,1. p999999_trade_value,1.0,2595,35__0,35,0.0,14000.0,22100.0,52207.5,109085.67,226065.32,240586.53,242038.65
+LKQ,Auto-Tires-Trucks,Automotive - Replacement Parts,0.55,,,,75,20__1,20,1.0,22066.4,48375.0,190698.4,423025.84,446258.58,448581.86,448814.19
+LVWR,Auto-Tires-Trucks,Automotive - Domestic,0.55,6964.999999999999,8. p75_trade_value,3.0,11,10__0,10,0.0,9300.0,9450.0,9570.0,9597.0,9599.7,9599.97,9600.0
+MBLY,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,609960.0,1. p999999_trade_value,1.0,2998,35__0,35,0.0,11615.5,16403.75,39206.36,203467.01,515566.49,600520.65,609016.06
+MCW,Auto-Tires-Trucks,Automotive - Replacement Parts,0.55,,,,3,5__0,5,0.0,8100.8,8523.4,8861.48,8937.55,8945.15,8945.92,8945.99
+MGA,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,149,20__3,20,3.0,11908.0,21608.0,127800.0,1586472.0,1811047.2,1833504.72,1835750.47
+MLR,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,3,5__0,5,0.0,9992.0,10661.0,11196.2,11316.62,11328.66,11329.87,11329.99
+MOD,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,51165.0,6. p95_trade_value,48.0,951,30__0,30,0.0,22250.0,50997.5,198572.5,526350.0,549435.0,551743.5,551974.35
+MPAA,Auto-Tires-Trucks,Automotive - Replacement Parts,0.55,7000.0,8. p75_trade_value,2.0,6,10__0,10,0.0,8000.0,8500.0,8900.0,8990.0,8999.0,8999.9,8999.99
+NIO,Auto-Tires-Trucks,Automotive - Foreign,0.55,,,,5558,35__0,35,0.0,11500.0,15060.45,31949.68,255505.0,442467.64,445245.36,445523.14
+NIU,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,2,5__0,5,0.0,5260.0,5330.0,5386.0,5398.6,5399.86,5399.99,5400.0
+OSK,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,208000.0,1. p999999_trade_value,1.0,43,15__0,15,0.0,13732.0,28741.0,157180.0,202918.0,207491.8,207949.18,207994.92
+PCAR,Auto-Tires-Trucks,Automotive - Domestic,0.55,,,,228,25__0,25,0.0,15899.0,24624.0,47135.2,99011.5,108307.15,109236.72,109329.67
+PHIN,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,15,10__0,10,0.0,24895.0,39757.5,46351.5,47835.15,47983.52,47998.35,47999.84
+PII,Auto-Tires-Trucks,Automotive - Domestic,0.55,19000.0,7. p90_trade_value,46.0,460,25__0,25,0.0,18640.0,31853.0,114069.25,391395.0,430639.5,434563.95,434956.39
+PLOW,Auto-Tires-Trucks,Automotive - Replacement Parts,0.55,4450.0,1. p999999_trade_value,1.0,1,0__2,0,2.0,4450.0,4450.0,4450.0,4450.0,4450.0,4450.0,4450.0
+PSNY,Auto-Tires-Trucks,Automotive - Foreign,0.55,,,,14,10__0,10,0.0,23875.0,29375.0,35875.0,37337.5,37483.75,37498.38,37499.84
+QS,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,23600.0,5. p99_trade_value,8.0,870,30__2,30,2.0,11280.0,13960.5,23218.0,38885.14,41184.51,41414.45,41437.45
+RACE,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,1144,30__2,30,2.0,15240.0,23515.5,57067.2,291696.31,371149.17,380014.92,380901.49
+REE,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,14,10__0,10,0.0,11612.5,13868.75,15493.75,15859.38,15895.94,15899.59,15899.96
+RIVN,Auto-Tires-Trucks,Automotive - Domestic,0.55,,,,11661,40__0,40,0.0,11924.0,16980.0,39751.0,163200.0,362364.0,1156226.0,1249622.6
+SES,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,83,20__0,20,0.0,9791.0,12399.0,23482.2,26648.22,26964.82,26996.48,26999.65
+SLDP,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,10,10__0,10,0.0,9424.0,9712.0,9942.4,9994.24,9999.42,9999.94,9999.99
+STLA,Auto-Tires-Trucks,Automotive - Foreign,0.55,122834.99999999999,1. p999999_trade_value,1.0,202,25__0,25,0.0,29836.5,49749.0,92370.85,122265.17,122778.02,122829.3,122834.43
+SUP,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,8000.0,8. p75_trade_value,2.0,6,10__0,10,0.0,14000.0,17000.0,19400.0,19940.0,19994.0,19999.4,19999.94
+TM,Auto-Tires-Trucks,Automotive - Foreign,0.55,,,,372,25__0,25,0.0,11078.0,18825.0,42949.0,185315.83,227122.78,231303.48,231721.55
+VC,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,13,10__0,10,0.0,10358.0,13406.0,16953.2,17751.32,17831.13,17839.11,17839.91
+VFS,Auto-Tires-Trucks,Automotive - Domestic,0.55,,,,35,15__0,15,0.0,7050.0,7601.7,9612.44,10418.44,10499.04,10507.1,10507.91
+WKHS,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,28,15__0,15,0.0,11189.5,14752.75,17101.75,17460.18,17496.02,17499.6,17499.96
+WNC,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,10,10__0,10,0.0,11730.0,32115.0,48423.0,52092.3,52459.23,52495.92,52499.59
+WRD,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,,,,411,25__0,25,0.0,12540.0,19687.5,29817.7,49322.9,54234.29,54725.43,54774.54
+XPEL,Auto-Tires-Trucks,Automotive - Original Equipment,0.55,13860.0,1. p999999_trade_value,2.0,6,10__0,10,0.0,13860.0,13860.0,13860.0,13860.0,13860.0,13860.0,13860.0
+XPEV,Auto-Tires-Trucks,Automotive - Foreign,0.55,600000.0,4. p999_trade_value,4.0,3720,35__0,35,0.0,15489.2,24000.0,63502.32,313119.0,1052628.4,1174462.84,1186646.28
+ZK,Auto-Tires-Trucks,Automotive - Foreign,0.55,12492.0,8. p75_trade_value,77.0,306,25__0,25,0.0,21385.0,39371.25,78681.5,128036.5,130973.65,131267.37,131296.74

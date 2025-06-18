@@ -1,0 +1,8 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+VST,Utilities,Utility - Electric Power,45__3,45,3.0,1. p999999_trade_value,3344300.0,3344300.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,1.0,1.0
+VST,Utilities,Utility - Electric Power,45__3,45,3.0,3. p9999_trade_value,1780000.0,1329000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+VST,Utilities,Utility - Electric Power,45__3,45,3.0,4. p999_trade_value,1134000.0,416583.0,10.0,26.0,0.38461538461538464,0.55,2. BELOW BASELINE,12.0,29.0,0.41379310344827586
+VST,Utilities,Utility - Electric Power,45__3,45,3.0,5. p99_trade_value,415584.0,95759.99999999999,125.0,255.0,0.49019607843137253,0.55,2. BELOW BASELINE,137.0,284.0,0.4823943661971831
+VST,Utilities,Utility - Electric Power,45__3,45,3.0,6. p95_trade_value,95550.0,33750.0,612.0,1137.0,0.5382585751978892,0.55,2. BELOW BASELINE,749.0,1421.0,0.5270935960591133
+VST,Utilities,Utility - Electric Power,45__3,45,3.0,7. p90_trade_value,33744.00000000001,20790.0,742.0,1420.0,0.5225352112676056,0.55,2. BELOW BASELINE,1491.0,2841.0,0.5248152059134108
+VST,Utilities,Utility - Electric Power,45__3,45,3.0,8. p75_trade_value,20789.999999999996,10125.0,2214.0,4260.0,0.5197183098591549,0.55,2. BELOW BASELINE,3705.0,7101.0,0.5217574989438107

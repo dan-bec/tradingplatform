@@ -1,0 +1,5 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ENOV,Medical,Medical Info Systems,0.55,,,,21,15__0,15,0.0,28000.0,65000.0,82000.0,85825.0,86207.5,86245.75,86249.58
+OMCL,Medical,Medical Info Systems,0.55,,,,27,15__0,15,0.0,9172.8,10076.2,31162.6,37712.26,38367.23,38432.72,38439.27
+PRVA,Medical,Medical Info Systems,0.55,50000.0,1. p999999_trade_value,1.0,19,15__0,15,0.0,11650.0,19175.0,43835.0,49383.5,49938.35,49993.83,49999.38
+TXG,Medical,Medical Info Systems,0.55,,,,19,15__0,15,0.0,16148.0,19217.0,37051.4,41064.14,41465.41,41505.54,41509.55

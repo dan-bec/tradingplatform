@@ -1,0 +1,13 @@
+security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CLF,Basic Materials,Steel - Producers,35__0,35,0.0,1. p999999_trade_value,266000.0,266000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CLF,Basic Materials,Steel - Producers,35__0,35,0.0,4. p999_trade_value,127404.0,127404.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+CLF,Basic Materials,Steel - Producers,35__0,35,0.0,5. p99_trade_value,125796.0,60928.0,11.0,18.0,0.6111111111111112,0.55,2. BELOW BASELINE,12.0,20.0,0.6
+CLF,Basic Materials,Steel - Producers,35__0,35,0.0,6. p95_trade_value,58352.00000000001,22677.999999999996,53.0,78.0,0.6794871794871795,0.55,2. BELOW BASELINE,65.0,98.0,0.6632653061224489
+CLF,Basic Materials,Steel - Producers,35__0,35,0.0,7. p90_trade_value,22672.0,14000.0,62.0,99.0,0.6262626262626263,0.55,2. BELOW BASELINE,127.0,197.0,0.6446700507614214
+CLF,Basic Materials,Steel - Producers,35__0,35,0.0,8. p75_trade_value,13875.0,7904.000000000001,173.0,291.0,0.5945017182130584,0.55,2. BELOW BASELINE,300.0,488.0,0.6147540983606558
+NUE,Basic Materials,Steel - Producers,35__2,35,2.0,1. p999999_trade_value,626000.0,626000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+NUE,Basic Materials,Steel - Producers,35__2,35,2.0,4. p999_trade_value,547440.0,539000.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+NUE,Basic Materials,Steel - Producers,35__2,35,2.0,5. p99_trade_value,470100.0,125000.0,16.0,27.0,0.5925925925925926,0.55,1. ABOVE BASELINE,19.0,30.0,0.6333333333333333
+NUE,Basic Materials,Steel - Producers,35__2,35,2.0,6. p95_trade_value,122887.5,30800.0,51.0,118.0,0.4322033898305085,0.55,2. BELOW BASELINE,70.0,148.0,0.47297297297297297
+NUE,Basic Materials,Steel - Producers,35__2,35,2.0,7. p90_trade_value,30559.999999999996,16500.0,83.0,147.0,0.564625850340136,0.55,2. BELOW BASELINE,153.0,295.0,0.5186440677966102
+NUE,Basic Materials,Steel - Producers,35__2,35,2.0,8. p75_trade_value,16497.0,8280.0,230.0,443.0,0.5191873589164786,0.55,2. BELOW BASELINE,383.0,738.0,0.518970189701897

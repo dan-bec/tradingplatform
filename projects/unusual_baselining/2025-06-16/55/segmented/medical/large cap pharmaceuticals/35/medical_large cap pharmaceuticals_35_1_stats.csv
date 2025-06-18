@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+MRK,Medical,Large Cap Pharmaceuticals,0.55,26400.0,6. p95_trade_value,281.0,5592,35__1,35,1.0,15744.1,26400.0,97367.55,1418843.8,2524832.4,2744223.24,2766162.32
