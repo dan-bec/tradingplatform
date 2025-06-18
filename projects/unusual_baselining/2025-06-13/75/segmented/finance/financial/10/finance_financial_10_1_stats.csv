@@ -1,25 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AB,Finance,Financial - Investment Management,0.75,,,,11,10__0,10,0.0,16000.0,19250.0,21850.0,22435.0,22493.5,22499.35,22499.94
-ALTS,Finance,Financial - Miscellaneous Services,0.75,,,,17,10__0,10,0.0,8120.0,9840.0,9968.0,9996.8,9999.68,9999.97,10000.0
-BUR,Finance,Financial - Miscellaneous Services,0.75,,,,6,10__0,10,0.0,29178.0,32589.0,35317.8,35931.78,35993.18,35999.32,35999.93
-BXSL,Finance,Financial - SBIC & Commercial Industry,0.75,,,,8,10__0,10,0.0,7133.2,7148.6,7160.92,7163.69,7163.97,7164.0,7164.0
-EEFT,Finance,Financial - Miscellaneous Services,0.75,20470.0,1. p999999_trade_value,1.0,8,10__0,10,0.0,20232.0,20351.0,20446.2,20467.62,20469.76,20469.98,20470.0
-ENVA,Finance,Financial - Consumer Loans,0.75,6250.0,8. p75_trade_value,2.0,6,10__0,10,0.0,7750.0,8500.0,9100.0,9235.0,9248.5,9249.85,9249.99
-EZPW,Finance,Financial - Consumer Loans,0.75,,,,8,10__0,10,0.0,8067.2,10623.6,12668.72,13128.87,13174.89,13179.49,13179.95
-FINV,Finance,Financial - Miscellaneous Services,0.75,29970.0,8. p75_trade_value,2.0,8,10__0,10,0.0,32224.5,34854.75,36958.95,37432.4,37479.74,37484.47,37484.95
-FRHC,Finance,Financial - Miscellaneous Services,0.75,12000.0,1. p999999_trade_value,1.0,10,10__0,10,0.0,9480.0,10740.0,11748.0,11974.8,11997.48,11999.75,11999.97
-FSK,Finance,Financial - SBIC & Commercial Industry,0.75,4800.0,8. p75_trade_value,3.0,9,10__0,10,0.0,7184.0,8292.0,9178.4,9377.84,9397.78,9399.78,9399.98
-HTGC,Finance,Financial - SBIC & Commercial Industry,0.75,,,,9,10__0,10,0.0,10615.4,11796.2,12740.84,12953.38,12974.64,12976.76,12976.98
-MRX,Finance,Financial - Miscellaneous Services,0.75,,,,12,10__0,10,0.0,10700.0,13330.0,15706.0,16240.6,16294.06,16299.41,16299.94
-NRDS,Finance,Financial - Miscellaneous Services,0.75,,,,17,10__0,10,0.0,5760.0,6879.2,8732.64,9149.66,9191.37,9195.54,9195.95
-OPRT,Finance,Financial - Miscellaneous Services,0.75,,,,7,10__0,10,0.0,5568.0,6744.0,7684.8,7896.48,7917.65,7919.76,7919.98
-OPY,Finance,Financial - Investment Bank,0.75,9720.0,7. p90_trade_value,3.0,12,10__0,10,0.0,9720.0,10048.5,10369.7,10441.97,10449.2,10449.92,10449.99
-PFSI,Finance,Financial - Mortgage & Related Services,0.75,,,,11,10__3,10,3.0,55500.0,93375.0,123675.0,130492.5,131174.25,131242.43,131249.24
-PIPR,Finance,Financial - Investment Bank,0.75,13800.0,8. p75_trade_value,2.0,8,10__0,10,0.0,14124.0,14502.0,14804.4,14872.44,14879.24,14879.92,14879.99
-PRAA,Finance,Financial - Miscellaneous Services,0.75,5200.0,8. p75_trade_value,5.0,17,10__0,10,0.0,7222.0,8874.0,10070.8,10340.08,10367.01,10369.7,10369.97
-PRG,Finance,Financial - Consumer Loans,0.75,,,,9,10__0,10,0.0,6284.0,6892.0,7378.4,7487.84,7498.78,7499.88,7499.99
-PSEC,Finance,Financial - Investment Management,0.75,45350.0,1. p999999_trade_value,1.0,6,10__0,10,0.0,45175.0,45262.5,45332.5,45348.25,45349.83,45349.98,45350.0
-RITM,Finance,Financial - Miscellaneous Services,0.75,,,,6,10__0,10,0.0,11000.0,12500.0,13700.0,13970.0,13997.0,13999.7,13999.97
-SII,Finance,Financial - Investment Management,0.75,7437.0,1. p999999_trade_value,1.0,11,10__0,10,0.0,6300.0,6868.5,7323.3,7425.63,7435.86,7436.89,7436.99
-STEP,Finance,Financial - Miscellaneous Services,0.75,9610.0,8. p75_trade_value,2.0,8,10__0,10,0.0,10192.0,10871.0,11414.2,11536.42,11548.64,11549.86,11549.99
-VCTR,Finance,Financial - Investment Management,0.75,7600.0,8. p75_trade_value,2.0,6,10__0,10,0.0,8312.5,8668.75,8953.75,9017.88,9024.29,9024.93,9024.99
+version https://git-lfs.github.com/spec/v1
+oid sha256:4d6f173291fc082a56c600be10aa5290bac8357749858ffbb59c253394aa4911
+size 3672

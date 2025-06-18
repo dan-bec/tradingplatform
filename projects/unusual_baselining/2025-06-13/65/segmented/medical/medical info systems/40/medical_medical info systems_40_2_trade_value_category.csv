@@ -1,8 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-TEM,Medical,Medical Info Systems,40__0,40,0.0,1. p999999_trade_value,659670.0,659670.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-TEM,Medical,Medical Info Systems,40__0,40,0.0,3. p9999_trade_value,570000.0,570000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
-TEM,Medical,Medical Info Systems,40__0,40,0.0,4. p999_trade_value,387000.0,215600.0,6.0,15.0,0.4,0.65,2. BELOW BASELINE,8.0,17.0,0.47058823529411764
-TEM,Medical,Medical Info Systems,40__0,40,0.0,5. p99_trade_value,206550.0,60480.00000000001,67.0,149.0,0.44966442953020136,0.65,2. BELOW BASELINE,75.0,166.0,0.45180722891566266
-TEM,Medical,Medical Info Systems,40__0,40,0.0,6. p95_trade_value,60270.00000000001,24500.0,326.0,665.0,0.49022556390977445,0.65,2. BELOW BASELINE,401.0,831.0,0.4825511432009627
-TEM,Medical,Medical Info Systems,40__0,40,0.0,7. p90_trade_value,24420.0,16169.999999999998,436.0,827.0,0.5272067714631197,0.65,2. BELOW BASELINE,837.0,1658.0,0.5048250904704463
-TEM,Medical,Medical Info Systems,40__0,40,0.0,8. p75_trade_value,16154.999999999998,8555.0,1377.0,2487.0,0.5536791314837153,0.65,2. BELOW BASELINE,2214.0,4145.0,0.5341375150784077
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d1ae4accb3d501dfea5f6f5533c2a5e598e030eddbdb5a1516612a7422d23bb
+size 1333

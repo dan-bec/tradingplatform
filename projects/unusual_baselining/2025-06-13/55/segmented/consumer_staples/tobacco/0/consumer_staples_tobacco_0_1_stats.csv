@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-XXII,Consumer Staples,Tobacco,0.55,,,,1,0__2,0,2.0,3500.0,3500.0,3500.0,3500.0,3500.0,3500.0,3500.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:e090a1db6548610264db231b6590314d970252351dbdc437fda6d478ffe9219b
+size 380

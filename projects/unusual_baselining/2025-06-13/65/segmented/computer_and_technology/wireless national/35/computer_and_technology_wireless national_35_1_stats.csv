@@ -1,4 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-T,Computer and Technology,Wireless National,0.65,80000.0,5. p99_trade_value,22.0,2196,35__0,35,0.0,16325.0,25519.75,73787.0,162456.93,632353.89,715082.89,723355.79
-TMUS,Computer and Technology,Wireless National,0.65,252000.0,4. p999_trade_value,4.0,3905,35__1,35,1.0,14472.0,22906.4,66984.0,237078.58,1329223.8,1834259.88,1884763.49
-VZ,Computer and Technology,Wireless National,0.65,214957.00000000003,4. p999_trade_value,5.0,3924,35__0,35,0.0,13000.0,21227.85,59274.79,214957.0,329015.6,338901.56,339890.16
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ff30de5e6eff557dc75a46f6914ed73705ec890fdad07e07a19cfdee7a4092f
+size 788

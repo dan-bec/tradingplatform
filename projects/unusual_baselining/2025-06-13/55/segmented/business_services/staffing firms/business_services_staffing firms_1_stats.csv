@@ -1,7 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CCRN,Business Services,Staffing Firms,0.55,,,,4,5__0,5,0.0,5025.0,5137.5,5227.5,5247.75,5249.78,5249.98,5250.0
-DLHC,Business Services,Staffing Firms,0.55,,,,1,0__0,0,0.0,9000.0,9000.0,9000.0,9000.0,9000.0,9000.0,9000.0
-KFY,Business Services,Staffing Firms,0.55,12500.0,1. p999999_trade_value,1.0,3,5__0,5,0.0,10920.0,11710.0,12342.0,12484.2,12498.42,12499.84,12499.98
-MAN,Business Services,Staffing Firms,0.55,,,,15,10__3,10,3.0,15015.0,51512.5,114302.5,128430.25,129843.02,129984.3,129998.43
-NSP,Business Services,Staffing Firms,0.55,80000.0,7. p90_trade_value,2.0,20,15__0,15,0.0,68750.0,82625.0,122525.0,131502.5,132400.25,132490.03,132499.0
-RHI,Business Services,Staffing Firms,0.55,62579.99999999999,1. p999999_trade_value,1.0,21,15__0,15,0.0,22325.0,47120.0,59488.0,62270.8,62549.08,62576.91,62579.69
+version https://git-lfs.github.com/spec/v1
+oid sha256:d426f3b11e78e6059d3cf14ca60c71531d176bba9be560a161cdae97e73bee0c
+size 1087

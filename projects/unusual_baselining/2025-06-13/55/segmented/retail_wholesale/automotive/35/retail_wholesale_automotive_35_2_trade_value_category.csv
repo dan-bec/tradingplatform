@@ -1,7 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-AZO,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,35__0,35,0.0,1. p999999_trade_value,291200.0,291200.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-AZO,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,35__0,35,0.0,4. p999_trade_value,269200.0,173485.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,2.0,5.0,0.4
-AZO,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,35__0,35,0.0,5. p99_trade_value,167400.0,62460.0,31.0,40.0,0.775,0.55,2. BELOW BASELINE,33.0,45.0,0.7333333333333333
-AZO,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,35__0,35,0.0,6. p95_trade_value,61979.99999999999,19300.0,75.0,177.0,0.423728813559322,0.55,2. BELOW BASELINE,108.0,222.0,0.4864864864864865
-AZO,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,35__0,35,0.0,7. p90_trade_value,19250.0,12600.0,117.0,222.0,0.527027027027027,0.55,2. BELOW BASELINE,225.0,444.0,0.5067567567567568
-AZO,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,35__0,35,0.0,8. p75_trade_value,12560.0,7500.0,359.0,678.0,0.5294985250737463,0.55,2. BELOW BASELINE,584.0,1122.0,0.5204991087344029
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f3dc3d819fe6ad2f4a3b32101260ebcee2260c6df8978e1398dd9424794223f
+size 1306

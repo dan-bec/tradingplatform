@@ -1,11 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-AMCX,Consumer Discretionary,Broadcast Radio and Television,10__0,10,3,0.0,1. p999999_trade_value,7250.0,7250.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-AMCX,Consumer Discretionary,Broadcast Radio and Television,10__0,10,3,0.0,8. p75_trade_value,5160.0,5160.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-FOX,Consumer Discretionary,Broadcast Radio and Television,5__0,5,3,0.0,1. p999999_trade_value,6761.999999999999,6761.999999999999,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-FOX,Consumer Discretionary,Broadcast Radio and Television,5__0,5,3,0.0,8. p75_trade_value,5445.0,5445.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
-IHRT,Consumer Discretionary,Broadcast Radio and Television,5__3,5,3,3.0,1. p999999_trade_value,19487.0,19487.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-IHRT,Consumer Discretionary,Broadcast Radio and Television,5__3,5,3,3.0,8. p75_trade_value,9075.0,9075.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-SSP,Consumer Discretionary,Broadcast Radio and Television,0__2,0,3,2.0,1. p999999_trade_value,3300.0,3300.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-TGNA,Consumer Discretionary,Broadcast Radio and Television,10__0,10,3,0.0,1. p999999_trade_value,7712.0,7712.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-TGNA,Consumer Discretionary,Broadcast Radio and Television,10__0,10,3,0.0,8. p75_trade_value,4170.0,4170.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-TSQ,Consumer Discretionary,Broadcast Radio and Television,5__0,5,3,0.0,1. p999999_trade_value,8750.0,8750.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:34a586dfabe3ce7e2bf98a4f55fbed2cbd86cdb01f39cfdda88aa7a27ba3d548
+size 1815

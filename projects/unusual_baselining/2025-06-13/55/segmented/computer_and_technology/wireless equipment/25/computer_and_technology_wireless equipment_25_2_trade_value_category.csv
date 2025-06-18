@@ -1,16 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-IDCC,Computer and Technology,Wireless Equipment,25__0,25,0.0,1. p999999_trade_value,22500.0,22500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-IDCC,Computer and Technology,Wireless Equipment,25__0,25,0.0,5. p99_trade_value,19250.0,19250.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-IDCC,Computer and Technology,Wireless Equipment,25__0,25,0.0,6. p95_trade_value,15179.999999999998,10440.0,5.0,8.0,0.625,0.55,1. ABOVE BASELINE,7.0,10.0,0.7
-IDCC,Computer and Technology,Wireless Equipment,25__0,25,0.0,7. p90_trade_value,10070.0,8360.0,5.0,10.0,0.5,0.55,2. BELOW BASELINE,12.0,20.0,0.6
-IDCC,Computer and Technology,Wireless Equipment,25__0,25,0.0,8. p75_trade_value,7920.0,5320.0,20.0,30.0,0.6666666666666666,0.55,2. BELOW BASELINE,32.0,50.0,0.64
-JNPR,Computer and Technology,Wireless Equipment,25__2,25,2.0,1. p999999_trade_value,425000.0,425000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-JNPR,Computer and Technology,Wireless Equipment,25__2,25,2.0,5. p99_trade_value,405680.0,391995.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
-JNPR,Computer and Technology,Wireless Equipment,25__2,25,2.0,6. p95_trade_value,300000.0,90000.0,6.0,11.0,0.5454545454545454,0.55,2. BELOW BASELINE,9.0,14.0,0.6428571428571429
-JNPR,Computer and Technology,Wireless Equipment,25__2,25,2.0,7. p90_trade_value,84000.0,50000.0,3.0,13.0,0.23076923076923078,0.55,2. BELOW BASELINE,12.0,27.0,0.4444444444444444
-JNPR,Computer and Technology,Wireless Equipment,25__2,25,2.0,8. p75_trade_value,47500.0,9180.000000000002,14.0,39.0,0.358974358974359,0.55,2. BELOW BASELINE,26.0,66.0,0.3939393939393939
-MSI,Computer and Technology,Wireless Equipment,25__0,25,0.0,1. p999999_trade_value,98209.99999999999,98209.99999999999,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-MSI,Computer and Technology,Wireless Equipment,25__0,25,0.0,5. p99_trade_value,73500.0,49600.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
-MSI,Computer and Technology,Wireless Equipment,25__0,25,0.0,6. p95_trade_value,29321.000000000004,19950.0,4.0,9.0,0.4444444444444444,0.55,2. BELOW BASELINE,7.0,12.0,0.5833333333333334
-MSI,Computer and Technology,Wireless Equipment,25__0,25,0.0,7. p90_trade_value,19750.0,13300.0,10.0,15.0,0.6666666666666666,0.55,2. BELOW BASELINE,17.0,27.0,0.6296296296296297
-MSI,Computer and Technology,Wireless Equipment,25__0,25,0.0,8. p75_trade_value,13200.0,8930.0,22.0,32.0,0.6875,0.55,2. BELOW BASELINE,39.0,59.0,0.6610169491525424
+version https://git-lfs.github.com/spec/v1
+oid sha256:464d99fbc4b896e171f7249ed6f429fef729d11409d6137cd8467bd443e753d4
+size 2623

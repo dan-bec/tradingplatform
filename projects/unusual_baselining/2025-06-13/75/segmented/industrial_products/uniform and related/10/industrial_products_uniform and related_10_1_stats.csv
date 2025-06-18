@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-UNF,Industrial Products,Uniform and Related,0.75,66000.0,7. p90_trade_value,2.0,17,10__0,10,0.0,65400.0,67200.0,71040.0,71904.0,71990.4,71999.04,71999.9
+version https://git-lfs.github.com/spec/v1
+oid sha256:0f576c141a3ca1dc227c166fe2583c87d9292bff9edb5aef1809331494d7d2de
+size 433

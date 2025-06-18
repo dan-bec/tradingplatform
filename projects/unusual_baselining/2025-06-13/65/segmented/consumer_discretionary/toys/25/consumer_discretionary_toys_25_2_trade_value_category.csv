@@ -1,6 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-HAS,Consumer Discretionary,Toys - Games - Hobbies,25__0,25,0.0,1. p999999_trade_value,763800.0,763800.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-HAS,Consumer Discretionary,Toys - Games - Hobbies,25__0,25,0.0,5. p99_trade_value,412965.00000000006,182880.00000000003,1.0,3.0,0.3333333333333333,0.65,2. BELOW BASELINE,1.0,4.0,0.25
-HAS,Consumer Discretionary,Toys - Games - Hobbies,25__0,25,0.0,6. p95_trade_value,130976.0,38800.0,5.0,14.0,0.35714285714285715,0.65,2. BELOW BASELINE,6.0,18.0,0.3333333333333333
-HAS,Consumer Discretionary,Toys - Games - Hobbies,25__0,25,0.0,7. p90_trade_value,30400.0,20235.0,10.0,17.0,0.5882352941176471,0.65,2. BELOW BASELINE,16.0,35.0,0.45714285714285713
-HAS,Consumer Discretionary,Toys - Games - Hobbies,25__0,25,0.0,8. p75_trade_value,18800.0,9050.0,27.0,51.0,0.5294117647058824,0.65,2. BELOW BASELINE,43.0,86.0,0.5
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b0622689e6d8805f838c9e9c72250150bf82a3436e26868f38e60c466e7410a
+size 1062

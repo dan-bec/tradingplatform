@@ -1,16 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-ABM,Business Services,Business - Services,10__3,10,3.0,1. p999999_trade_value,140000.0,140000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-ABM,Business Services,Business - Services,10__3,10,3.0,7. p90_trade_value,20000.0,20000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,2.0,0.0
-ABM,Business Services,Business - Services,10__3,10,3.0,8. p75_trade_value,10500.0,7500.0,7.0,7.0,1.0,0.65,2. BELOW BASELINE,7.0,9.0,0.7777777777777778
-MORN,Business Services,Business - Information Services,10__0,10,0.0,1. p999999_trade_value,7670.0,7670.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-MORN,Business Services,Business - Information Services,10__0,10,0.0,7. p90_trade_value,6600.0,6600.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,2.0,0.0
-MORN,Business Services,Business - Information Services,10__0,10,0.0,8. p75_trade_value,6490.000000000001,6490.000000000001,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,3.0,0.0
-RTO,Business Services,Business - Services,10__0,10,0.0,1. p999999_trade_value,57400.0,57400.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-RTO,Business Services,Business - Services,10__0,10,0.0,7. p90_trade_value,15920.000000000002,15920.000000000002,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
-RTO,Business Services,Business - Services,10__0,10,0.0,8. p75_trade_value,15840.0,13500.0,2.0,2.0,1.0,0.65,2. BELOW BASELINE,3.0,4.0,0.75
-TRI,Business Services,Business - Services,10__0,10,0.0,1. p999999_trade_value,38000.0,38000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-TRI,Business Services,Business - Services,10__0,10,0.0,7. p90_trade_value,24552.0,24552.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
-TRI,Business Services,Business - Services,10__0,10,0.0,8. p75_trade_value,18000.0,13500.0,3.0,3.0,1.0,0.65,2. BELOW BASELINE,4.0,5.0,0.8
-ULS,Business Services,Business - Services,10__0,10,0.0,1. p999999_trade_value,78108.0,78108.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-ULS,Business Services,Business - Services,10__0,10,0.0,7. p90_trade_value,53000.0,53000.0,2.0,2.0,1.0,0.65,1. ABOVE BASELINE,3.0,3.0,1.0
-ULS,Business Services,Business - Services,10__0,10,0.0,8. p75_trade_value,20750.0,20750.0,0.0,2.0,0.0,0.65,2. BELOW BASELINE,3.0,5.0,0.6
+version https://git-lfs.github.com/spec/v1
+oid sha256:f9ea071078dc401fd95f30b2b397c037ffa8aaa9303293fd4c96fa1fc92bb205
+size 2375

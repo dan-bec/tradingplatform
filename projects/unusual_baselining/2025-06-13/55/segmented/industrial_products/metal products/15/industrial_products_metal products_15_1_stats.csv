@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CSTM,Industrial Products,Metal Products - Distribution,0.55,,,,42,15__0,15,0.0,94800.0,149193.0,223000.38,249893.84,252583.18,252852.12,252879.01
+version https://git-lfs.github.com/spec/v1
+oid sha256:84e1331ad5c050fb960d70d45f3fe2c3cddb2c5fbf4716f2a211b8d067af5889
+size 426

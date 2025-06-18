@@ -1,7 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ASPI,Basic Materials,Chemical - Diversified ,0.55,75000.0,1. p999999_trade_value,1.0,309,25__0,25,0.0,10612.8,14410.0,29720.0,69740.9,74474.09,74947.41,74994.74
-CE,Basic Materials,Chemical - Specialty,0.55,,,,338,25__2,25,2.0,17453.0,33988.5,98774.85,1784329.7,2358142.97,2415524.3,2421262.43
-DQ,Basic Materials,Chemical - Specialty,0.55,10449.0,8. p75_trade_value,72.0,287,25__0,25,0.0,25000.0,41163.0,95045.6,104142.0,104914.2,104991.42,104999.14
-LYB,Basic Materials,Chemical - Diversified ,0.55,62825.0,1. p999999_trade_value,1.0,226,25__0,25,0.0,11597.5,22780.0,58495.5,62301.88,62772.69,62819.77,62824.48
-PPG,Basic Materials,Chemical - Specialty,0.55,,,,223,25__0,25,0.0,19840.0,36283.5,95861.52,172223.46,187322.35,188832.23,188983.22
-SHW,Basic Materials,Chemical - Specialty,0.55,,,,447,25__0,25,0.0,16748.0,31627.2,113774.4,320958.0,331795.8,332879.58,332987.96
+version https://git-lfs.github.com/spec/v1
+oid sha256:5649e4cf32da2853bcbc0b9c9a0855fa19d613dd0bb1fdfacf9ddbfd04aa7c30
+size 1150

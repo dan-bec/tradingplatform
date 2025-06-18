@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-TKC,Computer and Technology,Wireless Non-US ,0.65,,,,1,0__0,0,0.0,8466.0,8466.0,8466.0,8466.0,8466.0,8466.0,8466.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:8d07a9c0915351bf41ae4162da6017bade590143709e5e2921cd535409b7f3cb
+size 395

@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-QRVO,Computer and Technology,Semiconductors - Radio Frequency,0.55,,,,242,25__2,25,2.0,23532.0,51995.0,275695.0,292751.2,296395.12,296759.51,296795.95
+version https://git-lfs.github.com/spec/v1
+oid sha256:6bb0e50c5834bcf52ac11cef4a11be86b19417fca2d0380fb81fe50026bfa0ef
+size 431

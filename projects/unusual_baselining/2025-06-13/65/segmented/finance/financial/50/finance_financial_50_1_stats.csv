@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-HOOD,Finance,Financial - Investment Bank,0.65,1035000.0,3. p9999_trade_value,8.0,63022,50__3,50,3.0,17649.0,27341.7,72960.52,306080.06,1035000.0,1468307.98,1853230.8
+version https://git-lfs.github.com/spec/v1
+oid sha256:967ad0c5b52fca79d500c802fdeb1a79b4a5a94097d74f0833e9b7b7c45d48e3
+size 446

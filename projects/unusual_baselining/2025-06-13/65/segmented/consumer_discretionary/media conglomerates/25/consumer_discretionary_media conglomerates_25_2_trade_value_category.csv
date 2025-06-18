@@ -1,5 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-TME,Consumer Discretionary,Media Conglomerates,25__0,25,0.0,1. p999999_trade_value,159740.0,159740.0,0.0,2.0,0.0,0.65,2. BELOW BASELINE,0.0,2.0,0.0
-TME,Consumer Discretionary,Media Conglomerates,25__0,25,0.0,6. p95_trade_value,91290.0,30150.0,5.0,8.0,0.625,0.65,2. BELOW BASELINE,5.0,10.0,0.5
-TME,Consumer Discretionary,Media Conglomerates,25__0,25,0.0,7. p90_trade_value,25600.0,16835.0,7.0,9.0,0.7777777777777778,0.65,2. BELOW BASELINE,12.0,19.0,0.631578947368421
-TME,Consumer Discretionary,Media Conglomerates,25__0,25,0.0,8. p75_trade_value,16400.0,9690.0,20.0,27.0,0.7407407407407407,0.65,2. BELOW BASELINE,32.0,46.0,0.6956521739130435
+version https://git-lfs.github.com/spec/v1
+oid sha256:405d813581fd0ed1fe4cfab568361a4143fe882fb31122479e694d8ec878c94e
+size 847

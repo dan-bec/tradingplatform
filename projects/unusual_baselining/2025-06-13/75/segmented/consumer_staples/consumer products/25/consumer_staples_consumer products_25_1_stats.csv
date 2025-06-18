@@ -1,6 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ACI,Consumer Staples,Consumer Products - Staples,0.75,,,,410,25__0,25,0.0,19275.5,38983.0,100000.0,310000.0,310000.0,310000.0,310000.0
-CHD,Consumer Staples,Consumer Products - Staples,0.75,,,,183,25__0,25,0.0,19830.0,34880.0,164206.9,255609.11,264600.91,265500.09,265590.01
-KMB,Consumer Staples,Consumer Products - Staples,0.75,,,,278,25__2,25,2.0,20632.2,62150.0,193500.0,204594.21,207902.42,208233.24,208266.32
-KVUE,Consumer Staples,Consumer Products - Staples,0.75,279378.0,1. p999999_trade_value,1.0,486,25__2,25,2.0,22468.0,47875.0,209062.5,262704.67,277710.67,279211.27,279361.33
-OLLI,Consumer Staples,Consumer Products - Staples,0.75,683365.0,1. p999999_trade_value,1.0,507,25__0,25,0.0,15376.8,38880.0,180067.68,510679.85,666096.49,681638.15,683192.31
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e15a58525cc4f8d63a167de4590c1a997d5d736bf2556d312025a4b1ab8e630
+size 1040

@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-RDFN,Finance,Real Estate - Operations,0.65,603500.0,1. p999999_trade_value,1.0,810,30__1,30,1.0,13230.0,20468.25,251175.0,493476.0,592497.6,602399.76,603389.98
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb010605eaaf2851e3dee72f22ac66021bf27a767c7809dce9af5f151893c01f
+size 440

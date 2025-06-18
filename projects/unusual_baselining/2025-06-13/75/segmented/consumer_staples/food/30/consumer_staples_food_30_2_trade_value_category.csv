@@ -1,19 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-HSY,Consumer Staples,Food - Confectionery,30__2,30,2.0,1. p999999_trade_value,389000.0,389000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-HSY,Consumer Staples,Food - Confectionery,30__2,30,2.0,4. p999_trade_value,260000.0,260000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
-HSY,Consumer Staples,Food - Confectionery,30__2,30,2.0,5. p99_trade_value,235000.0,127500.0,11.0,14.0,0.7857142857142857,0.75,1. ABOVE BASELINE,13.0,16.0,0.8125
-HSY,Consumer Staples,Food - Confectionery,30__2,30,2.0,6. p95_trade_value,122500.0,31150.0,46.0,55.0,0.8363636363636363,0.75,1. ABOVE BASELINE,59.0,71.0,0.8309859154929577
-HSY,Consumer Staples,Food - Confectionery,30__2,30,2.0,7. p90_trade_value,30000.0,17239.999999999996,47.0,71.0,0.6619718309859155,0.75,2. BELOW BASELINE,106.0,142.0,0.7464788732394366
-HSY,Consumer Staples,Food - Confectionery,30__2,30,2.0,8. p75_trade_value,17160.0,8700.0,146.0,213.0,0.6854460093896714,0.75,2. BELOW BASELINE,252.0,355.0,0.7098591549295775
-KHC,Consumer Staples,Food - Miscellaneous,30__2,30,2.0,1. p999999_trade_value,156000.0,156000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-KHC,Consumer Staples,Food - Miscellaneous,30__2,30,2.0,4. p999_trade_value,100000.0,100000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
-KHC,Consumer Staples,Food - Miscellaneous,30__2,30,2.0,5. p99_trade_value,99950.0,56154.00000000001,2.0,9.0,0.2222222222222222,0.75,2. BELOW BASELINE,4.0,11.0,0.36363636363636365
-KHC,Consumer Staples,Food - Miscellaneous,30__2,30,2.0,6. p95_trade_value,54684.0,18000.0,21.0,41.0,0.5121951219512195,0.75,2. BELOW BASELINE,25.0,52.0,0.4807692307692308
-KHC,Consumer Staples,Food - Miscellaneous,30__2,30,2.0,7. p90_trade_value,17800.0,12000.0,31.0,50.0,0.62,0.75,2. BELOW BASELINE,56.0,102.0,0.5490196078431373
-KHC,Consumer Staples,Food - Miscellaneous,30__2,30,2.0,8. p75_trade_value,11992.0,7092.0,77.0,149.0,0.5167785234899329,0.75,2. BELOW BASELINE,133.0,251.0,0.5298804780876494
-LW,Consumer Staples,Food - Miscellaneous,30__0,30,0.0,1. p999999_trade_value,1750000.0,1750000.0,1.0,1.0,1.0,0.75,2. BELOW BASELINE,1.0,1.0,1.0
-LW,Consumer Staples,Food - Miscellaneous,30__0,30,0.0,4. p999_trade_value,450000.0,450000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
-LW,Consumer Staples,Food - Miscellaneous,30__0,30,0.0,5. p99_trade_value,390000.0,130500.0,5.0,10.0,0.5,0.75,2. BELOW BASELINE,6.0,12.0,0.5
-LW,Consumer Staples,Food - Miscellaneous,30__0,30,0.0,6. p95_trade_value,120250.0,26640.000000000004,28.0,47.0,0.5957446808510638,0.75,2. BELOW BASELINE,34.0,59.0,0.576271186440678
-LW,Consumer Staples,Food - Miscellaneous,30__0,30,0.0,7. p90_trade_value,26000.0,15190.0,32.0,58.0,0.5517241379310345,0.75,2. BELOW BASELINE,66.0,117.0,0.5641025641025641
-LW,Consumer Staples,Food - Miscellaneous,30__0,30,0.0,8. p75_trade_value,15170.000000000002,7820.0,103.0,174.0,0.5919540229885057,0.75,2. BELOW BASELINE,169.0,291.0,0.5807560137457045
+version https://git-lfs.github.com/spec/v1
+oid sha256:fd93a95cb5e3862f54aa27f239fb84042d0c48bdd7c677cf5e97a40ea8169aac
+size 3103

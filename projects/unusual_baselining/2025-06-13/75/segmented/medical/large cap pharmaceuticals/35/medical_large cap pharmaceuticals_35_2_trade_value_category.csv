@@ -1,7 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-MRK,Medical,Large Cap Pharmaceuticals,35__1,35,1.0,1. p999999_trade_value,2768600.0,2768600.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-MRK,Medical,Large Cap Pharmaceuticals,35__1,35,1.0,4. p999_trade_value,2332600.0,1547800.0,4.0,5.0,0.8,0.75,1. ABOVE BASELINE,5.0,6.0,0.8333333333333334
-MRK,Medical,Large Cap Pharmaceuticals,35__1,35,1.0,5. p99_trade_value,1329600.0,98000.0,31.0,50.0,0.62,0.75,2. BELOW BASELINE,36.0,56.0,0.6428571428571429
-MRK,Medical,Large Cap Pharmaceuticals,35__1,35,1.0,6. p95_trade_value,97305.0,26495.999999999996,139.0,222.0,0.6261261261261262,0.75,2. BELOW BASELINE,175.0,278.0,0.6294964028776978
-MRK,Medical,Large Cap Pharmaceuticals,35__1,35,1.0,7. p90_trade_value,26400.0,15750.0,144.0,279.0,0.5161290322580645,0.75,2. BELOW BASELINE,319.0,557.0,0.5727109515260324
-MRK,Medical,Large Cap Pharmaceuticals,35__1,35,1.0,8. p75_trade_value,15691.0,8100.0,430.0,834.0,0.5155875299760192,0.75,2. BELOW BASELINE,749.0,1391.0,0.5384615384615384
+version https://git-lfs.github.com/spec/v1
+oid sha256:e58f5cce6448a67c2af736d49a445636b0138e413b4e89a7578e3fe6deca08d6
+size 1179

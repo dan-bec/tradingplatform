@@ -1,26 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-ANSS,Computer and Technology,Computer - Software,25__0,25,0.0,1. p999999_trade_value,225000.0,225000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-ANSS,Computer and Technology,Computer - Software,25__0,25,0.0,5. p99_trade_value,132000.0,57000.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
-ANSS,Computer and Technology,Computer - Software,25__0,25,0.0,6. p95_trade_value,54500.0,15200.0,9.0,13.0,0.6923076923076923,0.55,2. BELOW BASELINE,9.0,16.0,0.5625
-ANSS,Computer and Technology,Computer - Software,25__0,25,0.0,7. p90_trade_value,13454.999999999998,9000.0,8.0,12.0,0.6666666666666666,0.55,2. BELOW BASELINE,17.0,28.0,0.6071428571428571
-ANSS,Computer and Technology,Computer - Software,25__0,25,0.0,8. p75_trade_value,8800.0,6020.0,36.0,42.0,0.8571428571428571,0.55,2. BELOW BASELINE,53.0,70.0,0.7571428571428571
-CACI,Computer and Technology,Computer - Services,25__0,25,0.0,1. p999999_trade_value,264960.0,264960.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-CACI,Computer and Technology,Computer - Services,25__0,25,0.0,5. p99_trade_value,254794.99999999997,84455.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
-CACI,Computer and Technology,Computer - Services,25__0,25,0.0,6. p95_trade_value,84000.0,25350.0,6.0,8.0,0.75,0.55,1. ABOVE BASELINE,9.0,11.0,0.8181818181818182
-CACI,Computer and Technology,Computer - Services,25__0,25,0.0,7. p90_trade_value,23940.000000000004,12078.0,7.0,10.0,0.7,0.55,1. ABOVE BASELINE,16.0,21.0,0.7619047619047619
-CACI,Computer and Technology,Computer - Services,25__0,25,0.0,8. p75_trade_value,12076.999999999998,7950.0,18.0,32.0,0.5625,0.55,1. ABOVE BASELINE,34.0,53.0,0.6415094339622641
-LOGI,Computer and Technology,Computer - Peripheral Equipment,25__0,25,0.0,1. p999999_trade_value,226875.0,226875.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-LOGI,Computer and Technology,Computer - Peripheral Equipment,25__0,25,0.0,5. p99_trade_value,99900.0,97500.0,2.0,3.0,0.6666666666666666,0.55,1. ABOVE BASELINE,3.0,4.0,0.75
-LOGI,Computer and Technology,Computer - Peripheral Equipment,25__0,25,0.0,6. p95_trade_value,92500.0,24800.0,10.0,13.0,0.7692307692307693,0.55,1. ABOVE BASELINE,13.0,17.0,0.7647058823529411
-LOGI,Computer and Technology,Computer - Peripheral Equipment,25__0,25,0.0,7. p90_trade_value,24180.0,16350.0,7.0,16.0,0.4375,0.55,2. BELOW BASELINE,20.0,33.0,0.6060606060606061
-LOGI,Computer and Technology,Computer - Peripheral Equipment,25__0,25,0.0,8. p75_trade_value,15900.0,8272.0,27.0,50.0,0.54,0.55,2. BELOW BASELINE,47.0,83.0,0.5662650602409639
-MANH,Computer and Technology,Computer - Software,25__0,25,0.0,1. p999999_trade_value,623360.0,623360.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-MANH,Computer and Technology,Computer - Software,25__0,25,0.0,5. p99_trade_value,141050.0,64000.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
-MANH,Computer and Technology,Computer - Software,25__0,25,0.0,6. p95_trade_value,46720.00000000001,25884.000000000004,5.0,10.0,0.5,0.55,2. BELOW BASELINE,7.0,13.0,0.5384615384615384
-MANH,Computer and Technology,Computer - Software,25__0,25,0.0,7. p90_trade_value,24570.0,14690.0,7.0,12.0,0.5833333333333334,0.55,2. BELOW BASELINE,14.0,25.0,0.56
-MANH,Computer and Technology,Computer - Software,25__0,25,0.0,8. p75_trade_value,14280.000000000002,8610.0,19.0,36.0,0.5277777777777778,0.55,2. BELOW BASELINE,33.0,61.0,0.5409836065573771
-PTC,Computer and Technology,Computer - Software,25__0,25,0.0,1. p999999_trade_value,430168.99999999994,430168.99999999994,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-PTC,Computer and Technology,Computer - Software,25__0,25,0.0,5. p99_trade_value,283100.0,131200.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,4.0,0.5
-PTC,Computer and Technology,Computer - Software,25__0,25,0.0,6. p95_trade_value,99000.0,38000.0,14.0,18.0,0.7777777777777778,0.55,2. BELOW BASELINE,16.0,22.0,0.7272727272727273
-PTC,Computer and Technology,Computer - Software,25__0,25,0.0,7. p90_trade_value,33932.00000000001,20580.0,16.0,18.0,0.8888888888888888,0.55,2. BELOW BASELINE,32.0,40.0,0.8
-PTC,Computer and Technology,Computer - Software,25__0,25,0.0,8. p75_trade_value,18950.0,7950.0,44.0,57.0,0.7719298245614035,0.55,2. BELOW BASELINE,76.0,97.0,0.7835051546391752
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d153a216a93a5605f7b4b6e0b8dc384a4a7e99dd4ede812e28e936552a861b2
+size 4416

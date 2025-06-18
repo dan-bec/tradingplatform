@@ -1,26 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-BTI,Consumer Staples,Tobacco,25__0,25,0.0,1. p999999_trade_value,147600.0,147600.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-BTI,Consumer Staples,Tobacco,25__0,25,0.0,5. p99_trade_value,106600.0,38500.00000000001,2.0,3.0,0.6666666666666666,0.75,2. BELOW BASELINE,3.0,4.0,0.75
-BTI,Consumer Staples,Tobacco,25__0,25,0.0,6. p95_trade_value,29400.0,14300.0,11.0,14.0,0.7857142857142857,0.75,2. BELOW BASELINE,14.0,18.0,0.7777777777777778
-BTI,Consumer Staples,Tobacco,25__0,25,0.0,7. p90_trade_value,13950.0,11250.0,12.0,17.0,0.7058823529411765,0.75,2. BELOW BASELINE,26.0,35.0,0.7428571428571429
-BTI,Consumer Staples,Tobacco,25__0,25,0.0,8. p75_trade_value,11050.0,7540.000000000001,34.0,52.0,0.6538461538461539,0.75,2. BELOW BASELINE,60.0,87.0,0.6896551724137931
-MO,Consumer Staples,Tobacco,30__2,30,2.0,1. p999999_trade_value,600000.0,600000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-MO,Consumer Staples,Tobacco,30__2,30,2.0,4. p999_trade_value,360000.0,360000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
-MO,Consumer Staples,Tobacco,30__2,30,2.0,5. p99_trade_value,150000.0,66000.0,9.0,14.0,0.6428571428571429,0.75,2. BELOW BASELINE,11.0,16.0,0.6875
-MO,Consumer Staples,Tobacco,30__2,30,2.0,6. p95_trade_value,58500.0,20801.0,46.0,61.0,0.7540983606557377,0.75,2. BELOW BASELINE,57.0,77.0,0.7402597402597403
-MO,Consumer Staples,Tobacco,30__2,30,2.0,7. p90_trade_value,20746.0,12000.0,56.0,77.0,0.7272727272727273,0.75,2. BELOW BASELINE,113.0,154.0,0.7337662337662337
-MO,Consumer Staples,Tobacco,30__2,30,2.0,8. p75_trade_value,11988.0,7040.000000000001,166.0,231.0,0.7186147186147186,0.75,2. BELOW BASELINE,279.0,385.0,0.7246753246753247
-PM,Consumer Staples,Tobacco,35__1,35,1.0,1. p999999_trade_value,3721536.0,3721536.0,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
-PM,Consumer Staples,Tobacco,35__1,35,1.0,4. p999_trade_value,2897388.0,2897388.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,3.0,3.0,1.0
-PM,Consumer Staples,Tobacco,35__1,35,1.0,5. p99_trade_value,320000.0,72000.0,11.0,22.0,0.5,0.75,2. BELOW BASELINE,14.0,25.0,0.56
-PM,Consumer Staples,Tobacco,35__1,35,1.0,6. p95_trade_value,71990.0,26950.0,67.0,99.0,0.6767676767676768,0.75,2. BELOW BASELINE,81.0,124.0,0.6532258064516129
-PM,Consumer Staples,Tobacco,35__1,35,1.0,7. p90_trade_value,26800.0,18060.0,100.0,124.0,0.8064516129032258,0.75,2. BELOW BASELINE,181.0,248.0,0.7298387096774194
-PM,Consumer Staples,Tobacco,35__1,35,1.0,8. p75_trade_value,18040.0,9500.0,256.0,371.0,0.6900269541778976,0.75,2. BELOW BASELINE,437.0,619.0,0.7059773828756059
-TPB,Consumer Staples,Tobacco,15__0,15,0.0,1. p999999_trade_value,91575.0,91575.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-TPB,Consumer Staples,Tobacco,15__0,15,0.0,6. p95_trade_value,52540.0,52540.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
-TPB,Consumer Staples,Tobacco,15__0,15,0.0,7. p90_trade_value,37500.0,32500.0,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,4.0,4.0,1.0
-TPB,Consumer Staples,Tobacco,15__0,15,0.0,8. p75_trade_value,29700.0,19610.000000000004,5.0,5.0,1.0,0.75,1. ABOVE BASELINE,9.0,9.0,1.0
-UVV,Consumer Staples,Tobacco,10__0,10,0.0,1. p999999_trade_value,11160.0,11160.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-UVV,Consumer Staples,Tobacco,10__0,10,0.0,7. p90_trade_value,9945.0,9945.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
-UVV,Consumer Staples,Tobacco,10__0,10,0.0,8. p75_trade_value,9600.0,9600.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,3.0,0.0
-XXII,Consumer Staples,Tobacco,0__2,0,2.0,1. p999999_trade_value,3500.0,3500.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:593b6dba34a820366b2a3650dd19ee9d98284f6a5960f9b3070890f690afe628
+size 3733

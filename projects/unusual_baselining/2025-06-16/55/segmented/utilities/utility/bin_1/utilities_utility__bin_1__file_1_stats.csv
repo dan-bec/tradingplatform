@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-VST,Utilities,Utility - Electric Power,0.55,,,,28376,45__0,45,1,0.0,20790.0,33750.0,95602.5,416208.38,1165687.5,2900429.88,3299912.99
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa00a0cbe7ee1c491f13ee7a63ba8efa35bbc638477f1cf6f9c28eb977cf893c
+size 436

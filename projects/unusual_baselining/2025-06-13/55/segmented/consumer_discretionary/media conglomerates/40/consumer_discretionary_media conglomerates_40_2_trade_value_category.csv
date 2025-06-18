@@ -1,8 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-DIS,Consumer Discretionary,Media Conglomerates,40__0,40,0.0,1. p999999_trade_value,809460.0,809460.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-DIS,Consumer Discretionary,Media Conglomerates,40__0,40,0.0,3. p9999_trade_value,677430.0,677430.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-DIS,Consumer Discretionary,Media Conglomerates,40__0,40,0.0,4. p999_trade_value,510000.0,295785.0,9.0,13.0,0.6923076923076923,0.55,1. ABOVE BASELINE,11.0,15.0,0.7333333333333333
-DIS,Consumer Discretionary,Media Conglomerates,40__0,40,0.0,5. p99_trade_value,294840.0,75200.0,91.0,131.0,0.6946564885496184,0.55,1. ABOVE BASELINE,102.0,146.0,0.6986301369863014
-DIS,Consumer Discretionary,Media Conglomerates,40__0,40,0.0,6. p95_trade_value,74970.0,24800.0,356.0,582.0,0.6116838487972509,0.55,1. ABOVE BASELINE,458.0,728.0,0.6291208791208791
-DIS,Consumer Discretionary,Media Conglomerates,40__0,40,0.0,7. p90_trade_value,24776.0,15750.0,441.0,729.0,0.6049382716049383,0.55,1. ABOVE BASELINE,899.0,1457.0,0.6170212765957447
-DIS,Consumer Discretionary,Media Conglomerates,40__0,40,0.0,8. p75_trade_value,15729.000000000002,8320.0,1313.0,2189.0,0.5998172681589767,0.55,1. ABOVE BASELINE,2212.0,3646.0,0.6066922654964344
+version https://git-lfs.github.com/spec/v1
+oid sha256:bed43614271df98c486534a3c405355f755b7e78948cd7aac8814d0f36d54c1f
+size 1413

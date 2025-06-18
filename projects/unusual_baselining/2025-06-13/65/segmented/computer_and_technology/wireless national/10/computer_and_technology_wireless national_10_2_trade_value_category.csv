@@ -1,4 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-USM,Computer and Technology,Wireless National,10__0,10,0.0,1. p999999_trade_value,53535.0,53535.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-USM,Computer and Technology,Wireless National,10__0,10,0.0,7. p90_trade_value,40000.0,40000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
-USM,Computer and Technology,Wireless National,10__0,10,0.0,8. p75_trade_value,25000.0,25000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+version https://git-lfs.github.com/spec/v1
+oid sha256:76d91a3029abc60016f0c763b789a1872979117be2a61759f92f29c89c56fd24
+size 648

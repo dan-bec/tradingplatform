@@ -1,2 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-PKX,Basic Materials,Steel - Producers,5__0,5,0.0,1. p999999_trade_value,7020.0,7020.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:21187585cfa2dd0684c21f9e1729f5162fcde0fbeff95e3f520dac7b1ba0ab9a
+size 339

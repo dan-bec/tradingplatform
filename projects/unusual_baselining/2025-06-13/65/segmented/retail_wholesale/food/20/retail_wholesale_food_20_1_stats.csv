@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-PFGC,Retail-Wholesale,Food - Natural Foods Products,0.65,101250.0,6. p95_trade_value,4.0,64,20__1,20,1.0,44324.0,93937.5,380000.0,521750.0,535925.0,537342.5,537484.25
+version https://git-lfs.github.com/spec/v1
+oid sha256:f2b7ea548e846ccc7173c9b89bb9b34fedf15379ca971d1473dc1b037e6b528a
+size 447

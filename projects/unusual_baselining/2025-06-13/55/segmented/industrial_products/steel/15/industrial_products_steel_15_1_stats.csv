@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-VMI,Industrial Products,Steel - Pipe and Tube,0.55,,,,23,15__0,15,0.0,21238.0,25476.0,40798.0,44579.8,44957.98,44995.8,44999.58
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc9171d4f84e2fa304231061b11f1953b196e3e3a01ad598282e8a42bdc0f981
+size 408

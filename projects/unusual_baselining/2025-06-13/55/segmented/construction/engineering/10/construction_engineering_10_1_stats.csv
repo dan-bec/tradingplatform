@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-MAGN,Construction,Engineering - R and D Services,0.55,132000.0,1. p999999_trade_value,1.0,6,10__3,10,3.0,119500.0,125750.0,130750.0,131875.0,131987.5,131998.75,131999.88
+version https://git-lfs.github.com/spec/v1
+oid sha256:6563bf016ecc492ccea76b83881a9c5af0bcee03ca86f05b614a5453710d62cb
+size 450

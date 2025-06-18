@@ -1,7 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-NEE,Utilities,Utility - Electric Power,35__2,35,2.0,1. p999999_trade_value,1168000.0,1168000.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,1.0,1.0
-NEE,Utilities,Utility - Electric Power,35__2,35,2.0,4. p999_trade_value,645000.0,501420.0,1.0,2.0,0.5,0.65,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
-NEE,Utilities,Utility - Electric Power,35__2,35,2.0,5. p99_trade_value,480000.0,91266.0,16.0,27.0,0.5925925925925926,0.65,2. BELOW BASELINE,18.0,30.0,0.6
-NEE,Utilities,Utility - Electric Power,35__2,35,2.0,6. p95_trade_value,90387.00000000001,25730.0,62.0,118.0,0.5254237288135594,0.65,2. BELOW BASELINE,80.0,148.0,0.5405405405405406
-NEE,Utilities,Utility - Electric Power,35__2,35,2.0,7. p90_trade_value,25200.0,15808.000000000002,89.0,147.0,0.6054421768707483,0.65,2. BELOW BASELINE,169.0,295.0,0.5728813559322034
-NEE,Utilities,Utility - Electric Power,35__2,35,2.0,8. p75_trade_value,15800.0,8550.0,204.0,441.0,0.46258503401360546,0.65,2. BELOW BASELINE,373.0,736.0,0.5067934782608695
+version https://git-lfs.github.com/spec/v1
+oid sha256:a36f0c754e81a9cd42497a4bb1a858f41e4a52736e0f0041041a917ce26e9ac0
+size 1188

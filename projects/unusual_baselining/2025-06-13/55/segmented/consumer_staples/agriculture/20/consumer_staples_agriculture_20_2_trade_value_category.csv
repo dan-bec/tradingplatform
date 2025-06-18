@@ -1,5 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-CTVA,Consumer Staples,Agriculture - Operations,20__0,20,0.0,1. p999999_trade_value,67000.0,67000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-CTVA,Consumer Staples,Agriculture - Operations,20__0,20,0.0,6. p95_trade_value,52104.0,28559.999999999996,1.0,4.0,0.25,0.55,2. BELOW BASELINE,1.0,5.0,0.2
-CTVA,Consumer Staples,Agriculture - Operations,20__0,20,0.0,7. p90_trade_value,21000.0,16875.0,3.0,5.0,0.6,0.55,2. BELOW BASELINE,4.0,10.0,0.4
-CTVA,Consumer Staples,Agriculture - Operations,20__0,20,0.0,8. p75_trade_value,15008.000000000002,7500.0,5.0,15.0,0.3333333333333333,0.55,2. BELOW BASELINE,9.0,25.0,0.36
+version https://git-lfs.github.com/spec/v1
+oid sha256:bdef976c9c6eef7e45a58ee9b3a35e703ccb8780656fe7b9836792d68cc3d544
+size 819

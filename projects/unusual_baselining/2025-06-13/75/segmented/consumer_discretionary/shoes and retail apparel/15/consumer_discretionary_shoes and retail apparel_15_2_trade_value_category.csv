@@ -1,5 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-SHOO,Consumer Discretionary,Shoes and Retail Apparel ,15__0,15,0.0,1. p999999_trade_value,167025.0,167025.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-SHOO,Consumer Discretionary,Shoes and Retail Apparel ,15__0,15,0.0,6. p95_trade_value,55000.0,55000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
-SHOO,Consumer Discretionary,Shoes and Retail Apparel ,15__0,15,0.0,7. p90_trade_value,48200.0,48200.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,3.0,3.0,1.0
-SHOO,Consumer Discretionary,Shoes and Retail Apparel ,15__0,15,0.0,8. p75_trade_value,45370.0,10500.0,3.0,4.0,0.75,0.75,1. ABOVE BASELINE,6.0,7.0,0.8571428571428571
+version https://git-lfs.github.com/spec/v1
+oid sha256:80f73906ac60da7c0a68095390364f74a1bf5c9f79cc33c97f993f3ca3e5ee39
+size 824

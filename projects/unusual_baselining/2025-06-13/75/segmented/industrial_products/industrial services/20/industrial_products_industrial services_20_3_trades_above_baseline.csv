@@ -1,3 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,category_minimum,categiry_maximum,option_ticker,security_1,option_type,strike_price,expiration,conditions,correction,exchange,price,sip_timestamp,size,trade_value,data_date,min_trade_value,expiration_days_out,otm_range,option_condition_name,sector_1,industry_1,securty_open,security_high,security_low,security_close,trade_rank,trade_value_log10,number_of_bins,trade_value_bin,itm,itm_expiration_day,itm_expriation_close,otm
-MSM,Industrial Products,Industrial Services,20__1,20,1.0,1. p999999_trade_value,631980.0,631980.0,O:MSM241115C00090000,MSM,C,90.0,2024-11-15,229,0,302,0.9,1729706505895000000,7022,631980.0,2024-10-23,3000,30,True,Single Leg Cross Non ISO,Industrial Products,Industrial Services,80.38,81.175,80.15,80.84,1,5.800703334568658,20,1,1,0,0,0
-MSM,Industrial Products,Industrial Services,20__1,20,1.0,5. p99_trade_value,462500.0,462500.0,O:MSM241115P00080000,MSM,P,80.0,2024-11-15,241,0,323,3.7,1729709957702000000,1250,462500.0,2024-10-23,3000,30,True,Stock Options Cross,Industrial Products,Industrial Services,80.38,81.175,80.15,80.84,2,5.665111737075051,20,1,1,0,0,0
+version https://git-lfs.github.com/spec/v1
+oid sha256:37c996b3ed0882931ab6ffe390b5a3d7d8973024bfe18ed0f9dbe5ee085a4be2
+size 1172

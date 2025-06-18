@@ -1,5 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-DHR,Medical,Medical Services,0.75,381468.0,4. p999_trade_value,3.0,2673,35__0,35,0.0,15227.6,26250.0,93037.28,380145.5,538225.2,576042.12,579823.81
-ELV,Medical,Medical Services,0.75,480000.0,4. p999_trade_value,3.0,2372,35__2,35,2.0,16641.0,27245.0,127308.7,449429.6,559681.16,570220.92,571274.89
-NTRA,Medical,Medical Services,0.75,,,,2603,35__0,35,0.0,15660.0,21440.0,75828.1,284918.84,818881.48,932838.15,944233.81
-WGS,Medical,Medical Services,0.75,,,,2336,35__2,35,2.0,17715.5,30593.75,69912.5,425661.6,960915.0,1068091.5,1078809.15
+version https://git-lfs.github.com/spec/v1
+oid sha256:ff639425bbac5a30f6d70e052e23a8696f666266768af61b7c42e65eb7be39b9
+size 816

@@ -1,3 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CHTR,Consumer Discretionary,Cable Television,0.55,,,,1893,35__0,35,2,0.0,16662.4,25290.0,62986.4,231543.36,413026.2,426052.62,427355.26
-CMCSA,Consumer Discretionary,Cable Television,0.55,,,,1043,30__1,30,2,1.0,21404.2,34634.6,96480.0,1110138.0,1623732.0,1674373.2,1679437.32
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a92ed4a8cfe6adab259d569d71df6c96f8c334ae439ef38604989aec6a664ca
+size 577

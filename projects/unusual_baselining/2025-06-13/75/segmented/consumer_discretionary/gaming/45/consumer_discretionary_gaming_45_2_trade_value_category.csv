@@ -1,8 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-GME,Consumer Discretionary,Gaming,45__1,45,1.0,1. p999999_trade_value,2946192.9999999995,2946192.9999999995,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-GME,Consumer Discretionary,Gaming,45__1,45,1.0,3. p9999_trade_value,1968782.9999999998,596250.0,0.0,5.0,0.0,0.75,2. BELOW BASELINE,0.0,6.0,0.0
-GME,Consumer Discretionary,Gaming,45__1,45,1.0,4. p999_trade_value,416500.0,151696.0,9.0,46.0,0.1956521739130435,0.75,2. BELOW BASELINE,9.0,52.0,0.17307692307692307
-GME,Consumer Discretionary,Gaming,45__1,45,1.0,5. p99_trade_value,151619.99999999997,50000.0,147.0,459.0,0.3202614379084967,0.75,2. BELOW BASELINE,156.0,511.0,0.30528375733855184
-GME,Consumer Discretionary,Gaming,45__1,45,1.0,6. p95_trade_value,49959.0,21168.0,694.0,2040.0,0.34019607843137256,0.75,2. BELOW BASELINE,850.0,2551.0,0.33320266562132494
-GME,Consumer Discretionary,Gaming,45__1,45,1.0,7. p90_trade_value,21167.999999999996,14098.000000000002,855.0,2551.0,0.33516268130145044,0.75,2. BELOW BASELINE,1705.0,5102.0,0.3341826734613877
-GME,Consumer Discretionary,Gaming,45__1,45,1.0,8. p75_trade_value,14094.0,8000.0,2721.0,7684.0,0.3541124414367517,0.75,2. BELOW BASELINE,4426.0,12786.0,0.3461598623494447
+version https://git-lfs.github.com/spec/v1
+oid sha256:329695e2af115ec9bc3b268cb2f083fd381101d0b393625f6c625da4d7aeaf3a
+size 1383

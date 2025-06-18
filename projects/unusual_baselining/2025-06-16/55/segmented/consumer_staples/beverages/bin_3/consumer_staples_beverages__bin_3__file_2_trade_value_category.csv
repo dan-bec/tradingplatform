@@ -1,11 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-COCO,Consumer Staples,Beverages - Soft drinks,10__0,10,3,0.0,1. p999999_trade_value,15750.0,15750.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-COCO,Consumer Staples,Beverages - Soft drinks,10__0,10,3,0.0,8. p75_trade_value,9300.0,9300.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-FIZZ,Consumer Staples,Beverages - Soft drinks,10__0,10,3,0.0,1. p999999_trade_value,12120.0,12120.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-FIZZ,Consumer Staples,Beverages - Soft drinks,10__0,10,3,0.0,8. p75_trade_value,4000.0,4000.0,0.0,5.0,0.0,0.55,2. BELOW BASELINE,0.0,6.0,0.0
-FMX,Consumer Staples,Beverages - Soft drinks,10__0,10,3,0.0,1. p999999_trade_value,25622.999999999996,25622.999999999996,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-FMX,Consumer Staples,Beverages - Soft drinks,10__0,10,3,0.0,8. p75_trade_value,16960.000000000004,11130.000000000002,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
-MGPI,Consumer Staples,Beverages - Alcohol,10__2,10,3,2.0,1. p999999_trade_value,108314.99999999999,108314.99999999999,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-MGPI,Consumer Staples,Beverages - Alcohol,10__2,10,3,2.0,7. p90_trade_value,22500.0,22500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-MGPI,Consumer Staples,Beverages - Alcohol,10__2,10,3,2.0,8. p75_trade_value,20910.0,20910.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
-ZVIA,Consumer Staples,Beverages - Soft drinks,5__0,5,3,0.0,1. p999999_trade_value,7500.0,7500.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:1932a35ca62e9d72714078d787e0ac23845c4000c268ae8f755b5bd44c4be40d
+size 1722

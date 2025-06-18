@@ -1,11 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ASTS,Computer and Technology,Wireless Equipment,0.55,,,,20181,45__1,45,1,1.0,15300.0,23100.0,56004.8,169816.0,473061.22,556253.58,569735.96
-AVNW,Computer and Technology,Wireless Equipment,0.55,4130.0,1. p999999_trade_value,1.0,1,0__2,0,3,2.0,4130.0,4130.0,4130.0,4130.0,4130.0,4130.0,4130.0
-CLFD,Computer and Technology,Wireless Equipment,0.55,21440.0,1. p999999_trade_value,1.0,16,10__0,10,3,0.0,9450.0,12860.0,19724.0,21268.4,21422.84,21438.28,21439.83
-CMTL,Computer and Technology,Wireless Equipment,0.55,6182.0,8. p75_trade_value,7.0,27,15__0,15,3,0.0,11862.0,13284.0,18310.0,19831.0,19983.1,19998.31,19999.83
-ERIC,Computer and Technology,Wireless Equipment,0.55,46500.0,1. p999999_trade_value,1.0,52,15__0,15,3,0.0,21038.5,31719.75,42675.0,46117.5,46461.75,46496.18,46499.62
-IDCC,Computer and Technology,Wireless Equipment,0.55,10070.0,6. p95_trade_value,11.0,201,25__0,25,2,0.0,7920.0,10070.0,15180.0,21850.0,22435.0,22493.5,22499.35
-JNPR,Computer and Technology,Wireless Equipment,0.55,391995.0,5. p99_trade_value,3.0,265,25__2,25,2,2.0,50000.0,88800.0,333118.2,419899.52,424489.95,424949.0,424994.9
-MSI,Computer and Technology,Wireless Equipment,0.55,49600.0,5. p99_trade_value,3.0,235,25__0,25,2,0.0,13300.0,19810.0,42705.14,92427.86,97631.79,98152.18,98204.22
-NOK,Computer and Technology,Wireless Equipment,0.55,57419.99999999999,1. p999999_trade_value,1.0,58,20__0,20,2,0.0,8848.2,10504.5,34594.92,55137.49,57191.75,57397.17,57417.72
-VSAT,Computer and Technology,Wireless Equipment,0.55,,,,168,20__0,20,2,0.0,11190.8,14835.0,35461.6,123383.5,138338.35,139833.84,139983.38
+version https://git-lfs.github.com/spec/v1
+oid sha256:a54be9f2372788109fa43cc3846ffa56282e0ff7dd3eca46f860b48aa0c16856
+size 1885

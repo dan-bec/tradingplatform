@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-SCI,Consumer Staples,Funeral Services,0.55,,,,60,20__0,20,2,0.0,16100.0,25478.1,79523.8,139622.38,145632.24,146233.22,146293.32
+version https://git-lfs.github.com/spec/v1
+oid sha256:7870cf814f417bf3ec9a530f0c21f1455e6c6d3c1da189871421854b98ef610c
+size 430

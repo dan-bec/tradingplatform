@@ -1,4 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-GEO,Business Services,Government Services,0.55,405000.00000000006,4. p999_trade_value,2.0,1877,35__2,35,2.0,18678.0,32696.0,116653.84,378720.0,1305139.2,1492213.92,1510921.39
-ICFI,Business Services,Government Services,0.55,,,,1,0__2,0,2.0,3765.0,3765.0,3765.0,3765.0,3765.0,3765.0,3765.0
-MMS,Business Services,Government Services,0.55,11160.0,8. p75_trade_value,10.0,40,15__1,15,1.0,99750.0,138255.0,464480.0,593648.0,606564.8,607856.48,607985.65
+version https://git-lfs.github.com/spec/v1
+oid sha256:8cd126e7840ba69818269422e3aa2db0aa7adb36aa17a9750284bc396cad2c69
+size 727

@@ -1,13 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-GAMB,Business Services,Advertising and Marketing,10__0,10,3,0.0,1. p999999_trade_value,17430.0,17430.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-GAMB,Business Services,Advertising and Marketing,10__0,10,3,0.0,7. p90_trade_value,11400.0,11400.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-GAMB,Business Services,Advertising and Marketing,10__0,10,3,0.0,8. p75_trade_value,7920.0,7920.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
-GCI,Business Services,Advertising and Marketing,5__0,5,3,0.0,1. p999999_trade_value,5700.0,5700.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-IAS,Business Services,Advertising and Marketing,5__0,5,3,0.0,1. p999999_trade_value,10150.0,10150.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-IAS,Business Services,Advertising and Marketing,5__0,5,3,0.0,8. p75_trade_value,6000.0,6000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-IPG,Business Services,Advertising and Marketing,15__0,15,3,0.0,1. p999999_trade_value,99315.0,99315.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-IPG,Business Services,Advertising and Marketing,15__0,15,3,0.0,6. p95_trade_value,31700.0,31700.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-IPG,Business Services,Advertising and Marketing,15__0,15,3,0.0,7. p90_trade_value,29280.0,29280.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
-IPG,Business Services,Advertising and Marketing,15__0,15,3,0.0,8. p75_trade_value,27500.0,20000.0,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
-NEXN,Business Services,Advertising and Marketing,0__2,0,3,2.0,1. p999999_trade_value,3750.0,3750.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-WPP,Business Services,Advertising and Marketing,5__0,5,3,0.0,1. p999999_trade_value,3825.0,3825.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:1eaf27e8b6226374567d5ea42256d760c7009925143d46ab3be33ce379e81cd3
+size 2036

@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-LZ,Industrial Products,Industrial Services,0.65,,,,29,15__0,15,0.0,14320.0,29788.0,49384.8,52746.48,53082.65,53116.26,53119.63
+version https://git-lfs.github.com/spec/v1
+oid sha256:59a4dc50ed231ca35d4dd901f922f31b44eda1820724bab030703033078ada32
+size 407

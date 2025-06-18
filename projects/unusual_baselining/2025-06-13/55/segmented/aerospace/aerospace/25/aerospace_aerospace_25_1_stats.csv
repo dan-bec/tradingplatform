@@ -1,7 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-BWXT,Aerospace,Aerospace - Defense Equipment,0.55,995219.9999999999,1. p999999_trade_value,1.0,505,25__0,25,0.0,14268.0,25404.0,143606.4,704931.12,966191.11,992317.11,994929.71
-KTOS,Aerospace,Aerospace - Defense Equipment,0.55,,,,359,25__0,25,0.0,15000.0,18462.7,32492.88,107194.14,132219.41,134721.94,134972.19
-LHX,Aerospace,Aerospace - Defense,0.55,,,,289,25__0,25,0.0,16240.4,26008.0,199979.76,744019.63,885454.96,899598.5,901012.85
-RDW,Aerospace,Aerospace - Defense,0.55,63000.0,1. p999999_trade_value,1.0,190,25__0,25,0.0,15752.4,26965.75,52071.5,61043.85,62804.38,62980.44,62998.04
-SPCE,Aerospace,Aerospace - Defense,0.55,,,,368,25__0,25,0.0,13000.0,19154.0,29244.96,40225.6,41746.96,41899.1,41914.31
-WWD,Aerospace,Aerospace - Defense Equipment,0.55,14800.0,8. p75_trade_value,56.0,223,25__0,25,0.0,29344.0,38988.0,62205.0,140020.0,158002.0,159800.2,159980.02
+version https://git-lfs.github.com/spec/v1
+oid sha256:fde6133e09346adfbd071ccc2b58666edef4e7240ba93b3e736cee09db78117f
+size 1146

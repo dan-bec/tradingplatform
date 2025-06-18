@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ROL,Business Services,Building Products - Maintenance Service,0.55,40400.0,1. p999999_trade_value,1.0,58,20__0,20,2,0.0,13095.0,14737.5,31781.6,39538.16,40313.82,40391.38,40399.14
+version https://git-lfs.github.com/spec/v1
+oid sha256:04b80c0c5a3e63825fd2b7f7b719bc3a332c24b954933042bec252adf53a84f8
+size 482

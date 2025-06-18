@@ -1,20 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-CLH,Business Services,Waste Removal Services,20__0,20,0.0,1. p999999_trade_value,77400.0,77400.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-CLH,Business Services,Waste Removal Services,20__0,20,0.0,5. p99_trade_value,72000.0,72000.0,1.0,1.0,1.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
-CLH,Business Services,Waste Removal Services,20__0,20,0.0,6. p95_trade_value,65319.99999999999,18550.0,3.0,6.0,0.5,0.75,2. BELOW BASELINE,4.0,8.0,0.5
-CLH,Business Services,Waste Removal Services,20__0,20,0.0,7. p90_trade_value,16170.000000000002,9375.0,3.0,7.0,0.42857142857142855,0.75,2. BELOW BASELINE,7.0,15.0,0.4666666666666667
-CLH,Business Services,Waste Removal Services,20__0,20,0.0,8. p75_trade_value,9280.000000000002,6050.0,17.0,21.0,0.8095238095238095,0.75,2. BELOW BASELINE,24.0,36.0,0.6666666666666666
-PNR,Business Services,Waste Removal Services,20__2,20,2.0,1. p999999_trade_value,293287.5,293287.5,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-PNR,Business Services,Waste Removal Services,20__2,20,2.0,5. p99_trade_value,172499.99999999997,172499.99999999997,0.0,1.0,0.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
-PNR,Business Services,Waste Removal Services,20__2,20,2.0,6. p95_trade_value,140000.0,60970.00000000001,4.0,5.0,0.8,0.75,2. BELOW BASELINE,5.0,7.0,0.7142857142857143
-PNR,Business Services,Waste Removal Services,20__2,20,2.0,7. p90_trade_value,60000.0,42000.0,3.0,7.0,0.42857142857142855,0.75,2. BELOW BASELINE,8.0,14.0,0.5714285714285714
-PNR,Business Services,Waste Removal Services,20__2,20,2.0,8. p75_trade_value,40755.0,12879.000000000002,7.0,20.0,0.35,0.75,2. BELOW BASELINE,15.0,34.0,0.4411764705882353
-RSG,Business Services,Waste Removal Services,20__0,20,0.0,1. p999999_trade_value,167250.0,167250.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-RSG,Business Services,Waste Removal Services,20__0,20,0.0,5. p99_trade_value,83160.0,83160.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
-RSG,Business Services,Waste Removal Services,20__0,20,0.0,6. p95_trade_value,63640.0,28404.999999999996,4.0,4.0,1.0,0.75,2. BELOW BASELINE,5.0,6.0,0.8333333333333334
-RSG,Business Services,Waste Removal Services,20__0,20,0.0,7. p90_trade_value,24955.0,17640.0,4.0,6.0,0.6666666666666666,0.75,2. BELOW BASELINE,9.0,12.0,0.75
-RSG,Business Services,Waste Removal Services,20__0,20,0.0,8. p75_trade_value,15869.999999999998,8190.000000000001,14.0,18.0,0.7777777777777778,0.75,2. BELOW BASELINE,23.0,30.0,0.7666666666666667
-VLTO,Business Services,Waste Removal Services,20__0,20,0.0,1. p999999_trade_value,78000.0,78000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-VLTO,Business Services,Waste Removal Services,20__0,20,0.0,6. p95_trade_value,50400.0,33465.0,3.0,3.0,1.0,0.75,1. ABOVE BASELINE,4.0,4.0,1.0
-VLTO,Business Services,Waste Removal Services,20__0,20,0.0,7. p90_trade_value,33174.0,25935.000000000004,4.0,4.0,1.0,0.75,1. ABOVE BASELINE,8.0,8.0,1.0
-VLTO,Business Services,Waste Removal Services,20__0,20,0.0,8. p75_trade_value,22116.000000000004,8280.0,11.0,12.0,0.9166666666666666,0.75,1. ABOVE BASELINE,19.0,20.0,0.95
+version https://git-lfs.github.com/spec/v1
+oid sha256:be5f95163778db3703b638cd1264bdc9125aa40e022fadddf4453bc994aaa0fd
+size 3234

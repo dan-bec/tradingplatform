@@ -1,3 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-BG,Basic Materials,Agriculture - Products,0.55,250000.0,1. p999999_trade_value,1.0,147,20__3,20,2,3.0,13596.0,38412.5,219520.8,248540.0,249854.0,249985.4,249998.54
-CALM,Basic Materials,Agriculture - Products,0.55,48179.99999999999,5. p99_trade_value,4.0,326,25__0,25,2,0.0,13936.0,19960.0,46635.0,103641.2,116225.72,117484.17,117610.02
+version https://git-lfs.github.com/spec/v1
+oid sha256:d3cd75be09ae258b2fe87860ebc2c1435a7f7d99da41a1efd77e9b3d84b1539b
+size 638

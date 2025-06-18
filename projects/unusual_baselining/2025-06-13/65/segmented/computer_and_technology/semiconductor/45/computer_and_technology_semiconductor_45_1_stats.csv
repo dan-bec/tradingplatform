@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-INTC,Computer and Technology,Semiconductor - General,0.65,826200.0,3. p9999_trade_value,4.0,38781,45__1,45,1.0,14500.0,22294.0,56863.6,178393.92,601256.4,1709235.0,1944823.5
+version https://git-lfs.github.com/spec/v1
+oid sha256:e738fc119df2ae6b2e7744cd2a6882570d3749ee1e40c173597fbf9f2ccf0ced
+size 454

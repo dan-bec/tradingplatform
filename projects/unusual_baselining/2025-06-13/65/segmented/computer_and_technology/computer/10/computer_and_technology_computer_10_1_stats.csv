@@ -1,10 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AGYS,Computer and Technology,Computer - Integrated Systems,0.65,,,,16,10__0,10,0.0,9000.0,17350.0,29230.0,31903.0,32170.3,32197.03,32199.7
-BLKB,Computer and Technology,Computer - Software,0.65,7600.0,1. p999999_trade_value,2.0,6,10__0,10,0.0,7600.0,7600.0,7600.0,7600.0,7600.0,7600.0,7600.0
-FARO,Computer and Technology,Computer - Integrated Systems,0.65,20000.0,1. p999999_trade_value,1.0,6,10__0,10,0.0,15000.0,17500.0,19500.0,19950.0,19995.0,19999.5,19999.95
-IMMR,Computer and Technology,Computer - Peripheral Equipment,0.65,,,,9,10__0,10,0.0,9504.0,11502.0,13100.4,13460.04,13496.0,13499.6,13499.96
-MITK,Computer and Technology,Computer - Optical Imaging,0.65,14954.999999999998,1. p999999_trade_value,1.0,11,10__0,10,0.0,7410.0,11182.5,14200.5,14879.55,14947.46,14954.25,14954.92
-OPRX,Computer and Technology,Computer - Software,0.65,7240.000000000001,8. p75_trade_value,2.0,6,10__0,10,0.0,7600.0,7780.0,7924.0,7956.4,7959.64,7959.96,7960.0
-OTEX,Computer and Technology,Computer - Software,0.65,22610.0,1. p999999_trade_value,1.0,9,10__0,10,0.0,22154.0,22382.0,22564.4,22605.44,22609.54,22609.95,22610.0
-QMCO,Computer and Technology,Computer- Storage Devices,0.65,,,,13,10__0,10,0.0,15960.0,22880.0,30176.0,31817.6,31981.76,31998.18,31999.82
-SLP,Computer and Technology,Computer - Software,0.65,29000.0,1. p999999_trade_value,1.0,16,10__0,10,0.0,11580.0,16250.0,26450.0,28745.0,28974.5,28997.45,28999.74
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ac4fecb5200c6ae42ac9e60b6fded60099776f89ab62498e171a88a50929410
+size 1689

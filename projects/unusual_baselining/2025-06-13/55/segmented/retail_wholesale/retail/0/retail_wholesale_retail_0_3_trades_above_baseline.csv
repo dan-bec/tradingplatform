@@ -1,2 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,category_minimum,categiry_maximum,option_ticker,security_1,option_type,strike_price,expiration,conditions,correction,exchange,price,sip_timestamp,size,trade_value,data_date,min_trade_value,expiration_days_out,otm_range,option_condition_name,sector_1,industry_1,securty_open,security_high,security_low,security_close,trade_rank,trade_value_log10,number_of_bins,trade_value_bin,itm,itm_expiration_day,itm_expriation_close,otm
-ETD,Retail-Wholesale,Retail - Home Furnishings,0__2,0,2.0,1. p999999_trade_value,4000.0,4000.0,O:ETD250221C00029600,ETD,C,29.6,2025-02-21,209,0,308,0.8,1738183564853000000,50,4000.0,2025-01-29,3000,30,True,Automatic Execution,Retail-Wholesale,Retail - Home Furnishings,29.44,29.44,28.34,28.57,1,3.6020599913279625,20,1,1,0,0,0
+version https://git-lfs.github.com/spec/v1
+oid sha256:811ea8cc6b4a630d0a42835e8ddf4fd6337a83d6626c7b4eba9d342607dd0f8f
+size 836

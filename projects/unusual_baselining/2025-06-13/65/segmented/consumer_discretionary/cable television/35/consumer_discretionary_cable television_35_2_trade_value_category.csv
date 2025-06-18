@@ -1,7 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-CHTR,Consumer Discretionary,Cable Television,35__0,35,0.0,1. p999999_trade_value,427500.0,427500.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-CHTR,Consumer Discretionary,Cable Television,35__0,35,0.0,4. p999_trade_value,351000.0,351000.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
-CHTR,Consumer Discretionary,Cable Television,35__0,35,0.0,5. p99_trade_value,217079.99999999997,70650.0,10.0,17.0,0.5882352941176471,0.65,2. BELOW BASELINE,11.0,19.0,0.5789473684210527
-CHTR,Consumer Discretionary,Cable Television,35__0,35,0.0,6. p95_trade_value,62319.99999999999,25650.0,41.0,75.0,0.5466666666666666,0.65,2. BELOW BASELINE,52.0,94.0,0.5531914893617021
-CHTR,Consumer Discretionary,Cable Television,35__0,35,0.0,7. p90_trade_value,25350.0,16830.0,53.0,94.0,0.5638297872340425,0.65,2. BELOW BASELINE,105.0,188.0,0.5585106382978723
-CHTR,Consumer Discretionary,Cable Television,35__0,35,0.0,8. p75_trade_value,16790.0,8600.0,113.0,283.0,0.3992932862190813,0.65,2. BELOW BASELINE,218.0,471.0,0.46284501061571126
+version https://git-lfs.github.com/spec/v1
+oid sha256:76ff870b507c4a293b7d4df4dd2b4c460d33499f281e45f88ccc6b3846ff6e84
+size 1218

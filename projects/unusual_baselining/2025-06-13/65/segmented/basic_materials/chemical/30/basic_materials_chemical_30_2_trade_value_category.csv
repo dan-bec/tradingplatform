@@ -1,21 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-APD,Basic Materials,Chemical - Diversified ,30__2,30,2.0,1. p999999_trade_value,558750.0,558750.0,0.0,2.0,0.0,0.65,2. BELOW BASELINE,0.0,2.0,0.0
-APD,Basic Materials,Chemical - Diversified ,30__2,30,2.0,5. p99_trade_value,218750.0,115840.00000000001,4.0,6.0,0.6666666666666666,0.65,2. BELOW BASELINE,4.0,8.0,0.5
-APD,Basic Materials,Chemical - Diversified ,30__2,30,2.0,6. p95_trade_value,84999.0,20750.0,23.0,32.0,0.71875,0.65,2. BELOW BASELINE,27.0,40.0,0.675
-APD,Basic Materials,Chemical - Diversified ,30__2,30,2.0,7. p90_trade_value,20720.0,15260.000000000002,35.0,40.0,0.875,0.65,2. BELOW BASELINE,62.0,80.0,0.775
-APD,Basic Materials,Chemical - Diversified ,30__2,30,2.0,8. p75_trade_value,15190.0,8850.0,71.0,118.0,0.6016949152542372,0.65,2. BELOW BASELINE,133.0,198.0,0.6717171717171717
-DD,Basic Materials,Chemical - Diversified ,30__2,30,2.0,1. p999999_trade_value,150660.0,150660.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-DD,Basic Materials,Chemical - Diversified ,30__2,30,2.0,5. p99_trade_value,150000.0,97000.0,1.0,5.0,0.2,0.65,2. BELOW BASELINE,2.0,6.0,0.3333333333333333
-DD,Basic Materials,Chemical - Diversified ,30__2,30,2.0,6. p95_trade_value,81288.0,26520.0,11.0,23.0,0.4782608695652174,0.65,2. BELOW BASELINE,13.0,29.0,0.4482758620689655
-DD,Basic Materials,Chemical - Diversified ,30__2,30,2.0,7. p90_trade_value,25852.000000000004,16400.0,14.0,30.0,0.4666666666666667,0.65,2. BELOW BASELINE,27.0,59.0,0.4576271186440678
-DD,Basic Materials,Chemical - Diversified ,30__2,30,2.0,8. p75_trade_value,16320.000000000002,8560.0,43.0,85.0,0.5058823529411764,0.65,2. BELOW BASELINE,70.0,144.0,0.4861111111111111
-DOW,Basic Materials,Chemical - Diversified ,30__2,30,2.0,1. p999999_trade_value,153000.0,153000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-DOW,Basic Materials,Chemical - Diversified ,30__2,30,2.0,5. p99_trade_value,122000.0,62610.0,5.0,7.0,0.7142857142857143,0.65,2. BELOW BASELINE,5.0,8.0,0.625
-DOW,Basic Materials,Chemical - Diversified ,30__2,30,2.0,6. p95_trade_value,53991.0,27000.0,17.0,30.0,0.5666666666666667,0.65,2. BELOW BASELINE,22.0,38.0,0.5789473684210527
-DOW,Basic Materials,Chemical - Diversified ,30__2,30,2.0,7. p90_trade_value,26775.0,16500.0,20.0,38.0,0.5263157894736842,0.65,2. BELOW BASELINE,42.0,76.0,0.5526315789473685
-DOW,Basic Materials,Chemical - Diversified ,30__2,30,2.0,8. p75_trade_value,16250.0,8214.0,56.0,114.0,0.49122807017543857,0.65,2. BELOW BASELINE,98.0,190.0,0.5157894736842106
-LIN,Basic Materials,Chemical - Specialty,30__2,30,2.0,1. p999999_trade_value,65000.0,65000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-LIN,Basic Materials,Chemical - Specialty,30__2,30,2.0,5. p99_trade_value,52000.0,36000.0,2.0,6.0,0.3333333333333333,0.65,2. BELOW BASELINE,2.0,7.0,0.2857142857142857
-LIN,Basic Materials,Chemical - Specialty,30__2,30,2.0,6. p95_trade_value,35460.0,18700.0,10.0,24.0,0.4166666666666667,0.65,2. BELOW BASELINE,12.0,31.0,0.3870967741935484
-LIN,Basic Materials,Chemical - Specialty,30__2,30,2.0,7. p90_trade_value,18400.0,13690.0,16.0,30.0,0.5333333333333333,0.65,2. BELOW BASELINE,28.0,61.0,0.45901639344262296
-LIN,Basic Materials,Chemical - Specialty,30__2,30,2.0,8. p75_trade_value,13640.0,7350.0,41.0,91.0,0.45054945054945056,0.65,2. BELOW BASELINE,69.0,152.0,0.45394736842105265
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d28e459fd1d4f7952f101d7039bf91619ed02d2681811c63c044b39af06d2cf
+size 3477

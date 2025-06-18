@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CENX,Industrial Products,Metal Products - Procurement and Fabrication,0.55,,,,100,20__0,20,0.0,24936.4,35269.9,128849.9,137750.99,138641.1,138730.11,138739.01
+version https://git-lfs.github.com/spec/v1
+oid sha256:3f951ef6349df342c1ab5c1b2d71b69856d9f08f467d0b21e5bd3dfed61a0a47
+size 439

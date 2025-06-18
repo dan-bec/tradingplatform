@@ -1,8 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-TSM,Computer and Technology,Semiconductor - Circuit Foundry,50__4,50,4.0,1. p999999_trade_value,2140000.0,2140000.0,1.0,1.0,1.0,0.75,2. BELOW BASELINE,1.0,1.0,1.0
-TSM,Computer and Technology,Semiconductor - Circuit Foundry,50__4,50,4.0,3. p9999_trade_value,2106000.0,1221080.0,3.0,9.0,0.3333333333333333,0.75,2. BELOW BASELINE,4.0,10.0,0.4
-TSM,Computer and Technology,Semiconductor - Circuit Foundry,50__4,50,4.0,4. p999_trade_value,1215000.0,430000.0,55.0,81.0,0.6790123456790124,0.75,2. BELOW BASELINE,59.0,91.0,0.6483516483516484
-TSM,Computer and Technology,Semiconductor - Circuit Foundry,50__4,50,4.0,5. p99_trade_value,428000.0,91845.0,378.0,811.0,0.46609124537607893,0.75,2. BELOW BASELINE,437.0,902.0,0.4844789356984479
-TSM,Computer and Technology,Semiconductor - Circuit Foundry,50__4,50,4.0,6. p95_trade_value,91800.0,30000.0,1861.0,3607.0,0.5159412253950652,0.75,2. BELOW BASELINE,2298.0,4509.0,0.5096473719228211
-TSM,Computer and Technology,Semiconductor - Circuit Foundry,50__4,50,4.0,7. p90_trade_value,29975.0,18532.0,2383.0,4508.0,0.5286157941437445,0.75,2. BELOW BASELINE,4681.0,9017.0,0.5191305312188089
-TSM,Computer and Technology,Semiconductor - Circuit Foundry,50__4,50,4.0,8. p75_trade_value,18530.0,9420.0,6765.0,13525.0,0.500184842883549,0.75,2. BELOW BASELINE,11446.0,22542.0,0.5077632863099991
+version https://git-lfs.github.com/spec/v1
+oid sha256:d26e8ecca1ad246285c5809ace9cb1c322a8441dddd3dce29535adb2ed1e9597
+size 1526

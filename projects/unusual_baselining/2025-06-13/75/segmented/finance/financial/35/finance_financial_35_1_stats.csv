@@ -1,14 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-APLD,Finance,Financial - Miscellaneous Services,0.75,,,,5319,35__2,35,2.0,16150.8,28134.5,98100.0,358725.7,657748.5,686932.35,689850.73
-APO,Finance,Financial - Investment Management,0.75,,,,5130,35__0,35,0.0,16000.0,25300.0,57312.17,151742.0,556761.6,601076.16,605507.62
-BLK,Finance,Financial - Investment Management,0.75,,,,3763,35__0,35,0.0,15976.6,24790.0,62082.12,150533.12,213714.0,223871.4,224887.14
-BULL,Finance,Financial - Miscellaneous Services,0.75,800000.0,1. p999999_trade_value,1.0,2038,35__0,35,0.0,14700.0,23616.0,54821.79,202192.39,690002.0,789000.2,798900.02
-CORZ,Finance,Financial - Miscellaneous Services,0.75,,,,5602,35__2,35,2.0,16305.2,29999.3,98548.75,539401.75,1150750.86,1346449.69,1366019.57
-CRCL,Finance,Financial - Miscellaneous Services,0.75,,,,2807,35__0,35,0.0,15504.0,25017.5,69351.7,194791.7,322818.69,334816.87,336016.69
-HUT,Finance,Financial - Miscellaneous Services,0.75,186138.0,4. p999_trade_value,3.0,2699,35__2,35,2.0,19711.0,30797.3,86142.72,160130.52,434357.07,497035.71,503303.57
-IBKR,Finance,Financial - Investment Bank,0.75,501830.0,1. p999999_trade_value,1.0,1991,35__0,35,0.0,15620.0,22025.0,54839.0,195224.25,443755.83,496022.58,501249.26
-IREN,Finance,Financial - Miscellaneous Services,0.75,,,,4713,35__0,35,0.0,14306.4,20321.6,54394.08,127538.72,323155.0,378815.5,384381.55
-KKR,Finance,Financial - Investment Management,0.75,325863.0,4. p999_trade_value,4.0,3311,35__0,35,0.0,14960.0,26745.0,106360.0,325316.47,354920.8,359492.08,359949.21
-SCHW,Finance,Financial - Investment Bank,0.75,745000.0,1. p999999_trade_value,1.0,4451,35__2,35,2.0,15604.0,26397.0,98238.0,486869.1,714295.0,741929.5,744692.95
-TIGR,Finance,Financial - Investment Bank,0.75,113100.0,4. p999_trade_value,5.0,4793,35__0,35,0.0,16999.0,26957.6,69572.0,112292.16,148999.22,167208.72,169029.67
-WULF,Finance,Financial - Miscellaneous Services,0.75,,,,2626,35__2,35,2.0,18777.5,31094.75,90000.0,257500.0,345625.0,362162.5,363816.25
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e04bcf2dd33adaa18be180bfccf15323a06515c404de49334dce8af15e8f472
+size 2228

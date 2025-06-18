@@ -1,11 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-BBVA,Finance,Banks - Foreign,0.55,10010.0,8. p75_trade_value,9.0,33,15__0,15,0.0,17500.0,35154.0,42358.4,45311.84,45607.18,45636.72,45639.67
-BCS,Finance,Banks - Foreign,0.55,,,,53,15__0,15,0.0,20732.0,31224.0,101448.96,154029.7,159287.77,159813.58,159866.16
-BMA,Finance,Banks - Foreign,0.55,29000.0,1. p999999_trade_value,1.0,35,15__0,15,0.0,13188.0,19488.0,25994.4,28699.44,28969.94,28996.99,28999.7
-BNS,Finance,Banks - Foreign,0.55,21000.0,6. p95_trade_value,2.0,32,15__0,15,0.0,11200.0,20450.0,25554.0,27395.4,27579.54,27597.95,27599.8
-CUBI,Finance,Banks - Southeast,0.55,,,,48,15__0,15,0.0,14172.0,28180.0,45300.0,49530.0,49953.0,49995.3,49999.53
-EWBC,Finance,Banks - West,0.55,27000.0,7. p90_trade_value,4.0,36,15__0,15,0.0,22925.0,31350.0,50679.0,53721.9,54026.19,54056.62,54059.66
-HDB,Finance,Banks - Foreign,0.55,240000.0,1. p999999_trade_value,1.0,51,15__0,15,0.0,10500.0,16550.0,140000.0,230000.0,239000.0,239900.0,239990.0
-TBBK,Finance,Banks - Northeast,0.55,,,,34,15__0,15,0.0,24400.0,50331.25,52785.0,52785.0,52785.0,52785.0,52785.0
-VLY,Finance,Banks - Northeast,0.55,,,,24,15__0,15,0.0,20238.0,45075.0,184600.5,220960.05,224596.01,224959.6,224995.96
-WBS,Finance,Banks - Northeast,0.55,,,,30,15__0,15,0.0,25448.0,31231.2,101490.96,125601.1,128012.11,128253.21,128277.32
+version https://git-lfs.github.com/spec/v1
+oid sha256:14bf63c3b103878fceb6b5f17ad27f4e6a8b0cbaca1b138592111a35875032f4
+size 1563

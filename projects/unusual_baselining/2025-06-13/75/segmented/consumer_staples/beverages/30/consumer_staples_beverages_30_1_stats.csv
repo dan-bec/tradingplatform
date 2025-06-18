@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-MNST,Consumer Staples,Beverages - Soft drinks,0.75,715000.0,1. p999999_trade_value,1.0,742,30__1,30,1.0,20860.0,34306.4,236899.58,607555.0,704255.5,713925.55,714892.55
+version https://git-lfs.github.com/spec/v1
+oid sha256:3f76af8ba86c1b06fd64143947c28352e6ceed5162e489756b5acedcd90c18a4
+size 448

@@ -1,5 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-LCID,Auto-Tires-Trucks,Automotive - Domestic,0.65,,,,856,30__2,30,2.0,9855.0,14031.25,42366.0,519970.0,519970.0,519970.0,519970.0
-MOD,Auto-Tires-Trucks,Automotive - Original Equipment,0.65,51165.0,6. p95_trade_value,48.0,951,30__1,30,1.0,22250.0,50997.5,198572.5,526350.0,549435.0,551743.5,551974.35
-QS,Auto-Tires-Trucks,Automotive - Original Equipment,0.65,23600.0,5. p99_trade_value,8.0,870,30__2,30,2.0,11280.0,13960.5,23218.0,38885.14,41184.51,41414.45,41437.45
-RACE,Auto-Tires-Trucks,Automotive - Original Equipment,0.65,,,,1144,30__2,30,2.0,15240.0,23515.5,57067.2,291696.31,371149.17,380014.92,380901.49
+version https://git-lfs.github.com/spec/v1
+oid sha256:86ab5a9ef802a0742b3cceda394afbb01a2205f1189b732ccb6185e2819ad9a6
+size 891

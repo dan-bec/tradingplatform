@@ -1,7 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-PG,Consumer Staples,Consumer Products - Staples,35__0,35,0.0,1. p999999_trade_value,637500.0,637500.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-PG,Consumer Staples,Consumer Products - Staples,35__0,35,0.0,4. p999_trade_value,449934.99999999994,259480.00000000003,2.0,5.0,0.4,0.75,2. BELOW BASELINE,3.0,6.0,0.5
-PG,Consumer Staples,Consumer Products - Staples,35__0,35,0.0,5. p99_trade_value,248500.0,55216.0,31.0,45.0,0.6888888888888889,0.75,2. BELOW BASELINE,34.0,51.0,0.6666666666666666
-PG,Consumer Staples,Consumer Products - Staples,35__0,35,0.0,6. p95_trade_value,55188.0,22098.0,108.0,200.0,0.54,0.75,2. BELOW BASELINE,142.0,251.0,0.5657370517928287
-PG,Consumer Staples,Consumer Products - Staples,35__0,35,0.0,7. p90_trade_value,22000.000000000004,14025.0,126.0,250.0,0.504,0.75,2. BELOW BASELINE,268.0,501.0,0.5349301397205589
-PG,Consumer Staples,Consumer Products - Staples,35__0,35,0.0,8. p75_trade_value,14016.0,7786.0,415.0,752.0,0.5518617021276596,0.75,2. BELOW BASELINE,683.0,1253.0,0.5450917797286512
+version https://git-lfs.github.com/spec/v1
+oid sha256:7e4057e8b5e3f69a168f7e670c94aefe560beffde8cbaea47f303b490335861b
+size 1226

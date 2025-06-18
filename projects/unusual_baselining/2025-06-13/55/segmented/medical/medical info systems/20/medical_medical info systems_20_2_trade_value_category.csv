@@ -1,11 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-IRTC,Medical,Medical Info Systems,20__0,20,0.0,1. p999999_trade_value,202500.00000000003,202500.00000000003,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-IRTC,Medical,Medical Info Systems,20__0,20,0.0,5. p99_trade_value,90000.0,90000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-IRTC,Medical,Medical Info Systems,20__0,20,0.0,6. p95_trade_value,78000.0,26250.0,3.0,7.0,0.42857142857142855,0.55,2. BELOW BASELINE,5.0,9.0,0.5555555555555556
-IRTC,Medical,Medical Info Systems,20__0,20,0.0,7. p90_trade_value,23792.999999999996,16713.000000000004,1.0,12.0,0.08333333333333333,0.55,2. BELOW BASELINE,6.0,21.0,0.2857142857142857
-IRTC,Medical,Medical Info Systems,20__0,20,0.0,8. p75_trade_value,16686.0,10368.0,9.0,25.0,0.36,0.55,2. BELOW BASELINE,15.0,46.0,0.32608695652173914
-SDGR,Medical,Medical Info Systems,20__0,20,0.0,1. p999999_trade_value,105300.0,105300.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-SDGR,Medical,Medical Info Systems,20__0,20,0.0,5. p99_trade_value,67500.0,67500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-SDGR,Medical,Medical Info Systems,20__0,20,0.0,6. p95_trade_value,62855.99999999999,14880.000000000002,6.0,7.0,0.8571428571428571,0.55,1. ABOVE BASELINE,8.0,9.0,0.8888888888888888
-SDGR,Medical,Medical Info Systems,20__0,20,0.0,7. p90_trade_value,11499.999999999998,9630.0,6.0,8.0,0.75,0.55,1. ABOVE BASELINE,14.0,17.0,0.8235294117647058
-SDGR,Medical,Medical Info Systems,20__0,20,0.0,8. p75_trade_value,9600.0,6400.0,15.0,25.0,0.6,0.55,1. ABOVE BASELINE,29.0,42.0,0.6904761904761905
+version https://git-lfs.github.com/spec/v1
+oid sha256:ad5fc0572acac97817603b6df052ab20837b514ed8193f1ccf89713e30c187bb
+size 1730

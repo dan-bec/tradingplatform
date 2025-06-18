@@ -1,5 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CLH,Business Services,Waste Removal Services,0.65,,,,143,20__0,20,0.0,9356.0,18312.0,69194.4,76633.2,77323.32,77392.33,77399.23
-PNR,Business Services,Waste Removal Services,0.65,293287.5,1. p999999_trade_value,1.0,137,20__2,20,2.0,41253.0,60194.0,160800.0,276860.4,291644.79,293123.23,293271.07
-RSG,Business Services,Waste Removal Services,0.65,167250.0,1. p999999_trade_value,1.0,118,20__0,20,0.0,16401.0,25472.5,79841.6,157411.47,166266.15,167151.61,167240.16
-VLTO,Business Services,Waste Removal Services,0.65,8280.0,8. p75_trade_value,20.0,80,20__0,20,0.0,22497.9,33188.55,56196.0,75819.6,77781.96,77978.2,77997.82
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ca0b30fc6a801916669938cd92b2fa6dd0ff5dc6328e0cef003b5f662a5cb71
+size 899

@@ -1,10 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-KBR,Construction,Engineering - R and D Services,20__0,20,0.0,1. p999999_trade_value,67032.0,67032.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-KBR,Construction,Engineering - R and D Services,20__0,20,0.0,6. p95_trade_value,48960.0,40000.0,3.0,3.0,1.0,0.65,1. ABOVE BASELINE,4.0,4.0,1.0
-KBR,Construction,Engineering - R and D Services,20__0,20,0.0,7. p90_trade_value,39920.00000000001,38000.0,4.0,4.0,1.0,0.65,1. ABOVE BASELINE,8.0,8.0,1.0
-KBR,Construction,Engineering - R and D Services,20__0,20,0.0,8. p75_trade_value,36000.0,12599.999999999998,9.0,10.0,0.9,0.65,1. ABOVE BASELINE,17.0,18.0,0.9444444444444444
-TSSI,Construction,Engineering - R and D Services,20__0,20,0.0,1. p999999_trade_value,26946.000000000004,26946.000000000004,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-TSSI,Construction,Engineering - R and D Services,20__0,20,0.0,5. p99_trade_value,26039.999999999996,26039.999999999996,0.0,1.0,0.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
-TSSI,Construction,Engineering - R and D Services,20__0,20,0.0,6. p95_trade_value,25870.0,18000.0,4.0,7.0,0.5714285714285714,0.65,2. BELOW BASELINE,5.0,9.0,0.5555555555555556
-TSSI,Construction,Engineering - R and D Services,20__0,20,0.0,7. p90_trade_value,17160.000000000004,12000.0,7.0,10.0,0.7,0.65,2. BELOW BASELINE,12.0,19.0,0.631578947368421
-TSSI,Construction,Engineering - R and D Services,20__0,20,0.0,8. p75_trade_value,11520.0,8000.0,7.0,24.0,0.2916666666666667,0.65,2. BELOW BASELINE,19.0,43.0,0.4418604651162791
+version https://git-lfs.github.com/spec/v1
+oid sha256:a42c2a3d997ea5d5c93af7989fcd12145e45e75a935a6b1de6670d4c97a59f24
+size 1679

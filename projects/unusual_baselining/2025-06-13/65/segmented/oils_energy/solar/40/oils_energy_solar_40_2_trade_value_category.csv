@@ -1,8 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-ENPH,Oils-Energy,Solar,40__3,40,3.0,1. p999999_trade_value,774845.0,774845.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-ENPH,Oils-Energy,Solar,40__3,40,3.0,3. p9999_trade_value,442000.0,442000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
-ENPH,Oils-Energy,Solar,40__3,40,3.0,4. p999_trade_value,377880.0,232800.0,5.0,10.0,0.5,0.65,2. BELOW BASELINE,7.0,12.0,0.5833333333333334
-ENPH,Oils-Energy,Solar,40__3,40,3.0,5. p99_trade_value,216000.0,52200.0,58.0,102.0,0.5686274509803921,0.65,2. BELOW BASELINE,65.0,114.0,0.5701754385964912
-ENPH,Oils-Energy,Solar,40__3,40,3.0,6. p95_trade_value,51750.0,21222.000000000004,276.0,454.0,0.6079295154185022,0.65,2. BELOW BASELINE,341.0,568.0,0.6003521126760564
-ENPH,Oils-Energy,Solar,40__3,40,3.0,7. p90_trade_value,21189.999999999996,14000.0,263.0,572.0,0.4597902097902098,0.65,2. BELOW BASELINE,604.0,1140.0,0.5298245614035088
-ENPH,Oils-Energy,Solar,40__3,40,3.0,8. p75_trade_value,13975.0,7760.000000000001,807.0,1700.0,0.4747058823529412,0.65,2. BELOW BASELINE,1411.0,2840.0,0.49683098591549296
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb21c9d331633ebb531a8a241f5e99c52d984d082f29e7590517a4114ead16f8
+size 1250

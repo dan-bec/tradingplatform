@@ -1,14 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AVB,Finance,REIT and Equity Trust - Residential,0.55,14100.0,1. p999999_trade_value,1.0,17,10__0,10,0.0,11652.0,13380.0,13956.0,14085.6,14098.56,14099.86,14099.99
-CHCT,Finance,REIT and Equity Trust - Other,0.55,,,,7,10__0,10,0.0,8400.0,8700.0,8940.0,8994.0,8999.4,8999.94,8999.99
-EQR,Finance,REIT and Equity Trust - Residential,0.55,6000.0,7. p90_trade_value,2.0,12,10__0,10,0.0,5810.0,6560.25,7108.05,7231.31,7243.63,7244.86,7244.99
-FRT,Finance,REIT and Equity Trust - Retail,0.55,128810.00000000001,8. p75_trade_value,3.0,10,10__3,10,3.0,189466.0,192598.0,195103.6,195667.36,195723.74,195729.37,195729.94
-GLPI,Finance,REIT and Equity Trust - Other,0.55,8750.0,7. p90_trade_value,5.0,13,10__0,10,0.0,8750.0,14280.0,20916.0,22409.1,22558.41,22573.34,22574.83
-HPP,Finance,REIT and Equity Trust - Other,0.55,8091.0,8. p75_trade_value,2.0,8,10__0,10,0.0,9263.7,10631.85,11726.37,11972.64,11997.26,11999.73,11999.97
-HR,Finance,REIT and Equity Trust - Other,0.55,,,,10,10__0,10,0.0,10831.5,15698.25,19591.65,20467.66,20555.27,20564.03,20564.9
-INVH,Finance,REIT and Equity Trust - Residential,0.55,,,,14,10__0,10,0.0,26128.0,29660.5,34356.1,35412.61,35518.26,35528.83,35529.88
-KRC,Finance,REIT and Equity Trust - Other,0.55,,,,6,10__3,10,3.0,118265.0,118265.0,118265.0,118265.0,118265.0,118265.0,118265.0
-LAMR,Finance,REIT and Equity Trust - Other,0.55,,,,7,10__0,10,0.0,9640.0,10870.0,11854.0,12075.4,12097.54,12099.75,12099.98
-MAA,Finance,REIT and Equity Trust - Residential,0.55,5820.0,8. p75_trade_value,5.0,17,10__0,10,0.0,7185.6,12618.2,25463.64,28353.86,28642.89,28671.79,28674.68
-UNIT,Finance,REIT and Equity Trust - Other,0.55,9300.0,7. p90_trade_value,2.0,12,10__0,10,0.0,9079.2,10022.25,10728.45,10887.35,10903.23,10904.82,10904.98
-WPC,Finance,REIT and Equity Trust - Other,0.55,15525.0,7. p90_trade_value,2.0,16,10__0,10,0.0,10762.5,16166.25,17705.25,18051.52,18086.15,18089.62,18089.96
+version https://git-lfs.github.com/spec/v1
+oid sha256:72972bbe8ed76f3424375742e068c7b1bb4cdb370629731f01da43a3cb0e7d12
+size 2173

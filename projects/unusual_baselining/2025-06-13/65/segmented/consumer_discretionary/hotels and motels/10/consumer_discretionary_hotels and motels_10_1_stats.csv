@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-HGV,Consumer Discretionary,Hotels and Motels,0.65,10150.0,8. p75_trade_value,4.0,17,10__0,10,0.0,20040.0,24045.0,24189.0,24221.4,24224.64,24224.96,24225.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:33debc0366957a3303640ac44f7fcce7bd0a6825b2a15ef2c390a7ed7dbd0ef4
+size 435

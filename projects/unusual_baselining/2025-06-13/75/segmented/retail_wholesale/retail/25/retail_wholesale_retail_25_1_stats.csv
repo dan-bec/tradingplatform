@@ -1,13 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AEO,Retail-Wholesale,Retail - Apparel and Shoes,0.75,200000.0,5. p99_trade_value,4.0,371,25__0,25,0.0,14946.0,26519.0,182500.0,230199.68,246162.37,247758.64,247918.26
-BOOT,Retail-Wholesale,Retail - Apparel and Shoes,0.75,,,,517,25__0,25,0.0,17268.0,35280.0,95939.2,127260.0,134226.0,134922.6,134992.26
-CAKE,Retail-Wholesale,Retail - Restaurants,0.75,12537.0,7. p90_trade_value,19.0,188,25__0,25,0.0,12511.1,16539.5,75047.32,75364.0,75364.0,75364.0,75364.0
-CASY,Retail-Wholesale,Retail - Convenience Stores,0.75,525000.0,1. p999999_trade_value,1.0,499,25__0,25,0.0,17697.6,25001.8,61521.3,333449.28,505844.93,523084.49,524808.45
-CBRL,Retail-Wholesale,Retail - Restaurants,0.75,,,,205,25__0,25,0.0,20646.0,28970.0,83372.8,112502.3,114232.73,114405.77,114423.08
-MNSO,Retail-Wholesale,Retail - Apparel and Shoes,0.75,73760.0,1. p999999_trade_value,1.0,217,25__0,25,0.0,11776.0,17935.0,43614.24,70774.88,73461.49,73730.15,73757.01
-PLCE,Retail-Wholesale,Retail - Apparel and Shoes,0.75,36630.0,5. p99_trade_value,6.0,508,25__0,25,0.0,13406.2,17860.0,36592.9,103664.0,125566.4,127756.64,127975.66
-PZZA,Retail-Wholesale,Retail - Restaurants,0.75,,,,297,25__0,25,0.0,13783.6,23971.0,106127.8,326000.0,392600.0,399260.0,399926.0
-SFIX,Retail-Wholesale,Retail - Apparel and Shoes,0.75,,,,181,25__0,25,0.0,11817.0,17420.0,117024.0,190121.6,199012.16,199901.22,199990.12
-TSCO,Retail-Wholesale,Retail - Miscellaneous,0.75,263500.0,1. p999999_trade_value,1.0,495,25__0,25,0.0,12432.6,22008.0,73719.34,255102.0,262660.2,263416.02,263491.6
-YUM,Retail-Wholesale,Retail - Restaurants,0.75,330000.0,1. p999999_trade_value,1.0,323,25__0,25,0.0,12588.0,22980.5,73984.0,257550.0,322755.0,329275.5,329927.55
-YUMC,Retail-Wholesale,Retail - Restaurants,0.75,280000.0,1. p999999_trade_value,1.0,331,25__0,25,0.0,14960.0,27847.5,90750.0,223900.0,274390.0,279439.0,279943.9
+version https://git-lfs.github.com/spec/v1
+oid sha256:ee36c73dcdbe2781d3fb67e8f2caa303a77b52b76ea12c171d3aa4bf1b68f663
+size 2124

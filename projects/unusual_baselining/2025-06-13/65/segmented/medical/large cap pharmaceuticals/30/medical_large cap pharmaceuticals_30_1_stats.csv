@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-NVS,Medical,Large Cap Pharmaceuticals,0.65,,,,567,30__2,30,2.0,16767.6,37795.0,81317.2,150453.28,192183.33,196356.33,196773.63
+version https://git-lfs.github.com/spec/v1
+oid sha256:3c50a51c081a6c2242b7caaacfed0e879cd47f9bb0cd3f276e57408077099058
+size 407

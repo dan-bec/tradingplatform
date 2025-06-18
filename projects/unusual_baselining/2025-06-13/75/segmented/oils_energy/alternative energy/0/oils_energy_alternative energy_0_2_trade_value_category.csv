@@ -1,2 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-SLI,Oils-Energy,Alternative Energy - Other,0__2,0,2.0,1. p999999_trade_value,3900.0,3900.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:33278c65400a8b7d18d3badff55298207f6e86efee5a3eb2defc763546e6e6d5
+size 344

@@ -1,3 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,category_minimum,categiry_maximum,option_ticker,security_1,option_type,strike_price,expiration,conditions,correction,exchange,price,sip_timestamp,size,trade_value,data_date,min_trade_value,expiration_days_out,otm_range,option_condition_name,sector_1,industry_1,securty_open,security_high,security_low,security_close,trade_rank,trade_value_log10,number_of_bins,trade_value_bin,itm,itm_expiration_day,itm_expriation_close,otm
-FCFS,Business Services,Financial Transaction Services,5__0,5,0.0,8. p75_trade_value,4160.0,4160.0,O:FCFS250321P00110000,FCFS,P,110.0,2025-03-21,232,0,300,1.6,1740409819117000000,26,4160.0,2025-02-24,3000,30,True,Multi Leg auto-electronic trade,Business Services,Financial Transaction Services,114.78,114.94,113.825,114.36,2,3.6190933306267428,20,2,1,0,0,0
-FCFS,Business Services,Financial Transaction Services,5__0,5,0.0,1. p999999_trade_value,8080.0,8080.0,O:FCFS250321P00110000,FCFS,P,110.0,2025-03-21,232,0,313,2.02,1740408551532000000,40,8080.0,2025-02-24,3000,30,True,Multi Leg auto-electronic trade,Business Services,Financial Transaction Services,114.78,114.94,113.825,114.36,1,3.907411360774586,20,1,1,0,0,0
+version https://git-lfs.github.com/spec/v1
+oid sha256:30d30c7da1322ebfcea80db159d826e60c3b6b1aab39d9696ed336755e69aa64
+size 1225

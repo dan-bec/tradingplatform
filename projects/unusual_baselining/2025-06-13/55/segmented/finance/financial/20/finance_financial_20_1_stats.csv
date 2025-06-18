@@ -1,16 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ARCC,Finance,Financial - SBIC & Commercial Industry,0.55,,,,78,20__2,20,2.0,29750.0,100950.0,128450.0,138845.0,139884.5,139988.45,139998.84
-CACC,Finance,Financial - Consumer Loans,0.55,,,,70,20__0,20,0.0,7692.0,8817.75,33032.4,49203.24,50820.32,50982.03,50998.2
-CAN,Finance,Financial - Miscellaneous Services,0.55,79758.0,1. p999999_trade_value,1.0,83,20__0,20,0.0,13396.8,17755.8,65248.92,78307.09,79612.91,79743.49,79756.55
-COOP,Finance,Financial - Consumer Loans,0.55,,,,96,20__0,20,0.0,10710.0,17867.5,25386.0,74736.6,79671.66,80165.17,80214.52
-EVR,Finance,Financial - Investment Bank,0.55,445670.0,1. p999999_trade_value,1.0,82,20__1,20,1.0,42097.0,83632.5,407316.5,441834.65,445286.47,445631.65,445666.16
-HIVE,Finance,Financial - Miscellaneous Services,0.55,93709.0,1. p999999_trade_value,1.0,94,20__0,20,0.0,14802.4,25646.25,90577.69,93395.87,93677.69,93705.87,93708.69
-IVZ,Finance,Financial - Investment Management,0.55,,,,85,20__1,20,1.0,18048.0,74200.0,613172.0,801567.2,820406.72,822290.67,822479.07
-LC,Finance,Financial - Miscellaneous Services,0.55,64850.0,1. p999999_trade_value,1.0,113,20__0,20,0.0,11496.0,16372.8,34064.0,61506.8,64515.68,64816.57,64846.66
-LX,Finance,Financial - Consumer Loans,0.55,7500.0,8. p75_trade_value,26.0,102,20__0,20,0.0,11408.6,17196.9,30469.75,68350.43,72175.04,72557.5,72595.75
-MAIN,Finance,Financial - SBIC & Commercial Industry,0.55,,,,85,20__0,20,0.0,9348.0,16048.0,24298.2,50489.82,53108.98,53370.9,53397.09
-OMF,Finance,Financial - Consumer Loans,0.55,,,,136,20__0,20,0.0,13621.0,21765.0,43377.75,53650.0,54865.0,54986.5,54998.65
-RJF,Finance,Financial - Investment Bank,0.55,498000.0,1. p999999_trade_value,1.0,147,20__2,20,2.0,17652.0,27472.5,162810.0,454200.0,493620.0,497562.0,497956.2
-SLM,Finance,Financial - Consumer Loans,0.55,52038.0,1. p999999_trade_value,1.0,72,20__0,20,0.0,16792.8,23528.75,38414.52,50675.65,51901.77,52024.38,52036.64
-TREE,Finance,Financial - Mortgage & Related Services,0.55,19500.0,7. p90_trade_value,14.0,140,20__0,20,0.0,19413.6,30264.0,55807.5,73121.64,75028.16,75218.82,75237.88
-UWMC,Finance,Financial - Mortgage & Related Services,0.55,,,,71,20__0,20,0.0,16025.0,32025.0,89800.0,143980.0,149398.0,149939.8,149993.98
+version https://git-lfs.github.com/spec/v1
+oid sha256:358412fb1196c7ca76bd3e4b4951fe51f0803e76c576d8ec60e87864fd2a7aad
+size 2481

@@ -1,14 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AG,Basic Materials,Mining - Silver,0.55,,,,295,25__0,25,0.0,12108.0,15060.0,33233.88,47294.2,47479.42,47497.94,47499.79
-AMR,Basic Materials,Mining - Miscellaneous,0.55,36000.0,1. p999999_trade_value,1.0,391,25__0,25,0.0,11600.0,15000.0,29001.6,35415.0,35941.5,35994.15,35999.41
-AU,Basic Materials,Mining - Gold,0.55,9071.0,8. p75_trade_value,67.0,266,25__0,25,0.0,21855.0,36187.5,100803.25,183330.0,201933.0,203793.3,203979.33
-BHP,Basic Materials,Mining - Miscellaneous,0.55,,,,369,25__0,25,0.0,13968.0,20016.0,44204.16,104846.72,107234.67,107473.47,107497.35
-NXE,Basic Materials,Mining - Miscellaneous,0.55,860000.0,1. p999999_trade_value,1.0,189,25__2,25,2.0,23016.0,63236.0,180000.0,773520.0,851352.0,859135.2,859913.52
-PAAS,Basic Materials,Mining - Silver,0.55,,,,377,25__0,25,0.0,15267.0,22520.0,36600.0,169741.54,237240.15,243990.02,244665.0
-RGLD,Basic Materials,Mining - Gold,0.55,22080.0,7. p90_trade_value,22.0,218,25__0,25,0.0,22024.0,46386.3,149642.7,204590.0,204590.0,204590.0,204590.0
-SCCO,Basic Materials,Mining - Non Ferrous,0.55,287500.0,1. p999999_trade_value,1.0,302,25__0,25,0.0,18162.6,33892.1,87467.8,232567.5,282006.75,286950.68,287445.07
-TMC,Basic Materials,Mining - Miscellaneous,0.55,,,,247,25__0,25,0.0,13144.0,21479.2,53577.0,63543.42,63954.34,63995.43,63999.54
-UEC,Basic Materials,Mining - Miscellaneous,0.55,245400.0,1. p999999_trade_value,1.0,193,25__2,25,2.0,30000.0,70800.0,142772.0,237336.0,244593.6,245319.36,245391.94
-USAR,Basic Materials,Mining - Miscellaneous,0.55,,,,406,25__0,25,0.0,13365.0,17868.5,38085.0,47335.07,51018.71,51387.07,51423.91
-UUUU,Basic Materials,Mining - Non Ferrous,0.55,,,,219,25__0,25,0.0,15768.0,22029.0,82380.0,88881.85,89855.78,89953.18,89962.92
-WPM,Basic Materials,Mining - Miscellaneous,0.55,100992.0,1. p999999_trade_value,1.0,405,25__0,25,0.0,12075.6,19000.0,30220.4,100591.23,100951.92,100987.99,100991.6
+version https://git-lfs.github.com/spec/v1
+oid sha256:f7b88ee3114798de82e7ad81681aa9ec47deb1cc410e45456c02634325fa51e9
+size 2153

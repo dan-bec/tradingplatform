@@ -1,3 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-INFY,Computer and Technology,Computers - IT Services,0.65,,,,153,20__0,20,0.0,10272.0,15360.0,24796.0,32989.92,34294.99,34425.5,34438.55
-SAIC,Computer and Technology,Computers - IT Services,0.65,,,,73,20__0,20,0.0,22116.0,26744.4,71755.2,121223.52,126170.35,126665.04,126714.5
+version https://git-lfs.github.com/spec/v1
+oid sha256:6302923eca6f8d22b2382e3d2b3d219e69f2343671b32af47c3bc75a200f13af
+size 557

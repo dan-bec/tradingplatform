@@ -1,10 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-BC,Consumer Discretionary,Leisure and Recreation Products,0.55,38400.0,7. p90_trade_value,4.0,35,15__0,15,3,0.0,30540.0,39750.0,79845.0,98434.5,100293.45,100479.34,100497.93
-GOLF,Consumer Discretionary,Leisure and Recreation Products,0.55,11250.0,1. p999999_trade_value,1.0,5,5__0,5,3,0.0,9086.4,10168.2,11033.64,11228.36,11247.84,11249.78,11249.98
-MBUU,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,6,10__0,10,3,0.0,22095.0,29722.5,35824.5,37197.45,37334.75,37348.47,37349.85
-MCFT,Consumer Discretionary,Leisure and Recreation Products,0.55,57840.0,1. p999999_trade_value,1.0,3,5__1,5,3,1.0,47203.0,52521.5,56776.3,57733.63,57829.36,57838.94,57839.89
-MODG,Consumer Discretionary,Leisure and Recreation Products,0.55,12780.0,1. p999999_trade_value,1.0,39,15__0,15,3,0.0,7630.0,10255.2,12392.4,12741.24,12776.12,12779.61,12779.96
-ONEW,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,5,5__0,5,3,0.0,5256.0,5508.0,5709.6,5754.96,5759.5,5759.95,5759.99
-PLBY,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,6,10__0,10,3,0.0,17237.5,22368.75,26473.75,27397.38,27489.74,27498.97,27499.9
-RGR,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,10,10__0,10,3,0.0,11529.0,11659.5,11763.9,11787.39,11789.74,11789.97,11790.0
-SWBI,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,16,10__0,10,3,0.0,12725.0,13612.5,14962.5,15266.25,15296.63,15299.66,15299.97
+version https://git-lfs.github.com/spec/v1
+oid sha256:0d1a445d8fe602c090bf2c8b2d9dc51f5304da594f118e425380935c9f0be932
+size 1719

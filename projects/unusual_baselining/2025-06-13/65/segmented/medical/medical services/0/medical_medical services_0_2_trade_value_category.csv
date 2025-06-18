@@ -1,2 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-SKIN,Medical,Medical Services,0__2,0,2.0,1. p999999_trade_value,3890.0000000000005,3890.0000000000005,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:da0513ab1902822f3feb799edcbbfc96d9df71f15a8bb99c86d6c1f4e98cf36a
+size 355

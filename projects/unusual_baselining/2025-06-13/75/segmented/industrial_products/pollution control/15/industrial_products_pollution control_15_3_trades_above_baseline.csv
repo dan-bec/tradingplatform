@@ -1,2 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,category_minimum,categiry_maximum,option_ticker,security_1,option_type,strike_price,expiration,conditions,correction,exchange,price,sip_timestamp,size,trade_value,data_date,min_trade_value,expiration_days_out,otm_range,option_condition_name,sector_1,industry_1,securty_open,security_high,security_low,security_close,trade_rank,trade_value_log10,number_of_bins,trade_value_bin,itm,itm_expiration_day,itm_expriation_close,otm
-TTEK,Industrial Products,Pollution Control,15__0,15,0.0,1. p999999_trade_value,64740.0,64740.0,O:TTEK241115P00045000,TTEK,P,45.0,2024-11-15,209,0,313,0.6,1731515446520000000,1079,64740.0,2024-11-13,3000,30,True,Automatic Execution,Industrial Products,Pollution Control,48.07,48.3,47.29,47.35,1,4.8111726950665545,20,1,1,1,1,0
+version https://git-lfs.github.com/spec/v1
+oid sha256:48fdf51c0091df1e4e782fec260cc7d3b5c34553e757c016d3abbfc59198f0a7
+size 835

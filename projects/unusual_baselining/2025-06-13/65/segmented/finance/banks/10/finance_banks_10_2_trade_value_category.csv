@@ -1,26 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-BANC,Finance,Banks - Southwest,10__0,10,0.0,1. p999999_trade_value,34454.0,34454.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-BANC,Finance,Banks - Southwest,10__0,10,0.0,7. p90_trade_value,10800.0,10800.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
-BANC,Finance,Banks - Southwest,10__0,10,0.0,8. p75_trade_value,8595.0,6266.0,3.0,3.0,1.0,0.65,1. ABOVE BASELINE,5.0,5.0,1.0
-BBAR,Finance,Banks - Foreign,10__0,10,0.0,1. p999999_trade_value,26145.0,26145.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-BBAR,Finance,Banks - Foreign,10__0,10,0.0,7. p90_trade_value,8750.0,8750.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
-BBAR,Finance,Banks - Foreign,10__0,10,0.0,8. p75_trade_value,8190.000000000001,7200.0,2.0,2.0,1.0,0.65,1. ABOVE BASELINE,4.0,4.0,1.0
-BOH,Finance,Banks - West,10__0,10,0.0,1. p999999_trade_value,18000.0,18000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-BOH,Finance,Banks - West,10__0,10,0.0,8. p75_trade_value,9000.0,5800.0,2.0,2.0,1.0,0.65,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
-CFR,Finance,Banks - Southwest,10__0,10,0.0,1. p999999_trade_value,12150.000000000002,12150.000000000002,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-CFR,Finance,Banks - Southwest,10__0,10,0.0,7. p90_trade_value,7830.000000000001,7830.000000000001,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,2.0,0.0
-CFR,Finance,Banks - Southwest,10__0,10,0.0,8. p75_trade_value,6750.0,6750.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
-EBC,Finance,Banks - Northeast,10__0,10,0.0,1. p999999_trade_value,15000.0,15000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-EBC,Finance,Banks - Northeast,10__0,10,0.0,7. p90_trade_value,12000.0,12000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
-EBC,Finance,Banks - Northeast,10__0,10,0.0,8. p75_trade_value,11200.000000000002,5500.000000000001,4.0,4.0,1.0,0.65,1. ABOVE BASELINE,6.0,6.0,1.0
-ING,Finance,Banks - Foreign,10__0,10,0.0,1. p999999_trade_value,7475.0,7475.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-ING,Finance,Banks - Foreign,10__0,10,0.0,8. p75_trade_value,5355.0,5355.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
-ITUB,Finance,Banks - Foreign,10__0,10,0.0,1. p999999_trade_value,25000.0,25000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-ITUB,Finance,Banks - Foreign,10__0,10,0.0,8. p75_trade_value,7030.0,7030.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
-NWG,Finance,Banks - Foreign,10__0,10,0.0,1. p999999_trade_value,13410.0,13410.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-NWG,Finance,Banks - Foreign,10__0,10,0.0,8. p75_trade_value,5190.0,5190.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,2.0,0.0
-SUPV,Finance,Banks - Foreign,10__0,10,0.0,1. p999999_trade_value,9600.0,9600.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-SUPV,Finance,Banks - Foreign,10__0,10,0.0,7. p90_trade_value,6975.0,6975.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
-SUPV,Finance,Banks - Foreign,10__0,10,0.0,8. p75_trade_value,5460.000000000001,5460.000000000001,1.0,1.0,1.0,0.65,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
-TCBI,Finance,Banks - Southwest,10__0,10,0.0,1. p999999_trade_value,4920.0,4920.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-TCBI,Finance,Banks - Southwest,10__0,10,0.0,8. p75_trade_value,4776.0,4776.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:40fd0a45ddb69a78b34ca20ff96870ba7425b562e93cc3965cbbf3438eaf0aa6
+size 3463

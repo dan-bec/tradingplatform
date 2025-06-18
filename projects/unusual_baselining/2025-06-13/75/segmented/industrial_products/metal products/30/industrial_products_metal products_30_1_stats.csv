@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AA,Industrial Products,Metal Products - Distribution,0.75,30951.0,6. p95_trade_value,82.0,1635,30__1,30,1.0,17360.8,30453.3,107620.0,840000.0,840000.0,840000.0,840000.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:47696a7b8712112140f96ed3a43b08e4b1b35d9b58021c26726023570ab5d7f6
+size 449

@@ -1,11 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-PCT,Business Services,Waste Removal Services,30__2,30,2.0,1. p999999_trade_value,288810.0,288810.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-PCT,Business Services,Waste Removal Services,30__2,30,2.0,5. p99_trade_value,252000.0,125220.0,2.0,7.0,0.2857142857142857,0.75,2. BELOW BASELINE,2.0,8.0,0.25
-PCT,Business Services,Waste Removal Services,30__2,30,2.0,6. p95_trade_value,110000.0,27360.000000000004,17.0,31.0,0.5483870967741935,0.75,2. BELOW BASELINE,19.0,39.0,0.48717948717948717
-PCT,Business Services,Waste Removal Services,30__2,30,2.0,7. p90_trade_value,26500.0,15840.0,15.0,38.0,0.39473684210526316,0.75,2. BELOW BASELINE,34.0,77.0,0.44155844155844154
-PCT,Business Services,Waste Removal Services,30__2,30,2.0,8. p75_trade_value,15750.0,8040.000000000001,66.0,115.0,0.5739130434782609,0.75,2. BELOW BASELINE,100.0,192.0,0.5208333333333334
-WM,Business Services,Waste Removal Services,30__2,30,2.0,1. p999999_trade_value,104000.0,104000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-WM,Business Services,Waste Removal Services,30__2,30,2.0,5. p99_trade_value,98009.99999999999,68055.0,2.0,6.0,0.3333333333333333,0.75,2. BELOW BASELINE,2.0,7.0,0.2857142857142857
-WM,Business Services,Waste Removal Services,30__2,30,2.0,6. p95_trade_value,65940.0,22630.0,13.0,28.0,0.4642857142857143,0.75,2. BELOW BASELINE,15.0,35.0,0.42857142857142855
-WM,Business Services,Waste Removal Services,30__2,30,2.0,7. p90_trade_value,21456.0,14560.0,17.0,35.0,0.4857142857142857,0.75,2. BELOW BASELINE,32.0,70.0,0.45714285714285713
-WM,Business Services,Waste Removal Services,30__2,30,2.0,8. p75_trade_value,14525.0,8500.0,65.0,103.0,0.6310679611650486,0.75,2. BELOW BASELINE,97.0,173.0,0.5606936416184971
+version https://git-lfs.github.com/spec/v1
+oid sha256:b1f7ab9af44af2cd406ff5a5bc6d03ce927e193f381b7d79c6b7d15855750aeb
+size 1906

@@ -1,32 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-AVB,Finance,REIT and Equity Trust - Residential,10__0,10,0.0,1. p999999_trade_value,14100.0,14100.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-AVB,Finance,REIT and Equity Trust - Residential,10__0,10,0.0,7. p90_trade_value,13200.0,13200.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-AVB,Finance,REIT and Equity Trust - Residential,10__0,10,0.0,8. p75_trade_value,10620.0,9975.0,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,3.0,5.0,0.6
-CHCT,Finance,REIT and Equity Trust - Other,10__0,10,0.0,1. p999999_trade_value,9000.0,9000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-CHCT,Finance,REIT and Equity Trust - Other,10__0,10,0.0,8. p75_trade_value,8000.0,8000.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-EQR,Finance,REIT and Equity Trust - Residential,10__0,10,0.0,1. p999999_trade_value,7244.999999999999,7244.999999999999,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-EQR,Finance,REIT and Equity Trust - Residential,10__0,10,0.0,7. p90_trade_value,6000.0,6000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-EQR,Finance,REIT and Equity Trust - Residential,10__0,10,0.0,8. p75_trade_value,4100.0,4100.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
-FRT,Finance,REIT and Equity Trust - Retail,10__3,10,3.0,1. p999999_trade_value,195730.0,195730.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-FRT,Finance,REIT and Equity Trust - Retail,10__3,10,3.0,8. p75_trade_value,188769.99999999997,128810.00000000001,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
-GLPI,Finance,REIT and Equity Trust - Other,10__0,10,0.0,1. p999999_trade_value,22575.0,22575.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-GLPI,Finance,REIT and Equity Trust - Other,10__0,10,0.0,7. p90_trade_value,8750.0,8750.0,4.0,4.0,1.0,0.55,1. ABOVE BASELINE,5.0,5.0,1.0
-HPP,Finance,REIT and Equity Trust - Other,10__0,10,0.0,1. p999999_trade_value,12000.0,12000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-HPP,Finance,REIT and Equity Trust - Other,10__0,10,0.0,8. p75_trade_value,8091.0,8091.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-HR,Finance,REIT and Equity Trust - Other,10__0,10,0.0,1. p999999_trade_value,20565.0,20565.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-HR,Finance,REIT and Equity Trust - Other,10__0,10,0.0,8. p75_trade_value,9750.0,6330.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
-INVH,Finance,REIT and Equity Trust - Residential,10__0,10,0.0,1. p999999_trade_value,35530.0,35530.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-INVH,Finance,REIT and Equity Trust - Residential,10__0,10,0.0,7. p90_trade_value,26500.0,26500.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-INVH,Finance,REIT and Equity Trust - Residential,10__0,10,0.0,8. p75_trade_value,25260.000000000004,10560.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,4.0,0.5
-KRC,Finance,REIT and Equity Trust - Other,10__3,10,3.0,1. p999999_trade_value,118265.00000000001,118265.00000000001,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-LAMR,Finance,REIT and Equity Trust - Other,10__0,10,0.0,1. p999999_trade_value,12100.000000000002,12100.000000000002,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-LAMR,Finance,REIT and Equity Trust - Other,10__0,10,0.0,8. p75_trade_value,8000.0,8000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-MAA,Finance,REIT and Equity Trust - Residential,10__0,10,0.0,1. p999999_trade_value,28675.0,28675.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-MAA,Finance,REIT and Equity Trust - Residential,10__0,10,0.0,7. p90_trade_value,8604.0,8604.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-MAA,Finance,REIT and Equity Trust - Residential,10__0,10,0.0,8. p75_trade_value,6240.000000000001,5820.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,5.0,5.0,1.0
-UNIT,Finance,REIT and Equity Trust - Other,10__0,10,0.0,1. p999999_trade_value,10905.0,10905.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-UNIT,Finance,REIT and Equity Trust - Other,10__0,10,0.0,7. p90_trade_value,9300.0,9300.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-UNIT,Finance,REIT and Equity Trust - Other,10__0,10,0.0,8. p75_trade_value,7092.0,7092.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
-WPC,Finance,REIT and Equity Trust - Other,10__0,10,0.0,1. p999999_trade_value,18090.0,18090.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-WPC,Finance,REIT and Equity Trust - Other,10__0,10,0.0,7. p90_trade_value,15525.0,15525.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-WPC,Finance,REIT and Equity Trust - Other,10__0,10,0.0,8. p75_trade_value,6000.0,5720.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,3.0,4.0,0.75
+version https://git-lfs.github.com/spec/v1
+oid sha256:69b7ef1c8736bb7dc67bedd947fdd49d8fb8f27157f6c43246a393807a1944dc
+size 4718

@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-OI,Industrial Products,Glass Products,0.55,23199.999999999996,7. p90_trade_value,3.0,22,15__0,15,0.0,22880.0,25997.75,35115.45,37261.54,37476.15,37497.62,37499.76
+version https://git-lfs.github.com/spec/v1
+oid sha256:ac407d42517bbf64996f55e43e95e17bc8a449ad3067b4e09f6941db012e1f64
+size 443

@@ -1,9 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-LZ,Industrial Products,Industrial Services,15__0,15,3,0.0,1. p999999_trade_value,53120.00000000001,53120.00000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-LZ,Industrial Products,Industrial Services,15__0,15,3,0.0,6. p95_trade_value,39780.0,39780.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-LZ,Industrial Products,Industrial Services,15__0,15,3,0.0,7. p90_trade_value,14800.0,14800.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
-LZ,Industrial Products,Industrial Services,15__0,15,3,0.0,8. p75_trade_value,14200.0,7550.0,1.0,5.0,0.2,0.55,2. BELOW BASELINE,1.0,8.0,0.125
-SCSC,Industrial Products,Industrial Services,0__2,0,3,2.0,1. p999999_trade_value,4500.0,4500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-SITE,Industrial Products,Industrial Services,10__0,10,3,0.0,1. p999999_trade_value,7683.999999999999,7683.999999999999,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-SITE,Industrial Products,Industrial Services,10__0,10,3,0.0,8. p75_trade_value,4500.0,4500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-TPIC,Industrial Products,Industrial Services,5__3,5,3,3.0,1. p999999_trade_value,35000.0,35000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:b2f685bc314b4309b89bda3348f1807341ed01b1f15d1305a0e0fa5968eb0e67
+size 1405

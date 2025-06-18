@@ -1,8 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-LULU,Consumer Discretionary,Textile - Apparel,45__1,45,1.0,1. p999999_trade_value,2255700.0,2255700.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,1.0,1.0
-LULU,Consumer Discretionary,Textile - Apparel,45__1,45,1.0,3. p9999_trade_value,1816959.9999999998,855000.0,1.0,2.0,0.5,0.65,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
-LULU,Consumer Discretionary,Textile - Apparel,45__1,45,1.0,4. p999_trade_value,846690.0,199800.0,16.0,23.0,0.6956521739130435,0.65,2. BELOW BASELINE,18.0,26.0,0.6923076923076923
-LULU,Consumer Discretionary,Textile - Apparel,45__1,45,1.0,5. p99_trade_value,198800.0,67200.0,138.0,229.0,0.6026200873362445,0.65,2. BELOW BASELINE,156.0,255.0,0.611764705882353
-LULU,Consumer Discretionary,Textile - Apparel,45__1,45,1.0,6. p95_trade_value,66800.0,25635.000000000004,550.0,1017.0,0.5408062930186824,0.65,2. BELOW BASELINE,706.0,1272.0,0.5550314465408805
-LULU,Consumer Discretionary,Textile - Apparel,45__1,45,1.0,7. p90_trade_value,25620.0,16702.0,718.0,1272.0,0.5644654088050315,0.65,2. BELOW BASELINE,1424.0,2544.0,0.559748427672956
-LULU,Consumer Discretionary,Textile - Apparel,45__1,45,1.0,8. p75_trade_value,16700.0,8772.0,2140.0,3815.0,0.5609436435124509,0.65,2. BELOW BASELINE,3564.0,6359.0,0.5604654819940242
+version https://git-lfs.github.com/spec/v1
+oid sha256:777ada54126803f845bd6d075873d200ef2c972f03cb2380b47c247c93905b0a
+size 1437

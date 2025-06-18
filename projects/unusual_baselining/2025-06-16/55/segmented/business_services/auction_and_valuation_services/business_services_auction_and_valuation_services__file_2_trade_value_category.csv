@@ -1,16 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-CPRT,Business Services,Auction and Valuation Services,25__0,25,2,0.0,1. p999999_trade_value,330000.0,330000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-CPRT,Business Services,Auction and Valuation Services,25__0,25,2,0.0,5. p99_trade_value,96425.0,96425.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-CPRT,Business Services,Auction and Valuation Services,25__0,25,2,0.0,6. p95_trade_value,81395.99999999999,23170.0,4.0,8.0,0.5,0.55,2. BELOW BASELINE,6.0,10.0,0.6
-CPRT,Business Services,Auction and Valuation Services,25__0,25,2,0.0,7. p90_trade_value,20250.0,14363.999999999998,6.0,10.0,0.6,0.55,2. BELOW BASELINE,12.0,20.0,0.6
-CPRT,Business Services,Auction and Valuation Services,25__0,25,2,0.0,8. p75_trade_value,11499.999999999998,7000.0,15.0,30.0,0.5,0.55,2. BELOW BASELINE,27.0,50.0,0.54
-LQDT,Business Services,Auction and Valuation Services,15__0,15,3,0.0,1. p999999_trade_value,27040.000000000004,27040.000000000004,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-LQDT,Business Services,Auction and Valuation Services,15__0,15,3,0.0,6. p95_trade_value,17489.999999999996,17489.999999999996,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-LQDT,Business Services,Auction and Valuation Services,15__0,15,3,0.0,7. p90_trade_value,15040.0,15040.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
-LQDT,Business Services,Auction and Valuation Services,15__0,15,3,0.0,8. p75_trade_value,14880.000000000002,10850.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,6.0,6.0,1.0
-RILY,Business Services,Auction and Valuation Services,30__2,30,2,2.0,1. p999999_trade_value,330000.00000000006,330000.00000000006,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-RILY,Business Services,Auction and Valuation Services,30__2,30,2,2.0,4. p999_trade_value,97845.99999999999,97845.99999999999,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-RILY,Business Services,Auction and Valuation Services,30__2,30,2,2.0,5. p99_trade_value,95095.0,32375.0,4.0,12.0,0.3333333333333333,0.55,2. BELOW BASELINE,5.0,14.0,0.35714285714285715
-RILY,Business Services,Auction and Valuation Services,30__2,30,2,2.0,6. p95_trade_value,30575.0,15000.0,17.0,56.0,0.30357142857142855,0.55,2. BELOW BASELINE,22.0,70.0,0.3142857142857143
-RILY,Business Services,Auction and Valuation Services,30__2,30,2,2.0,7. p90_trade_value,14969.999999999998,11250.0,26.0,64.0,0.40625,0.55,2. BELOW BASELINE,48.0,134.0,0.3582089552238806
-RILY,Business Services,Auction and Valuation Services,30__2,30,2,2.0,8. p75_trade_value,11144.000000000002,7000.0,96.0,209.0,0.45933014354066987,0.55,2. BELOW BASELINE,144.0,343.0,0.4198250728862974
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2f8df456cc80280feb9fa05b6a6aa406311d203e8600cb63bd3087dfc85231e
+size 2796

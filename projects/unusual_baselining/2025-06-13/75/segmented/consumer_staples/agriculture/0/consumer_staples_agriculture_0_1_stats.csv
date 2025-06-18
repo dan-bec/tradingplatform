@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-DOLE,Consumer Staples,Agriculture - Operations,0.75,,,,1,0__2,0,2.0,3840.0,3840.0,3840.0,3840.0,3840.0,3840.0,3840.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:24df3b0ad45deb740388722f53a32ede72f84fa41636c62109c1efe6d383d6ad
+size 397

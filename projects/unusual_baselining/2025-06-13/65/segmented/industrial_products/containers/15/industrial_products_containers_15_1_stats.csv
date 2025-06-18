@@ -1,5 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AVY,Industrial Products,Containers - Paper and Packaging,0.65,,,,26,15__0,15,0.0,8109.0,12438.0,16740.0,17658.0,17749.8,17758.98,17759.9
-BALL,Industrial Products,Containers - Metal and Glass,0.65,,,,46,15__0,15,0.0,18159.0,56570.0,242881.5,263913.15,266016.32,266226.63,266247.66
-PACK,Industrial Products,Containers - Paper and Packaging,0.65,,,,23,15__0,15,0.0,8600.0,9596.0,9931.8,9993.18,9999.32,9999.93,9999.99
-UFPT,Industrial Products,Containers - Paper and Packaging,0.65,,,,24,15__0,15,0.0,18900.0,23294.5,36336.1,39633.61,39963.36,39996.34,39999.63
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd8dea7b98f71d38da77001a01369f9228a9204490dfddb272f09bdfe9b7a226
+size 837

@@ -1,2 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-GRWG,Basic Materials,Agriculture - Products,0__2,0,2.0,1. p999999_trade_value,5575.0,5575.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:df7699b0a4328ad41298f78917192a19ebaa91e6605b1cb41edb8ee125cedd00
+size 345

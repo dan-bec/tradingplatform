@@ -1,12 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ARW,Computer and Technology,Electronics - Parts Distribution,0.55,,,,7,10__0,10,0.0,24850.0,24925.0,24985.0,24998.5,24999.85,24999.98,25000.0
-BLNK,Computer and Technology,Electronics - Miscellaneous Services,0.55,7280.0,8. p75_trade_value,2.0,7,10__0,10,0.0,9168.0,10584.0,11716.8,11971.68,11997.17,11999.72,11999.97
-CEVA,Computer and Technology,Electronics - Semiconductors,0.55,4950.0,1. p999999_trade_value,1.0,6,10__0,10,0.0,4725.0,4837.5,4927.5,4947.75,4949.78,4949.98,4950.0
-CGNX,Computer and Technology,Electronics - Testing Equipment,0.55,,,,9,10__0,10,0.0,7416.0,8388.0,9165.6,9340.56,9358.06,9359.81,9359.98
-DIOD,Computer and Technology,Electronics - Semiconductors,0.55,,,,15,10__0,10,0.0,9812.0,19054.0,34050.8,37425.08,37762.51,37796.25,37799.63
-HAYW,Computer and Technology,Electronics - Miscellaneous Products,0.55,,,,6,10__0,10,0.0,12000.0,14000.0,15600.0,15960.0,15996.0,15999.6,15999.96
-MG,Computer and Technology,Electronics - Miscellaneous Products,0.55,,,,7,10__0,10,0.0,10710.0,10710.0,10710.0,10710.0,10710.0,10710.0,10710.0
-NOVT,Computer and Technology,Electronics - Miscellaneous Components,0.55,20000.0,8. p75_trade_value,4.0,13,10__0,10,0.0,24400.0,47454.0,74998.8,81196.38,81816.14,81878.11,81884.31
-QUIK,Computer and Technology,Electronics - Semiconductors,0.55,,,,13,10__0,10,0.0,5405.6,6319.6,7183.12,7377.41,7396.84,7398.78,7398.98
-ROG,Computer and Technology,Electronics - Miscellaneous Components,0.55,40000.0,7. p90_trade_value,3.0,15,10__0,10,0.0,40000.0,42550.0,47310.0,48381.0,48488.1,48498.81,48499.88
-UCTT,Computer and Technology,Electronics - Manufacturing Machinery,0.55,,,,15,10__0,10,0.0,5660.0,5700.0,5700.0,5700.0,5700.0,5700.0,5700.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:1173d4e7d6f0ee2fe7a57375afb4c1b637a0784edaec4551c24ef04bd251d821
+size 1961

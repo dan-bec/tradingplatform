@@ -1,6 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-EA,Consumer Discretionary,Gaming,0.75,580000.0,4. p999_trade_value,3.0,2156,35__2,35,2.0,16884.0,31625.0,141125.0,559850.0,1019163.75,1067166.38,1071966.64
-FLUT,Consumer Discretionary,Gaming,0.75,,,,2104,35__0,35,0.0,13968.0,25172.7,79726.6,345932.32,446658.55,451609.86,452104.99
-LVS,Consumer Discretionary,Gaming,0.75,604800.0,1. p999999_trade_value,1.0,2232,35__0,35,0.0,15596.1,24897.8,131889.08,342500.0,547771.18,599097.12,604229.71
-TTWO,Consumer Discretionary,Gaming,0.75,590409.0,1. p999999_trade_value,1.0,3765,35__0,35,0.0,15280.0,25074.0,110000.0,291950.12,543656.73,585733.77,589941.48
-WYNN,Consumer Discretionary,Gaming,0.75,,,,4070,35__2,35,2.0,17382.9,29000.0,86887.5,332758.0,892171.5,989217.15,998921.71
+version https://git-lfs.github.com/spec/v1
+oid sha256:7691e45062fd4c69e88d640be3ea9948b7dc3ad706e43b87f75667f84fa9149b
+size 1001

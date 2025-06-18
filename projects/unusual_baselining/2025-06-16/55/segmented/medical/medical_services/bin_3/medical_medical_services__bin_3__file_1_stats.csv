@@ -1,17 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AGL,Medical,Medical Services,0.55,13894.999999999998,8. p75_trade_value,3.0,11,10__0,10,3,0.0,17990.0,38995.0,55799.0,59579.9,59957.99,59995.8,59999.58
-AMN,Medical,Medical Services,0.55,,,,52,15__0,15,3,0.0,11094.0,16799.4,30192.19,36724.22,37377.42,37442.74,37449.27
-ARDT,Medical,Medical Services,0.55,,,,6,10__0,10,3,0.0,30855.0,32332.5,33514.5,33780.45,33807.05,33809.7,33809.97
-BDSX,Medical,Medical Services,0.55,,,,7,10__0,10,3,0.0,9960.0,10680.0,11256.0,11385.6,11398.56,11399.86,11399.99
-BLCO,Medical,Medical Services,0.55,,,,28,15__0,15,3,0.0,16142.5,21978.75,25760.76,26346.88,26405.49,26411.35,26411.93
-BTSG,Medical,Medical Services,0.55,49500.0,8. p75_trade_value,2.0,8,10__0,10,3,0.0,51150.0,53075.0,54615.0,54961.5,54996.15,54999.62,54999.96
-CDNA,Medical,Medical Services,0.55,,,,33,15__0,15,3,0.0,12390.0,13970.0,20140.0,22264.0,22476.4,22497.64,22499.76
-CMPS,Medical,Medical Services,0.55,,,,8,10__0,10,3,0.0,6484.5,8799.75,10651.95,11068.7,11110.37,11114.54,11114.95
-DCGO,Medical,Medical Services,0.55,,,,5,5__0,5,3,0.0,5716.0,6358.0,6871.6,6987.16,6998.72,6999.87,6999.99
-GDRX,Medical,Medical Services,0.55,,,,2,5__3,5,3,3.0,26697.6,27940.8,28935.36,29159.14,29181.51,29183.75,29183.98
-MODV,Medical,Medical Services,0.55,,,,17,10__0,10,3,0.0,9284.8,11049.8,16069.96,17199.5,17312.45,17323.74,17324.87
-OGN,Medical,Medical Services,0.55,130000.0,1. p999999_trade_value,1.0,42,15__0,15,3,0.0,10113.9,15247.0,83292.8,125329.28,129532.93,129953.29,129995.33
-PINC,Medical,Medical Services,0.55,,,,21,15__0,15,3,0.0,75000.0,75000.0,75000.0,75000.0,75000.0,75000.0,75000.0
-SHC,Medical,Medical Services,0.55,28800.0,1. p999999_trade_value,1.0,2,5__3,5,3,3.0,26705.0,27752.5,28590.5,28779.05,28797.91,28799.79,28799.98
-SKIN,Medical,Medical Services,0.55,,,,1,0__2,0,3,2.0,3890.0,3890.0,3890.0,3890.0,3890.0,3890.0,3890.0
-VTRS,Medical,Medical Services,0.55,77952.0,1. p999999_trade_value,1.0,45,15__0,15,3,0.0,27740.8,51966.4,67413.12,76898.11,77846.61,77941.46,77950.95
+version https://git-lfs.github.com/spec/v1
+oid sha256:1f599ebe79b1ecf770e321be1f133b12b18e3cac82591f87eed2ac65d119c395
+size 2279

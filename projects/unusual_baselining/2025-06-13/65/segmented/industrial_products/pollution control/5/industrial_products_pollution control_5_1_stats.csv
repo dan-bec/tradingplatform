@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-DCI,Industrial Products,Pollution Control,0.65,8189.999999999999,1. p999999_trade_value,1.0,3,5__0,5,0.0,7652.0,7921.0,8136.2,8184.62,8189.46,8189.95,8189.99
+version https://git-lfs.github.com/spec/v1
+oid sha256:001fd0bca53d93f07bb917c5976bb6629f7b4e1546e1aec938d291e6f55d194c
+size 438

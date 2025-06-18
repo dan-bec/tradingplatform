@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-WKSP,Retail-Wholesale,Automotive - Retail and Whole Sales,0.75,4140.000000000001,1. p999999_trade_value,1.0,1,0__2,0,2.0,4140.0,4140.0,4140.0,4140.0,4140.0,4140.0,4140.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc3e6c73de95595691be4fbced05237864832f3974dccc083fc42da9ce1df943
+size 450

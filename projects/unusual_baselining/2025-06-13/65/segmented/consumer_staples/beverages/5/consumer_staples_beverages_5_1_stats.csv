@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ZVIA,Consumer Staples,Beverages - Soft drinks,0.65,,,,5,5__0,5,0.0,7500.0,7500.0,7500.0,7500.0,7500.0,7500.0,7500.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:5641fb840a1e3d11e3db1d7e344361f93f929cac69a94347ba4859e0f916765a
+size 396

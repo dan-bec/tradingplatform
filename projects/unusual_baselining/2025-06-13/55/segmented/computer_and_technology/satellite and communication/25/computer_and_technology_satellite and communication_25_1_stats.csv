@@ -1,3 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-PL,Computer and Technology,Satellite and Communication,0.55,,,,333,25__0,25,0.0,9838.0,13365.0,25678.8,47446.16,50320.62,50608.06,50636.81
-SATS,Computer and Technology,Satellite and Communication,0.55,699525.0,1. p999999_trade_value,1.0,534,25__0,25,0.0,15210.0,34281.3,238281.2,521223.17,681694.82,697741.98,699346.7
+version https://git-lfs.github.com/spec/v1
+oid sha256:415180508c349668f8cf9b8d39fd5aaf7d45003cdf48f6d44f176f65a8977e7a
+size 598

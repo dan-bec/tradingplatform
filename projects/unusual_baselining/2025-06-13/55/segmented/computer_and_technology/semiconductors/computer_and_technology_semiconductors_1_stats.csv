@@ -1,4 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-POWI,Computer and Technology,Semiconductors - Power,0.55,,,,24,15__0,15,0.0,15464.4,33157.8,36000.0,36000.0,36000.0,36000.0,36000.0
-QRVO,Computer and Technology,Semiconductors - Radio Frequency,0.55,,,,242,25__2,25,2.0,23532.0,51995.0,275695.0,292751.2,296395.12,296759.51,296795.95
-SWKS,Computer and Technology,Semiconductors - Radio Frequency,0.55,194260.0,5. p99_trade_value,12.0,1116,30__2,30,2.0,13750.0,20752.5,186883.0,405337.5,468867.5,474386.75,474938.67
+version https://git-lfs.github.com/spec/v1
+oid sha256:94b51197d478f6a1b4280e5ba3c555ea68436f1f4c3279a48a2cffbde8269741
+size 744

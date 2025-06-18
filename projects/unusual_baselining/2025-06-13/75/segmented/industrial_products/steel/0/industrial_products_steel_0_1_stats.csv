@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-MWA,Industrial Products,Steel - Pipe and Tube,0.75,8400.0,1. p999999_trade_value,1.0,1,0__0,0,0.0,8400.0,8400.0,8400.0,8400.0,8400.0,8400.0,8400.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:0eb1dafa3095f79a2decd9ef09ddcae8283f2c84a20e7d80fed35480072cab46
+size 427

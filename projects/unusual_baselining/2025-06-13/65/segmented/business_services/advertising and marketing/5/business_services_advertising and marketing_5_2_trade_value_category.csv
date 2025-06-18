@@ -1,5 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-GCI,Business Services,Advertising and Marketing,5__0,5,0.0,1. p999999_trade_value,5700.0,5700.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-IAS,Business Services,Advertising and Marketing,5__0,5,0.0,1. p999999_trade_value,10150.0,10150.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-IAS,Business Services,Advertising and Marketing,5__0,5,0.0,8. p75_trade_value,6000.0,6000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
-WPP,Business Services,Advertising and Marketing,5__0,5,0.0,1. p999999_trade_value,3825.0,3825.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:0482316620336621c85776774efd46bf38c088b8975b19bd37dbb3904938c984
+size 776

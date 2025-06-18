@@ -1,31 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-ALLT,Business Services,Technology Services,15__0,15,0.0,1. p999999_trade_value,13800.0,13800.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-ALLT,Business Services,Technology Services,15__0,15,0.0,7. p90_trade_value,11046.0,11046.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-ALLT,Business Services,Technology Services,15__0,15,0.0,8. p75_trade_value,10800.0,10050.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,5.0,5.0,1.0
-AMPL,Business Services,Technology Services,15__0,15,0.0,1. p999999_trade_value,150000.0,150000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-AMPL,Business Services,Technology Services,15__0,15,0.0,6. p95_trade_value,15000.0,15000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-AMPL,Business Services,Technology Services,15__0,15,0.0,7. p90_trade_value,14520.000000000002,13750.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,4.0,0.5
-AMPL,Business Services,Technology Services,15__0,15,0.0,8. p75_trade_value,10440.0,7650.0,5.0,6.0,0.8333333333333334,0.55,2. BELOW BASELINE,7.0,10.0,0.7
-AMPX,Business Services,Technology Services,15__0,15,0.0,1. p999999_trade_value,16410.0,16410.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-AMPX,Business Services,Technology Services,15__0,15,0.0,6. p95_trade_value,10500.0,10200.000000000002,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
-AMPX,Business Services,Technology Services,15__0,15,0.0,7. p90_trade_value,9880.000000000002,9180.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,5.0,0.2
-AMPX,Business Services,Technology Services,15__0,15,0.0,8. p75_trade_value,8785.0,7875.0,1.0,6.0,0.16666666666666666,0.55,2. BELOW BASELINE,2.0,11.0,0.18181818181818182
-GEN,Business Services,Technology Services,15__0,15,0.0,1. p999999_trade_value,51000.00000000001,51000.00000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-GEN,Business Services,Technology Services,15__0,15,0.0,6. p95_trade_value,27000.0,27000.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-GEN,Business Services,Technology Services,15__0,15,0.0,7. p90_trade_value,19860.0,19860.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
-GEN,Business Services,Technology Services,15__0,15,0.0,8. p75_trade_value,18000.0,9680.000000000002,2.0,3.0,0.6666666666666666,0.55,2. BELOW BASELINE,3.0,6.0,0.5
-MAX,Business Services,Technology Services,15__0,15,0.0,1. p999999_trade_value,18000.0,18000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-MAX,Business Services,Technology Services,15__0,15,0.0,6. p95_trade_value,16275.0,13940.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
-MAX,Business Services,Technology Services,15__0,15,0.0,7. p90_trade_value,13500.0,12160.0,3.0,3.0,1.0,0.55,2. BELOW BASELINE,4.0,6.0,0.6666666666666666
-MAX,Business Services,Technology Services,15__0,15,0.0,8. p75_trade_value,11390.0,10200.0,0.0,8.0,0.0,0.55,2. BELOW BASELINE,4.0,14.0,0.2857142857142857
-RAMP,Business Services,Technology Services,15__0,15,0.0,1. p999999_trade_value,120000.0,120000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-RAMP,Business Services,Technology Services,15__0,15,0.0,6. p95_trade_value,20000.0,19800.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
-RAMP,Business Services,Technology Services,15__0,15,0.0,7. p90_trade_value,15900.0,15500.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,5.0,0.2
-RAMP,Business Services,Technology Services,15__0,15,0.0,8. p75_trade_value,10750.0,6000.0,1.0,5.0,0.2,0.55,2. BELOW BASELINE,2.0,10.0,0.2
-UPXI,Business Services,Technology Services,15__0,15,0.0,6. p95_trade_value,40999.99999999999,40999.99999999999,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-UPXI,Business Services,Technology Services,15__0,15,0.0,7. p90_trade_value,20499.999999999996,20499.999999999996,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
-UPXI,Business Services,Technology Services,15__0,15,0.0,8. p75_trade_value,20000.0,5850.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,6.0,0.0
-YEXT,Business Services,Technology Services,15__0,15,0.0,1. p999999_trade_value,150000.0,150000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-YEXT,Business Services,Technology Services,15__0,15,0.0,6. p95_trade_value,121325.0,121325.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-YEXT,Business Services,Technology Services,15__0,15,0.0,7. p90_trade_value,90000.0,64760.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
-YEXT,Business Services,Technology Services,15__0,15,0.0,8. p75_trade_value,60000.0,20000.0,0.0,5.0,0.0,0.55,2. BELOW BASELINE,0.0,9.0,0.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:06a4cef9cc0f355eaa5cfc64ea4160c2eec41af19054c30a6a25167ef39e8760
+size 4628

@@ -1,17 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-BLDR,Retail-Wholesale,Building Products - Retail,30__2,30,2.0,1. p999999_trade_value,450000.0,450000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-BLDR,Retail-Wholesale,Building Products - Retail,30__2,30,2.0,4. p999_trade_value,145000.0,145000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-BLDR,Retail-Wholesale,Building Products - Retail,30__2,30,2.0,5. p99_trade_value,137500.0,61294.99999999999,8.0,11.0,0.7272727272727273,0.55,1. ABOVE BASELINE,10.0,13.0,0.7692307692307693
-BLDR,Retail-Wholesale,Building Products - Retail,30__2,30,2.0,6. p95_trade_value,55200.0,25420.0,22.0,50.0,0.44,0.55,2. BELOW BASELINE,32.0,63.0,0.5079365079365079
-BLDR,Retail-Wholesale,Building Products - Retail,30__2,30,2.0,7. p90_trade_value,25200.0,15980.000000000002,27.0,62.0,0.43548387096774194,0.55,2. BELOW BASELINE,59.0,125.0,0.472
-BLDR,Retail-Wholesale,Building Products - Retail,30__2,30,2.0,8. p75_trade_value,15960.0,8510.0,108.0,187.0,0.5775401069518716,0.55,2. BELOW BASELINE,167.0,312.0,0.5352564102564102
-FAST,Retail-Wholesale,Building Products - Retail,25__2,25,2.0,1. p999999_trade_value,570000.0,570000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-FAST,Retail-Wholesale,Building Products - Retail,25__2,25,2.0,5. p99_trade_value,311775.0,278183.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
-FAST,Retail-Wholesale,Building Products - Retail,25__2,25,2.0,6. p95_trade_value,193199.99999999997,55100.0,3.0,9.0,0.3333333333333333,0.55,2. BELOW BASELINE,5.0,12.0,0.4166666666666667
-FAST,Retail-Wholesale,Building Products - Retail,25__2,25,2.0,7. p90_trade_value,51800.0,26564.0,5.0,12.0,0.4166666666666667,0.55,2. BELOW BASELINE,10.0,24.0,0.4166666666666667
-FAST,Retail-Wholesale,Building Products - Retail,25__2,25,2.0,8. p75_trade_value,26250.0,11760.0,17.0,35.0,0.4857142857142857,0.55,2. BELOW BASELINE,27.0,59.0,0.4576271186440678
-GMS,Retail-Wholesale,Building Products - Retail,10__0,10,0.0,1. p999999_trade_value,7575.0,7575.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-GMS,Retail-Wholesale,Building Products - Retail,10__0,10,0.0,8. p75_trade_value,7500.0,7500.0,6.0,6.0,1.0,0.55,1. ABOVE BASELINE,8.0,8.0,1.0
-TGLS,Retail-Wholesale,Building Products - Retail,10__0,10,0.0,1. p999999_trade_value,63360.0,63360.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-TGLS,Retail-Wholesale,Building Products - Retail,10__0,10,0.0,7. p90_trade_value,35100.0,35100.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-TGLS,Retail-Wholesale,Building Products - Retail,10__0,10,0.0,8. p75_trade_value,21000.0,21000.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,3.0,4.0,0.75
+version https://git-lfs.github.com/spec/v1
+oid sha256:63211280f61a530eb9c15399cc76bfc6e72cb6e7443e30066228424cdce0b822
+size 2789

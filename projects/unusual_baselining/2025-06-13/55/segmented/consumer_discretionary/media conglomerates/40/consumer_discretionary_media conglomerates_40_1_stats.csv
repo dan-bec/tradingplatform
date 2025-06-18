@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-DIS,Consumer Discretionary,Media Conglomerates,0.55,8320.0,8. p75_trade_value,3646.0,14558,40__0,40,0.0,15750.0,24779.6,75068.9,295258.63,601132.15,790240.39,807538.04
+version https://git-lfs.github.com/spec/v1
+oid sha256:2733e07ee940b1ae1aa4bda967992213203dc776402377d3d04771ead066cc9e
+size 448

@@ -1,34 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AAON,Construction,Building Products - Air Conditioner and Heating,0.55,,,,59,20__0,20,2,0.0,35697.6,49727.5,61050.0,62355.0,62485.5,62498.55,62499.85
-AGX,Construction,Building Products - Miscellaneous,0.55,220000.0,1. p999999_trade_value,1.0,460,25__0,25,2,0.0,13862.8,22503.0,42410.0,159641.5,213964.15,219396.41,219939.64
-ASPN,Construction,Building Products - Miscellaneous,0.55,,,,268,25__0,25,2,0.0,10000.0,14555.25,47325.0,198401.57,244372.16,248969.22,249428.92
-AZEK,Construction,Building Products - Air Conditioner and Heating,0.55,130000.0,1. p999999_trade_value,1.0,66,20__0,20,2,0.0,21424.0,53125.0,110500.0,128050.0,129805.0,129980.5,129998.05
-BLD,Construction,Building Products - Miscellaneous,0.55,,,,148,20__0,20,2,0.0,13763.4,20200.0,38286.0,58771.8,61497.18,61769.72,61796.97
-CARR,Construction,Building Products - Air Conditioner and Heating,0.55,364320.0,1. p999999_trade_value,1.0,402,25__2,25,2,2.0,20991.0,44219.0,258615.75,335736.72,361461.67,364034.17,364291.42
-CRH,Construction,Building Products - Miscellaneous,0.55,1000000.0,4. p999_trade_value,2.0,1914,35__1,35,2,1.0,18068.1,45203.0,180326.25,817400.0,1202175.0,1245217.5,1249521.75
-DHI,Construction,Building Products - Home Builders,0.55,481500.0,1. p999999_trade_value,1.0,2511,35__0,35,2,0.0,15219.0,23000.0,63413.0,396638.4,480747.0,481424.7,481492.47
-DY,Construction,Building Products - Heavy Construction,0.55,,,,297,25__2,25,2,2.0,11592.0,20130.0,172065.6,1081320.0,1269132.0,1287913.2,1289791.32
-EME,Construction,Building Products - Heavy Construction,0.55,8200.0,8. p75_trade_value,99.0,393,25__0,25,2,0.0,16182.8,23174.0,45599.76,84395.2,91239.52,91923.95,91992.4
-FIX,Construction,Building Products - Air Conditioner and Heating,0.55,274160.0,1. p999999_trade_value,1.0,413,25__0,25,2,0.0,18000.0,30504.0,54248.0,209809.72,267724.97,273516.5,274095.65
-JCI,Construction,Building Products - Wood,0.55,,,,421,25__2,25,2,2.0,23100.0,48400.0,175800.0,358860.0,403086.0,407508.6,407950.86
-KBH,Construction,Building Products - Home Builders,0.55,18500.0,6. p95_trade_value,38.0,474,25__0,25,2,0.0,15342.0,18500.0,76182.0,119046.7,128454.67,129395.47,129489.55
-KNF,Construction,Building Products - Miscellaneous,0.55,95004.0,7. p90_trade_value,6.0,60,20__3,20,2,3.0,70250.4,110819.75,177300.0,193230.0,194823.0,194982.3,194998.23
-LEN,Construction,Building Products - Home Builders,0.55,435659.99999999994,4. p999_trade_value,4.0,3792,35__2,35,2,2.0,15900.6,24000.0,77043.2,407055.07,2553791.15,3585379.11,3688537.91
-LII,Construction,Building Products - Air Conditioner and Heating,0.55,348750.0,1. p999999_trade_value,1.0,310,25__0,25,2,0.0,15441.6,32066.4,96040.0,315146.25,345389.63,348413.96,348716.4
-LPX,Construction,Building Products - Wood,0.55,,,,112,20__0,20,2,0.0,12692.6,17674.8,31432.4,40072.12,40979.21,41069.92,41078.99
-MAS,Construction,Building Products - Miscellaneous,0.55,,,,81,20__0,20,2,0.0,18600.0,38535.0,93182.4,126318.24,129631.82,129963.18,129996.32
-MHO,Construction,Building Products - Home Builders,0.55,12900.0,6. p95_trade_value,5.0,92,20__0,20,2,0.0,5480.0,12226.8,75212.34,79328.63,79740.26,79781.43,79785.54
-MLM,Construction,Building Products - Concrete and Aggregates,0.55,80359.99999999999,1. p999999_trade_value,1.0,88,20__0,20,2,0.0,13440.0,24127.95,48631.1,77187.11,80042.71,80328.27,80356.83
-MTZ,Construction,Building Products - Heavy Construction,0.55,,,,769,30__1,30,2,1.0,18458.0,38298.0,141960.0,1583040.0,2426304.0,2510630.4,2519063.04
-OC,Construction,Building Products - Miscellaneous,0.55,119130.0,5. p99_trade_value,2.0,186,25__0,25,2,0.0,14125.0,23805.0,109304.0,156514.05,164151.41,164915.14,164991.51
-PHM,Construction,Building Products - Home Builders,0.55,,,,639,30__0,30,2,0.0,13120.0,22625.0,142731.76,812123.04,1085142.5,1112444.45,1115174.65
-PRIM,Construction,Building Products - Heavy Construction,0.55,32370.0,6. p95_trade_value,13.0,244,25__0,25,2,0.0,17761.5,32239.5,65074.8,471231.0,533123.1,539312.31,539931.23
-SKY,Construction,Building Products - Mobile Homes and RV Builders,0.55,57980.00000000001,6. p95_trade_value,20.0,381,25__2,25,2,2.0,21500.0,57980.0,291300.0,1231886.32,1497701.03,1524282.5,1526940.65
-THO,Construction,Building Products - Mobile Homes and RV Builders,0.55,,,,291,25__0,25,2,0.0,16500.0,28360.0,176680.0,440210.8,462521.08,464752.11,464975.21
-TOL,Construction,Building Products - Home Builders,0.55,49715.0,5. p99_trade_value,16.0,1356,30__2,30,2,2.0,13737.5,21165.0,49715.0,191119.57,225120.93,228333.09,228654.31
-TREX,Construction,Building Products - Wood,0.55,,,,199,25__0,25,2,0.0,8656.0,15130.0,32262.66,86710.83,98671.08,99867.11,99986.71
-TT,Construction,Building Products - Air Conditioner and Heating,0.55,405499.99999999994,1. p999999_trade_value,1.0,601,30__2,30,2,2.0,11520.0,22500.0,145555.0,323000.0,397250.0,404675.0,405417.5
-URI,Construction,Building Products - Miscellaneous,0.55,,,,3820,35__2,35,2,2.0,16000.0,22461.0,63645.5,394828.15,2125495.49,2343029.55,2364782.95
-VMC,Construction,Building Products - Concrete and Aggregates,0.55,20960.000000000004,7. p90_trade_value,10.0,99,20__0,20,2,0.0,20700.8,35553.8,141610.0,168511.0,171201.1,171470.11,171497.01
-WGO,Construction,Building Products - Mobile Homes and RV Builders,0.55,14720.000000000002,7. p90_trade_value,20.0,197,25__0,25,2,0.0,13028.0,18868.0,44222.4,466233.9,549754.89,558106.99,558942.2
-WSO,Construction,Building Products - Air Conditioner and Heating,0.55,14600.0,8. p75_trade_value,29.0,113,20__0,20,2,0.0,27527.0,42600.0,85380.0,91545.12,91720.51,91738.05,91739.81
+version https://git-lfs.github.com/spec/v1
+oid sha256:0830bcb660f2c487cc84ab2a6318efb35248a4459d19bb402712427abfb9f0fb
+size 5817

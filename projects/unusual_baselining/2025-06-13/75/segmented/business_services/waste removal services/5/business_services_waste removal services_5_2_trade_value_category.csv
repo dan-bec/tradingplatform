@@ -1,2 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-ARIS,Business Services,Waste Removal Services,5__0,5,0.0,1. p999999_trade_value,3915.0,3915.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:543259e78dd48ad669e8b64598685b527cb3396276d747b4ec56f46312ceae4f
+size 347

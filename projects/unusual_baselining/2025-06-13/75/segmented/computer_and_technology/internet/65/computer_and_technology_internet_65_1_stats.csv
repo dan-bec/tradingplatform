@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-TSLA,Computer and Technology,Internet - Software and Services,0.75,,,,3508596,65__0,65,0.0,18920.0,30120.0,80948.1,303000.0,1566467.87,7424453.36,22247356.04
+version https://git-lfs.github.com/spec/v1
+oid sha256:65f53436231469a93cce5543324b9c69c2185fcba4b227f0ab8ee002d6d09391
+size 438

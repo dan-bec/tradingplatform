@@ -1,9 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-MAXN,Oils-Energy,Solar,15__0,15,3,0.0,1. p999999_trade_value,9800.0,9800.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-MAXN,Oils-Energy,Solar,15__0,15,3,0.0,6. p95_trade_value,7200.0,7200.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-MAXN,Oils-Energy,Solar,15__0,15,3,0.0,7. p90_trade_value,7000.0,7000.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,5.0,0.4
-MAXN,Oils-Energy,Solar,15__0,15,3,0.0,8. p75_trade_value,6930.0,6000.0,3.0,6.0,0.5,0.55,2. BELOW BASELINE,5.0,11.0,0.45454545454545453
-SHLS,Oils-Energy,Solar,15__0,15,3,0.0,1. p999999_trade_value,41972.0,41972.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-SHLS,Oils-Energy,Solar,15__0,15,3,0.0,6. p95_trade_value,8540.0,8540.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-SHLS,Oils-Energy,Solar,15__0,15,3,0.0,7. p90_trade_value,5970.0,5970.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
-SHLS,Oils-Energy,Solar,15__0,15,3,0.0,8. p75_trade_value,5500.0,5100.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,5.0,7.0,0.7142857142857143
+version https://git-lfs.github.com/spec/v1
+oid sha256:a70c018ebccad8f7d27b6085a7845720ab447e421ae81e788e763bb3701e5491
+size 1229

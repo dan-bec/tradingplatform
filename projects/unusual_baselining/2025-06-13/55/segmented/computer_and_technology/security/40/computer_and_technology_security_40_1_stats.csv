@@ -1,3 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-OKTA,Computer and Technology,Security,0.55,221056.99999999997,4. p999_trade_value,8.0,7851,40__3,40,3.0,14952.0,23581.0,60382.5,220263.95,765153.9,1314429.39,1369356.94
-ZS,Computer and Technology,Security,0.55,936000.0,3. p9999_trade_value,2.0,14674,40__3,40,3.0,15294.0,23223.15,51781.0,184121.19,796277.3,1353249.03,1417824.9
+version https://git-lfs.github.com/spec/v1
+oid sha256:27f52851638e3e04ed39489153c2d514eae5499778c94c4d7ac641ad35d1346e
+size 608

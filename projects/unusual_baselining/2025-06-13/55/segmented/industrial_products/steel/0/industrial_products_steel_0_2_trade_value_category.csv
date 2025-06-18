@@ -1,2 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-MWA,Industrial Products,Steel - Pipe and Tube,0__0,0,0.0,1. p999999_trade_value,8400.0,8400.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:e0069703777a617f14d05ebce4be37fb991372cf10c673792d9964c0ce4da842
+size 347

@@ -1,4 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AEM,Basic Materials,Mining - Gold,0.55,363000.0,4. p999_trade_value,2.0,1856,35__1,35,1.0,13500.0,20932.5,78702.25,321105.0,1679965.86,1949907.49,1976901.65
-LEU,Basic Materials,Mining - Non Ferrous,0.55,232000.0,1. p999999_trade_value,1.0,2362,35__0,35,0.0,13676.0,21066.5,64292.4,110323.41,208536.38,229653.64,231765.36
-NEM,Basic Materials,Mining - Gold,0.55,,,,4792,35__0,35,0.0,15391.2,22600.3,72356.16,293326.88,660209.0,664520.9,664952.09
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b06100f35f1c1a7e96266102c655bb44427a7fa5a8c241c56fff64bdc4d5141
+size 724

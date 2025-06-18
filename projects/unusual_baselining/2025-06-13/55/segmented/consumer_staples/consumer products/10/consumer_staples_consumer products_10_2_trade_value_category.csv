@@ -1,10 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-DNUT,Consumer Staples,Consumer Products - Staples,10__0,10,0.0,1. p999999_trade_value,66115.0,66115.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-DNUT,Consumer Staples,Consumer Products - Staples,10__0,10,0.0,7. p90_trade_value,11060.0,11060.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-DNUT,Consumer Staples,Consumer Products - Staples,10__0,10,0.0,8. p75_trade_value,8800.0,7530.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,2.0,4.0,0.5
-KLG,Consumer Staples,Consumer Products - Staples,10__0,10,0.0,1. p999999_trade_value,12100.000000000002,12100.000000000002,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-LESL,Consumer Staples,Consumer Products - Staples,10__0,10,0.0,1. p999999_trade_value,22500.0,22500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-LESL,Consumer Staples,Consumer Products - Staples,10__0,10,0.0,7. p90_trade_value,18200.0,18200.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-LESL,Consumer Staples,Consumer Products - Staples,10__0,10,0.0,8. p75_trade_value,6990.000000000001,6990.000000000001,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
-TBBB,Consumer Staples,Consumer Products - Staples,10__0,10,0.0,1. p999999_trade_value,18880.0,18880.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-TBBB,Consumer Staples,Consumer Products - Staples,10__0,10,0.0,7. p90_trade_value,9000.0,9000.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+version https://git-lfs.github.com/spec/v1
+oid sha256:3305ffb69524ca93d73538b1a16f3216119199a4ca10a4ce434f5e60725b17c9
+size 1579

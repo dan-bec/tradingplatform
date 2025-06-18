@@ -1,7 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-CROX,Consumer Discretionary,Textile - Apparel,35__1,35,1.0,1. p999999_trade_value,2082240.0000000002,2082240.0000000002,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-CROX,Consumer Discretionary,Textile - Apparel,35__1,35,1.0,4. p999_trade_value,1898753.0000000002,960000.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
-CROX,Consumer Discretionary,Textile - Apparel,35__1,35,1.0,5. p99_trade_value,675000.0,85250.0,11.0,25.0,0.44,0.55,2. BELOW BASELINE,14.0,28.0,0.5
-CROX,Consumer Discretionary,Textile - Apparel,35__1,35,1.0,6. p95_trade_value,80960.0,25000.0,46.0,112.0,0.4107142857142857,0.55,2. BELOW BASELINE,60.0,140.0,0.42857142857142855
-CROX,Consumer Discretionary,Textile - Apparel,35__1,35,1.0,7. p90_trade_value,24750.0,14960.000000000002,71.0,142.0,0.5,0.55,2. BELOW BASELINE,131.0,282.0,0.4645390070921986
-CROX,Consumer Discretionary,Textile - Apparel,35__1,35,1.0,8. p75_trade_value,14900.0,7734.999999999999,206.0,418.0,0.49282296650717705,0.55,2. BELOW BASELINE,337.0,700.0,0.48142857142857143
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8750933f49980d838084a2c0d33a62078c698d41f11ef30116f5e29b1c3dff4
+size 1217

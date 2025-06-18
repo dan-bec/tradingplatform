@@ -1,13 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-CCJ,Basic Materials,Mining - Miscellaneous,40__2,40,2.0,1. p999999_trade_value,2015467.9999999998,2015467.9999999998,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-CCJ,Basic Materials,Mining - Miscellaneous,40__2,40,2.0,4. p999_trade_value,1560000.0,720000.0,2.0,6.0,0.3333333333333333,0.65,2. BELOW BASELINE,2.0,7.0,0.2857142857142857
-CCJ,Basic Materials,Mining - Miscellaneous,40__2,40,2.0,5. p99_trade_value,577920.0,207948.0,37.0,58.0,0.6379310344827587,0.65,2. BELOW BASELINE,39.0,65.0,0.6
-CCJ,Basic Materials,Mining - Miscellaneous,40__2,40,2.0,6. p95_trade_value,200520.0,35464.0,155.0,256.0,0.60546875,0.65,2. BELOW BASELINE,194.0,321.0,0.6043613707165109
-CCJ,Basic Materials,Mining - Miscellaneous,40__2,40,2.0,7. p90_trade_value,35432.0,18750.0,185.0,322.0,0.5745341614906833,0.65,2. BELOW BASELINE,379.0,643.0,0.5894245723172629
-CCJ,Basic Materials,Mining - Miscellaneous,40__2,40,2.0,8. p75_trade_value,18720.0,9461.999999999998,565.0,958.0,0.5897703549060542,0.65,2. BELOW BASELINE,944.0,1601.0,0.589631480324797
-FCX,Basic Materials,Mining - Non Ferrous,40__0,40,0.0,1. p999999_trade_value,860000.0,860000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-FCX,Basic Materials,Mining - Non Ferrous,40__0,40,0.0,4. p999_trade_value,833000.0,340000.0,6.0,6.0,1.0,0.65,2. BELOW BASELINE,6.0,7.0,0.8571428571428571
-FCX,Basic Materials,Mining - Non Ferrous,40__0,40,0.0,5. p99_trade_value,330000.00000000006,89955.0,41.0,59.0,0.6949152542372882,0.65,2. BELOW BASELINE,47.0,66.0,0.7121212121212122
-FCX,Basic Materials,Mining - Non Ferrous,40__0,40,0.0,6. p95_trade_value,89684.0,26700.0,146.0,264.0,0.553030303030303,0.65,2. BELOW BASELINE,193.0,330.0,0.5848484848484848
-FCX,Basic Materials,Mining - Non Ferrous,40__0,40,0.0,7. p90_trade_value,26550.0,16308.000000000002,206.0,329.0,0.6261398176291794,0.65,2. BELOW BASELINE,399.0,659.0,0.6054628224582701
-FCX,Basic Materials,Mining - Non Ferrous,40__0,40,0.0,8. p75_trade_value,16300.0,8670.0,557.0,988.0,0.5637651821862348,0.65,2. BELOW BASELINE,956.0,1647.0,0.5804493017607771
+version https://git-lfs.github.com/spec/v1
+oid sha256:74f7376cc6d7e8db58e88865a2dba71d4fbf1e885f8a8cd2c878eae6d882cf83
+size 2241

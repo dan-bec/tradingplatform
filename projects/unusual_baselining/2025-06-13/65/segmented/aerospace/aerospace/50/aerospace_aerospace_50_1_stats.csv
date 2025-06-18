@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-BA,Aerospace,Aerospace - Defense,0.65,782000.0,3. p9999_trade_value,7.0,67140,50__3,50,3.0,15120.0,23100.0,56967.63,211554.09,774392.68,997042.36,1063604.24
+version https://git-lfs.github.com/spec/v1
+oid sha256:a7a2eb45d4074b126bfed5869fe734a10b9f5e26f960ad1f58a49f86b570b88b
+size 437

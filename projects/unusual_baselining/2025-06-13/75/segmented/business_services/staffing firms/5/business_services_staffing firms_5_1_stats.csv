@@ -1,3 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CCRN,Business Services,Staffing Firms,0.75,,,,4,5__0,5,0.0,5025.0,5137.5,5227.5,5247.75,5249.78,5249.98,5250.0
-KFY,Business Services,Staffing Firms,0.75,12500.0,1. p999999_trade_value,1.0,3,5__0,5,0.0,10920.0,11710.0,12342.0,12484.2,12498.42,12499.84,12499.98
+version https://git-lfs.github.com/spec/v1
+oid sha256:e48373f80be587f1166ff1f3c1d368aa403af762ab03a325edbd55a7a0e5e15a
+size 540

@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-EL,Consumer Staples,Cosmetics,0.55,358920.0,4. p999_trade_value,4.0,3093,35__2,35,2.0,15484.0,27141.4,126000.0,356995.36,1069676.0,1200467.6,1213546.76
+version https://git-lfs.github.com/spec/v1
+oid sha256:14924f9ce98b7bcaa42426f4b56518910f1587cc9005c777d30b48a5835a28fe
+size 432

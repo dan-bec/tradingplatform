@@ -1,26 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-CBOE,Finance,Securities and Exchanges,25__0,25,0.0,1. p999999_trade_value,262500.0,262500.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-CBOE,Finance,Securities and Exchanges,25__0,25,0.0,5. p99_trade_value,84000.0,56700.0,1.0,3.0,0.3333333333333333,0.65,2. BELOW BASELINE,2.0,4.0,0.5
-CBOE,Finance,Securities and Exchanges,25__0,25,0.0,6. p95_trade_value,35175.0,16836.0,8.0,15.0,0.5333333333333333,0.65,2. BELOW BASELINE,10.0,19.0,0.5263157894736842
-CBOE,Finance,Securities and Exchanges,25__0,25,0.0,7. p90_trade_value,16815.0,12250.000000000002,13.0,19.0,0.6842105263157895,0.65,2. BELOW BASELINE,23.0,38.0,0.6052631578947368
-CBOE,Finance,Securities and Exchanges,25__0,25,0.0,8. p75_trade_value,11700.0,6928.0,35.0,57.0,0.6140350877192983,0.65,2. BELOW BASELINE,58.0,95.0,0.6105263157894737
-CME,Finance,Securities and Exchanges,30__2,30,2.0,1. p999999_trade_value,333000.0,333000.0,2.0,2.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
-CME,Finance,Securities and Exchanges,30__2,30,2.0,5. p99_trade_value,95580.0,44000.00000000001,5.0,7.0,0.7142857142857143,0.65,1. ABOVE BASELINE,7.0,9.0,0.7777777777777778
-CME,Finance,Securities and Exchanges,30__2,30,2.0,6. p95_trade_value,40002.0,25600.0,28.0,36.0,0.7777777777777778,0.65,1. ABOVE BASELINE,35.0,45.0,0.7777777777777778
-CME,Finance,Securities and Exchanges,30__2,30,2.0,7. p90_trade_value,25410.0,16500.0,37.0,44.0,0.8409090909090909,0.65,1. ABOVE BASELINE,72.0,89.0,0.8089887640449438
-CME,Finance,Securities and Exchanges,30__2,30,2.0,8. p75_trade_value,16450.0,9125.0,110.0,133.0,0.8270676691729323,0.65,1. ABOVE BASELINE,182.0,222.0,0.8198198198198198
-ICE,Finance,Securities and Exchanges,25__0,25,0.0,1. p999999_trade_value,454279.99999999994,454279.99999999994,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-ICE,Finance,Securities and Exchanges,25__0,25,0.0,5. p99_trade_value,417125.0,100000.0,2.0,3.0,0.6666666666666666,0.65,1. ABOVE BASELINE,3.0,4.0,0.75
-ICE,Finance,Securities and Exchanges,25__0,25,0.0,6. p95_trade_value,74000.0,24500.000000000004,11.0,14.0,0.7857142857142857,0.65,1. ABOVE BASELINE,14.0,18.0,0.7777777777777778
-ICE,Finance,Securities and Exchanges,25__0,25,0.0,7. p90_trade_value,23672.0,15000.0,11.0,18.0,0.6111111111111112,0.65,2. BELOW BASELINE,25.0,36.0,0.6944444444444444
-ICE,Finance,Securities and Exchanges,25__0,25,0.0,8. p75_trade_value,14300.0,9030.0,35.0,53.0,0.660377358490566,0.65,2. BELOW BASELINE,60.0,89.0,0.6741573033707865
-NDAQ,Finance,Securities and Exchanges,25__0,25,0.0,1. p999999_trade_value,288000.0,288000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-NDAQ,Finance,Securities and Exchanges,25__0,25,0.0,5. p99_trade_value,137389.0,43750.0,0.0,2.0,0.0,0.65,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
-NDAQ,Finance,Securities and Exchanges,25__0,25,0.0,6. p95_trade_value,30959.999999999996,20433.0,5.0,8.0,0.625,0.65,2. BELOW BASELINE,6.0,11.0,0.5454545454545454
-NDAQ,Finance,Securities and Exchanges,25__0,25,0.0,7. p90_trade_value,20320.0,12100.0,10.0,11.0,0.9090909090909091,0.65,2. BELOW BASELINE,16.0,22.0,0.7272727272727273
-NDAQ,Finance,Securities and Exchanges,25__0,25,0.0,8. p75_trade_value,11520.0,7370.0,21.0,33.0,0.6363636363636364,0.65,2. BELOW BASELINE,37.0,55.0,0.6727272727272727
-SPGI,Finance,Securities and Exchanges,30__1,30,1.0,1. p999999_trade_value,322400.0,322400.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-SPGI,Finance,Securities and Exchanges,30__1,30,1.0,5. p99_trade_value,203999.99999999997,110940.00000000001,6.0,6.0,1.0,0.65,1. ABOVE BASELINE,7.0,7.0,1.0
-SPGI,Finance,Securities and Exchanges,30__1,30,1.0,6. p95_trade_value,110080.0,43000.0,9.0,24.0,0.375,0.65,2. BELOW BASELINE,16.0,31.0,0.5161290322580645
-SPGI,Finance,Securities and Exchanges,30__1,30,1.0,7. p90_trade_value,42500.0,18630.0,11.0,30.0,0.36666666666666664,0.65,2. BELOW BASELINE,27.0,61.0,0.4426229508196721
-SPGI,Finance,Securities and Exchanges,30__1,30,1.0,8. p75_trade_value,18612.0,8680.0,56.0,92.0,0.6086956521739131,0.65,2. BELOW BASELINE,83.0,153.0,0.5424836601307189
+version https://git-lfs.github.com/spec/v1
+oid sha256:345151cbf9d34e900140cb8fd6085a2b11889cffcb964101085049c9a8003bcf
+size 4195

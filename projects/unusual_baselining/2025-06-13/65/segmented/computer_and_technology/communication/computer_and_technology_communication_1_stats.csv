@@ -1,16 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AIRG,Computer and Technology,Communication - Components,0.65,,,,1,0__0,0,0.0,8680.0,8680.0,8680.0,8680.0,8680.0,8680.0,8680.0
-ATEN,Computer and Technology,Communication - Network Software,0.65,7227.0,1. p999999_trade_value,1.0,1,0__2,0,2.0,7227.0,7227.0,7227.0,7227.0,7227.0,7227.0,7227.0
-ATEX,Computer and Technology,Communication - Infrastructure,0.65,,,,1,0__2,0,2.0,6250.0,6250.0,6250.0,6250.0,6250.0,6250.0,6250.0
-ATUS,Computer and Technology,Communication - Components,0.65,4325.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,4267.5,4296.25,4319.25,4324.43,4324.94,4324.99,4325.0
-BAND,Computer and Technology,Communication - Infrastructure,0.65,,,,19,15__0,15,0.0,5280.0,6646.0,14177.2,15871.72,16041.17,16058.12,16059.81
-CIEN,Computer and Technology,Communication - Components,0.65,,,,1154,30__2,30,2.0,16086.4,25126.0,98724.0,217439.42,373418.18,391464.82,393269.48
-COMM,Computer and Technology,Communication - Infrastructure,0.65,,,,96,20__0,20,0.0,10170.0,17882.5,28147.7,35187.77,35891.78,35962.18,35969.22
-FYBR,Computer and Technology,Communication - Network Software,0.65,,,,151,20__1,20,1.0,65000.0,122475.0,373147.5,699944.25,744994.43,749499.44,749949.94
-GLW,Computer and Technology,Communication - Components,0.65,,,,1015,30__1,30,1.0,19627.2,38508.7,141438.8,811689.82,880905.31,887090.73,887709.27
-HLIT,Computer and Technology,Communication - Components,0.65,,,,8,10__0,10,0.0,18120.0,31560.0,42312.0,44731.2,44973.12,44997.31,44999.73
-KN,Computer and Technology,Communication - Components,0.65,7500.0,1. p999999_trade_value,1.0,1,0__2,0,2.0,7500.0,7500.0,7500.0,7500.0,7500.0,7500.0,7500.0
-LITE,Computer and Technology,Communication - Components,0.65,33495.0,6. p95_trade_value,45.0,899,30__1,30,1.0,19040.0,33243.0,127295.7,400980.0,1201098.0,1281109.8,1289110.98
-ONDS,Computer and Technology,Communication - Network Software,0.65,24290.000000000004,6. p95_trade_value,4.0,74,20__0,20,0.0,11843.0,21495.0,26452.25,27552.73,27662.77,27673.78,27674.88
-OOMA,Computer and Technology,Communication - Components,0.65,4500.0,1. p999999_trade_value,1.0,4,5__0,5,0.0,4350.0,4425.0,4485.0,4498.5,4499.85,4499.98,4500.0
-VIAV,Computer and Technology,Communication - Components,0.65,,,,25,15__0,15,0.0,10335.0,11645.0,43083.72,51960.67,52848.37,52937.14,52946.01
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc92739a102607debf71c7ddaf3c31957c74dcb056279ca2be48a84b5a08b02f
+size 2546

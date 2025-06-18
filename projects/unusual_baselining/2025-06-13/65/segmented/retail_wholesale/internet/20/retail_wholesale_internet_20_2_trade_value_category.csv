@@ -1,18 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-ACVA,Retail-Wholesale,Internet - Commerce,20__0,20,0.0,1. p999999_trade_value,123400.0,123400.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-ACVA,Retail-Wholesale,Internet - Commerce,20__0,20,0.0,6. p95_trade_value,90015.0,42000.0,0.0,2.0,0.0,0.65,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
-ACVA,Retail-Wholesale,Internet - Commerce,20__0,20,0.0,7. p90_trade_value,9825.0,8325.0,0.0,3.0,0.0,0.65,2. BELOW BASELINE,1.0,6.0,0.16666666666666666
-ACVA,Retail-Wholesale,Internet - Commerce,20__0,20,0.0,8. p75_trade_value,8245.0,6225.0,1.0,9.0,0.1111111111111111,0.65,2. BELOW BASELINE,2.0,15.0,0.13333333333333333
-JMIA,Retail-Wholesale,Internet - Commerce,20__0,20,0.0,1. p999999_trade_value,76500.0,76500.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-JMIA,Retail-Wholesale,Internet - Commerce,20__0,20,0.0,6. p95_trade_value,24947.0,10275.0,1.0,3.0,0.3333333333333333,0.65,2. BELOW BASELINE,1.0,4.0,0.25
-JMIA,Retail-Wholesale,Internet - Commerce,20__0,20,0.0,7. p90_trade_value,10260.0,9640.0,3.0,4.0,0.75,0.65,2. BELOW BASELINE,4.0,8.0,0.5
-JMIA,Retail-Wholesale,Internet - Commerce,20__0,20,0.0,8. p75_trade_value,8890.0,6000.0,5.0,10.0,0.5,0.65,2. BELOW BASELINE,9.0,18.0,0.5
-PSQH,Retail-Wholesale,Internet - Commerce,20__0,20,0.0,1. p999999_trade_value,13850.0,13850.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-PSQH,Retail-Wholesale,Internet - Commerce,20__0,20,0.0,6. p95_trade_value,12500.0,9765.0,1.0,3.0,0.3333333333333333,0.65,2. BELOW BASELINE,2.0,4.0,0.5
-PSQH,Retail-Wholesale,Internet - Commerce,20__0,20,0.0,7. p90_trade_value,9180.0,8550.0,2.0,3.0,0.6666666666666666,0.65,2. BELOW BASELINE,4.0,7.0,0.5714285714285714
-PSQH,Retail-Wholesale,Internet - Commerce,20__0,20,0.0,8. p75_trade_value,8070.0,5600.000000000001,6.0,11.0,0.5454545454545454,0.65,2. BELOW BASELINE,10.0,18.0,0.5555555555555556
-TRIP,Retail-Wholesale,Internet - Commerce,20__0,20,0.0,1. p999999_trade_value,165375.0,165375.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-TRIP,Retail-Wholesale,Internet - Commerce,20__0,20,0.0,5. p99_trade_value,113100.0,113100.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
-TRIP,Retail-Wholesale,Internet - Commerce,20__0,20,0.0,6. p95_trade_value,23670.0,22005.0,6.0,7.0,0.8571428571428571,0.65,1. ABOVE BASELINE,8.0,9.0,0.8888888888888888
-TRIP,Retail-Wholesale,Internet - Commerce,20__0,20,0.0,7. p90_trade_value,21320.0,14076.0,5.0,9.0,0.5555555555555556,0.65,2. BELOW BASELINE,13.0,18.0,0.7222222222222222
-TRIP,Retail-Wholesale,Internet - Commerce,20__0,20,0.0,8. p75_trade_value,14000.0,7700.0,19.0,26.0,0.7307692307692307,0.65,2. BELOW BASELINE,32.0,44.0,0.7272727272727273
+version https://git-lfs.github.com/spec/v1
+oid sha256:3e7bc8bb14300c3bf65baf766bb84a029a7b0a1eee02993b6bf6af43905b5079
+size 2811

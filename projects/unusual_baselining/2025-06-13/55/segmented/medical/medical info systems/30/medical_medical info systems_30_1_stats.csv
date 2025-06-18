@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-INSP,Medical,Medical Info Systems,0.55,10150.0,8. p75_trade_value,171.0,684,30__1,30,1.0,20562.2,35070.0,90036.6,222724.55,223431.46,223502.15,223509.21
+version https://git-lfs.github.com/spec/v1
+oid sha256:f5cebbbd4a32fb220023fe4b12f08f4de8db8ea17ec449059095d5981a4515db
+size 433

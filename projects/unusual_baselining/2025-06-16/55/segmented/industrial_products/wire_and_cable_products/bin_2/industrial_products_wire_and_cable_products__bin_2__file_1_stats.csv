@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ATKR,Industrial Products,Wire and Cable Products,0.55,,,,89,20__0,20,2,0.0,30230.0,44946.0,122800.0,124780.0,124978.0,124997.8,124999.78
+version https://git-lfs.github.com/spec/v1
+oid sha256:434babb7a1a8659fbf3c6378a8a1b308fcda4ca85090d2c3f01e9adc516d9a32
+size 439

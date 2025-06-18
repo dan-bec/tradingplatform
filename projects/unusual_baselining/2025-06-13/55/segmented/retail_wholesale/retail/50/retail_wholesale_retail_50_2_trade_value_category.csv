@@ -1,8 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-COST,Retail-Wholesale,Retail - Discount Stores,50__3,50,3.0,1. p999999_trade_value,1281791.0,1281791.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-COST,Retail-Wholesale,Retail - Discount Stores,50__3,50,3.0,3. p9999_trade_value,1180000.0,771308.0,2.0,8.0,0.25,0.55,2. BELOW BASELINE,2.0,9.0,0.2222222222222222
-COST,Retail-Wholesale,Retail - Discount Stores,50__3,50,3.0,4. p999_trade_value,764050.0,254508.0,30.0,72.0,0.4166666666666667,0.55,2. BELOW BASELINE,32.0,81.0,0.3950617283950617
-COST,Retail-Wholesale,Retail - Discount Stores,50__3,50,3.0,5. p99_trade_value,253692.0,66429.0,352.0,726.0,0.48484848484848486,0.55,2. BELOW BASELINE,384.0,807.0,0.4758364312267658
-COST,Retail-Wholesale,Retail - Discount Stores,50__3,50,3.0,6. p95_trade_value,66385.0,24360.0,1650.0,3225.0,0.5116279069767442,0.55,2. BELOW BASELINE,2034.0,4032.0,0.5044642857142857
-COST,Retail-Wholesale,Retail - Discount Stores,50__3,50,3.0,7. p90_trade_value,24358.0,15720.000000000002,2045.0,4029.0,0.5075701166542567,0.55,2. BELOW BASELINE,4079.0,8061.0,0.506016623247736
-COST,Retail-Wholesale,Retail - Discount Stores,50__3,50,3.0,8. p75_trade_value,15719.999999999998,8550.0,5811.0,12135.0,0.4788627935723115,0.55,2. BELOW BASELINE,9890.0,20196.0,0.48970093087740146
+version https://git-lfs.github.com/spec/v1
+oid sha256:8a7c4de7180979131d4d1cc170d244a4871da2cde261b2d916b36df41a659d63
+size 1455

@@ -1,13 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-ADT,Industrial Products,Security and Safety Services,10__0,10,0.0,1. p999999_trade_value,17840.0,17840.0,0.0,2.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
-ADT,Industrial Products,Security and Safety Services,10__0,10,0.0,8. p75_trade_value,11740.0,6990.000000000001,1.0,2.0,0.5,0.75,2. BELOW BASELINE,1.0,4.0,0.25
-ALLE,Industrial Products,Security and Safety Services,10__0,10,0.0,1. p999999_trade_value,8039.999999999999,8039.999999999999,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-ALLE,Industrial Products,Security and Safety Services,10__0,10,0.0,8. p75_trade_value,4400.0,4400.0,1.0,1.0,1.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
-ALRM,Industrial Products,Security and Safety Services,10__0,10,0.0,1. p999999_trade_value,45500.0,45500.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-ALRM,Industrial Products,Security and Safety Services,10__0,10,0.0,7. p90_trade_value,42000.0,42000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
-ALRM,Industrial Products,Security and Safety Services,10__0,10,0.0,8. p75_trade_value,6800.0,6439.999999999999,1.0,2.0,0.5,0.75,2. BELOW BASELINE,2.0,4.0,0.5
-LAKE,Industrial Products,Security and Safety Services,10__0,10,0.0,1. p999999_trade_value,13750.0,13750.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-LAKE,Industrial Products,Security and Safety Services,10__0,10,0.0,8. p75_trade_value,11220.0,11220.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
-LIF,Industrial Products,Security and Safety Services,10__0,10,0.0,1. p999999_trade_value,82038.0,82038.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-LIF,Industrial Products,Security and Safety Services,10__0,10,0.0,7. p90_trade_value,18984.000000000004,18984.000000000004,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
-LIF,Industrial Products,Security and Safety Services,10__0,10,0.0,8. p75_trade_value,16200.0,13869.999999999998,1.0,2.0,0.5,0.75,2. BELOW BASELINE,1.0,4.0,0.25
+version https://git-lfs.github.com/spec/v1
+oid sha256:aca969ae9a000d4178ff4e002225e6b5eb4db609d1cba05b5133c86cafbc9327
+size 2081

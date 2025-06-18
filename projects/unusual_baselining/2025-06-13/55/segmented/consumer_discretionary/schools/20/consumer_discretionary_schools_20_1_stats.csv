@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ATGE,Consumer Discretionary,Schools,0.55,,,,103,20__2,20,2.0,24200.0,76620.0,438645.0,511628.04,518694.8,519401.48,519472.15
+version https://git-lfs.github.com/spec/v1
+oid sha256:33c29dd7d8f58f62995ab7a73d66d7e0c5e0d7ee1c4b08f20c1f617610d0bcb5
+size 405

@@ -1,3 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CEP,Unclassified,Unclassified,0.55,,,,1073,30__2,30,2,2.0,18448.0,29940.0,55759.2,86088.0,86544.62,86576.46,86579.65
-CLBR,Unclassified,Unclassified,0.55,,,,547,25__0,25,2,0.0,15904.0,20826.5,42090.0,238590.0,280359.0,284535.9,284953.59
+version https://git-lfs.github.com/spec/v1
+oid sha256:793085a7dfac3f1c4505f1dc5efe01a92fd0167d11e6dced03a37b4e6286e0af
+size 538

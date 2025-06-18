@@ -1,9 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-CNR,Oils-Energy,Coal,20__0,20,0.0,1. p999999_trade_value,105000.0,105000.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-CNR,Oils-Energy,Coal,20__0,20,0.0,6. p95_trade_value,103500.0,68000.0,2.0,3.0,0.6666666666666666,0.65,2. BELOW BASELINE,2.0,4.0,0.5
-CNR,Oils-Energy,Coal,20__0,20,0.0,7. p90_trade_value,49980.0,26250.0,2.0,3.0,0.6666666666666666,0.65,2. BELOW BASELINE,4.0,7.0,0.5714285714285714
-CNR,Oils-Energy,Coal,20__0,20,0.0,8. p75_trade_value,19625.0,6500.0,8.0,10.0,0.8,0.65,2. BELOW BASELINE,12.0,17.0,0.7058823529411765
-HCC,Oils-Energy,Coal,20__0,20,0.0,1. p999999_trade_value,169980.0,169980.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-HCC,Oils-Energy,Coal,20__0,20,0.0,6. p95_trade_value,74800.0,59500.0,0.0,3.0,0.0,0.65,2. BELOW BASELINE,1.0,4.0,0.25
-HCC,Oils-Energy,Coal,20__0,20,0.0,7. p90_trade_value,56100.0,18000.0,1.0,3.0,0.3333333333333333,0.65,2. BELOW BASELINE,2.0,7.0,0.2857142857142857
-HCC,Oils-Energy,Coal,20__0,20,0.0,8. p75_trade_value,15810.0,9401.0,4.0,9.0,0.4444444444444444,0.65,2. BELOW BASELINE,6.0,16.0,0.375
+version https://git-lfs.github.com/spec/v1
+oid sha256:89cc9597dd8f389c0be3ec0ecd7478c706f773977204a5765f552c6ac9e06873
+size 1257

@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-MT,Basic Materials,Steel - Producers,0.65,,,,420,25__0,25,0.0,14820.0,25594.0,44729.25,79574.1,83759.91,84178.49,84220.35
+version https://git-lfs.github.com/spec/v1
+oid sha256:3676702021a83f0cfcb70489cd9b7bf7bcbcb3bb10a7b7ec0f718b3c174e5497
+size 402

@@ -1,10 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AXP,Finance,Financial - Miscellaneous Services,0.65,,,,9218,40__0,40,0.0,15361.0,25028.75,62816.4,276179.0,711542.85,1151658.28,1195669.83
-BAC,Finance,Financial - Investment Bank,0.65,240000.0,4. p999_trade_value,15.0,13118,40__0,40,0.0,15624.6,25545.9,65622.8,240000.0,833390.6,1121407.33,1150947.73
-BX,Finance,Financial - Miscellaneous Services,0.65,837600.0,1. p999999_trade_value,2.0,6129,40__3,40,3.0,14748.6,23736.0,62464.4,247350.03,837600.0,837600.0,837600.0
-C,Finance,Financial - Investment Bank,0.65,920465.0,1. p999999_trade_value,1.0,16305,40__0,40,0.0,16215.6,25284.0,70494.96,304069.58,802391.68,915171.91,919935.69
-CLSK,Finance,Financial - Miscellaneous Services,0.65,,,,10399,40__3,40,3.0,13500.0,20400.0,46605.16,143020.7,205118.49,315026.19,326486.62
-COF,Finance,Financial - Consumer Loans,0.65,,,,5664,40__4,40,4.0,17977.7,32000.0,133047.6,645823.86,3338299.77,3970891.98,4034151.2
-MS,Finance,Financial - Investment Bank,0.65,273000.0,4. p999_trade_value,6.0,5768,40__0,40,0.0,15243.0,24500.0,65264.0,269548.5,782597.8,920659.78,934465.98
-RIOT,Finance,Financial - Miscellaneous Services,0.65,422835.99999999994,4. p999_trade_value,11.0,10582,40__3,40,3.0,12119.6,17966.1,48957.3,391557.28,2732895.31,3276507.38,3334100.74
-WFC,Finance,Financial - Investment Bank,0.65,,,,8089,40__4,40,4.0,15498.4,24552.0,87763.2,694720.0,2690301.19,4085030.12,4224503.01
+version https://git-lfs.github.com/spec/v1
+oid sha256:3754f47d73411bbde2a55ec9579e609c62947954487662e7da002e2493d904db
+size 1653

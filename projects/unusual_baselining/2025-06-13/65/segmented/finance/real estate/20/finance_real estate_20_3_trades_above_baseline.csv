@@ -1,2 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,category_minimum,categiry_maximum,option_ticker,security_1,option_type,strike_price,expiration,conditions,correction,exchange,price,sip_timestamp,size,trade_value,data_date,min_trade_value,expiration_days_out,otm_range,option_condition_name,sector_1,industry_1,securty_open,security_high,security_low,security_close,trade_rank,trade_value_log10,number_of_bins,trade_value_bin,itm,itm_expiration_day,itm_expriation_close,otm
-HHH,Finance,Real Estate - Development,20__0,20,0.0,1. p999999_trade_value,91908.0,91908.0,O:HHH250516C00075000,HHH,C,75.0,2025-05-16,209,0,325,0.92,1745945562707000000,999,91908.0,2025-04-29,3000,30,True,Automatic Execution,Finance,Real Estate - Development,67.03,68.22,66.3438,67.71,1,4.9633533155715375,20,1,1,0,0,0
+version https://git-lfs.github.com/spec/v1
+oid sha256:fdeece141a228af14cfb65ba726b24384f01d79367514e4520798e6c2f8eda2b
+size 827

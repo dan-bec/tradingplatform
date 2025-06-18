@@ -1,2 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,category_minimum,categiry_maximum,option_ticker,security_1,option_type,strike_price,expiration,conditions,correction,exchange,price,sip_timestamp,size,trade_value,data_date,min_trade_value,expiration_days_out,otm_range,option_condition_name,sector_1,industry_1,securty_open,security_high,security_low,security_close,trade_rank,trade_value_log10,number_of_bins,trade_value_bin,itm,itm_expiration_day,itm_expriation_close,otm
-DLX,Business Services,Business - Office Products,0__2,0,2.0,1. p999999_trade_value,4148.0,4148.0,O:DLX241115C00020000,DLX,C,20.0,2024-11-15,232,0,308,0.68,1729265415140000000,61,4148.0,2024-10-18,3000,30,True,Multi Leg auto-electronic trade,Business Services,Business - Office Products,19.8,19.8,19.4141,19.49,1,3.6178387477170033,20,1,1,1,1,0
+version https://git-lfs.github.com/spec/v1
+oid sha256:e9a2df652b78ff46f792fdc195ea297cc29a8393c59996502dce3a506e8cb90a
+size 853

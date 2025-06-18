@@ -1,21 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AISP,Business Services,Technology Services,0.55,,,,92,20__0,20,0.0,8777.5,11496.75,19439.7,21347.97,21538.8,21557.88,21559.79
-ARBE,Business Services,Technology Services,0.55,6937.0,8. p75_trade_value,33.0,129,20__0,20,0.0,9870.0,13254.0,18487.2,19397.6,19489.76,19498.98,19499.9
-BITF,Business Services,Technology Services,0.55,20000.0,1. p999999_trade_value,1.0,86,20__0,20,0.0,11240.0,14597.5,18393.5,19839.35,19983.94,19998.39,19999.84
-BKSY,Business Services,Technology Services,0.55,,,,175,20__0,20,0.0,17292.0,28248.5,76300.0,88871.24,90553.12,90721.31,90738.13
-BYRN,Business Services,Technology Services,0.55,,,,81,20__0,20,0.0,9600.0,12600.0,19390.0,33394.0,34794.4,34934.44,34948.44
-COUR,Business Services,Technology Services,0.55,44865.0,1. p999999_trade_value,1.0,60,20__0,20,0.0,10800.1,15636.5,28908.45,43269.35,44705.43,44849.04,44863.4
-FNGR,Business Services,Technology Services,0.55,9000.0,6. p95_trade_value,5.0,93,20__0,20,0.0,7960.0,8658.0,13245.6,35142.06,37331.71,37550.67,37572.57
-HOLO,Business Services,Technology Services,0.55,,,,90,20__0,20,0.0,9006.5,9892.0,11358.9,14554.89,14874.49,14906.45,14909.64
-IBTA,Business Services,Technology Services,0.55,6720.0,8. p75_trade_value,18.0,72,20__2,20,2.0,12935.0,33175.0,266227.5,374697.75,385544.78,386629.48,386737.95
-J,Business Services,Technology Services,0.55,,,,89,20__1,20,1.0,135240.0,288750.0,636262.6,908595.76,935829.08,938552.41,938824.74
-MLGO,Business Services,Technology Services,0.55,15500.0,6. p95_trade_value,7.0,125,20__0,20,0.0,10944.0,15200.0,17739.6,67800.6,74145.06,74779.51,74842.95
-MVST,Business Services,Technology Services,0.55,,,,176,20__0,20,0.0,10578.0,13362.5,22380.0,28866.0,29886.6,29988.66,29998.87
-NN,Business Services,Technology Services,0.55,,,,147,20__0,20,0.0,10317.0,15412.5,27108.0,46671.2,49667.12,49966.71,49996.67
-NNOX,Business Services,Technology Services,0.55,,,,84,20__0,20,0.0,6210.0,6490.25,10034.0,10183.4,10198.34,10199.83,10199.98
-NPO,Business Services,Technology Services,0.55,,,,68,20__0,20,0.0,20745.5,47375.0,97950.0,167295.0,174229.5,174922.95,174992.29
-PDYN,Business Services,Technology Services,0.55,25080.0,5. p99_trade_value,2.0,112,20__0,20,0.0,11900.0,15505.5,24301.2,32120.88,32912.09,32991.21,32999.12
-QFIN,Business Services,Technology Services,0.55,,,,64,20__0,20,0.0,9934.5,11467.5,22342.2,35984.22,37348.42,37484.84,37498.48
-QXO,Business Services,Technology Services,0.55,,,,104,20__0,20,0.0,13555.5,16000.0,35997.3,51266.94,52844.69,53002.47,53018.25
-UMAC,Business Services,Technology Services,0.55,,,,79,20__0,20,0.0,12651.2,15981.6,38715.42,82914.04,87333.9,87775.89,87820.09
-YMM,Business Services,Technology Services,0.55,98000.00000000001,1. p999999_trade_value,1.0,81,20__0,20,0.0,24500.0,35000.0,57600.0,93960.0,97596.0,97959.6,97995.96
+version https://git-lfs.github.com/spec/v1
+oid sha256:716faa1d8ac4e373f6f7b78ba0a8573bd1af92ffa83434542a7c8373c7c1e2bf
+size 3057

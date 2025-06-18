@@ -1,5 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-SNBR,Consumer Discretionary,Furniture,15__0,15,0.0,1. p999999_trade_value,43680.0,43680.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-SNBR,Consumer Discretionary,Furniture,15__0,15,0.0,6. p95_trade_value,25125.0,25125.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
-SNBR,Consumer Discretionary,Furniture,15__0,15,0.0,7. p90_trade_value,23715.0,23715.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,3.0,3.0,1.0
-SNBR,Consumer Discretionary,Furniture,15__0,15,0.0,8. p75_trade_value,16600.0,10400.0,4.0,4.0,1.0,0.75,1. ABOVE BASELINE,7.0,7.0,1.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:00e7e8f52b19be11b443fb3f084d8c3cb1b0e3f38264b9b47b6403094f6f3efd
+size 742

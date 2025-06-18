@@ -1,3 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-KAR,Auto-Tires-Trucks,Automotive - Original Equipment,0__2,0,2.0,1. p999999_trade_value,3900.0,3900.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-PLOW,Auto-Tires-Trucks,Automotive - Replacement Parts,0__2,0,2.0,1. p999999_trade_value,4450.0,4450.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:8231aeb14c2bc577a3c0c585cafdf47ea4681f408572a687988ce585d41173d6
+size 504

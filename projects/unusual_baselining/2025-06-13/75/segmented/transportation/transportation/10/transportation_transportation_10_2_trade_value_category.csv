@@ -1,23 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-ASC,Transportation,Transportation - Shipping,10__0,10,0.0,1. p999999_trade_value,5000.0,5000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-ASC,Transportation,Transportation - Shipping,10__0,10,0.0,8. p75_trade_value,4464.0,4428.0,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,3.0,3.0,1.0
-DAC,Transportation,Transportation - Shipping,10__0,10,0.0,1. p999999_trade_value,9300.0,9300.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-DAC,Transportation,Transportation - Shipping,10__0,10,0.0,7. p90_trade_value,5400.0,5400.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
-DAC,Transportation,Transportation - Shipping,10__0,10,0.0,8. p75_trade_value,5100.0,5050.0,2.0,2.0,1.0,0.75,1. ABOVE BASELINE,4.0,4.0,1.0
-EXPD,Transportation,Transportation - Services,10__3,10,3.0,1. p999999_trade_value,160110.0,160110.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-EXPD,Transportation,Transportation - Services,10__3,10,3.0,7. p90_trade_value,110739.99999999999,110739.99999999999,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
-EXPD,Transportation,Transportation - Services,10__3,10,3.0,8. p75_trade_value,44000.0,44000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,3.0,0.0
-GBX,Transportation,Transportation - Equipment and Leasing,10__0,10,0.0,1. p999999_trade_value,50745.0,50745.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-GBX,Transportation,Transportation - Equipment and Leasing,10__0,10,0.0,7. p90_trade_value,9240.0,9240.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
-GBX,Transportation,Transportation - Equipment and Leasing,10__0,10,0.0,8. p75_trade_value,8145.0,7425.0,1.0,3.0,0.3333333333333333,0.75,2. BELOW BASELINE,2.0,5.0,0.4
-GSL,Transportation,Transportation - Shipping,10__0,10,0.0,1. p999999_trade_value,36859.0,36859.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-GSL,Transportation,Transportation - Shipping,10__0,10,0.0,8. p75_trade_value,34162.0,34162.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
-RAIL,Transportation,Transportation - Equipment and Leasing,10__0,10,0.0,1. p999999_trade_value,13000.0,13000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-RAIL,Transportation,Transportation - Equipment and Leasing,10__0,10,0.0,8. p75_trade_value,5620.0,5620.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
-REVG,Transportation,Transportation - Services,10__0,10,0.0,1. p999999_trade_value,9200.0,9200.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-REVG,Transportation,Transportation - Services,10__0,10,0.0,8. p75_trade_value,7708.0,7708.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
-RXO,Transportation,Transportation - Services,10__3,10,3.0,1. p999999_trade_value,140000.0,140000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-RXO,Transportation,Transportation - Services,10__3,10,3.0,7. p90_trade_value,15960.0,15960.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
-RXO,Transportation,Transportation - Services,10__3,10,3.0,8. p75_trade_value,14700.0,14700.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,3.0,3.0,1.0
-SNCY,Transportation,Transportation - Airline,10__0,10,0.0,1. p999999_trade_value,12880.000000000002,12880.000000000002,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-SNCY,Transportation,Transportation - Airline,10__0,10,0.0,8. p75_trade_value,6560.000000000001,6560.000000000001,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:31748e030c14b5af8ddf9cab21551fb3cb09646840479ee6ac1278f70af3b640
+size 3457

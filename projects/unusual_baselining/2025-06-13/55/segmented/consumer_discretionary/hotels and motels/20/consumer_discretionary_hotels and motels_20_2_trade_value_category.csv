@@ -1,6 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-H,Consumer Discretionary,Hotels and Motels,20__1,20,1.0,1. p999999_trade_value,841890.0,841890.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-H,Consumer Discretionary,Hotels and Motels,20__1,20,1.0,5. p99_trade_value,527874.9999999999,527874.9999999999,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-H,Consumer Discretionary,Hotels and Motels,20__1,20,1.0,6. p95_trade_value,318010.00000000006,45090.0,4.0,7.0,0.5714285714285714,0.55,1. ABOVE BASELINE,6.0,9.0,0.6666666666666666
-H,Consumer Discretionary,Hotels and Motels,20__1,20,1.0,7. p90_trade_value,40775.0,15416.0,4.0,8.0,0.5,0.55,2. BELOW BASELINE,10.0,17.0,0.5882352941176471
-H,Consumer Discretionary,Hotels and Motels,20__1,20,1.0,8. p75_trade_value,14500.0,8250.0,22.0,24.0,0.9166666666666666,0.55,2. BELOW BASELINE,32.0,41.0,0.7804878048780488
+version https://git-lfs.github.com/spec/v1
+oid sha256:85971ea7b6338fcb6eaf823e5315facea081770f7a3a2312b55c470f5c60ab4d
+size 1013

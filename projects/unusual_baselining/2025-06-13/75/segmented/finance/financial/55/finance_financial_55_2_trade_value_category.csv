@@ -1,9 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,1. p999999_trade_value,18009600.0,18009600.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,2. p99999_trade_value,13616100.0,13600000.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
-COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,3. p9999_trade_value,13084200.000000002,6583410.000000001,12.0,25.0,0.48,0.75,2. BELOW BASELINE,13.0,28.0,0.4642857142857143
-COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,4. p999_trade_value,6573880.0,1714657.0,112.0,247.0,0.4534412955465587,0.75,2. BELOW BASELINE,125.0,275.0,0.45454545454545453
-COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,5. p99_trade_value,1702566.0,104304.0,1122.0,2471.0,0.45406717927964385,0.75,2. BELOW BASELINE,1247.0,2746.0,0.45411507647487254
-COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,6. p95_trade_value,104300.0,30614.999999999996,5419.0,10984.0,0.493353969410051,0.75,2. BELOW BASELINE,6666.0,13730.0,0.48550619082301527
-COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,7. p90_trade_value,30600.0,18460.0,6647.0,13731.0,0.48408710217755446,0.75,2. BELOW BASELINE,13313.0,27461.0,0.4847966206620298
-COIN,Finance,Financial - Miscellaneous Services,55__1,55,1.0,8. p75_trade_value,18459.0,9380.0,19896.0,41195.0,0.4829712343731035,0.75,2. BELOW BASELINE,33209.0,68656.0,0.48370135166627826
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f23e00095da797af3d22e667f0c5df21feb1b721c3d1378c5a09dc6531bef4b
+size 1666

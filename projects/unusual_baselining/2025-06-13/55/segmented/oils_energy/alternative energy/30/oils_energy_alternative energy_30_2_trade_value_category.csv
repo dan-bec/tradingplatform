@@ -1,23 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-ENVX,Oils-Energy,Alternative Energy - Other,30__2,30,2.0,1. p999999_trade_value,220000.0,220000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-ENVX,Oils-Energy,Alternative Energy - Other,30__2,30,2.0,4. p999_trade_value,137700.0,137700.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-ENVX,Oils-Energy,Alternative Energy - Other,30__2,30,2.0,5. p99_trade_value,136472.0,39000.0,5.0,13.0,0.38461538461538464,0.55,2. BELOW BASELINE,6.0,15.0,0.4
-ENVX,Oils-Energy,Alternative Energy - Other,30__2,30,2.0,6. p95_trade_value,37924.0,18900.0,30.0,60.0,0.5,0.55,2. BELOW BASELINE,36.0,75.0,0.48
-ENVX,Oils-Energy,Alternative Energy - Other,30__2,30,2.0,7. p90_trade_value,18695.999999999996,12834.0,36.0,74.0,0.4864864864864865,0.55,2. BELOW BASELINE,72.0,149.0,0.48322147651006714
-ENVX,Oils-Energy,Alternative Energy - Other,30__2,30,2.0,8. p75_trade_value,12805.000000000002,7497.0,128.0,223.0,0.5739910313901345,0.55,2. BELOW BASELINE,200.0,372.0,0.5376344086021505
-EXE,Oils-Energy,Alternative Energy - Other,30__1,30,1.0,1. p999999_trade_value,699000.0,699000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-EXE,Oils-Energy,Alternative Energy - Other,30__1,30,1.0,5. p99_trade_value,590000.0,372000.0,5.0,7.0,0.7142857142857143,0.55,1. ABOVE BASELINE,6.0,8.0,0.75
-EXE,Oils-Energy,Alternative Energy - Other,30__1,30,1.0,6. p95_trade_value,300300.0,60000.0,22.0,31.0,0.7096774193548387,0.55,1. ABOVE BASELINE,28.0,39.0,0.717948717948718
-EXE,Oils-Energy,Alternative Energy - Other,30__1,30,1.0,7. p90_trade_value,57600.0,16500.0,20.0,39.0,0.5128205128205128,0.55,2. BELOW BASELINE,48.0,78.0,0.6153846153846154
-EXE,Oils-Energy,Alternative Energy - Other,30__1,30,1.0,8. p75_trade_value,16300.0,7895.999999999999,67.0,115.0,0.5826086956521739,0.55,2. BELOW BASELINE,115.0,193.0,0.5958549222797928
-LTBR,Oils-Energy,Alternative Energy - Other,30__2,30,2.0,1. p999999_trade_value,58941.0,58941.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-LTBR,Oils-Energy,Alternative Energy - Other,30__2,30,2.0,5. p99_trade_value,49500.00000000001,28160.000000000004,4.0,6.0,0.6666666666666666,0.55,1. ABOVE BASELINE,5.0,7.0,0.7142857142857143
-LTBR,Oils-Energy,Alternative Energy - Other,30__2,30,2.0,6. p95_trade_value,26955.0,17430.0,15.0,24.0,0.625,0.55,1. ABOVE BASELINE,20.0,31.0,0.6451612903225806
-LTBR,Oils-Energy,Alternative Energy - Other,30__2,30,2.0,7. p90_trade_value,17400.0,12500.0,24.0,31.0,0.7741935483870968,0.55,1. ABOVE BASELINE,44.0,62.0,0.7096774193548387
-LTBR,Oils-Energy,Alternative Energy - Other,30__2,30,2.0,8. p75_trade_value,12075.0,7600.0,55.0,90.0,0.6111111111111112,0.55,1. ABOVE BASELINE,99.0,152.0,0.6513157894736842
-TPL,Oils-Energy,Alternative Energy - Other,30__2,30,2.0,1. p999999_trade_value,125050.0,125050.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-TPL,Oils-Energy,Alternative Energy - Other,30__2,30,2.0,4. p999_trade_value,120000.0,120000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-TPL,Oils-Energy,Alternative Energy - Other,30__2,30,2.0,5. p99_trade_value,91800.0,53120.00000000001,10.0,12.0,0.8333333333333334,0.55,2. BELOW BASELINE,11.0,14.0,0.7857142857142857
-TPL,Oils-Energy,Alternative Energy - Other,30__2,30,2.0,6. p95_trade_value,50100.0,21600.0,35.0,53.0,0.660377358490566,0.55,2. BELOW BASELINE,46.0,67.0,0.6865671641791045
-TPL,Oils-Energy,Alternative Energy - Other,30__2,30,2.0,7. p90_trade_value,21500.0,14000.0,41.0,67.0,0.6119402985074627,0.55,2. BELOW BASELINE,87.0,134.0,0.6492537313432836
-TPL,Oils-Energy,Alternative Energy - Other,30__2,30,2.0,8. p75_trade_value,13960.000000000002,6922.0,114.0,198.0,0.5757575757575758,0.55,2. BELOW BASELINE,201.0,332.0,0.6054216867469879
+version https://git-lfs.github.com/spec/v1
+oid sha256:2cff1b3d2c980b55897c75906ac8c08b821c391cee586d20f8d3867991cd6ef8
+size 3833

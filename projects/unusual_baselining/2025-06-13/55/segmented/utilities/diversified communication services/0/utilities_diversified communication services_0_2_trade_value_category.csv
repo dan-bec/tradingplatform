@@ -1,2 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-TU,Utilities,Diversified Communication Services,0__2,0,2.0,1. p999999_trade_value,6520.0,6520.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:c92aa68735dbc8cd4e06eb3241b1caeee5df4b0a8b4bd0858c006805dc7b84ef
+size 349

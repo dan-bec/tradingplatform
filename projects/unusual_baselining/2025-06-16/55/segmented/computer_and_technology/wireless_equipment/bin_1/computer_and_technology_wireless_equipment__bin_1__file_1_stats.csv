@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ASTS,Computer and Technology,Wireless Equipment,0.55,,,,20181,45__1,45,1,1.0,15300.0,23100.0,56004.8,169816.0,473061.22,556253.58,569735.96
+version https://git-lfs.github.com/spec/v1
+oid sha256:28ba06d76acb47d287b0198ed81b2c79a2ba1dae46c561151317a24bd0308b6f
+size 442

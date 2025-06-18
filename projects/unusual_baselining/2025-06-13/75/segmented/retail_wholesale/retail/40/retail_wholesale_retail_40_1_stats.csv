@@ -1,11 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ANF,Retail-Wholesale,Retail - Apparel and Shoes,0.75,,,,7582,40__0,40,0.0,16590.0,26659.0,83271.0,406894.53,789153.05,1102665.31,1134016.53
-CAVA,Retail-Wholesale,Retail - Restaurants,0.75,836073.0,3. p9999_trade_value,2.0,12454,40__3,40,3.0,15089.1,23383.75,65205.75,339827.27,832130.29,2294979.85,2481747.98
-CMG,Retail-Wholesale,Retail - Restaurants,0.75,,,,6535,40__0,40,0.0,14906.6,23918.7,84388.0,465982.44,707816.45,822877.44,834383.54
-DECK,Retail-Wholesale,Retail - Apparel and Shoes,0.75,,,,6624,40__2,40,2.0,18700.0,31470.5,174424.5,686032.0,1219132.4,1464713.24,1489271.32
-DG,Retail-Wholesale,Retail - Discount Stores,0.75,,,,5775,40__0,40,0.0,16104.6,24782.2,84822.0,385625.67,1081190.44,1201619.04,1213661.9
-DLTR,Retail-Wholesale,Retail - Discount Stores,0.75,,,,7443,40__4,40,4.0,14898.0,24636.0,118622.8,623865.0,2750640.0,2750640.0,2750640.0
-HD,Retail-Wholesale,Retail - Home Furnishings,0.75,,,,15008,40__3,40,3.0,15503.0,23053.95,55727.44,227752.6,514111.36,815279.8,846527.98
-MCD,Retail-Wholesale,Retail - Restaurants,0.75,,,,10364,40__3,40,3.0,13772.8,20892.75,54993.7,312402.8,651845.98,659211.58,659921.16
-SBUX,Retail-Wholesale,Retail - Restaurants,0.75,453172.0,4. p999_trade_value,10.0,9875,40__0,40,0.0,15073.2,23989.5,75018.72,425578.07,1411012.86,1842144.49,1885257.65
-ULTA,Retail-Wholesale,Retail - Miscellaneous,0.75,525000.0,1. p999999_trade_value,1.0,9094,40__3,40,3.0,14207.0,22780.5,51272.15,205000.0,466413.8,519141.38,524414.14
+version https://git-lfs.github.com/spec/v1
+oid sha256:297c16766b20400e465569b6804e0ccd7890114a607e00a0c1ef866cee0d7f2f
+size 1741

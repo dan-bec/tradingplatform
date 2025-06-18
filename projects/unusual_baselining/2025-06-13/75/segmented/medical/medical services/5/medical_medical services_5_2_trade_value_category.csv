@@ -1,5 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-DCGO,Medical,Medical Services,5__0,5,0.0,1. p999999_trade_value,7000.0,7000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-DCGO,Medical,Medical Services,5__0,5,0.0,8. p75_trade_value,3790.0,3790.0,1.0,1.0,1.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
-GDRX,Medical,Medical Services,5__3,5,3.0,1. p999999_trade_value,29183.999999999996,29183.999999999996,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-SHC,Medical,Medical Services,5__3,5,3.0,1. p999999_trade_value,28800.0,28800.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:849da9e5950162fdbf16d04d59c436d57825eb9979bd32a537804e014f923b33
+size 727

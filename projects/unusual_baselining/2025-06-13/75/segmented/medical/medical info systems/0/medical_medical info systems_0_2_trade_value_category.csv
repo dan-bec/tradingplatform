@@ -1,4 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-AMWL,Medical,Medical Info Systems,0__2,0,2.0,1. p999999_trade_value,5750.0,5750.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-CCLD,Medical,Medical Info Systems,0__2,0,2.0,1. p999999_trade_value,4768.0,4768.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-FLGT,Medical,Medical Info Systems,0__2,0,2.0,1. p999999_trade_value,3900.0,3900.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:871e0dccd61c626127f7743000945835fe5e973c86612b0527aec617a785aeb9
+size 593

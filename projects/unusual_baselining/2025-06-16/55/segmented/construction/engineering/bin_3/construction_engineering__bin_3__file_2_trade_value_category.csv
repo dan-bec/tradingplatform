@@ -1,10 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-ACM,Construction,Engineering - R and D Services,15__0,15,3,0.0,1. p999999_trade_value,33000.0,33000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-ACM,Construction,Engineering - R and D Services,15__0,15,3,0.0,6. p95_trade_value,10325.0,10325.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-ACM,Construction,Engineering - R and D Services,15__0,15,3,0.0,7. p90_trade_value,9569.999999999998,8750.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,4.0,0.25
-ACM,Construction,Engineering - R and D Services,15__0,15,3,0.0,8. p75_trade_value,8715.0,7000.0,4.0,6.0,0.6666666666666666,0.55,2. BELOW BASELINE,5.0,10.0,0.5
-CHX,Construction,Engineering - R and D Services,0__2,0,3,2.0,1. p999999_trade_value,3375.0,3375.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-MAGN,Construction,Engineering - R and D Services,10__2,10,3,2.0,1. p999999_trade_value,132000.0,132000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-MAGN,Construction,Engineering - R and D Services,10__2,10,3,2.0,8. p75_trade_value,107000.0,107000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-VSEC,Construction,Engineering - R and D Services,5__0,5,3,0.0,1. p999999_trade_value,5320.0,5320.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-VSEC,Construction,Engineering - R and D Services,5__0,5,3,0.0,8. p75_trade_value,4800.0,4800.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:86d876b9a482243cbd4bdce7966a3ae1ed5562db56660e5335f896b16e848036
+size 1569

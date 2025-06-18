@@ -1,10 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ABBV,Medical,Large Cap Pharmaceuticals,0.55,8400.0,8. p75_trade_value,1788.0,7140,40__0,40,0.0,15498.2,24454.35,71902.5,324818.51,1247149.8,1258714.98,1259871.5
-INVA,Medical,Large Cap Pharmaceuticals,0.55,,,,4,5__0,5,0.0,6870.0,7275.0,7599.0,7671.9,7679.19,7679.92,7679.99
-JNJ,Medical,Large Cap Pharmaceuticals,0.55,344999.99999999994,4. p999_trade_value,7.0,6258,40__0,40,0.0,14815.0,24984.05,69154.8,334206.0,799731.35,965573.13,982157.31
-LLY,Medical,Large Cap Pharmaceuticals,0.55,847800.0,3. p9999_trade_value,9.0,85127,50__1,50,1.0,16830.0,25979.8,70000.0,273933.0,823297.72,3080185.9,4639268.59
-MRK,Medical,Large Cap Pharmaceuticals,0.55,26495.999999999996,6. p95_trade_value,278.0,5554,35__1,35,1.0,15750.0,26433.6,97631.65,1427135.4,2526489.2,2744388.92,2766178.89
-NVO,Medical,Large Cap Pharmaceuticals,0.55,1622400.0,3. p9999_trade_value,2.0,14049,40__4,40,4.0,16800.0,27334.8,120611.2,727205.44,1419039.81,1936241.69,1982406.57
-NVS,Medical,Large Cap Pharmaceuticals,0.55,,,,567,30__2,30,2.0,16767.6,37795.0,81317.2,150453.28,192183.33,196356.33,196773.63
-PFE,Medical,Large Cap Pharmaceuticals,0.55,381030.0,4. p999_trade_value,8.0,7209,40__3,40,3.0,14665.0,23000.0,102000.0,380961.36,684439.18,702943.92,704794.39
-SNY,Medical,Large Cap Pharmaceuticals,0.55,217245.00000000003,1. p999999_trade_value,1.0,207,25__0,25,0.0,30000.0,38739.0,79093.74,190698.19,214590.32,216979.53,217218.45
+version https://git-lfs.github.com/spec/v1
+oid sha256:4677c1eaef7b93168497cfd1441a54b775818fbd6b0ad6501c544766a3e07aec
+size 1675

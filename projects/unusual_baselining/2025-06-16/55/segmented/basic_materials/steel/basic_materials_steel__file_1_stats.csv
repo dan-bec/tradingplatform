@@ -1,14 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ASTL,Basic Materials,Steel - Producers,0.55,241500.0,1. p999999_trade_value,1.0,22,15__0,15,3,0.0,46932.0,57562.0,202956.6,237645.66,241114.57,241461.46,241496.15
-ATI,Basic Materials,Steel - Speciality,0.55,6000.0,8. p75_trade_value,33.0,130,20__3,20,2,3.0,10510.0,16644.0,35130.0,387884.0,434788.4,439478.84,439947.88
-CLF,Basic Materials,Steel - Producers,0.55,266000.0,1. p999999_trade_value,1.0,1952,35__0,35,2,0.0,14000.0,22674.7,59614.24,125874.79,238959.92,263295.99,265729.6
-CMC,Basic Materials,Steel - Producers,0.55,,,,46,15__0,15,3,0.0,20550.5,75900.0,106587.0,111908.7,112440.87,112494.09,112499.41
-CRS,Basic Materials,Steel - Speciality,0.55,,,,655,30__2,30,2,2.0,17920.0,37000.0,97021.26,193149.17,238262.42,242773.74,243224.87
-MT,Basic Materials,Steel - Producers,0.55,,,,420,25__0,25,2,0.0,14820.0,25594.0,44729.25,79574.1,83759.91,84178.49,84220.35
-NUE,Basic Materials,Steel - Producers,0.55,125000.0,5. p99_trade_value,30.0,2945,35__1,35,2,1.0,16498.8,30752.0,124070.5,473958.4,602871.94,623687.19,625768.72
-PKX,Basic Materials,Steel - Producers,0.55,,,,5,5__0,5,3,0.0,6998.0,7009.0,7017.8,7019.78,7019.98,7020.0,7020.0
-STLD,Basic Materials,Steel - Producers,0.55,831600.0,4. p999_trade_value,2.0,1015,30__0,30,2,0.0,17276.0,36960.0,157010.0,830677.4,933501.24,943850.12,944885.01
-TX,Basic Materials,Steel - Producers,0.55,4000.0,1. p999999_trade_value,1.0,1,0__2,0,3,2.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0
-WS,Basic Materials,Steel - Speciality,0.55,,,,6,10__0,10,3,0.0,5925.0,6472.5,6910.5,7009.05,7018.91,7019.89,7019.99
-X,Basic Materials,Steel - Producers,0.55,6133500.0,3. p9999_trade_value,2.0,16892,40__4,40,2,4.0,17278.4,30438.45,240000.0,1487303.0,5468879.59,10527888.37,11331688.84
-ZEUS,Basic Materials,Steel - Producers,0.55,,,,1,0__2,0,3,2.0,3375.0,3375.0,3375.0,3375.0,3375.0,3375.0,3375.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:af67a5c37c372d789db68cadbbc682fe93cee17332fcb0e7d486f01a28c0e38c
+size 2135

@@ -1,7 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-NNDM,Computer and Technology,Nanotechnology,5__0,5,0.0,1. p999999_trade_value,3460.0,3460.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-ONTO,Computer and Technology,Nanotechnology,25__0,25,0.0,1. p999999_trade_value,121800.0,121800.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-ONTO,Computer and Technology,Nanotechnology,25__0,25,0.0,5. p99_trade_value,111750.0,86240.0,1.0,2.0,0.5,0.65,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
-ONTO,Computer and Technology,Nanotechnology,25__0,25,0.0,6. p95_trade_value,74250.0,36540.0,5.0,11.0,0.45454545454545453,0.65,2. BELOW BASELINE,6.0,14.0,0.42857142857142855
-ONTO,Computer and Technology,Nanotechnology,25__0,25,0.0,7. p90_trade_value,35000.0,20000.0,6.0,14.0,0.42857142857142855,0.65,2. BELOW BASELINE,12.0,28.0,0.42857142857142855
-ONTO,Computer and Technology,Nanotechnology,25__0,25,0.0,8. p75_trade_value,19320.0,9000.0,18.0,41.0,0.43902439024390244,0.65,2. BELOW BASELINE,30.0,69.0,0.43478260869565216
+version https://git-lfs.github.com/spec/v1
+oid sha256:f48de1647a47e92d26758bba91c0d620dc64e1cd68cc9a14da7d8a3313c9a8da
+size 1166

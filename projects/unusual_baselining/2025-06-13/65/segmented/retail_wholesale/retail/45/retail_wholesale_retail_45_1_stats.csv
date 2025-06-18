@@ -1,3 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-TGT,Retail-Wholesale,Retail - Discount Stores,0.65,,,,18751,45__1,45,1.0,14640.0,22005.0,58896.0,330407.75,724749.38,1146626.25,1216438.13
-WMT,Retail-Wholesale,Retail - Supermarkets,0.65,,,,19112,45__1,45,1.0,14851.8,23400.0,68358.27,338691.9,1068258.13,1397823.26,1399782.33
+version https://git-lfs.github.com/spec/v1
+oid sha256:e09c1057714a0ec250de6a1a8b13a8c4867b6f9a8b8655f32b9350568220c0c4
+size 556

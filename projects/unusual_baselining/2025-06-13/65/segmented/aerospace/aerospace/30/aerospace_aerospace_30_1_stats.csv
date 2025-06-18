@@ -1,7 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AVAV,Aerospace,Aerospace - Defense Equipment,0.65,115500.0,1. p999999_trade_value,1.0,754,30__2,30,2.0,12288.0,17987.0,52350.0,109852.5,114935.25,115443.53,115494.35
-EH,Aerospace,Aerospace - Defense Equipment,0.65,92540.0,4. p999_trade_value,2.0,1360,30__2,30,2.0,16766.2,24486.0,42951.0,79596.26,169980.64,180942.06,182038.21
-GD,Aerospace,Aerospace - Defense,0.65,172040.0,1. p999999_trade_value,1.0,733,30__2,30,2.0,12990.0,23752.0,55442.0,167852.96,171621.3,171998.13,172035.81
-HWM,Aerospace,Aerospace - Defense,0.65,980527.0,1. p999999_trade_value,1.0,994,30__1,30,1.0,18701.9,28610.0,183682.8,404560.19,922930.32,974767.33,979951.03
-NOC,Aerospace,Aerospace - Defense,0.65,231040.0,1. p999999_trade_value,1.0,1147,30__2,30,2.0,12600.0,18853.5,74948.2,188602.0,226176.61,230553.66,230991.37
-TDG,Aerospace,Aerospace - Defense Equipment,0.65,,,,1523,30__2,30,2.0,19105.6,24711.3,57349.4,224140.88,245000.0,245000.0,245000.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:10b9aeb72436731e8acba01eb1ffde0bfb660f9dad105ab3220eb25d1681e7db
+size 1205

@@ -1,4 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CEG,Oils-Energy,Alternative Energy - Other,0.55,9450.0,8. p75_trade_value,4922.0,19624,45__0,45,1,0.0,18750.0,29070.0,86518.84,528996.86,1298920.74,2628527.59,2853815.96
-GEV,Oils-Energy,Alternative Energy - Other,0.55,,,,18716,45__0,45,1,0.0,18720.0,29022.0,93310.0,581954.0,1976365.5,2609103.75,2689110.37
-OKLO,Oils-Energy,Alternative Energy - Other,0.55,251888.0,4. p999_trade_value,22.0,21083,45__1,45,1,1.0,16767.6,25494.0,69719.88,251883.41,499044.08,722707.76,749520.78
+version https://git-lfs.github.com/spec/v1
+oid sha256:48a02c577f7f7619d7d3497222bc1a3466b7636af777c478ca94dda7eb049610
+size 778

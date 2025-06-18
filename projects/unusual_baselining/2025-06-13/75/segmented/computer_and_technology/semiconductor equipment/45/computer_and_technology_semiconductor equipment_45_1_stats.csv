@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ASML,Computer and Technology,Semiconductor Equipment - Wafer Fabrication,0.75,,,,45915,45__1,45,1.0,17538.4,27000.0,64000.0,199769.46,481634.4,755229.72,835626.97
+version https://git-lfs.github.com/spec/v1
+oid sha256:e290deaf472d4a93761f7908331a6fa0dc14d1401181dd7dbedcc27a3998da14
+size 443

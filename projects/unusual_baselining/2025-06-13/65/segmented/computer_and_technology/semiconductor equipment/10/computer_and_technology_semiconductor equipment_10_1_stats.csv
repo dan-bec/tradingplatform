@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-PLAB,Computer and Technology,Semiconductor Equipment - Photomasks,0.65,21624.0,1. p999999_trade_value,1.0,14,10__0,10,0.0,6449.0,12085.9,19716.38,21433.24,21604.92,21622.09,21623.81
+version https://git-lfs.github.com/spec/v1
+oid sha256:6af21c8deac6a4a486866c463fbb2169ffe8ece72922a7033d524c40435d765a
+size 462

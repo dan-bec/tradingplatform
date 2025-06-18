@@ -1,3 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-SATL,Computer and Technology,Satellite and Communication,10__0,10,0.0,1. p999999_trade_value,6950.0,6950.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-SATL,Computer and Technology,Satellite and Communication,10__0,10,0.0,8. p75_trade_value,4752.0,4752.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ff89bfbfc601e43d6e972487487bccf3385d5609271d9c4ea6362d77f7ce1c6
+size 510

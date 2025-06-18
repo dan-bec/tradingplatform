@@ -1,3 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-CNDT,Business Services,Outsourcing,10__0,10,0.0,1. p999999_trade_value,12500.0,12500.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-CNDT,Business Services,Outsourcing,10__0,10,0.0,8. p75_trade_value,12475.0,12475.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,2.0,0.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:02e14e1af7352685c7cc0830af9401e81b2086c2709d0e0ed084a605cb74b733
+size 470

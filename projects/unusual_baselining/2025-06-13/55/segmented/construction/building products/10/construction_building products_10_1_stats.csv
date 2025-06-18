@@ -1,12 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ACA,Construction,Building Products - Miscellaneous,0.55,30000.0,8. p75_trade_value,3.0,11,10__0,10,0.0,46575.0,60637.5,71887.5,74418.75,74671.88,74697.19,74699.72
-BCC,Construction,Building Products - Wood,0.55,4500.0,8. p75_trade_value,2.0,7,10__0,10,0.0,4740.0,4920.0,5064.0,5096.4,5099.64,5099.96,5100.0
-DFH,Construction,Building Products - Home Builders,0.55,,,,14,10__0,10,0.0,15540.0,21092.5,25018.5,25901.85,25990.18,25999.02,25999.9
-FTDR,Construction,Building Products - Miscellaneous,0.55,,,,15,10__3,10,3.0,49427.6,64492.2,92578.44,98897.84,99529.78,99592.98,99599.3
-GVA,Construction,Building Products - Heavy Construction,0.55,21560.0,1. p999999_trade_value,1.0,17,10__0,10,0.0,13700.0,20312.0,21310.4,21535.04,21557.5,21559.75,21559.98
-JHX,Construction,Building Products - Miscellaneous,0.55,14800.0,8. p75_trade_value,3.0,10,10__3,10,3.0,51000.0,78000.0,99600.0,104460.0,104946.0,104994.6,104999.46
-LOMA,Construction,Building Products - Home Builders,0.55,8294.999999999998,8. p75_trade_value,2.0,9,10__0,10,0.0,11636.0,18318.0,23663.6,24866.36,24986.64,24998.66,24999.87
-PCH,Construction,Building Products - Wood,0.55,6789.999999999999,8. p75_trade_value,2.0,6,10__0,10,0.0,31395.0,43697.5,53539.5,55753.95,55975.4,55997.54,55999.75
-ROCK,Construction,Building Products - Miscellaneous,0.55,7325.0,8. p75_trade_value,4.0,13,10__3,10,3.0,31465.0,69500.0,107900.0,116540.0,117404.0,117490.4,117499.04
-SSD,Construction,Building Products - Miscellaneous,0.55,,,,9,10__0,10,0.0,9120.0,10860.0,12252.0,12565.2,12596.52,12599.65,12599.97
-TMHC,Construction,Building Products - Home Builders,0.55,4290.0,8. p75_trade_value,3.0,10,10__0,10,0.0,6306.0,7953.0,9270.6,9567.06,9596.71,9599.67,9599.97
+version https://git-lfs.github.com/spec/v1
+oid sha256:790b9c849f66d3c72473111a5c3bc05508a778a6274211fdf50579dfbfbda6bb
+size 1979

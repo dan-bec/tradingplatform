@@ -1,3 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,trade_value_category,category_minimum,category_maximum,option_ticker,security_1,option_type,strike_price,expiration,conditions,correction,exchange,price,sip_timestamp,size,trade_value,data_date,min_trade_value,expiration_days_out,otm_range,option_condition_name,sector_1,industry_1,securty_open,security_high,security_low,security_close,trade_rank,trade_value_log10,number_of_bins,trade_value_bin,itm,itm_expiration_day,itm_expriation_close,otm
-SLVM,Basic Materials,Paper and Related Products,5__3,5,3,3.0,1. p999999_trade_value,25000.0,25000.0,O:SLVM241115C00090000,SLVM,C,90.0,2024-11-15,227,0,323,2.5,1730830086321000000,100,25000.0,2024-11-05,3000.0,30,True,Single Leg Auction Non ISO,Basic Materials,Paper and Related Products,85.93,88.46,85.93,87.89,1,4.3979400086720375,20,1,1,0,0,0
-SLVM,Basic Materials,Paper and Related Products,5__3,5,3,3.0,8. p75_trade_value,3510.0,3510.0,O:SLVM250620C00055000,SLVM,C,55.0,2025-06-20,209,0,313,1.95,1748026696300000000,18,3510.0,2025-05-23,3000.0,30,True,Automatic Execution,Basic Materials,Paper and Related Products,54.59,54.87,54.06,54.19,2,3.545307116465824,20,2,1,0,0,0
+version https://git-lfs.github.com/spec/v1
+oid sha256:aefe499f9189eb2e258969a2607e06390f1b33b29e419cb4e985e870d5fdc864
+size 1165

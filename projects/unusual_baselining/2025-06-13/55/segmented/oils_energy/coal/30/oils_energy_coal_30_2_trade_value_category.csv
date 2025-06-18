@@ -1,6 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-BTU,Oils-Energy,Coal,30__2,30,2.0,1. p999999_trade_value,495000.0,495000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-BTU,Oils-Energy,Coal,30__2,30,2.0,5. p99_trade_value,159500.0,80000.0,2.0,5.0,0.4,0.55,2. BELOW BASELINE,3.0,6.0,0.5
-BTU,Oils-Energy,Coal,30__2,30,2.0,6. p95_trade_value,60640.0,29400.0,12.0,23.0,0.5217391304347826,0.55,2. BELOW BASELINE,15.0,29.0,0.5172413793103449
-BTU,Oils-Energy,Coal,30__2,30,2.0,7. p90_trade_value,29172.000000000004,17673.0,22.0,31.0,0.7096774193548387,0.55,2. BELOW BASELINE,37.0,60.0,0.6166666666666667
-BTU,Oils-Energy,Coal,30__2,30,2.0,8. p75_trade_value,17630.0,8200.0,48.0,84.0,0.5714285714285714,0.55,2. BELOW BASELINE,85.0,144.0,0.5902777777777778
+version https://git-lfs.github.com/spec/v1
+oid sha256:d50665fa8cbff6487a86621b382d5f5d366058ced1e245721b1fcc7d8d74e540
+size 906

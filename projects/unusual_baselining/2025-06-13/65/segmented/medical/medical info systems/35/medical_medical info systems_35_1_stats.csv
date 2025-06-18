@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-VEEV,Medical,Medical Info Systems,0.65,,,,1937,35__0,35,0.0,13703.4,19868.0,43130.4,160840.83,209818.72,217744.37,218536.94
+version https://git-lfs.github.com/spec/v1
+oid sha256:fd260ba0ba8071fc51b14b34d418774d7999b1954dec5366bcc9dce0db906697
+size 404

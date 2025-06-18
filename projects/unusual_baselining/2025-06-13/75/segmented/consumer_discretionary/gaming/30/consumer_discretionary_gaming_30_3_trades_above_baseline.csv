@@ -1,4 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,category_minimum,categiry_maximum,option_ticker,security_1,option_type,strike_price,expiration,conditions,correction,exchange,price,sip_timestamp,size,trade_value,data_date,min_trade_value,expiration_days_out,otm_range,option_condition_name,sector_1,industry_1,securty_open,security_high,security_low,security_close,trade_rank,trade_value_log10,number_of_bins,trade_value_bin,itm,itm_expiration_day,itm_expriation_close,otm
-MGM,Consumer Discretionary,Gaming,30__2,30,2.0,1. p999999_trade_value,600000.0,600000.0,O:MGM241101P00040500,MGM,P,40.5,2024-11-01,241,0,323,0.6,1730297985222000000,10000,600000.0,2024-10-30,3000,30,True,Stock Options Cross,Consumer Discretionary,Gaming,41.46,42.07,41.15,41.41,1,5.778151250383644,20,1,1,1,1,0
-MGM,Consumer Discretionary,Gaming,30__2,30,2.0,4. p999_trade_value,525000.0,525000.0,O:MGM250516C00033000,MGM,C,33.0,2025-05-16,241,0,323,1.05,1745516889563000000,5000,525000.0,2025-04-24,3000,30,True,Stock Options Cross,Consumer Discretionary,Gaming,30.75,31.565,30.47,31.42,2,5.720159303405957,20,1,1,1,1,0
-PENN,Consumer Discretionary,Gaming,30__2,30,2.0,1. p999999_trade_value,367500.0,367500.0,O:PENN250214C00021000,PENN,C,21.0,2025-02-14,235,0,313,1.05,1737124609628000000,3500,367500.0,2025-01-17,3000,30,True,Multi Leg floor trade,Consumer Discretionary,Gaming,20.7,20.76,19.945,20.02,1,5.565257343420214,20,1,1,1,1,0
+version https://git-lfs.github.com/spec/v1
+oid sha256:a400e35becd3618febcb3121d70db0c0553f38b698f1dedaa362970b8ee28994
+size 1445

@@ -1,7 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-RUN,Oils-Energy,Solar,35__1,35,1.0,1. p999999_trade_value,3313979.9999999995,3313979.9999999995,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,1.0,1.0
-RUN,Oils-Energy,Solar,35__1,35,1.0,4. p999_trade_value,1440000.0,940000.0,1.0,3.0,0.3333333333333333,0.65,2. BELOW BASELINE,2.0,4.0,0.5
-RUN,Oils-Energy,Solar,35__1,35,1.0,5. p99_trade_value,876527.9999999999,152250.0,16.0,33.0,0.48484848484848486,0.65,2. BELOW BASELINE,18.0,37.0,0.4864864864864865
-RUN,Oils-Energy,Solar,35__1,35,1.0,6. p95_trade_value,150195.0,29580.0,54.0,148.0,0.36486486486486486,0.65,2. BELOW BASELINE,72.0,185.0,0.3891891891891892
-RUN,Oils-Energy,Solar,35__1,35,1.0,7. p90_trade_value,29440.999999999996,17952.0,77.0,184.0,0.41847826086956524,0.65,2. BELOW BASELINE,149.0,369.0,0.4037940379403794
-RUN,Oils-Energy,Solar,35__1,35,1.0,8. p75_trade_value,17933.0,9225.0,250.0,555.0,0.45045045045045046,0.65,2. BELOW BASELINE,399.0,924.0,0.4318181818181818
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a7e3fc56f38d8e732bdf1b4f3b721e12782016e09cb81911bc4f995098e6b89
+size 1124

@@ -1,9 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-BYND,Consumer Staples,Food - Meat Products,0.65,,,,463,25__0,25,0.0,13549.0,21000.0,99883.08,157104.2,174110.42,175811.04,175981.1
-CPB,Consumer Staples,Food - Miscellaneous,0.65,,,,200,25__0,25,0.0,21155.5,40460.55,141841.38,278853.8,309192.98,312226.9,312530.29
-FRPT,Consumer Staples,Food - Miscellaneous,0.65,247625.0,5. p99_trade_value,5.0,451,25__0,25,0.0,18000.0,41327.5,211225.0,526327.5,553077.75,555752.77,556020.28
-GIS,Consumer Staples,Food - Miscellaneous,0.65,300000.0,1. p999999_trade_value,1.0,462,25__0,25,0.0,17833.5,26136.75,102680.7,239701.2,293970.12,299397.01,299939.7
-MDLZ,Consumer Staples,Food - Miscellaneous,0.65,72000.0,1. p999999_trade_value,1.0,260,25__0,25,0.0,17070.0,22385.55,50221.75,68892.0,71689.2,71968.92,71996.89
-SJM,Consumer Staples,Food - Miscellaneous,0.65,86000.0,5. p99_trade_value,3.0,218,25__0,25,0.0,15238.5,27233.0,81197.5,320187.32,351293.73,354404.37,354715.44
-SYY,Consumer Staples,Food - Miscellaneous,0.65,,,,179,25__2,25,2.0,16205.0,42630.0,366912.0,444600.0,444600.0,444600.0,444600.0
-TSN,Consumer Staples,Food - Meat Products,0.65,28750.0,5. p99_trade_value,3.0,259,25__0,25,0.0,13107.0,17500.0,27787.2,33387.5,34838.75,34983.88,34998.39
+version https://git-lfs.github.com/spec/v1
+oid sha256:67556bf3c167a07aea447d879f79ec27a0190912fe8c0f89e668209da6a03b86
+size 1469

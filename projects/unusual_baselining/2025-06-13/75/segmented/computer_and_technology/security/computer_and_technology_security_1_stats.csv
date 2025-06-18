@@ -1,11 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CHKP,Computer and Technology,Security,0.75,,,,205,25__0,25,0.0,15422.0,24744.0,62240.0,223880.04,256559.0,259826.9,260153.69
-CRWD,Computer and Technology,Security,0.75,651000.0000000001,3. p9999_trade_value,7.0,68281,50__3,50,3.0,15560.0,24400.0,59256.0,206440.0,559092.0,1204745.64,1872808.76
-CYBR,Computer and Technology,Security,0.75,177100.0,1. p999999_trade_value,1.0,826,30__2,30,2.0,14975.0,23550.0,70875.0,172067.5,176596.75,177049.68,177094.97
-FTNT,Computer and Technology,Security,0.75,980500.0,1. p999999_trade_value,1.0,4310,35__0,35,0.0,15600.0,22645.0,62874.03,413389.8,897910.26,972241.03,979674.1
-OKTA,Computer and Technology,Security,0.75,,,,7851,40__3,40,3.0,14952.0,23581.0,60382.5,220263.95,765153.9,1314429.39,1369356.94
-PANW,Computer and Technology,Security,0.75,637500.0,3. p9999_trade_value,3.0,25690,45__1,45,1.0,15000.0,23250.0,61622.0,188302.15,624699.75,827614.28,867318.43
-QLYS,Computer and Technology,Security,0.75,222138.0,5. p99_trade_value,2.0,183,25__2,25,2.0,32175.0,45384.0,176969.94,367629.12,396762.91,399676.29,399967.63
-S,Computer and Technology,Security,0.75,225000.0,1. p999999_trade_value,1.0,1131,30__2,30,2.0,14580.0,24264.0,65400.0,167920.0,218785.0,224378.5,224937.85
-VRNS,Computer and Technology,Security,0.75,22599.999999999996,6. p95_trade_value,11.0,208,25__0,25,0.0,15449.0,22337.5,189139.5,681556.01,705508.6,707903.86,708143.39
-ZS,Computer and Technology,Security,0.75,936000.0,3. p9999_trade_value,2.0,14674,40__3,40,3.0,15294.0,23223.15,51781.0,184121.19,796277.3,1353249.03,1417824.9
+version https://git-lfs.github.com/spec/v1
+oid sha256:fb3347a3422154705def447ea8ee31787b56c235f3ad4dcabdb0c3ac6307414b
+size 1821

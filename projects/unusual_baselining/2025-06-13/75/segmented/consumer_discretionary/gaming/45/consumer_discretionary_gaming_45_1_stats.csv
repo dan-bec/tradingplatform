@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-GME,Consumer Discretionary,Gaming,0.75,,,,51019,45__1,45,1.0,14094.8,21168.0,49992.62,151694.63,577951.45,2447537.97,2896327.5
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e69a4eda8a29565136e2e9f0b3de393a25ac266357db0f5b1df6dec15ed27a8
+size 407

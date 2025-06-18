@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CROX,Consumer Discretionary,Textile - Apparel,0.55,960000.0,4. p999_trade_value,3.0,2798,35__1,35,1.0,14960.0,24787.5,81088.7,732855.0,2030918.69,2077107.87,2081726.79
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a36d485c6078ddae783fe5f6ea9042e4b9ed5b5730e5794f4367c7e3283d1c6
+size 448

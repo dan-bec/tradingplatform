@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-POWI,Computer and Technology,Semiconductors - Power,0.55,,,,24,15__0,15,0.0,15464.4,33157.8,36000.0,36000.0,36000.0,36000.0,36000.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:d76926705aa587a2131276eaa5da3343c992c55fe8d602d744637f8e425e98a9
+size 412

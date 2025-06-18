@@ -1,5 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-HESM,Oils-Energy,Energy and Pipeline - Master Limited Partnerships,15__0,15,0.0,1. p999999_trade_value,118340.00000000001,118340.00000000001,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-HESM,Oils-Energy,Energy and Pipeline - Master Limited Partnerships,15__0,15,0.0,6. p95_trade_value,61542.00000000001,61542.00000000001,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
-HESM,Oils-Energy,Energy and Pipeline - Master Limited Partnerships,15__0,15,0.0,7. p90_trade_value,47565.0,17460.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,1.0,4.0,0.25
-HESM,Oils-Energy,Energy and Pipeline - Master Limited Partnerships,15__0,15,0.0,8. p75_trade_value,16401.000000000004,8526.0,0.0,6.0,0.0,0.75,2. BELOW BASELINE,1.0,10.0,0.1
+version https://git-lfs.github.com/spec/v1
+oid sha256:cfeb9eebf19de376c4578b8227835496b4c065760046c44b59f17d33ae89aebb
+size 912

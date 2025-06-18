@@ -1,5 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-APD,Basic Materials,Chemical - Diversified ,0.65,,,,789,30__2,30,2.0,15260.0,20738.0,88699.92,558750.0,558750.0,558750.0,558750.0
-DD,Basic Materials,Chemical - Diversified ,0.65,150660.0,1. p999999_trade_value,1.0,574,30__2,30,2.0,16400.0,26085.8,85530.24,150281.82,150622.18,150656.22,150659.62
-DOW,Basic Materials,Chemical - Diversified ,0.65,,,,759,30__2,30,2.0,16300.0,26797.5,57610.98,129502.0,150650.2,152765.02,152976.5
-LIN,Basic Materials,Chemical - Specialty,0.65,,,,601,30__2,30,2.0,13690.0,18700.0,36000.0,57200.0,64220.0,64922.0,64992.2
+version https://git-lfs.github.com/spec/v1
+oid sha256:421672d1302fb2fcd28fd8793c122e3edf55e5c0f1ce83a6ad945ab57e4039be
+size 829

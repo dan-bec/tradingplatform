@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-VOD,Computer and Technology,Wireless Non-US ,0.65,,,,141,20__2,20,2.0,16950.0,22450.0,42805.0,517480.06,585894.41,592735.84,593419.98
+version https://git-lfs.github.com/spec/v1
+oid sha256:79c1f1c92947b94ae5a69d095e26d0fadf3c66d5dd551cc9c4846a76ce1743ba
+size 414

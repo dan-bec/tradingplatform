@@ -1,14 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ASTL,Basic Materials,Steel - Producers,0.55,241500.0,1. p999999_trade_value,1.0,22,15__0,15,0.0,46932.0,57562.0,202956.6,237645.66,241114.57,241461.46,241496.15
-ATI,Basic Materials,Steel - Speciality,0.55,6000.0,8. p75_trade_value,33.0,130,20__2,20,2.0,10510.0,16644.0,35130.0,387884.0,434788.4,439478.84,439947.88
-CLF,Basic Materials,Steel - Producers,0.55,266000.0,1. p999999_trade_value,1.0,1950,35__0,35,0.0,14004.0,22675.3,59665.76,125878.01,238987.64,263298.76,265729.88
-CMC,Basic Materials,Steel - Producers,0.55,,,,46,15__0,15,0.0,20550.5,75900.0,106587.0,111908.7,112440.87,112494.09,112499.41
-CRS,Basic Materials,Steel - Speciality,0.55,,,,655,30__2,30,2.0,17920.0,37000.0,97021.26,193149.17,238262.42,242773.74,243224.87
-MT,Basic Materials,Steel - Producers,0.55,,,,420,25__0,25,0.0,14820.0,25594.0,44729.25,79574.1,83759.91,84178.49,84220.35
-NUE,Basic Materials,Steel - Producers,0.55,125000.0,5. p99_trade_value,30.0,2938,35__2,35,2.0,16500.0,30830.0,124218.38,474440.7,602926.93,623692.69,625769.27
-PKX,Basic Materials,Steel - Producers,0.55,,,,5,5__0,5,0.0,6998.0,7009.0,7017.8,7019.78,7019.98,7020.0,7020.0
-STLD,Basic Materials,Steel - Producers,0.55,831600.0,4. p999_trade_value,2.0,1015,30__1,30,1.0,17276.0,36960.0,157010.0,830677.4,933501.24,943850.12,944885.01
-TX,Basic Materials,Steel - Producers,0.55,4000.0,1. p999999_trade_value,1.0,1,0__2,0,2.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0
-WS,Basic Materials,Steel - Speciality,0.55,,,,6,10__0,10,0.0,5925.0,6472.5,6910.5,7009.05,7018.91,7019.89,7019.99
-X,Basic Materials,Steel - Producers,0.55,6133500.0,3. p9999_trade_value,2.0,16891,40__1,40,1.0,17280.0,30439.5,240000.0,1487370.0,5468976.04,10527941.25,11331694.13
-ZEUS,Basic Materials,Steel - Producers,0.55,,,,1,0__2,0,2.0,3375.0,3375.0,3375.0,3375.0,3375.0,3375.0,3375.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:2bfe788a32ad888f8872991e13bb3f9125087d7f2b106442315f112f8f6849fa
+size 2088

@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-COST,Retail-Wholesale,Retail - Discount Stores,0.55,,,,80621,50__3,50,3.0,15720.0,24360.0,66420.2,254002.08,770858.0,1199727.1,1273584.61
+version https://git-lfs.github.com/spec/v1
+oid sha256:ee276ae811bc112b52ee5a1e8e9e6cd2157d8d3ab458a84eceb596b7e64e4034
+size 418

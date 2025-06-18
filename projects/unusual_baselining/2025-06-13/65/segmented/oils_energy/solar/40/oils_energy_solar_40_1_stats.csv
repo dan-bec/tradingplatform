@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ENPH,Oils-Energy,Solar,0.65,442000.0,3. p9999_trade_value,2.0,11361,40__3,40,3.0,14000.0,21190.0,51930.0,226752.0,433279.68,737033.81,771063.88
+version https://git-lfs.github.com/spec/v1
+oid sha256:ece82e8aa2865c366910e2113ed5929de410549b6833d377c03c95c49cf331e2
+size 424

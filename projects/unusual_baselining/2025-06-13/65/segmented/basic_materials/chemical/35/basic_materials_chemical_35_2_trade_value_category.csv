@@ -1,7 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-ALB,Basic Materials,Chemical - Diversified ,35__0,35,0.0,1. p999999_trade_value,585752.0,585752.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-ALB,Basic Materials,Chemical - Diversified ,35__0,35,0.0,4. p999_trade_value,410000.0,334295.0,2.0,3.0,0.6666666666666666,0.65,2. BELOW BASELINE,2.0,4.0,0.5
-ALB,Basic Materials,Chemical - Diversified ,35__0,35,0.0,5. p99_trade_value,319500.0,68115.00000000001,18.0,27.0,0.6666666666666666,0.65,2. BELOW BASELINE,20.0,31.0,0.6451612903225806
-ALB,Basic Materials,Chemical - Diversified ,35__0,35,0.0,6. p95_trade_value,66400.0,24420.0,77.0,121.0,0.6363636363636364,0.65,2. BELOW BASELINE,97.0,152.0,0.6381578947368421
-ALB,Basic Materials,Chemical - Diversified ,35__0,35,0.0,7. p90_trade_value,24400.0,14734.0,75.0,150.0,0.5,0.65,2. BELOW BASELINE,172.0,302.0,0.5695364238410596
-ALB,Basic Materials,Chemical - Diversified ,35__0,35,0.0,8. p75_trade_value,14691.000000000002,7875.0,243.0,451.0,0.5388026607538803,0.65,2. BELOW BASELINE,415.0,753.0,0.5511288180610889
+version https://git-lfs.github.com/spec/v1
+oid sha256:88e0d1bb70e23c53f70e57321fcfa6d57c44df5481a5e87e30b785611bf07fc8
+size 1215

@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-BILI,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,3940,35__2,35,2.0,17294.4,27933.45,99807.26,362816.04,1058800.8,1175080.08,1186708.01
+version https://git-lfs.github.com/spec/v1
+oid sha256:95987bc540a39bf11c847959b01a568ea6b70ad85d13171235cf198252bd0f5f
+size 433

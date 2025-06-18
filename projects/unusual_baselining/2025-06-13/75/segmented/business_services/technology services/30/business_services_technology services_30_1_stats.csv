@@ -1,6 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AUR,Business Services,Technology Services,0.75,,,,601,30__2,30,2.0,13500.0,19305.0,55000.0,196264.4,332971.34,346642.03,348009.1
-BTDR,Business Services,Technology Services,0.75,71730.0,5. p99_trade_value,17.0,1694,30__2,30,2.0,19614.0,30000.0,70208.52,194748.45,344330.09,358346.61,359748.26
-DAVE,Business Services,Technology Services,0.75,,,,933,30__2,30,2.0,15480.0,29670.0,74400.0,198769.4,282271.94,290622.19,291457.22
-GDS,Business Services,Technology Services,0.75,232648.0,1. p999999_trade_value,1.0,925,30__2,30,2.0,16440.0,24799.2,69894.64,201326.25,229515.82,232334.78,232616.68
-SYM,Business Services,Technology Services,0.75,,,,1288,30__2,30,2.0,16710.5,26386.5,88143.0,260841.1,626841.36,670184.14,674518.41
+version https://git-lfs.github.com/spec/v1
+oid sha256:91709a2213d61ec25ecd2c7fe048e9dfceffa81772a085d5718c8b4e8974fd57
+size 999

@@ -1,3 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-VTSI,Aerospace,Electronics - Military,10__0,10,0.0,1. p999999_trade_value,10000.0,10000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-VTSI,Aerospace,Electronics - Military,10__0,10,0.0,8. p75_trade_value,6900.0,6900.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:678982479f5a3e0f95967cdb53197c7bcc910c046c2d3a89b7475aa65a2f65f2
+size 474

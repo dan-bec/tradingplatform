@@ -1,3 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,category_minimum,categiry_maximum,option_ticker,security_1,option_type,strike_price,expiration,conditions,correction,exchange,price,sip_timestamp,size,trade_value,data_date,min_trade_value,expiration_days_out,otm_range,option_condition_name,sector_1,industry_1,securty_open,security_high,security_low,security_close,trade_rank,trade_value_log10,number_of_bins,trade_value_bin,itm,itm_expiration_day,itm_expriation_close,otm
-FDP,Consumer Staples,Agriculture - Operations,15__0,15,0.0,7. p90_trade_value,8800.0,8800.0,O:FDP250221P00030000,FDP,P,30.0,2025-02-21,227,0,301,0.44,1738270151837000000,200,8800.0,2025-01-30,3000,30,True,Single Leg Auction Non ISO,Consumer Staples,Agriculture - Operations,31.69,31.94,31.0501,31.08,2,3.9444826721501687,20,2,1,0,0,0
-FDP,Consumer Staples,Agriculture - Operations,15__0,15,0.0,1. p999999_trade_value,18450.0,18450.0,O:FDP250221P00030000,FDP,P,30.0,2025-02-21,209,0,308,0.5,1738353487797000000,369,18450.0,2025-01-31,3000,30,True,Automatic Execution,Consumer Staples,Agriculture - Operations,30.9,31.22,30.23,30.49,1,4.265996370495079,20,1,1,0,0,0
+version https://git-lfs.github.com/spec/v1
+oid sha256:6522b316a6d64b32129f8e4e80efd8d02492af1dba2f64317cd31791b780208c
+size 1172

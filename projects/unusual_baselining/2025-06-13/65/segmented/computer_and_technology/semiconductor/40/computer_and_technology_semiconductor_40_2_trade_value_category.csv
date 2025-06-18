@@ -1,7 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-TXN,Computer and Technology,Semiconductor - General,40__3,40,3.0,1. p999999_trade_value,1149770.0,1149770.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-TXN,Computer and Technology,Semiconductor - General,40__3,40,3.0,4. p999_trade_value,1077499.9999999998,388500.0,7.0,7.0,1.0,0.65,1. ABOVE BASELINE,8.0,8.0,1.0
-TXN,Computer and Technology,Semiconductor - General,40__3,40,3.0,5. p99_trade_value,375000.0,56069.99999999999,34.0,68.0,0.5,0.65,2. BELOW BASELINE,42.0,76.0,0.5526315789473685
-TXN,Computer and Technology,Semiconductor - General,40__3,40,3.0,6. p95_trade_value,55610.0,21175.0,173.0,300.0,0.5766666666666667,0.65,2. BELOW BASELINE,215.0,376.0,0.5718085106382979
-TXN,Computer and Technology,Semiconductor - General,40__3,40,3.0,7. p90_trade_value,21165.0,13983.000000000002,191.0,376.0,0.5079787234042553,0.65,2. BELOW BASELINE,406.0,752.0,0.5398936170212766
-TXN,Computer and Technology,Semiconductor - General,40__3,40,3.0,8. p75_trade_value,13975.0,7955.0,652.0,1128.0,0.5780141843971631,0.65,2. BELOW BASELINE,1058.0,1880.0,0.5627659574468085
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb7ded14bf9596af57a60be2e8e635b63fe884426757bfe074a6a7c01b7411d8
+size 1266

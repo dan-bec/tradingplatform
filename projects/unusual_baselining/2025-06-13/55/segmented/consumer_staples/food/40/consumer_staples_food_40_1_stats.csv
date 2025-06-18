@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CELH,Consumer Staples,Food - Miscellaneous,0.55,900000.0,1. p999999_trade_value,1.0,11244,40__3,40,3.0,14498.5,21930.0,59568.22,271640.85,542978.28,860424.64,896042.46
+version https://git-lfs.github.com/spec/v1
+oid sha256:fcec0ffe565bd1d45c655fb611c40d21361006cdbc098a0231734412b138fe26
+size 448

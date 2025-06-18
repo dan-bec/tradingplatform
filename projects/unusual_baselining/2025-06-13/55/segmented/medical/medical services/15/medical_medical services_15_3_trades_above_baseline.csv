@@ -1,3 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,category_minimum,categiry_maximum,option_ticker,security_1,option_type,strike_price,expiration,conditions,correction,exchange,price,sip_timestamp,size,trade_value,data_date,min_trade_value,expiration_days_out,otm_range,option_condition_name,sector_1,industry_1,securty_open,security_high,security_low,security_close,trade_rank,trade_value_log10,number_of_bins,trade_value_bin,itm,itm_expiration_day,itm_expriation_close,otm
-OGN,Medical,Medical Services,15__0,15,0.0,1. p999999_trade_value,130000.0,130000.0,O:OGN250516P00012500,OGN,P,12.5,2025-05-16,241,0,323,0.65,1746034532567000000,2000,130000.0,2025-04-30,3000,30,True,Stock Options Cross,Medical,Medical Services,13.05,13.075,12.81,12.93,1,5.113943352306837,20,1,1,1,1,0
-VTRS,Medical,Medical Services,15__0,15,0.0,1. p999999_trade_value,77952.0,77952.0,O:VTRS250516C00009000,VTRS,C,9.0,2025-05-16,233,0,312,0.29,1746641383351000000,2688,77952.0,2025-05-07,3000,30,True,Multi Leg Auction,Medical,Medical Services,8.49,8.71,8.49,8.6,1,4.891827262280744,20,1,1,0,0,0
+version https://git-lfs.github.com/spec/v1
+oid sha256:293310c008f6971cdeba928258482dde8fa1b7a0a9ddedb6ad24fec0a61c9faf
+size 1104

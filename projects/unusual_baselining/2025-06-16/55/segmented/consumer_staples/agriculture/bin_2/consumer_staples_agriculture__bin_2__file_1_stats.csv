@@ -1,5 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ADM,Consumer Staples,Agriculture - Operations,0.55,,,,327,25__0,25,2,0.0,11580.0,16541.1,79134.92,363161.02,425116.1,431311.61,431931.16
-CTVA,Consumer Staples,Agriculture - Operations,0.55,,,,100,20__0,20,2,0.0,15194.7,21378.0,52252.96,65525.3,66852.53,66985.25,66998.53
-FMC,Consumer Staples,Agriculture - Operations,0.55,,,,196,25__0,25,2,0.0,13260.0,20488.75,49496.5,136537.5,155403.75,157290.38,157479.04
-SMG,Consumer Staples,Agriculture - Operations,0.55,,,,433,25__0,25,2,0.0,16194.0,34178.0,165060.4,187535.84,190113.58,190371.36,190397.14
+version https://git-lfs.github.com/spec/v1
+oid sha256:47c142adcac2987d6a8a96adca8d0f52aa29d82434ca98ef244f3561e39bb2de
+size 848

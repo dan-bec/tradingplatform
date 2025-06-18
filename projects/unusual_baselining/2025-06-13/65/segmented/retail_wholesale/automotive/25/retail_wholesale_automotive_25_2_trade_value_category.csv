@@ -1,6 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-GPC,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,25__0,25,0.0,1. p999999_trade_value,565000.0,565000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-GPC,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,25__0,25,0.0,5. p99_trade_value,317240.0,307450.0,1.0,3.0,0.3333333333333333,0.65,2. BELOW BASELINE,2.0,4.0,0.5
-GPC,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,25__0,25,0.0,6. p95_trade_value,186250.0,25345.0,6.0,13.0,0.46153846153846156,0.65,2. BELOW BASELINE,8.0,17.0,0.47058823529411764
-GPC,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,25__0,25,0.0,7. p90_trade_value,24080.0,14160.0,8.0,16.0,0.5,0.65,2. BELOW BASELINE,16.0,33.0,0.48484848484848486
-GPC,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,25__0,25,0.0,8. p75_trade_value,13860.0,7480.000000000001,19.0,50.0,0.38,0.65,2. BELOW BASELINE,35.0,83.0,0.42168674698795183
+version https://git-lfs.github.com/spec/v1
+oid sha256:03c222d3411aba531da32e80734cfdd7e89f1207f952b171777071c11d77567b
+size 1104

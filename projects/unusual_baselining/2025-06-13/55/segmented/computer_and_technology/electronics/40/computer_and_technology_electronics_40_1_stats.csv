@@ -1,4 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AMAT,Computer and Technology,Electronics - Semiconductors,0.55,922350.0,3. p9999_trade_value,2.0,14426,40__0,40,0.0,16000.0,24738.75,76442.25,211866.38,726610.13,993077.74,1003807.77
-CLS,Computer and Technology,Electronics - Manufacturing Services,0.55,8576.0,8. p75_trade_value,1416.0,5664,40__0,40,0.0,17000.0,26903.25,99610.5,765841.4,1114977.26,1204997.73,1213999.77
-LRCX,Computer and Technology,Electronics - Semiconductors,0.55,60319.99999999999,5. p99_trade_value,135.0,13457,40__3,40,3.0,15000.0,24260.8,60174.4,156979.14,284422.4,331424.19,336381.22
+version https://git-lfs.github.com/spec/v1
+oid sha256:4098f3d699760b9f3b02a3e1518db4e3fb53dc6268bd76fe7383ae0e6f22fecd
+size 839

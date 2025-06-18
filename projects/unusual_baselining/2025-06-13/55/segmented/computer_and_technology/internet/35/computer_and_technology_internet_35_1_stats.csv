@@ -1,16 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ADSK,Computer and Technology,Internet - Software,0.55,,,,4163,35__0,35,0.0,13446.6,21223.5,51789.84,184574.91,344365.15,413381.52,420283.15
-BEKE,Computer and Technology,Internet - Services,0.55,789842.0,1. p999999_trade_value,1.0,2345,35__2,35,2.0,17734.8,28784.0,101076.0,407960.0,787535.04,789611.3,789818.93
-BILL,Computer and Technology,Internet - Software,0.55,,,,2170,35__2,35,2.0,15756.0,24965.8,82875.0,636678.0,1067771.95,1150777.2,1159077.72
-DOCU,Computer and Technology,Internet - Software,0.55,183000.0,4. p999_trade_value,4.0,3991,35__0,35,0.0,15440.0,22646.0,51741.4,170130.0,361076.74,380015.67,381909.57
-GTLB,Computer and Technology,Internet - Software,0.55,8750.0,8. p75_trade_value,697.0,2787,35__0,35,0.0,15570.0,22498.5,56418.8,168204.94,344988.29,351100.83,351712.08
-HUBS,Computer and Technology,Internet - Software,0.55,,,,2165,35__0,35,0.0,15750.0,24950.0,80246.6,327835.76,366015.49,366069.05,366074.4
-IOT,Computer and Technology,Internet - Software,0.55,9685.0,8. p75_trade_value,735.0,2940,35__2,35,2.0,20299.5,38955.5,199888.85,802108.29,1085205.6,1188520.56,1198852.06
-LYFT,Computer and Technology,Internet - Services,0.55,184932.0,4. p999_trade_value,4.0,3174,35__0,35,0.0,15326.4,21203.5,60104.7,178888.76,485428.54,489107.25,489475.13
-MNDY,Computer and Technology,Internet - Software,0.55,,,,3002,35__2,35,2.0,17868.5,28000.0,94080.0,399172.8,692059.03,735205.9,739520.59
-PINS,Computer and Technology,Internet - Software,0.55,,,,5196,35__1,35,1.0,15211.0,24882.75,124453.85,700209.42,1746253.61,1983850.36,2007610.04
-RBRK,Computer and Technology,Internet - Software,0.55,,,,2847,35__1,35,1.0,18200.0,27927.5,90000.0,554150.19,1933556.76,2071718.68,2085534.87
-SE,Computer and Technology,Internet - Software,0.55,,,,5035,35__0,35,0.0,14341.2,22403.0,62053.8,324065.0,1427087.36,1478941.44,1484126.84
-TOST,Computer and Technology,Internet - Software,0.55,,,,1857,35__0,35,0.0,15000.0,23008.0,48380.0,91444.8,173049.6,182904.96,183890.5
-Z,Computer and Technology,Internet - Services,0.55,,,,2068,35__0,35,0.0,12900.0,19000.0,46975.71,129402.07,162472.7,166007.27,166360.73
-ZM,Computer and Technology,Internet - Software,0.55,377718.0,4. p999_trade_value,6.0,5144,35__0,35,0.0,15656.0,24592.8,58617.74,359471.49,685568.25,788556.83,798855.68
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6acf2661d8e65259d2b0bb5c3ad3eb90856605e627e81bae05b9508f9c0391d
+size 2547

@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-RL,Consumer Discretionary,Textile - Apparel,0.75,328860.0,1. p999999_trade_value,1.0,513,25__0,25,0.0,18402.0,53400.0,191332.32,307571.04,326731.1,328647.11,328838.71
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a73a4b7073b0de2a8c01e8a015d20416f72e7b32080c9390ac1cd5f511a3395
+size 447

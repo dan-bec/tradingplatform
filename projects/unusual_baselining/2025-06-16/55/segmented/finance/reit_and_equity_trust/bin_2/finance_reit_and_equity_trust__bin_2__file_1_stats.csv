@@ -1,23 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ABR,Finance,REIT and Equity Trust,0.55,315000.0,1. p999999_trade_value,1.0,259,25__2,25,2,2.0,29251.2,72613.5,170644.5,290490.0,312549.0,314754.9,314975.49
-AGNC,Finance,REIT and Equity Trust,0.55,100000.0,5. p99_trade_value,4.0,379,25__0,25,2,0.0,16343.6,34993.0,92200.0,116220.0,119622.0,119962.2,119996.22
-AMT,Finance,REIT and Equity Trust - Other,0.55,,,,577,30__0,30,2,0.0,26224.8,54575.0,123342.4,462405.6,605950.56,620305.06,621740.51
-ARE,Finance,REIT and Equity Trust - Other,0.55,95250.0,1. p999999_trade_value,1.0,106,20__0,20,2,0.0,16260.0,39611.25,88562.5,94698.75,95194.88,95244.49,95249.45
-BXP,Finance,REIT and Equity Trust - Other,0.55,7285.000000000001,8. p75_trade_value,31.0,123,20__0,20,2,0.0,14946.0,20572.0,73964.72,145257.88,153328.29,154135.33,154216.03
-CCI,Finance,REIT and Equity Trust - Other,0.55,340000.0,1. p999999_trade_value,1.0,396,25__0,25,2,0.0,15070.5,19755.0,36336.1,270875.0,333087.5,339308.75,339930.87
-CXW,Finance,REIT and Equity Trust - Other,0.55,6880.0,8. p75_trade_value,34.0,139,20__0,20,2,0.0,11221.0,15941.4,94350.0,145860.0,149586.0,149958.6,149995.86
-DBRG,Finance,REIT and Equity Trust,0.55,8200.0,8. p75_trade_value,42.0,165,20__0,20,2,0.0,20304.0,38270.0,137600.0,169697.6,171409.76,171580.98,171598.1
-DLR,Finance,REIT and Equity Trust - Other,0.55,,,,976,30__2,30,2,2.0,14155.0,22620.0,46075.0,208264.62,568552.96,604581.8,608184.68
-DOC,Finance,REIT and Equity Trust - Other,0.55,6675.0,8. p75_trade_value,16.0,62,20__0,20,2,0.0,13689.0,16550.4,32811.48,42656.15,43640.61,43739.06,43748.91
-EQIX,Finance,REIT and Equity Trust - Retail,0.55,,,,590,30__2,30,2,2.0,18009.0,25773.0,58435.18,149013.9,151611.39,151871.14,151897.11
-IIPR,Finance,REIT and Equity Trust - Other,0.55,19900.0,6. p95_trade_value,4.0,72,20__0,20,2,0.0,10804.5,17271.0,32523.05,36385.81,36772.08,36810.71,36814.57
-MPW,Finance,REIT and Equity Trust - Other,0.55,,,,969,30__2,30,2,2.0,14995.2,26654.0,112524.24,313676.74,686025.87,723260.79,726984.28
-NLY,Finance,REIT and Equity Trust,0.55,31500.0,1. p999999_trade_value,1.0,253,25__0,25,2,0.0,8361.8,11536.8,16733.52,28349.24,31184.92,31468.49,31496.85
-O,Finance,REIT and Equity Trust - Retail,0.55,210300.0,1. p999999_trade_value,1.0,171,20__0,20,2,0.0,10200.0,13773.5,67732.0,205572.3,209827.23,210252.72,210295.27
-PLD,Finance,REIT and Equity Trust - Other,0.55,108500.0,5. p99_trade_value,4.0,339,25__0,25,2,0.0,19768.0,36150.0,105270.0,181270.0,207127.0,209712.7,209971.27
-PSA,Finance,REIT and Equity Trust - Other,0.55,99000.0,1. p999999_trade_value,1.0,123,20__0,20,2,0.0,13640.0,25350.0,60111.6,94516.5,98551.65,98955.17,98995.52
-SBAC,Finance,REIT and Equity Trust - Other,0.55,,,,97,20__0,20,2,0.0,19880.0,30545.0,45048.0,97924.8,103212.48,103741.25,103794.12
-SLG,Finance,REIT and Equity Trust - Other,0.55,14700.0,7. p90_trade_value,20.0,197,25__0,25,2,0.0,14366.4,21012.0,211200.0,260847.72,265421.77,265879.18,265924.92
-SPG,Finance,REIT and Equity Trust - Retail,0.55,,,,354,25__0,25,2,0.0,16434.0,20263.7,29675.8,35817.81,36219.38,36259.54,36263.55
-SUI,Finance,REIT and Equity Trust - Residential,0.55,280000.0,1. p999999_trade_value,1.0,214,25__0,25,2,0.0,25337.4,38800.0,142840.35,261362.5,278136.25,279813.63,279981.36
-WELL,Finance,REIT and Equity Trust - Other,0.55,7560.000000000001,8. p75_trade_value,43.0,169,20__0,20,2,0.0,13904.0,18320.0,63812.0,117716.48,117737.65,117739.76,117739.98
+version https://git-lfs.github.com/spec/v1
+oid sha256:9502be6bcdbbf77ee0c5acd92fd02c27a62b0356814758f162d08138b1b1fae0
+size 3677

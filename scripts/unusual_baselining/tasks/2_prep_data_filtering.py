@@ -26,7 +26,6 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--strict-otm", type=str_to_bool, default=config.STRICT_OTM, help="Use strict OTM range")
 parser.add_argument("--min-trade-value", type=float, default=config.MIN_TRADE_VALUE, help="Minimum trade value")
 parser.add_argument("--expiration-days-out", type=int, default=config.EXPIRATION_DAYS_OUT, help="Expiration days out")
-parser.add_argument("--number-of-bins", type=int, default=config.NUMBER_OF_BINS, help="Number of bins")
 args = parser.parse_args()
 
 ### SETTINGS ###
@@ -42,7 +41,6 @@ output_dir = config.PREP_OUTPUT_DIR
 otm_range = args.strict_otm
 min_trade_value = args.min_trade_value
 expiration_days_out = args.expiration_days_out
-number_of_bins = args.number_of_bins
 
 # Connect to DuckDB
 con = duckdb.connect(str(full_db_path))
@@ -52,17 +50,16 @@ print(f"Connected to DuckDB database: {full_db_path}")
 rebuild = True
 try:
     current_settings = con.execute(f"""
-        SELECT min_trade_value, expiration_days_out, otm_range, number_of_bins, MAX(data_date) AS max_data_date
+        SELECT min_trade_value, expiration_days_out, otm_range, MAX(data_date) AS max_data_date
         FROM {prep_schema}.filtered_short_term_otm_options_trades
         GROUP BY 1,2,3,4
     """).fetchone()
     if current_settings:
-        current_min_trade_value, current_expiration_days_out, current_otm_range, current_number_of_bins, current_max_data_date = current_settings
+        current_min_trade_value, current_expiration_days_out, current_otm_range, current_max_data_date = current_settings
         raw_max_data_date = con.execute(f"SELECT MAX(data_date) FROM raw_data.all_options_trades_data").fetchone()[0] # type: ignore
         if (current_min_trade_value == min_trade_value and
             current_expiration_days_out == expiration_days_out and
             current_otm_range == otm_range and
-            current_number_of_bins == number_of_bins and
             current_max_data_date == raw_max_data_date):
             print("Settings match and data is up-to-date. Skipping rebuild.")
             rebuild = False

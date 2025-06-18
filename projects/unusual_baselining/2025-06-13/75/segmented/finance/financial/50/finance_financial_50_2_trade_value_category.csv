@@ -1,8 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-HOOD,Finance,Financial - Investment Bank,50__3,50,3.0,1. p999999_trade_value,1896000.0,1896000.0,1.0,1.0,1.0,0.75,2. BELOW BASELINE,1.0,1.0,1.0
-HOOD,Finance,Financial - Investment Bank,50__3,50,3.0,3. p9999_trade_value,1217349.9999999998,1035000.0,5.0,7.0,0.7142857142857143,0.75,2. BELOW BASELINE,6.0,8.0,0.75
-HOOD,Finance,Financial - Investment Bank,50__3,50,3.0,4. p999_trade_value,1010000.0,306159.0,28.0,56.0,0.5,0.75,2. BELOW BASELINE,34.0,64.0,0.53125
-HOOD,Finance,Financial - Investment Bank,50__3,50,3.0,5. p99_trade_value,302400.0,73000.0,357.0,567.0,0.6296296296296297,0.75,2. BELOW BASELINE,391.0,631.0,0.6196513470681458
-HOOD,Finance,Financial - Investment Bank,50__3,50,3.0,6. p95_trade_value,72812.0,27342.0,1517.0,2521.0,0.6017453391511305,0.75,2. BELOW BASELINE,1908.0,3152.0,0.6053299492385786
-HOOD,Finance,Financial - Investment Bank,50__3,50,3.0,7. p90_trade_value,27336.0,17650.0,1926.0,3151.0,0.6112345287210409,0.75,2. BELOW BASELINE,3834.0,6303.0,0.6082817705854355
-HOOD,Finance,Financial - Investment Bank,50__3,50,3.0,8. p75_trade_value,17640.0,9408.0,5576.0,9454.0,0.5898032578802623,0.75,2. BELOW BASELINE,9410.0,15757.0,0.5971948975058704
+version https://git-lfs.github.com/spec/v1
+oid sha256:3ed5511ce9499c0eb8a9f4d8a9506cc232b12393bc47e9a6f1af6bdb509b36ec
+size 1374

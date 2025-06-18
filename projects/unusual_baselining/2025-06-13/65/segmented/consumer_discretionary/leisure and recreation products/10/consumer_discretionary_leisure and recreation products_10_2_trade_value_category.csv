@@ -1,10 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-MBUU,Consumer Discretionary,Leisure and Recreation Products,10__0,10,0.0,1. p999999_trade_value,37350.0,37350.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-MBUU,Consumer Discretionary,Leisure and Recreation Products,10__0,10,0.0,8. p75_trade_value,6839.999999999999,6839.999999999999,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
-PLBY,Consumer Discretionary,Leisure and Recreation Products,10__0,10,0.0,1. p999999_trade_value,27500.0,27500.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-PLBY,Consumer Discretionary,Leisure and Recreation Products,10__0,10,0.0,8. p75_trade_value,6975.0,6975.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
-RGR,Consumer Discretionary,Leisure and Recreation Products,10__0,10,0.0,1. p999999_trade_value,11790.0,11790.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-RGR,Consumer Discretionary,Leisure and Recreation Products,10__0,10,0.0,8. p75_trade_value,11500.0,10560.0,0.0,2.0,0.0,0.65,2. BELOW BASELINE,0.0,3.0,0.0
-SWBI,Consumer Discretionary,Leisure and Recreation Products,10__0,10,0.0,1. p999999_trade_value,15300.0,15300.0,0.0,1.0,0.0,0.65,2. BELOW BASELINE,0.0,1.0,0.0
-SWBI,Consumer Discretionary,Leisure and Recreation Products,10__0,10,0.0,7. p90_trade_value,13050.0,13050.0,1.0,1.0,1.0,0.65,2. BELOW BASELINE,1.0,2.0,0.5
-SWBI,Consumer Discretionary,Leisure and Recreation Products,10__0,10,0.0,8. p75_trade_value,12400.0,8100.0,2.0,2.0,1.0,0.65,2. BELOW BASELINE,3.0,4.0,0.75
+version https://git-lfs.github.com/spec/v1
+oid sha256:a9a9a0d6a2a0879534a58cef81e09a94e928df6998e29313bd5543e4d24d80a9
+size 1633

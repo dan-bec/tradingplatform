@@ -1,4 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-MA,Business Services,Financial Transaction Services,0.65,432500.0,1. p999999_trade_value,1.0,5761,40__3,40,3.0,14385.0,23184.0,65079.0,179884.8,422231.07,431473.11,432397.31
-PYPL,Business Services,Financial Transaction Services,0.65,,,,16170,40__0,40,0.0,16632.8,26605.65,94915.5,395747.51,1040028.47,1646919.54,1690191.95
-V,Business Services,Financial Transaction Services,0.65,,,,12651,40__3,40,3.0,15000.0,22400.0,58475.0,290840.1,1020210.47,1096902.0,1096902.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:24da03a96db1f9a08b89fe20804f3d6fb6615593f35aaa002d7e8dbfff04bb8e
+size 745

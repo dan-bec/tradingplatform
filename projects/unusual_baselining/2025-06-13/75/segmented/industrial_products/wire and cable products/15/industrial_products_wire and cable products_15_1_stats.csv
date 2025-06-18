@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-BDC,Industrial Products,Wire and Cable Products,0.75,6120.0,8. p75_trade_value,6.0,18,15__0,15,0.0,8790.0,9090.0,9498.0,9589.8,9598.98,9599.9,9599.99
+version https://git-lfs.github.com/spec/v1
+oid sha256:228da6d8282440c3b07ee24da5f116225d944373155192a753cb027de124b915
+size 430

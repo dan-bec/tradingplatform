@@ -1,5 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AMT,Finance,REIT and Equity Trust - Other,0.65,,,,577,30__1,30,1.0,26224.8,54575.0,123342.4,462405.6,605950.56,620305.06,621740.51
-DLR,Finance,REIT and Equity Trust - Other,0.65,,,,975,30__2,30,2.0,14166.0,22620.0,46094.0,208675.21,568594.02,604585.9,608185.09
-EQIX,Finance,REIT and Equity Trust - Retail,0.65,,,,590,30__2,30,2.0,18009.0,25773.0,58435.18,149013.9,151611.39,151871.14,151897.11
-MPW,Finance,REIT and Equity Trust - Other,0.65,,,,969,30__2,30,2.0,14995.2,26654.0,112524.24,313676.74,686025.87,723260.79,726984.28
+version https://git-lfs.github.com/spec/v1
+oid sha256:19c44a014057145b764b7287290ed668b3411c25b0c1d67c138a4e04e9088eb5
+size 807

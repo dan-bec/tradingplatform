@@ -1,3 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-UL,Consumer Staples,Consumer Products - Staples,0.55,13650.0,8. p75_trade_value,17.0,65,20__0,20,0.0,25872.0,29736.0,41750.6,42735.56,42834.06,42843.91,42844.89
-WDFC,Consumer Staples,Consumer Products - Staples,0.55,10170.0,7. p90_trade_value,9.0,84,20__0,20,0.0,10101.0,11985.0,20072.5,45657.25,48215.72,48471.57,48497.16
+version https://git-lfs.github.com/spec/v1
+oid sha256:7d096863812684eed587fe1b1b70f677343ff74980622d3dc3455a35173a0b52
+size 603

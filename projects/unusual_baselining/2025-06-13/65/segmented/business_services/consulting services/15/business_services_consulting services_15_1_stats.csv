@@ -1,3 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-FCN,Business Services,Consulting Services,0.65,,,,46,15__0,15,0.0,13220.0,13860.0,21087.0,26408.7,26940.87,26994.09,26999.41
-HURN,Business Services,Consulting Services,0.65,12980.000000000002,8. p75_trade_value,9.0,33,15__0,15,0.0,26560.0,35520.0,41580.0,43308.0,43480.8,43498.08,43499.81
+version https://git-lfs.github.com/spec/v1
+oid sha256:c4154c5656f215e0c3caa3356f1ed53cc04bba9757d5ee767e19e35c418ed50c
+size 569

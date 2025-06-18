@@ -1,4 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-IDCC,Computer and Technology,Wireless Equipment,0.65,19250.0,5. p99_trade_value,2.0,200,25__0,25,0.0,7964.0,10088.5,15220.7,21853.25,22435.32,22493.53,22499.35
-JNPR,Computer and Technology,Wireless Equipment,0.65,391995.0,5. p99_trade_value,3.0,264,25__2,25,2.0,49250.0,89100.0,334038.15,419918.84,424491.88,424949.19,424994.92
-MSI,Computer and Technology,Wireless Equipment,0.65,49600.0,5. p99_trade_value,3.0,235,25__0,25,0.0,13300.0,19810.0,42705.14,92427.86,97631.79,98152.18,98204.22
+version https://git-lfs.github.com/spec/v1
+oid sha256:5029a71496846cddceb0e9a646a0f464c88c0a667dcac28c6edb392882575c58
+size 769

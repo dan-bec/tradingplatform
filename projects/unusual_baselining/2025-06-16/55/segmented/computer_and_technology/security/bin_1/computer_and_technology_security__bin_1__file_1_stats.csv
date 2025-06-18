@@ -1,3 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CRWD,Computer and Technology,Security,0.55,8415.0,8. p75_trade_value,17134.0,68527,50__4,50,1,4.0,15550.8,24400.0,59368.8,207098.12,556361.4,1202071.3,1872541.33
-PANW,Computer and Technology,Security,0.55,188750.0,4. p999_trade_value,26.0,25711,45__1,45,1,1.0,15000.0,23250.0,61596.0,188288.5,624652.5,827578.22,867314.82
+version https://git-lfs.github.com/spec/v1
+oid sha256:6401ed59bf2cab1beb10d4ad394b14a02a7318e7d1760cf32e3c9c1b19955205
+size 624

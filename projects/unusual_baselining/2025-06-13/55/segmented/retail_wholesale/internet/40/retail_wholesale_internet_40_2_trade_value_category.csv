@@ -1,8 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-JD,Retail-Wholesale,Internet - Commerce,40__0,40,0.0,1. p999999_trade_value,898600.0,898600.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-JD,Retail-Wholesale,Internet - Commerce,40__0,40,0.0,3. p9999_trade_value,728500.0,728500.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-JD,Retail-Wholesale,Internet - Commerce,40__0,40,0.0,4. p999_trade_value,694999.9999999999,287664.0,11.0,16.0,0.6875,0.55,2. BELOW BASELINE,12.0,18.0,0.6666666666666666
-JD,Retail-Wholesale,Internet - Commerce,40__0,40,0.0,5. p99_trade_value,287500.0,67950.0,79.0,155.0,0.5096774193548387,0.55,2. BELOW BASELINE,91.0,173.0,0.5260115606936416
-JD,Retail-Wholesale,Internet - Commerce,40__0,40,0.0,6. p95_trade_value,67800.0,24600.0,356.0,681.0,0.5227606461086637,0.55,2. BELOW BASELINE,447.0,854.0,0.5234192037470726
-JD,Retail-Wholesale,Internet - Commerce,40__0,40,0.0,7. p90_trade_value,24592.0,16150.0,405.0,853.0,0.47479484173505276,0.55,2. BELOW BASELINE,852.0,1707.0,0.4991212653778559
-JD,Retail-Wholesale,Internet - Commerce,40__0,40,0.0,8. p75_trade_value,16131.0,8910.0,1278.0,2561.0,0.4990238188207731,0.55,2. BELOW BASELINE,2130.0,4268.0,0.4990627928772259
+version https://git-lfs.github.com/spec/v1
+oid sha256:cbda9672ce039019494c3800946ba2dec25adfc876e6bff867753a36a5fc9a18
+size 1351

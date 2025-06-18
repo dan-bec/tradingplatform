@@ -1,4 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-NTNX,Computer and Technology,Computers - IT Services,0.75,,,,722,30__0,30,0.0,16783.8,28959.0,169274.0,846821.93,1538335.19,1607486.52,1614401.65
-SERV,Computer and Technology,Computers - IT Services,0.75,95000.0,4. p999_trade_value,2.0,1186,30__2,30,2.0,12260.0,17450.0,34556.25,91855.0,162875.5,171087.55,171908.75
-WIX,Computer and Technology,Computers - IT Services,0.75,570964.0,1. p999999_trade_value,1.0,690,30__1,30,1.0,24148.0,57732.65,194929.44,480017.38,561869.34,570054.53,570873.05
+version https://git-lfs.github.com/spec/v1
+oid sha256:02bf4294b34fa64b92deefcb9462b73a96a16bbf486e40a6470b889145246908
+size 773

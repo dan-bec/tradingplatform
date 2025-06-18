@@ -1,2 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ICL,Basic Materials,Fertilizers,0.55,,,,2,5__0,5,0.0,4351.0,4403.0,4444.6,4453.96,4454.9,4454.99,4455.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:48566876c2cf1ad69b63068ef49efa01418d4726de68083399c81e7b821ca2d2
+size 384

@@ -1,5 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-MMS,Business Services,Government Services,15__1,15,1.0,1. p999999_trade_value,608000.0,608000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,1.0,1.0,1.0
-MMS,Business Services,Government Services,15__1,15,1.0,6. p95_trade_value,240000.0,240000.0,1.0,1.0,1.0,0.65,1. ABOVE BASELINE,2.0,2.0,1.0
-MMS,Business Services,Government Services,15__1,15,1.0,7. p90_trade_value,132900.0,120000.0,2.0,2.0,1.0,0.65,1. ABOVE BASELINE,4.0,4.0,1.0
-MMS,Business Services,Government Services,15__1,15,1.0,8. p75_trade_value,97500.0,11160.0,5.0,6.0,0.8333333333333334,0.65,1. ABOVE BASELINE,9.0,10.0,0.9
+version https://git-lfs.github.com/spec/v1
+oid sha256:b0466df2ebed24430d4d1c676f3240715c72b433518805e46fa893fb1f3ecce2
+size 780

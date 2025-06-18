@@ -1,8 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-BCE,Utilities,Diversified Communication Services,0.55,,,,62,20__3,20,2,3.0,15000.0,36795.75,166558.8,210983.88,215426.39,215870.64,215915.06
-IDT,Utilities,Diversified Communication Services,0.55,,,,4,5__0,5,3,0.0,9231.5,9538.25,9783.65,9838.87,9844.39,9844.94,9844.99
-LBTYA,Utilities,Diversified Communication Services,0.55,,,,23,15__0,15,3,0.0,11405.0,16671.0,31581.0,35234.1,35599.41,35635.94,35639.59
-LLYVA,Utilities,Diversified Communication Services,0.55,,,,4,5__0,5,3,0.0,11476.0,12238.0,12847.6,12984.76,12998.48,12999.85,12999.98
-LUMN,Utilities,Diversified Communication Services,0.55,,,,538,25__0,25,2,0.0,11907.6,17262.85,53498.94,267780.0,296778.0,299677.8,299967.78
-TU,Utilities,Diversified Communication Services,0.55,,,,1,0__2,0,3,2.0,6520.0,6520.0,6520.0,6520.0,6520.0,6520.0,6520.0
-VEON,Utilities,Diversified Communication Services,0.55,27000.0,1. p999999_trade_value,1.0,3,5__3,5,3,3.0,22500.0,24750.0,26550.0,26955.0,26995.5,26999.55,26999.96
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e45cbcad54d79c7398562be7070e2101514400a67a60d66fc4438798ae837be
+size 1263

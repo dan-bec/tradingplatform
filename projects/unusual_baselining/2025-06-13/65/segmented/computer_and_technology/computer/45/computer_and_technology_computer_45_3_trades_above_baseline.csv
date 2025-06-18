@@ -1,2 +1,3 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,category_minimum,categiry_maximum,option_ticker,security_1,option_type,strike_price,expiration,conditions,correction,exchange,price,sip_timestamp,size,trade_value,data_date,min_trade_value,expiration_days_out,otm_range,option_condition_name,sector_1,industry_1,securty_open,security_high,security_low,security_close,trade_rank,trade_value_log10,number_of_bins,trade_value_bin,itm,itm_expiration_day,itm_expriation_close,otm
-DELL,Computer and Technology,Computer - Micro Computers,45__1,45,1.0,1. p999999_trade_value,651000.0,651000.0,O:DELL250620C00114000,DELL,C,114.0,2025-06-20,242,0,300,6.2,1747924795839000000,1050,651000.0,2025-05-22,3000,30,True,Stock Options floor trade,Computer and Technology,Computer - Micro Computers,112.3999,112.98,110.66,111.95,1,5.813580988568192,20,1,1,0,0,0
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca4f9a7536ac6eb20830d8f135839965ceef0cda205d2d2b649b2a636e2171a1
+size 877

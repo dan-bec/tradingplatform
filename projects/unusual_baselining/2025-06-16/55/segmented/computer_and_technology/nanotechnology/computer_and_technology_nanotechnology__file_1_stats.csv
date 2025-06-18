@@ -1,3 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-NNDM,Computer and Technology,Nanotechnology,0.55,,,,3,5__0,5,3,0.0,3384.0,3422.0,3452.4,3459.24,3459.92,3459.99,3460.0
-ONTO,Computer and Technology,Nanotechnology,0.55,,,,274,25__0,25,2,0.0,19796.0,35539.0,77487.3,119056.35,121525.63,121772.56,121797.26
+version https://git-lfs.github.com/spec/v1
+oid sha256:98052112df3579a85258a0e154e68d4b20455bc235cdaa560224e832961757b0
+size 556

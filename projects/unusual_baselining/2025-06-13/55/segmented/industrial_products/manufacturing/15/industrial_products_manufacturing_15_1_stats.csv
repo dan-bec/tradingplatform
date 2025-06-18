@@ -1,10 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AGCO,Industrial Products,Manufacturing - Farm Equipment,0.55,58800.0,1. p999999_trade_value,1.0,26,15__0,15,0.0,18750.0,29745.0,51765.0,58096.5,58729.65,58792.97,58799.3
-AZZ,Industrial Products,Manufacturing - Electronics,0.55,,,,35,15__0,15,0.0,8000.0,9029.1,11894.2,12772.42,12860.24,12869.02,12869.9
-DXPE,Industrial Products,Manufacturing - General Industrial ,0.55,17200.0,7. p90_trade_value,7.0,23,15__0,15,0.0,17200.0,17515.0,47385.0,54958.5,55715.85,55791.59,55799.16
-FLS,Industrial Products,Manufacturing - General Industrial ,0.55,60600.0,1. p999999_trade_value,1.0,42,15__0,15,0.0,15422.2,28190.7,48841.2,59424.12,60482.41,60588.24,60598.82
-GTES,Industrial Products,Manufacturing - General Industrial ,0.55,97500.0,1. p999999_trade_value,1.0,41,15__0,15,0.0,60000.0,75000.0,94500.0,97200.0,97470.0,97497.0,97499.7
-LASE,Industrial Products,Manufacturing - General Industrial ,0.55,7125.0,8. p75_trade_value,9.0,34,15__0,15,0.0,7758.5,9327.0,13677.15,14908.21,15031.32,15043.63,15044.86
-LNN,Industrial Products,Manufacturing - Farm Equipment,0.55,11200.0,6. p95_trade_value,2.0,25,15__0,15,0.0,4884.0,9950.0,12720.0,13152.0,13195.2,13199.52,13199.95
-NDSN,Industrial Products,Manufacturing - General Industrial ,0.55,154030.0,1. p999999_trade_value,1.0,44,15__0,15,0.0,8811.0,16299.5,128356.85,151462.69,153773.27,154004.33,154027.43
-TEX,Industrial Products,Manufacturing - Construction and Mining,0.55,,,,27,15__0,15,0.0,40755.8,58347.0,152188.0,181718.8,184671.88,184967.19,184996.72
+version https://git-lfs.github.com/spec/v1
+oid sha256:8d51cf06421552f19f099fd23fd4251f8f163b878ad335bcfb92d2fb246f2375
+size 1773

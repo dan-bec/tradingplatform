@@ -1,17 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CPAY,Business Services,Financial Transaction Services,0.55,,,,291,25__0,25,2,0.0,8685.0,10770.0,26850.0,119091.0,135299.1,136919.91,137081.99
-DLO,Business Services,Financial Transaction Services,0.55,,,,81,20__0,20,2,0.0,22000.0,27900.0,36000.0,39600.0,39960.0,39996.0,39999.6
-FI,Business Services,Financial Transaction Services,0.55,,,,1944,35__0,35,2,0.0,14474.0,19379.5,45256.1,393326.9,1196369.18,1344486.52,1359298.25
-FIS,Business Services,Financial Transaction Services,0.55,,,,499,25__0,25,2,0.0,15960.4,20910.0,71697.32,280691.25,365569.12,374056.91,374905.69
-FOUR,Business Services,Financial Transaction Services,0.55,311200.0,1. p999999_trade_value,1.0,865,30__2,30,2,2.0,18318.0,29580.0,78720.0,283966.72,308476.67,310927.67,311172.77
-GPN,Business Services,Financial Transaction Services,0.55,,,,1063,30__2,30,2,2.0,15519.0,24708.5,116533.7,268285.82,578361.0,611336.1,614633.61
-MA,Business Services,Financial Transaction Services,0.55,432500.0,1. p999999_trade_value,1.0,5777,40__3,40,2,3.0,14367.0,23185.2,66392.4,205293.02,422202.55,431470.25,432397.03
-MQ,Business Services,Financial Transaction Services,0.55,23650.0,6. p95_trade_value,4.0,78,20__3,20,2,3.0,13588.2,20547.5,180668.0,271866.8,280986.68,281898.67,281989.87
-OPFI,Business Services,Financial Transaction Services,0.55,,,,83,20__0,20,2,0.0,8406.0,11931.0,14177.3,14904.23,14976.92,14984.19,14984.92
-PAY,Business Services,Financial Transaction Services,0.55,,,,64,20__3,20,2,3.0,15495.0,26746.75,211050.8,212661.08,212822.11,212838.21,212839.82
-PYPL,Business Services,Financial Transaction Services,0.55,,,,16187,40__0,40,2,0.0,16630.2,26564.7,94907.0,395722.12,1039043.0,1646868.99,1690186.9
-RBA,Business Services,Financial Transaction Services,0.55,,,,92,20__0,20,2,0.0,8433.3,13456.0,20574.75,25304.48,25777.45,25824.74,25829.47
-RELY,Business Services,Financial Transaction Services,0.55,192000.0,1. p999999_trade_value,1.0,114,20__0,20,2,0.0,29250.0,39118.75,124975.1,184598.5,191259.85,191925.99,191992.6
-SEZL,Business Services,Financial Transaction Services,0.55,8550.0,8. p75_trade_value,96.0,381,25__0,25,2,0.0,16225.0,31529.0,45846.4,55952.32,56477.63,56530.16,56535.42
-V,Business Services,Financial Transaction Services,0.55,,,,12773,40__3,40,2,3.0,15000.0,22400.0,57608.32,289590.09,1016679.77,1096902.0,1096902.0
-WEX,Business Services,Financial Transaction Services,0.55,,,,129,20__1,20,2,1.0,15280.0,40200.0,461100.0,573980.0,577148.0,577464.8,577496.48
+version https://git-lfs.github.com/spec/v1
+oid sha256:d9bf3108c60cfb48ee656a956825cd8c6e7f0de69f43932acac6a62483dcb8da
+size 2745

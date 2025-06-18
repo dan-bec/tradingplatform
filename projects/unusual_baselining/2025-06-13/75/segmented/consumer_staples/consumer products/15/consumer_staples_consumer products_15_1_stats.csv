@@ -1,6 +1,3 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-EYE,Consumer Staples,Consumer Products - Staples,0.75,24000.0,6. p95_trade_value,2.0,21,15__0,15,0.0,14910.0,24000.0,59504.0,67492.4,68291.24,68371.12,68379.11
-GO,Consumer Staples,Consumer Products - Staples,0.75,7200.0,8. p75_trade_value,14.0,56,15__0,15,0.0,12500.0,20835.0,195459.0,279420.9,287817.09,288656.71,288740.67
-NWL,Consumer Staples,Consumer Products - Staples,0.75,140000.0,1. p999999_trade_value,1.0,53,15__0,15,0.0,18301.0,28080.0,90847.0,135084.7,139508.47,139950.85,139995.08
-TDUP,Consumer Staples,Consumer Products - Staples,0.75,9750.0,8. p75_trade_value,10.0,38,15__0,15,0.0,12830.0,28761.75,81348.75,86884.88,87438.49,87493.85,87499.38
-WRBY,Consumer Staples,Consumer Products - Staples,0.75,349160.00000000006,1. p999999_trade_value,1.0,45,15__0,15,0.0,22166.0,74721.0,229796.8,337223.68,347966.37,349040.64,349148.06
+version https://git-lfs.github.com/spec/v1
+oid sha256:e0caefc58437ba9350165614e001ff786f7815655cc9854359630eec71d3f804
+size 1119
