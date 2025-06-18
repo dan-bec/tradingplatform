@@ -1,12 +1,22 @@
-import argparse
+import sys
+from pathlib import Path
+
+# Determine the project root dynamically
+APP_DIR = Path(__file__).parent
+REPO_ROOT = APP_DIR.parents[1]  
+
+# Insert the project root into sys.path if not already present
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
 from datetime import datetime
 import time
-import config as config
-from tasks.download_data import main as download_main
-from tasks.raw_data_load import main as load_main
+import scripts.raw_data.config as config
+from scripts.raw_data.tasks.download_data import main as download_main
+from scripts.raw_data.tasks.raw_data_load import main as load_main
 
 def main():
-
+    import argparse
     parser = argparse.ArgumentParser(description="Run all scripts with specified parameters")
     parser.add_argument("--start-date", type=str, default=config.START_DATE, help="Start date (YYYY-MM-DD), defaults to config.START_DATE")
     parser.add_argument("--end-date", type=str, default=config.END_DATE, help="End date (YYYY-MM-DD), defaults to today")
@@ -23,11 +33,11 @@ def main():
 
 if __name__ == "__main__":
     start_time = time.time()
-    print(f"Main Start time: {start_time:.2f} seconds")
+    print(f"RAW_DATA Start time: {start_time:.2f} seconds")
 
     main()
 
     end_time = time.time()
-    print(f"Main End time: {end_time:.2f} seconds")
+    print(f"RAW_DATA End time: {end_time:.2f} seconds")
     duration = end_time - start_time
-    print(f"Main Execution time: {duration:.2f} seconds")
+    print(f"RAW_DATA Execution time: {duration:.2f} seconds")

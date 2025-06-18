@@ -8,7 +8,7 @@ REPO_ROOT = TASK_SCRIPT_DIR.parents[2]
 # Insert the project root into sys.path if not already present
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
-    
+
 import scripts.raw_data.config as config
 import re
 from datetime import datetime, date, timedelta

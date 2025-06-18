@@ -1,12 +1,21 @@
-import argparse
+import sys
+from pathlib import Path
+
+# Determine the project root dynamically
+APP_DIR = Path(__file__).parent
+REPO_ROOT = APP_DIR.parents[1]  
+
+# Insert the project root into sys.path if not already present
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+    
 from datetime import datetime
 import time
-import config as config
-from tasks.prep_data_filtering import main as prep_main
-from tasks.per_security_clustering import main as cluster_main
-from tasks.optimal_itm_p_value import main as optimal_main
-from tasks.compiled_analysis_and_output import main as combined_main
-import upload_to_drive as upload_to_drive
+import scripts.unusual_baselining.config as config
+from scripts.unusual_baselining.tasks.prep_data_filtering import main as prep_main
+from scripts.unusual_baselining.tasks.per_security_clustering import main as cluster_main
+from scripts.unusual_baselining.tasks.optimal_itm_p_value import main as optimal_main
+from scripts.unusual_baselining.tasks.compiled_analysis_and_output import main as combined_main
 import logging
 from pathlib import Path
 import subprocess
@@ -15,7 +24,7 @@ def bool_type(value):
     try:
         return config.str_to_bool(value)
     except ValueError as e:
-        raise argparse.ArgumentTypeError(str(e))
+        raise ValueError(f"Invalid boolean value: '{value}'")
 
 def run_script(script_name, args_list):
     """Helper function to run a script with given arguments."""
@@ -49,6 +58,7 @@ def main():
     print(f"Main Start time: {start_time:.2f} seconds")
 
     # Define command-line arguments
+    import argparse
     parser = argparse.ArgumentParser(description="Run 'unusual_baselining' scripts with specified parameters")
     parser.add_argument("--strict-otm", type=bool_type, default=config.STRICT_OTM, help="Use strict OTM range")
     parser.add_argument("--min-trade-value", type=float, default=config.MIN_TRADE_VALUE, help="Minimum trade value")
@@ -80,12 +90,12 @@ def main():
 if __name__ == "__main__":
     # Capture and print start time
     start_time = time.time()
-    print(f"Main Start time: {start_time:.2f} seconds")
+    print(f"UNUSUAL_BASELINING Start time: {start_time:.2f} seconds")
 
     main()
 
     # Print execution time
     end_time = time.time()
-    print(f"Main End time: {end_time:.2f} seconds")
+    print(f"UNUSUAL_BASELINING End time: {end_time:.2f} seconds")
     duration = end_time - start_time
-    print(f"Main Execution time: {duration:.2f} seconds")
+    print(f"UNUSUAL_BASELINING Execution time: {duration:.2f} seconds")

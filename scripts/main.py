@@ -1,16 +1,11 @@
-import sys
-from pathlib import Path
-
-# Determine the project root dynamically
-REPO_ROOT = Path(__file__).parent
-
-# Insert the project root into sys.path if not already present
-if str(REPO_ROOT) not in sys.path:
-    sys.path.insert(0, str(REPO_ROOT))
-
 import multiprocessing
-from raw_data import main as run_raw_data
-from unusual_baselining import main as run_unusual_baselining
+import subprocess
+from raw_data.main import main as run_raw_data
+from unusual_baselining.main import main as run_unusual_baselining
+import config
+import upload_to_drive as upload_to_drive
+import logging
+from datetime import datetime
 
 def push_to_github():
     repo_root = config.REPO_ROOT
