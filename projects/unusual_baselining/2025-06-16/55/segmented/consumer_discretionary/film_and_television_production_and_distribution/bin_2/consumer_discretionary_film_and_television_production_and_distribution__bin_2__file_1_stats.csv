@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+CNK,Consumer Discretionary,Film and Television Production and Distribution,0.55,175000.0,6. p95_trade_value,6.0,111,20__1,20,2,1.0,115600.0,166250.0,359000.0,395457.6,399401.76,399796.18,399835.62
+LYV,Consumer Discretionary,Film and Television Production and Distribution,0.55,,,,1267,30__0,30,2,0.0,16181.4,27862.0,90218.8,886293.36,1504978.65,1579580.87,1587041.09
+TKO,Consumer Discretionary,Film and Television Production and Distribution,0.55,206760.0,5. p99_trade_value,21.0,2011,35__2,35,2,2.0,14400.0,30262.0,206084.0,962139.92,1592321.08,1689232.11,1698923.21

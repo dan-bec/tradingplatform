@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-SKX,Consumer Discretionary,Shoes and Retail Apparel ,0.55,,,,599,30__2,30,2.0,12375.2,22208.4,115060.0,300360.0,397236.0,406923.6,407892.36

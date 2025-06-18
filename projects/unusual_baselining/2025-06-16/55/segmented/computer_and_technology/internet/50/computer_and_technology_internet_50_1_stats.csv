@@ -1,4 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-DJT,Computer and Technology,Internet - Software,0.55,,,,64310,50__4,50,4.0,17600.0,28354.95,74072.8,427701.81,1257337.25,2961723.4,3560472.34
-GOOG,Computer and Technology,Internet - Services,0.55,,,,73761,50__1,50,1.0,15795.0,23520.0,56380.6,181657.68,988171.2,5415826.41,5718163.04
-GOOGL,Computer and Technology,Internet - Services,0.55,,,,150789,50__3,50,3.0,16720.0,25517.4,64357.92,264855.34,692404.27,1025863.67,1139726.06

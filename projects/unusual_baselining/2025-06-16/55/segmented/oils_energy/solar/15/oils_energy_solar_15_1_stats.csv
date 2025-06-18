@@ -1,3 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-MAXN,Oils-Energy,Solar,0.55,,,,39,15__0,15,0.0,7000.0,7020.0,8812.0,9701.2,9790.12,9799.01,9799.9
-SHLS,Oils-Energy,Solar,0.55,5970.0,7. p90_trade_value,3.0,28,15__0,15,0.0,5641.0,7640.5,32945.36,41069.34,41881.73,41962.97,41971.1

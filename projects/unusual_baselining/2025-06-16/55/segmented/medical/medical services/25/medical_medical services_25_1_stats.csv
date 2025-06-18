@@ -1,6 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AVTR,Medical,Medical Services,0.55,429795.0,1. p999999_trade_value,1.0,196,25__2,25,2.0,20405.0,66730.0,242484.0,405362.48,427351.75,429550.67,429770.57
-CRL,Medical,Medical Services,0.55,7400.0,8. p75_trade_value,119.0,473,25__0,25,0.0,13200.0,22000.0,77600.0,493719.24,535011.92,539141.19,539554.12
-HQY,Medical,Medical Services,0.55,80000.0,1. p999999_trade_value,1.0,181,25__0,25,0.0,10000.0,14490.0,24994.4,73016.0,79301.6,79930.16,79993.02
-ICLR,Medical,Medical Services,0.55,766800.0,1. p999999_trade_value,1.0,281,25__0,25,0.0,17940.0,24500.0,160000.0,621648.0,752284.8,765348.48,766654.85
-PACS,Medical,Medical Services,0.55,,,,213,25__0,25,0.0,14826.0,22500.0,42916.8,58100.64,60062.06,60258.21,60277.82

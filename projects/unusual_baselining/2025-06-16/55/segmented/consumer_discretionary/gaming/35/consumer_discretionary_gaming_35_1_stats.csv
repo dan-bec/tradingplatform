@@ -1,6 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-EA,Consumer Discretionary,Gaming,0.55,580000.0,4. p999_trade_value,3.0,2156,35__2,35,2.0,16884.0,31625.0,141125.0,559850.0,1019163.75,1067166.38,1071966.64
-FLUT,Consumer Discretionary,Gaming,0.55,,,,2104,35__0,35,0.0,13968.0,25172.7,79726.6,345932.32,446658.55,451609.86,452104.99
-LVS,Consumer Discretionary,Gaming,0.55,604800.0,1. p999999_trade_value,1.0,2236,35__2,35,2.0,15580.5,24897.0,131315.8,342500.0,547668.93,599086.89,604228.69
-TTWO,Consumer Discretionary,Gaming,0.55,315000.0,4. p999_trade_value,4.0,3767,35__0,35,0.0,15270.0,25071.0,110000.0,291889.78,543631.89,585731.29,589941.23
-WYNN,Consumer Discretionary,Gaming,0.55,,,,4077,35__2,35,2.0,17362.4,29000.0,86800.0,332632.0,891986.0,989198.6,998919.86

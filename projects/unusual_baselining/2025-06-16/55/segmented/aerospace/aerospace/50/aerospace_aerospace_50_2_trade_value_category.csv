@@ -1,8 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-BA,Aerospace,Aerospace - Defense,50__3,50,3.0,1. p999999_trade_value,1071000.0,1071000.0,0.0,1.0,0.0,0.55,1. ABOVE BASELINE,0.0,1.0,0.0
-BA,Aerospace,Aerospace - Defense,50__3,50,3.0,3. p9999_trade_value,960844.0,782000.0,4.0,6.0,0.6666666666666666,0.55,1. ABOVE BASELINE,4.0,7.0,0.5714285714285714
-BA,Aerospace,Aerospace - Defense,50__3,50,3.0,4. p999_trade_value,771344.0,211650.0,36.0,61.0,0.5901639344262295,0.55,1. ABOVE BASELINE,40.0,68.0,0.5882352941176471
-BA,Aerospace,Aerospace - Defense,50__3,50,3.0,5. p99_trade_value,210960.0,57000.0,346.0,607.0,0.5700164744645799,0.55,1. ABOVE BASELINE,386.0,675.0,0.5718518518518518
-BA,Aerospace,Aerospace - Defense,50__3,50,3.0,6. p95_trade_value,56916.99999999999,23048.999999999996,1385.0,2694.0,0.514105419450631,0.55,2. BELOW BASELINE,1771.0,3369.0,0.5256752745621847
-BA,Aerospace,Aerospace - Defense,50__3,50,3.0,7. p90_trade_value,23045.0,15100.0,1717.0,3368.0,0.5097980997624703,0.55,2. BELOW BASELINE,3488.0,6737.0,0.5177378655187769
-BA,Aerospace,Aerospace - Defense,50__3,50,3.0,8. p75_trade_value,15096.0,8400.0,4915.0,10150.0,0.48423645320197045,0.55,2. BELOW BASELINE,8403.0,16887.0,0.4976017054538994

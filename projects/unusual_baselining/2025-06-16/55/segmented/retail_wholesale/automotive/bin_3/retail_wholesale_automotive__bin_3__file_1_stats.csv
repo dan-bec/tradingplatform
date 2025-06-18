@@ -1,0 +1,8 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ABG,Retail-Wholesale,Automotive - Retail and Whole Sales,0.55,8800.0,8. p75_trade_value,7.0,25,15__0,15,3,0.0,31500.0,46620.0,56936.0,58793.6,58979.36,58997.94,58999.79
+DRVN,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,0.55,4320.0,1. p999999_trade_value,1.0,4,5__0,5,3,0.0,4302.0,4311.0,4318.2,4319.82,4319.98,4320.0,4320.0
+PAG,Retail-Wholesale,Automotive - Retail and Whole Sales,0.55,82225.0,1. p999999_trade_value,1.0,30,15__0,15,3,0.0,22982.3,26118.6,66148.85,80617.39,82064.24,82208.92,82223.39
+SAH,Retail-Wholesale,Automotive - Retail and Whole Sales,0.55,4030.0000000000005,8. p75_trade_value,2.0,5,5__3,5,3,3.0,11188.0,13574.0,15482.8,15912.28,15955.23,15959.52,15959.95
+TITN,Retail-Wholesale,Automotive - Retail and Whole Sales,0.55,,,,12,10__0,10,3,0.0,15000.0,17659.5,20259.9,20844.99,20903.5,20909.35,20909.93
+VVV,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,0.55,6000.0,1. p999999_trade_value,1.0,4,5__0,5,3,0.0,5850.0,5925.0,5985.0,5998.5,5999.85,5999.99,6000.0
+WKSP,Retail-Wholesale,Automotive - Retail and Whole Sales,0.55,4140.000000000001,1. p999999_trade_value,1.0,1,0__2,0,3,2.0,4140.0,4140.0,4140.0,4140.0,4140.0,4140.0,4140.0

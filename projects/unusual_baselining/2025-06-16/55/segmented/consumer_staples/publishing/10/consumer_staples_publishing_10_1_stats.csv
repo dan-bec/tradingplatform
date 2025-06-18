@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-WLY,Consumer Staples,Publishing - Books,0.55,,,,11,10__1,10,1.0,960000.0,980000.0,996000.0,999600.0,999960.0,999996.0,999999.6

@@ -1,0 +1,7 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AS,Consumer Discretionary,Leisure and Recreation Products,0.55,208425.0,1. p999999_trade_value,1.0,123,20__3,20,2,3.0,20108.0,47250.0,173075.0,204347.15,208017.22,208384.22,208420.92
+ASO,Consumer Discretionary,Leisure and Recreation Products,0.55,361760.00000000006,1. p999999_trade_value,1.0,554,25__0,25,2,0.0,19967.0,40044.8,140317.04,314334.72,357017.47,361285.75,361712.57
+POOL,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,107,20__0,20,2,0.0,7651.2,9419.0,13741.6,14248.46,14298.45,14303.44,14303.94
+PTON,Consumer Discretionary,Leisure and Recreation Products,0.55,103235.99999999999,5. p99_trade_value,28.0,2775,35__0,35,2,0.0,13768.0,22692.6,99159.34,446933.1,576846.3,586884.63,587888.46
+SRAD,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,87,20__0,20,2,0.0,16341.0,20796.1,29105.6,29910.56,29991.06,29999.11,29999.91
+YETI,Consumer Discretionary,Leisure and Recreation Products,0.55,,,,201,25__2,25,2,2.0,18750.0,34800.0,212995.0,345484.0,363489.4,365289.94,365469.99

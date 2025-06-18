@@ -1,3 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-BAND,Computer and Technology,Communication - Infrastructure,0.75,,,,19,15__0,15,0.0,5280.0,6646.0,14177.2,15871.72,16041.17,16058.12,16059.81
-VIAV,Computer and Technology,Communication - Components,0.75,,,,25,15__0,15,0.0,10335.0,11645.0,43083.72,51960.67,52848.37,52937.14,52946.01

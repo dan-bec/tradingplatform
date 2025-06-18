@@ -1,9 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-AVT,Computer and Technology,Electronics - Parts Distribution,5__0,5,0.0,1. p999999_trade_value,4823.0,4823.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-BHE,Computer and Technology,Electronics - Manufacturing Services,5__0,5,0.0,1. p999999_trade_value,6210.0,6210.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-ICHR,Computer and Technology,Electronics - Semiconductors,5__3,5,3.0,1. p999999_trade_value,23900.0,23900.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-ICHR,Computer and Technology,Electronics - Semiconductors,5__3,5,3.0,8. p75_trade_value,17290.0,17290.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
-INTT,Computer and Technology,Electronics - Measuring Instruments,5__0,5,0.0,1. p999999_trade_value,5445.0,5445.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-LFUS,Computer and Technology,Electronics - Miscellaneous Components,5__3,5,3.0,1. p999999_trade_value,20400.0,20400.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-MEI,Computer and Technology,Electronics - Connectors,5__3,5,3.0,1. p999999_trade_value,23500.0,23500.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-PLXS,Computer and Technology,Electronics - Manufacturing Services,5__0,5,0.0,2. p99999_trade_value,7589.999999999999,7589.999999999999,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0

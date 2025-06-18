@@ -1,6 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-FOX,Consumer Discretionary,Broadcast Radio and Television,5__0,5,0.0,1. p999999_trade_value,6761.999999999999,6761.999999999999,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-FOX,Consumer Discretionary,Broadcast Radio and Television,5__0,5,0.0,8. p75_trade_value,5445.0,5445.0,0.0,2.0,0.0,0.75,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
-IHRT,Consumer Discretionary,Broadcast Radio and Television,5__3,5,3.0,1. p999999_trade_value,19487.0,19487.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-IHRT,Consumer Discretionary,Broadcast Radio and Television,5__3,5,3.0,8. p75_trade_value,9075.0,9075.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
-TSQ,Consumer Discretionary,Broadcast Radio and Television,5__0,5,0.0,1. p999999_trade_value,8750.0,8750.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0

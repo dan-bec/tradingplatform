@@ -1,0 +1,66 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+APA,Oils-Energy,Oil and Gas - Exploration and Production - United States,0.55,,,,909,30__0,30,2,0.0,11263.0,15571.6,134760.0,683740.0,761374.0,769137.4,769913.74
+AR,Oils-Energy,Oil and Gas - Exploration and Production - United States,0.55,,,,510,25__0,25,2,0.0,14354.0,22228.8,93502.4,178533.58,186495.36,187291.54,187371.15
+BKR,Oils-Energy,Oil and Gas - Field Services,0.55,84000.0,5. p99_trade_value,3.0,261,25__0,25,2,0.0,14145.0,28275.0,70560.0,140637.6,147479.76,148163.98,148232.4
+BP,Oils-Energy,Oil and Gas - Integrated - International,0.55,,,,1585,30__0,30,2,0.0,19143.6,31915.2,169805.4,700536.04,830297.6,835429.76,835942.98
+CHRD,Oils-Energy,Oil and Gas - Exploration and Production - United States,0.55,,,,64,20__0,20,2,0.0,7122.5,18375.0,65100.0,82110.0,83811.0,83981.1,83998.11
+CIVI,Oils-Energy,Oil and Gas - Exploration and Production - United States,0.55,,,,166,20__3,20,2,3.0,42000.0,46000.0,126360.0,262627.67,264944.57,265176.26,265199.43
+CLMT,Oils-Energy,Oil and Gas - Integrated - United States,0.55,168750.0,5. p99_trade_value,8.0,713,30__0,30,2,0.0,18164.0,40156.8,167085.84,440000.0,440000.0,440000.0,440000.0
+CNQ,Oils-Energy,Oil and Gas - Exploration and Production - Canadian,0.55,55319.99999999999,1. p999999_trade_value,1.0,149,20__0,20,2,0.0,13200.0,18085.0,34031.2,52457.68,55033.77,55291.38,55317.14
+CNX,Oils-Energy,Oil and Gas - Exploration and Production - United States,0.55,250000.0,5. p99_trade_value,2.0,130,20__3,20,2,3.0,23826.5,92750.0,249275.0,345810.0,358581.0,359858.1,359985.81
+COP,Oils-Energy,Oil and Gas - Integrated - United States,0.55,,,,2542,35__0,35,2,0.0,16139.7,24997.4,97994.34,340889.5,540078.26,567450.63,570187.86
+CRC,Oils-Energy,Oil and Gas - Exploration and Production - United States,0.55,,,,57,20__0,20,2,0.0,11730.0,12920.0,17985.6,23398.56,23939.86,23993.99,23999.4
+CRK,Oils-Energy,Oil and Gas - Exploration and Production - United States,0.55,,,,132,20__3,20,2,3.0,18054.0,24870.75,93658.38,289232.77,313323.28,315732.33,315973.23
+CTRA,Oils-Energy,Oil and Gas - Exploration and Production - United States,0.55,33000.0,5. p99_trade_value,2.0,101,20__0,20,2,0.0,15350.0,25449.0,33000.0,104064.0,111170.4,111881.04,111952.1
+CVE,Oils-Energy,Oil and Gas - Integrated - Canadian,0.55,95800.0,1. p999999_trade_value,1.0,111,20__0,20,2,0.0,12900.0,20930.0,87644.0,95646.0,95784.6,95798.46,95799.85
+CVI,Oils-Energy,Oil and Gas - Refining and Marketing,0.55,140000.0,6. p95_trade_value,4.0,64,20__3,20,2,3.0,34752.0,134900.0,193800.6,235407.06,239567.71,239983.77,240025.38
+CVX,Oils-Energy,Oil and Gas - Integrated - International,0.55,224000.0,4. p999_trade_value,9.0,8100,40__3,40,2,3.0,14225.1,22051.95,54800.9,219648.75,461131.32,631113.13,648111.31
+DINO,Oils-Energy,Oil and Gas - Refining and Marketing,0.55,,,,172,20__0,20,2,0.0,15750.0,24835.0,61057.36,67355.12,68025.51,68092.55,68099.26
+DVN,Oils-Energy,Oil and Gas - Exploration and Production - United States,0.55,,,,1894,35__0,35,2,0.0,13206.0,18291.0,36543.24,100000.0,134454.75,141695.48,142419.55
+EOG,Oils-Energy,Oil and Gas - Exploration and Production - United States,0.55,,,,822,30__2,30,2,2.0,14499.0,22953.05,75573.3,121553.25,167180.33,171743.03,172199.3
+EPD,Oils-Energy,Oil and Gas - Production Pipeline - MLB,0.55,52200.0,1. p999999_trade_value,1.0,331,25__0,25,2,0.0,12221.0,17093.5,30678.3,48586.5,51838.65,52163.87,52196.39
+EQNR,Oils-Energy,Oil and Gas - Refining and Marketing,0.55,144840.0,5. p99_trade_value,2.0,136,20__3,20,2,3.0,58732.5,72180.0,144661.5,209716.73,218829.47,219740.75,219831.87
+EQT,Oils-Energy,Oil and Gas - Exploration and Production - United States,0.55,416520.0,4. p999_trade_value,2.0,1486,30__0,30,2,0.0,21825.0,63450.0,226310.35,389617.05,425869.47,427336.95,427483.69
+ET,Oils-Energy,Oil and Gas - Production Pipeline - MLB,0.55,105000.0,5. p99_trade_value,11.0,1022,30__2,30,2,2.0,14000.0,20930.05,103897.08,314265.0,426842.42,438288.24,439432.82
+FANG,Oils-Energy,Oil and Gas - Exploration and Production - United States,0.55,,,,1218,30__2,30,2,2.0,15798.5,25704.4,68962.94,115226.0,123513.2,123951.32,123995.13
+GLNG,Oils-Energy,Oil and Gas - Integrated - International,0.55,,,,497,25__0,25,2,0.0,15345.6,24312.0,90200.0,299881.28,314532.13,315997.21,316143.72
+HAL,Oils-Energy,Oil and Gas - Field Services,0.55,73724.00000000001,5. p99_trade_value,9.0,858,30__2,30,2,2.0,14720.0,28043.2,69321.32,126314.28,138618.83,139849.28,139972.33
+HES,Oils-Energy,Oil and Gas - Integrated - United States,0.55,,,,276,25__2,25,2,2.0,30800.0,53938.0,231430.0,432250.0,484225.0,489422.5,489942.25
+KMI,Oils-Energy,Oil and Gas - Production and Pipelines,0.55,161000.00000000003,1. p999999_trade_value,1.0,590,30__2,30,2,2.0,15000.0,23300.4,48656.04,108579.0,155757.9,160475.79,160947.58
+LB,Oils-Energy,Oil and Gas - Integrated - United States,0.55,,,,66,20__0,20,2,0.0,18950.0,22600.0,46539.0,71073.9,73527.39,73772.74,73797.27
+LBRT,Oils-Energy,Oil and Gas - Field Services,0.55,,,,59,20__0,20,2,0.0,11709.0,13789.0,19065.0,19456.5,19495.65,19499.57,19499.96
+LNG,Oils-Energy,Oil and Gas - Exploration and Production - United States,0.55,902870.0000000001,1. p999999_trade_value,1.0,2454,35__1,35,2,1.0,22368.0,40000.0,205118.7,626928.66,857747.06,898357.71,902418.77
+MPC,Oils-Energy,Oil and Gas - Refining and Marketing,0.55,,,,1149,30__2,30,2,2.0,12294.4,18658.8,46083.2,119681.35,134254.49,134925.45,134992.54
+MPLX,Oils-Energy,Oil and Gas - Production and Pipelines,0.55,,,,84,20__0,20,2,0.0,22995.9,31522.2,71597.5,196159.75,208615.97,209861.6,209986.16
+MTDR,Oils-Energy,Oil and Gas - Exploration and Production - United States,0.55,42330.0,5. p99_trade_value,3.0,211,25__0,25,2,0.0,15000.0,18275.0,41590.0,82650.0,89265.0,89926.5,89992.65
+NBR,Oils-Energy,Oil and Gas - Drilling,0.55,201600.0,1. p999999_trade_value,1.0,384,25__0,25,2,0.0,28347.0,42000.0,130788.19,188204.19,200260.42,201466.04,201586.6
+NE,Oils-Energy,Oil and Gas - Drilling,0.55,30000.0,1. p999999_trade_value,1.0,100,20__0,20,2,0.0,10712.0,14355.0,25842.0,29584.2,29958.42,29995.84,29999.58
+NEXT,Oils-Energy,Oil and Gas - Production Pipeline - MLB,0.55,290485.0,1. p999999_trade_value,1.0,131,20__3,20,2,3.0,19960.0,37032.0,157792.5,273700.05,288806.5,290317.15,290468.22
+NFE,Oils-Energy,Oil and Gas - Integrated - International,0.55,129350.0,5. p99_trade_value,7.0,640,30__2,30,2,2.0,14017.5,19181.5,125703.5,322200.0,437220.0,448722.0,449872.2
+OKE,Oils-Energy,Oil and Gas - Production Pipeline - MLB,0.55,102500.0,1. p999999_trade_value,1.0,476,25__0,25,2,0.0,14020.0,18956.25,36824.75,87392.62,100989.26,102348.93,102484.89
+OVV,Oils-Energy,Oil and Gas - Exploration and Production - Canadian,0.55,8400.0,8. p75_trade_value,54.0,214,25__0,25,2,0.0,16250.0,22309.4,45569.11,63916.2,66331.62,66573.16,66597.32
+OXY,Oils-Energy,Oil and Gas - Integrated - United States,0.55,123190.00000000001,4. p999_trade_value,9.0,8111,40__3,40,2,3.0,13050.0,19891.0,48000.0,122997.5,297545.17,674255.32,711926.33
+PBF,Oils-Energy,Oil and Gas - Refining and Marketing,0.55,70200.0,1. p999999_trade_value,1.0,159,20__0,20,2,0.0,15568.0,24050.0,55000.0,67798.4,69959.84,70175.98,70197.6
+PBR,Oils-Energy,Oil and Gas - Integrated - International,0.55,,,,818,30__2,30,2,2.0,20794.9,34854.25,91470.0,391830.0,399183.0,399918.3,399991.83
+PR,Oils-Energy,Oil and Gas - Exploration and Production - United States,0.55,18880.0,7. p90_trade_value,7.0,67,20__0,20,2,0.0,13552.0,23526.8,83600.0,107360.0,109736.0,109973.6,109997.36
+PSX,Oils-Energy,Oil and Gas - Refining and Marketing,0.55,,,,552,25__0,25,2,0.0,15000.0,23175.0,47234.0,125169.4,175056.94,180045.69,180544.57
+PTEN,Oils-Energy,Oil and Gas - Drilling,0.55,7740.000000000001,8. p75_trade_value,16.0,64,20__2,20,2,2.0,15737.0,27807.75,661055.0,1458540.5,1538289.05,1546263.91,1547061.39
+RIG,Oils-Energy,Oil and Gas - Drilling,0.55,,,,81,20__3,20,2,3.0,12069.0,14000.0,95000.0,347000.0,372200.0,374720.0,374972.0
+RRC,Oils-Energy,Oil and Gas - Exploration and Production - United States,0.55,39970.0,6. p95_trade_value,6.0,110,20__0,20,2,0.0,13268.5,36140.5,70789.0,138396.28,145761.63,146498.16,146571.82
+SEI,Oils-Energy,Oil and Gas - Mechanical and and Equipment,0.55,,,,241,25__2,25,2,2.0,47000.0,100000.0,236890.0,360104.4,375481.44,377019.14,377172.91
+SHEL,Oils-Energy,Oil and Gas - Integrated - International,0.55,,,,737,30__2,30,2,2.0,30093.0,48433.8,101760.0,191092.27,209936.23,211820.62,212009.06
+SLB,Oils-Energy,Oil and Gas - Field Services,0.55,97350.0,5. p99_trade_value,17.0,1646,30__2,30,2,2.0,14420.0,23737.5,96202.5,338395.0,455221.0,470322.1,471832.21
+SOC,Oils-Energy,Oil and Gas - Integrated - United States,0.55,110000.0,5. p99_trade_value,10.0,981,30__2,30,2,2.0,16875.0,29097.0,108822.4,289436.56,495143.66,515714.37,517771.44
+SU,Oils-Energy,Oil and Gas - Integrated - Canadian,0.55,19912.0,6. p95_trade_value,22.0,428,25__0,25,2,0.0,13800.5,19854.95,88803.0,299535.5,343153.55,347515.36,347951.54
+TDW,Oils-Energy,Oil and Gas - Integrated - United States,0.55,,,,204,25__0,25,2,0.0,17184.0,24438.7,82729.08,295949.79,338348.98,342588.9,343012.89
+TRGP,Oils-Energy,Oil and Gas - Refining and Marketing - Master Limited Partnerships,0.55,18092.999999999996,7. p90_trade_value,39.0,382,25__0,25,2,0.0,18043.7,27472.5,136170.53,491903.22,604511.92,615772.79,616898.88
+TTE,Oils-Energy,Oil and Gas - Refining and Marketing,0.55,234254.99999999997,1. p999999_trade_value,1.0,164,20__3,20,2,3.0,45850.0,72887.85,134184.8,219590.7,232788.57,234108.36,234240.34
+VAL,Oils-Energy,Oil and Gas - Drilling,0.55,105042.0,1. p999999_trade_value,1.0,219,25__0,25,2,0.0,16147.0,22785.0,70124.16,98492.84,104387.08,104976.51,105035.45
+VG,Oils-Energy,Oil and Gas - Exploration and Production - United States,0.55,,,,254,25__0,25,2,0.0,19670.0,39736.5,171620.0,340064.49,371506.45,374650.64,374965.06
+VIST,Oils-Energy,Oil and Gas - Integrated - International,0.55,,,,153,20__3,20,2,3.0,22697.0,45690.0,125652.0,338344.8,369309.48,372405.95,372715.59
+VLO,Oils-Energy,Oil and Gas - Refining and Marketing,0.55,,,,2186,35__0,35,2,0.0,15400.0,22839.75,73145.0,318881.95,650670.0,686067.0,689606.7
+WES,Oils-Energy,Oil and Gas - Refining and Marketing - Master Limited Partnerships,0.55,,,,89,20__0,20,2,0.0,15372.0,33024.0,81856.64,94110.46,95335.85,95458.38,95470.64
+WFRD,Oils-Energy,Oil and Gas - Field Services,0.55,,,,94,20__1,20,2,1.0,24607.0,191553.95,493578.2,599257.82,609825.78,610882.58,610988.26
+WMB,Oils-Energy,Oil and Gas - Production and Pipelines,0.55,,,,609,30__0,30,2,0.0,29448.0,53502.0,132751.6,302272.0,311027.2,311902.72,311990.27
+XOM,Oils-Energy,Oil and Gas - Integrated - International,0.55,552900.0,1. p999999_trade_value,1.0,13452,40__0,40,2,0.0,15798.6,24752.45,78446.03,283109.32,483492.08,545854.37,552195.44
+YPF,Oils-Energy,Oil and Gas - Integrated - International,0.55,8670.0,8. p75_trade_value,75.0,298,25__0,25,2,0.0,14523.6,21218.0,57808.5,251753.45,317549.35,324128.93,324786.89

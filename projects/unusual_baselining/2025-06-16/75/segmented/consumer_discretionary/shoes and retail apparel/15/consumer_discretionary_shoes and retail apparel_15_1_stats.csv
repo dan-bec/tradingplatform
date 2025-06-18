@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-SHOO,Consumer Discretionary,Shoes and Retail Apparel ,0.75,10500.0,8. p75_trade_value,7.0,25,15__0,15,0.0,47068.0,53640.0,140139.0,164336.4,166756.14,166998.11,167022.31

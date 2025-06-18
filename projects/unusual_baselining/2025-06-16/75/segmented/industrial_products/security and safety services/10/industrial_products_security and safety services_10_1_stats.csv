@@ -1,6 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ADT,Industrial Products,Security and Safety Services,0.75,,,,13,10__0,10,0.0,16620.0,17840.0,17840.0,17840.0,17840.0,17840.0,17840.0
-ALLE,Industrial Products,Security and Safety Services,0.75,,,,6,10__0,10,0.0,6220.0,7130.0,7858.0,8021.8,8038.18,8039.82,8039.98
-ALRM,Industrial Products,Security and Safety Services,0.75,45500.0,1. p999999_trade_value,1.0,14,10__0,10,0.0,31440.0,43225.0,45045.0,45454.5,45495.45,45499.55,45499.95
-LAKE,Industrial Products,Security and Safety Services,0.75,,,,7,10__0,10,0.0,12232.0,12991.0,13598.2,13734.82,13748.48,13749.85,13749.98
-LIF,Industrial Products,Security and Safety Services,0.75,,,,15,10__0,10,0.0,17870.4,37900.2,73210.44,81155.24,81949.72,82029.17,82037.12

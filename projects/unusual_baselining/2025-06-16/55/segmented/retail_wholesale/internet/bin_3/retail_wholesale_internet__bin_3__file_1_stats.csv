@@ -1,0 +1,6 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+DADA,Retail-Wholesale,Internet - Commerce,0.55,,,,4,5__0,5,3,0.0,7560.0,7980.0,8316.0,8391.6,8399.16,8399.92,8399.99
+LOGC,Retail-Wholesale,Internet - Commerce,0.55,127000.0,1. p999999_trade_value,1.0,12,10__2,10,3,2.0,91840.5,112862.25,124172.45,126717.25,126971.72,126997.17,126999.72
+NEGG,Retail-Wholesale,Internet - Commerce,0.55,,,,2,5__0,5,3,0.0,4487.0,4538.5,4579.7,4588.97,4589.9,4589.99,4590.0
+RMBL,Retail-Wholesale,Internet - Commerce,0.55,,,,7,10__0,10,3,0.0,7760.0,9830.0,11486.0,11858.6,11895.86,11899.59,11899.96
+TZOO,Retail-Wholesale,Internet - Commerce,0.55,,,,4,5__0,5,3,0.0,5509.0,5654.5,5770.9,5797.09,5799.71,5799.97,5800.0

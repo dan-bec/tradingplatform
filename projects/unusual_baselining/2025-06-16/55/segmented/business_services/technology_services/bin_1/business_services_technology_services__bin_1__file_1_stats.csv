@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+APP,Business Services,Technology Services,0.55,93940.0,5. p99_trade_value,1113.0,111245,50__2,50,1,2.0,20240.0,32479.2,93856.4,391872.14,2143967.48,5099127.86,5501402.78

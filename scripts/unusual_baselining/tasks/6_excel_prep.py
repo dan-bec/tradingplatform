@@ -13,7 +13,8 @@ import duckdb
 import pandas as pd
 from openpyxl import Workbook
 from openpyxl.utils.dataframe import dataframe_to_rows
-from openpyxl.styles import NamedStyle
+from openpyxl.utils import get_column_letter
+from openpyxl.styles import PatternFill, Border, Side, Font, NamedStyle
 from datetime import datetime
 import scripts.unusual_baselining.config as config
 import argparse
@@ -31,9 +32,9 @@ output_dir.mkdir(parents=True, exist_ok=True)
 con = duckdb.connect(config.FULL_DB_PATH)
 
 # Get unique securities
-compiled = config.COMPILED
+compiled_schema = config.COMPILED
 itm_threshold_100 = config.ITM_THRESHOLD_100
-table_name = f"{compiled}.all_options_trades_above_baseline_{itm_threshold_100}"
+table_name = f"{compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100}"
 securities = con.execute(f"SELECT DISTINCT security FROM {table_name} WHERE security = 'ABBV'").fetchall()
 securities = [sec[0] for sec in securities]
 

@@ -131,8 +131,6 @@ if rebuild:
         )
 
         SELECT tp.*
-        , {number_of_bins} as number_of_bins
-        , ntile({number_of_bins}) OVER (PARTITION BY tp.security ORDER BY tp.trade_value desc) as trade_value_bin
         , CASE 
             WHEN tp.option_type = 'C' and strike_price <= high_during_period THEN 1
             WHEN tp.option_type = 'P' and strike_price >= low_during_period  THEN 1

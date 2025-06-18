@@ -1,8 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-ASLE,Aerospace,Aerospace - Defense Equipment,5__0,5,0.0,1. p999999_trade_value,7280.0,7280.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-ASLE,Aerospace,Aerospace - Defense Equipment,5__0,5,0.0,8. p75_trade_value,6525.0,6525.0,1.0,1.0,1.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
-CAE,Aerospace,Aerospace - Defense Equipment,5__0,5,0.0,1. p999999_trade_value,5670.0,5670.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-CAE,Aerospace,Aerospace - Defense Equipment,5__0,5,0.0,8. p75_trade_value,4000.0,4000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
-DCO,Aerospace,Aerospace - Defense Equipment,5__3,5,3.0,1. p999999_trade_value,16800.0,16800.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-POWW,Aerospace,Aerospace - Defense Equipment,5__0,5,0.0,1. p999999_trade_value,5830.0,5830.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-SARO,Aerospace,Aerospace - Defense,5__0,5,0.0,1. p999999_trade_value,4000.0,4000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0

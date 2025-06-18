@@ -1,7 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-APH,Computer and Technology,Electronics - Connectors,0.55,330000.0,1. p999999_trade_value,1.0,916,30__0,30,0.0,19740.0,32228.0,111538.75,247650.0,321765.0,329176.5,329917.65
-GRMN,Computer and Technology,Electronics - Miscellaneous Products,0.55,23265.0,6. p95_trade_value,29.0,596,30__2,30,2.0,15625.0,23000.0,77193.75,150882.35,165271.24,166710.12,166854.01
-JBL,Computer and Technology,Electronics - Manufacturing Services,0.55,449000.0,4. p999_trade_value,2.0,1220,30__2,30,2.0,14280.0,25025.05,48988.2,420201.5,616717.1,637671.71,639767.17
-KULR,Computer and Technology,Electronics - Semiconductors,0.55,7400.0,8. p75_trade_value,153.0,609,30__2,30,2.0,12022.0,19168.8,37231.0,80816.5,88935.85,89747.78,89828.98
-NVTS,Computer and Technology,Electronics - Semiconductors,0.55,8000.0,8. p75_trade_value,202.0,802,30__2,30,2.0,12372.5,17871.6,42835.2,69392.92,85306.79,86898.18,87057.32
-TER,Computer and Technology,Electronics - Miscellaneous Products,0.55,,,,880,30__0,30,0.0,15963.0,27475.2,78012.0,609024.48,1126975.85,1178770.98,1183950.5

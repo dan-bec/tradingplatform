@@ -1,0 +1,28 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AEE,Utilities,Utility - Electric Power,0.55,19845.0,1. p999999_trade_value,1.0,43,15__0,15,3,0.0,12000.0,16011.9,19227.6,19783.26,19838.83,19844.38,19844.94
+ATO,Utilities,Utility - Gas Distribution,0.55,7200.0,8. p75_trade_value,13.0,52,15__0,15,3,0.0,10735.0,18793.25,148590.42,149202.04,149263.2,149269.32,149269.93
+AVA,Utilities,Utility - Electric Power,0.55,,,,1,0__2,0,3,2.0,3500.0,3500.0,3500.0,3500.0,3500.0,3500.0,3500.0
+AWK,Utilities,Utility - Water Supply,0.55,33408.0,1. p999999_trade_value,1.0,55,15__0,15,3,0.0,8866.8,12210.0,26254.08,32692.61,33336.46,33400.85,33407.28
+AWR,Utilities,Utility - Water Supply,0.55,9700.0,8. p75_trade_value,2.0,8,10__0,10,3,0.0,12700.0,16200.0,19000.0,19630.0,19693.0,19699.3,19699.93
+BEP,Utilities,Utility - Electric Power,0.55,44955.0,1. p999999_trade_value,1.0,10,10__0,10,3,0.0,10345.5,27650.25,41494.05,44608.9,44920.39,44951.54,44954.65
+BIPC,Utilities,Utility - Gas Distribution,0.55,,,,1,0__2,0,3,2.0,3500.0,3500.0,3500.0,3500.0,3500.0,3500.0,3500.0
+CMS,Utilities,Utility - Electric Power,0.55,10005.0,8. p75_trade_value,12.0,47,15__0,15,3,0.0,23628.0,25910.5,84744.02,106484.4,108658.44,108875.84,108897.58
+CNP,Utilities,Utility - Electric Power,0.55,41490.0,1. p999999_trade_value,1.0,35,15__0,15,3,0.0,19531.8,30000.0,37583.4,41099.34,41450.93,41486.09,41489.61
+CTRI,Utilities,Utility - Electric Power,0.55,,,,8,10__0,10,3,0.0,9450.0,9975.0,10395.0,10489.5,10498.95,10499.9,10499.99
+DTE,Utilities,Utility - Electric Power,0.55,72720.0,1. p999999_trade_value,1.0,21,15__0,15,3,0.0,45360.0,65340.0,71244.0,72572.4,72705.24,72718.52,72719.85
+ES,Utilities,Utility - Electric Power,0.55,,,,20,15__0,15,3,0.0,30746.75,79374.38,121278.87,130707.39,131650.24,131744.52,131753.95
+EVRG,Utilities,Utility - Electric Power,0.55,9305.999999999998,8. p75_trade_value,6.0,24,15__0,15,3,0.0,10090.5,11684.75,12614.5,12790.45,12808.05,12809.8,12809.98
+FE,Utilities,Utility - Electric Power,0.55,,,,45,15__0,15,3,0.0,11718.0,13362.0,20672.4,22767.24,22976.72,22997.67,22999.77
+IDA,Utilities,Utility - Electric Power,0.55,4200.0,1. p999999_trade_value,1.0,2,5__0,5,3,0.0,4117.5,4158.75,4191.75,4199.18,4199.92,4199.99,4200.0
+LNT,Utilities,Utility - Electric Power,0.55,37050.0,8. p75_trade_value,3.0,12,10__2,10,3,2.0,44925.0,88370.0,129994.0,139359.4,140295.94,140389.59,140398.96
+MDU,Utilities,Utility - Gas Distribution,0.55,,,,20,15__0,15,3,0.0,12570.0,15750.0,27150.0,29715.0,29971.5,29997.15,29999.71
+NGG,Utilities,Utility - Electric Power,0.55,13339.999999999998,1. p999999_trade_value,1.0,17,10__0,10,3,0.0,8835.0,12928.0,13257.6,13331.76,13339.18,13339.92,13339.99
+NI,Utilities,Utility - Electric Power,0.55,15225.0,1. p999999_trade_value,1.0,4,5__3,5,3,3.0,12154.5,13689.75,14917.95,15194.3,15221.93,15224.69,15224.97
+NWN,Utilities,Utility - Gas Distribution,0.55,8000.0,1. p999999_trade_value,1.0,2,5__0,5,3,0.0,7700.0,7850.0,7970.0,7997.0,7999.7,7999.97,8000.0
+PAM,Utilities,Utility - Electric Power,0.55,,,,17,10__2,10,3,2.0,63424.0,94532.0,119274.4,124841.44,125398.14,125453.81,125459.38
+PNW,Utilities,Utility - Electric Power,0.55,11305.0,8. p75_trade_value,3.0,11,10__0,10,3,0.0,16000.0,17145.0,18061.0,18267.1,18287.71,18289.77,18289.98
+POR,Utilities,Utility - Electric Power,0.55,4500.0,1. p999999_trade_value,1.0,2,5__0,5,3,0.0,4355.0,4427.5,4485.5,4498.55,4499.86,4499.99,4500.0
+SR,Utilities,Utility - Gas Distribution,0.55,,,,1,0__0,0,3,0.0,16500.0,16500.0,16500.0,16500.0,16500.0,16500.0,16500.0
+SWX,Utilities,Utility - Gas Distribution,0.55,,,,3,5__0,5,3,0.0,5347.2,5385.6,5416.32,5423.23,5423.92,5423.99,5424.0
+TAC,Utilities,Utility - Electric Power,0.55,,,,13,10__2,10,3,2.0,49200.0,75750.0,99150.0,104415.0,104941.5,104994.15,104999.42
+UGI,Utilities,Utility - Gas Distribution,0.55,,,,14,10__0,10,3,0.0,9587.1,9813.0,9906.6,9927.66,9929.77,9929.98,9930.0

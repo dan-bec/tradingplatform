@@ -1,0 +1,9 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+CNXC,Business Services,Business - Services,0.55,,,,101,20__0,20,2,0.0,16850.0,21600.0,40320.0,50762.7,51806.97,51911.4,51921.84
+CTAS,Business Services,Business - Services,0.55,316260.0,1. p999999_trade_value,1.0,680,30__2,30,2,2.0,18736.0,30297.45,130738.4,305219.46,315155.95,316149.59,316248.96
+DNB,Business Services,Business - Information Services,0.55,79820.0,1. p999999_trade_value,1.0,66,20__0,20,2,0.0,20836.5,26719.0,60437.0,77881.7,79626.17,79800.62,79818.06
+FDS,Business Services,Business - Information Services,0.55,20880.0,5. p99_trade_value,2.0,191,25__0,25,2,0.0,10400.0,14000.0,18413.1,32016.69,34367.77,34602.88,34626.39
+IRM,Business Services,Business - Information Services,0.55,276675.0,1. p999999_trade_value,1.0,378,25__0,25,2,0.0,15902.0,20941.2,60043.47,211156.17,270123.12,276019.81,276609.48
+TRU,Business Services,Business - Information Services,0.55,,,,401,25__0,25,2,0.0,12180.0,21420.0,87500.0,310500.0,348300.0,352080.0,352458.0
+VRSK,Business Services,Business - Information Services,0.55,,,,80,20__0,20,2,0.0,10192.6,14883.25,84920.0,84920.0,84920.0,84920.0,84920.0
+WNS,Business Services,Business - Services,0.55,86580.0,6. p95_trade_value,5.0,100,20__3,20,2,3.0,39478.1,75579.0,245650.4,440815.04,460331.5,462283.15,462478.32

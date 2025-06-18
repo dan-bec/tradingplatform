@@ -53,5 +53,19 @@ for row in ws['A5':'A6']:
     for cell in row:
         cell.fill = notes_fill
 
+# Step 2: Apply formatting
+# Header styling
+ws["A1"].font = Font(bold=True)
+ws["B1"].font = Font(bold=True)
+ws["A1"].fill = PatternFill(start_color="CCCCCC", end_color="CCCCCC", fill_type="solid")
+ws["B1"].fill = PatternFill(start_color="CCCCCC", end_color="CCCCCC", fill_type="solid")
+
+# Auto-size columns
+for col in ws.columns:
+    max_length = max(len(str(cell.value)) for cell in col)
+    ws.column_dimensions[col[0].column_letter].width = max_length + 2
+
+ws.sheet_view.showGridLines = False
+
 # Save the workbook
 wb.save(Path(__file__).parent / "formatted_output.xlsx")

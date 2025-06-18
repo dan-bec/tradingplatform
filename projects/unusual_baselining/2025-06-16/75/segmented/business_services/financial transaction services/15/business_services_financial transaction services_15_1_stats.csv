@@ -1,7 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CMPO,Business Services,Financial Transaction Services,0.75,,,,42,15__0,15,0.0,14170.0,14342.9,291838.32,463883.83,481088.38,482808.84,482980.88
-KSPI,Business Services,Financial Transaction Services,0.75,,,,31,15__0,15,0.0,28980.0,48970.0,72327.0,77081.7,77557.17,77604.72,77609.47
-PAGS,Business Services,Financial Transaction Services,0.75,112500.0,1. p999999_trade_value,1.0,40,15__0,15,0.0,24013.2,33165.65,86936.67,109943.67,112244.37,112474.44,112497.44
-PAR,Business Services,Financial Transaction Services,0.75,66250.0,6. p95_trade_value,2.0,33,15__0,15,0.0,31740.0,51082.0,67253.0,67677.8,67720.28,67724.53,67724.95
-PSFE,Business Services,Financial Transaction Services,0.75,64000.0,1. p999999_trade_value,1.0,18,15__0,15,0.0,24066.0,39112.0,59022.4,63502.24,63950.22,63995.02,63999.5
-WU,Business Services,Financial Transaction Services,0.75,,,,40,15__0,15,0.0,22050.0,24087.25,43689.8,49368.98,49936.9,49993.69,49999.37

@@ -53,6 +53,7 @@ con.execute(f"""
     , sp.qualifying_trades as num_trades_total
     , cs.final_cluster
     , cs.trade_volume_bin
+    , cs.trade_volume_bin_rank
     , cs.cluster
     , sp.p90_trade_value
     , sp.p95_trade_value
@@ -87,6 +88,7 @@ con.execute(f"""
     SELECT si.security, si.sector, si.industry
     , cs.final_cluster
     , cs.trade_volume_bin
+    , cs.trade_volume_bin_rank
     , cs.cluster
     , ip.trade_value_category
     , ip.max_trade_value
@@ -124,6 +126,7 @@ con.execute(f"""
     SELECT  si.security, si.sector, si.industry
     , cs.final_cluster
     , cs.trade_volume_bin
+    , cs.trade_volume_bin_rank
     , cs.cluster
     , ip.trade_value_category
     , ip.min_trade_value as category_minimum
@@ -163,7 +166,7 @@ def modify_sector_name(sector):
 # Function to process industry name
 def process_industry(industry):
     parts = industry.split('-', 1)
-    processed = parts[0].strip().lower()
+    processed = parts[0].strip().lower().replace(' ', '_').replace('-', '_')
     return processed
 
 # Get all unique sectors
@@ -184,7 +187,7 @@ for sector in sectors:
         query = f"SELECT * FROM {compiled_schema}.{table} WHERE sector = ?"
         df = con.execute(query, [sector]).fetchdf()
         if not df.empty:
-            file_name = f"{modified_sector}_{descriptor}.csv"
+            file_name = f"{modified_sector}__file_{descriptor}.csv"
             file_path = sector_folder / file_name
             df.to_csv(file_path, index=False)
             # print(f"File written: {file_path}")
@@ -213,20 +216,20 @@ for sector in sectors:
             params = [sector] + industry_list
             df = con.execute(query, params).fetchdf()
             if not df.empty:
-                file_name = f"{modified_sector}_{processed_industry}_{descriptor}.csv"
+                file_name = f"{modified_sector}_{processed_industry}__file_{descriptor}.csv"
                 file_path = industry_folder / file_name
                 df.to_csv(file_path, index=False)
                 # print(f"File written: {file_path}")
         
         # Get distinct trade_volume_bins for this sector and industry list
-        query = f"SELECT DISTINCT trade_volume_bin FROM {compiled_schema}.all_securities_stats_{itm_threshold_100} WHERE sector = ? AND industry IN ({','.join(['?' for _ in industry_list])})"
+        query = f"SELECT DISTINCT trade_volume_bin_rank FROM {compiled_schema}.all_securities_stats_{itm_threshold_100} WHERE sector = ? AND industry IN ({','.join(['?' for _ in industry_list])})"
         params = [sector] + industry_list
-        trade_volume_bins = con.execute(query, params).fetchall()
-        trade_volume_bins = [row[0] for row in trade_volume_bins]
+        trade_volume_bins_rank = con.execute(query, params).fetchall()
+        trade_volume_bins_rank = [row[0] for row in trade_volume_bins_rank]
         
-        # Generate trade_volume_bin-level outputs only for existing trade_volume_bins
-        for trade_volume_bin in trade_volume_bins:
-            tvb_folder = industry_folder / str(trade_volume_bin)
+        # Generate trade_volume_bin-level outputs only for existing trade_volume_bins_rank
+        for trade_volume_bin_rank in trade_volume_bins_rank:
+            tvb_folder = Path(str(industry_folder) + '/bin_' + str(trade_volume_bin_rank))
             tvb_folder.mkdir(parents=True, exist_ok=True)
             
             for table, descriptor in [
@@ -234,11 +237,11 @@ for sector in sectors:
                 (f'all_securities_trade_value_category_{itm_threshold_100}', '2_trade_value_category'),
                 (f'all_options_trades_above_baseline_{itm_threshold_100}', '3_trades_above_baseline')
             ]:
-                query = f"SELECT * FROM {compiled_schema}.{table} WHERE sector = ? AND industry IN ({','.join(['?' for _ in industry_list])}) AND trade_volume_bin = ?"
-                params = [sector] + industry_list + [trade_volume_bin]
+                query = f"SELECT * FROM {compiled_schema}.{table} WHERE sector = ? AND industry IN ({','.join(['?' for _ in industry_list])}) AND trade_volume_bin_rank = ?"
+                params = [sector] + industry_list + [trade_volume_bin_rank]
                 df = con.execute(query, params).fetchdf()
                 if not df.empty:
-                    file_name = f"{modified_sector}_{processed_industry}_{trade_volume_bin}_{descriptor}.csv"
+                    file_name = f"{modified_sector}_{processed_industry}__bin_{trade_volume_bin_rank}__file_{descriptor}.csv"
                     file_path = tvb_folder / file_name
                     df.to_csv(file_path, index=False)
                     # print(f"File written: {file_path}")

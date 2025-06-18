@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-DDD,Industrial Products,Commercial Printing,0.75,7230.0,8. p75_trade_value,3.0,9,10__0,10,0.0,8031.0,9513.0,10698.6,10965.36,10992.04,10994.7,10994.97

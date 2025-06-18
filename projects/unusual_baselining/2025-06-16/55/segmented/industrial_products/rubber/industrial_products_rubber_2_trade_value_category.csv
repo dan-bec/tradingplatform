@@ -1,4 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-PRLB,Industrial Products,Rubber - Plastics,10__0,10,0.0,1. p999999_trade_value,24600.0,24600.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-PRLB,Industrial Products,Rubber - Plastics,10__0,10,0.0,7. p90_trade_value,21060.0,21060.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-PRLB,Industrial Products,Rubber - Plastics,10__0,10,0.0,8. p75_trade_value,17135.0,17135.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333

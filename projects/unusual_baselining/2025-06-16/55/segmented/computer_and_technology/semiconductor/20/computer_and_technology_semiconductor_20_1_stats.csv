@@ -1,5 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-MTSI,Computer and Technology,Semiconductor - Analog and Mixed,0.55,451248.00000000006,1. p999999_trade_value,1.0,154,20__1,20,1.0,19165.0,51387.0,242820.65,424296.59,448552.86,450978.49,451221.05
-MXL,Computer and Technology,Semiconductor - Analog and Mixed,0.55,,,,88,20__0,20,0.0,24000.0,32062.5,43952.03,66135.2,68353.52,68575.35,68597.54
-SLAB,Computer and Technology,Semiconductor - Analog and Mixed,0.55,,,,69,20__0,20,0.0,9728.0,13554.0,17068.8,17276.88,17297.69,17299.77,17299.98
-VSH,Computer and Technology,Semiconductor - Discretes,0.55,6435.000000000001,8. p75_trade_value,18.0,69,20__0,20,0.0,8755.0,13078.0,146400.0,158640.0,159864.0,159986.4,159998.64

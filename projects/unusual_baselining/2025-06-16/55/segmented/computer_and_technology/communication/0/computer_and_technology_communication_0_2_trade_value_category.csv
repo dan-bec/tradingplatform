@@ -1,5 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-AIRG,Computer and Technology,Communication - Components,0__0,0,0.0,1. p999999_trade_value,8680.000000000002,8680.000000000002,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-ATEN,Computer and Technology,Communication - Network Software,0__2,0,2.0,1. p999999_trade_value,7227.0,7227.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-ATEX,Computer and Technology,Communication - Infrastructure,0__2,0,2.0,1. p999999_trade_value,6250.0,6250.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-KN,Computer and Technology,Communication - Components,0__2,0,2.0,1. p999999_trade_value,7500.0,7500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0

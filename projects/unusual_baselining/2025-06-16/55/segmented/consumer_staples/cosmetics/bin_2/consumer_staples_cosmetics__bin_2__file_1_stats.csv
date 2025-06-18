@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+EL,Consumer Staples,Cosmetics,0.55,358920.0,4. p999_trade_value,4.0,3096,35__1,35,2,1.0,15570.0,27362.5,126306.25,356932.6,1069535.0,1200453.5,1213545.35
+ELF,Consumer Staples,Cosmetics,0.55,,,,9172,40__1,40,2,1.0,14739.8,21611.25,54807.97,861792.0,2415236.6,6091523.66,6459152.37
+HELE,Consumer Staples,Cosmetics,0.55,138000.0,1. p999999_trade_value,1.0,244,25__0,25,2,0.0,14255.4,21106.0,35432.0,127308.0,136930.8,137893.08,137989.31

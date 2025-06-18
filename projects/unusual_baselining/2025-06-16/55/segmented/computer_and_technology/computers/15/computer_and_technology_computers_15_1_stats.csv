@@ -1,7 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-DAVA,Computer and Technology,Computers - IT Services,0.55,,,,29,15__0,15,0.0,20125.0,21570.0,23460.0,23901.0,23945.1,23949.51,23949.95
-DXC,Computer and Technology,Computers - IT Services,0.55,,,,18,15__0,15,0.0,10106.0,20193.75,56658.75,64863.38,65683.84,65765.88,65774.09
-EVLV,Computer and Technology,Computers - IT Services,0.55,17988.0,6. p95_trade_value,2.0,24,15__0,15,0.0,13409.0,17389.8,19537.24,19953.72,19995.37,19999.54,19999.95
-JKHY,Computer and Technology,Computers - IT Services,0.55,4248.0,8. p75_trade_value,5.0,18,15__0,15,0.0,7193.0,12145.2,15523.44,16283.54,16359.55,16367.16,16367.92
-ROP,Computer and Technology,Computers - IT Services,0.55,,,,52,15__0,15,0.0,7270.0,21395.0,82747.85,127943.28,132462.83,132914.78,132959.98
-TASK,Computer and Technology,Computers - IT Services,0.55,12960.0,8. p75_trade_value,5.0,20,15__0,15,0.0,18750.0,30003.0,30048.6,30058.86,30059.89,30059.99,30060.0

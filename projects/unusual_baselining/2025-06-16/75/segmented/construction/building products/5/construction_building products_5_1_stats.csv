@@ -1,7 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-GLDD,Construction,Building Products - Heavy Construction,0.75,5625.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,5503.5,5564.25,5612.85,5623.79,5624.88,5624.99,5625.0
-JELD,Construction,Building Products - Wood,0.75,,,,3,5__0,5,0.0,3918.0,3939.0,3955.8,3959.58,3959.96,3960.0,3960.0
-ORN,Construction,Building Products - Heavy Construction,0.75,,,,2,5__0,5,0.0,3200.0,3200.0,3200.0,3200.0,3200.0,3200.0,3200.0
-TPH,Construction,Building Products - Home Builders,0.75,4160.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,4064.0,4112.0,4150.4,4159.04,4159.9,4159.99,4160.0
-UFPI,Construction,Building Products - Wood,0.75,19500.0,1. p999999_trade_value,1.0,4,5__3,5,3.0,16044.0,17772.0,19154.4,19465.44,19496.54,19499.65,19499.97
-USLM,Construction,Building Products - Concrete and Aggregates,0.75,4144.0,1. p999999_trade_value,1.0,3,5__0,5,0.0,4052.4,4098.2,4134.84,4143.08,4143.91,4143.99,4144.0

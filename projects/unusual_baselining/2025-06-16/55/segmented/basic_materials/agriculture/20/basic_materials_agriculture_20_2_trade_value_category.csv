@@ -1,6 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-BG,Basic Materials,Agriculture - Products,20__1,20,1.0,1. p999999_trade_value,250000.0,250000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-BG,Basic Materials,Agriculture - Products,20__1,20,1.0,5. p99_trade_value,240000.0,240000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-BG,Basic Materials,Agriculture - Products,20__1,20,1.0,6. p95_trade_value,195480.00000000003,42500.0,3.0,6.0,0.5,0.55,2. BELOW BASELINE,4.0,8.0,0.5
-BG,Basic Materials,Agriculture - Products,20__1,20,1.0,7. p90_trade_value,28875.0,14489.999999999998,6.0,7.0,0.8571428571428571,0.55,2. BELOW BASELINE,10.0,15.0,0.6666666666666666
-BG,Basic Materials,Agriculture - Products,20__1,20,1.0,8. p75_trade_value,13000.0,6850.0,15.0,22.0,0.6818181818181818,0.55,2. BELOW BASELINE,25.0,37.0,0.6756756756756757

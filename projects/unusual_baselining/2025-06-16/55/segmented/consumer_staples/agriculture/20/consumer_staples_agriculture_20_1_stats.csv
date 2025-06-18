@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CTVA,Consumer Staples,Agriculture - Operations,0.55,,,,100,20__0,20,0.0,15194.7,21378.0,52252.96,65525.3,66852.53,66985.25,66998.53

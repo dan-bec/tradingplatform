@@ -1,0 +1,16 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AIR,Aerospace,Aerospace - Defense Equipment,0.55,5850.0,8. p75_trade_value,10.0,37,15__0,15,3,0.0,7231.6,9140.0,11371.2,12369.12,12468.91,12478.89,12479.89
+ASLE,Aerospace,Aerospace - Defense Equipment,0.55,,,,5,5__0,5,3,0.0,6978.0,7129.0,7249.8,7276.98,7279.7,7279.97,7280.0
+CAE,Aerospace,Aerospace - Defense Equipment,0.55,4000.0,8. p75_trade_value,2.0,5,5__0,5,3,0.0,5002.0,5336.0,5603.2,5663.32,5669.33,5669.93,5669.99
+DCO,Aerospace,Aerospace - Defense Equipment,0.55,,,,4,5__3,5,3,3.0,14910.0,15855.0,16611.0,16781.1,16798.11,16799.81,16799.98
+DRS,Aerospace,Aerospace - Defense Equipment,0.55,5800.0,8. p75_trade_value,2.0,8,10__0,10,3,0.0,6654.4,7651.2,8448.64,8628.06,8646.01,8647.8,8647.98
+HXL,Aerospace,Aerospace - Defense Equipment,0.55,,,,19,15__0,15,3,0.0,14580.0,15300.0,15300.0,15300.0,15300.0,15300.0,15300.0
+ISSC,Aerospace,Aerospace - Defense Equipment,0.55,,,,1,0__2,0,3,2.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0
+LOAR,Aerospace,Aerospace - Defense Equipment,0.55,76960.0,6. p95_trade_value,2.0,35,15__0,15,3,0.0,14529.0,64493.0,141715.9,171739.09,174741.41,175041.64,175071.66
+MRCY,Aerospace,Aerospace - Defense Equipment,0.55,22440.0,8. p75_trade_value,5.0,16,10__0,10,3,0.0,48840.0,59225.0,71765.0,74586.5,74868.65,74896.87,74899.69
+POWW,Aerospace,Aerospace - Defense Equipment,0.55,,,,4,5__0,5,3,0.0,5536.3,5683.15,5800.63,5827.06,5829.71,5829.97,5830.0
+SARO,Aerospace,Aerospace - Defense,0.55,4000.0,1. p999999_trade_value,1.0,2,5__0,5,3,0.0,3960.0,3980.0,3996.0,3999.6,3999.96,4000.0,4000.0
+SPR,Aerospace,Aerospace - Defense Equipment,0.55,63690.00000000001,1. p999999_trade_value,1.0,11,10__0,10,3,0.0,25000.0,44345.0,59821.0,63303.1,63651.31,63686.13,63689.61
+TDY,Aerospace,Aerospace - Defense Equipment,0.55,,,,37,15__0,15,3,0.0,14934.4,22600.0,44577.6,52463.76,53252.38,53331.24,53339.12
+TGI,Aerospace,Aerospace - Defense Equipment,0.55,6450.0,7. p90_trade_value,3.0,11,10__0,10,3,0.0,6450.0,7215.0,7827.0,7964.7,7978.47,7979.85,7979.98
+TXT,Aerospace,Aerospace - Defense,0.55,86961.0,1. p999999_trade_value,1.0,53,15__0,15,3,0.0,10489.0,19640.0,62868.88,84551.79,86720.08,86936.91,86958.59

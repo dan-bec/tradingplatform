@@ -1,4 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AEM,Basic Materials,Mining - Gold,0.75,363000.0,4. p999_trade_value,2.0,1875,35__1,35,1.0,13500.0,20763.0,77561.3,320174.0,1676893.75,1949600.28,1976870.93
-LEU,Basic Materials,Mining - Non Ferrous,0.75,65000.0,5. p99_trade_value,24.0,2373,35__0,35,0.0,13672.0,21110.0,64164.8,110265.93,208427.06,229642.71,231764.27
-NEM,Basic Materials,Mining - Gold,0.75,,,,4808,35__0,35,0.0,15364.5,22587.7,72279.0,291081.76,660193.0,664519.3,664951.93

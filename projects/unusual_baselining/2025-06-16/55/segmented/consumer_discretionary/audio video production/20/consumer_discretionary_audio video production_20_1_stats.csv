@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-SONY,Consumer Discretionary,Audio Video Production,0.55,6495.0,8. p75_trade_value,36.0,143,20__0,20,0.0,11050.2,20318.5,70817.0,92146.34,94156.63,94357.66,94377.77

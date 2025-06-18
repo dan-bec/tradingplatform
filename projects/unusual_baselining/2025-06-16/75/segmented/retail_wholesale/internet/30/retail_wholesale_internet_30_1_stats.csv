@@ -1,5 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CART,Retail-Wholesale,Internet - Commerce,0.75,56979.99999999999,5. p99_trade_value,12.0,1135,30__2,30,2.0,13048.8,19030.0,56476.8,419464.0,623918.0,647391.8,649739.18
-CPNG,Retail-Wholesale,Internet - Commerce,0.75,323082.0,1. p999999_trade_value,1.0,824,30__2,30,2.0,12000.0,18787.5,65728.0,147610.17,305534.82,321327.28,322906.53
-EBAY,Retail-Wholesale,Internet - Commerce,0.75,807360.0,1. p999999_trade_value,1.0,1375,30__0,30,0.0,14519.6,25701.9,148000.0,649362.0,797829.94,806406.99,807264.7
-GRPN,Retail-Wholesale,Internet - Commerce,0.75,223500.0,1. p999999_trade_value,1.0,764,30__0,30,0.0,19241.0,39600.0,143243.25,205569.5,221706.95,223320.7,223482.07

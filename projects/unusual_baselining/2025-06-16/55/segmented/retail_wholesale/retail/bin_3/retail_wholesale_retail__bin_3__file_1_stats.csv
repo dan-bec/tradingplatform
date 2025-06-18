@@ -1,0 +1,36 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ARHS,Retail-Wholesale,Retail - Miscellaneous,0.55,,,,11,10__0,10,3,0.0,10000.0,11237.5,12227.5,12450.25,12472.53,12474.75,12474.98
+BGFV,Retail-Wholesale,Retail - Miscellaneous,0.55,,,,1,0__2,0,3,2.0,7640.0,7640.0,7640.0,7640.0,7640.0,7640.0,7640.0
+BIRD,Retail-Wholesale,Retail - Apparel and Shoes,0.55,,,,2,5__0,5,3,0.0,11675.0,12012.5,12282.5,12343.25,12349.33,12349.93,12349.99
+BJRI,Retail-Wholesale,Retail - Restaurants,0.55,,,,11,10__0,10,3,0.0,23400.0,27237.5,30307.5,30998.25,31067.33,31074.23,31074.92
+BKE,Retail-Wholesale,Retail - Apparel and Shoes,0.55,,,,19,15__0,15,3,0.0,5920.0,6939.0,7939.8,8164.98,8187.5,8189.75,8189.97
+BLMN,Retail-Wholesale,Retail - Restaurants,0.55,41580.0,1. p999999_trade_value,1.0,56,15__0,15,3,0.0,12620.0,14991.25,28509.25,40272.93,41449.29,41566.93,41578.69
+CATO,Retail-Wholesale,Retail - Apparel and Shoes,0.55,,,,1,0__2,0,3,2.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0
+CNXN,Retail-Wholesale,Retail - Computer Hardware,0.55,,,,2,5__0,5,3,0.0,10018.0,10369.0,10649.8,10712.98,10719.3,10719.93,10719.99
+CTRN,Retail-Wholesale,Retail - Apparel and Shoes,0.55,7500.0,8. p75_trade_value,6.0,22,15__0,15,3,0.0,8270.0,10390.0,11290.0,11479.0,11497.9,11499.79,11499.98
+CURV,Retail-Wholesale,Retail - Apparel and Shoes,0.55,25000.0,1. p999999_trade_value,1.0,2,5__3,5,3,3.0,22812.5,23906.25,24781.25,24978.13,24997.81,24999.78,24999.98
+DBI,Retail-Wholesale,Retail - Apparel and Shoes,0.55,66000.0,6. p95_trade_value,2.0,28,15__0,15,3,0.0,35479.0,63900.0,83520.0,89352.0,89935.2,89993.52,89999.35
+DIN,Retail-Wholesale,Retail - Restaurants,0.55,18000.0,8. p75_trade_value,5.0,20,15__0,15,3,0.0,28008.0,28158.75,29355.75,29625.08,29652.01,29654.7,29654.97
+ETD,Retail-Wholesale,Retail - Home Furnishings,0.55,4000.0,1. p999999_trade_value,1.0,1,0__2,0,3,2.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0
+FBIN,Retail-Wholesale,Retail - Home Furnishings,0.55,149600.0,1. p999999_trade_value,2.0,12,10__2,10,3,2.0,139960.0,149600.0,149600.0,149600.0,149600.0,149600.0,149600.0
+FIGS,Retail-Wholesale,Retail - Apparel and Shoes,0.55,,,,4,5__3,5,3,3.0,17055.0,18427.5,19525.5,19772.55,19797.26,19799.73,19799.97
+FLWS,Retail-Wholesale,Retail - Mail Order,0.55,4800.0,8. p75_trade_value,2.0,6,10__0,10,3,0.0,6000.0,6600.0,7080.0,7188.0,7198.8,7199.88,7199.99
+FOSL,Retail-Wholesale,Retail - Apparel and Shoes,0.55,,,,6,10__0,10,3,0.0,10237.5,11156.25,11891.25,12056.63,12073.16,12074.82,12074.98
+FWRG,Retail-Wholesale,Retail - Restaurants,0.55,16060.0,1. p999999_trade_value,1.0,3,5__3,5,3,3.0,14898.0,15479.0,15943.8,16048.38,16058.84,16059.88,16059.99
+GCO,Retail-Wholesale,Retail - Apparel and Shoes,0.55,,,,16,10__0,10,3,0.0,24040.0,35170.0,54778.0,59189.8,59630.98,59675.1,59679.51
+GOOS,Retail-Wholesale,Retail - Apparel and Shoes,0.55,,,,19,15__0,15,3,0.0,9208.0,12982.8,27258.96,30471.1,30792.31,30824.43,30827.64
+HZO,Retail-Wholesale,Retail - Miscellaneous,0.55,10800.0,1. p999999_trade_value,1.0,4,5__0,5,3,0.0,8688.0,9744.0,10588.8,10778.88,10797.89,10799.79,10799.98
+IMKTA,Retail-Wholesale,Retail - Supermarkets,0.55,,,,19,15__0,15,3,0.0,6950.8,7602.6,10832.52,11559.25,11631.93,11639.19,11639.92
+LE,Retail-Wholesale,Retail - Catalog Shopping,0.55,,,,6,10__0,10,3,0.0,4395.0,4492.5,4570.5,4588.05,4589.8,4589.98,4590.0
+NSIT,Retail-Wholesale,Retail - Mail Order,0.55,,,,2,5__0,5,3,0.0,5946.0,5973.0,5994.6,5999.46,5999.95,5999.99,6000.0
+ODP,Retail-Wholesale,Retail - Miscellaneous,0.55,47250.00000000001,8. p75_trade_value,4.0,16,10__2,10,3,2.0,70450.0,104775.0,174075.0,189667.5,191226.75,191382.68,191398.27
+PBPB,Retail-Wholesale,Retail - Restaurants,0.55,3230.0000000000005,1. p999999_trade_value,1.0,2,5__0,5,3,0.0,3220.5,3225.25,3229.05,3229.91,3229.99,3230.0,3230.0
+PSMT,Retail-Wholesale,Retail - Discount Stores,0.55,,,,5,5__0,5,3,0.0,10826.4,12363.2,13592.64,13869.26,13896.93,13899.69,13899.97
+PTLO,Retail-Wholesale,Retail - Restaurants,0.55,52200.0,1. p999999_trade_value,1.0,28,15__0,15,3,0.0,19603.0,36537.5,49648.5,51944.85,52174.48,52197.45,52199.74
+RRGB,Retail-Wholesale,Retail - Restaurants,0.55,,,,13,10__0,10,3,0.0,11176.0,13148.0,14981.6,15394.16,15435.42,15439.54,15439.95
+SBH,Retail-Wholesale,Retail - Miscellaneous,0.55,5295.0,8. p75_trade_value,2.0,8,10__0,10,3,0.0,9079.5,13494.75,17026.95,17821.7,17901.17,17909.12,17909.91
+SCVL,Retail-Wholesale,Retail - Apparel and Shoes,0.55,22500.0,1. p999999_trade_value,1.0,13,10__0,10,3,0.0,12250.0,16500.0,21300.0,22380.0,22488.0,22498.8,22499.88
+SPWH,Retail-Wholesale,Retail - Apparel and Shoes,0.55,,,,2,5__0,5,3,0.0,4425.0,4462.5,4492.5,4499.25,4499.93,4499.99,4500.0
+VRA,Retail-Wholesale,Retail - Apparel and Shoes,0.55,5000.0,1. p999999_trade_value,3.0,4,5__0,5,3,0.0,5000.0,5000.0,5000.0,5000.0,5000.0,5000.0,5000.0
+WOOF,Retail-Wholesale,Retail - Miscellaneous,0.55,,,,54,15__0,15,3,0.0,43680.0,181750.0,250000.0,250000.0,250000.0,250000.0,250000.0
+ZUMZ,Retail-Wholesale,Retail - Apparel and Shoes,0.55,21250.0,1. p999999_trade_value,1.0,5,5__3,5,3,3.0,14650.0,17950.0,20590.0,21184.0,21243.4,21249.34,21249.93

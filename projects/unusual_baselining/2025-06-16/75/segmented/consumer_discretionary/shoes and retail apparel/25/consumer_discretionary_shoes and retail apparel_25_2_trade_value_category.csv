@@ -1,6 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-BIRK,Consumer Discretionary,Shoes and Retail Apparel ,25__2,25,2.0,1. p999999_trade_value,405000.00000000006,405000.00000000006,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-BIRK,Consumer Discretionary,Shoes and Retail Apparel ,25__2,25,2.0,5. p99_trade_value,240000.0,192942.0,0.0,3.0,0.0,0.75,2. BELOW BASELINE,1.0,4.0,0.25
-BIRK,Consumer Discretionary,Shoes and Retail Apparel ,25__2,25,2.0,6. p95_trade_value,189000.0,68750.0,3.0,15.0,0.2,0.75,2. BELOW BASELINE,4.0,19.0,0.21052631578947367
-BIRK,Consumer Discretionary,Shoes and Retail Apparel ,25__2,25,2.0,7. p90_trade_value,63000.0,30525.0,6.0,19.0,0.3157894736842105,0.75,2. BELOW BASELINE,10.0,38.0,0.2631578947368421
-BIRK,Consumer Discretionary,Shoes and Retail Apparel ,25__2,25,2.0,8. p75_trade_value,30500.0,10080.0,21.0,55.0,0.38181818181818183,0.75,2. BELOW BASELINE,31.0,93.0,0.3333333333333333

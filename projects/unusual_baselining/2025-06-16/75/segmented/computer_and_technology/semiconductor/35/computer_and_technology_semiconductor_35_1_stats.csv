@@ -1,7 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ADI,Computer and Technology,Semiconductor - Analog and Mixed,0.75,,,,2514,35__2,35,2.0,20735.0,34823.25,90978.75,368288.22,452128.43,461012.84,461901.28
-MCHP,Computer and Technology,Semiconductor - Analog and Mixed,0.75,,,,2179,35__2,35,2.0,17280.0,27990.1,90264.0,348304.0,555351.0,595535.1,599553.51
-MPWR,Computer and Technology,Semiconductor - Analog and Mixed,0.75,380000.0,1. p999999_trade_value,1.0,3896,35__2,35,2.0,20435.0,31652.5,68620.0,193213.5,372677.4,379267.74,379926.77
-NXPI,Computer and Technology,Semiconductor - Analog and Mixed,0.75,,,,2383,35__0,35,0.0,16798.0,25191.0,55786.06,222663.0,615192.0,709519.2,718951.92
-ON,Computer and Technology,Semiconductor - Analog and Mixed,0.75,,,,3252,35__0,35,0.0,15759.2,26329.5,69592.0,396064.15,876361.2,951636.12,959163.61
-WOLF,Computer and Technology,Semiconductor - Discretes,0.75,819786.0,1. p999999_trade_value,1.0,3636,35__2,35,2.0,17840.0,33885.0,145060.0,421425.0,781332.79,815940.68,819401.47

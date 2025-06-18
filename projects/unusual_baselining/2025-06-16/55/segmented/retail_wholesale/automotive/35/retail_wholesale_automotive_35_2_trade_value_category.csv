@@ -1,7 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-AZO,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,35__0,35,0.0,1. p999999_trade_value,291200.0,291200.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-AZO,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,35__0,35,0.0,4. p999_trade_value,269200.0,173485.0,3.0,4.0,0.75,0.55,2. BELOW BASELINE,3.0,5.0,0.6
-AZO,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,35__0,35,0.0,5. p99_trade_value,167400.0,62460.0,31.0,40.0,0.775,0.55,2. BELOW BASELINE,34.0,45.0,0.7555555555555555
-AZO,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,35__0,35,0.0,6. p95_trade_value,61979.99999999999,19250.0,77.0,178.0,0.43258426966292135,0.55,2. BELOW BASELINE,111.0,223.0,0.4977578475336323
-AZO,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,35__0,35,0.0,7. p90_trade_value,19185.0,12650.0,118.0,222.0,0.5315315315315315,0.55,2. BELOW BASELINE,229.0,445.0,0.5146067415730337
-AZO,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,35__0,35,0.0,8. p75_trade_value,12600.0,7500.0,367.0,681.0,0.5389133627019089,0.55,2. BELOW BASELINE,596.0,1126.0,0.5293072824156305

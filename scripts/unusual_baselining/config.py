@@ -60,7 +60,7 @@ STRICT_OTM = True
 MIN_TRADE_VALUE = 3_000
 TOP_N_TRADES = 2_000
 EXPIRATION_DAYS_OUT = 30
-NUMBER_OF_BINS = 20
+NUMBER_OF_BINS = 3
 
 # SECURITY CLUSTERING
 MAX_K = 10
@@ -76,7 +76,6 @@ def latest_db_date():
     result = result.strftime("%Y-%m-%d")
     con.close()
     return result
-print(latest_db_date())
 
 ITM_PATH = PROJECTS_PATH / latest_db_date() / ITM_THRESHOLD_100
 PREP_OUTPUT_DIR = ITM_PATH / PREP

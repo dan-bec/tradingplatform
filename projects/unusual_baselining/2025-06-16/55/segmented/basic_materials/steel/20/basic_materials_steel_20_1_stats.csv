@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ATI,Basic Materials,Steel - Speciality,0.55,6000.0,8. p75_trade_value,33.0,130,20__1,20,1.0,10510.0,16644.0,35130.0,387884.0,434788.4,439478.84,439947.88

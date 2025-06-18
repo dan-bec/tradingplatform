@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-BTU,Oils-Energy,Coal,0.75,495000.0,1. p999999_trade_value,1.0,576,30__2,30,2.0,17673.0,29229.0,65480.0,302087.5,475708.75,493070.88,494807.09

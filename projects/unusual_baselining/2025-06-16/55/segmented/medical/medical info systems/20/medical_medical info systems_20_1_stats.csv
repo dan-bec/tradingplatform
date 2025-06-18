@@ -1,3 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-IRTC,Medical,Medical Info Systems,0.55,90000.0,5. p99_trade_value,2.0,177,20__0,20,0.0,16713.0,24284.4,80880.0,182700.0,200520.0,202302.0,202480.2
-SDGR,Medical,Medical Info Systems,0.55,6400.0,8. p75_trade_value,42.0,168,20__0,20,0.0,9609.0,13697.0,64388.52,98987.4,104668.74,105236.87,105293.69

@@ -1,0 +1,7 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+CSTM,Industrial Products,Metal Products - Distribution,0.55,,,,42,15__0,15,3,0.0,94800.0,149193.0,223000.38,249893.84,252583.18,252852.12,252879.01
+ESAB,Industrial Products,Metal Products - Procurement and Fabrication,0.55,24480.0,1. p999999_trade_value,1.0,1,0__1,0,3,1.0,24480.0,24480.0,24480.0,24480.0,24480.0,24480.0,24480.0
+KALU,Industrial Products,Metal Products - Procurement and Fabrication,0.55,,,,11,10__0,10,3,0.0,8610.0,10395.0,11823.0,12144.3,12176.43,12179.64,12179.96
+MLI,Industrial Products,Metal Products - Procurement and Fabrication,0.55,,,,13,10__0,10,3,0.0,7268.0,8415.0,9483.0,9723.3,9747.33,9749.73,9749.97
+NNBR,Industrial Products,Metal Products - Procurement and Fabrication,0.55,,,,1,0__2,0,3,2.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0
+TRS,Industrial Products,Metal Products - Procurement and Fabrication,0.55,,,,5,5__0,5,3,0.0,5052.0,5376.0,5635.2,5693.52,5699.35,5699.94,5699.99

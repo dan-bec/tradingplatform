@@ -1,0 +1,27 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ANSS,Computer and Technology,Computer - Software,0.55,,,,280,25__0,25,2,0.0,8820.0,15200.0,55025.0,199053.0,222405.3,224740.53,224974.05
+CACI,Computer and Technology,Computer - Services,0.55,7950.0,8. p75_trade_value,53.0,210,25__0,25,2,0.0,12077.1,24715.5,84414.05,262835.51,264747.55,264938.76,264957.88
+CDNS,Computer and Technology,Computer - Software,0.55,332464.0,1. p999999_trade_value,1.0,2293,35__0,35,2,0.0,15300.0,22800.0,76308.0,213791.2,305367.06,329754.31,332193.03
+CSCO,Computer and Technology,Computer - Networking,0.55,,,,4677,35__0,35,2,0.0,15036.0,22602.0,67152.72,291284.66,831755.04,1154068.4,1186299.74
+CVLT,Computer and Technology,Computer - Software,0.55,765000.0,4. p999_trade_value,2.0,1488,30__0,30,2,0.0,19810.0,27440.0,59964.6,635214.5,880606.54,898780.65,900598.07
+HPE,Computer and Technology,Computer - Integrated Systems,0.55,21229.0,6. p95_trade_value,66.0,1302,30__2,30,2,2.0,14230.6,21221.05,49980.0,229444.44,324164.75,336166.48,337366.65
+HPQ,Computer and Technology,Computer - Micro Computers,0.55,,,,1121,30__2,30,2,2.0,15323.0,21600.0,54347.6,280074.72,298933.39,299833.94,299923.99
+IBM,Computer and Technology,Computer - Integrated Systems,0.55,24070.0,6. p95_trade_value,719.0,14378,40__3,40,2,3.0,15755.4,24063.2,60689.2,282432.29,825047.87,898057.03,899085.7
+INOD,Computer and Technology,Computer - Services,0.55,,,,1236,30__2,30,2,2.0,16000.0,26842.5,75575.0,160631.16,236081.23,245305.12,246227.51
+INTU,Computer and Technology,Computer - Software,0.55,,,,6769,40__0,40,2,0.0,16959.4,27615.0,82051.2,293280.0,784178.4,848592.84,855034.28
+IONQ,Computer and Technology,Computer - Integrated Systems,0.55,,,,17267,40__0,40,2,0.0,17294.0,27000.0,69736.0,233717.0,460000.0,486203.51,491125.15
+LOGI,Computer and Technology,Computer - Peripheral Equipment,0.55,24800.0,6. p95_trade_value,17.0,329,25__0,25,2,0.0,15990.0,24552.0,96100.0,185227.2,222710.22,226458.52,226833.35
+MANH,Computer and Technology,Computer - Software,0.55,623360.0,1. p999999_trade_value,1.0,241,25__0,25,2,0.0,14690.0,25884.0,57088.0,507605.6,611784.56,622202.46,623244.25
+NEON,Computer and Technology,Computer - Software,0.55,,,,83,20__0,20,2,0.0,10500.0,14817.0,27937.04,28252.9,28284.49,28287.65,28287.96
+NTAP,Computer and Technology,Computer- Storage Devices,0.55,292500.0,1. p999999_trade_value,1.0,990,30__2,30,2,2.0,13800.0,22149.4,52323.95,140292.9,277279.29,290977.93,292347.79
+NTGR,Computer and Technology,Computer - Networking,0.55,,,,66,20__0,20,2,0.0,35780.0,47654.0,71095.0,79109.5,79910.95,79991.1,79999.11
+PEGA,Computer and Technology,Computer - Software,0.55,197105.00000000003,1. p999999_trade_value,1.0,91,20__0,20,2,0.0,12540.0,15332.5,61290.5,183523.55,195746.86,196969.19,197091.42
+PSTG,Computer and Technology,Computer- Storage Devices,0.55,,,,984,30__2,30,2,2.0,15519.0,22000.0,48340.0,131913.37,211191.34,219119.13,219911.91
+PTC,Computer and Technology,Computer - Software,0.55,430168.99999999994,1. p999999_trade_value,1.0,384,25__0,25,2,0.0,20580.0,38000.0,104474.0,373841.57,424536.26,429605.73,430112.67
+SAP,Computer and Technology,Computer - Software,0.55,310000.0,1. p999999_trade_value,1.0,1188,30__2,30,2,2.0,13058.5,20411.5,60450.0,239601.56,304057.28,309405.73,309940.57
+SIMO,Computer and Technology,Computer - Integrated Systems,0.55,210000.0,5. p99_trade_value,2.0,103,20__3,20,2,3.0,19746.0,21769.5,209361.6,254900.0,259490.0,259949.0,259994.9
+SNPS,Computer and Technology,Computer - Software,0.55,,,,3553,35__0,35,2,0.0,16772.0,26118.0,77996.0,258568.8,465040.8,471754.08,472425.41
+STX,Computer and Technology,Computer - Integrated Systems,0.55,419244.00000000006,1. p999999_trade_value,1.0,1756,30__2,30,2,2.0,18016.0,27455.0,86781.6,291850.0,414111.68,418730.77,419192.68
+TDC,Computer and Technology,Computer- Storage Devices,0.55,5780.0,8. p75_trade_value,47.0,141,20__0,20,2,0.0,7030.0,9821.0,17272.0,97050.8,108615.08,109771.51,109887.15
+VRNT,Computer and Technology,Computer - Software,0.55,,,,106,20__0,20,2,0.0,11835.0,18506.75,69440.25,115213.0,119881.3,120348.13,120394.81
+WDC,Computer and Technology,Computer- Storage Devices,0.55,980000.0,1. p999999_trade_value,1.0,4074,35__1,35,2,1.0,17845.2,27600.0,77953.14,418940.77,894263.35,971426.34,979142.63

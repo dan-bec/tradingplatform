@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-FSLR,Oils-Energy,Solar,0.75,,,,32765,45__3,45,3.0,17488.0,29440.0,119037.8,1008005.2,3685833.36,4400000.0,4400000.0

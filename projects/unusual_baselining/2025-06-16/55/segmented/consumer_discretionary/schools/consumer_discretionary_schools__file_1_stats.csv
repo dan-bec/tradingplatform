@@ -1,0 +1,13 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AFYA,Consumer Discretionary,Schools,0.55,,,,1,0__2,0,3,2.0,3700.0,3700.0,3700.0,3700.0,3700.0,3700.0,3700.0
+ATGE,Consumer Discretionary,Schools,0.55,,,,103,20__1,20,2,1.0,24200.0,76620.0,438645.0,511628.04,518694.8,519401.48,519472.15
+EDU,Consumer Discretionary,Schools,0.55,,,,316,25__0,25,2,0.0,14845.0,23578.75,64856.0,98333.34,105920.93,106679.69,106755.57
+GOTU,Consumer Discretionary,Schools,0.55,7275.0,6. p95_trade_value,2.0,30,15__0,15,3,0.0,6297.5,7230.0,9245.25,9969.53,10041.95,10049.2,10049.92
+KLC,Consumer Discretionary,Schools,0.55,,,,1,0__2,0,3,2.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0,4000.0
+LINC,Consumer Discretionary,Schools,0.55,,,,4,5__0,5,3,0.0,6265.0,6707.5,7061.5,7141.15,7149.12,7149.91,7149.99
+LOPE,Consumer Discretionary,Schools,0.55,,,,14,10__0,10,3,0.0,8745.0,33357.5,68431.5,76323.15,77112.31,77191.23,77199.12
+LRN,Consumer Discretionary,Schools,0.55,8265.0,8. p75_trade_value,166.0,664,30__2,30,2,2.0,15458.0,23691.0,59468.5,270597.75,381434.78,392518.48,393626.85
+NRDY,Consumer Discretionary,Schools,0.55,,,,1,0__2,0,3,2.0,4890.0,4890.0,4890.0,4890.0,4890.0,4890.0,4890.0
+STRA,Consumer Discretionary,Schools,0.55,17000.0,1. p999999_trade_value,1.0,6,10__0,10,3,0.0,12700.0,14850.0,16570.0,16957.0,16995.7,16999.57,16999.96
+TAL,Consumer Discretionary,Schools,0.55,,,,210,25__0,25,2,0.0,11107.5,17880.3,33750.0,469776.0,532977.6,539297.76,539929.78
+UTI,Consumer Discretionary,Schools,0.55,38592.0,7. p90_trade_value,2.0,13,10__0,10,3,0.0,38373.6,43637.2,49691.44,51053.64,51189.86,51203.49,51204.85

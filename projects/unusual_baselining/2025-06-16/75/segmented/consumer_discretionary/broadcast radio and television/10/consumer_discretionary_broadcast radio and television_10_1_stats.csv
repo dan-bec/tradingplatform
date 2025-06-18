@@ -1,3 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AMCX,Consumer Discretionary,Broadcast Radio and Television,0.75,5160.0,8. p75_trade_value,2.0,7,10__0,10,0.0,5996.0,6623.0,7124.6,7237.46,7248.75,7249.87,7249.99
-TGNA,Consumer Discretionary,Broadcast Radio and Television,0.75,,,,6,10__0,10,0.0,5941.0,6826.5,7534.9,7694.29,7710.23,7711.82,7711.98

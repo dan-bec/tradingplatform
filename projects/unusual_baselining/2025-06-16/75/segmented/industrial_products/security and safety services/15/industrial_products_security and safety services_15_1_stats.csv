@@ -1,3 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-DMRC,Industrial Products,Security and Safety Services,0.75,,,,40,15__0,15,0.0,8190.0,9604.0,14982.0,17158.2,17375.82,17397.58,17399.76
-NSSC,Industrial Products,Security and Safety Services,0.75,,,,40,15__0,15,0.0,10050.0,10985.5,43422.0,61042.2,62804.22,62980.42,62998.04

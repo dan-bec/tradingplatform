@@ -1,5 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-REAL,Consumer Discretionary,Consumer Products - Discretionary,20__0,20,0.0,1. p999999_trade_value,29984.999999999996,29984.999999999996,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-REAL,Consumer Discretionary,Consumer Products - Discretionary,20__0,20,0.0,6. p95_trade_value,21240.0,16500.0,3.0,4.0,0.75,0.75,1. ABOVE BASELINE,4.0,5.0,0.8
-REAL,Consumer Discretionary,Consumer Products - Discretionary,20__0,20,0.0,7. p90_trade_value,16354.000000000002,13560.0,2.0,4.0,0.5,0.75,2. BELOW BASELINE,6.0,9.0,0.6666666666666666
-REAL,Consumer Discretionary,Consumer Products - Discretionary,20__0,20,0.0,8. p75_trade_value,12110.0,9600.0,9.0,12.0,0.75,0.75,2. BELOW BASELINE,15.0,21.0,0.7142857142857143

@@ -1,0 +1,12 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+BYD,Consumer Discretionary,Gaming,0.55,9800.0,8. p75_trade_value,29.0,114,20__3,20,2,3.0,21881.5,50564.7,262200.0,277088.9,277901.69,277982.97,277991.1
+DKNG,Consumer Discretionary,Gaming,0.55,,,,8681,40__0,40,2,0.0,15561.0,24600.0,89424.0,374108.48,714650.23,731388.22,733062.02
+EA,Consumer Discretionary,Gaming,0.55,580000.0,4. p999_trade_value,3.0,2156,35__1,35,2,1.0,16884.0,31625.0,141125.0,559850.0,1019163.75,1067166.38,1071966.64
+FLUT,Consumer Discretionary,Gaming,0.55,,,,2104,35__0,35,2,0.0,13968.0,25172.7,79726.6,345932.32,446658.55,451609.86,452104.99
+LVS,Consumer Discretionary,Gaming,0.55,604800.0,1. p999999_trade_value,1.0,2236,35__0,35,2,0.0,15580.5,24897.0,131315.8,342500.0,547668.93,599086.89,604228.69
+MGM,Consumer Discretionary,Gaming,0.55,525000.0,4. p999_trade_value,2.0,1328,30__2,30,2,2.0,12600.0,19336.5,51377.51,507518.58,590047.5,599004.75,599900.48
+MLCO,Consumer Discretionary,Gaming,0.55,11550.0,8. p75_trade_value,16.0,64,20__3,20,2,3.0,28353.0,53970.0,148201.9,290445.19,304669.52,306091.95,306234.2
+PENN,Consumer Discretionary,Gaming,0.55,174200.0,5. p99_trade_value,10.0,958,30__2,30,2,2.0,15000.0,29543.55,170108.54,305295.0,361279.5,366877.95,367437.8
+RBLX,Consumer Discretionary,Gaming,0.55,8117.999999999999,8. p75_trade_value,2454.0,9814,40__0,40,2,0.0,15014.1,24255.0,77521.32,370309.0,772261.71,775176.17,775467.62
+TTWO,Consumer Discretionary,Gaming,0.55,315000.0,4. p999_trade_value,4.0,3767,35__0,35,2,0.0,15270.0,25071.0,110000.0,291889.78,543631.89,585731.29,589941.23
+WYNN,Consumer Discretionary,Gaming,0.55,,,,4077,35__1,35,2,1.0,17362.4,29000.0,86800.0,332632.0,891986.0,989198.6,998919.86

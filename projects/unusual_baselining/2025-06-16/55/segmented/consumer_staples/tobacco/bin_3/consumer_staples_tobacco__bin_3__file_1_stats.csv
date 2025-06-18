@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+TPB,Consumer Staples,Tobacco,0.55,19610.000000000004,8. p75_trade_value,9.0,36,15__0,15,3,0.0,31100.0,41260.0,77912.75,90208.78,91438.38,91561.34,91573.63
+UVV,Consumer Staples,Tobacco,0.55,,,,12,10__0,10,3,0.0,9910.5,10491.75,11026.35,11146.64,11158.66,11159.87,11159.99
+XXII,Consumer Staples,Tobacco,0.55,,,,1,0__2,0,3,2.0,3500.0,3500.0,3500.0,3500.0,3500.0,3500.0,3500.0

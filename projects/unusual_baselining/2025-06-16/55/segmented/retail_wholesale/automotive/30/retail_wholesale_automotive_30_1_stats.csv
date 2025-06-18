@@ -1,4 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AAP,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,0.55,,,,1663,30__2,30,2.0,14290.6,24192.4,67657.08,238815.14,308854.32,321135.43,322363.54
-KMX,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,0.55,645000.0,4. p999_trade_value,2.0,1170,30__0,30,0.0,14967.6,24252.75,50337.9,606975.0,1002655.5,1045265.55,1049526.55
-ORLY,Retail-Wholesale,Automotive - Retail and Wholesale - Parts,0.55,,,,1166,30__2,30,2.0,16912.5,27212.5,62073.2,206436.75,219187.48,219387.75,219407.77

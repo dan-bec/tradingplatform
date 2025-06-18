@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CEP,Unclassified,Unclassified,0.75,,,,1073,30__2,30,2.0,18448.0,29940.0,55759.2,86088.0,86544.62,86576.46,86579.65

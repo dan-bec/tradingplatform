@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+IPGP,Computer and Technology,Lasers Systems and Components,0.55,,,,4,5__0,5,3,0.0,4109.0,4224.5,4316.9,4337.69,4339.77,4339.98,4340.0

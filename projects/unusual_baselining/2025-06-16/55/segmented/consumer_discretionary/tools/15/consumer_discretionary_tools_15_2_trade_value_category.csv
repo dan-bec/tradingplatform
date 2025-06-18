@@ -1,5 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-TTC,Consumer Discretionary,Tools - Handheld,15__0,15,0.0,1. p999999_trade_value,67200.0,67200.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-TTC,Consumer Discretionary,Tools - Handheld,15__0,15,0.0,6. p95_trade_value,28900.0,26400.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
-TTC,Consumer Discretionary,Tools - Handheld,15__0,15,0.0,7. p90_trade_value,21930.0,17766.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,6.0,0.0
-TTC,Consumer Discretionary,Tools - Handheld,15__0,15,0.0,8. p75_trade_value,14916.0,9000.0,5.0,8.0,0.625,0.55,2. BELOW BASELINE,5.0,14.0,0.35714285714285715

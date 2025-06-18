@@ -1,5 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-MHK,Consumer Discretionary,Textile - Home Furnishing,0.75,,,,158,20__0,20,0.0,10993.5,21124.95,105335.5,202503.25,209250.32,209925.03,209992.5
-OXM,Consumer Discretionary,Textile - Apparel,0.75,25740.000000000004,6. p95_trade_value,5.0,83,20__0,20,0.0,15240.0,25718.0,45346.4,50866.64,51418.66,51473.87,51479.39
-RVLV,Consumer Discretionary,Textile - Apparel,0.75,,,,86,20__0,20,0.0,13500.0,17232.5,48475.0,53447.5,53944.75,53994.48,53999.45
-UAA,Consumer Discretionary,Textile - Apparel,0.75,60952.0,6. p95_trade_value,3.0,59,20__1,20,1.0,31120.0,51095.2,210721.0,255117.1,259556.71,260000.67,260045.07

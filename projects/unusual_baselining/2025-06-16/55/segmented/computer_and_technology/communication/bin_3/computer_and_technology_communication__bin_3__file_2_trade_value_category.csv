@@ -1,0 +1,16 @@
+security,sector,industry,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+AIRG,Computer and Technology,Communication - Components,0__0,0,3,0.0,1. p999999_trade_value,8680.000000000002,8680.000000000002,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ATEN,Computer and Technology,Communication - Network Software,0__2,0,3,2.0,1. p999999_trade_value,7227.0,7227.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ATEX,Computer and Technology,Communication - Infrastructure,0__2,0,3,2.0,1. p999999_trade_value,6250.0,6250.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ATUS,Computer and Technology,Communication - Components,5__0,5,3,0.0,1. p999999_trade_value,4325.0,4325.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+BAND,Computer and Technology,Communication - Infrastructure,15__0,15,3,0.0,1. p999999_trade_value,16060.000000000002,16060.000000000002,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BAND,Computer and Technology,Communication - Infrastructure,15__0,15,3,0.0,7. p90_trade_value,5600.0,5600.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+BAND,Computer and Technology,Communication - Infrastructure,15__0,15,3,0.0,8. p75_trade_value,5200.0,5200.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,5.0,0.0
+HLIT,Computer and Technology,Communication - Components,10__0,10,3,0.0,1. p999999_trade_value,45000.0,45000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+HLIT,Computer and Technology,Communication - Components,10__0,10,3,0.0,8. p75_trade_value,6600.0,6600.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+KN,Computer and Technology,Communication - Components,0__2,0,3,2.0,1. p999999_trade_value,7500.0,7500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+OOMA,Computer and Technology,Communication - Components,5__0,5,3,0.0,1. p999999_trade_value,4500.0,4500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+VIAV,Computer and Technology,Communication - Components,15__0,15,3,0.0,1. p999999_trade_value,52947.0,52947.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+VIAV,Computer and Technology,Communication - Components,15__0,15,3,0.0,6. p95_trade_value,11850.0,11850.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+VIAV,Computer and Technology,Communication - Components,15__0,15,3,0.0,7. p90_trade_value,10825.0,10825.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+VIAV,Computer and Technology,Communication - Components,15__0,15,3,0.0,8. p75_trade_value,9600.0,7105.0,4.0,4.0,1.0,0.55,2. BELOW BASELINE,5.0,7.0,0.7142857142857143

@@ -46,29 +46,42 @@ con = duckdb.connect(full_db_path)
 # Pre-aggregate results based on binning
 con.execute(f"""
     CREATE OR REPLACE TABLE {prep_schema}.security_percentiles AS
-    /* Determining Interquartile Range https://en.wikipedia.org/wiki/Interquartile_range */
-    SELECT ftd.security
-        , ftd.sector
-        , ftd.industry
-        , min(ftd.expiration - ftd.data_date) AS min_dte
-        , max(ftd.expiration - ftd.data_date)  max_dte
-        , count(*) as qualifying_trades
-        , ntile({number_of_bins}) OVER (ORDER BY count(*) desc) as qualifying_trades_bin
-        , MIN(trade_value) AS p0_trade_value
-        , ROUND(PERCENTILE_CONT(0.25) WITHIN GROUP (ORDER BY trade_value),2)  AS p25_trade_value
-        , ROUND(PERCENTILE_CONT(0.75) WITHIN GROUP (ORDER BY trade_value),2)  AS p75_trade_value
-        , p75_trade_value - p25_trade_value AS iqr
-        , p75_trade_value + (1.5 * iqr) AS trad_iqr_trade_value
-        , ROUND(PERCENTILE_CONT(0.90) WITHIN GROUP (ORDER BY trade_value),2)  AS p90_trade_value
-        , ROUND(PERCENTILE_CONT(0.95) WITHIN GROUP (ORDER BY trade_value),2)  AS p95_trade_value
-        , ROUND(PERCENTILE_CONT(0.99) WITHIN GROUP (ORDER BY trade_value),2)  AS p99_trade_value
-        , ROUND(PERCENTILE_CONT(0.999) WITHIN GROUP (ORDER BY trade_value),2)  AS p999_trade_value
-        , ROUND(PERCENTILE_CONT(0.9999) WITHIN GROUP (ORDER BY trade_value),2)  AS p9999_trade_value
-        , ROUND(PERCENTILE_CONT(0.99999) WITHIN GROUP (ORDER BY trade_value),2)  AS p99999_trade_value
-        , ROUND(PERCENTILE_CONT(0.999999) WITHIN GROUP (ORDER BY trade_value),2)  AS p999999_trade_value
-    FROM {prep_schema}.filtered_short_term_otm_options_trades ftd
-    GROUP BY ftd.security, ftd.sector, ftd.industry
-    ORDER BY ftd.security, ftd.sector, ftd.industry
+
+    WITH _trades_prep AS (
+        SELECT ftd.security
+            , ftd.sector
+            , ftd.industry
+            , min(ftd.expiration - ftd.data_date) AS min_dte
+            , max(ftd.expiration - ftd.data_date)  max_dte
+            , count(*) as qualifying_trades
+            , ((ROUND(log10(qualifying_trades) * 2) / 2) * 10)::int as trade_volume_bin
+            , MIN(trade_value) AS p0_trade_value
+            , ROUND(PERCENTILE_CONT(0.25) WITHIN GROUP (ORDER BY trade_value),2)  AS p25_trade_value
+            , ROUND(PERCENTILE_CONT(0.75) WITHIN GROUP (ORDER BY trade_value),2)  AS p75_trade_value
+            , p75_trade_value - p25_trade_value AS iqr
+            , p75_trade_value + (1.5 * iqr) AS trad_iqr_trade_value
+            , ROUND(PERCENTILE_CONT(0.90) WITHIN GROUP (ORDER BY trade_value),2)  AS p90_trade_value
+            , ROUND(PERCENTILE_CONT(0.95) WITHIN GROUP (ORDER BY trade_value),2)  AS p95_trade_value
+            , ROUND(PERCENTILE_CONT(0.99) WITHIN GROUP (ORDER BY trade_value),2)  AS p99_trade_value
+            , ROUND(PERCENTILE_CONT(0.999) WITHIN GROUP (ORDER BY trade_value),2)  AS p999_trade_value
+            , ROUND(PERCENTILE_CONT(0.9999) WITHIN GROUP (ORDER BY trade_value),2)  AS p9999_trade_value
+            , ROUND(PERCENTILE_CONT(0.99999) WITHIN GROUP (ORDER BY trade_value),2)  AS p99999_trade_value
+            , ROUND(PERCENTILE_CONT(0.999999) WITHIN GROUP (ORDER BY trade_value),2)  AS p999999_trade_value
+        FROM {prep_schema}.filtered_short_term_otm_options_trades ftd
+        GROUP BY ftd.security, ftd.sector, ftd.industry
+    )
+    , _bin_prep AS (
+    SELECT  trade_volume_bin
+            , ntile({number_of_bins}) OVER (ORDER BY trade_volume_bin desc) as trade_volume_bin_rank
+    FROM _trades_prep
+    group by trade_volume_bin
+    )
+
+    select bp.trade_volume_bin_rank
+    , tp.*
+    from _trades_prep tp
+    join _bin_prep bp on bp.trade_volume_bin = tp.trade_volume_bin
+    ORDER BY tp.security
 """)
 print(f"Created and Loaded {prep_schema}.security_percentiles db table")
 print(f"!!!ROWS IN {prep_schema}.security_percentiles!!!:", con.execute(f"SELECT COUNT(*) FROM {prep_schema}.security_percentiles").fetchone()[0]) # type: ignore
@@ -88,22 +101,22 @@ print(f"Security percentiles data written to {perc_output}")
 security_percentiles_df = con.execute(f"SELECT * FROM {prep_schema}.security_percentiles").fetchdf()
 
 # Define percentile columns to use for clustering
-percentile_columns = ['p90_trade_value', 'p95_trade_value', 'p99_trade_value', 'p999_trade_value', 'p9999_trade_value', 'p99999_trade_value', 'p999999_trade_value']
+percentile_columns = ['p95_trade_value', 'p99_trade_value', 'p999_trade_value', 'p9999_trade_value', 'p99999_trade_value', 'p999999_trade_value']
 
 # Create security_features from pre-calculated percentiles
-security_features = security_percentiles_df[['security', 'sector', 'industry', 'qualifying_trades'] + percentile_columns].copy()
+security_features = security_percentiles_df[['security', 'sector', 'industry', 'qualifying_trades', 'trade_volume_bin', 'trade_volume_bin_rank'] + percentile_columns].copy()
 security_features.rename(columns={'qualifying_trades': 'num_trades'}, inplace=True)
 
 # Handle missing values (though unlikely with PERCENTILE_CONT)
 security_features.fillna(0, inplace=True)
 
-# Step 1: Bin stocks by N.5 part of round(log10(num_trades))
+# Bin stocks by N.5 part of round(log10(num_trades))
 # Calculate log10 of num_trades
-log_num_trades = np.log10(security_features['num_trades'].astype(float))
-rounded_log = np.round(log_num_trades * 2) / 2
-security_features['trade_volume_bin'] = (rounded_log * 10).astype(int)
+# log_num_trades = np.log10(security_features['num_trades'].astype(float))
+# rounded_log = np.round(log_num_trades * 2) / 2
+# security_features['trade_volume_bin'] = (rounded_log * 10).astype(int)
 
-# Step 2: Apply KMeans clustering within each log-based bin with dynamic k using KneeLocator
+# Apply KMeans clustering within each log-based bin with dynamic k using KneeLocator
 scaler = StandardScaler()
 inertias_dict = {}
 silhouette_scores_dict = {}
@@ -178,9 +191,6 @@ bin_to_rank = {bin_val: rank for rank, bin_val in enumerate(sorted_bins, start=1
 
 # Create final_cluster using the ranked trade_volume_bin_rank
 security_features['final_cluster'] = security_features['trade_volume_bin'].astype(str) + '__' + security_features['cluster'].astype(int).astype(str)
-
-# Update trade_volume_bin to hold the ranks
-security_features['trade_volume_bin_rank'] = security_features['trade_volume_bin'].map(bin_to_rank)
 
 # Plot and save cluster visualization without log scales
 plt.figure(figsize=(10, 6))

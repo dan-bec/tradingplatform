@@ -1,8 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-NKE,Consumer Discretionary,Shoes and Retail Apparel ,45__0,45,0.0,1. p999999_trade_value,1749924.0000000002,1749924.0000000002,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-NKE,Consumer Discretionary,Shoes and Retail Apparel ,45__0,45,0.0,3. p9999_trade_value,1737644.9999999998,1616340.0,0.0,2.0,0.0,0.75,2. BELOW BASELINE,0.0,3.0,0.0
-NKE,Consumer Discretionary,Shoes and Retail Apparel ,45__0,45,0.0,4. p999_trade_value,1530000.0,450532.0,10.0,21.0,0.47619047619047616,0.75,2. BELOW BASELINE,10.0,24.0,0.4166666666666667
-NKE,Consumer Discretionary,Shoes and Retail Apparel ,45__0,45,0.0,5. p99_trade_value,438000.0,78186.0,79.0,209.0,0.37799043062200954,0.75,2. BELOW BASELINE,89.0,233.0,0.38197424892703863
-NKE,Consumer Discretionary,Shoes and Retail Apparel ,45__0,45,0.0,6. p95_trade_value,77910.0,26800.0,391.0,933.0,0.4190782422293676,0.75,2. BELOW BASELINE,480.0,1166.0,0.411663807890223
-NKE,Consumer Discretionary,Shoes and Retail Apparel ,45__0,45,0.0,7. p90_trade_value,26784.000000000004,16470.0,469.0,1164.0,0.4029209621993127,0.75,2. BELOW BASELINE,949.0,2330.0,0.4072961373390558
-NKE,Consumer Discretionary,Shoes and Retail Apparel ,45__0,45,0.0,8. p75_trade_value,16468.0,8550.0,1512.0,3494.0,0.4327418431597023,0.75,2. BELOW BASELINE,2461.0,5824.0,0.4225618131868132

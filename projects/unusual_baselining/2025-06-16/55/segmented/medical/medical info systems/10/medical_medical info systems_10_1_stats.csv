@@ -1,5 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AZTA,Medical,Medical Info Systems,0.55,12665.0,8. p75_trade_value,2.0,8,10__3,10,3.0,86865.5,173432.75,242686.55,258268.66,259826.87,259982.69,259998.27
-HNGE,Medical,Medical Info Systems,0.55,4680.0,8. p75_trade_value,2.0,6,10__0,10,0.0,5027.5,5201.25,5340.25,5371.53,5374.65,5374.97,5375.0
-PHR,Medical,Medical Info Systems,0.55,,,,9,10__0,10,0.0,62800.0,66400.0,69280.0,69928.0,69992.8,69999.28,69999.93
-TALK,Medical,Medical Info Systems,0.55,4750.0,8. p75_trade_value,3.0,11,10__0,10,0.0,5000.0,5500.0,5900.0,5990.0,5999.0,5999.9,5999.99

@@ -1,3 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-PL,Computer and Technology,Satellite and Communication,0.55,,,,333,25__0,25,0.0,9838.0,13365.0,25678.8,47446.16,50320.62,50608.06,50636.81
-SATS,Computer and Technology,Satellite and Communication,0.55,699525.0,1. p999999_trade_value,1.0,535,25__0,25,0.0,15180.0,34231.4,238077.6,520888.65,681661.36,697738.64,699346.36

@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-TKO,Consumer Discretionary,Film and Television Production and Distribution,0.75,962808.0,4. p999_trade_value,3.0,2011,35__1,35,1.0,14400.0,30262.0,206084.0,962139.92,1592321.08,1689232.11,1698923.21

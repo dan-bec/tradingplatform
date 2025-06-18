@@ -1,8 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-CELH,Consumer Staples,Food - Miscellaneous,40__0,40,0.0,1. p999999_trade_value,900000.0,900000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-CELH,Consumer Staples,Food - Miscellaneous,40__0,40,0.0,3. p9999_trade_value,548000.0,548000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
-CELH,Consumer Staples,Food - Miscellaneous,40__0,40,0.0,4. p999_trade_value,507600.0,272000.0,6.0,10.0,0.6,0.55,2. BELOW BASELINE,7.0,12.0,0.5833333333333334
-CELH,Consumer Staples,Food - Miscellaneous,40__0,40,0.0,5. p99_trade_value,270522.0,59314.0,50.0,102.0,0.49019607843137253,0.55,2. BELOW BASELINE,57.0,114.0,0.5
-CELH,Consumer Staples,Food - Miscellaneous,40__0,40,0.0,6. p95_trade_value,59262.0,22057.000000000004,275.0,452.0,0.6084070796460177,0.55,2. BELOW BASELINE,332.0,566.0,0.5865724381625441
-CELH,Consumer Staples,Food - Miscellaneous,40__0,40,0.0,7. p90_trade_value,22032.000000000004,14550.0,329.0,566.0,0.5812720848056537,0.55,2. BELOW BASELINE,661.0,1132.0,0.583922261484099
-CELH,Consumer Staples,Food - Miscellaneous,40__0,40,0.0,8. p75_trade_value,14532.0,8091.0,956.0,1696.0,0.5636792452830188,0.55,2. BELOW BASELINE,1617.0,2828.0,0.5717821782178217

@@ -1,0 +1,8 @@
+security,sector,industry,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+UNF,Industrial Products,Uniform and Related,10__0,10,3,0.0,1. p999999_trade_value,72000.0,72000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+UNF,Industrial Products,Uniform and Related,10__0,10,3,0.0,7. p90_trade_value,66000.0,66000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+UNF,Industrial Products,Uniform and Related,10__0,10,3,0.0,8. p75_trade_value,65000.0,6400.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+VSTS,Industrial Products,Uniform and Related,15__0,15,3,0.0,1. p999999_trade_value,42889.0,42889.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+VSTS,Industrial Products,Uniform and Related,15__0,15,3,0.0,6. p95_trade_value,23951.0,23951.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+VSTS,Industrial Products,Uniform and Related,15__0,15,3,0.0,7. p90_trade_value,15000.0,15000.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+VSTS,Industrial Products,Uniform and Related,15__0,15,3,0.0,8. p75_trade_value,12675.0,12000.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,3.0,6.0,0.5

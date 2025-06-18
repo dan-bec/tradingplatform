@@ -1,5 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-MVIS,Computer and Technology,Lasers Systems and Components,20__0,20,0.0,1. p999999_trade_value,25000.0,25000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-MVIS,Computer and Technology,Lasers Systems and Components,20__0,20,0.0,6. p95_trade_value,17676.0,10000.0,1.0,4.0,0.25,0.75,2. BELOW BASELINE,1.0,5.0,0.2
-MVIS,Computer and Technology,Lasers Systems and Components,20__0,20,0.0,7. p90_trade_value,9900.0,9320.0,0.0,4.0,0.0,0.75,2. BELOW BASELINE,1.0,9.0,0.1111111111111111
-MVIS,Computer and Technology,Lasers Systems and Components,20__0,20,0.0,8. p75_trade_value,9000.0,6510.000000000001,1.0,12.0,0.08333333333333333,0.75,2. BELOW BASELINE,2.0,21.0,0.09523809523809523

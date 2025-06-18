@@ -1,4 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CAL,Consumer Discretionary,Shoes and Retail Apparel ,0.55,29160.000000000004,1. p999999_trade_value,1.0,61,20__0,20,0.0,19900.0,22000.0,26664.0,28910.4,29135.04,29157.5,29159.75
-CRI,Consumer Discretionary,Shoes and Retail Apparel ,0.55,74759.99999999999,7. p90_trade_value,14.0,139,20__2,20,2.0,71329.6,167750.0,655085.2,761828.04,763494.8,763661.48,763678.15
-WWW,Consumer Discretionary,Shoes and Retail Apparel ,0.55,9735.0,8. p75_trade_value,32.0,128,20__1,20,1.0,25800.0,79048.0,180484.8,286253.52,298625.35,299862.54,299986.25

@@ -1,5 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-HRB,Consumer Discretionary,Consumer Services - Miscellaneous,20__0,20,0.0,1. p999999_trade_value,19250.0,19250.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
-HRB,Consumer Discretionary,Consumer Services - Miscellaneous,20__0,20,0.0,6. p95_trade_value,17000.0,16770.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,3.0,4.0,0.75
-HRB,Consumer Discretionary,Consumer Services - Miscellaneous,20__0,20,0.0,7. p90_trade_value,13130.000000000002,9250.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,5.0,8.0,0.625
-HRB,Consumer Discretionary,Consumer Services - Miscellaneous,20__0,20,0.0,8. p75_trade_value,9240.0,7525.0,9.0,11.0,0.8181818181818182,0.55,2. BELOW BASELINE,14.0,19.0,0.7368421052631579

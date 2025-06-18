@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CTAS,Business Services,Business - Services,0.55,316260.0,1. p999999_trade_value,1.0,680,30__0,30,0.0,18736.0,30297.45,130738.4,305219.46,315155.95,316149.59,316248.96

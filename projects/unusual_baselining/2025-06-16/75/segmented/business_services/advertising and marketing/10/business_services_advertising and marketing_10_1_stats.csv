@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-GAMB,Business Services,Advertising and Marketing,0.75,11400.0,7. p90_trade_value,2.0,12,10__0,10,0.0,11052.0,14113.5,16766.7,17363.67,17423.37,17429.34,17429.93

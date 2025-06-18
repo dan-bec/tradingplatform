@@ -1,0 +1,9 @@
+security,sector,industry,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+IRDM,Computer and Technology,Satellite and Communication,15__0,15,3,0.0,1. p999999_trade_value,17464.999999999996,17464.999999999996,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+IRDM,Computer and Technology,Satellite and Communication,15__0,15,3,0.0,7. p90_trade_value,14000.0,14000.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+IRDM,Computer and Technology,Satellite and Communication,15__0,15,3,0.0,8. p75_trade_value,12500.0,10945.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,5.0,0.4
+SATL,Computer and Technology,Satellite and Communication,10__0,10,3,0.0,1. p999999_trade_value,6950.0,6950.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SATL,Computer and Technology,Satellite and Communication,10__0,10,3,0.0,8. p75_trade_value,4752.0,4752.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+TSAT,Computer and Technology,Satellite and Communication,15__0,15,3,0.0,1. p999999_trade_value,11000.000000000002,11000.000000000002,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+TSAT,Computer and Technology,Satellite and Communication,15__0,15,3,0.0,7. p90_trade_value,8000.0,8000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+TSAT,Computer and Technology,Satellite and Communication,15__0,15,3,0.0,8. p75_trade_value,6000.0,5115.0,0.0,4.0,0.0,0.55,2. BELOW BASELINE,2.0,7.0,0.2857142857142857

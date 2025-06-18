@@ -1,0 +1,8 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+BILI,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,3942,35__1,35,2,1.0,17289.0,27925.65,99799.94,362720.76,1058735.2,1175073.52,1186707.35
+FOXA,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,86,20__0,20,2,0.0,12902.5,22747.5,74097.0,108659.7,112115.97,112461.6,112496.16
+FUBO,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,1299,30__2,30,2,2.0,13393.6,20201.8,45220.0,128800.24,212696.83,223634.68,224728.47
+NMAX,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,475,25__0,25,2,0.0,12822.0,18931.5,55027.2,147519.9,149076.99,149232.7,149248.27
+ROKU,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,10675,40__0,40,2,0.0,14946.0,23934.4,86263.0,350506.77,700849.68,1112260.11,1156300.61
+SIRI,Consumer Discretionary,Broadcast Radio and Television,0.55,511658.0,1. p999999_trade_value,1.0,1380,30__2,30,2,2.0,15000.0,27000.0,91761.0,477452.0,507568.16,511249.02,511617.1
+WBD,Consumer Discretionary,Broadcast Radio and Television,0.55,,,,849,30__1,30,2,1.0,14975.4,25133.2,72519.0,1423284.0,2943578.4,3095607.84,3110810.78

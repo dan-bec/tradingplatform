@@ -1,0 +1,11 @@
+security,sector,industry,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CLW,Basic Materials,Paper and Related Products,20__0,20,2,0.0,1. p999999_trade_value,139750.0,139750.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CLW,Basic Materials,Paper and Related Products,20__0,20,2,0.0,5. p99_trade_value,134960.0,134960.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+CLW,Basic Materials,Paper and Related Products,20__0,20,2,0.0,6. p95_trade_value,77520.0,72000.0,0.0,5.0,0.0,0.55,2. BELOW BASELINE,0.0,7.0,0.0
+CLW,Basic Materials,Paper and Related Products,20__0,20,2,0.0,7. p90_trade_value,60000.0,50000.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,2.0,11.0,0.18181818181818182
+CLW,Basic Materials,Paper and Related Products,20__0,20,2,0.0,8. p75_trade_value,45000.0,12500.0,7.0,17.0,0.4117647058823529,0.55,2. BELOW BASELINE,9.0,28.0,0.32142857142857145
+IP,Basic Materials,Paper and Related Products,25__0,25,2,0.0,1. p999999_trade_value,448605.0,448605.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+IP,Basic Materials,Paper and Related Products,25__0,25,2,0.0,5. p99_trade_value,336260.0,129870.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,2.0,5.0,0.4
+IP,Basic Materials,Paper and Related Products,25__0,25,2,0.0,6. p95_trade_value,126000.0,36990.0,12.0,17.0,0.7058823529411765,0.55,2. BELOW BASELINE,14.0,22.0,0.6363636363636364
+IP,Basic Materials,Paper and Related Products,25__0,25,2,0.0,7. p90_trade_value,36000.0,25902.0,11.0,21.0,0.5238095238095238,0.55,2. BELOW BASELINE,25.0,43.0,0.5813953488372093
+IP,Basic Materials,Paper and Related Products,25__0,25,2,0.0,8. p75_trade_value,25870.0,10620.0,43.0,65.0,0.6615384615384615,0.55,2. BELOW BASELINE,68.0,108.0,0.6296296296296297

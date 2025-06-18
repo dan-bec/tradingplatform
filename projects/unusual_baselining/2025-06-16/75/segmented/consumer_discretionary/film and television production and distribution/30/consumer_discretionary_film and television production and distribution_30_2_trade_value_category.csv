@@ -1,7 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-LYV,Consumer Discretionary,Film and Television Production and Distribution,30__1,30,1.0,1. p999999_trade_value,1587870.0,1587870.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-LYV,Consumer Discretionary,Film and Television Production and Distribution,30__1,30,1.0,4. p999_trade_value,933120.0000000001,933120.0000000001,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,2.0,0.0
-LYV,Consumer Discretionary,Film and Television Production and Distribution,30__1,30,1.0,5. p99_trade_value,757080.0,93070.0,2.0,11.0,0.18181818181818182,0.75,2. BELOW BASELINE,2.0,13.0,0.15384615384615385
-LYV,Consumer Discretionary,Film and Television Production and Distribution,30__1,30,1.0,6. p95_trade_value,88750.0,28420.0,28.0,51.0,0.5490196078431373,0.75,2. BELOW BASELINE,30.0,64.0,0.46875
-LYV,Consumer Discretionary,Film and Television Production and Distribution,30__1,30,1.0,7. p90_trade_value,26560.000000000004,16200.0,50.0,63.0,0.7936507936507936,0.75,2. BELOW BASELINE,80.0,127.0,0.6299212598425197
-LYV,Consumer Discretionary,Film and Television Production and Distribution,30__1,30,1.0,8. p75_trade_value,16169.0,8815.0,118.0,190.0,0.6210526315789474,0.75,2. BELOW BASELINE,198.0,317.0,0.6246056782334385

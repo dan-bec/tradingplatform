@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-FDP,Consumer Staples,Agriculture - Operations,0.75,8800.0,7. p90_trade_value,2.0,19,15__0,15,0.0,8480.0,9765.0,16713.0,18276.3,18432.63,18448.26,18449.83

@@ -1,3 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-MERC,Basic Materials,Paper and Related Products,0.75,,,,3,5__1,5,1.0,38860.0,43155.0,46591.0,47364.1,47441.41,47449.14,47449.91
-SLVM,Basic Materials,Paper and Related Products,0.75,3510.0,8. p75_trade_value,2.0,5,5__3,5,3.0,16404.0,20702.0,24140.4,24914.04,24991.4,24999.14,24999.91

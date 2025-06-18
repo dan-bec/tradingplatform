@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-NFLX,Consumer Discretionary,Broadcast Radio and Television,0.75,,,,301488,55__0,55,0.0,17150.0,26891.5,68707.34,240471.82,732213.38,1857119.31,2931433.99

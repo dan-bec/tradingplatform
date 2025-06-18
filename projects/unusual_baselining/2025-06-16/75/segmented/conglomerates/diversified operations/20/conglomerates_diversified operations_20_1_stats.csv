@@ -1,5 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-IAC,Conglomerates,Diversified Operations,0.75,,,,99,20__0,20,0.0,9100.0,20010.0,34769.14,66483.21,69654.62,69971.76,70003.48
-IEP,Conglomerates,Diversified Operations,0.75,160000.0,1. p999999_trade_value,1.0,99,20__0,20,0.0,9561.6,12482.5,95104.4,153510.44,159351.04,159935.1,159993.51
-ITT,Conglomerates,Diversified Operations,0.75,448000.0,1. p999999_trade_value,1.0,140,20__2,20,2.0,69870.0,110000.0,213690.0,422424.0,445442.4,447744.24,447974.42
-MKL,Conglomerates,Diversified Operations,0.75,9000.0,7. p90_trade_value,15.0,131,20__0,20,0.0,9000.0,12435.5,37393.8,46539.3,47403.93,47490.39,47499.04

@@ -34,7 +34,7 @@ print(f"Start time: {start_time:.2f} seconds")
 # Connect to DuckDB
 con = duckdb.connect(full_db_path)
 
-# Pre-aggregate results based on binning
+# Pre-aggregate results based on trade_value_category
 con.execute(f"""
     CREATE OR REPLACE TABLE {prep_schema}.itm_percentages AS
     WITH _prep_data AS (

@@ -1,0 +1,11 @@
+security,sector,industry,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+BCO,Business Services,Outsourcing,15__0,15,3,0.0,1. p999999_trade_value,11340.0,11340.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BCO,Business Services,Outsourcing,15__0,15,3,0.0,6. p95_trade_value,9875.0,8819.999999999998,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+BCO,Business Services,Outsourcing,15__0,15,3,0.0,7. p90_trade_value,8240.0,7519.999999999999,2.0,2.0,1.0,0.55,2. BELOW BASELINE,3.0,5.0,0.6
+BCO,Business Services,Outsourcing,15__0,15,3,0.0,8. p75_trade_value,7000.0,5576.0,5.0,7.0,0.7142857142857143,0.55,2. BELOW BASELINE,8.0,12.0,0.6666666666666666
+CNDT,Business Services,Outsourcing,10__0,10,3,0.0,1. p999999_trade_value,12500.0,12500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CNDT,Business Services,Outsourcing,10__0,10,3,0.0,8. p75_trade_value,12475.0,12475.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+TNET,Business Services,Outsourcing,15__0,15,3,0.0,1. p999999_trade_value,53000.0,53000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+TNET,Business Services,Outsourcing,15__0,15,3,0.0,6. p95_trade_value,31000.0,12600.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+TNET,Business Services,Outsourcing,15__0,15,3,0.0,7. p90_trade_value,12599.999999999998,12319.999999999998,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,5.0,0.0
+TNET,Business Services,Outsourcing,15__0,15,3,0.0,8. p75_trade_value,12240.0,8820.0,0.0,7.0,0.0,0.55,2. BELOW BASELINE,0.0,12.0,0.0

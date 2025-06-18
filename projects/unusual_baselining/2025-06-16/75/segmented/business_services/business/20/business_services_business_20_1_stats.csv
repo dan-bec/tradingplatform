@@ -1,5 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CNXC,Business Services,Business - Services,0.75,,,,101,20__0,20,0.0,16850.0,21600.0,40320.0,50762.7,51806.97,51911.4,51921.84
-DNB,Business Services,Business - Information Services,0.75,79820.0,1. p999999_trade_value,1.0,66,20__0,20,0.0,20836.5,26719.0,60437.0,77881.7,79626.17,79800.62,79818.06
-VRSK,Business Services,Business - Information Services,0.75,,,,80,20__0,20,0.0,10192.6,14883.25,84920.0,84920.0,84920.0,84920.0,84920.0
-WNS,Business Services,Business - Services,0.75,86580.0,6. p95_trade_value,5.0,100,20__1,20,1.0,39478.1,75579.0,245650.4,440815.04,460331.5,462283.15,462478.32

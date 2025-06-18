@@ -1,4 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-BYON,Retail-Wholesale,Internet - Commerce,0.75,52500.0,5. p99_trade_value,5.0,402,25__0,25,0.0,10288.0,16161.0,52493.7,104950.0,122995.0,124799.5,124979.95
-FVRR,Retail-Wholesale,Internet - Commerce,0.75,136640.0,1. p999999_trade_value,1.0,267,25__0,25,0.0,12656.0,16971.5,39072.0,111134.59,134089.46,136384.95,136614.49
-GLBE,Retail-Wholesale,Internet - Commerce,0.75,,,,199,25__0,25,0.0,12360.0,14400.0,31000.2,356071.41,426229.64,433245.46,433947.05

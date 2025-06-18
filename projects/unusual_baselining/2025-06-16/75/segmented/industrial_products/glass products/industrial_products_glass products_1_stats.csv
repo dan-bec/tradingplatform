@@ -1,3 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-APOG,Industrial Products,Glass Products,0.75,,,,16,10__0,10,0.0,12690.0,13875.0,14775.0,14977.5,14997.75,14999.78,14999.98
-OI,Industrial Products,Glass Products,0.75,23199.999999999996,7. p90_trade_value,3.0,22,15__0,15,0.0,22880.0,25997.75,35115.45,37261.54,37476.15,37497.62,37499.76

@@ -1,0 +1,4 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+INTC,Computer and Technology,Semiconductor - General,0.55,826200.0,3. p9999_trade_value,4.0,38961,45__1,45,1,1.0,14500.0,22275.0,56700.0,178509.6,596644.8,1708020.0,1944702.0
+NVDA,Computer and Technology,Semiconductor - General,0.55,19800.0,7. p90_trade_value,176131.0,1759525,60__0,60,1,0.0,19800.0,31500.0,86713.8,396000.0,2248044.08,8150435.66,21972404.63
+TSM,Computer and Technology,Semiconductor - Circuit Foundry,0.55,,,,90358,50__1,50,1,1.0,18525.0,29947.25,91585.75,429286.0,1220862.94,2109278.62,2136927.86

@@ -1,0 +1,41 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+AAL,Transportation,Transportation - Airline,0.55,14850.0,7. p90_trade_value,410.0,4099,35__1,35,2,1.0,14842.8,23839.5,87527.72,816648.0,1012142.4,1127214.24,1138721.42
+AER,Transportation,Transportation - Equipment and Leasing,0.55,32130.0,6. p95_trade_value,12.0,239,25__0,25,2,0.0,14838.4,31900.5,210004.44,302505.0,313750.5,314875.05,314987.51
+ALGT,Transportation,Transportation - Airline,0.55,9625.0,8. p75_trade_value,16.0,63,20__0,20,2,0.0,21861.0,25956.0,35995.6,37457.56,37603.76,37618.38,37619.84
+ALK,Transportation,Transportation - Airline,0.55,,,,703,30__1,30,2,1.0,18531.0,38152.5,386346.4,1165234.0,1691523.4,1744152.34,1749415.23
+CAR,Transportation,Transportation - Services,0.55,552500.0,4. p999_trade_value,4.0,3521,35__0,35,2,0.0,14000.0,23680.0,70409.6,486200.0,998768.0,1059276.8,1065327.68
+CHRW,Transportation,Transportation - Services,0.55,229860.0,5. p99_trade_value,3.0,267,25__2,25,2,2.0,22491.0,35418.0,197586.0,670720.0,809572.0,823457.2,824845.72
+CP,Transportation,Transportation - Rail,0.55,,,,317,25__0,25,2,0.0,12214.0,33940.8,135082.56,586727.3,647610.23,653698.52,654307.35
+CPA,Transportation,Transportation - Airline,0.55,,,,65,20__0,20,2,0.0,11210.4,15266.0,30198.4,52915.84,55187.58,55414.76,55437.48
+CSX,Transportation,Transportation - Rail,0.55,,,,231,25__2,25,2,2.0,19600.0,60637.5,98548.8,346350.0,399135.0,404413.5,404941.35
+DAL,Transportation,Transportation - Airline,0.55,,,,6935,40__0,40,2,0.0,15274.8,24683.8,82842.36,701012.4,1488997.09,1813762.91,1846239.49
+FDX,Transportation,Transportation - Air Freight and Cargo,0.55,,,,16116,40__3,40,2,3.0,15000.0,22210.0,55327.5,275947.86,785284.58,1269027.8,1331102.78
+FRO,Transportation,Transportation - Shipping,0.55,,,,273,25__0,25,2,0.0,18747.0,41886.0,179883.2,210000.0,210000.0,210000.0,210000.0
+FWRD,Transportation,Transportation - Truck,0.55,,,,599,30__2,30,2,2.0,11130.0,19953.0,120000.0,332260.44,343681.04,344823.1,344937.31
+GXO,Transportation,Transportation - Air Freight and Cargo,0.55,,,,180,25__0,25,2,0.0,12219.0,19949.0,171088.85,180369.62,181386.96,181488.7,181498.87
+HRI,Transportation,Transportation - Equipment and Leasing,0.55,,,,80,20__0,20,2,0.0,19415.0,22172.5,26110.8,28585.08,28832.51,28857.25,28859.73
+HTZ,Transportation,Transportation - Services,0.55,,,,1038,30__0,30,2,0.0,17486.0,28950.7,97500.0,885012.78,1392965.0,1444296.5,1449429.65
+JBHT,Transportation,Transportation - Truck,0.55,175560.0,5. p99_trade_value,4.0,311,25__2,25,2,2.0,21315.0,71910.0,174654.0,501300.0,576630.0,584163.0,584916.3
+JBLU,Transportation,Transportation - Airline,0.55,,,,588,30__2,30,2,2.0,9908.2,12998.6,27617.72,61640.67,71990.07,73025.01,73128.5
+JOBY,Transportation,Transportation - Airline,0.55,171100.0,1. p999999_trade_value,1.0,563,30__2,30,2,2.0,12487.0,19795.0,34795.0,122711.8,166261.18,170616.12,171051.61
+KNX,Transportation,Transportation - Truck,0.55,,,,297,25__2,25,2,2.0,29688.0,72143.2,170298.4,311915.88,328191.59,329819.16,329981.92
+LUV,Transportation,Transportation - Airline,0.55,39975.0,6. p95_trade_value,92.0,1825,35__1,35,2,1.0,21780.0,39620.0,122194.56,398926.4,463108.2,469310.82,469931.08
+MATX,Transportation,Transportation - Services,0.55,544439.0,1. p999999_trade_value,1.0,72,20__1,20,2,1.0,43905.0,189779.25,537686.19,543763.72,544371.47,544432.25,544438.32
+NMM,Transportation,Transportation - Shipping,0.55,8560.0,8. p75_trade_value,42.0,168,20__0,20,2,0.0,11000.0,11958.0,29850.6,34791.25,34979.13,34997.91,34999.79
+NSC,Transportation,Transportation - Rail,0.55,363599.99999999994,1. p999999_trade_value,1.0,267,25__0,25,2,0.0,19228.0,38955.0,173622.4,341362.4,361376.24,363377.62,363577.76
+ODFL,Transportation,Transportation - Truck,0.55,400000.0,1. p999999_trade_value,1.0,496,25__0,25,2,0.0,17490.0,29277.5,93775.0,317830.0,391783.0,399178.3,399917.83
+OMEX,Transportation,Transportation - Shipping,0.55,40500.0,1. p999999_trade_value,1.0,153,20__0,20,2,0.0,10144.0,14096.0,31346.8,39259.68,40375.97,40487.6,40498.76
+PONY,Transportation,Transportation - Equipment and Leasing,0.55,,,,1260,30__2,30,2,2.0,15294.8,25840.7,60000.0,167050.0,204474.8,207647.48,207964.75
+SAIA,Transportation,Transportation - Truck,0.55,,,,677,30__0,30,2,0.0,20232.0,45060.0,176957.2,828748.8,1249274.88,1291327.49,1295532.75
+SBLK,Transportation,Transportation - Shipping,0.55,,,,114,20__0,20,2,0.0,11826.0,15626.5,28850.95,58571.06,61864.11,62193.41,62226.34
+SKYW,Transportation,Transportation - Airline,0.55,,,,68,20__0,20,2,0.0,16021.0,20412.0,26388.4,30898.84,31349.88,31394.99,31399.5
+STNG,Transportation,Transportation - Shipping,0.55,107084.99999999999,1. p999999_trade_value,1.0,417,25__0,25,2,0.0,17520.0,23650.0,48813.76,95817.64,105958.26,106972.33,107073.73
+TNK,Transportation,Transportation - Shipping,0.55,,,,103,20__0,20,2,0.0,14801.0,20900.0,53284.56,74186.64,76268.66,76476.87,76497.69
+TRMD,Transportation,Transportation - Shipping,0.55,31160.000000000004,6. p95_trade_value,4.0,65,20__0,20,2,0.0,21046.0,31018.0,62257.32,75469.03,76790.2,76922.32,76935.53
+UAL,Transportation,Transportation - Airline,0.55,,,,13954,40__0,40,2,0.0,16738.0,26339.6,81906.45,582919.0,1434420.3,2236887.65,2319887.76
+UNP,Transportation,Transportation - Rail,0.55,,,,1311,30__2,30,2,2.0,12730.0,18175.0,60105.6,377895.0,574206.0,594720.6,596772.06
+UPS,Transportation,Transportation - Air Freight and Cargo,0.55,60605.99999999999,5. p99_trade_value,70.0,6987,40__3,40,2,3.0,13153.2,20583.0,60084.84,255500.0,568569.33,847203.63,875067.06
+WAB,Transportation,Transportation - Equipment and Leasing,0.55,,,,73,20__3,20,2,3.0,61900.0,83280.0,242800.0,249280.0,249928.0,249992.8,249999.28
+XPO,Transportation,Transportation - Truck,0.55,325347.99999999994,4. p999_trade_value,2.0,1061,30__2,30,2,2.0,20000.0,30720.0,104256.0,324277.12,399178.99,407057.6,407845.46
+ZIM,Transportation,Transportation - Shipping,0.55,8748.0,8. p75_trade_value,806.0,3221,35__0,35,2,0.0,15750.0,22600.0,48750.0,220396.8,389456.05,416945.6,419694.56
+ZTO,Transportation,Transportation - Services,0.55,89370.0,1. p999999_trade_value,1.0,80,20__0,20,2,0.0,14483.0,29974.5,82473.3,88680.33,89301.03,89363.1,89369.31

@@ -1,6 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CEPU,Oils-Energy,Alternative Energy - Other,0.75,6000.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,5792.0,5896.0,5979.2,5997.92,5999.79,5999.98,6000.0
-CQP,Oils-Energy,Alternative Energy - Other,0.75,7000.0,1. p999999_trade_value,1.0,5,5__0,5,0.0,6200.0,6600.0,6920.0,6992.0,6999.2,6999.92,6999.99
-CRGY,Oils-Energy,Alternative Energy - Other,0.75,,,,4,5__3,5,3.0,19378.0,20854.0,22034.8,22300.48,22327.05,22329.7,22329.97
-RNW,Oils-Energy,Alternative Energy - Other,0.75,,,,2,5__3,5,3.0,22396.0,23448.0,24289.6,24478.96,24497.9,24499.79,24499.98
-WDS,Oils-Energy,Alternative Energy - Other,0.75,3750.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,3733.0,3741.5,3748.3,3749.83,3749.98,3750.0,3750.0

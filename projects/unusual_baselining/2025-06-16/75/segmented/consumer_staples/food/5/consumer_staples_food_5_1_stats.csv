@@ -1,3 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-HAIN,Consumer Staples,Food - Miscellaneous,0.75,4860.0,1. p999999_trade_value,1.0,2,5__0,5,0.0,4754.0,4807.0,4849.4,4858.94,4859.89,4859.99,4860.0
-JJSF,Consumer Staples,Food - Miscellaneous,0.75,55000.0,1. p999999_trade_value,1.0,4,5__1,5,1.0,39760.0,47380.0,53476.0,54847.6,54984.76,54998.48,54999.85

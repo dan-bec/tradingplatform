@@ -1,4 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ADM,Consumer Staples,Agriculture - Operations,0.75,,,,327,25__0,25,0.0,11580.0,16541.1,79134.92,363161.02,425116.1,431311.61,431931.16
-FMC,Consumer Staples,Agriculture - Operations,0.75,,,,196,25__0,25,0.0,13260.0,20488.75,49496.5,136537.5,155403.75,157290.38,157479.04
-SMG,Consumer Staples,Agriculture - Operations,0.75,,,,433,25__0,25,0.0,16194.0,34178.0,165060.4,187535.84,190113.58,190371.36,190397.14

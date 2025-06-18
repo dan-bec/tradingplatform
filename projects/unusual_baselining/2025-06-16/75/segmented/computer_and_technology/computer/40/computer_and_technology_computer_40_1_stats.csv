@@ -1,4 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-IBM,Computer and Technology,Computer - Integrated Systems,0.75,285417.0,4. p999_trade_value,15.0,14378,40__0,40,0.0,15755.4,24063.2,60689.2,282432.29,825047.87,898057.03,899085.7
-INTU,Computer and Technology,Computer - Software,0.75,,,,6769,40__0,40,0.0,16959.4,27615.0,82051.2,293280.0,784178.4,848592.84,855034.28
-IONQ,Computer and Technology,Computer - Integrated Systems,0.75,,,,17267,40__0,40,0.0,17294.0,27000.0,69736.0,233717.0,460000.0,486203.51,491125.15

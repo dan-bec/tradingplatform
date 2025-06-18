@@ -1,7 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-TXN,Computer and Technology,Semiconductor - General,40__0,40,0.0,1. p999999_trade_value,1149770.0,1149770.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-TXN,Computer and Technology,Semiconductor - General,40__0,40,0.0,4. p999_trade_value,1077499.9999999998,388500.0,7.0,7.0,1.0,0.75,1. ABOVE BASELINE,8.0,8.0,1.0
-TXN,Computer and Technology,Semiconductor - General,40__0,40,0.0,5. p99_trade_value,375000.0,56069.99999999999,34.0,68.0,0.5,0.75,2. BELOW BASELINE,42.0,76.0,0.5526315789473685
-TXN,Computer and Technology,Semiconductor - General,40__0,40,0.0,6. p95_trade_value,55610.0,21165.0,174.0,301.0,0.5780730897009967,0.75,2. BELOW BASELINE,216.0,377.0,0.5729442970822282
-TXN,Computer and Technology,Semiconductor - General,40__0,40,0.0,7. p90_trade_value,21120.0,13983.000000000002,190.0,376.0,0.5053191489361702,0.75,2. BELOW BASELINE,406.0,753.0,0.5391766268260292
-TXN,Computer and Technology,Semiconductor - General,40__0,40,0.0,8. p75_trade_value,13975.0,7950.0,654.0,1132.0,0.5777385159010601,0.75,2. BELOW BASELINE,1060.0,1885.0,0.5623342175066313

@@ -1,0 +1,23 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ACIW,Computer and Technology,Computer - Software,0.55,5216.0,1. p999999_trade_value,1.0,2,5__0,5,3,0.0,5044.4,5130.2,5198.84,5214.28,5215.83,5215.98,5216.0
+AGYS,Computer and Technology,Computer - Integrated Systems,0.55,,,,16,10__0,10,3,0.0,9000.0,17350.0,29230.0,31903.0,32170.3,32197.03,32199.7
+BLKB,Computer and Technology,Computer - Software,0.55,7600.0,1. p999999_trade_value,2.0,6,10__0,10,3,0.0,7600.0,7600.0,7600.0,7600.0,7600.0,7600.0,7600.0
+DSGX,Computer and Technology,Computer - Software,0.55,7103.999999999999,8. p75_trade_value,6.0,24,15__0,15,3,0.0,13777.5,24546.15,29156.9,29978.69,30060.87,30069.09,30069.91
+EXTR,Computer and Technology,Computer - Networking,0.55,78771.99999999999,1. p999999_trade_value,1.0,20,15__0,15,3,0.0,17292.8,48520.2,72721.64,78166.96,78711.5,78765.95,78771.39
+FARO,Computer and Technology,Computer - Integrated Systems,0.55,20000.0,1. p999999_trade_value,1.0,6,10__0,10,3,0.0,15000.0,17500.0,19500.0,19950.0,19995.0,19999.5,19999.95
+GIB,Computer and Technology,Computer - Services,0.55,,,,1,0__2,0,3,2.0,3420.0,3420.0,3420.0,3420.0,3420.0,3420.0,3420.0
+ICAD,Computer and Technology,Computer - Software,0.55,,,,1,0__2,0,3,2.0,3500.0,3500.0,3500.0,3500.0,3500.0,3500.0,3500.0
+IMMR,Computer and Technology,Computer - Peripheral Equipment,0.55,,,,9,10__0,10,3,0.0,9504.0,11502.0,13100.4,13460.04,13496.0,13499.6,13499.96
+LTRX,Computer and Technology,Computer - Networking,0.55,,,,2,5__0,5,3,0.0,4903.5,4919.25,4931.85,4934.68,4934.97,4935.0,4935.0
+MGIC,Computer and Technology,Computer - Software,0.55,,,,1,0__2,0,3,2.0,6250.0,6250.0,6250.0,6250.0,6250.0,6250.0,6250.0
+MITK,Computer and Technology,Computer - Optical Imaging,0.55,14954.999999999998,1. p999999_trade_value,1.0,11,10__0,10,3,0.0,7410.0,11182.5,14200.5,14879.55,14947.46,14954.25,14954.92
+OPRX,Computer and Technology,Computer - Software,0.55,7240.000000000001,8. p75_trade_value,2.0,6,10__0,10,3,0.0,7600.0,7780.0,7924.0,7956.4,7959.64,7959.96,7960.0
+OTEX,Computer and Technology,Computer - Software,0.55,22610.0,1. p999999_trade_value,1.0,9,10__0,10,3,0.0,22154.0,22382.0,22564.4,22605.44,22609.54,22609.95,22610.0
+PDFS,Computer and Technology,Computer - Services,0.55,10000.0,1. p999999_trade_value,1.0,2,5__0,5,3,0.0,9495.0,9747.5,9949.5,9994.95,9999.5,9999.95,9999.99
+PRGS,Computer and Technology,Computer - Software,0.55,,,,51,15__0,15,3,0.0,10000.0,22275.0,39300.0,39570.0,39597.0,39599.7,39599.97
+QMCO,Computer and Technology,Computer- Storage Devices,0.55,,,,13,10__0,10,3,0.0,15960.0,22880.0,30176.0,31817.6,31981.76,31998.18,31999.82
+SLP,Computer and Technology,Computer - Software,0.55,29000.0,1. p999999_trade_value,1.0,16,10__0,10,3,0.0,11580.0,16250.0,26450.0,28745.0,28974.5,28997.45,28999.74
+SPNS,Computer and Technology,Computer - Software,0.55,,,,2,5__0,5,3,0.0,3192.0,3196.0,3199.2,3199.92,3199.99,3200.0,3200.0
+SSNC,Computer and Technology,Computer - Software,0.55,17550.0,1. p999999_trade_value,1.0,52,15__0,15,3,0.0,11684.0,16403.15,17147.61,17509.76,17545.98,17549.6,17549.96
+TBCH,Computer and Technology,Computer - Peripheral Equipment,0.55,,,,33,15__0,15,3,0.0,20596.0,32656.0,38036.8,39047.68,39148.77,39158.88,39159.89
+VUZI,Computer and Technology,Computer - Peripheral Equipment,0.55,18600.0,6. p95_trade_value,2.0,35,15__0,15,3,0.0,11800.0,14956.5,59124.0,77912.4,79791.24,79979.12,79997.91

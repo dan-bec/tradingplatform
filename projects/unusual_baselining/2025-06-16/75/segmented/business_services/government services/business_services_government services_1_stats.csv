@@ -1,4 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-GEO,Business Services,Government Services,0.75,405000.00000000006,4. p999_trade_value,2.0,1879,35__2,35,2.0,18654.0,32598.0,116516.02,378660.0,1304917.6,1492191.76,1510919.18
-ICFI,Business Services,Government Services,0.75,,,,1,0__2,0,2.0,3765.0,3765.0,3765.0,3765.0,3765.0,3765.0,3765.0
-MMS,Business Services,Government Services,0.75,11160.0,8. p75_trade_value,10.0,40,15__1,15,1.0,99750.0,138255.0,464480.0,593648.0,606564.8,607856.48,607985.65

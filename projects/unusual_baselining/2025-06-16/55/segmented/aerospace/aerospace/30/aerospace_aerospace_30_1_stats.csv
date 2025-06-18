@@ -1,7 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AVAV,Aerospace,Aerospace - Defense Equipment,0.55,115500.0,1. p999999_trade_value,1.0,758,30__2,30,2.0,12288.0,17983.0,52150.0,109822.5,114932.25,115443.23,115494.32
-EH,Aerospace,Aerospace - Defense Equipment,0.55,92540.0,4. p999_trade_value,2.0,1370,30__2,30,2.0,16766.2,24546.0,42841.0,79235.71,169891.02,180933.1,182037.31
-GD,Aerospace,Aerospace - Defense,0.55,172040.0,1. p999999_trade_value,1.0,741,30__2,30,2.0,12950.0,23460.0,55030.0,167807.2,171616.72,171997.67,172035.77
-HWM,Aerospace,Aerospace - Defense,0.55,9240.0,8. p75_trade_value,251.0,1002,30__0,30,0.0,19190.4,28356.0,183397.5,400434.1,922466.3,974720.93,979946.39
-NOC,Aerospace,Aerospace - Defense,0.55,231040.0,1. p999999_trade_value,1.0,1150,30__2,30,2.0,12600.0,18830.25,74923.3,188602.0,226163.87,230552.39,230991.24
-TDG,Aerospace,Aerospace - Defense Equipment,0.55,,,,1527,30__2,30,2.0,19092.8,24705.9,57180.2,223981.04,245000.0,245000.0,245000.0

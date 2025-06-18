@@ -1,0 +1,5 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ARLP,Oils-Energy,Coal,0.55,,,,18,15__0,15,3,0.0,6355.5,7500.0,7500.0,7500.0,7500.0,7500.0,7500.0
+METC,Oils-Energy,Coal,0.55,,,,43,15__0,15,3,0.0,27715.0,29820.0,46664.8,51034.48,51471.45,51515.14,51519.51
+NRP,Oils-Energy,Coal,0.55,27000.0,8. p75_trade_value,3.0,12,10__0,10,3,0.0,29700.0,34428.0,38757.6,39731.76,39829.18,39838.92,39839.89
+SXC,Oils-Energy,Coal,0.55,,,,2,5__1,5,3,1.0,40132.0,42066.0,43613.2,43961.32,43996.13,43999.61,43999.96

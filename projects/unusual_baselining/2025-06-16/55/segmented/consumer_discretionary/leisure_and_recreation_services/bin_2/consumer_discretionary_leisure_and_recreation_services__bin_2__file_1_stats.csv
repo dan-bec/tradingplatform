@@ -1,0 +1,12 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ABNB,Consumer Discretionary,Leisure and Recreation Services,0.55,360580.0,4. p999_trade_value,10.0,9341,40__0,40,2,0.0,16800.0,27400.0,118458.0,359936.72,791555.3,1251405.53,1297390.55
+AMC,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,2193,35__0,35,2,0.0,9690.4,13410.0,25194.24,61588.54,83482.05,88664.21,89182.42
+CCL,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,4781,35__1,35,2,1.0,16074.0,25800.0,90360.0,462467.0,1040472.79,1068666.38,1071485.74
+CZR,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,1332,30__0,30,2,0.0,14425.3,23084.0,151725.0,665709.08,714676.0,719467.6,719946.76
+LTH,Consumer Discretionary,Leisure and Recreation Services,0.55,7425.0,8. p75_trade_value,15.0,58,20__0,20,2,0.0,12675.0,15000.0,24675.0,36217.5,37371.75,37487.18,37498.72
+MTN,Consumer Discretionary,Leisure and Recreation Services,0.55,26055.0,6. p95_trade_value,33.0,652,30__2,30,2,2.0,15000.0,25716.75,69738.9,320557.48,334923.75,336360.37,336504.04
+NCLH,Consumer Discretionary,Leisure and Recreation Services,0.55,7847.0,8. p75_trade_value,450.0,1797,35__0,35,2,0.0,14420.0,25614.8,101440.0,428060.0,459689.6,463568.96,463956.9
+PLNT,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,428,25__2,25,2,2.0,23051.0,58627.5,188432.7,349767.8,387170.18,390910.42,391284.44
+RCL,Consumer Discretionary,Leisure and Recreation Services,0.55,87500.0,5. p99_trade_value,57.0,5645,40__1,40,2,1.0,13974.0,22178.8,86907.76,658483.37,4104156.54,4451631.65,4486379.17
+TCOM,Consumer Discretionary,Leisure and Recreation Services,0.55,,,,783,30__2,30,2,2.0,11060.8,15934.0,35408.42,116897.4,169189.74,174418.97,174941.9
+VIK,Consumer Discretionary,Leisure and Recreation Services,0.55,320000.0,1. p999999_trade_value,1.0,83,20__3,20,2,3.0,49600.0,119549.2,205200.0,308520.0,318852.0,319885.2,319988.52

@@ -1,0 +1,12 @@
+security,sector,industry,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+QRVO,Computer and Technology,Semiconductors - Radio Frequency,25__2,25,2,2.0,1. p999999_trade_value,296800.0,296800.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+QRVO,Computer and Technology,Semiconductors - Radio Frequency,25__2,25,2,2.0,5. p99_trade_value,280000.0,280000.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+QRVO,Computer and Technology,Semiconductors - Radio Frequency,25__2,25,2,2.0,6. p95_trade_value,269500.0,52500.0,3.0,10.0,0.3,0.55,2. BELOW BASELINE,3.0,13.0,0.23076923076923078
+QRVO,Computer and Technology,Semiconductors - Radio Frequency,25__2,25,2,2.0,7. p90_trade_value,42400.0,23700.0,2.0,12.0,0.16666666666666666,0.55,2. BELOW BASELINE,5.0,25.0,0.2
+QRVO,Computer and Technology,Semiconductors - Radio Frequency,25__2,25,2,2.0,8. p75_trade_value,22020.0,8000.0,14.0,36.0,0.3888888888888889,0.55,2. BELOW BASELINE,19.0,61.0,0.3114754098360656
+SWKS,Computer and Technology,Semiconductors - Radio Frequency,30__2,30,2,2.0,1. p999999_trade_value,475000.0,475000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SWKS,Computer and Technology,Semiconductors - Radio Frequency,30__2,30,2,2.0,4. p999_trade_value,420000.0,420000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+SWKS,Computer and Technology,Semiconductors - Radio Frequency,30__2,30,2,2.0,5. p99_trade_value,292500.0,194260.0,10.0,10.0,1.0,0.55,1. ABOVE BASELINE,12.0,12.0,1.0
+SWKS,Computer and Technology,Semiconductors - Radio Frequency,30__2,30,2,2.0,6. p95_trade_value,145080.0,20960.000000000004,21.0,44.0,0.4772727272727273,0.55,2. BELOW BASELINE,33.0,56.0,0.5892857142857143
+SWKS,Computer and Technology,Semiconductors - Radio Frequency,30__2,30,2,2.0,7. p90_trade_value,20849.999999999996,13875.0,20.0,56.0,0.35714285714285715,0.55,2. BELOW BASELINE,53.0,112.0,0.4732142857142857
+SWKS,Computer and Technology,Semiconductors - Radio Frequency,30__2,30,2,2.0,8. p75_trade_value,13750.0,7392.0,96.0,168.0,0.5714285714285714,0.55,2. BELOW BASELINE,149.0,280.0,0.5321428571428571

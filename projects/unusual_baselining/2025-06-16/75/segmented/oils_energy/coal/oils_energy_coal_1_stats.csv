@@ -1,8 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-ARLP,Oils-Energy,Coal,0.75,,,,18,15__0,15,0.0,6355.5,7500.0,7500.0,7500.0,7500.0,7500.0,7500.0
-BTU,Oils-Energy,Coal,0.75,495000.0,1. p999999_trade_value,1.0,576,30__2,30,2.0,17673.0,29229.0,65480.0,302087.5,475708.75,493070.88,494807.09
-CNR,Oils-Energy,Coal,0.75,,,,64,20__0,20,0.0,24262.5,65297.0,104055.0,104905.5,104990.55,104999.06,104999.91
-HCC,Oils-Energy,Coal,0.75,169980.0,1. p999999_trade_value,1.0,62,20__0,20,0.0,17781.0,59330.0,111920.2,164174.02,169399.4,169921.94,169974.19
-METC,Oils-Energy,Coal,0.75,,,,43,15__0,15,0.0,27715.0,29820.0,46664.8,51034.48,51471.45,51515.14,51519.51
-NRP,Oils-Energy,Coal,0.75,27000.0,8. p75_trade_value,3.0,12,10__0,10,0.0,29700.0,34428.0,38757.6,39731.76,39829.18,39838.92,39839.89
-SXC,Oils-Energy,Coal,0.75,,,,2,5__1,5,1.0,40132.0,42066.0,43613.2,43961.32,43996.13,43999.61,43999.96

@@ -1,9 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-ASTL,Basic Materials,Steel - Producers,15__0,15,0.0,1. p999999_trade_value,241500.0,241500.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-ASTL,Basic Materials,Steel - Producers,15__0,15,0.0,6. p95_trade_value,57960.0,57960.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,1.0,2.0,0.5
-ASTL,Basic Materials,Steel - Producers,15__0,15,0.0,7. p90_trade_value,50000.0,50000.0,1.0,1.0,1.0,0.75,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
-ASTL,Basic Materials,Steel - Producers,15__0,15,0.0,8. p75_trade_value,19320.0,9585.0,1.0,3.0,0.3333333333333333,0.75,2. BELOW BASELINE,3.0,6.0,0.5
-CMC,Basic Materials,Steel - Producers,15__0,15,0.0,1. p999999_trade_value,112500.0,112500.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,0.0,1.0,0.0
-CMC,Basic Materials,Steel - Producers,15__0,15,0.0,6. p95_trade_value,99360.0,76200.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
-CMC,Basic Materials,Steel - Producers,15__0,15,0.0,7. p90_trade_value,75000.0,25725.0,1.0,2.0,0.5,0.75,2. BELOW BASELINE,2.0,5.0,0.4
-CMC,Basic Materials,Steel - Producers,15__0,15,0.0,8. p75_trade_value,15376.0,9200.0,4.0,7.0,0.5714285714285714,0.75,2. BELOW BASELINE,6.0,12.0,0.5

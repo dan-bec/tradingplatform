@@ -1,7 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-TKO,Consumer Discretionary,Film and Television Production and Distribution,35__1,35,1.0,1. p999999_trade_value,1700000.0,1700000.0,0.0,1.0,0.0,0.55,1. ABOVE BASELINE,0.0,1.0,0.0
-TKO,Consumer Discretionary,Film and Television Production and Distribution,35__1,35,1.0,4. p999_trade_value,1164284.0,962808.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,2.0,3.0,0.6666666666666666
-TKO,Consumer Discretionary,Film and Television Production and Distribution,35__1,35,1.0,5. p99_trade_value,896000.0,206760.0,12.0,18.0,0.6666666666666666,0.55,1. ABOVE BASELINE,14.0,21.0,0.6666666666666666
-TKO,Consumer Discretionary,Film and Television Production and Distribution,35__1,35,1.0,6. p95_trade_value,200000.0,30264.0,37.0,80.0,0.4625,0.55,2. BELOW BASELINE,51.0,101.0,0.504950495049505
-TKO,Consumer Discretionary,Film and Television Production and Distribution,35__1,35,1.0,7. p90_trade_value,30259.999999999996,14400.0,48.0,102.0,0.47058823529411764,0.55,2. BELOW BASELINE,99.0,203.0,0.4876847290640394
-TKO,Consumer Discretionary,Film and Television Production and Distribution,35__1,35,1.0,8. p75_trade_value,14279.999999999998,8000.0,188.0,300.0,0.6266666666666667,0.55,2. BELOW BASELINE,287.0,503.0,0.5705765407554672

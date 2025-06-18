@@ -1,0 +1,9 @@
+security,sector,industry,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+CURI,Consumer Discretionary,Film and Television Production and Distribution,0__2,0,3,2.0,1. p999999_trade_value,4200.0,4200.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+IMAX,Consumer Discretionary,Film and Television Production and Distribution,10__0,10,3,0.0,1. p999999_trade_value,80000.0,80000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+IMAX,Consumer Discretionary,Film and Television Production and Distribution,10__0,10,3,0.0,8. p75_trade_value,33000.0,10764.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+NWSA,Consumer Discretionary,Film and Television Production and Distribution,10__0,10,3,0.0,1. p999999_trade_value,11200.0,11200.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+NWSA,Consumer Discretionary,Film and Television Production and Distribution,10__0,10,3,0.0,8. p75_trade_value,10600.0,10600.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+WMG,Consumer Discretionary,Film and Television Production and Distribution,10__0,10,3,0.0,1. p999999_trade_value,16400.0,16400.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+WMG,Consumer Discretionary,Film and Television Production and Distribution,10__0,10,3,0.0,7. p90_trade_value,10780.000000000002,10780.000000000002,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+WMG,Consumer Discretionary,Film and Television Production and Distribution,10__0,10,3,0.0,8. p75_trade_value,8335.0,7650.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0

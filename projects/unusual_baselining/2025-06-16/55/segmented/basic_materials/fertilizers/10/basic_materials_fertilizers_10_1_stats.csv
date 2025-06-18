@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-IPI,Basic Materials,Fertilizers,0.55,,,,16,10__0,10,0.0,11335.0,12678.75,12699.75,12704.47,12704.95,12704.99,12705.0

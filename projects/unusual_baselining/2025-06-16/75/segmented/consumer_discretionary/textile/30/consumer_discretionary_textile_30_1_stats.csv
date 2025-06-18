@@ -1,3 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-PVH,Consumer Discretionary,Textile - Apparel,0.75,,,,571,30__2,30,2.0,16100.0,22575.0,50134.0,265750.0,278575.0,279857.5,279985.75
-VFC,Consumer Discretionary,Textile - Apparel,0.75,1005400.0,4. p999_trade_value,2.0,1560,30__0,30,0.0,23033.5,60818.2,277701.72,908748.9,1009282.86,1009928.29,1009992.83

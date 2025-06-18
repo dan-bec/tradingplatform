@@ -1,5 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-GMS,Retail-Wholesale,Building Products - Retail,15__0,15,0.0,1. p999999_trade_value,223913.0,223913.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-GMS,Retail-Wholesale,Building Products - Retail,15__0,15,0.0,6. p95_trade_value,56250.0,56250.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-GMS,Retail-Wholesale,Building Products - Retail,15__0,15,0.0,7. p90_trade_value,31921.000000000004,31921.000000000004,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,5.0,0.0
-GMS,Retail-Wholesale,Building Products - Retail,15__0,15,0.0,8. p75_trade_value,26908.000000000004,26908.000000000004,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,6.0,0.0

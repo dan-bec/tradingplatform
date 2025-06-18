@@ -1,9 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-BAH,Business Services,Consulting Services,0.55,134000.0,5. p99_trade_value,8.0,743,30__2,30,2.0,15924.0,26952.0,130010.0,378965.16,465792.52,474475.25,475343.53
-EFX,Business Services,Consulting Services,0.55,,,,619,30__0,30,0.0,18656.0,30000.0,71200.0,414881.21,747952.12,781259.21,784589.92
-EXPO,Business Services,Consulting Services,0.55,,,,2,5__3,5,3.0,24900.0,25200.0,25440.0,25494.0,25499.4,25499.94,25499.99
-FC,Business Services,Consulting Services,0.55,,,,4,5__0,5,0.0,11900.0,12950.0,13790.0,13979.0,13997.9,13999.79,13999.98
-FCN,Business Services,Consulting Services,0.55,,,,46,15__0,15,0.0,13220.0,13860.0,21087.0,26408.7,26940.87,26994.09,26999.41
-HURN,Business Services,Consulting Services,0.55,12980.000000000002,8. p75_trade_value,9.0,33,15__0,15,0.0,26560.0,35520.0,41580.0,43308.0,43480.8,43498.08,43499.81
-IT,Business Services,Consulting Services,0.55,,,,279,25__0,25,0.0,12000.0,20836.0,71523.36,434258.68,457011.87,459287.19,459514.72
-STN,Business Services,Consulting Services,0.55,3200.0,1. p999999_trade_value,1.0,1,0__2,0,2.0,3200.0,3200.0,3200.0,3200.0,3200.0,3200.0,3200.0

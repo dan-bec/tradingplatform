@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CHTR,Consumer Discretionary,Cable Television,0.75,,,,1893,35__0,35,0.0,16662.4,25290.0,62986.4,231543.36,413026.2,426052.62,427355.26

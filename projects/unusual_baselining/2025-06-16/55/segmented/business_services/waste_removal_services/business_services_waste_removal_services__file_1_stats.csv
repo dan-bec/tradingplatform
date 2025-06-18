@@ -1,0 +1,15 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+ARIS,Business Services,Waste Removal Services,0.55,3915.0,1. p999999_trade_value,1.0,2,5__0,5,3,0.0,3853.5,3884.25,3908.85,3914.39,3914.94,3914.99,3915.0
+CLH,Business Services,Waste Removal Services,0.55,,,,143,20__0,20,2,0.0,9356.0,18312.0,69194.4,76633.2,77323.32,77392.33,77399.23
+CWST,Business Services,Waste Removal Services,0.55,,,,42,15__0,15,3,0.0,7097.5,8170.25,9836.0,9983.6,9998.36,9999.84,9999.98
+GFL,Business Services,Waste Removal Services,0.55,,,,55,15__0,15,3,0.0,8905.4,16600.0,64740.0,77133.0,78372.3,78496.23,78508.62
+MEG,Business Services,Waste Removal Services,0.55,,,,11,10__0,10,3,0.0,8910.0,9645.0,10233.0,10365.3,10378.53,10379.85,10379.99
+NVRI,Business Services,Waste Removal Services,0.55,4410.0,1. p999999_trade_value,1.0,1,0__2,0,3,2.0,4410.0,4410.0,4410.0,4410.0,4410.0,4410.0,4410.0
+PCT,Business Services,Waste Removal Services,0.55,,,,768,30__2,30,2,2.0,15777.0,27059.0,115022.6,260576.73,285986.67,288527.67,288781.77
+PNR,Business Services,Waste Removal Services,0.55,293287.5,1. p999999_trade_value,1.0,137,20__3,20,2,3.0,41253.0,60194.0,160800.0,276860.4,291644.79,293123.23,293271.07
+RSG,Business Services,Waste Removal Services,0.55,167250.0,1. p999999_trade_value,1.0,118,20__0,20,2,0.0,16401.0,25472.5,79841.6,157411.47,166266.15,167151.61,167240.16
+VLTO,Business Services,Waste Removal Services,0.55,8280.0,8. p75_trade_value,20.0,80,20__0,20,2,0.0,22497.9,33188.55,56196.0,75819.6,77781.96,77978.2,77997.82
+WCN,Business Services,Waste Removal Services,0.55,114000.0,6. p95_trade_value,2.0,38,15__0,15,3,0.0,27732.5,103583.25,155580.0,177558.0,179755.8,179975.58,179997.56
+WM,Business Services,Waste Removal Services,0.55,,,,691,30__2,30,2,2.0,14560.0,22043.0,66151.5,99866.9,103586.69,103958.67,103995.87
+XYL,Business Services,Waste Removal Services,0.55,,,,53,15__0,15,3,0.0,32884.0,53478.0,64816.8,66178.68,66314.87,66328.49,66329.85
+ZWS,Business Services,Waste Removal Services,0.55,,,,6,10__0,10,3,0.0,7525.0,8662.5,9572.5,9777.25,9797.73,9799.77,9799.98

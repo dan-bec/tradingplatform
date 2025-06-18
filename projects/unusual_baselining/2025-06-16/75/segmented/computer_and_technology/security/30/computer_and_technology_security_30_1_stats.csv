@@ -1,3 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-CYBR,Computer and Technology,Security,0.75,177100.0,1. p999999_trade_value,1.0,827,30__2,30,2.0,14970.0,23540.0,70650.0,172061.4,176596.14,177049.61,177094.96
-S,Computer and Technology,Security,0.75,225000.0,1. p999999_trade_value,1.0,1132,30__2,30,2.0,14579.5,24237.6,65380.0,167904.0,218779.5,224377.95,224937.8

@@ -1,5 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-CHH,Consumer Discretionary,Hotels and Motels,5__0,5,0.0,3. p9999_trade_value,3340.9999999999995,3340.9999999999995,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-SHCO,Consumer Discretionary,Hotels and Motels,5__0,5,0.0,1. p999999_trade_value,6980.0,6980.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-SHCO,Consumer Discretionary,Hotels and Motels,5__0,5,0.0,8. p75_trade_value,6000.0,6000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
-WH,Consumer Discretionary,Hotels and Motels,5__0,5,0.0,1. p999999_trade_value,8500.0,8500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0

@@ -1,6 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-CPRT,Business Services,Auction and Valuation Services,25__0,25,0.0,1. p999999_trade_value,330000.0,330000.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-CPRT,Business Services,Auction and Valuation Services,25__0,25,0.0,5. p99_trade_value,96425.0,96425.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
-CPRT,Business Services,Auction and Valuation Services,25__0,25,0.0,6. p95_trade_value,81395.99999999999,23170.0,4.0,8.0,0.5,0.75,2. BELOW BASELINE,6.0,10.0,0.6
-CPRT,Business Services,Auction and Valuation Services,25__0,25,0.0,7. p90_trade_value,20250.0,14363.999999999998,6.0,10.0,0.6,0.75,2. BELOW BASELINE,12.0,20.0,0.6
-CPRT,Business Services,Auction and Valuation Services,25__0,25,0.0,8. p75_trade_value,11499.999999999998,7000.0,15.0,30.0,0.5,0.75,2. BELOW BASELINE,27.0,50.0,0.54

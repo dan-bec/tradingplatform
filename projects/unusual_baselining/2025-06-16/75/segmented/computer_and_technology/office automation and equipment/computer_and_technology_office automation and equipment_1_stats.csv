@@ -1,2 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-PBI,Computer and Technology,Office Automation and Equipment,0.75,,,,145,20__0,20,0.0,17044.0,20235.2,33363.28,127539.43,141665.44,143078.04,143219.3

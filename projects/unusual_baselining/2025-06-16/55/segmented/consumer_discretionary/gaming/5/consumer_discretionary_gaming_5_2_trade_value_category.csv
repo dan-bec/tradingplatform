@@ -1,3 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-DOYU,Consumer Discretionary,Gaming,5__0,5,0.0,1. p999999_trade_value,5300.0,5300.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
-GDEN,Consumer Discretionary,Gaming,5__3,5,3.0,1. p999999_trade_value,25340.0,25340.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0

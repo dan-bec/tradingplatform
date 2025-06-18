@@ -1,0 +1,103 @@
+security,sector,industry,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
+ADNT,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,1. p999999_trade_value,12760.0,12760.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ADNT,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,7. p90_trade_value,12733.000000000002,12733.000000000002,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+ADNT,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,8. p75_trade_value,11160.0,11160.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+AEVA,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,1. p999999_trade_value,69859.99999999999,69859.99999999999,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+AEVA,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,6. p95_trade_value,65000.0,65000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+AEVA,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,7. p90_trade_value,50500.0,19500.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,4.0,4.0,1.0
+AEVA,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,8. p75_trade_value,19422.0,12300.0,5.0,5.0,1.0,0.55,1. ABOVE BASELINE,9.0,9.0,1.0
+ALSN,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,1. p999999_trade_value,60000.0,60000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+ALSN,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,6. p95_trade_value,42000.0,42000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+ALSN,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,7. p90_trade_value,28500.0,28500.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+ALSN,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,8. p75_trade_value,17000.0,14750.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,5.0,7.0,0.7142857142857143
+ALV,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,1. p999999_trade_value,12375.0,12375.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+ALV,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,7. p90_trade_value,7425.0,7425.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+ALV,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,8. p75_trade_value,6800.0,5500.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+AXL,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,1. p999999_trade_value,80000.0,80000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+AXL,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,8. p75_trade_value,10000.0,10000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+BEEM,Auto-Tires-Trucks,Automotive - Original Equipment,5__0,5,3,0.0,1. p999999_trade_value,4950.0,4950.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BEEM,Auto-Tires-Trucks,Automotive - Original Equipment,5__0,5,3,0.0,8. p75_trade_value,3750.0,3750.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+BWA,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,1. p999999_trade_value,30000.0,30000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+BWA,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,6. p95_trade_value,15329.999999999998,13300.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+BWA,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,7. p90_trade_value,11580.0,11200.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,5.0,0.2
+BWA,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,8. p75_trade_value,7200.0,6370.0,5.0,7.0,0.7142857142857143,0.55,2. BELOW BASELINE,6.0,12.0,0.5
+CARG,Auto-Tires-Trucks,Automotive - Replacement Parts,15__0,15,3,0.0,1. p999999_trade_value,15250.0,15250.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CARG,Auto-Tires-Trucks,Automotive - Replacement Parts,15__0,15,3,0.0,6. p95_trade_value,12012.0,12012.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+CARG,Auto-Tires-Trucks,Automotive - Replacement Parts,15__0,15,3,0.0,7. p90_trade_value,10200.0,10200.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+CARG,Auto-Tires-Trucks,Automotive - Replacement Parts,15__0,15,3,0.0,8. p75_trade_value,9000.0,7695.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,6.0,0.3333333333333333
+CPS,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,1. p999999_trade_value,41610.0,41610.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+CPS,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,7. p90_trade_value,11100.0,11100.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+CPS,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,8. p75_trade_value,9300.0,6000.0,0.0,3.0,0.0,0.55,2. BELOW BASELINE,0.0,5.0,0.0
+CYD,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,1. p999999_trade_value,15000.0,15000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+CYD,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,6. p95_trade_value,14000.0,14000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+CYD,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,7. p90_trade_value,13500.0,13500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+CYD,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,8. p75_trade_value,12000.0,7370.0,2.0,4.0,0.5,0.55,2. BELOW BASELINE,3.0,7.0,0.42857142857142855
+DOOO,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,1. p999999_trade_value,26820.0,26820.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+DOOO,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,7. p90_trade_value,17370.0,17370.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+DOOO,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,8. p75_trade_value,14000.0,14000.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+DORM,Auto-Tires-Trucks,Automotive - Replacement Parts,10__0,10,3,0.0,1. p999999_trade_value,35000.0,35000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+DORM,Auto-Tires-Trucks,Automotive - Replacement Parts,10__0,10,3,0.0,8. p75_trade_value,30000.0,30000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+FFAI,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,1. p999999_trade_value,7976.000000000001,7976.000000000001,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+FFAI,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,6. p95_trade_value,7800.0,7800.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+FFAI,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,7. p90_trade_value,6908.0,6908.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+FFAI,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,8. p75_trade_value,6589.0,4995.0,1.0,4.0,0.25,0.55,2. BELOW BASELINE,2.0,7.0,0.2857142857142857
+FOXF,Auto-Tires-Trucks,Automotive - Domestic,10__0,10,3,0.0,1. p999999_trade_value,55000.0,55000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+FOXF,Auto-Tires-Trucks,Automotive - Domestic,10__0,10,3,0.0,8. p75_trade_value,30000.0,30000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+GTX,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,1. p999999_trade_value,30000.0,30000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+GTX,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,8. p75_trade_value,6000.0,6000.0,0.0,5.0,0.0,0.55,2. BELOW BASELINE,0.0,6.0,0.0
+HMC,Auto-Tires-Trucks,Automotive - Foreign,15__0,15,3,0.0,1. p999999_trade_value,20460.0,20460.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+HMC,Auto-Tires-Trucks,Automotive - Foreign,15__0,15,3,0.0,6. p95_trade_value,19800.0,18880.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+HMC,Auto-Tires-Trucks,Automotive - Foreign,15__0,15,3,0.0,7. p90_trade_value,15075.0,14600.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,2.0,6.0,0.3333333333333333
+HMC,Auto-Tires-Trucks,Automotive - Foreign,15__0,15,3,0.0,8. p75_trade_value,14000.0,10280.000000000002,2.0,7.0,0.2857142857142857,0.55,2. BELOW BASELINE,4.0,13.0,0.3076923076923077
+HYLN,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,1. p999999_trade_value,7980.0,7980.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+HYLN,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,8. p75_trade_value,5616.0,5520.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+INVZ,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,1. p999999_trade_value,240000.0,240000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+INVZ,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,6. p95_trade_value,160000.0,133250.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
+INVZ,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,7. p90_trade_value,84000.00000000001,60000.0,1.0,3.0,0.3333333333333333,0.55,2. BELOW BASELINE,3.0,6.0,0.5
+INVZ,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,8. p75_trade_value,16530.0,8405.000000000002,1.0,7.0,0.14285714285714285,0.55,2. BELOW BASELINE,4.0,13.0,0.3076923076923077
+KAR,Auto-Tires-Trucks,Automotive - Original Equipment,0__2,0,3,2.0,1. p999999_trade_value,3900.0,3900.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+KXIN,Auto-Tires-Trucks,Automotive - Foreign,5__3,5,3,3.0,1. p999999_trade_value,21903.0,21903.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+LCII,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,1. p999999_trade_value,44000.00000000001,44000.00000000001,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+LCII,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,6. p95_trade_value,25000.0,25000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+LCII,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,7. p90_trade_value,9200.0,9200.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+LCII,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,8. p75_trade_value,7750.0,6900.0,3.0,3.0,1.0,0.55,1. ABOVE BASELINE,6.0,6.0,1.0
+LVWR,Auto-Tires-Trucks,Automotive - Domestic,10__0,10,3,0.0,1. p999999_trade_value,9600.0,9600.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+LVWR,Auto-Tires-Trucks,Automotive - Domestic,10__0,10,3,0.0,7. p90_trade_value,9300.0,9300.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+LVWR,Auto-Tires-Trucks,Automotive - Domestic,10__0,10,3,0.0,8. p75_trade_value,6964.999999999999,6964.999999999999,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,3.0,3.0,1.0
+MCW,Auto-Tires-Trucks,Automotive - Replacement Parts,5__0,5,3,0.0,1. p999999_trade_value,8946.0,8946.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MLR,Auto-Tires-Trucks,Automotive - Original Equipment,5__0,5,3,0.0,1. p999999_trade_value,11330.0,11330.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+MPAA,Auto-Tires-Trucks,Automotive - Replacement Parts,10__0,10,3,0.0,1. p999999_trade_value,9000.0,9000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+MPAA,Auto-Tires-Trucks,Automotive - Replacement Parts,10__0,10,3,0.0,8. p75_trade_value,7000.0,7000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+NIU,Auto-Tires-Trucks,Automotive - Original Equipment,5__0,5,3,0.0,1. p999999_trade_value,5400.0,5400.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+OSK,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,1. p999999_trade_value,208000.0,208000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+OSK,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,6. p95_trade_value,87000.0,29898.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+OSK,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,7. p90_trade_value,18328.0,13850.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,2.0,5.0,0.4
+OSK,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,8. p75_trade_value,13260.0,7000.0,3.0,6.0,0.5,0.55,2. BELOW BASELINE,5.0,11.0,0.45454545454545453
+PHIN,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,1. p999999_trade_value,48000.0,48000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+PHIN,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,7. p90_trade_value,36225.0,36225.0,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+PHIN,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,8. p75_trade_value,7900.0,7290.000000000001,2.0,2.0,1.0,0.55,2. BELOW BASELINE,3.0,4.0,0.75
+PLOW,Auto-Tires-Trucks,Automotive - Replacement Parts,0__2,0,3,2.0,1. p999999_trade_value,4450.0,4450.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+PSNY,Auto-Tires-Trucks,Automotive - Foreign,10__0,10,3,0.0,1. p999999_trade_value,37500.0,37500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+PSNY,Auto-Tires-Trucks,Automotive - Foreign,10__0,10,3,0.0,7. p90_trade_value,25000.0,25000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+PSNY,Auto-Tires-Trucks,Automotive - Foreign,10__0,10,3,0.0,8. p75_trade_value,21250.0,17670.0,2.0,2.0,1.0,0.55,2. BELOW BASELINE,2.0,4.0,0.5
+REE,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,1. p999999_trade_value,15900.0,15900.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+REE,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,7. p90_trade_value,12774.999999999998,12774.999999999998,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+REE,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,8. p75_trade_value,8900.0,8000.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+SLDP,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,1. p999999_trade_value,10000.0,10000.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+SLDP,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,8. p75_trade_value,9360.0,6705.0,1.0,2.0,0.5,0.55,2. BELOW BASELINE,1.0,3.0,0.3333333333333333
+SUP,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,1. p999999_trade_value,20000.0,20000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
+SUP,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,8. p75_trade_value,8000.0,8000.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0
+VC,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,1. p999999_trade_value,17840.0,17840.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+VC,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,7. p90_trade_value,10450.0,10450.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+VC,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,8. p75_trade_value,9990.0,7200.0,0.0,2.0,0.0,0.55,2. BELOW BASELINE,0.0,4.0,0.0
+VFS,Auto-Tires-Trucks,Automotive - Domestic,15__0,15,3,0.0,1. p999999_trade_value,10508.0,10508.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+VFS,Auto-Tires-Trucks,Automotive - Domestic,15__0,15,3,0.0,6. p95_trade_value,7873.999999999999,7873.999999999999,1.0,1.0,1.0,0.55,2. BELOW BASELINE,1.0,2.0,0.5
+VFS,Auto-Tires-Trucks,Automotive - Domestic,15__0,15,3,0.0,7. p90_trade_value,7484.999999999999,7109.999999999999,0.0,2.0,0.0,0.55,2. BELOW BASELINE,1.0,4.0,0.25
+VFS,Auto-Tires-Trucks,Automotive - Domestic,15__0,15,3,0.0,8. p75_trade_value,6959.999999999999,6000.0,0.0,5.0,0.0,0.55,2. BELOW BASELINE,1.0,9.0,0.1111111111111111
+WKHS,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,1. p999999_trade_value,17500.0,17500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+WKHS,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,6. p95_trade_value,16025.0,16025.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,2.0,0.0
+WKHS,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,7. p90_trade_value,12390.0,12390.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,3.0,0.0
+WKHS,Auto-Tires-Trucks,Automotive - Original Equipment,15__0,15,3,0.0,8. p75_trade_value,10675.0,7630.0,0.0,4.0,0.0,0.55,2. BELOW BASELINE,0.0,7.0,0.0
+WNC,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,1. p999999_trade_value,52500.0,52500.0,0.0,1.0,0.0,0.55,2. BELOW BASELINE,0.0,1.0,0.0
+WNC,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,8. p75_trade_value,7200.0,6500.0,3.0,3.0,1.0,0.55,2. BELOW BASELINE,3.0,4.0,0.75
+XPEL,Auto-Tires-Trucks,Automotive - Original Equipment,10__0,10,3,0.0,1. p999999_trade_value,13860.0,13860.0,2.0,2.0,1.0,0.55,1. ABOVE BASELINE,2.0,2.0,1.0

@@ -1,0 +1,2 @@
+security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,trade_volume_bin_rank,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
+TTC,Consumer Discretionary,Tools - Handheld,0.55,,,,54,15__0,15,3,0.0,16911.0,23494.5,46901.0,65170.1,66997.01,67179.7,67197.97

@@ -1,4 +1,0 @@
-security,sector,industry,itm_threshold,unusual_baseline,trade_value_category,num_trades_over_baseline,num_trades_total,final_cluster,trade_volume_bin,cluster,p90_trade_value,p95_trade_value,p99_trade_value,p999_trade_value,p9999_trade_value,p99999_trade_value,p999999_trade_value
-AN,Retail-Wholesale,Automotive - Retail and Whole Sales,0.75,37014.0,5. p99_trade_value,2.0,146,20__0,20,0.0,9870.0,16165.5,34660.5,54102.03,56710.2,56971.02,56997.1
-GPI,Retail-Wholesale,Automotive - Retail and Whole Sales,0.75,,,,89,20__0,20,0.0,40000.0,57240.0,73560.0,83856.0,84885.6,84988.56,84998.86
-LAD,Retail-Wholesale,Automotive - Retail and Whole Sales,0.75,192030.00000000003,1. p999999_trade_value,1.0,139,20__0,20,0.0,20688.0,35541.0,100150.8,181675.86,190994.59,191926.46,192019.65

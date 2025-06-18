@@ -1,7 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-MRK,Medical,Large Cap Pharmaceuticals,35__1,35,1.0,1. p999999_trade_value,2768600.0,2768600.0,1.0,1.0,1.0,0.55,1. ABOVE BASELINE,1.0,1.0,1.0
-MRK,Medical,Large Cap Pharmaceuticals,35__1,35,1.0,4. p999_trade_value,2332600.0,1547800.0,4.0,5.0,0.8,0.55,1. ABOVE BASELINE,5.0,6.0,0.8333333333333334
-MRK,Medical,Large Cap Pharmaceuticals,35__1,35,1.0,5. p99_trade_value,1329600.0,98000.0,31.0,50.0,0.62,0.55,1. ABOVE BASELINE,36.0,56.0,0.6428571428571429
-MRK,Medical,Large Cap Pharmaceuticals,35__1,35,1.0,6. p95_trade_value,97305.0,26400.0,141.0,225.0,0.6266666666666667,0.55,1. ABOVE BASELINE,177.0,281.0,0.6298932384341637
-MRK,Medical,Large Cap Pharmaceuticals,35__1,35,1.0,7. p90_trade_value,26300.0,15750.0,143.0,279.0,0.5125448028673835,0.55,2. BELOW BASELINE,320.0,560.0,0.5714285714285714
-MRK,Medical,Large Cap Pharmaceuticals,35__1,35,1.0,8. p75_trade_value,15691.0,8100.0,432.0,839.0,0.5148986889153755,0.55,2. BELOW BASELINE,752.0,1399.0,0.5375268048606148

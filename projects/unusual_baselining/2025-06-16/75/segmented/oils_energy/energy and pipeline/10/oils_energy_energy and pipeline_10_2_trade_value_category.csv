@@ -1,4 +1,0 @@
-security,sector,industry,final_cluster,trade_volume_bin,cluster,trade_value_category,max_trade_value,min_trade_value,itm_total,total,itm_pct,itm_threshold,ab,itm_running_total,running_total,itm_running_pct
-XIFR,Oils-Energy,Energy and Pipeline - Master Limited Partnerships,10__0,10,0.0,1. p999999_trade_value,11700.0,11700.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,1.0,1.0,1.0
-XIFR,Oils-Energy,Energy and Pipeline - Master Limited Partnerships,10__0,10,0.0,7. p90_trade_value,11400.0,11400.0,1.0,1.0,1.0,0.75,1. ABOVE BASELINE,2.0,2.0,1.0
-XIFR,Oils-Energy,Energy and Pipeline - Master Limited Partnerships,10__0,10,0.0,8. p75_trade_value,9000.0,9000.0,0.0,1.0,0.0,0.75,2. BELOW BASELINE,2.0,3.0,0.6666666666666666
