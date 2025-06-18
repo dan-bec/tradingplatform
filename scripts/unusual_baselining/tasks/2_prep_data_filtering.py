@@ -52,7 +52,7 @@ try:
     current_settings = con.execute(f"""
         SELECT min_trade_value, expiration_days_out, otm_range, MAX(data_date) AS max_data_date
         FROM {prep_schema}.filtered_short_term_otm_options_trades
-        GROUP BY 1,2,3,4
+        GROUP BY 1,2,3
     """).fetchone()
     if current_settings:
         current_min_trade_value, current_expiration_days_out, current_otm_range, current_max_data_date = current_settings

@@ -119,8 +119,7 @@ def main():
     task2_args = [
         "--strict-otm", str(args.strict_otm),
         "--min-trade-value", str(args.min_trade_value),
-        "--expiration-days-out", str(args.expiration_days_out),
-        "--number-of-bins", str(args.number_of_bins)
+        "--expiration-days-out", str(args.expiration_days_out)
     ]
 
     run_script("tasks/2_prep_data_filtering.py", task2_args)

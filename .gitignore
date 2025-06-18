@@ -407,6 +407,3 @@ FodyWeavers.xsd
 *.db
 /data
 *.DS_Store
-projects/unusual_baselining/*/compiled/3_all_trades_above_baseline.csv
-projects/unusual_baselining/*/segmented/computer_and_technology/computer_and_technology_3_trades_above_baseline.csv
-projects/unusual_baselining/*/segmented/computer_and_technology/computer_and_technology__file_3_trades_above_baseline.csv

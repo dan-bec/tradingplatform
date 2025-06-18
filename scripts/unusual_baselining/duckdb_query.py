@@ -94,10 +94,10 @@ where data_date > current_date() - INTERVAL 7 DAYS
 
 # Get unique rows from query
 result = con.execute(f"""
-select trade_volume_bin, ntile(3) OVER (ORDER BY trade_volume_bin desc) t1, trade_volume_bin_rank
-                     from {prep_schema}.clustered_securities
-                     group by trade_volume_bin, trade_volume_bin_rank
-
+select *
+                     from raw_data.sector_industry
+                     where sector = 'Computer and Technology'
+                     and industry ilike 'Computers%'
 """).fetchdf()
 print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
 # result.to_csv(sys.stdout, index=False)
