@@ -19,18 +19,11 @@ import re
 from datetime import datetime, timedelta
 import argparse
 
-parser = argparse.ArgumentParser()
-parser.add_argument("--start-date", type=str, default=config.START_DATE, help="Start date (YYYY-MM-DD)")
-parser.add_argument("--end-date", type=str, default=config.END_DATE, help="End date (YYYY-MM-DD)")
-args = parser.parse_args()
-
 # Configuration
 script_dir = config.REPO_ROOT
 dataservices_path = config.DATASERVICES_PATH
 S3_ENDPOINT = config.S3_ENDPOINT
 BUCKET_NAME = config.BUCKET_NAME
-START_DATE = datetime.strptime(args.start_date, "%Y-%m-%d").date()
-END_DATE = datetime.strptime(args.end_date, "%Y-%m-%d").date()
 
 # Function to extract static string variables from DataServices.cs
 def get_static_string(file_path, var_name):
@@ -137,11 +130,21 @@ def process_pass(pass_config, start_date, end_date):
     
     print(f"Completed {description} pass.")
 
-def main():
+def main(start_date, end_date):
+
+    start_dt = datetime.strptime(start_date, "%Y-%m-%d").date()
+    end_dt = datetime.strptime(end_date, "%Y-%m-%d").date()
+    
     """Execute all configured passes to download files."""
     for pass_config in PASSES:
-        process_pass(pass_config, START_DATE, END_DATE)
+        process_pass(pass_config, start_dt, end_dt)
     print("All download passes completed.")
 
 if __name__ == "__main__":
-    main()
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--start-date", type=str, default=config.START_DATE)
+    parser.add_argument("--end-date", type=str, default=config.END_DATE)
+    args = parser.parse_args()
+
+    main(args.start_date, args.end_date)

@@ -1,11 +1,15 @@
 import argparse
-import subprocess
 from datetime import datetime
 import time
 import config as config
+from tasks.prep_data_filtering import main as prep_main
+from tasks.per_security_clustering import main as cluster_main
+from tasks.optimal_itm_p_value import main as optimal_main
+from tasks.compiled_analysis_and_output import main as combined_main
 import upload_to_drive as upload_to_drive
 import logging
 from pathlib import Path
+import subprocess
 
 def bool_type(value):
     try:
@@ -93,7 +97,6 @@ def main():
     parser = argparse.ArgumentParser(description="Run 'unusual_baselining' scripts with specified parameters")
     parser.add_argument("--strict-otm", type=bool_type, default=config.STRICT_OTM, help="Use strict OTM range")
     parser.add_argument("--min-trade-value", type=float, default=config.MIN_TRADE_VALUE, help="Minimum trade value")
-    parser.add_argument("--top-trades", type=int, default=config.TOP_N_TRADES, help="Top trades")
     parser.add_argument("--expiration-days-out", type=int, default=config.EXPIRATION_DAYS_OUT, help="Expiration days out")
     parser.add_argument("--number-of-bins", type=int, default=config.NUMBER_OF_BINS, help="Number of bins")
     parser.add_argument("--max-k", type=int, default=config.MAX_K, help="Max k for clustering")
@@ -101,24 +104,21 @@ def main():
 
     args = parser.parse_args()
 
-    task2_args = [
-        "--strict-otm", str(args.strict_otm),
-        "--min-trade-value", str(args.min_trade_value),
-        "--expiration-days-out", str(args.expiration_days_out)
-    ]
+    print("Running prep_data_filtering...")
+    prep_main(args.strict_otm, args.min_trade_value, args.expiration_days_out)
+    print("Completed prep_data_filtering.")
 
-    run_script("tasks/2_prep_data_filtering.py", task2_args)
+    print("Running per_security_clustering...")
+    cluster_main(args.number_of_bins, args.max_k)
+    print("Completed per_security_clustering.")
 
-    task3_args = [
-        "--number-of-bins", str(args.number_of_bins),
-        "--max-k", str(args.max_k)
-    ]
+    print("Running optimal_itm_p_value...")
+    optimal_main(args.itm_threshold)
+    print("Completed optimal_itm_p_value.")
 
-    run_script("tasks/3_per_security_clustering.py", task3_args)
-
-    run_script("tasks/4_optimal_itm_p_value.py", ["--itm-threshold", str(args.itm_threshold)])
-
-    run_script("tasks/5_combined_analysis_and_output.py", ["--itm-threshold", str(args.itm_threshold)])
+    print("Running combined_analysis_and_output...")
+    combined_main(args.itm_threshold)
+    print("Completed combined_analysis_and_output.")
 
     export_settings()
 
