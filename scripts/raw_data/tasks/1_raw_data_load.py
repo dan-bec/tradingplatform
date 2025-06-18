@@ -9,7 +9,7 @@ PROJECT_ROOT = TASK_SCRIPT_DIR.parents[2]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
     
-import scripts.unusual_baselining.config as config
+import scripts.raw_data.config as config
 import re
 from datetime import datetime, date, timedelta
 import requests

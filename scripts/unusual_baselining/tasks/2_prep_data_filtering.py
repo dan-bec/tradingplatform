@@ -36,7 +36,7 @@ print(f"Start time: {start_time:.2f} seconds")
 
 # Define file paths
 full_db_path = config.FULL_DB_PATH
-prep_schema = config.PREP
+prep_schema = config.PREP_SCHEMA
 output_dir = config.PREP_OUTPUT_DIR
 otm_range = args.strict_otm
 min_trade_value = args.min_trade_value

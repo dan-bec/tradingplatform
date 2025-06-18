@@ -24,8 +24,8 @@ args = parser.parse_args()
 ### SETTINGS ###
 projects_path = config.PROJECTS_PATH
 full_db_path = config.FULL_DB_PATH
-prep_schema = config.PREP
-compiled_schema = config.COMPILED
+prep_schema = config.PREP_SCHEMA
+compiled_schema = config.COMPILED_SCHEMA
 itm_threshold = args.itm_threshold  # Target ITM rate
 itm_threshold_100 = config.itm_str_prep(itm_threshold)
 compiled_dir = config.COMPILED_OUTPUT_DIR

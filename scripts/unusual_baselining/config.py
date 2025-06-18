@@ -21,39 +21,37 @@ def itm_str_prep(itm):
         print(f"Error fetching data: {e}")
         raise        
 
+def str_to_bool(value):
+    if str(value).lower() in ('yes', 'true', 't', 'y', '1'):
+        return True
+    elif str(value).lower() in ('no', 'false', 'f', 'n', '0'):
+        return False
+    else:
+        raise ValueError(f"Invalid boolean value: '{value}'")
+
 # Base directory (assumes config.py is in the /scripts folder)
 APP_DIR = Path(__file__).parent
 APP_NAME = APP_DIR.name
 TASKS_DIR = APP_DIR / "tasks"
 SCRIPT_DIR = APP_DIR.parent
 REPO_ROOT = SCRIPT_DIR.parent
+DATA_PATH = REPO_ROOT / "data"
 
 # Common paths used across scripts
-S3_ENDPOINT = "https://files.polygon.io"  # Polygon S3-compatible endpoint
-BUCKET_NAME = "flatfiles"  # Polygon bucket name
-SHARED_DATA_PATH = REPO_ROOT / "src" / "BullseyeApp" / "Shared" / "Data"
-DATASERVICES_PATH = SHARED_DATA_PATH / "DataService.cs"
-GDRIVE_CREDS = SHARED_DATA_PATH / "Credentials.json"
-GDRIVE_FOLDER = "1ItSs-28eBoL1zGSKXwoKwnlHTZeQRcJQ"
-DATA_PATH = REPO_ROOT / "data"
 FULL_DB_PATH = DATA_PATH / "master_database.db"
 PROJECTS_PATH = REPO_ROOT / "projects" / APP_NAME
 RAW = "raw_data"
+APP_SCHEMA_PREFIX = "ub_"
 PREP = "prep"
 COMPILED = "compiled"
 SEGMENTED = "segmented"
-UNUSUAL = "u_a"
+PREP_SCHEMA = APP_SCHEMA_PREFIX + PREP
+COMPILED_SCHEMA = APP_SCHEMA_PREFIX + COMPILED
+SEGMENTED_SCHEMA = APP_SCHEMA_PREFIX + SEGMENTED
 
-STOCK_SUMMARY_DIR = DATA_PATH / "stocks" / "daily"
-STOCK_TRADE_DIR = DATA_PATH / "stocks" / "trades"
-OPTION_SUMMARY_DIR = DATA_PATH / "options" / "daily"
-OPTION_TRADE_DIR = DATA_PATH / "options" / "trades"
-SECTORS_CSV = DATA_PATH / "stocks" / "sectors_industries.csv"
-
-# RAW DATA LOAD
-START_DATE = str(datetime.now().date() - timedelta(days=2*365))
-END_DATE = str(datetime.now().date())  # Updated to include today
-NUM_FILES_TO_PROCESS = 200
+SHARED_DATA_PATH = REPO_ROOT / "src" / "BullseyeApp" / "Shared" / "Data"
+GDRIVE_CREDS = SHARED_DATA_PATH / "Credentials.json"
+GDRIVE_FOLDER = "1ItSs-28eBoL1zGSKXwoKwnlHTZeQRcJQ"
 
 # OPTION BASELINING
 STRICT_OTM = True
@@ -77,6 +75,7 @@ def latest_db_date():
     con.close()
     return result
 
+# OUTPUT PATHS
 ITM_PATH = PROJECTS_PATH / latest_db_date() / ITM_THRESHOLD_100
 PREP_OUTPUT_DIR = ITM_PATH / PREP
 COMPILED_OUTPUT_DIR = ITM_PATH / COMPILED

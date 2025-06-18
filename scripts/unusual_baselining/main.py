@@ -7,14 +7,12 @@ import upload_to_drive as upload_to_drive
 import logging
 from pathlib import Path
 
-def str_to_bool(value):
-    if str(value).lower() in ('yes', 'true', 't', 'y', '1'):
-        return True
-    elif str(value).lower() in ('no', 'false', 'f', 'n', '0'):
-        return False
-    else:
-        raise argparse.ArgumentTypeError(f"Invalid boolean value: '{value}'")
-    
+def bool_type(value):
+    try:
+        return config.str_to_bool(value)
+    except ValueError as e:
+        raise argparse.ArgumentTypeError(str(e))
+
 def run_script(script_name, args_list):
     """Helper function to run a script with given arguments."""
     cmd = ["python3", config.APP_DIR / script_name] + args_list
@@ -92,11 +90,8 @@ def main():
     print(f"Main Start time: {start_time:.2f} seconds")
 
     # Define command-line arguments
-    parser = argparse.ArgumentParser(description="Run all scripts with specified parameters")
-    parser.add_argument("--start-date", type=str, default=config.START_DATE, help="Start date (YYYY-MM-DD)")
-    parser.add_argument("--end-date", type=str, default=config.END_DATE, help="End date (YYYY-MM-DD)")
-    parser.add_argument("--num-files-to-load", type=int, default=config.NUM_FILES_TO_PROCESS, help="Number of files to load")
-    parser.add_argument("--strict-otm", type=str_to_bool, default=config.STRICT_OTM, help="Use strict OTM range")
+    parser = argparse.ArgumentParser(description="Run 'unusual_baselining' scripts with specified parameters")
+    parser.add_argument("--strict-otm", type=bool_type, default=config.STRICT_OTM, help="Use strict OTM range")
     parser.add_argument("--min-trade-value", type=float, default=config.MIN_TRADE_VALUE, help="Minimum trade value")
     parser.add_argument("--top-trades", type=int, default=config.TOP_N_TRADES, help="Top trades")
     parser.add_argument("--expiration-days-out", type=int, default=config.EXPIRATION_DAYS_OUT, help="Expiration days out")
@@ -105,16 +100,6 @@ def main():
     parser.add_argument("--itm-threshold", type=float, default=config.ITM_THRESHOLD, help="ITM threshold")
 
     args = parser.parse_args()
-
-    # Set end_date to today if not provided
-    end_date = args.end_date if args.end_date else datetime.now().strftime("%Y-%m-%d")
-
-    # Run scripts in order with appropriate arguments
-    run_script("tasks/0_download_data.py", ["--start-date", args.start_date, "--end-date", end_date])
-
-    run_script("tasks/1_raw_data_load.py", [
-        "--num-files-to-load", str(args.num_files_to_load)
-    ])
 
     task2_args = [
         "--strict-otm", str(args.strict_otm),

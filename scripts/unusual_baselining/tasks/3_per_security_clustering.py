@@ -30,7 +30,7 @@ args = parser.parse_args()
 
 ### SETTINGS ###
 full_db_path = config.FULL_DB_PATH
-prep_schema = config.PREP
+prep_schema = config.PREP_SCHEMA
 output_dir = config.PREP_OUTPUT_DIR
 output_dir.mkdir(parents=True, exist_ok=True)
 number_of_bins = args.number_of_bins
