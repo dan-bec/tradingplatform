@@ -52,7 +52,7 @@ con.execute(f"""
             , ftd.sector
             , ftd.industry
             , min(ftd.expiration - ftd.data_date) AS min_dte
-            , max(ftd.expiration - ftd.data_date)  max_dte
+            , max(ftd.expiration - ftd.data_date) AS max_dte
             , count(*) as qualifying_trades
             , ((ROUND(log10(qualifying_trades) * 2) / 2) * 10)::int as trade_volume_bin
             , MIN(trade_value) AS p0_trade_value

@@ -57,6 +57,7 @@ try:
     if current_settings:
         current_min_trade_value, current_expiration_days_out, current_otm_range, current_max_data_date = current_settings
         raw_max_data_date = con.execute(f"SELECT MAX(data_date) FROM raw_data.all_options_trades_data").fetchone()[0] # type: ignore
+        print(f"raw max date: {raw_max_data_date}. prep max date: {current_max_data_date}")
         if (current_min_trade_value == min_trade_value and
             current_expiration_days_out == expiration_days_out and
             current_otm_range == otm_range and

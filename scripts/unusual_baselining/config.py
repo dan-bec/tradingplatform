@@ -67,14 +67,13 @@ MAX_K = 10
 ITM_THRESHOLD = 0.55
 ITM_THRESHOLD_100 = itm_str_prep(ITM_THRESHOLD)
 
-@cache_and_handle_errors
 def latest_db_date():
     con = duckdb.connect(FULL_DB_PATH) 
-    result = con.execute(f"SELECT max(data_date) FROM {PREP}.filtered_short_term_otm_options_trades;").fetchone()[0] # type: ignore
+    result = con.execute(f"SELECT max(data_date) FROM {PREP_SCHEMA}.filtered_short_term_otm_options_trades;").fetchone()[0] # type: ignore
     result = result.strftime("%Y-%m-%d")
     con.close()
     return result
-print(latest_db_date())
+
 # OUTPUT PATHS
 ITM_PATH = PROJECTS_PATH / latest_db_date() / ITM_THRESHOLD_100
 PREP_OUTPUT_DIR = ITM_PATH / PREP
