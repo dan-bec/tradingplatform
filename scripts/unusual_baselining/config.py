@@ -74,7 +74,7 @@ def latest_db_date():
     result = result.strftime("%Y-%m-%d")
     con.close()
     return result
-
+print(latest_db_date())
 # OUTPUT PATHS
 ITM_PATH = PROJECTS_PATH / latest_db_date() / ITM_THRESHOLD_100
 PREP_OUTPUT_DIR = ITM_PATH / PREP

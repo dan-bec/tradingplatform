@@ -17,8 +17,6 @@ S3_ENDPOINT = "https://files.polygon.io"  # Polygon S3-compatible endpoint
 BUCKET_NAME = "flatfiles"  # Polygon bucket name
 SHARED_DATA_PATH = REPO_ROOT / "src" / "BullseyeApp" / "Shared" / "Data"
 DATASERVICES_PATH = SHARED_DATA_PATH / "DataService.cs"
-GDRIVE_CREDS = SHARED_DATA_PATH / "Credentials.json"
-GDRIVE_FOLDER = "1ItSs-28eBoL1zGSKXwoKwnlHTZeQRcJQ"
 
 RAW = "raw_data"
 
