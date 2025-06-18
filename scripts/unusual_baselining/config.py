@@ -51,7 +51,7 @@ OPTION_TRADE_DIR = DATA_PATH / "options" / "trades"
 SECTORS_CSV = DATA_PATH / "stocks" / "sectors_industries.csv"
 
 # RAW DATA LOAD
-START_DATE = str(datetime.now().date() - timedelta(days=365))
+START_DATE = str(datetime.now().date() - timedelta(days=2*365))
 END_DATE = str(datetime.now().date())  # Updated to include today
 NUM_FILES_TO_PROCESS = 200
 
