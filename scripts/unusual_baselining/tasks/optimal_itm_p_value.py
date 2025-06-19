@@ -51,9 +51,9 @@ def main(itm_threshold):
             END as trade_value_category
             , max(ftd.trade_value) as max_trade_value
             , min(ftd.trade_value) as min_trade_value
-            , sum(ftd.itm) as itm_total
-            , count(*) * 1.0 as total
-            , itm_total / total as itm_pct
+            , sum(ftd.itm) as itm_count
+            , count(*) * 1.0 as total_count
+            , itm_count / total_count as itm_pct
             FROM {prep_schema}.filtered_short_term_otm_options_trades ftd
             JOIN {prep_schema}.security_percentiles sp on ftd.security = sp.security
             WHERE ftd.trade_value >= sp.p75_trade_value 
@@ -61,8 +61,8 @@ def main(itm_threshold):
         )
 
         SELECT *
-        , sum(itm_total) OVER (PARTITION BY security ORDER BY trade_value_category) as itm_running_total 
-        , sum(total) OVER (PARTITION BY security ORDER BY trade_value_category) * 1.0 as running_total
+        , sum(itm_count) OVER (PARTITION BY security ORDER BY trade_value_category) as itm_running_total 
+        , sum(total_count) OVER (PARTITION BY security ORDER BY trade_value_category) * 1.0 as running_total
         , itm_running_total / running_total as itm_running_pct
         FROM _prep_data
         ORDER BY security, trade_value_category
@@ -98,10 +98,8 @@ def main(itm_threshold):
                 'trade_value_category': [None],
                 'number_of_trades': [None]
             })
-        
-        # Filter the group: include categories 1,2,3 only if min_trade_value <= 1,000,000, and always include categories >= 4
-        include_mask = ((group['cat_num'] <= 3) & (group['min_trade_value'] <= 1_000_000)) | (group['cat_num'] >= 4)
-        filtered_group = group[include_mask].sort_values('cat_num')
+
+        filtered_group = group.sort_values('cat_num')
         
         if filtered_group.empty:
             return pd.DataFrame({
@@ -112,7 +110,9 @@ def main(itm_threshold):
         
         for i in range(len(filtered_group)):
             current = filtered_group.iloc[i]
-            if current['itm_pct'] < itm_threshold:
+            if current['total_count'] < 5:
+                continue
+            elif current['itm_pct'] < itm_threshold:
                 if i == 0:
                     return pd.DataFrame({
                         'unusual_baseline': [None],
@@ -139,7 +139,7 @@ def main(itm_threshold):
 
     # Step 2: Compute 'unusual_baseline', 'trade_value_category', and 'running_total'
     unusual_baselines = df.groupby('security').apply(
-        lambda g: compute_unusual_baseline(g[['cat_num', 'min_trade_value', 'itm_pct', 'trade_value_category', 'running_total']]),
+        lambda g: compute_unusual_baseline(g[['cat_num', 'min_trade_value', 'total_count', 'itm_pct', 'trade_value_category', 'running_total']]),
         include_groups=False
     ).reset_index()
 

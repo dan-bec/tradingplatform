@@ -22,6 +22,7 @@ import logging
 from pathlib import Path
 import subprocess
 import duckdb
+import os
 import shutil
 
 def bool_type(value):
@@ -61,10 +62,18 @@ def move_results():
     con = duckdb.connect(full_db_path)
     print(f"Connected to DuckDB database: {full_db_path}")
 
-    latest_data_date_str = result = con.execute(f"SELECT max(data_date) FROM {prep_schema}.filtered_short_term_otm_options_trades").fetchone()[0].strftime("%Y-%m-%d") # type: ignore
+    latest_data_date_str = con.execute(f"SELECT max(data_date) FROM {prep_schema}.filtered_short_term_otm_options_trades").fetchone()[0].strftime("%Y-%m-%d") # type: ignore
 
-    final_path = projects_path / latest_data_date_str
+    final_path = projects_path / latest_data_date_str / itm_threshold_100
     print(f"Moving files to final desitination: {final_path}")
+    # If the destination exists, remove it first
+    if os.path.exists(final_path):
+        if os.path.isdir(final_path):
+            shutil.rmtree(final_path)  # Remove the existing directory and its contents
+        else:
+            os.remove(final_path)  # Remove the file if dst is a file
+    
+    # Move the source directory to the destination
     shutil.move(itm_path, final_path)
     print(f"Files moved to final desitination: {final_path}")
 

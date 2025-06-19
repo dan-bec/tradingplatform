@@ -93,7 +93,7 @@ def main(itm_threshold):
     """)
     print(f"All securities stats data written to {all_stats_output}")
     shutil.copy(all_stats_output, latest_dir / all_stats_output.name)
-    print(f"All options trades above baseline written to {latest_dir} / {all_stats_output.name}")
+    print(f"All options trades above baseline written to {latest_dir}/{all_stats_output.name}")
 
     # Combine Prep Analysis for trade categories
     con.execute(f"""
@@ -106,7 +106,8 @@ def main(itm_threshold):
         , ip.trade_value_category
         , ip.max_trade_value
         , ip.min_trade_value
-        , ip.itm_total,total
+        , ip.itm_count
+        , ip.total_count
         , ip.itm_pct
         , {itm_threshold} as itm_threshold
         , CASE WHEN ub.security is not null THEN '1. ABOVE BASELINE' ELSE '2. BELOW BASELINE' END as ab
@@ -133,7 +134,7 @@ def main(itm_threshold):
     """)
     print(f"All securities trade value categories stats data written to {all_trade_categories_output}")
     shutil.copy(all_trade_categories_output, latest_dir / all_trade_categories_output.name)
-    print(f"All options trades above baseline written to {latest_dir} / {all_trade_categories_output.name}")
+    print(f"All options trades above baseline written to {latest_dir}/{all_trade_categories_output.name}")
 
     # Combine Prep Analysis for trade categories
     con.execute(f"""
@@ -168,7 +169,7 @@ def main(itm_threshold):
     """)
     print(f"All options trades above baseline written to {all_trades_output}")
     shutil.copy(all_trades_output, latest_dir / all_trades_output.name)
-    print(f"All options trades above baseline written to {latest_dir} / {all_trades_output.name}")
+    print(f"All options trades above baseline written to {latest_dir}/{all_trades_output.name}")
 
     ### SEGMENTED OUTPUTS ###
 

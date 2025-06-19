@@ -94,7 +94,7 @@ where data_date > current_date() - INTERVAL 7 DAYS
 
 # Get unique rows from query
 result = con.execute(f"""
-SELECT MAX(data_date) FROM raw_data.all_options_trades_data
+SELECT * FROM ub_prep.unusual_baselines_55 where security = 'COIN'
 """).fetchdf()
 print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
 # result.to_csv(sys.stdout, index=False)
