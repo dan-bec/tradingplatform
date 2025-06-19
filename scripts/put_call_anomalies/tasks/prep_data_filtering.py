@@ -78,9 +78,9 @@ def main(min_trade_value, short_term_days_out, medium_term_days_out, long_term_d
                 trade_size	INTEGER	
                 )
         """)
-        print(f"Created {raw_schema}.stock_daily_data db table")
+        print(f"Created {prep_schema}.filtered_options_trades db table")
 
-        print(f"Building {prep_schema}.filtered_options_trades table")
+        print(f"Loading {prep_schema}.filtered_options_trades table")
         # Create trades_data table with only the relevant trades
         con.execute(f"""
             INSERT INTO {prep_schema}.filtered_options_trades
