@@ -14,8 +14,8 @@ print(f"Start time: {start_time:.2f} seconds")
 # Define file paths
 data_path = config.DATA_PATH
 full_db_path = config.FULL_DB_PATH
-prep_schema = config.PREP
-compiled_schema = config.COMPILED
+prep_schema = config.PREP_SCHEMA
+compiled_schema = config.COMPILED_SCHEMA
 itm_threshold = config.ITM_THRESHOLD
 itm_threshold_100 = config.itm_str_prep(itm_threshold)
 number_of_bins = config.NUMBER_OF_BINS
@@ -94,11 +94,10 @@ where data_date > current_date() - INTERVAL 7 DAYS
 
 # Get unique rows from query
 result = con.execute(f"""
-SELECT * FROM ub_prep.unusual_baselines_55 where security = 'COIN'
+SELECT * from  {compiled_schema}.all_securities_stats_{itm_threshold_100}   where security = 'OXY'
 """).fetchdf()
 print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
 # result.to_csv(sys.stdout, index=False)
-
 
 # Explicitly close the connection
 con.close()

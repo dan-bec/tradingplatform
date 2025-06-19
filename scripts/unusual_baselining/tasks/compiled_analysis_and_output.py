@@ -61,6 +61,7 @@ def main(itm_threshold,number_of_bins):
         , ub.unusual_baseline
         , ub.trade_value_category
         , ub.number_of_trades as num_trades_over_baseline
+        , ip.running_total as trades_over_p75
         , sp.qualifying_trades as num_trades_total
         , cs.final_cluster
         , cs.trade_volume_bin
@@ -77,6 +78,7 @@ def main(itm_threshold,number_of_bins):
         JOIN {prep_schema}.unusual_baselines_{itm_threshold_100} ub on ub.security = si.security
         JOIN {prep_schema}.security_percentiles sp on sp.security = si.security
         JOIN {prep_schema}.clustered_securities cs on cs.security = si.security
+        JOIN {prep_schema}.itm_percentages ip on ip.security = si.security and ip.trade_value_category = '8. p75_trade_value'
         ORDER BY si.security
     """)
     print(f"Created and Loaded {compiled_schema}.all_securities_stats_{itm_threshold_100}  db table")
