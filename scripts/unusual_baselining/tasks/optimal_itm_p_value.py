@@ -26,7 +26,6 @@ def main(itm_threshold):
 
     # Connect to DuckDB
     con = duckdb.connect(full_db_path)
-    print(f"Connected to DuckDB database: {full_db_path}")
 
     # Pre-aggregate results based on trade_value_category
     con.execute(f"""

@@ -19,6 +19,8 @@ from scripts.unusual_baselining.tasks.compiled_analysis_and_output import main a
 import logging
 from pathlib import Path
 import subprocess
+import duckdb
+import shutil
 
 def bool_type(value):
     try:
@@ -51,6 +53,35 @@ def export_settings():
         for key in sorted(subset_dict):
             value = subset_dict[key]
             f.write(f"{key}: {repr(value)}\n")
+
+def move_results():
+    full_db_path = config.FULL_DB_PATH
+    projects_path = config.PROJECTS_PATH
+    itm_path = config.ITM_PATH
+    itm_threshold_100 = config.ITM_THRESHOLD_100
+    prep_schema = config.PREP_SCHEMA
+
+    con = duckdb.connect(full_db_path)
+    print(f"Connected to DuckDB database: {full_db_path}")
+
+    latest_data_date_str = result = con.execute(f"SELECT max(data_date) FROM {prep_schema}.filtered_short_term_otm_options_trades").fetchone()[0].strftime("%Y-%m-%d") # type: ignore
+
+    final_path = projects_path / latest_data_date_str / itm_threshold_100
+    print(f"Moving files to final desitination: {final_path}")
+    shutil.move(itm_path, final_path)
+    print(f"Files moved to final desitination: {final_path}")
+
+    if itm_path.exists():
+        try:
+            shutil.rmtree(itm_path)
+            print(f"Deleted folder: {itm_path}")
+        except Exception as e:
+            print(f"Failed to delete folder: {e}")
+    else:
+        print(f"Folder does not exist: {itm_path}")
+
+    # Close connection
+    con.close()
 
 def main():
     # Capture and print start time
@@ -85,7 +116,13 @@ def main():
     combined_main(args.itm_threshold)
     print("Completed combined_analysis_and_output.")
 
+    print("Running export_sttings...")
     export_settings()
+    print("Completed export_sttings.")
+
+    print("Running move_results...")
+    move_results()
+    print("Completed move_results.")
 
 if __name__ == "__main__":
     # Capture and print start time

@@ -15,11 +15,13 @@ import duckdb
 import pandas as pd
 import numpy as np
 from collections import defaultdict
+import shutil
 
 ### SETTINGS ###
 projects_path = config.PROJECTS_PATH
 full_db_path = config.FULL_DB_PATH
 raw_schema = config.RAW_SCHEMA
+itm_path = config.ITM_PATH
 prep_schema = config.PREP_SCHEMA
 compiled_schema = config.COMPILED_SCHEMA
 compiled_dir = config.COMPILED_OUTPUT_DIR
@@ -164,7 +166,7 @@ def main(itm_threshold):
     # Get all unique sectors
     sectors = con.execute(f"SELECT DISTINCT sector FROM {raw_schema}.sector_industry").fetchall()
     sectors = [row[0] for row in sectors]
-
+ 
     for sector in sectors:
         modified_sector = modify_sector_name(sector)
         sector_folder = segmented_dir / modified_sector

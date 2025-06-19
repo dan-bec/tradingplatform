@@ -69,35 +69,9 @@ MAX_K = 10
 # OPTIMAL ITM
 ITM_THRESHOLD = 0.55
 ITM_THRESHOLD_100 = itm_str_prep(ITM_THRESHOLD)
-
-def latest_db_date():
-    static_date = "1900-01-01"  # Define the static fallback date
-    try:
-        with duckdb.connect(FULL_DB_PATH) as con:
-            # Step 1: Check if the schema exists
-            schemas = con.execute("select distinct table_schema from information_schema.tables").fetchall()
-            schema_names = [row[0] for row in schemas]
-            if PREP_SCHEMA not in schema_names:
-                return static_date
-
-            # Step 2: Check if the table exists within the schema
-            tables = con.execute(f"SHOW TABLES FROM {PREP_SCHEMA}").fetchall()
-            table_names = [row[0] for row in tables]
-            if 'filtered_short_term_otm_options_trades' not in table_names:
-                return static_date
-
-            # Step 3: Query the latest date
-            result = con.execute(f"SELECT max(data_date) FROM {PREP_SCHEMA}.filtered_short_term_otm_options_trades").fetchone()[0] # type: ignore
-            if result is not None:
-                return result.strftime("%Y-%m-%d")
-            return static_date
-
-    except duckdb.Error as e:
-        print(f"Error querying the database: {e}")
-        return static_date
-    
+  
 # OUTPUT PATHS
-ITM_PATH = PROJECTS_PATH / latest_db_date() / ITM_THRESHOLD_100
+ITM_PATH = PROJECTS_PATH / ITM_THRESHOLD_100
 PREP_OUTPUT_DIR = ITM_PATH / PREP
 COMPILED_OUTPUT_DIR = ITM_PATH / COMPILED
 SEGMENTED_OUTPUT_DIR = ITM_PATH / SEGMENTED

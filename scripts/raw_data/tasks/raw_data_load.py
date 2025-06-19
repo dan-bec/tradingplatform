@@ -23,7 +23,6 @@ stock_summary_dir = config.STOCK_SUMMARY_DIR
 sectors_industries_csv = config.SECTORS_CSV
 option_trade_dir = config.OPTION_TRADE_DIR
 raw_schema = config.RAW_SCHEMA
-print(sectors_industries_csv)
 
 # Connect to DuckDB
 con = duckdb.connect(str(full_db_path))
@@ -99,7 +98,7 @@ def get_files_to_load(src_tbl: str, directory_path: Path, num_files_to_load: int
     return file_paths
 
 ### RAW DATA ###
-def main(num_files_to_load):
+def main(num_files_to_load, batch_size):
     # Capture and print start time
     start_time = time.time()
     print(f"Start time: {start_time:.2f} seconds")
@@ -226,26 +225,30 @@ def main(num_files_to_load):
     stock_daily_files = get_files_to_load('stock_daily_data',stock_summary_dir, num_files_to_load, con)
     # Load only the new files
     if stock_daily_files:
-        con.execute(f"""
-            INSERT INTO {raw_schema}.stock_daily_data
-            SELECT 
-                ticker,
-                volume,
-                open,
-                close,
-                high,
-                low,
-                window_start,
-                transactions,
-                CAST(
-                    CASE
-                        WHEN REGEXP_EXTRACT(filename, '(\d{{4}}-\d{{2}}-\d{{2}})\.csv.gz$', 1) != '' 
-                        THEN REGEXP_EXTRACT(filename, '(\d{{4}}-\d{{2}}-\d{{2}})\.csv.gz$', 1)
-                        ELSE NULL
-                    END AS DATE
-                ) AS data_date
-            FROM read_csv_auto({stock_daily_files}, filename=True, compression='gzip')
-        """)
+        total_batches = ((len(stock_daily_files) - 1) // batch_size) + 1
+        for i in range(0, len(stock_daily_files), batch_size):
+            batch = stock_daily_files[i:i + batch_size]
+            print(f"Loading batch {i // batch_size + 1} of {total_batches} for stock_daily_data")
+            con.execute(f"""
+                INSERT INTO {raw_schema}.stock_daily_data
+                SELECT 
+                    ticker,
+                    volume,
+                    open,
+                    close,
+                    high,
+                    low,
+                    window_start,
+                    transactions,
+                    CAST(
+                        CASE
+                            WHEN REGEXP_EXTRACT(filename, '(\d{{4}}-\d{{2}}-\d{{2}})\.csv.gz$', 1) != '' 
+                            THEN REGEXP_EXTRACT(filename, '(\d{{4}}-\d{{2}}-\d{{2}})\.csv.gz$', 1)
+                            ELSE NULL
+                        END AS DATE
+                    ) AS data_date
+                FROM read_csv_auto({batch}, filename=True, compression='gzip')
+            """)
         print(f"Loaded data from {len(stock_daily_files)} new files into {raw_schema}.stock_daily_data")
     else:
         print(f"No new data to load to {raw_schema}.stock_daily_data.")
@@ -276,38 +279,42 @@ def main(num_files_to_load):
     option_trade_files = get_files_to_load('all_options_trades_data',option_trade_dir, num_files_to_load, con)
     # Load only the new files
     if option_trade_files:
-        con.execute(f"""
-            INSERT INTO {raw_schema}.all_options_trades_data
-            SELECT 
-                ticker AS option_ticker,
-                REGEXP_EXTRACT(ticker, '^O:([A-Z]+)\d{{0,1}}\d{{6}}[CP]\d{{8}}$', 1) AS security,
-                REGEXP_EXTRACT(ticker, '^O:[A-Z]+\d{{0,1}}\d{{6}}([CP])\d{{8}}$', 1) AS option_type,
-                CASE
-                    WHEN REGEXP_EXTRACT(ticker, '^O:[A-Z]+\d{{0,1}}\d{{6}}[CP](\d{{8}})$', 1) != ''
-                    THEN REGEXP_EXTRACT(ticker, '^O:[A-Z]+\d{{0,1}}\d{{6}}[CP](\d{{8}})$', 1)::DOUBLE / 1000.0 
-                    ELSE NULL
-                END  AS strike_price,
-                CASE
-                    WHEN REGEXP_EXTRACT(ticker, '^O:[A-Z]+\d{{0,1}}(\d{{6}})[CP]\d{{8}}$', 1) != ''
-                    THEN STRPTIME(REGEXP_EXTRACT(ticker, '^O:[A-Z]+\d{{0,1}}(\d{{6}})[CP]\d{{8}}$', 1), '%y%m%d')::DATE
-                    ELSE NULL
-                END AS expiration,
-                conditions,
-                correction,
-                exchange,
-                price,
-                sip_timestamp,
-                size,
-                price * size * 100 AS trade_value,
-                CAST(
+        total_batches = ((len(option_trade_files) - 1) // batch_size) + 1
+        for i in range(0, len(option_trade_files), batch_size):
+            batch = option_trade_files[i:i + batch_size]
+            print(f"Loading batch {i // batch_size + 1} of {total_batches} for all_options_trades_data")
+            con.execute(f"""
+                INSERT INTO {raw_schema}.all_options_trades_data
+                SELECT 
+                    ticker AS option_ticker,
+                    REGEXP_EXTRACT(ticker, '^O:([A-Z]+)\d{{0,1}}\d{{6}}[CP]\d{{8}}$', 1) AS security,
+                    REGEXP_EXTRACT(ticker, '^O:[A-Z]+\d{{0,1}}\d{{6}}([CP])\d{{8}}$', 1) AS option_type,
                     CASE
-                        WHEN REGEXP_EXTRACT(filename, '(\d{{4}}-\d{{2}}-\d{{2}})\.csv.gz$', 1) != '' 
-                        THEN REGEXP_EXTRACT(filename, '(\d{{4}}-\d{{2}}-\d{{2}})\.csv.gz$', 1)
+                        WHEN REGEXP_EXTRACT(ticker, '^O:[A-Z]+\d{{0,1}}\d{{6}}[CP](\d{{8}})$', 1) != ''
+                        THEN REGEXP_EXTRACT(ticker, '^O:[A-Z]+\d{{0,1}}\d{{6}}[CP](\d{{8}})$', 1)::DOUBLE / 1000.0 
                         ELSE NULL
-                    END AS DATE
-                ) AS data_date
-            FROM read_csv_auto({option_trade_files}, filename=True, compression='gzip')
-        """)
+                    END  AS strike_price,
+                    CASE
+                        WHEN REGEXP_EXTRACT(ticker, '^O:[A-Z]+\d{{0,1}}(\d{{6}})[CP]\d{{8}}$', 1) != ''
+                        THEN STRPTIME(REGEXP_EXTRACT(ticker, '^O:[A-Z]+\d{{0,1}}(\d{{6}})[CP]\d{{8}}$', 1), '%y%m%d')::DATE
+                        ELSE NULL
+                    END AS expiration,
+                    conditions,
+                    correction,
+                    exchange,
+                    price,
+                    sip_timestamp,
+                    size,
+                    price * size * 100 AS trade_value,
+                    CAST(
+                        CASE
+                            WHEN REGEXP_EXTRACT(filename, '(\d{{4}}-\d{{2}}-\d{{2}})\.csv.gz$', 1) != '' 
+                            THEN REGEXP_EXTRACT(filename, '(\d{{4}}-\d{{2}}-\d{{2}})\.csv.gz$', 1)
+                            ELSE NULL
+                        END AS DATE
+                    ) AS data_date
+                FROM read_csv_auto({batch}, filename=True, compression='gzip')
+            """)
         print(f"Loaded data from {len(option_trade_files)} new files into {raw_schema}.all_options_trades_data")
     else:
         print(f"No new data to load to {raw_schema}.all_options_trades_data.")
@@ -340,5 +347,6 @@ if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--num-files-to-load", type=int, default=config.NUM_FILES_TO_PROCESS)
+    parser.add_argument("--batch-size", type=int, default=config.BATCH_SIZE)
     args = parser.parse_args()
-    main(args.num_files_to_load)
+    main(args.num_files_to_load, args.batch_size)
