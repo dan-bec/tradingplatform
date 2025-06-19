@@ -12,10 +12,8 @@ if str(REPO_ROOT) not in sys.path:
 import scripts.unusual_baselining.config as config
 import time
 import duckdb
-import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import numpy as np
 from sklearn.ensemble import IsolationForest
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler

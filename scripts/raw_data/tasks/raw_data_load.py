@@ -248,8 +248,8 @@ def main(num_files_to_load):
         """)
         print(f"Loaded data from {len(stock_daily_files)} new files into {raw_schema}.stock_daily_data")
     else:
-        print("No new data to load to {raw_schema}.stock_daily_data.")
-    print("!!!ROWS IN {raw_schema}.stock_daily_data!!!:", con.execute(f"SELECT COUNT(*) FROM {raw_schema}.stock_daily_data").fetchone()[0]) # type: ignore
+        print(f"No new data to load to {raw_schema}.stock_daily_data.")
+    print(f"!!!ROWS IN {raw_schema}.stock_daily_data!!!:", con.execute(f"SELECT COUNT(*) FROM {raw_schema}.stock_daily_data").fetchone()[0]) # type: ignore
 
     #### RAW TRADE DATA ####
 

@@ -14,6 +14,7 @@ import time
 import scripts.raw_data.config as config
 from scripts.raw_data.tasks.download_data import main as download_main
 from scripts.raw_data.tasks.raw_data_load import main as load_main
+from scripts.raw_data.tasks.average_true_range import main as atr_main
 
 def main():
     import argparse
@@ -30,6 +31,7 @@ def main():
 
     download_main(start_date, end_date)
     load_main(num_files_to_load)
+    atr_main()
 
 if __name__ == "__main__":
     start_time = time.time()

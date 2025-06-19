@@ -32,4 +32,4 @@ SECTORS_CSV = DATA_PATH / "stocks" / "sectors_industries.csv"
 # RAW DATA LOAD
 START_DATE = str(datetime.now().date() - timedelta(days=2*365))
 END_DATE = str(datetime.now().date())  # Updated to include today
-NUM_FILES_TO_PROCESS = 200
+NUM_FILES_TO_PROCESS = 500

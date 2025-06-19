@@ -12,8 +12,10 @@ if str(REPO_ROOT) not in sys.path:
 from datetime import datetime
 import time
 import scripts.put_call_anomalies.config as config
-from scripts.put_call_anomalies.tasks.prep_data_filter_agg import main as prep_main
-from scripts.put_call_anomalies.tasks.compiled_analysis_and_output import main as combined_main
+from scripts.put_call_anomalies.tasks.prep_data_filtering import main as prep_main
+from scripts.put_call_anomalies.tasks.prep_atr_limits import main as atr_limit_main
+from scripts.put_call_anomalies.tasks.prep_data_filter_agg import main as prep_agg_main
+from scripts.put_call_anomalies.tasks.prep_data_predict_ranges import main as predict_main
 import logging
 from pathlib import Path
 import subprocess
@@ -31,7 +33,7 @@ def run_script(script_name, args_list):
 
 def export_settings():
     # Define the output directory and file
-    output_dir = config.ITM_PATH
+    output_dir = config.PCA_PATH
     output_dir.mkdir(parents=True, exist_ok=True)
     output_file = output_dir / 'settings.txt'
 
@@ -39,7 +41,7 @@ def export_settings():
     settings_dict = {k: v for k, v in vars(config).items() if not k.startswith('__')}
 
     # Define the subset of keys to export
-    desired_keys = {'STRICT_OTM', 'MIN_TRADE_VALUE', 'TOP_N_TRADES', 'EXPIRATION_DAYS_OUT', 'NUMBER_OF_BINS', ''}
+    desired_keys = {'MIN_TRADE_VALUE', 'SHORT_TERM_DAYS_OUT', 'MEDIUM_TERM_DAYS_OUT', 'LONG_TERM_DAYS_OUT', 'ATR_MAX', 'DAYS_TO_INCLUDE', 'MAD_K'}
 
     # Filter the settings to include only the desired keys that exist in config
     subset_dict = {k: settings_dict[k] for k in desired_keys & settings_dict.keys()}
@@ -58,29 +60,30 @@ def main():
     # Define command-line arguments
     import argparse
     parser = argparse.ArgumentParser(description="Run 'put_call_anomalies' scripts with specified parameters")
-    parser.add_argument("--strict-otm", type=bool_type, default=config.STRICT_OTM, help="Use strict OTM range")
     parser.add_argument("--min-trade-value", type=float, default=config.MIN_TRADE_VALUE, help="Minimum trade value")
-    parser.add_argument("--expiration-days-out", type=int, default=config.EXPIRATION_DAYS_OUT, help="Expiration days out")
-    parser.add_argument("--number-of-bins", type=int, default=config.NUMBER_OF_BINS, help="Number of bins")
-    parser.add_argument("--max-k", type=int, default=config.MAX_K, help="Max k for clustering")
-    parser.add_argument("--itm-threshold", type=float, default=config.ITM_THRESHOLD, help="ITM threshold")
+    parser.add_argument("--short-term-days-out", type=int, default=config.SHORT_TERM_DAYS_OUT, help="Short term days out")
+    parser.add_argument("--medium-term-days-out", type=int, default=config.MEDIUM_TERM_DAYS_OUT, help="Medium term days out")
+    parser.add_argument("--long-term-days-out", type=int, default=config.LONG_TERM_DAYS_OUT, help="Long term days out")
+    parser.add_argument("--atr-max", type=int, default=config.ATR_MAX, help="ATR max out")
+    parser.add_argument("--days-to-include", type=int, default=config.DAYS_TO_INCLUDE, help="Days to consider for analysis")
+    parser.add_argument("--k-value", type=float, default=config.MAD_K, help="k value for Median Absolute Deviation (MAD)")
 
     args = parser.parse_args()
 
     print("Running prep_data_filtering...")
-    prep_main(args.strict_otm, args.min_trade_value, args.expiration_days_out)
+    prep_main(args.min_trade_value, args.short_term_days_out, args.medium_term_days_out, args.long_term_days_out, args.atr_max)
     print("Completed prep_data_filtering.")
 
     print("Running per_security_clustering...")
-    cluster_main(args.number_of_bins, args.max_k)
+    atr_limit_main(args.days_to_include)
     print("Completed per_security_clustering.")
 
     print("Running optimal_itm_p_value...")
-    optimal_main(args.itm_threshold)
+    prep_agg_main(args.atr_max)
     print("Completed optimal_itm_p_value.")
 
     print("Running combined_analysis_and_output...")
-    combined_main(args.itm_threshold)
+    predict_main(args.days_to_include, args.k_value)
     print("Completed combined_analysis_and_output.")
 
     export_settings()

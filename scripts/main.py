@@ -2,6 +2,7 @@ import multiprocessing
 import subprocess
 from raw_data.main import main as run_raw_data
 from unusual_baselining.main import main as run_unusual_baselining
+from put_call_anomalies.main import main as run_put_call_anomalies
 import config
 import upload_to_drive as upload_to_drive
 import logging
@@ -58,6 +59,17 @@ def main():
     run_raw_data()
     print("Completed raw_data execution.")
 
+    # Run run_unusual_baselining first (sequential)
+    print("Starting run_unusual_baselining execution...")
+    run_unusual_baselining()
+    print("Completed run_unusual_baselining execution.")
+
+    # Run run_put_call_anomalies first (sequential)
+    print("Starting run_put_call_anomalies execution...")
+    run_put_call_anomalies()
+    print("Completed run_put_call_anomalies execution.")
+
+    '''
     # List of subsequent applications to run in parallel
     parallel_tasks = [
         run_unusual_baselining,
@@ -77,6 +89,7 @@ def main():
         for p in processes:
             p.join()
         print("All parallel tasks completed.")
+    '''
 
     # push results to GitHub
     push_to_github()

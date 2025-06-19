@@ -14,9 +14,15 @@ print(f"Start time: {start_time:.2f} seconds")
 # Define file paths
 data_path = config.DATA_PATH
 full_db_path = config.FULL_DB_PATH
+raw_schema = config.RAW_SCHEMA
 prep_schema = config.PREP_SCHEMA
 compiled_schema = config.COMPILED_SCHEMA
 number_of_bins = config.NUMBER_OF_BINS
+days_to_include = config.DAYS_TO_INCLUDE
+days_to_include_str = str(int(days_to_include))
+short_term_days_out = config.SHORT_TERM_DAYS_OUT
+medium_term_days_out = config.MEDIUM_TERM_DAYS_OUT
+long_term_days_out = config.LONG_TERM_DAYS_OUT
 
 # Connect to DuckDB
 con = duckdb.connect(str(full_db_path))
@@ -91,11 +97,18 @@ where data_date > current_date() - INTERVAL 7 DAYS
 
 SELECT dte_category,count(*) FROM pca_prep.agg_filtered_options_trades group by 1 limit 10
 SELECT * FROM pca_prep.agg_filtered_options_trades limit 10
-'''
+    select *
+    from {prep_schema}.predict_cp_ratio_{days_to_include_str}_days
+    where security in ('ABBV')
+    
+    '''
 
 # Get unique rows from query
 result = con.execute(f"""
-drop schema pca_prep cascade;
+select *
+                     from pca_prep.predict_cp_ratio_14_days
+                     where security = 'ABBV'
+    
 """).fetchdf()
 # print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
 result.to_csv(sys.stdout, index=False)

@@ -54,12 +54,11 @@ def main(otm_range, min_trade_value, expiration_days_out):
                 current_max_data_date == raw_max_data_date):
                 print("Settings match and data is up-to-date. Skipping rebuild.")
                 rebuild = False
-    except duckdb.CatalogException:
-        # Table or schema doesn't exist, so proceed with rebuild
+    except duckdb.Error as e:
         pass
+        print("Table or schema does not exist. Proceeding with rebuild.")
 
     if rebuild:
-        print(f"Building {prep_schema}.filtered_short_term_otm_options_trades table")
         con.execute(f"DROP SCHEMA IF EXISTS {prep_schema} CASCADE;")
         con.execute(f"CREATE SCHEMA {prep_schema};")
         print(f"CREATE OR REPLACE SCHEMA {prep_schema};")
