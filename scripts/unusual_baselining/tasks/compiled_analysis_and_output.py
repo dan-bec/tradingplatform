@@ -2,8 +2,10 @@ import sys
 from pathlib import Path
 
 # Determine the project root dynamically
-TASK_SCRIPT_DIR = Path(__file__).parent
+FILE_DIR = Path(__file__)
+TASK_SCRIPT_DIR = FILE_DIR.parent
 REPO_ROOT = TASK_SCRIPT_DIR.parents[2]  
+FILE_NAME = FILE_DIR.relative_to(REPO_ROOT)
 
 # Insert the project root into sys.path if not already present
 if str(REPO_ROOT) not in sys.path:
@@ -19,6 +21,7 @@ import shutil
 
 ### SETTINGS ###
 projects_path = config.PROJECTS_PATH
+latest_dir = projects_path / "latest"
 full_db_path = config.FULL_DB_PATH
 raw_schema = config.RAW_SCHEMA
 itm_path = config.ITM_PATH
@@ -38,6 +41,10 @@ def process_industry(industry):
     return processed
 
 def main(itm_threshold):
+    # Capture and print start time
+    start_time = time.time()
+    print(f"!!{FILE_NAME}!! Start time: {start_time:.2f} seconds")
+
     itm_threshold_100 = config.itm_str_prep(itm_threshold)
     # Connect to DuckDB
     con = duckdb.connect(full_db_path)
@@ -85,6 +92,8 @@ def main(itm_threshold):
         ) TO '{all_stats_output}' (HEADER, DELIMITER ',')
     """)
     print(f"All securities stats data written to {all_stats_output}")
+    shutil.copy(all_stats_output, latest_dir / all_stats_output.name)
+    print(f"All options trades above baseline written to {latest_dir} / {all_stats_output.name}")
 
     # Combine Prep Analysis for trade categories
     con.execute(f"""
@@ -123,6 +132,8 @@ def main(itm_threshold):
         ) TO '{all_trade_categories_output}' (HEADER, DELIMITER ',')
     """)
     print(f"All securities trade value categories stats data written to {all_trade_categories_output}")
+    shutil.copy(all_trade_categories_output, latest_dir / all_trade_categories_output.name)
+    print(f"All options trades above baseline written to {latest_dir} / {all_trade_categories_output.name}")
 
     # Combine Prep Analysis for trade categories
     con.execute(f"""
@@ -147,15 +158,17 @@ def main(itm_threshold):
     print(f"!!!ROWS IN {compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100}!!!:", con.execute(f"SELECT COUNT(*) FROM {compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100}").fetchone()[0]) # type: ignore
 
     # Output {project}_percentiles files and baseline file
-    all_trade_categories_output = Path(f"{compiled_dir}/3_all_trades_above_baseline.csv")
+    all_trades_output = Path(f"{compiled_dir}/3_all_trades_above_baseline.csv")
     con.execute(f"""
         COPY (
             SELECT *
             FROM {compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100}
             ORDER BY security
-        ) TO '{all_trade_categories_output}' (HEADER, DELIMITER ',')
+        ) TO '{all_trades_output}' (HEADER, DELIMITER ',')
     """)
-    print(f"All options trades above baseline written to {all_trade_categories_output}")
+    print(f"All options trades above baseline written to {all_trades_output}")
+    shutil.copy(all_trades_output, latest_dir / all_trades_output.name)
+    print(f"All options trades above baseline written to {latest_dir} / {all_trades_output.name}")
 
     ### SEGMENTED OUTPUTS ###
 
@@ -244,20 +257,16 @@ def main(itm_threshold):
     # Close connection
     con.close()
 
-if __name__ == "__main__":
-    # Capture and print start time
-    start_time = time.time()
-    print(f"Start time: {start_time:.2f} seconds")
+    # Print execution time
+    end_time = time.time()
+    print(f"!!{FILE_NAME}!! End time: {end_time:.2f} seconds")
+    duration = end_time - start_time
+    print(f"!!{FILE_NAME}!! Execution time: {duration:.2f} seconds")
 
+if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--itm-threshold", type=float, default=config.ITM_THRESHOLD, help="ITM threshold")
     args = parser.parse_args()
 
     main(args.itm_threshold)
-
-    # Print execution time
-    end_time = time.time()
-    print(f"End time: {end_time:.2f} seconds")
-    duration = end_time - start_time
-    print(f"Execution time: {duration:.2f} seconds")

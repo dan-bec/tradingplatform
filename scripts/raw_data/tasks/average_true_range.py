@@ -2,8 +2,10 @@ import sys
 from pathlib import Path
 
 # Determine the project root dynamically
-TASK_SCRIPT_DIR = Path(__file__).parent
+FILE_DIR = Path(__file__)
+TASK_SCRIPT_DIR = FILE_DIR.parent
 REPO_ROOT = TASK_SCRIPT_DIR.parents[2]  
+FILE_NAME = FILE_DIR.relative_to(REPO_ROOT)
 
 # Insert the project root into sys.path if not already present
 if str(REPO_ROOT) not in sys.path:
@@ -19,6 +21,10 @@ full_db_path = config.FULL_DB_PATH
 raw_schema = config.RAW_SCHEMA
 
 def main():
+    # Capture and print start time
+    start_time = time.time()
+    print(f"!!{FILE_NAME}!! Start time: {start_time:.2f} seconds")
+    
     # Connect to DuckDB
     con = duckdb.connect(str(full_db_path))
     print(f"Connected to DuckDB database: {full_db_path}")
@@ -99,19 +105,15 @@ def main():
     # Explicitly close the connection
     con.close()
 
-if __name__ == "__main__":
-    # Capture and print start time
-    start_time = time.time()
-    print(f"ATR Start time: {start_time:.2f} seconds")
+    # Print execution time
+    end_time = time.time()
+    print(f"!!{FILE_NAME}!! End time: {end_time:.2f} seconds")
+    duration = end_time - start_time
+    print(f"!!{FILE_NAME}!! Execution time: {duration:.2f} seconds")
 
+if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
     args = parser.parse_args()
 
     main()
-
-    # Print execution time
-    end_time = time.time()
-    print(f"ATR End time: {end_time:.2f} seconds")
-    duration = end_time - start_time
-    print(f"ATR Execution time: {duration:.2f} seconds")

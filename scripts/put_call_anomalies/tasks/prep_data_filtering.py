@@ -2,8 +2,10 @@ import sys
 from pathlib import Path
 
 # Determine the project root dynamically
-TASK_SCRIPT_DIR = Path(__file__).parent
+FILE_DIR = Path(__file__)
+TASK_SCRIPT_DIR = FILE_DIR.parent
 REPO_ROOT = TASK_SCRIPT_DIR.parents[2]  
+FILE_NAME = FILE_DIR.relative_to(REPO_ROOT)
 
 # Insert the project root into sys.path if not already present
 if str(REPO_ROOT) not in sys.path:
@@ -20,13 +22,16 @@ full_db_path = config.FULL_DB_PATH
 raw_schema = config.RAW_SCHEMA
 prep_schema = config.PREP_SCHEMA
 output_dir = config.PREP_OUTPUT_DIR
-latest_prep_date = datetime.strptime(config.latest_db_date(), "%Y-%m-%d")
 
 def main(min_trade_value, short_term_days_out, medium_term_days_out, long_term_days_out, atr_max):
+    # Capture and print start time
+    start_time = time.time()
+    print(f"!!{FILE_NAME}!! Start time: {start_time:.2f} seconds")
+    
     # Connect to DuckDB
     con = duckdb.connect(str(full_db_path))
     print(f"Connected to DuckDB database: {full_db_path}")
-
+    
     min_trade_value_str = str((min_trade_value))
     short_term_days_out_str = str((short_term_days_out))
     medium_term_days_out_str = str((medium_term_days_out))
@@ -53,32 +58,31 @@ def main(min_trade_value, short_term_days_out, medium_term_days_out, long_term_d
         print("Table or schema does not exist. Proceeding with rebuild.")
 
     if rebuild:
-        con.execute(f"CREATE SCHEMA IF NOT EXISTS {prep_schema};")
-        print(f"CREATE SCHEMA IF NOT EXISTS {prep_schema};")
+        con.execute(f"create schema if not exists {prep_schema};")
+        print(f"create schema if not exists {prep_schema};")
 
         con.execute(f"""
             CREATE TABLE IF NOT EXISTS {prep_schema}.filtered_options_trades (
-                data_date	DATE	,
-                security	VARCHAR	,
-                option_ticker	VARCHAR	,
-                option_condition_name	VARCHAR	,
-                sector	VARCHAR	,
-                industry	VARCHAR	,
-                option_type	VARCHAR	,
-                expiration	DATE	,
-                purchase_itm_otm	VARCHAR	,
-                dte_category	VARCHAR	,
-                strike_diff_hl_price	DOUBLE	,
-                least_atr	DOUBLE	,
-                atr_multiple_raw	DOUBLE	,
-                atr_multiple_rounded	DOUBLE	,
-                min_trade_value	INTEGER	,
-                expiration_days_out	INTEGER	,
-                trade_value	DOUBLE	,
-                trade_size	INTEGER	
+                data_date   DATE    ,
+                security    VARCHAR ,
+                option_ticker   VARCHAR ,
+                sector  VARCHAR ,
+                industry    VARCHAR ,
+                option_type VARCHAR ,
+                expiration  DATE    ,
+                purchase_itm_otm    VARCHAR ,
+                dte_category    VARCHAR ,
+                atr_multiple_rounded    DOUBLE  ,
+                min_trade_value INTEGER ,
+                expiration_days_out INTEGER ,
+                trade_value DOUBLE  ,
+                trade_size  INTEGER ,
+                trade_count INTEGER
                 )
         """)
         print(f"Created {prep_schema}.filtered_options_trades db table")
+
+        latest_prep_date = con.execute(f"SELECT coalesce(max(data_date),'1900-01-01'::date) FROM {prep_schema}.filtered_options_trades").fetchone()[0].strftime("%Y-%m-%d") # type: ignore
 
         print(f"Loading {prep_schema}.filtered_options_trades table")
         # Create trades_data table with only the relevant trades
@@ -87,7 +91,6 @@ def main(min_trade_value, short_term_days_out, medium_term_days_out, long_term_d
             SELECT atd.data_date
                 , atd.security
                 , atd.option_ticker
-                , occ.name as option_condition_name
                 , si.sector
                 , si.industry
                 , atd.option_type
@@ -103,14 +106,15 @@ def main(min_trade_value, short_term_days_out, medium_term_days_out, long_term_d
                     WHEN atd.expiration - atd.data_date <= {long_term_days_out} THEN '3. long_term_expiration_{long_term_days_out_str}'
                     ELSE (atd.expiration - atd.data_date)::VARCHAR
                     END dte_category
-                , abs(atd.strike_price - case atd.option_type when 'C' then std.high when 'P' then std.low end) as strike_diff_hl_price
-                , least(sa.classic_atr,sa.wilder_smoothed_atr) as least_atr
-                , strike_diff_hl_price / nullif(least_atr,0) as atr_multiple_raw
-                , round(atr_multiple_raw * 2) / 2 as atr_multiple_rounded
+                , round(2 *
+                    abs(atd.strike_price - case atd.option_type when 'C' then std.high when 'P' then std.low end)
+                        / nullif(least(sa.classic_atr,sa.wilder_smoothed_atr),0)
+                    ) / 2  as atr_multiple_rounded
                 , {min_trade_value} as min_trade_value
                 , {long_term_days_out} as expiration_days_out
-                , (atd.trade_value) as trade_value
-                , (atd.size) as trade_size
+                , sum(atd.trade_value) as trade_value
+                , sum(atd.size) as trade_size
+                , count(*) as trade_count
             FROM {raw_schema}.all_options_trades_data atd
             JOIN {raw_schema}.option_condition_codes occ ON occ.id = atd.conditions
             JOIN {raw_schema}.sector_industry si ON si.security = atd.security
@@ -123,17 +127,21 @@ def main(min_trade_value, short_term_days_out, medium_term_days_out, long_term_d
                 AND atd.expiration <= atd.data_date + INTERVAL {long_term_days_out}  DAYS -- Options Expiring in N days
                 AND atd.trade_value > {min_trade_value} -- minmum contract size of N
                 AND atd.data_date > '{latest_prep_date}'::date
+            GROUP BY 1,2,3,4,5,6,7,8,9,10
     """)
     print(f"!!!ROWS IN {prep_schema}.filtered_options_trades!!!:", con.execute(f"SELECT COUNT(*) FROM {prep_schema}.filtered_options_trades").fetchone()[0]) # type: ignore
 
     # Explicitly close the connection
     con.close()
+    print(f"Closed DuckDB database: {full_db_path}")
+
+    # Print execution time
+    end_time = time.time()
+    print(f"!!{FILE_NAME}!! End time: {end_time:.2f} seconds")
+    duration = end_time - start_time
+    print(f"!!{FILE_NAME}!! Execution time: {duration:.2f} seconds")
 
 if __name__ == "__main__":
-    # Capture and print start time
-    start_time = time.time()
-    print(f"Start time: {start_time:.2f} seconds")
-
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--min-trade-value", type=float, default=config.MIN_TRADE_VALUE, help="Minimum trade value")
@@ -144,9 +152,3 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     main(args.min_trade_value, args.short_term_days_out, args.medium_term_days_out, args.long_term_days_out, args.atr_max)
-
-    # Print execution time
-    end_time = time.time()
-    print(f"End time: {end_time:.2f} seconds")
-    duration = end_time - start_time
-    print(f"Execution time: {duration:.2f} seconds")

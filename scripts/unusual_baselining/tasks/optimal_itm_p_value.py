@@ -2,8 +2,10 @@ import sys
 from pathlib import Path
 
 # Determine the project root dynamically
-TASK_SCRIPT_DIR = Path(__file__).parent
+FILE_DIR = Path(__file__)
+TASK_SCRIPT_DIR = FILE_DIR.parent
 REPO_ROOT = TASK_SCRIPT_DIR.parents[2]  
+FILE_NAME = FILE_DIR.relative_to(REPO_ROOT)
 
 # Insert the project root into sys.path if not already present
 if str(REPO_ROOT) not in sys.path:
@@ -22,6 +24,10 @@ output_dir = config.PREP_OUTPUT_DIR
 output_dir.mkdir(parents=True, exist_ok=True)
 
 def main(itm_threshold):
+    # Capture and print start time
+    start_time = time.time()
+    print(f"!!{FILE_NAME}!! Start time: {start_time:.2f} seconds")
+
     itm_threshold_100 = config.itm_str_prep(itm_threshold)
 
     # Connect to DuckDB
@@ -93,8 +99,8 @@ def main(itm_threshold):
                 'number_of_trades': [None]
             })
         
-        # Filter the group: include categories 1 and 2 only if min_trade_value <= 1,000,000, and always include categories >= 3
-        include_mask = ((group['cat_num'] <= 2) & (group['min_trade_value'] <= 1_000_000)) | (group['cat_num'] >= 3)
+        # Filter the group: include categories 1,2,3 only if min_trade_value <= 1,000,000, and always include categories >= 4
+        include_mask = ((group['cat_num'] <= 3) & (group['min_trade_value'] <= 1_000_000)) | (group['cat_num'] >= 4)
         filtered_group = group[include_mask].sort_values('cat_num')
         
         if filtered_group.empty:
@@ -154,20 +160,16 @@ def main(itm_threshold):
     # Close connection
     con.close()
 
-if __name__ == "__main__":
-    # Capture and print start time
-    start_time = time.time()
-    print(f"Start time: {start_time:.2f} seconds")
+    # Print execution time
+    end_time = time.time()
+    print(f"!!{FILE_NAME}!! End time: {end_time:.2f} seconds")
+    duration = end_time - start_time
+    print(f"!!{FILE_NAME}!! Execution time: {duration:.2f} seconds")
 
+if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--itm-threshold", type=float, default=config.ITM_THRESHOLD, help="ITM threshold")
     args = parser.parse_args()
 
     main(args.itm_threshold)
-
-    # Print execution time
-    end_time = time.time()
-    print(f"End time: {end_time:.2f} seconds")
-    duration = end_time - start_time
-    print(f"Execution time: {duration:.2f} seconds")

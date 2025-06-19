@@ -105,13 +105,14 @@ SELECT * FROM pca_prep.agg_filtered_options_trades limit 10
 
 # Get unique rows from query
 result = con.execute(f"""
-select *
-                     from pca_prep.predict_cp_ratio_14_days
-                     where security = 'ABBV'
+select * from {prep_schema}.predict_cp_ratio_{days_to_include_str}_days
+where security = 'ABBV'
+order by prediction_date desc,dte_category
+limit 100
     
 """).fetchdf()
-# print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
-result.to_csv(sys.stdout, index=False)
+print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
+# result.to_csv(sys.stdout, index=False)
 
 
 # Explicitly close the connection

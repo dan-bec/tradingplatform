@@ -2,8 +2,10 @@ import sys
 from pathlib import Path
 
 # Determine the project root dynamically
-TASK_SCRIPT_DIR = Path(__file__).parent
+FILE_DIR = Path(__file__)
+TASK_SCRIPT_DIR = FILE_DIR.parent
 REPO_ROOT = TASK_SCRIPT_DIR.parents[2]  
+FILE_NAME = FILE_DIR.relative_to(REPO_ROOT)
 
 # Insert the project root into sys.path if not already present
 if str(REPO_ROOT) not in sys.path:

@@ -41,7 +41,6 @@ def str_to_bool(value):
         raise ValueError(f"Invalid boolean value: '{value}'")
 
 # Base directory (assumes config.py is in the /scripts folder)
-APP_DIR = Path(__file__).parent
 APP_NAME = APP_DIR.name
 TASKS_DIR = APP_DIR / "tasks"
 SCRIPT_DIR = APP_DIR.parent
@@ -64,7 +63,7 @@ EXPIRATION_DAYS_OUT = 30
 NUMBER_OF_BINS = 3
 
 # SECURITY CLUSTERING
-MAX_K = 10
+MAX_CLUSTERS = 10
 
 # OPTIMAL ITM
 ITM_THRESHOLD = 0.55

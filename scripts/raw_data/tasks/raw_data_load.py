@@ -2,8 +2,10 @@ import sys
 from pathlib import Path
 
 # Determine the project root dynamically
-TASK_SCRIPT_DIR = Path(__file__).parent
+FILE_DIR = Path(__file__)
+TASK_SCRIPT_DIR = FILE_DIR.parent
 REPO_ROOT = TASK_SCRIPT_DIR.parents[2]  
+FILE_NAME = FILE_DIR.relative_to(REPO_ROOT)
 
 # Insert the project root into sys.path if not already present
 if str(REPO_ROOT) not in sys.path:
@@ -349,4 +351,5 @@ if __name__ == "__main__":
     parser.add_argument("--num-files-to-load", type=int, default=config.NUM_FILES_TO_PROCESS)
     parser.add_argument("--batch-size", type=int, default=config.BATCH_SIZE)
     args = parser.parse_args()
+    
     main(args.num_files_to_load, args.batch_size)

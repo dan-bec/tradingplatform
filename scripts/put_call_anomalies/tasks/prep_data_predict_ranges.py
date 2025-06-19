@@ -2,8 +2,10 @@ import sys
 from pathlib import Path
 
 # Determine the project root dynamically
-TASK_SCRIPT_DIR = Path(__file__).parent
+FILE_DIR = Path(__file__)
+TASK_SCRIPT_DIR = FILE_DIR.parent
 REPO_ROOT = TASK_SCRIPT_DIR.parents[2]  
+FILE_NAME = FILE_DIR.relative_to(REPO_ROOT)
 
 # Insert the project root into sys.path if not already present
 if str(REPO_ROOT) not in sys.path:
@@ -18,28 +20,46 @@ import duckdb
 full_db_path = config.FULL_DB_PATH
 raw_schema = config.RAW_SCHEMA
 prep_schema = config.PREP_SCHEMA
-output_dir = config.PREP_OUTPUT_DIR
+prep_dir = config.PREP_OUTPUT_DIR
+prep_dir.mkdir(parents=True, exist_ok=True)
 
-def main(days_to_include, k_value):
+def main(days_to_include, k_value, atr_max):
+    # Capture and print start time
+    start_time = time.time()
+    print(f"!!{FILE_NAME}!! Start time: {start_time:.2f} seconds")
+
     # Connect to DuckDB
     con = duckdb.connect(str(full_db_path))
     print(f"Connected to DuckDB database: {full_db_path}")
 
+    latest_prep_date = con.execute(f"SELECT max(data_date) FROM {prep_schema}.filtered_options_trades").fetchone()[0].strftime("%Y-%m-%d") # type: ignore
     days_to_include_str = str((days_to_include))
 
     print(f"Building {prep_schema}.predict_cp_ratio_details_{days_to_include_str}_days table")
     # Create trades_data table with only the relevant trades
     con.execute(f"""
         CREATE OR REPLACE TABLE {prep_schema}.predict_cp_ratio_details_{days_to_include_str}_days AS
-        WITH _daily_ratios AS (
+        WITH RECURSIVE _daily_ratios AS (
             SELECT 
                 data_date,
                 security,
                 dte_category,
                 SUM(CASE WHEN option_type = 'C' THEN trade_value ELSE 0 END) AS call_trade_value,
-                SUM(CASE WHEN option_type = 'P' THEN trade_value ELSE 0 END) AS put_trade_value
-            FROM {prep_schema}.agg_filtered_options_trades
+                SUM(CASE WHEN option_type = 'P' THEN trade_value ELSE 0 END) AS put_trade_value,
+                ROW_NUMBER() OVER (PARTITION BY security, dte_category ORDER BY data_date DESC) as date_filter
+            FROM {prep_schema}.filtered_options_trades__max_atr_{atr_max}
             GROUP BY data_date, security, dte_category
+
+            UNION ALL 
+
+            SELECT data_date + CASE datepart('dayofweek', data_date) WHEN 5 THEN 3 ELSE 1 END as data_date,
+                security,
+                dte_category,
+                NULL as call_trade_value,
+                NULL as put_trade_value,
+                0 as date_filter
+            FROM _daily_ratios
+            WHERE date_filter = 1
         ),
         _date_numbers AS (
             SELECT
@@ -132,7 +152,8 @@ def main(days_to_include, k_value):
                 prediction_date,
                 security,
                 dte_category,
-                count(*) AS dates_considered
+                count(*) AS dates_considered,
+                row_number() OVER (PARTITION BY prediction_date, security, dte_category) as dwm_rn
             FROM {prep_schema}.predict_cp_ratio_details_{days_to_include_str}_days
             GROUP BY prediction_date, security, dte_category
         )
@@ -157,28 +178,37 @@ def main(days_to_include, k_value):
             ON c.prediction_date = mc.prediction_date 
             AND c.security = mc.security 
             AND c.dte_category = mc.dte_category
+        WHERE c.prediction_date >= '{latest_prep_date}'::date - INTERVAL {days_to_include} DAYS
         ORDER BY c.security, c.prediction_date, c.dte_category
     """)
     print(f"!!!ROWS IN {prep_schema}.predict_cp_ratio_{days_to_include_str}_days!!!:", con.execute(f"SELECT COUNT(*) FROM {prep_schema}.predict_cp_ratio_{days_to_include_str}_days").fetchone()[0]) # type: ignore
 
+    # Output {project}_percentiles files and baseline file
+    prediction_ranges_output = Path(f"{prep_dir}/predict_cp_ratio_{days_to_include_str}_days.csv")
+    con.execute(f"""
+        COPY (
+            SELECT *
+            FROM {prep_schema}.predict_cp_ratio_{days_to_include_str}_days
+        ) TO '{prediction_ranges_output}' (HEADER, DELIMITER ',')
+    """)
+    print(f"Call-Put Ration predictions data written to {prediction_ranges_output}")
+
     # Explicitly close the connection
     con.close()
+    print(f"Closed DuckDB database: {full_db_path}")
+            
+    # Print execution time
+    end_time = time.time()
+    print(f"!!{FILE_NAME}!! End time: {end_time:.2f} seconds")
+    duration = end_time - start_time
+    print(f"!!{FILE_NAME}!! Execution time: {duration:.2f} seconds")
 
 if __name__ == "__main__":
-    # Capture and print start time
-    start_time = time.time()
-    print(f"Start time: {start_time:.2f} seconds")
-
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--days-to-include", type=int, default=config.DAYS_TO_INCLUDE, help="Long term days out")
     parser.add_argument("--k-value", type=float, default=config.MAD_K, help="k value for Median Absolute Deviation (MAD)")
+    parser.add_argument("--atr-max", type=int, default=config.ATR_MAX, help="ATR max out")
     args = parser.parse_args()
 
-    main(args.days_to_include, args.k_value)
-
-    # Print execution time
-    end_time = time.time()
-    print(f"End time: {end_time:.2f} seconds")
-    duration = end_time - start_time
-    print(f"Execution time: {duration:.2f} seconds")
+    main(args.days_to_include, args.k_value, args.atr_max)

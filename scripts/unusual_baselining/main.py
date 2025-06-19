@@ -2,8 +2,10 @@ import sys
 from pathlib import Path
 
 # Determine the project root dynamically
-APP_DIR = Path(__file__).parent
+FILE_DIR = Path(__file__)
+APP_DIR = FILE_DIR.parent
 REPO_ROOT = APP_DIR.parents[1]  
+FILE_NAME = FILE_DIR.relative_to(REPO_ROOT)
 
 # Insert the project root into sys.path if not already present
 if str(REPO_ROOT) not in sys.path:
@@ -27,11 +29,6 @@ def bool_type(value):
         return config.str_to_bool(value)
     except ValueError as e:
         raise ValueError(f"Invalid boolean value: '{value}'")
-
-def run_script(script_name, args_list):
-    """Helper function to run a script with given arguments."""
-    cmd = ["python3", config.APP_DIR / script_name] + args_list
-    subprocess.run(cmd, check=True)
 
 def export_settings():
     # Define the output directory and file
@@ -66,7 +63,7 @@ def move_results():
 
     latest_data_date_str = result = con.execute(f"SELECT max(data_date) FROM {prep_schema}.filtered_short_term_otm_options_trades").fetchone()[0].strftime("%Y-%m-%d") # type: ignore
 
-    final_path = projects_path / latest_data_date_str / itm_threshold_100
+    final_path = projects_path / latest_data_date_str
     print(f"Moving files to final desitination: {final_path}")
     shutil.move(itm_path, final_path)
     print(f"Files moved to final desitination: {final_path}")
@@ -83,37 +80,25 @@ def move_results():
     # Close connection
     con.close()
 
-def main():
+def main(strict_otm, min_trade_value, expiration_days_out,number_of_bins, max_clusters,itm_threshold):
     # Capture and print start time
     start_time = time.time()
-    print(f"Main Start time: {start_time:.2f} seconds")
-
-    # Define command-line arguments
-    import argparse
-    parser = argparse.ArgumentParser(description="Run 'unusual_baselining' scripts with specified parameters")
-    parser.add_argument("--strict-otm", type=bool_type, default=config.STRICT_OTM, help="Use strict OTM range")
-    parser.add_argument("--min-trade-value", type=float, default=config.MIN_TRADE_VALUE, help="Minimum trade value")
-    parser.add_argument("--expiration-days-out", type=int, default=config.EXPIRATION_DAYS_OUT, help="Expiration days out")
-    parser.add_argument("--number-of-bins", type=int, default=config.NUMBER_OF_BINS, help="Number of bins")
-    parser.add_argument("--max-k", type=int, default=config.MAX_K, help="Max k for clustering")
-    parser.add_argument("--itm-threshold", type=float, default=config.ITM_THRESHOLD, help="ITM threshold")
-
-    args = parser.parse_args()
+    print(f"!{FILE_NAME}! Start time: {start_time:.2f} seconds")
 
     print("Running prep_data_filtering...")
-    prep_main(args.strict_otm, args.min_trade_value, args.expiration_days_out)
+    prep_main(strict_otm, min_trade_value, expiration_days_out)
     print("Completed prep_data_filtering.")
 
     print("Running per_security_clustering...")
-    cluster_main(args.number_of_bins, args.max_k)
+    cluster_main(number_of_bins, max_clusters)
     print("Completed per_security_clustering.")
 
     print("Running optimal_itm_p_value...")
-    optimal_main(args.itm_threshold)
+    optimal_main(itm_threshold)
     print("Completed optimal_itm_p_value.")
 
     print("Running combined_analysis_and_output...")
-    combined_main(args.itm_threshold)
+    combined_main(itm_threshold)
     print("Completed combined_analysis_and_output.")
 
     print("Running export_sttings...")
@@ -124,15 +109,22 @@ def main():
     move_results()
     print("Completed move_results.")
 
-if __name__ == "__main__":
-    # Capture and print start time
-    start_time = time.time()
-    print(f"UNUSUAL_BASELINING Start time: {start_time:.2f} seconds")
-
-    main()
-
     # Print execution time
     end_time = time.time()
-    print(f"UNUSUAL_BASELINING End time: {end_time:.2f} seconds")
+    print(f"!{FILE_NAME}! End time: {end_time:.2f} seconds")
     duration = end_time - start_time
-    print(f"UNUSUAL_BASELINING Execution time: {duration:.2f} seconds")
+    print(f"!{FILE_NAME}! Execution time: {duration:.2f} seconds")
+
+if __name__ == "__main__":
+    # Define command-line arguments
+    import argparse
+    parser = argparse.ArgumentParser(description="Run 'unusual_baselining' scripts with specified parameters")
+    parser.add_argument("--strict-otm", type=bool_type, default=config.STRICT_OTM, help="Use strict OTM range")
+    parser.add_argument("--min-trade-value", type=float, default=config.MIN_TRADE_VALUE, help="Minimum trade value")
+    parser.add_argument("--expiration-days-out", type=int, default=config.EXPIRATION_DAYS_OUT, help="Expiration days out")
+    parser.add_argument("--number-of-bins", type=int, default=config.NUMBER_OF_BINS, help="Number of bins")
+    parser.add_argument("--max-clusters", type=int, default=config.MAX_CLUSTERS, help="Max k for clustering")
+    parser.add_argument("--itm-threshold", type=float, default=config.ITM_THRESHOLD, help="ITM threshold")
+    args = parser.parse_args()
+
+    main(args.strict_otm, args.min_trade_value, args.expiration_days_out,args.number_of_bins, args.max_clusters,args.itm_threshold)

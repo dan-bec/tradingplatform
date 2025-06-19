@@ -56,7 +56,7 @@ SHORT_TERM_DAYS_OUT = 30
 MEDIUM_TERM_DAYS_OUT = 60
 LONG_TERM_DAYS_OUT = 90
 ATR_MAX = 11
-DAYS_TO_INCLUDE = 14
+DAYS_TO_INCLUDE = 21
 MAD_K = 0.5
 INCLUSIVE_THRESHOLD = 0.90
 UPPER_BOUND = np.round(0.5 + (INCLUSIVE_THRESHOLD / 2),3)
@@ -66,37 +66,11 @@ NUMBER_OF_BINS = 3
 ROLLING_WINDOW = 50
 
 # SECURITY CLUSTERING
-MAX_K = 10
-
-def latest_db_date():
-    static_date = "1900-01-01"  # Define the static fallback date
-    try:
-        with duckdb.connect(FULL_DB_PATH) as con:
-            # Step 1: Check if the schema exists
-            schemas = con.execute("select distinct table_schema from information_schema.tables").fetchall()
-            schema_names = [row[0] for row in schemas]
-            if PREP_SCHEMA not in schema_names:
-                return static_date
-
-            # Step 2: Check if the table exists within the schema
-            tables = con.execute(f"SHOW TABLES FROM {PREP_SCHEMA}").fetchall()
-            table_names = [row[0] for row in tables]
-            if 'filtered_options_trades' not in table_names:
-                return static_date
-
-            # Step 3: Query the latest date
-            result = con.execute(f"SELECT max(data_date) FROM {PREP_SCHEMA}.filtered_options_trades").fetchone()[0] # type: ignore
-            if result is not None:
-                return result.strftime("%Y-%m-%d")
-            return static_date
-
-    except duckdb.Error as e:
-        print(f"Error querying the database: {e}")
-        return static_date
+MAX_CLUSTERS = 10
 
 # OUTPUT PATHS
 LATEST_PATH = PROJECTS_PATH / 'latest'
-PCA_PATH = PROJECTS_PATH / latest_db_date()
+PCA_PATH = PROJECTS_PATH
 PREP_OUTPUT_DIR = PCA_PATH / PREP
 COMPILED_OUTPUT_DIR = PCA_PATH / COMPILED
 SEGMENTED_OUTPUT_DIR = PCA_PATH / SEGMENTED

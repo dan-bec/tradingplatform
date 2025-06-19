@@ -2,8 +2,10 @@ import sys
 from pathlib import Path
 
 # Determine the project root dynamically
-TASK_SCRIPT_DIR = Path(__file__).parent
+FILE_DIR = Path(__file__)
+TASK_SCRIPT_DIR = FILE_DIR.parent
 REPO_ROOT = TASK_SCRIPT_DIR.parents[2]  
+FILE_NAME = FILE_DIR.relative_to(REPO_ROOT)
 
 # Insert the project root into sys.path if not already present
 if str(REPO_ROOT) not in sys.path:
@@ -27,7 +29,11 @@ prep_schema = config.PREP_SCHEMA
 output_dir = config.PREP_OUTPUT_DIR
 output_dir.mkdir(parents=True, exist_ok=True)
 
-def main(number_of_bins,max_k):
+def main(number_of_bins,max_clusters):
+    # Capture and print start time
+    start_time = time.time()
+    print(f"!!{FILE_NAME}!! Start time: {start_time:.2f} seconds")
+    
     # Connect to DuckDB
     con = duckdb.connect(full_db_path)
     print(f"Connected to DuckDB database: {full_db_path}")
@@ -118,7 +124,7 @@ def main(number_of_bins,max_k):
         if n_samples > 1:
             scaled_percentiles = scaler.fit_transform(bin_df[percentile_columns])
             inertias = []
-            k_range = range(1, min(max_k + 1, n_samples))  # Limit k to number of samples
+            k_range = range(1, min(max_clusters + 1, n_samples))  # Limit k to number of samples
             for k in k_range:
                 kmeans = KMeans(n_clusters=k, random_state=42)
                 kmeans.fit(scaled_percentiles)
@@ -208,21 +214,17 @@ def main(number_of_bins,max_k):
     # Explicitly close the connection
     con.close()
 
-if __name__ == "__main__":
-    # Capture and print start time
-    start_time = time.time()
-    print(f"Start time: {start_time:.2f} seconds")
+    # Print execution time
+    end_time = time.time()
+    print(f"!!{FILE_NAME}!! End time: {end_time:.2f} seconds")
+    duration = end_time - start_time
+    print(f"!!{FILE_NAME}!! Execution time: {duration:.2f} seconds")
 
+if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--number-of-bins", type=int, default=config.NUMBER_OF_BINS, help="Number of bins")
-    parser.add_argument("--max-k", type=int, default=config.MAX_K, help="Max k for clustering")
+    parser.add_argument("--max-k", type=int, default=config.MAX_CLUSTERS, help="Max k for clustering")
     args = parser.parse_args()
 
-    main(args.number_of_bins, args.max_k)
-
-    # Print execution time
-    end_time = time.time()
-    print(f"End time: {end_time:.2f} seconds")
-    duration = end_time - start_time
-    print(f"Execution time: {duration:.2f} seconds")
+    main(args.number_of_bins, args.max_clusters)

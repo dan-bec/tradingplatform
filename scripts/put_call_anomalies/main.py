@@ -2,8 +2,10 @@ import sys
 from pathlib import Path
 
 # Determine the project root dynamically
-APP_DIR = Path(__file__).parent
+FILE_DIR = Path(__file__)
+APP_DIR = FILE_DIR.parent
 REPO_ROOT = APP_DIR.parents[1]  
+FILE_NAME = FILE_DIR.relative_to(REPO_ROOT)
 
 # Insert the project root into sys.path if not already present
 if str(REPO_ROOT) not in sys.path:
@@ -14,7 +16,7 @@ import time
 import scripts.put_call_anomalies.config as config
 from scripts.put_call_anomalies.tasks.prep_data_filtering import main as prep_main
 from scripts.put_call_anomalies.tasks.prep_atr_limits import main as atr_limit_main
-from scripts.put_call_anomalies.tasks.prep_data_filter_agg import main as prep_agg_main
+from scripts.put_call_anomalies.tasks.prep_data_filter_atr_max import main as prep_atr_max_main
 from scripts.put_call_anomalies.tasks.prep_data_predict_ranges import main as predict_main
 import logging
 from pathlib import Path
@@ -52,11 +54,36 @@ def export_settings():
             value = subset_dict[key]
             f.write(f"{key}: {repr(value)}\n")
 
-def main():
+def main(min_trade_value, short_term_days_out, medium_term_days_out, long_term_days_out, atr_max, days_to_include, k_value):
     # Capture and print start time
     start_time = time.time()
-    print(f"Main Start time: {start_time:.2f} seconds")
+    print(f"!{FILE_NAME}! Start time: {start_time:.2f} seconds")
 
+    print("Running prep_data_filtering...")
+    prep_main(min_trade_value, short_term_days_out, medium_term_days_out, long_term_days_out, atr_max)
+    print("Completed prep_data_filtering.")
+
+    print("Running per_security_clustering...")
+    atr_limit_main(days_to_include)
+    print("Completed per_security_clustering.")
+
+    print("Running optimal_itm_p_value...")
+    prep_atr_max_main(atr_max)
+    print("Completed optimal_itm_p_value.")
+
+    print("Running combined_analysis_and_output...")
+    predict_main(days_to_include, k_value, atr_max)
+    print("Completed combined_analysis_and_output.")
+
+    export_settings()
+
+    # Print execution time
+    end_time = time.time()
+    print(f"!{FILE_NAME}! End time: {end_time:.2f} seconds")
+    duration = end_time - start_time
+    print(f"!{FILE_NAME}! Execution time: {duration:.2f} seconds")
+
+if __name__ == "__main__":
     # Define command-line arguments
     import argparse
     parser = argparse.ArgumentParser(description="Run 'put_call_anomalies' scripts with specified parameters")
@@ -69,34 +96,5 @@ def main():
     parser.add_argument("--k-value", type=float, default=config.MAD_K, help="k value for Median Absolute Deviation (MAD)")
 
     args = parser.parse_args()
-
-    print("Running prep_data_filtering...")
-    prep_main(args.min_trade_value, args.short_term_days_out, args.medium_term_days_out, args.long_term_days_out, args.atr_max)
-    print("Completed prep_data_filtering.")
-
-    print("Running per_security_clustering...")
-    atr_limit_main(args.days_to_include)
-    print("Completed per_security_clustering.")
-
-    print("Running optimal_itm_p_value...")
-    prep_agg_main(args.atr_max)
-    print("Completed optimal_itm_p_value.")
-
-    print("Running combined_analysis_and_output...")
-    predict_main(args.days_to_include, args.k_value)
-    print("Completed combined_analysis_and_output.")
-
-    export_settings()
-
-if __name__ == "__main__":
-    # Capture and print start time
-    start_time = time.time()
-    print(f"PUT_CALL_ANOMALIES Start time: {start_time:.2f} seconds")
-
-    main()
-
-    # Print execution time
-    end_time = time.time()
-    print(f"PUT_CALL_ANOMALIES End time: {end_time:.2f} seconds")
-    duration = end_time - start_time
-    print(f"PUT_CALL_ANOMALIES Execution time: {duration:.2f} seconds")
+    
+    main(args.min_trade_value, args.short_term_days_out, args.medium_term_days_out, args.long_term_days_out, args.atr_max, args.days_to_include, args.k_value)

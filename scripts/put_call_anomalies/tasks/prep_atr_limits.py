@@ -2,8 +2,10 @@ import sys
 from pathlib import Path
 
 # Determine the project root dynamically
-TASK_SCRIPT_DIR = Path(__file__).parent
+FILE_DIR = Path(__file__)
+TASK_SCRIPT_DIR = FILE_DIR.parent
 REPO_ROOT = TASK_SCRIPT_DIR.parents[2]  
+FILE_NAME = FILE_DIR.relative_to(REPO_ROOT)
 
 # Insert the project root into sys.path if not already present
 if str(REPO_ROOT) not in sys.path:
@@ -19,14 +21,19 @@ import duckdb
 full_db_path = config.FULL_DB_PATH
 raw_schema = config.RAW_SCHEMA
 prep_schema = config.PREP_SCHEMA
-output_dir = config.PREP_OUTPUT_DIR
-latest_prep_date = datetime.strptime(config.latest_db_date(), "%Y-%m-%d")
+prep_dir = config.PREP_OUTPUT_DIR
+prep_dir.mkdir(parents=True, exist_ok=True)
 
 def main(days_to_include):
+    # Capture and print start time
+    start_time = time.time()
+    print(f"!!{FILE_NAME}!! Start time: {start_time:.2f} seconds")
+    
     # Connect to DuckDB
     con = duckdb.connect(str(full_db_path))
     print(f"Connected to DuckDB database: {full_db_path}")
 
+    latest_prep_date = con.execute(f"SELECT max(data_date) FROM {prep_schema}.filtered_options_trades").fetchone()[0].strftime("%Y-%m-%d") # type: ignore
     days_to_include_str = str((days_to_include))
 
     print(f"Building {prep_schema}.confirm_atr_ranges_{days_to_include_str}_days table")
@@ -35,7 +42,7 @@ def main(days_to_include):
         CREATE OR REPLACE TABLE {prep_schema}.confirm_atr_ranges_{days_to_include_str}_days AS
         with _data_prep AS (
             select security,data_date,dte_category, atr_multiple_rounded, min(expiration) min_exp, max(expiration) max_exp
-            , count(*) cnt
+            , sum(trade_count) cnt
             , sum(trade_value) sum_value
             from {prep_schema}.filtered_options_trades
             where data_date >= '{latest_prep_date}'::date - INTERVAL {days_to_include} DAYS
@@ -94,24 +101,31 @@ def main(days_to_include):
     """)
     print(f"!!!ROWS IN {prep_schema}.confirm_atr_ranges_{days_to_include_str}_days!!!:", con.execute(f"SELECT COUNT(*) FROM {prep_schema}.confirm_atr_ranges_{days_to_include_str}_days").fetchone()[0]) # type: ignore
 
+    # Output {project}_percentiles files and baseline file
+    atr_ranges_output = Path(f"{prep_dir}/confirm_atr_ranges_{days_to_include_str}_days.csv")
+    con.execute(f"""
+        COPY (
+            SELECT *
+            FROM {prep_schema}.confirm_atr_ranges_{days_to_include_str}_days
+            ORDER BY 1
+        ) TO '{atr_ranges_output}' (HEADER, DELIMITER ',')
+    """)
+    print(f"All securities stats data written to {atr_ranges_output}")
+
     # Explicitly close the connection
     con.close()
-
-if __name__ == "__main__":
-    # Capture and print start time
-    start_time = time.time()
-    print(f"Start time: {start_time:.2f} seconds")
-
-    import argparse
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--days-to-include", type=int, default=config.LONG_TERM_DAYS_OUT, help="Days to consider for analysis")
-    parser.add_argument("--k-value", type=float, default=config.MAD_K, help="k value for Median Absolute Deviation (MAD)")
-    args = parser.parse_args()
-
-    main(args.days_to_include)
+    print(f"Closed DuckDB database: {full_db_path}")
 
     # Print execution time
     end_time = time.time()
-    print(f"End time: {end_time:.2f} seconds")
+    print(f"!!{FILE_NAME}!! End time: {end_time:.2f} seconds")
     duration = end_time - start_time
-    print(f"Execution time: {duration:.2f} seconds")
+    print(f"!!{FILE_NAME}!! Execution time: {duration:.2f} seconds")
+
+if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--days-to-include", type=int, default=config.LONG_TERM_DAYS_OUT, help="Days to consider for analysis")
+    args = parser.parse_args()
+
+    main(args.days_to_include)
