@@ -40,7 +40,7 @@ def process_industry(industry):
     processed = parts[0].strip().lower().replace(' ', '_').replace('-', '_')
     return processed
 
-def main(itm_threshold):
+def main(itm_threshold,number_of_bins):
     # Capture and print start time
     start_time = time.time()
     print(f"!!{FILE_NAME}!! Start time: {start_time:.2f} seconds")
@@ -88,6 +88,7 @@ def main(itm_threshold):
         COPY (
             SELECT *
             FROM {compiled_schema}.all_securities_stats_{itm_threshold_100}
+            WHERE trade_volume_bin_rank < {number_of_bins}
             ORDER BY security
         ) TO '{all_stats_output}' (HEADER, DELIMITER ',')
     """)
@@ -129,6 +130,7 @@ def main(itm_threshold):
         COPY (
             SELECT *
             FROM {compiled_schema}.all_securities_trade_value_category_{itm_threshold_100}
+            WHERE trade_volume_bin_rank < {number_of_bins}
             ORDER BY security
         ) TO '{all_trade_categories_output}' (HEADER, DELIMITER ',')
     """)
@@ -164,6 +166,7 @@ def main(itm_threshold):
         COPY (
             SELECT *
             FROM {compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100}
+            WHERE trade_volume_bin_rank < {number_of_bins}
             ORDER BY security
         ) TO '{all_trades_output}' (HEADER, DELIMITER ',')
     """)
@@ -192,7 +195,7 @@ def main(itm_threshold):
             (f'all_securities_trade_value_category_{itm_threshold_100}', '2_trade_value_category'),
             (f'all_options_trades_above_baseline_{itm_threshold_100}', '3_trades_above_baseline')
         ]:
-            query = f"SELECT * FROM {compiled_schema}.{table} WHERE sector = ?"
+            query = f"SELECT * FROM {compiled_schema}.{table} WHERE trade_volume_bin_rank < {number_of_bins} AND sector = ?"
             df = con.execute(query, [sector]).fetchdf()
             if not df.empty:
                 file_name = f"{modified_sector}__file_{descriptor}.csv"
@@ -220,7 +223,7 @@ def main(itm_threshold):
                 (f'all_securities_trade_value_category_{itm_threshold_100}', '2_trade_value_category'),
                 (f'all_options_trades_above_baseline_{itm_threshold_100}', '3_trades_above_baseline')
             ]:
-                query = f"SELECT * FROM {compiled_schema}.{table} WHERE sector = ? AND industry IN ({','.join(['?' for _ in industry_list])})"
+                query = f"SELECT * FROM {compiled_schema}.{table} WHERE trade_volume_bin_rank < {number_of_bins} AND sector = ? AND industry IN ({','.join(['?' for _ in industry_list])})"
                 params = [sector] + industry_list
                 df = con.execute(query, params).fetchdf()
                 if not df.empty:
@@ -230,7 +233,7 @@ def main(itm_threshold):
                     # print(f"File written: {file_path}")
             
             # Get distinct trade_volume_bins for this sector and industry list
-            query = f"SELECT DISTINCT trade_volume_bin_rank FROM {compiled_schema}.all_securities_stats_{itm_threshold_100} WHERE sector = ? AND industry IN ({','.join(['?' for _ in industry_list])})"
+            query = f"SELECT DISTINCT trade_volume_bin_rank FROM {compiled_schema}.all_securities_stats_{itm_threshold_100} WHERE trade_volume_bin_rank < {number_of_bins} AND sector = ? AND industry IN ({','.join(['?' for _ in industry_list])})"
             params = [sector] + industry_list
             trade_volume_bins_rank = con.execute(query, params).fetchall()
             trade_volume_bins_rank = [row[0] for row in trade_volume_bins_rank]
@@ -245,7 +248,7 @@ def main(itm_threshold):
                     (f'all_securities_trade_value_category_{itm_threshold_100}', '2_trade_value_category'),
                     (f'all_options_trades_above_baseline_{itm_threshold_100}', '3_trades_above_baseline')
                 ]:
-                    query = f"SELECT * FROM {compiled_schema}.{table} WHERE sector = ? AND industry IN ({','.join(['?' for _ in industry_list])}) AND trade_volume_bin_rank = ?"
+                    query = f"SELECT * FROM {compiled_schema}.{table} WHERE trade_volume_bin_rank < {number_of_bins} AND sector = ? AND industry IN ({','.join(['?' for _ in industry_list])}) AND trade_volume_bin_rank = ?"
                     params = [sector] + industry_list + [trade_volume_bin_rank]
                     df = con.execute(query, params).fetchdf()
                     if not df.empty:
@@ -268,6 +271,7 @@ if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--itm-threshold", type=float, default=config.ITM_THRESHOLD, help="ITM threshold")
+    parser.add_argument("--number-of-bins", type=int, default=config.NUMBER_OF_BINS, help="Number of bins")
     args = parser.parse_args()
 
-    main(args.itm_threshold)
+    main(args.itm_threshold,args.number_of_bins)

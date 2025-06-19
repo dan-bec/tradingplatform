@@ -41,7 +41,7 @@ def export_settings():
     settings_dict = {k: v for k, v in vars(config).items() if not k.startswith('__')}
 
     # Define the subset of keys to export
-    desired_keys = {'STRICT_OTM', 'MIN_TRADE_VALUE', 'TOP_N_TRADES', 'EXPIRATION_DAYS_OUT', 'NUMBER_OF_BINS', ''}
+    desired_keys = {'STRICT_OTM', 'MIN_TRADE_VALUE', 'EXPIRATION_DAYS_OUT', 'NUMBER_OF_BINS', 'ITM_THRESHOLD'}
 
     # Filter the settings to include only the desired keys that exist in config
     subset_dict = {k: settings_dict[k] for k in desired_keys & settings_dict.keys()}
@@ -107,7 +107,7 @@ def main(strict_otm, min_trade_value, expiration_days_out,number_of_bins, max_cl
     print("Completed optimal_itm_p_value.")
 
     print("Running combined_analysis_and_output...")
-    combined_main(itm_threshold)
+    combined_main(itm_threshold,number_of_bins)
     print("Completed combined_analysis_and_output.")
 
     print("Running export_sttings...")
