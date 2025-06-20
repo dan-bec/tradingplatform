@@ -96,7 +96,7 @@ def main(itm_threshold,number_of_bins):
     """)
     print(f"All securities stats data written to {all_stats_output}")
     shutil.copy(all_stats_output, latest_dir / all_stats_output.name)
-    print(f"All options trades above baseline written to {latest_dir}/{all_stats_output.name}")
+    print(f"All securities stats data written to {latest_dir}/{all_stats_output.name}")
 
     # Combine Prep Analysis for trade categories
     con.execute(f"""
@@ -138,7 +138,7 @@ def main(itm_threshold,number_of_bins):
     """)
     print(f"All securities trade value categories stats data written to {all_trade_categories_output}")
     shutil.copy(all_trade_categories_output, latest_dir / all_trade_categories_output.name)
-    print(f"All options trades above baseline written to {latest_dir}/{all_trade_categories_output.name}")
+    print(f"All securities trade value categories stats data written to {latest_dir}/{all_trade_categories_output.name}")
 
     # Combine Prep Analysis for trade categories
     con.execute(f"""
