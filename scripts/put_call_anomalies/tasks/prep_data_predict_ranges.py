@@ -191,7 +191,7 @@ def main(days_to_include, k_value, atr_max):
             FROM {prep_schema}.predict_cp_ratio_{days_to_include_str}_days
         ) TO '{prediction_ranges_output}' (HEADER, DELIMITER ',')
     """)
-    print(f"Call-Put Ration predictions data written to {prediction_ranges_output}")
+    print(f"Call-Put Ratio predictions data written to {prediction_ranges_output}")
 
     # Explicitly close the connection
     con.close()
