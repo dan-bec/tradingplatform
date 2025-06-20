@@ -108,40 +108,61 @@ def main(otm_range, min_trade_value, expiration_days_out):
                 FROM _trade_prep tp
                 GROUP BY 1,2,3,4
             )
+            , _determine_next_day AS (
+                 SELECT data_date
+                    , lead(data_date) over (order by data_date) as next_trading_day
+                FROM {raw_schema}.stock_daily_data
+                group by data_date
+            )
             , _security_prices AS (
                 SELECT uqo.security
                     , uqo.option_ticker
                     , uqo.data_date
                     , uqo.expiration
+                    , max(CASE WHEN sdd.data_date = dnd.next_trading_day THEN sdd.high END) as high_next_trading_date
+                    , min(CASE WHEN sdd.data_date = dnd.next_trading_day THEN sdd.low  END) as low_next_trading_date
                     , max(CASE WHEN sdd.data_date > uqo.data_date THEN sdd.high END) as high_during_period
                     , min(CASE WHEN sdd.data_date > uqo.data_date THEN sdd.low  END) as low_during_period
                     , max(CASE WHEN sdd.data_date = uqo.expiration THEN sdd.high END) as high_expiration
                     , min(CASE WHEN sdd.data_date = uqo.expiration THEN sdd.low  END) as low_expiration
                     , min(CASE WHEN sdd.data_date = uqo.expiration THEN sdd.close  END) as close_expiration
                 FROM _unique_qualifying_options uqo
+                JOIN _determine_next_day dnd on dnd.data_date = uqo.data_date
                 LEFT JOIN {raw_schema}.stock_daily_data sdd ON sdd.security = uqo.security and sdd.data_date > uqo.data_date and sdd.data_date <= uqo.expiration
                 GROUP BY 1,2,3,4
             )
 
             SELECT tp.*
+            , sp.high_next_trading_date
+            , sp.low_next_trading_date
+            , sp.high_during_period
+            , sp.low_during_period
+            , sp.high_expiration
+            , sp.low_expiration
+            , sp.close_expiration
             , CASE 
-                WHEN tp.option_type = 'C' and strike_price <= high_during_period THEN 1
-                WHEN tp.option_type = 'P' and strike_price >= low_during_period  THEN 1
+                WHEN tp.option_type = 'C' and tp.strike_price <= sp.high_during_period THEN 1
+                WHEN tp.option_type = 'P' and tp.strike_price >= sp.low_during_period  THEN 1
                 ELSE 0 
                 END as itm
             , CASE 
-                WHEN tp.option_type = 'C' and strike_price <= high_expiration THEN 1
-                WHEN tp.option_type = 'P' and strike_price >= low_expiration  THEN 1
+                WHEN tp.option_type = 'C' and tp.strike_price <= sp.high_next_trading_date THEN 1
+                WHEN tp.option_type = 'P' and tp.strike_price >= sp.low_next_trading_date  THEN 1
+                ELSE 0 
+                END as itm_next_trading_day
+            , CASE 
+                WHEN tp.option_type = 'C' and tp.strike_price <= sp.high_expiration THEN 1
+                WHEN tp.option_type = 'P' and tp.strike_price >= sp.low_expiration  THEN 1
                 ELSE 0 
                 END as itm_expiration_day
             , CASE 
-                WHEN tp.option_type = 'C' and strike_price <= close_expiration THEN 1
-                WHEN tp.option_type = 'P' and strike_price >= close_expiration THEN 1
+                WHEN tp.option_type = 'C' and tp.strike_price <= sp.close_expiration THEN 1
+                WHEN tp.option_type = 'P' and tp.strike_price >= sp.close_expiration THEN 1
                 ELSE 0 
                 END as itm_expriation_close
             , CASE 
-                WHEN tp.option_type = 'C' and strike_price > high_during_period THEN 1
-                WHEN tp.option_type = 'P' and strike_price < low_during_period  THEN 1
+                WHEN tp.option_type = 'C' and tp.strike_price > sp.high_during_period THEN 1
+                WHEN tp.option_type = 'P' and tp.strike_price < sp.low_during_period  THEN 1
                 ELSE 0 
                 END as otm
             FROM _trade_prep tp

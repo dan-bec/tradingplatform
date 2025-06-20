@@ -52,8 +52,10 @@ def main(itm_threshold):
             , max(ftd.trade_value) as max_trade_value
             , min(ftd.trade_value) as min_trade_value
             , sum(ftd.itm) as itm_count
+            , sum(ftd.itm) as itm_next_day_count
             , count(*) * 1.0 as total_count
             , itm_count / total_count as itm_pct
+            , itm_next_day_count / total_count as itm_next_day_pct
             FROM {prep_schema}.filtered_short_term_otm_options_trades ftd
             JOIN {prep_schema}.security_percentiles sp on ftd.security = sp.security
             WHERE ftd.trade_value >= sp.p75_trade_value 
@@ -62,8 +64,10 @@ def main(itm_threshold):
 
         SELECT *
         , sum(itm_count) OVER (PARTITION BY security ORDER BY trade_value_category) as itm_running_total 
+        , sum(itm_next_day_count) OVER (PARTITION BY security ORDER BY trade_value_category) as itm_next_day_running_total 
         , sum(total_count) OVER (PARTITION BY security ORDER BY trade_value_category) * 1.0 as running_total
         , itm_running_total / running_total as itm_running_pct
+        , itm_next_day_running_total / running_total as itm_next_day_running_pct
         FROM _prep_data
         ORDER BY security, trade_value_category
     """)

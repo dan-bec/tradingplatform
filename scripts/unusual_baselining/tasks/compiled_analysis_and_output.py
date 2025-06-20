@@ -110,13 +110,17 @@ def main(itm_threshold,number_of_bins):
         , ip.max_trade_value
         , ip.min_trade_value
         , ip.itm_count
+        , ip.itm_next_day_count
         , ip.total_count
         , ip.itm_pct
+        , ip.itm_next_day_pct
         , {itm_threshold} as itm_threshold
         , CASE WHEN ub.security is not null THEN '1. ABOVE BASELINE' ELSE '2. BELOW BASELINE' END as ab
         , ip.itm_running_total
+        , ip.itm_next_day_running_total
         , ip.running_total
         , ip.itm_running_pct
+        , ip.itm_next_day_running_total
         FROM {raw_schema}.sector_industry si
         JOIN {prep_schema}.itm_percentages ip on ip.security = si.security
         JOIN {prep_schema}.clustered_securities cs on cs.security = si.security

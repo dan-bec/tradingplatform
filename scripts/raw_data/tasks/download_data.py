@@ -49,6 +49,16 @@ def get_static_string(file_path, var_name):
         "download_dir": config.STOCK_TRADE_DIR,
         "description": "Stocks Trades"
     },
+    {
+        "prefix": "us_stocks_sip/quotes_v1",
+        "download_dir": config.STOCK_QUOTES_DIR,
+        "description": "Stocks Trades"
+    },
+    {
+        "prefix": "us_options_opra/quotes_v1",
+        "download_dir": config.OPTION_QUOTES_DIR,
+        "description": "Options Quotes"
+    },
     '''
 # Define multiple passes with their respective configurations
 PASSES = [
@@ -56,6 +66,11 @@ PASSES = [
         "prefix": "us_stocks_sip/day_aggs_v1",
         "download_dir": config.STOCK_SUMMARY_DIR,
         "description": "Stocks Daily Aggregates"
+    },
+    {
+        "prefix": "us_stocks_sip/minute_aggs_v1",
+        "download_dir": config.STOCK_MINUTE_DIR,
+        "description": "Stocks Minute Aggregates"
     },
     {
         "prefix": "us_options_opra/day_aggs_v1",
@@ -66,6 +81,11 @@ PASSES = [
         "prefix": "us_options_opra/trades_v1",
         "download_dir": config.OPTION_TRADE_DIR,
         "description": "Options Trades"
+    },
+    {
+        "prefix": "us_options_opra/minute_aggs_v1",
+        "download_dir": config.OPTION_MINUTE_DIR,
+        "description": "Options Minute Aggregates"
     }
 ]
 
