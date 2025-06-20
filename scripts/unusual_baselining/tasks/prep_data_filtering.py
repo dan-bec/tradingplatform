@@ -100,17 +100,19 @@ def main(otm_range, min_trade_value, expiration_days_out):
                     AND atd.trade_value > {min_trade_value} -- minmum contract size of N
                     AND (
                         ({otm_range} != {True} AND ((atd.option_type = 'C' AND atd.strike_price > security_low)  OR (atd.option_type = 'P' AND atd.strike_price < security_high))) -- LOOSE: PARTIALLY OTM FOR DAY
-                        OR ({otm_range} AND ((atd.option_type = 'C' AND atd.strike_price > security_high) OR (atd.option_type = 'P' AND atd.strike_price < security_low ))) -- STRICT: FULLY OTM FOR DAY
+                        OR 
+                        ({otm_range} AND ((atd.option_type = 'C' AND atd.strike_price > security_high) OR (atd.option_type = 'P' AND atd.strike_price < security_low ))) -- STRICT: FULLY OTM FOR DAY
                         )
             )
             , _unique_qualifying_options AS (
-                SELECT security,option_ticker,data_date,expiration
+                SELECT security,option_ticker,data_date,expiration,strike_price,option_type
                 FROM _trade_prep tp
-                GROUP BY 1,2,3,4
+                GROUP BY 1,2,3,4,5,6
             )
             , _determine_next_day AS (
                  SELECT data_date
                     , lead(data_date) over (order by data_date) as next_trading_day
+                    , row_number() OVER (order by data_date) as date_num
                 FROM {raw_schema}.stock_daily_data
                 group by data_date
             )
@@ -119,6 +121,12 @@ def main(otm_range, min_trade_value, expiration_days_out):
                     , uqo.option_ticker
                     , uqo.data_date
                     , uqo.expiration
+                    , uqo.strike_price
+                    , uqo.option_type
+                    , min(CASE 
+                        WHEN uqo.option_type = 'C' and uqo.strike_price <= sdd.high THEN sdnd.date_num - dnd.date_num
+                        WHEN uqo.option_type = 'P' and uqo.strike_price >= sdd.low  THEN sdnd.date_num - dnd.date_num
+                      END * 1.0) days_till_itm
                     , max(CASE WHEN sdd.data_date = dnd.next_trading_day THEN sdd.high END) as high_next_trading_date
                     , min(CASE WHEN sdd.data_date = dnd.next_trading_day THEN sdd.low  END) as low_next_trading_date
                     , max(CASE WHEN sdd.data_date > uqo.data_date THEN sdd.high END) as high_during_period
@@ -129,7 +137,8 @@ def main(otm_range, min_trade_value, expiration_days_out):
                 FROM _unique_qualifying_options uqo
                 JOIN _determine_next_day dnd on dnd.data_date = uqo.data_date
                 LEFT JOIN {raw_schema}.stock_daily_data sdd ON sdd.security = uqo.security and sdd.data_date > uqo.data_date and sdd.data_date <= uqo.expiration
-                GROUP BY 1,2,3,4
+                LEFT JOIN _determine_next_day sdnd on sdnd.data_date = sdd.data_date
+                GROUP BY 1,2,3,4,5,6
             )
 
             SELECT tp.*
@@ -140,6 +149,7 @@ def main(otm_range, min_trade_value, expiration_days_out):
             , sp.high_expiration
             , sp.low_expiration
             , sp.close_expiration
+            , sp.days_till_itm
             , CASE 
                 WHEN tp.option_type = 'C' and tp.strike_price <= sp.high_during_period THEN 1
                 WHEN tp.option_type = 'P' and tp.strike_price >= sp.low_during_period  THEN 1

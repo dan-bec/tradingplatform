@@ -38,7 +38,7 @@ def process_industry(industry):
     return processed
 
 def main(itm_threshold):
-    itm_threshold_100 = config.itm_str_prep(itm_threshold)
+    itm_threshold_100 = '100'
     # Connect to DuckDB
     con = duckdb.connect(full_db_path)
     print(f"Connected to DuckDB database: {full_db_path}")
@@ -247,17 +247,17 @@ def main(itm_threshold):
 if __name__ == "__main__":
     # Capture and print start time
     start_time = time.time()
-    print(f"Start time: {start_time:.2f} seconds")
+    print(f"!{FILE_NAME}! Start time: {start_time:.2f} seconds")
 
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument("--itm-threshold", type=float, default=config.ITM_THRESHOLD, help="ITM threshold")
+    parser.add_argument("--itm-threshold", type=float, default=1, help="ITM threshold")
     args = parser.parse_args()
 
     main(args.itm_threshold)
 
     # Print execution time
     end_time = time.time()
-    print(f"End time: {end_time:.2f} seconds")
+    print(f"!{FILE_NAME}! End time: {end_time:.2f} seconds")
     duration = end_time - start_time
-    print(f"Execution time: {duration:.2f} seconds")
+    print(f"!{FILE_NAME}! Execution time: {duration:.2f} seconds")

@@ -20,7 +20,6 @@ from scripts.unusual_baselining.tasks.optimal_itm_p_value import main as optimal
 from scripts.unusual_baselining.tasks.compiled_analysis_and_output import main as combined_main
 import logging
 from pathlib import Path
-import subprocess
 import duckdb
 import os
 import shutil

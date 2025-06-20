@@ -52,10 +52,13 @@ def main(itm_threshold):
             , max(ftd.trade_value) as max_trade_value
             , min(ftd.trade_value) as min_trade_value
             , sum(ftd.itm) as itm_count
-            , sum(ftd.itm) as itm_next_day_count
+            , sum(ftd.itm_next_trading_day) as itm_next_day_count
             , count(*) * 1.0 as total_count
             , itm_count / total_count as itm_pct
             , itm_next_day_count / total_count as itm_next_day_pct
+            , round(median(ftd.days_till_itm * 1.0),2) as median_days_till_itm
+            , round(avg(ftd.days_till_itm),2) as avg_days_till_itm
+            , round(stddev(ftd.days_till_itm * 1.0),4) as stddev_days_till_itm
             FROM {prep_schema}.filtered_short_term_otm_options_trades ftd
             JOIN {prep_schema}.security_percentiles sp on ftd.security = sp.security
             WHERE ftd.trade_value >= sp.p75_trade_value 
@@ -67,7 +70,7 @@ def main(itm_threshold):
         , sum(itm_next_day_count) OVER (PARTITION BY security ORDER BY trade_value_category) as itm_next_day_running_total 
         , sum(total_count) OVER (PARTITION BY security ORDER BY trade_value_category) * 1.0 as running_total
         , itm_running_total / running_total as itm_running_pct
-        , itm_next_day_running_total / running_total as itm_next_day_running_pct
+        , itm_next_day_running_total / running_total as itm_next_day_running_total_pct
         FROM _prep_data
         ORDER BY security, trade_value_category
     """)
@@ -100,7 +103,11 @@ def main(itm_threshold):
             return pd.DataFrame({
                 'unusual_baseline': [None],
                 'trade_value_category': [None],
-                'number_of_trades': [None]
+                'number_of_trades': [None],
+                'number_of_itm_trades': [None],
+                'avg_days_till_itm': [None],
+                'median_days_till_itm': [None],
+                'stddev_days_till_itm': [None]
             })
 
         filtered_group = group.sort_values('cat_num')
@@ -109,7 +116,11 @@ def main(itm_threshold):
             return pd.DataFrame({
                 'unusual_baseline': [None],
                 'trade_value_category': [None],
-                'number_of_trades': [None]
+                'number_of_trades': [None],
+                'number_of_itm_trades': [None],
+                'avg_days_till_itm': [None],
+                'median_days_till_itm': [None],
+                'stddev_days_till_itm': [None]
             })
         
         for i in range(len(filtered_group)):
@@ -121,21 +132,33 @@ def main(itm_threshold):
                     return pd.DataFrame({
                         'unusual_baseline': [None],
                         'trade_value_category': [None],
-                        'number_of_trades': [None]
+                        'number_of_trades': [None],
+                        'number_of_itm_trades': [None],
+                        'avg_days_till_itm': [None],
+                        'median_days_till_itm': [None],
+                        'stddev_days_till_itm': [None]
                     })
                 else:
                     prev = filtered_group.iloc[i - 1]
                     return pd.DataFrame({
                         'unusual_baseline': [prev['min_trade_value']],
                         'trade_value_category': [prev['trade_value_category']],
-                        'number_of_trades': [prev['running_total']]
+                        'number_of_trades': [prev['running_total']],
+                        'number_of_itm_trades': [prev['itm_running_total']],
+                        'avg_days_till_itm': [prev['avg_days_till_itm']],
+                        'median_days_till_itm': [prev['median_days_till_itm']],
+                        'stddev_days_till_itm': [prev['stddev_days_till_itm']]
                     })
         # If all itm_pct >= itm_threshold, return the last min_trade_value, category, and running_total
         last = filtered_group.iloc[-1]
         return pd.DataFrame({
             'unusual_baseline': [last['min_trade_value']],
             'trade_value_category': [last['trade_value_category']],
-            'number_of_trades': [last['running_total']]
+            'number_of_trades': [last['running_total']],
+            'number_of_itm_trades': [last['itm_running_total']],
+            'avg_days_till_itm': [last['avg_days_till_itm']],
+            'median_days_till_itm': [last['median_days_till_itm']],
+            'stddev_days_till_itm': [last['stddev_days_till_itm']]
         })
 
     # Step 1: Extract unique 'sector' and 'industry' for each 'security'
@@ -143,7 +166,7 @@ def main(itm_threshold):
 
     # Step 2: Compute 'unusual_baseline', 'trade_value_category', and 'running_total'
     unusual_baselines = df.groupby('security').apply(
-        lambda g: compute_unusual_baseline(g[['cat_num', 'min_trade_value', 'total_count', 'itm_pct', 'trade_value_category', 'running_total']]),
+        lambda g: compute_unusual_baseline(g[['cat_num', 'min_trade_value', 'total_count', 'itm_pct', 'trade_value_category', 'running_total', 'itm_running_total','avg_days_till_itm', 'median_days_till_itm','stddev_days_till_itm']]),
         include_groups=False
     ).reset_index()
 
