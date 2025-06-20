@@ -38,6 +38,10 @@ def process_industry(industry):
     return processed
 
 def main(itm_threshold):
+    # Capture and print start time
+    start_time = time.time()
+    print(f"!{FILE_NAME}! Start time: {start_time:.2f} seconds")
+
     itm_threshold_100 = '100'
     # Connect to DuckDB
     con = duckdb.connect(full_db_path)
@@ -244,10 +248,13 @@ def main(itm_threshold):
     # Close connection
     con.close()
 
+    # Print execution time
+    end_time = time.time()
+    print(f"!{FILE_NAME}! End time: {end_time:.2f} seconds")
+    duration = end_time - start_time
+    print(f"!{FILE_NAME}! Execution time: {duration:.2f} seconds")
+    
 if __name__ == "__main__":
-    # Capture and print start time
-    start_time = time.time()
-    print(f"!{FILE_NAME}! Start time: {start_time:.2f} seconds")
 
     import argparse
     parser = argparse.ArgumentParser()
@@ -255,9 +262,3 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     main(args.itm_threshold)
-
-    # Print execution time
-    end_time = time.time()
-    print(f"!{FILE_NAME}! End time: {end_time:.2f} seconds")
-    duration = end_time - start_time
-    print(f"!{FILE_NAME}! Execution time: {duration:.2f} seconds")

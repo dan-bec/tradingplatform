@@ -22,11 +22,6 @@ def bool_type(value):
         raise argparse.ArgumentTypeError(str(e))
 
 ### SETTINGS ###
-
-# Capture and print start time
-start_time = time.time()
-print(f"Start time: {start_time:.2f} seconds")
-
 # Define file paths
 full_db_path = config.FULL_DB_PATH
 raw_schema = config.RAW_SCHEMA
