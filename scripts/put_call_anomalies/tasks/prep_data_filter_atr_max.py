@@ -74,19 +74,9 @@ def main(atr_max):
     print(f"!!{FILE_NAME}!! Execution time: {duration:.2f} seconds")
 
 if __name__ == "__main__":
-    # Capture and print start time
-    start_time = time.time()
-    print(f"Start time: {start_time:.2f} seconds")
-
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--atr-max", type=int, default=config.ATR_MAX, help="ATR max out")
     args = parser.parse_args()
 
     main(args.atr_max)
-
-    # Print execution time
-    end_time = time.time()
-    print(f"End time: {end_time:.2f} seconds")
-    duration = end_time - start_time
-    print(f"Execution time: {duration:.2f} seconds")

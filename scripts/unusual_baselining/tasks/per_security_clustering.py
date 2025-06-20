@@ -224,7 +224,7 @@ if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--number-of-bins", type=int, default=config.NUMBER_OF_BINS, help="Number of bins")
-    parser.add_argument("--max-k", type=int, default=config.MAX_CLUSTERS, help="Max k for clustering")
+    parser.add_argument("--max-clusters", type=int, default=config.MAX_CLUSTERS, help="Max k for clustering")
     args = parser.parse_args()
 
     main(args.number_of_bins, args.max_clusters)

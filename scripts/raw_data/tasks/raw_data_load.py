@@ -103,7 +103,7 @@ def get_files_to_load(src_tbl: str, directory_path: Path, num_files_to_load: int
 def main(num_files_to_load, batch_size):
     # Capture and print start time
     start_time = time.time()
-    print(f"Start time: {start_time:.2f} seconds")
+    print(f"!!{FILE_NAME}!! Start time: {start_time:.2f} seconds")
 
     # Create trades_data table with only the relevant files
     con.execute(f"CREATE SCHEMA IF NOT EXISTS {raw_schema}")
@@ -341,9 +341,9 @@ def main(num_files_to_load, batch_size):
 
     # Capture and print end time, then calculate duration
     end_time = time.time()
-    print(f"End time: {end_time:.2f} seconds")
+    print(f"!!{FILE_NAME}!! End time: {end_time:.2f} seconds")
     duration = end_time - start_time
-    print(f"Execution time: {duration:.2f} seconds")
+    print(f"!!{FILE_NAME}!! Execution time: {duration:.2f} seconds")
 
 if __name__ == "__main__":
     import argparse

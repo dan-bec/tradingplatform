@@ -60,7 +60,11 @@ def main(itm_threshold,number_of_bins):
         , {itm_threshold} as itm_threshold
         , ub.unusual_baseline
         , ub.trade_value_category
+        , round(median(fstoot.days_till_itm * 1.0),2) as median_days_till_itm
+        , round(avg(fstoot.days_till_itm),2) as avg_days_till_itm
+        , round(stddev(fstoot.days_till_itm * 1.0),4) as stddev_days_till_itm
         , ub.number_of_trades as num_trades_over_baseline
+        , ip.running_total as trades_over_p75
         , sp.qualifying_trades as num_trades_total
         , cs.final_cluster
         , cs.trade_volume_bin
@@ -77,6 +81,26 @@ def main(itm_threshold,number_of_bins):
         JOIN {prep_schema}.unusual_baselines_{itm_threshold_100} ub on ub.security = si.security
         JOIN {prep_schema}.security_percentiles sp on sp.security = si.security
         JOIN {prep_schema}.clustered_securities cs on cs.security = si.security
+        JOIN {prep_schema}.itm_percentages ip on ip.security = si.security and ip.trade_value_category = '8. p75_trade_value'
+        JOIN {prep_schema}.filtered_short_term_otm_options_trades fstoot on fstoot.security = si.security and fstoot.trade_value >= ub.unusual_baseline
+        GROUP BY si.security, si.sector, si.industry
+        , {itm_threshold} 
+        , ub.unusual_baseline
+        , ub.trade_value_category
+        , ub.number_of_trades
+        , ip.running_total
+        , sp.qualifying_trades
+        , cs.final_cluster
+        , cs.trade_volume_bin
+        , cs.trade_volume_bin_rank
+        , cs.cluster
+        , sp.p90_trade_value
+        , sp.p95_trade_value
+        , sp.p99_trade_value
+        , sp.p999_trade_value
+        , sp.p9999_trade_value
+        , sp.p99999_trade_value
+        , sp.p999999_trade_value
         ORDER BY si.security
     """)
     print(f"Created and Loaded {compiled_schema}.all_securities_stats_{itm_threshold_100}  db table")
@@ -94,7 +118,7 @@ def main(itm_threshold,number_of_bins):
     """)
     print(f"All securities stats data written to {all_stats_output}")
     shutil.copy(all_stats_output, latest_dir / all_stats_output.name)
-    print(f"All options trades above baseline written to {latest_dir}/{all_stats_output.name}")
+    print(f"All securities stats data written to {latest_dir}/{all_stats_output.name}")
 
     # Combine Prep Analysis for trade categories
     con.execute(f"""
@@ -108,13 +132,20 @@ def main(itm_threshold,number_of_bins):
         , ip.max_trade_value
         , ip.min_trade_value
         , ip.itm_count
+        , ip.itm_next_day_count
         , ip.total_count
         , ip.itm_pct
+        -- , ip.itm_next_day_pct
+        , ip.median_days_till_itm
+        , ip.avg_days_till_itm
+        , ip.stddev_days_till_itm
         , {itm_threshold} as itm_threshold
         , CASE WHEN ub.security is not null THEN '1. ABOVE BASELINE' ELSE '2. BELOW BASELINE' END as ab
         , ip.itm_running_total
+        -- , ip.itm_next_day_running_total
         , ip.running_total
         , ip.itm_running_pct
+        -- , ip.itm_next_day_running_total_pct
         FROM {raw_schema}.sector_industry si
         JOIN {prep_schema}.itm_percentages ip on ip.security = si.security
         JOIN {prep_schema}.clustered_securities cs on cs.security = si.security
@@ -136,7 +167,7 @@ def main(itm_threshold,number_of_bins):
     """)
     print(f"All securities trade value categories stats data written to {all_trade_categories_output}")
     shutil.copy(all_trade_categories_output, latest_dir / all_trade_categories_output.name)
-    print(f"All options trades above baseline written to {latest_dir}/{all_trade_categories_output.name}")
+    print(f"All securities trade value categories stats data written to {latest_dir}/{all_trade_categories_output.name}")
 
     # Combine Prep Analysis for trade categories
     con.execute(f"""

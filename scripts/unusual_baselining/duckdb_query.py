@@ -14,11 +14,15 @@ print(f"Start time: {start_time:.2f} seconds")
 # Define file paths
 data_path = config.DATA_PATH
 full_db_path = config.FULL_DB_PATH
-prep_schema = config.PREP
-compiled_schema = config.COMPILED
+raw_schema = config.RAW_SCHEMA
+prep_schema = config.PREP_SCHEMA
+compiled_schema = config.COMPILED_SCHEMA
 itm_threshold = config.ITM_THRESHOLD
 itm_threshold_100 = config.itm_str_prep(itm_threshold)
 number_of_bins = config.NUMBER_OF_BINS
+min_trade_value = config.MIN_TRADE_VALUE
+expiration_days_out = config.EXPIRATION_DAYS_OUT
+otm_range = config.STRICT_OTM
 
 # Connect to DuckDB
 con = duckdb.connect(str(full_db_path))
@@ -90,15 +94,21 @@ select min_trade_value, expiration_days_out, otm_range, number_of_bins, max(data
 select data_date,security, sector, industry, option_ticker, option_type, expiration,strike_price, option_condition_name, final_cluster, trade_value, trade_value_category, option_type, category_minimum, categiry_maximum
 from {compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100} 
 where data_date > current_date() - INTERVAL 7 DAYS
+
+drop table {prep_schema}.filtered_short_term_otm_options_trades
 '''
 
 # Get unique rows from query
 result = con.execute(f"""
-SELECT * FROM ub_prep.unusual_baselines_55 where security = 'COIN'
+select trade_volume_bin, trade_volume_bin_rank, max(num_trades) as max_num_trades
+                     from {prep_schema}.clustered_securities
+                     group by 1,2
+                     order by 1,2 desc
+                
+
 """).fetchdf()
 print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
 # result.to_csv(sys.stdout, index=False)
-
 
 # Explicitly close the connection
 con.close()
