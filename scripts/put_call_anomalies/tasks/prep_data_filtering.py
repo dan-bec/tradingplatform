@@ -22,6 +22,7 @@ full_db_path = config.FULL_DB_PATH
 raw_schema = config.RAW_SCHEMA
 prep_schema = config.PREP_SCHEMA
 output_dir = config.PREP_OUTPUT_DIR
+date_sample = config.DATE_SAMPLE
 
 def main(min_trade_value, short_term_days_out, medium_term_days_out, long_term_days_out, atr_max):
     # Capture and print start time
@@ -37,19 +38,34 @@ def main(min_trade_value, short_term_days_out, medium_term_days_out, long_term_d
     medium_term_days_out_str = str((medium_term_days_out))
     long_term_days_out_str = str((long_term_days_out))
 
+    raw_max_data_date = con.execute(f"SELECT MAX(data_date) FROM {raw_schema}.all_options_trades_data").fetchone()[0] # type: ignore
+    sample_min_data_date = con.execute(f"""
+            WITH _date_nums AS (
+                SELECT data_date 
+                , row_number() OVER (order by data_date desc) as date_rn
+                FROM {raw_schema}.all_options_trades_data
+                GROUP BY 1
+            )
+
+            SELECT data_date
+            FROM _date_nums
+            WHERE date_rn = {date_sample}
+        """).fetchone()[0] # type: ignore
+    
     # Check if rebuild is necessary
     rebuild = True
     try:
         current_settings = con.execute(f"""
-            SELECT min_trade_value, expiration_days_out,  MAX(data_date) AS max_data_date
+            SELECT min_trade_value, expiration_days_out,  max(data_date) AS max_data_date,  min(data_date) AS min_data_date
             FROM {prep_schema}.filtered_options_trades
             GROUP BY 1,2
         """).fetchone()
         if current_settings:
-            current_min_trade_value, current_expiration_days_out, current_max_data_date = current_settings
-            raw_max_data_date = con.execute(f"SELECT MAX(data_date) FROM {raw_schema}.all_options_trades_data").fetchone()[0] # type: ignore
+            current_min_trade_value, current_expiration_days_out, current_max_data_date, current_min_data_date = current_settings
+
             if (current_min_trade_value == min_trade_value and
                 current_expiration_days_out == long_term_days_out and
+                current_min_data_date == sample_min_data_date and
                 current_max_data_date == raw_max_data_date):
                 print("Settings match and data is up-to-date. Skipping rebuild.")
                 rebuild = False
@@ -61,33 +77,9 @@ def main(min_trade_value, short_term_days_out, medium_term_days_out, long_term_d
         con.execute(f"create schema if not exists {prep_schema};")
         print(f"create schema if not exists {prep_schema};")
 
-        con.execute(f"""
-            CREATE TABLE IF NOT EXISTS {prep_schema}.filtered_options_trades (
-                data_date   DATE    ,
-                security    VARCHAR ,
-                option_ticker   VARCHAR ,
-                sector  VARCHAR ,
-                industry    VARCHAR ,
-                option_type VARCHAR ,
-                expiration  DATE    ,
-                purchase_itm_otm    VARCHAR ,
-                dte_category    VARCHAR ,
-                atr_multiple_rounded    DOUBLE  ,
-                min_trade_value INTEGER ,
-                expiration_days_out INTEGER ,
-                trade_value DOUBLE  ,
-                trade_size  INTEGER ,
-                trade_count INTEGER
-                )
-        """)
-        print(f"Created {prep_schema}.filtered_options_trades db table")
-
-        latest_prep_date = con.execute(f"SELECT coalesce(max(data_date),'1900-01-01'::date) FROM {prep_schema}.filtered_options_trades").fetchone()[0].strftime("%Y-%m-%d") # type: ignore
-
         print(f"Loading {prep_schema}.filtered_options_trades table")
-        # Create trades_data table with only the relevant trades
         con.execute(f"""
-            INSERT INTO {prep_schema}.filtered_options_trades
+            CREATE OR REPLACE TABLE {prep_schema}.filtered_options_trades AS
             SELECT atd.data_date
                 , atd.security
                 , atd.option_ticker
@@ -121,12 +113,12 @@ def main(min_trade_value, short_term_days_out, medium_term_days_out, long_term_d
             JOIN {raw_schema}.stock_daily_data std ON std.security = atd.security AND std.data_date = atd.data_date
             JOIN {raw_schema}.security_atr sa ON sa.security = atd.security and sa.data_date = atd.data_date
             WHERE 1=1
+                AND atd.data_date >= '{sample_min_data_date}'::date
                 AND atd.conditions >= 209 -- Filters out Late, Canceled trades
                 AND atd.conditions < 248 -- Filters out after market trading
                 AND atd.expiration > atd.data_date -- Options Purchased before Expiration
                 AND atd.expiration <= atd.data_date + INTERVAL {long_term_days_out}  DAYS -- Options Expiring in N days
                 AND atd.trade_value > {min_trade_value} -- minmum contract size of N
-                AND atd.data_date > '{latest_prep_date}'::date
             GROUP BY 1,2,3,4,5,6,7,8,9,10
     """)
     print(f"!!!ROWS IN {prep_schema}.filtered_options_trades!!!:", con.execute(f"SELECT COUNT(*) FROM {prep_schema}.filtered_options_trades").fetchone()[0]) # type: ignore

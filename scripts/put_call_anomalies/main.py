@@ -17,7 +17,10 @@ import scripts.put_call_anomalies.config as config
 from scripts.put_call_anomalies.tasks.prep_data_filtering import main as prep_main
 from scripts.put_call_anomalies.tasks.prep_atr_limits import main as atr_limit_main
 from scripts.put_call_anomalies.tasks.prep_data_filter_atr_max import main as prep_atr_max_main
-from scripts.put_call_anomalies.tasks.prep_data_predict_ranges import main as predict_main
+from scripts.put_call_anomalies.tasks.prep_data_mad_ranges import main as mad_range_main
+from scripts.put_call_anomalies.tasks.prep_add_price_movements import main as add_price_main
+from scripts.put_call_anomalies.tasks.prep_calculate_autocorrelation import main as autoc_main
+from scripts.put_call_anomalies.tasks.prep_find_ideal_mad_k import main as mad_k_main
 import logging
 from pathlib import Path
 import subprocess
@@ -71,8 +74,20 @@ def main(min_trade_value, short_term_days_out, medium_term_days_out, long_term_d
     prep_atr_max_main(atr_max)
     print("Completed optimal_itm_p_value.")
 
+    print("Running optimal_itm_p_value...")
+    mad_range_main(days_to_include,k_value,atr_max)
+    print("Completed optimal_itm_p_value.")
+
     print("Running combined_analysis_and_output...")
-    predict_main(days_to_include, k_value, atr_max)
+    add_price_main(days_to_include)
+    print("Completed combined_analysis_and_output.")
+
+    print("Running combined_analysis_and_output...")
+    autoc_main()
+    print("Completed combined_analysis_and_output.")
+
+    print("Running combined_analysis_and_output...")
+    mad_k_main()
     print("Completed combined_analysis_and_output.")
 
     export_settings()

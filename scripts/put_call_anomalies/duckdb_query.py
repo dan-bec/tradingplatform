@@ -23,9 +23,20 @@ days_to_include_str = str(int(days_to_include))
 short_term_days_out = config.SHORT_TERM_DAYS_OUT
 medium_term_days_out = config.MEDIUM_TERM_DAYS_OUT
 long_term_days_out = config.LONG_TERM_DAYS_OUT
+atr_max = config.ATR_MAX
 
 # Connect to DuckDB
 con = duckdb.connect(str(full_db_path))
+
+# Get unique rows from query
+result = con.execute(f"""
+
+select * from {prep_schema}.acf_results_{days_to_include_str}_days
+where security = 'ABBV'
+
+""").fetchdf()
+# print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
+result.to_csv(sys.stdout, index=False)
 
 '''
 try:
@@ -103,16 +114,6 @@ SELECT * FROM pca_prep.agg_filtered_options_trades limit 10
     
     '''
 
-# Get unique rows from query
-result = con.execute(f"""
-select * from {prep_schema}.predict_cp_ratio_{days_to_include_str}_days
-where security = 'ABBV'
-order by prediction_date desc,dte_category
-limit 100
-    
-""").fetchdf()
-print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
-# result.to_csv(sys.stdout, index=False)
 
 
 # Explicitly close the connection
