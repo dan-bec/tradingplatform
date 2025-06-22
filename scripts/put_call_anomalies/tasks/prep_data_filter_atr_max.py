@@ -22,6 +22,7 @@ raw_schema = config.RAW_SCHEMA
 prep_schema = config.PREP_SCHEMA
 prep_dir = config.PREP_OUTPUT_DIR
 prep_dir.mkdir(parents=True, exist_ok=True)
+number_of_bins = config.NUMBER_OF_BINS
 
 def main(atr_max):
     # Capture and print start time
@@ -32,13 +33,33 @@ def main(atr_max):
     con = duckdb.connect(str(full_db_path))
     print(f"Connected to DuckDB database: {full_db_path}")
 
-    print(f"Building {prep_schema}.filtered_options_trades__max_atr_{atr_max} table")
+    print(f"Building {prep_schema}.filtered_options_trades_max_atr_{atr_max} table")
     # Create trades_data table with only the relevant trades
     con.execute(f"""
-        CREATE OR REPLACE TABLE {prep_schema}.filtered_options_trades__max_atr_{atr_max} AS
+        CREATE OR REPLACE TABLE {prep_schema}.filtered_options_trades_max_atr_{atr_max} AS
         WITH _trade_prep AS (
             SELECT *
             FROM {prep_schema}.filtered_options_trades
+            WHERE atr_multiple_rounded <= {atr_max}
+        ),
+        _vol_prep AS (
+            SELECT security
+                ,sum(trade_count) as security_trade_count
+                , ((ROUND(log10(security_trade_count) * 2) / 2) * 10)::int as trade_volume_bin
+            FROM _trade_prep
+            group by security
+        ),
+        _bin_prep AS (
+            SELECT  trade_volume_bin
+                    , ntile({number_of_bins}) OVER (ORDER BY trade_volume_bin desc) as trade_volume_bin_rank
+            FROM _vol_prep
+            group by trade_volume_bin
+        ),
+        _vol_bin_securities AS (
+            select vp.security
+            from _vol_prep vp
+            join _bin_prep bp on vp.trade_volume_bin = bp.trade_volume_bin
+            where trade_volume_bin_rank < {number_of_bins}
         )
 
         SELECT tp.data_date
@@ -57,11 +78,11 @@ def main(atr_max):
             , sum(tp.trade_size) as trade_size
             , count(*) as trade_count
         FROM _trade_prep tp
-        WHERE tp.atr_multiple_rounded <= {atr_max}
+        JOIN _vol_bin_securities vbs on vbs.security = tp.security
         GROUP BY 1,2,3,4,5,6,7,8,9,10
         ORDER BY tp.data_date, tp.security
     """)
-    print(f"!!!ROWS IN {prep_schema}.filtered_options_trades__max_atr_{atr_max}!!!:", con.execute(f"SELECT COUNT(*) FROM {prep_schema}.filtered_options_trades__max_atr_{atr_max}").fetchone()[0]) # type: ignore
+    print(f"!!!ROWS IN {prep_schema}.filtered_options_trades_max_atr_{atr_max}!!!:", con.execute(f"SELECT COUNT(*) FROM {prep_schema}.filtered_options_trades_max_atr_{atr_max}").fetchone()[0]) # type: ignore
 
     # Explicitly close the connection
     con.close()

@@ -34,7 +34,7 @@ output_dir.mkdir(parents=True, exist_ok=True)
 con = duckdb.connect(config.FULL_DB_PATH)
 
 # Get unique securities
-compiled_schema = config.COMPILED
+compiled_schema = config.COMPILED_SCHEMA
 itm_threshold_100 = config.ITM_THRESHOLD_100
 table_name = f"{compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100}"
 securities = con.execute(f"SELECT DISTINCT security FROM {table_name} WHERE security = 'ABBV'").fetchall()

@@ -27,6 +27,7 @@ full_db_path = config.FULL_DB_PATH
 raw_schema = config.RAW_SCHEMA
 prep_schema = config.PREP_SCHEMA
 output_dir = config.PREP_OUTPUT_DIR
+date_sample = config.DATE_SAMPLE
 
 def main(otm_range, min_trade_value, expiration_days_out):
     # Capture and print start time
@@ -37,21 +38,34 @@ def main(otm_range, min_trade_value, expiration_days_out):
     con = duckdb.connect(str(full_db_path))
     print(f"Connected to DuckDB database: {full_db_path}")
 
+    raw_max_data_date = con.execute(f"SELECT MAX(data_date) FROM {raw_schema}.all_options_trades_data").fetchone()[0] # type: ignore
+    sample_min_data_date = con.execute(f"""
+            WITH _date_nums AS (
+                SELECT data_date 
+                , row_number() OVER (order by data_date desc) as date_rn
+                FROM {raw_schema}.all_options_trades_data
+                GROUP BY 1
+            )
+
+            SELECT data_date
+            FROM _date_nums
+            WHERE date_rn = {date_sample}
+        """).fetchone()[0] # type: ignore
+
     # Check if rebuild is necessary
     rebuild = True
     try:
         current_settings = con.execute(f"""
-            SELECT min_trade_value, expiration_days_out, otm_range, MAX(data_date) AS max_data_date
+            SELECT min_trade_value, expiration_days_out, otm_range, MAX(data_date) AS max_data_date, MIN(data_date) AS min_data_date
             FROM {prep_schema}.filtered_short_term_otm_options_trades
             GROUP BY 1,2,3
         """).fetchone()
         if current_settings:
-            current_min_trade_value, current_expiration_days_out, current_otm_range, current_max_data_date = current_settings
-            raw_max_data_date = con.execute(f"SELECT MAX(data_date) FROM {raw_schema}.all_options_trades_data").fetchone()[0] # type: ignore
-            print(f"raw max date: {raw_max_data_date}. prep max date: {current_max_data_date}")
+            current_min_trade_value, current_expiration_days_out, current_otm_range, current_max_data_date, current_min_data_date = current_settings
             if (current_min_trade_value == min_trade_value and
                 current_expiration_days_out == expiration_days_out and
                 current_otm_range == otm_range and
+                current_min_data_date == sample_min_data_date and
                 current_max_data_date == raw_max_data_date):
                 print("Settings match and data is up-to-date. Skipping rebuild.")
                 rebuild = False
@@ -87,6 +101,7 @@ def main(otm_range, min_trade_value, expiration_days_out):
                 JOIN {raw_schema}.sector_industry si ON si.security = atd.security
                 JOIN {raw_schema}.stock_daily_data std ON std.security = atd.security AND std.data_date = atd.data_date
                 WHERE 1=1
+                    AND atd.data_date >= '{sample_min_data_date}'::date
                     AND atd.conditions >= 209 -- Filters out Late, Canceled trades
                     AND atd.conditions < 248 -- Filters out after market trading
                     AND NOT (si.sector = 'Finance' and si.industry = 'Financial - Investment Funds')

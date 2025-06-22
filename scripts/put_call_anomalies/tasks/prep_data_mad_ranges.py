@@ -47,7 +47,7 @@ def main(days_to_include, k_value, atr_max):
                 SUM(CASE WHEN option_type = 'C' THEN trade_value ELSE 0 END) AS call_trade_value,
                 SUM(CASE WHEN option_type = 'P' THEN trade_value ELSE 0 END) AS put_trade_value,
                 ROW_NUMBER() OVER (PARTITION BY security, dte_category ORDER BY data_date DESC) as date_filter
-            FROM {prep_schema}.filtered_options_trades__max_atr_{atr_max}
+            FROM {prep_schema}.filtered_options_trades_max_atr_{atr_max}
             GROUP BY data_date, security, dte_category
 
             UNION ALL 
@@ -98,7 +98,7 @@ def main(days_to_include, k_value, atr_max):
             JOIN _ratios_with_rn r 
                 ON p.security = r.security 
                 AND p.dte_category = r.dte_category 
-                AND r.rn BETWEEN p.rn - {days_to_include} AND p.rn - 1
+                AND r.rn BETWEEN (p.rn - 1 - {days_to_include}) AND p.rn - 1
             WHERE p.rn >= ({days_to_include} + 1)
         )
 
@@ -157,18 +157,21 @@ def main(days_to_include, k_value, atr_max):
             FROM {prep_schema}.predict_cp_ratio_details_{days_to_include_str}_days
             GROUP BY prediction_date, security, dte_category
         )
+
+        -- https://en.wikipedia.org/wiki/Median_absolute_deviation
         SELECT
             c.prediction_date,
             c.security,
             c.dte_category,
             c.dates_considered,
-            m.day_of_put_trade_value,
-            m.day_of_call_trade_value, 
-            m.day_of_call_put_ratio,
             m.median_ratio,
             mc.mad,
+            {k_value} as mad_multiplier,
             m.median_ratio - ({k_value} * mc.mad) AS lower_bound,
-            m.median_ratio + ({k_value} * mc.mad) AS upper_bound
+            m.median_ratio + ({k_value} * mc.mad) AS upper_bound,
+            m.day_of_put_trade_value,
+            m.day_of_call_trade_value, 
+            m.day_of_call_put_ratio
         FROM counts c
         JOIN medians m 
             ON c.prediction_date = m.prediction_date 
@@ -178,7 +181,6 @@ def main(days_to_include, k_value, atr_max):
             ON c.prediction_date = mc.prediction_date 
             AND c.security = mc.security 
             AND c.dte_category = mc.dte_category
-        WHERE c.prediction_date >= '{latest_prep_date}'::date - INTERVAL {days_to_include} DAYS
         ORDER BY c.security, c.prediction_date, c.dte_category
     """)
     print(f"!!!ROWS IN {prep_schema}.predict_cp_ratio_{days_to_include_str}_days!!!:", con.execute(f"SELECT COUNT(*) FROM {prep_schema}.predict_cp_ratio_{days_to_include_str}_days").fetchone()[0]) # type: ignore

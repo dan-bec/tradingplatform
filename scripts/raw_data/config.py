@@ -11,7 +11,7 @@ REPO_ROOT = APP_DIR.parents[1]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from scripts.config import DATA_PATH, FULL_DB_PATH, SHARED_DATA_PATH, RAW_SCHEMA
+from scripts.config import DATA_PATH, FULL_DB_PATH, SHARED_DATA_PATH, RAW_SCHEMA, DATE_SAMPLE
 
 # Base directory (assumes config.py is in the /scripts folder)
 APP_NAME = APP_DIR.name
@@ -44,5 +44,5 @@ OPTION_MINUTE_DIR = OPTIONS_DIR / POLYGON_MINUTE
 # RAW DATA LOAD
 START_DATE = str(datetime.now().date() - timedelta(days=2*365))
 END_DATE = str(datetime.now().date())  # Updated to include today
-NUM_FILES_TO_PROCESS = 500
+NUM_FILES_TO_PROCESS = DATE_SAMPLE
 BATCH_SIZE = 100
