@@ -30,13 +30,39 @@ con = duckdb.connect(str(full_db_path))
 
 # Get unique rows from query
 result = con.execute(f"""
+with _formula AS (
+    select mk.*
+    , (upper_success_rate+lower_success_rate)/2 as success_rate_avg
+    , sqrt(((2*total_weight_above*total_weight_below)/(total_weight_above+total_weight_below))) as weight_factor
+    , success_rate_avg * weight_factor as k_score
+    from pca_prep.cp_ratio_mad_k_testing mk
+    where 1=1
+            and success_rate_avg > .65
+    )
+                     , _row_num as (
+                     select security
+                     ,ct
+                     , k
+                     , success_rate_avg
+                     , weight_factor
+                     , k_score
+                     --, upper_success_rate,lower_success_rate,total_weight_above,total_weight_below
+                     , row_number() over (partition by security,ct order by k_score desc) as row_num
+                     from _formula
+                     )
 
-select * from {prep_schema}.acf_results_{days_to_include_str}_days
-where security = 'ABBV'
+                     select  security,max(ct)
+                     from _row_num
+                     where row_num = 1
+                     and k_score > 2
+                     and ct > 0
+                     group by security
+                     order by max(ct) desc
+;
 
 """).fetchdf()
-# print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
-result.to_csv(sys.stdout, index=False)
+print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
+# result.to_csv(sys.stdout, index=False)
 
 '''
 try:
