@@ -15,19 +15,20 @@ print(f"Start time: {start_time:.2f} seconds")
 data_path = config.DATA_PATH
 full_db_path = config.FULL_DB_PATH
 raw_schema = config.RAW_SCHEMA
+sectors_industries_csv = config.SECTORS_CSV
 
 # Connect to DuckDB
 con = duckdb.connect(str(full_db_path))
 
 # Get unique rows from query
 result = con.execute(f"""
-select *
-                     from {raw_schema}.gics_classifications_unclassified
-
+         select * from ipo_prep.regression_results
+                 
 """).fetchdf()
 # print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
 result.to_csv(sys.stdout, index=False)
 '''
+
 try:
     result = con.execute("DESCRIBE raw_data.all_trades_data").fetchall()
     print("Columns in raw_data.all_trades_data:")

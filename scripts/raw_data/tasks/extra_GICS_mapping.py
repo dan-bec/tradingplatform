@@ -14,8 +14,10 @@ if str(REPO_ROOT) not in sys.path:
 import scripts.raw_data.config as config
 import requests
 from bs4 import BeautifulSoup
+import yfinance as yf
 import duckdb
 import pandas as pd
+import time
 
 full_db_path = config.FULL_DB_PATH
 stock_summary_dir = config.STOCK_SUMMARY_DIR
@@ -205,26 +207,53 @@ tickers = ['AACT',
 'YOTA',
 'ZLSSF']  # Subset for demonstration
 
-# Function to get GICS classification from MarketWatch
-def get_gics_classification(ticker):
-    url = f"https://www.marketwatch.com/investing/stock/{ticker.lower()}"
-    try:
-        response = requests.get(url)
-        soup = BeautifulSoup(response.text, 'html.parser')
-        # Example: Extract sector and industry from page
-        sector_elem = soup.find('span', class_='sector-class')  # Adjust class based on actual HTML
-        industry_elem = soup.find('span', class_='industry-class')
-        sector = sector_elem.text if sector_elem else 'Financials'  # Default for SPACs
-        industry = industry_elem.text if industry_elem else 'Diversified Financial Services'
-        return sector, industry
-    except:
-        # Fallback for SPACs or missing data
-        return 'Financials', 'Diversified Financial Services'
+# GICS mapping rules (simplified)
+gics_mapping = {
+    'blank check|merger|acquisition': {'sector': 'Finance', 'industry': 'SPAC'},
+    'artificial intelligence|software|technology': {'sector': 'Information Technology', 'industry': 'Software'},
+    'semiconductor|hardware': {'sector': 'Information Technology', 'industry': 'Semiconductors & Semiconductor Equipment'},
+    'healthcare|clinical trial': {'sector': 'Medical', 'industry': 'Medical - Biomedical and Genetics'},
+    'cannabis|hemp': {'sector': 'Medical', 'industry': 'Medical - Products'},
+    'electric vehicles':{'sector': 'Auto-Tires-Trucks', 'industry': 'Automotive - EV'},
+    'streaming|media|social': {'sector': 'Communication Services', 'industry': 'Interactive Media & Services'}
+}
 
-# Process tickers and store in database
+def get_business_description(ticker):
+    """
+    Fetches the business description for a given stock ticker using yfinance.
+
+    Args:
+        ticker (str): The stock ticker symbol (e.g., 'AAPL', 'AEAE').
+
+    Returns:
+        str: The business description if available, otherwise an empty string.
+    """
+    try:
+        stock = yf.Ticker(ticker)
+        info = stock.info
+        description = info.get('longBusinessSummary', '')
+        if description:
+            return description
+        else:
+            print(f"No description found for {ticker}")
+            return ''
+    except Exception as e:
+        print(f"Error fetching description for {ticker}: {e}")
+        return ''
+    finally:
+        time.sleep(1)  # Add delay to avoid rate limiting
+
+def assign_gics(ticker, description):
+    for keyword, classification in gics_mapping.items():
+        if any(k in description.lower() for k in keyword.split('|')):
+            return classification['sector'], classification['industry']
+    return 'Unknown', 'Unknown'
+
+# Process tickers
 data = []
 for ticker in tickers:
-    sector, industry = get_gics_classification(ticker)
+    description = get_business_description(ticker)
+    sector, industry = assign_gics(ticker, description)
     data.append({'ticker': ticker, 'sector': sector, 'industry': industry})
 
 # Convert to DataFrame and store in DuckDB
