@@ -15,14 +15,6 @@ print(f"Start time: {start_time:.2f} seconds")
 data_path = config.DATA_PATH
 full_db_path = config.FULL_DB_PATH
 raw_schema = config.RAW_SCHEMA
-prep_schema = config.PREP_SCHEMA
-compiled_schema = config.COMPILED_SCHEMA
-itm_threshold = config.ITM_THRESHOLD
-itm_threshold_100 = config.itm_str_prep(itm_threshold)
-number_of_bins = config.NUMBER_OF_BINS
-min_trade_value = config.MIN_TRADE_VALUE
-expiration_days_out = config.EXPIRATION_DAYS_OUT
-otm_range = config.STRICT_OTM
 
 # Connect to DuckDB
 con = duckdb.connect(str(full_db_path))
@@ -30,13 +22,11 @@ con = duckdb.connect(str(full_db_path))
 # Get unique rows from query
 result = con.execute(f"""
 select *
-                     from information_schema.tables
-                     order by table_schema, table_name
-                
+                     from {raw_schema}.gics_classifications_unclassified
 
 """).fetchdf()
-print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
-# result.to_csv(sys.stdout, index=False)
+# print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
+result.to_csv(sys.stdout, index=False)
 '''
 try:
     result = con.execute("DESCRIBE raw_data.all_trades_data").fetchall()

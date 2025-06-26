@@ -17,26 +17,59 @@ full_db_path = config.FULL_DB_PATH
 raw_schema = config.RAW_SCHEMA
 prep_schema = config.PREP_SCHEMA
 compiled_schema = config.COMPILED_SCHEMA
-itm_threshold = config.ITM_THRESHOLD
-itm_threshold_100 = config.itm_str_prep(itm_threshold)
 number_of_bins = config.NUMBER_OF_BINS
-min_trade_value = config.MIN_TRADE_VALUE
-expiration_days_out = config.EXPIRATION_DAYS_OUT
-otm_range = config.STRICT_OTM
+days_since_ipo = config.DAYS_SINCE_IPO
 
 # Connect to DuckDB
 con = duckdb.connect(str(full_db_path))
 
 # Get unique rows from query
 result = con.execute(f"""
-select *
-                     from information_schema.tables
-                     order by table_schema, table_name
-                
+ with _ipo_dates as (
+                     select sdd.security, min(sdd.data_date) ipo_date
+                     from {raw_schema}.stock_daily_data sdd
+                     -- cross join (select min(data_date) ed_date from {raw_schema}.stock_daily_data) ed
+                     group by 1
+                     having  min(sdd.data_date) > (select min(data_date) ed_date from {raw_schema}.stock_daily_data)
+               )
+    , _row_nums as (
+    
+        select sdd.*
+        , row_number() over (partition by sdd.security order by sdd.data_date) - 1 as rn
+        from _ipo_dates ipo
+        join {raw_schema}.stock_daily_data sdd on sdd.security = ipo.security and sdd.data_date >= ipo.ipo_date
+  )
+      , _max_row_nums as (
+    
+        select *
+        , max(rn) over (partition by security) as max_rn
+        from _row_nums
+  )
+
+                    select mrn.security
+                    , mrn.volume 
+                    , mrn.open 
+                    , mrn.close 
+                    , mrn.high 
+                    , mrn.low 
+                    , mrn.window_start 
+                    , mrn.transactions 
+                    , mrn.data_date           
+                    , mrn.rn
+                    , si.sector
+                    , si.industry
+                    from _max_row_nums mrn
+                    join {raw_schema}.sector_industry si on mrn.security = si.security
+                    where 1=1
+                    and mrn.security = 'AAPG'
+                    and rn <= {days_since_ipo}
+                    and max_rn >= {days_since_ipo}
+                    order by mrn.security, mrn.data_date
+
 
 """).fetchdf()
-print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
-# result.to_csv(sys.stdout, index=False)
+# print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
+result.to_csv(sys.stdout, index=False)
 '''
 try:
     result = con.execute("DESCRIBE raw_data.all_trades_data").fetchall()
