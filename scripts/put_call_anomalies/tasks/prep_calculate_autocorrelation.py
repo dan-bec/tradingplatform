@@ -27,7 +27,7 @@ prep_schema = config.PREP_SCHEMA
 prep_dir = config.PREP_OUTPUT_DIR
 prep_dir.mkdir(parents=True, exist_ok=True)
 days_to_include = config.DAYS_TO_INCLUDE
-days_to_include_str = str((days_to_include))
+days_to_include_str = str(days_to_include)
 predictive_threshold = config.PREDICTIVE_THRESHOLD
 atr_max = config.ATR_MAX
 
@@ -37,8 +37,6 @@ def main():
 
     # Define the table name (replace with your schema and days value)
     table_name = f"{prep_schema}.filtered_options_trades_max_atr_{atr_max}"
-
-    # Create output directory for CSV files
 
     # Set parameters
     min_obs = 20  # Minimum number of observations required
@@ -80,32 +78,48 @@ def main():
             print(f"Skipping {security}, {dte_category}: only {len(df)} observations")
             continue
         
-        # Compute ACF for the cp_ratio time series
-        acf_values = acf(df['cp_ratio'], nlags=nlags, fft=False)
+        # Check for sufficient non-NaN values in cp_ratio
+        valid_observations = df['cp_ratio'].dropna().shape[0]
+        if valid_observations < 2:
+            print(f"Skipping {security}, {dte_category}: Fewer than 2 non-NaN values in cp_ratio")
+            continue
         
-        # Compute significance threshold
-        threshold = 2 / np.sqrt(len(df))
+        try:
+            # Compute ACF for the cp_ratio time series
+            acf_values = acf(df['cp_ratio'], nlags=nlags, fft=False)
+            
+            # Check if acf_values has the expected length
+            if len(acf_values) != nlags + 1:
+                print(f"Skipping {security}, {dte_category}: acf_values length {len(acf_values)} != {nlags + 1}")
+                continue
+            
+            # Compute significance threshold
+            threshold = 2 / np.sqrt(len(df))
+            
+            # Create DataFrame for CSV output
+            acf_df = pd.DataFrame({
+                'lag': range(0, nlags + 1),
+                'acf_value': acf_values,
+                'n': [len(df)] * (nlags + 1),
+                'significance_threshold': [threshold] * (nlags + 1)
+            })
+            
+            # Save to CSV
+            file_name = f"acf_{security}_{dte_category}.csv".replace('/', '_').replace('\\', '_')
+            acf_df.to_csv(os.path.join(prep_dir, file_name), index=False)
+            
+            # Prepare rows for DuckDB insertion
+            rows_to_insert = [(security, dte_category, lag, acf_val, len(df), threshold) 
+                              for lag, acf_val in enumerate(acf_values)]
+            
+            # Insert into DuckDB table
+            con.executemany(f"INSERT INTO {prep_schema}.acf_results_{days_to_include_str}_days VALUES (?, ?, ?, ?, ?, ?)", rows_to_insert)
+            
+            print(f"Completed {security}, {dte_category}")
         
-        # Create DataFrame for CSV output
-        acf_df = pd.DataFrame({
-            'lag': range(0, nlags + 1),
-            'acf_value': acf_values,
-            'n': [len(df)] * (nlags + 1),
-            'significance_threshold': [threshold] * (nlags + 1)
-        })
-        
-        # Save to CSV
-        file_name = f"acf_{security}_{dte_category}.csv".replace('/', '_').replace('\\', '_')
-        acf_df.to_csv(os.path.join(prep_dir, file_name), index=False)
-        
-        # Prepare rows for DuckDB insertion
-        rows_to_insert = [(security, dte_category, lag, acf_val, len(df), threshold) 
-                        for lag, acf_val in enumerate(acf_values)]
-        
-        # Insert into DuckDB table
-        con.executemany(f"INSERT INTO {prep_schema}.acf_results_{days_to_include_str}_days VALUES (?, ?, ?, ?, ?, ?)", rows_to_insert)
-        
-        print(f"Completed {security}, {dte_category}")
+        except ValueError as e:
+            print(f"Error computing ACF for {security}, {dte_category}: {e}")
+            continue
 
     # Close the database connection
     con.close()

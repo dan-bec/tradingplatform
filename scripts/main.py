@@ -109,11 +109,12 @@ def main(
     run_unusual_baselining(strict_otm, min_trade_value, expiration_days_out,number_of_bins, max_clusters,itm_threshold)
     print("Completed run_unusual_baselining execution.")
 
+    '''
     # Run run_put_call_anomalies first (sequential)
     print("Starting run_put_call_anomalies execution...")
     run_put_call_anomalies(min_trade_value, short_term_days_out, medium_term_days_out, long_term_days_out, atr_max, days_to_include, k_value)
     print("Completed run_put_call_anomalies execution.")
-
+    '''
     '''
     # List of subsequent applications to run in parallel
     parallel_tasks = [

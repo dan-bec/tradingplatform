@@ -27,6 +27,16 @@ otm_range = config.STRICT_OTM
 # Connect to DuckDB
 con = duckdb.connect(str(full_db_path))
 
+# Get unique rows from query
+result = con.execute(f"""
+select *
+                     from information_schema.tables
+                     order by table_schema, table_name
+                
+
+""").fetchdf()
+print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
+# result.to_csv(sys.stdout, index=False)
 '''
 try:
     result = con.execute("DESCRIBE raw_data.all_trades_data").fetchall()
@@ -98,17 +108,6 @@ where data_date > current_date() - INTERVAL 7 DAYS
 drop table {prep_schema}.filtered_short_term_otm_options_trades
 '''
 
-# Get unique rows from query
-result = con.execute(f"""
-select trade_volume_bin, trade_volume_bin_rank, max(num_trades) as max_num_trades
-                     from {prep_schema}.clustered_securities
-                     group by 1,2
-                     order by 1,2 desc
-                
-
-""").fetchdf()
-print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
-# result.to_csv(sys.stdout, index=False)
 
 # Explicitly close the connection
 con.close()

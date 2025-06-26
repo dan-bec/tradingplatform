@@ -15,56 +15,20 @@ print(f"Start time: {start_time:.2f} seconds")
 data_path = config.DATA_PATH
 full_db_path = config.FULL_DB_PATH
 raw_schema = config.RAW_SCHEMA
-prep_schema = config.PREP_SCHEMA
-compiled_schema = config.COMPILED_SCHEMA
-number_of_bins = config.NUMBER_OF_BINS
-days_to_include = config.DAYS_TO_INCLUDE
-days_to_include_str = str(int(days_to_include))
-short_term_days_out = config.SHORT_TERM_DAYS_OUT
-medium_term_days_out = config.MEDIUM_TERM_DAYS_OUT
-long_term_days_out = config.LONG_TERM_DAYS_OUT
-atr_max = config.ATR_MAX
+sectors_industries_csv = config.SECTORS_CSV
 
 # Connect to DuckDB
 con = duckdb.connect(str(full_db_path))
 
 # Get unique rows from query
 result = con.execute(f"""
-with _formula AS (
-    select mk.*
-    , (upper_success_rate+lower_success_rate)/2 as success_rate_avg
-    , sqrt(((2*total_weight_above*total_weight_below)/(total_weight_above+total_weight_below))) as weight_factor
-    , success_rate_avg * weight_factor as k_score
-    from pca_prep.cp_ratio_mad_k_testing mk
-    where 1=1
-            and success_rate_avg > .65
-    )
-                     , _row_num as (
-                     select security
-                     ,ct
-                     , k
-                     , success_rate_avg
-                     , weight_factor
-                     , k_score
-                     --, upper_success_rate,lower_success_rate,total_weight_above,total_weight_below
-                     , row_number() over (partition by security,ct order by k_score desc) as row_num
-                     from _formula
-                     )
-
-                     select  security,max(ct)
-                     from _row_num
-                     where row_num = 1
-                     and k_score > 2
-                     and ct > 0
-                     group by security
-                     order by max(ct) desc
-;
-
+         select * from ipo_prep.regression_results
+                 
 """).fetchdf()
-print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
-# result.to_csv(sys.stdout, index=False)
-
+# print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
+result.to_csv(sys.stdout, index=False)
 '''
+
 try:
     result = con.execute("DESCRIBE raw_data.all_trades_data").fetchall()
     print("Columns in raw_data.all_trades_data:")
@@ -132,14 +96,8 @@ select data_date,security, sector, industry, option_ticker, option_type, expirat
 from {compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100} 
 where data_date > current_date() - INTERVAL 7 DAYS
 
-SELECT dte_category,count(*) FROM pca_prep.agg_filtered_options_trades group by 1 limit 10
-SELECT * FROM pca_prep.agg_filtered_options_trades limit 10
-    select *
-    from {prep_schema}.predict_cp_ratio_{days_to_include_str}_days
-    where security in ('ABBV')
-    
-    '''
-
+drop table {prep_schema}.filtered_short_term_otm_options_trades
+'''
 
 
 # Explicitly close the connection
