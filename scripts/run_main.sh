@@ -13,7 +13,7 @@ git fetch origin
 git checkout origin/main
 
 # Run the Python script with provided arguments
-python scripts/main.py "$@"
+python3 scripts/main.py "$@"
 
 # Checkout the data-features branch
 git checkout data-features
