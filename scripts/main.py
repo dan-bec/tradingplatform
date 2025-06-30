@@ -32,6 +32,10 @@ def bool_type(value):
     except ValueError as e:
         raise ValueError(f"Invalid boolean value: '{value}'")
 
+import subprocess
+from datetime import datetime
+import config  # Assuming config contains REPO_ROOT
+
 def push_to_github():
     repo_root = config.REPO_ROOT
     try:
@@ -50,8 +54,21 @@ def push_to_github():
         result = subprocess.run(["git", "-C", repo_root, "commit", "-m", commit_message], check=True, capture_output=True, text=True)
         print(f"Git commit output: {result.stdout}")
         
+        # Get current branch
+        current_branch = subprocess.run(
+            ["git", "-C", repo_root, "rev-parse", "--abbrev-ref", "HEAD"],
+            capture_output=True,
+            text=True
+        ).stdout.strip()
+        print(f"Pushing to branch: {current_branch}")
+        
         # Push to remote
-        result = subprocess.run(["git", "-C", repo_root, "push", "origin", "main"], check=True, capture_output=True, text=True)
+        result = subprocess.run(
+            ["git", "-C", repo_root, "push", "origin", current_branch],
+            check=True,
+            capture_output=True,
+            text=True
+        )
         print(f"Git push output: {result.stdout}")
     except subprocess.CalledProcessError as e:
         print(f"Git command failed: {e.cmd}")
