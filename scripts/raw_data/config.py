@@ -20,7 +20,6 @@ TASKS_DIR = APP_DIR / "tasks"
 # Common paths used across scripts
 S3_ENDPOINT = "https://files.polygon.io"  # Polygon S3-compatible endpoint
 BUCKET_NAME = "flatfiles"  # Polygon bucket name
-SHARED_DATA_PATH = REPO_ROOT / "src" / "BullseyeApp" / "Shared" / "Data"
 DATASERVICES_PATH = SHARED_DATA_PATH / "DataService.cs"
 
 POLYGON_DAILY = "daily"
