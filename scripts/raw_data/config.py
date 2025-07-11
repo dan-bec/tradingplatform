@@ -2,6 +2,7 @@ import sys
 from pathlib import Path
 from datetime import datetime, timedelta
 from functools import lru_cache, wraps
+import re
 
 # Determine the project root dynamically
 APP_DIR = Path(__file__).parent
@@ -20,7 +21,6 @@ TASKS_DIR = APP_DIR / "tasks"
 # Common paths used across scripts
 S3_ENDPOINT = "https://files.polygon.io"  # Polygon S3-compatible endpoint
 BUCKET_NAME = "flatfiles"  # Polygon bucket name
-SHARED_DATA_PATH = REPO_ROOT / "src" / "BullseyeApp" / "Shared" / "Data"
 DATASERVICES_PATH = SHARED_DATA_PATH / "DataService.cs"
 
 POLYGON_DAILY = "daily"
@@ -46,3 +46,19 @@ START_DATE = str(datetime.now().date() - timedelta(days=2*365))
 END_DATE = str(datetime.now().date())  # Updated to include today
 NUM_FILES_TO_PROCESS = DATE_SAMPLE
 BATCH_SIZE = 100
+
+# Function to extract static string variables from DataServices.cs
+def get_static_string(file_path, var_name):
+    try:
+        with open(file_path, 'r') as file:
+            content = file.read()
+        pattern = rf'public static string {var_name} = "(.*?)";'
+        match = re.search(pattern, content)
+        if match:
+            return match.group(1)
+        else:
+            raise ValueError(f"{var_name} not found in the file")
+    except FileNotFoundError:
+        raise FileNotFoundError(f"The file {file_path} does not exist")
+    except Exception as e:
+        raise Exception(f"Error reading {var_name} from {file_path}: {e}")
