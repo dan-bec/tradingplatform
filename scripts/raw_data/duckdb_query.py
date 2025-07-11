@@ -22,7 +22,8 @@ con = duckdb.connect(str(full_db_path))
 
 # Get unique rows from query
 result = con.execute(f"""
-         select * from ipo_prep.regression_results
+drop table {raw_schema}.staging_quotes;
+drop table {raw_schema}.option_quotes;
                  
 """).fetchdf()
 # print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore

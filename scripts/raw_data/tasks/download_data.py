@@ -27,39 +27,13 @@ dataservices_path = config.DATASERVICES_PATH
 S3_ENDPOINT = config.S3_ENDPOINT
 BUCKET_NAME = config.BUCKET_NAME
 
-# Function to extract static string variables from DataServices.cs
-def get_static_string(file_path, var_name):
-    try:
-        with open(file_path, 'r') as file:
-            content = file.read()
-        pattern = rf'public static string {var_name} = "(.*?)";'
-        match = re.search(pattern, content)
-        if match:
-            return match.group(1)
-        else:
-            raise ValueError(f"{var_name} not found in the file")
-    except FileNotFoundError:
-        raise FileNotFoundError(f"The file {file_path} does not exist")
-    except Exception as e:
-        raise Exception(f"Error reading {var_name} from {file_path}: {e}")
-
-    '''
-    {
-        "prefix": "us_stocks_sip/trades_v1",
-        "download_dir": config.STOCK_TRADE_DIR,
-        "description": "Stocks Trades"
-    },
-    {
-        "prefix": "us_stocks_sip/quotes_v1",
-        "download_dir": config.STOCK_QUOTES_DIR,
-        "description": "Stocks Trades"
-    },
-    {
-        "prefix": "us_options_opra/quotes_v1",
-        "download_dir": config.OPTION_QUOTES_DIR,
-        "description": "Options Quotes"
-    },
-    '''
+'''
+{
+    "prefix": "us_stocks_sip/trades_v1",
+    "download_dir": config.STOCK_TRADE_DIR,
+    "description": "Stocks Trades"
+},
+'''
 # Define multiple passes with their respective configurations
 PASSES = [
     {
@@ -90,8 +64,8 @@ PASSES = [
 ]
 
 # Retrieve AWS access and secret keys
-AWS_ACCESS_KEY = get_static_string(dataservices_path, "AWS_ACCESS_KEY")
-AWS_SECRET_KEY = get_static_string(dataservices_path, "AWS_SECRET_KEY")
+AWS_ACCESS_KEY = config.get_static_string(dataservices_path, "AWS_ACCESS_KEY")
+AWS_SECRET_KEY = config.get_static_string(dataservices_path, "AWS_SECRET_KEY")
 
 # Initialize a session using your credentials
 session = boto3.Session(
