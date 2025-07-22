@@ -1,4 +1,4 @@
-name: Prepare Build Artifacts
+name: Build and Release Heroku
 
 on:
   push:
