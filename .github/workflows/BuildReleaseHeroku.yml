@@ -16,7 +16,7 @@ jobs:
       - name: Build Blazor App
         run: |
           cd src/BullseyeApp
-          dotnet publish -c Release -o ../../bullseye-blazor
+          dotnet publish BullseyeApp.csproj -c Release -o ../../bullseye-blazor
       - name: Add static.json
         run: |
           echo '{ 
@@ -25,7 +25,7 @@ jobs:
             "routes": {
               "/**": "index.html"
             }
-          }' > static.json
+          }' > bullseye-blazor/static.json
       - name: List directory contents recursively
         run: find . -type f | sort
 
