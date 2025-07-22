@@ -25,11 +25,9 @@ jobs:
             "routes": {
               "/**": "index.html"
             }
-          }' > ../../bullseye-blazor/static.json
-      - name: List Output Directory
-        run: ls -la bullseye-blazor/
-      - name: List wwwroot Directory
-        run: ls -la bullseye-blazor/wwwroot
+          }' > static.json
+      - name: List directory contents recursively
+        run: find . -type f | sort
 
   build-worker:
     runs-on: ubuntu-latest
