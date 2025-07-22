@@ -17,6 +17,7 @@ jobs:
         run: |
           cd src/BullseyeApp
           dotnet publish BullseyeApp.csproj -c Release -o ../../bullseye-blazor
+          cp -r src/BullseyeApp/bin/Release/net9.0/wwwroot/* bullseye-blazor/
       - name: Add static.json
         run: |
           echo '{ 
@@ -27,7 +28,7 @@ jobs:
             }
           }' > bullseye-blazor/static.json
       - name: List directory contents recursively
-        run: find . -type f | sort
+        run: find bullseye-blazor/wwwroot -type f | sort
 
   build-worker:
     runs-on: ubuntu-latest
