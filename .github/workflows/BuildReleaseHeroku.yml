@@ -2,7 +2,7 @@ name: Build and Release Heroku
 
 on:
   push:
-    branches: [ release ]
+    branches: [ main ]
 
 jobs:
   build-blazor:
@@ -26,6 +26,9 @@ jobs:
               "/**": "index.html"
             }
           }' > static.json
+      - name: List Output Directory
+        run: ls bullseye-blazor/
+        working-directory: /
 
   build-worker:
     runs-on: ubuntu-latest
@@ -50,3 +53,4 @@ jobs:
         run: |
           mkdir -p bullseye-platform
           cp -r src/site/* bullseye-platform/
+          echo 'web: gunicorn
