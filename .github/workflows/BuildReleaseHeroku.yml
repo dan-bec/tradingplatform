@@ -53,4 +53,7 @@ jobs:
         run: |
           mkdir -p bullseye-platform
           cp -r src/site/* bullseye-platform/
-          echo 'web: gunicorn
+          cd bullseye-platform/
+          echo 'release: python manage.py migrate'
+            web: gunicorn bullseyesite.wsgi
+          ' > Procfile
