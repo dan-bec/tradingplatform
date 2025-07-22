@@ -38,7 +38,9 @@ jobs:
           cd src/BullseyeWorker
           dotnet publish -c Release -o ../../bullseye-worker
       - name: Create Procfile for Worker
-        run: echo 'worker: dotnet bullseye-worker/BullseyeWorker.dll' > Procfile
+        run: |
+          echo 'worker: dotnet bullseye-worker/BullseyeWorker.dll'
+          > Procfile
 
   prepare-django:
     runs-on: ubuntu-latest
