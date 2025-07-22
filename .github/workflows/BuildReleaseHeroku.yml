@@ -15,11 +15,9 @@ jobs:
           dotnet-version: '9.0.x'
       - name: Build Blazor App
         run: |
-          cd src/BullseyeApp
-          dotnet publish BullseyeApp.csproj -c Release -o ../../bullseye-blazor
-      - name: List publish contents
-        run: find src/BullseyeApp/bin/Release/net9.0 -type d | sort
-          #cp -r src/BullseyeApp/bin/Release/net9.0/wwwroot/* bullseye-blazor/
+          dotnet publish src/BullseyeApp/BullseyeApp.csproj -c Release -r browser-wasm
+          mkdir -p bullseye-blazor
+          cp -r src/BullseyeApp/bin/Release/net9.0/browser-wasm/publish/wwwroot/* bullseye-blazor/
       - name: Add static.json
         run: |
           echo '{ 
@@ -29,8 +27,8 @@ jobs:
               "/**": "index.html"
             }
           }' > bullseye-blazor/static.json
-      - name: List directory contents recursively
-        run: find bullseye-blazor/wwwroot -type f | sort
+      - name: Confirm publish contents
+        run: find bullseye-blazor -type f | sort
 
   build-worker:
     runs-on: ubuntu-latest
