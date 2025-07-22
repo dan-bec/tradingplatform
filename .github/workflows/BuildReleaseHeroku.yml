@@ -44,6 +44,9 @@ jobs:
         run: |
           echo 'worker: dotnet bullseye-worker/BullseyeWorker.dll'
           > Procfile
+      - name: List Output Directory
+        run: ls bullseye-worker/
+        working-directory: /
 
   prepare-django:
     runs-on: ubuntu-latest
@@ -57,3 +60,6 @@ jobs:
           echo 'release: python manage.py migrate'
             web: gunicorn bullseyesite.wsgi
           ' > Procfile
+      - name: List Output Directory
+        run: ls bullseye-platform/
+        working-directory: /
