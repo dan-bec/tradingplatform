@@ -17,7 +17,9 @@ jobs:
         run: |
           cd src/BullseyeApp
           dotnet publish BullseyeApp.csproj -c Release -o ../../bullseye-blazor
-          cp -r src/BullseyeApp/bin/Release/net9.0/wwwroot/* bullseye-blazor/
+      - name: List publish contents
+        run: find src/BullseyeApp/bin/Release/net9.0 -type d | sort
+          #cp -r src/BullseyeApp/bin/Release/net9.0/wwwroot/* bullseye-blazor/
       - name: Add static.json
         run: |
           echo '{ 
