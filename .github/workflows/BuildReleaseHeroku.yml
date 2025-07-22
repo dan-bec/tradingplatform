@@ -13,6 +13,8 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '9.0.x'
+      - name: Restore required workloads
+        run: dotnet workload restore
       - name: Build Blazor App
         run: |
           dotnet publish src/BullseyeApp/BullseyeApp.csproj -c Release -r browser-wasm
