@@ -26,8 +26,8 @@ jobs:
               "/**": "index.html"
             }
           }' > static.json
-      - name: List Current Directory
-        run: ls -la
+      - name: List Output Directory
+        run: ls -la bullseye-blazor/
 
   build-worker:
     runs-on: ubuntu-latest
