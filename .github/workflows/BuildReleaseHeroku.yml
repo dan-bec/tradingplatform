@@ -57,7 +57,7 @@ jobs:
           mkdir -p bullseye-platform
           cp -r src/site/* bullseye-platform/
           cd bullseye-platform/
-          echo 'release: python manage.py migrate'
+          echo 'release: python manage.py migrate
             web: gunicorn bullseyesite.wsgi
           ' > Procfile
       - name: List Output Directory
