@@ -15,9 +15,10 @@ import scripts.raw_data.config as config
 import boto3
 from botocore.config import Config
 import duckdb
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, time
 import time
 import os
+import gc
 
 # Configuration
 s3_endpoint = config.S3_ENDPOINT
@@ -46,26 +47,6 @@ s3 = session.client(
     config=Config(signature_version='s3v4'),
 )
 
-# Set up DuckDB connection
-con = duckdb.connect(str(full_db_path))
-
-# Create the final table if it doesn't exist
-con.execute(f"""
-CREATE TABLE IF NOT EXISTS {raw_schema}.option_quotes (
-    data_date DATE,
-    option_ticker VARCHAR,
-    sip_timestamp BIGINT,
-    bid_price DOUBLE,
-    ask_price DOUBLE,
-    bid_size INT,
-    ask_size INT,
-    bid_exchange INT,
-    ask_exchange INT
-)
-""")
-
-con.close()
-
 def generate_date_list(start, end):
     """Generate a list of dates between start and end."""
     date_list = []
@@ -86,13 +67,30 @@ def get_existing_dates():
         # If the table does not exist, return an empty set
         return set()
 
+# Function to convert date to Unix timestamp for end of day
+def date_to_end_of_day_timestamp(date_input):
+    """Convert a date to Unix timestamp for end of day (23:59:59)."""
+    if isinstance(date_input, str):
+        date_obj = datetime.strptime(date_input, '%Y-%m-%d').date()
+    elif isinstance(date_input, date):
+        date_obj = date_input
+    else:
+        raise ValueError("Input must be a datetime.date object or string in 'YYYY-MM-DD' format")
+    end_of_day = datetime.combine(date_obj, time(23, 59, 59))
+    return int(end_of_day.timestamp())
+
 def process_date(date):
     """Process a single date's quotes file."""
     date_str = date.strftime("%Y-%m-%d")
     year = date.strftime("%Y")
     month = date.strftime("%m")
     s3_key = f"{quotes_prefix}/{year}/{month}/{date_str}.csv.gz"
-    
+    # Convert date to Unix timestamp for end of day (for next_sip_timestamp)
+    end_timestamp = date_to_end_of_day_timestamp(date)    
+    print(end_timestamp)
+
+    sys.exit()
+
     # Define the local file path in options_quotes_dir
     local_file = options_quotes_dir / f"{date_str}.csv.gz"
     
@@ -101,12 +99,15 @@ def process_date(date):
         s3.download_file(bucket_name, s3_key, str(local_file))
         print(f"Downloaded {s3_key} to {local_file}")
 
+        # Trigger garbage collection
+        gc.collect()
+
         # Set up DuckDB connection
         con = duckdb.connect(str(full_db_path))
         
         # Create a staging table for the quotes data
         con.execute(f"""
-        CREATE TABLE IF NOT EXISTS {raw_schema}.staging_quotes (
+        CREATE TABLE IF NOT EXISTS {raw_schema}.staging_quotes_raw (
             option_ticker VARCHAR,
             sip_timestamp BIGINT,
             bid_price DOUBLE,
@@ -121,7 +122,7 @@ def process_date(date):
         
         # Load the downloaded file into the staging table
         con.execute(f"""
-        INSERT INTO {raw_schema}.staging_quotes
+        INSERT INTO {raw_schema}.staging_quotes_raw
         SELECT 
             ticker AS option_ticker,
             sip_timestamp,
@@ -134,8 +135,55 @@ def process_date(date):
             CAST('{date_str}' AS DATE) AS data_date
         FROM read_csv_auto('{local_file}', compression='gzip')
         """)
-        print(f"Loaded {local_file} into {raw_schema}.staging_quotes")
+        print(f"Loaded {local_file} into {raw_schema}.staging_quotes_raw")
+
+        # Trigger garbage collection
+        gc.collect()
+
+        # Create a staging table for the quotes data
+        con.execute(f"""
+        CREATE TABLE IF NOT EXISTS {raw_schema}.staging_quotes_window (
+            option_ticker VARCHAR,
+            sip_timestamp BIGINT,
+            next_sip_timestamp BIGINT,
+            bid_price DOUBLE,
+            ask_price DOUBLE,
+            bid_size INT,
+            ask_size INT,
+            bid_exchange INT,
+            ask_exchange INT,
+            data_date DATE
+        )
+        """)
         
+        # Load the downloaded file into the staging table
+        con.execute(f"""
+        INSERT INTO {raw_schema}.staging_quotes_window
+        SELECT 
+            option_ticker,
+            sip_timestamp,
+            COALESCE(
+                LEAD(sip_timestamp) OVER (PARTITION BY data_date, option_ticker ORDER BY sip_timestamp),
+                {end_timestamp}
+            ) AS next_sip_timestamp,
+            bid_price,
+            ask_price,
+            bid_size,
+            ask_size,
+            bid_exchange,
+            ask_exchange,
+            data_date
+        FROM {raw_schema}.staging_quotes_raw q
+        """)
+        print(f"Loaded {raw_schema}.staging_quotes_raw into {raw_schema}.staging_quotes_window")
+
+        # Drop the staging table
+        con.execute(f"DROP TABLE {raw_schema}.staging_quotes_raw")
+        print(f"DROP TABLE {raw_schema}.staging_quotes_raw SUCCESSFUL")
+
+        # Trigger garbage collection
+        gc.collect()
+      
         # Join with trades data and insert into final table
         con.execute(f"""
         INSERT INTO {raw_schema}.option_quotes
@@ -143,22 +191,23 @@ def process_date(date):
             q.data_date,
             q.option_ticker,
             q.sip_timestamp,
+            q.next_sip_timestamp,
             q.bid_price,
             q.ask_price,
             q.bid_size,
             q.ask_size,
             q.bid_exchange,
             q.ask_exchange
-        FROM {raw_schema}.staging_quotes q
-        JOIN {raw_schema}.all_options_trades_data t
-        ON q.data_date = t.data_date
-        AND q.option_ticker = t.option_ticker
-        AND q.sip_timestamp BETWEEN (t.sip_timestamp - 1_000_000_000) AND (t.sip_timestamp + 1_000_000_000)
+        FROM {raw_schema}.staging_quotes_window q
+        JOIN {raw_schema}.all_options_trades_data ot
+            ON q.data_date = ot.data_date
+            AND q.option_ticker = ot.option_ticker
+            AND ot.sip_timestamp between q.sip_timestamp and q.next_timestamp
         """)
-        print(f"Loaded {local_file} into {raw_schema}.option_quotes")
+        print(f"Loaded {raw_schema}.staging_quotes_window into {raw_schema}.option_quotes")
         
         # Drop the staging table
-        con.execute(f"DROP TABLE {raw_schema}.staging_quotes")
+        con.execute(f"DROP TABLE {raw_schema}.staging_quotes_window")
         print(f"Processed data for {date_str}")
 
         con.close()
@@ -180,6 +229,27 @@ def main():
     # Capture and print start time
     start_time = time.time()
     print(f"!!{FILE_NAME}!! Start time: {start_time:.2f} seconds")
+
+    # Set up DuckDB connection
+    con = duckdb.connect(str(full_db_path))
+
+    # Create the final table if it doesn't exist
+    con.execute(f"""
+    CREATE TABLE IF NOT EXISTS {raw_schema}.option_quotes (
+        data_date DATE,
+        option_ticker VARCHAR,
+        sip_timestamp BIGINT,
+        next_sip_timestamp BIGINT,
+        bid_price DOUBLE,
+        ask_price DOUBLE,
+        bid_size INT,
+        ask_size INT,
+        bid_exchange INT,
+        ask_exchange INT
+    )
+    """)
+
+    con.close()
 
     """Main function to process all dates in the range that are not already in the database."""
     all_dates = generate_date_list(start_date, end_date)

@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run process_polygon.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": ["--date", "${input:date}"],
+            "env": {
+                "AWS_PROFILE": "bullseye-batch-submitter"
+            }
+        }
+    ],
+    "inputs": [
+        {
+            "id": "date",
+            "type": "promptString",
+            "description": "Enter the date (YYYY-MM-DD)",
+            "default": "2025-08-03"
+        }
+    ]
+}

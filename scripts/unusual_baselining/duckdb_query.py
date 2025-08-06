@@ -29,15 +29,43 @@ con = duckdb.connect(str(full_db_path))
 
 # Get unique rows from query
 result = con.execute(f"""
-select *
-                     from information_schema.tables
-                     order by table_schema, table_name
-                
+                     
+        INSERT INTO {raw_schema}.staging_quotes_window
+        SELECT 
+            option_ticker,
+            sip_timestamp,
+            COALESCE(
+                LEAD(sip_timestamp) OVER (PARTITION BY data_date, option_ticker ORDER BY sip_timestamp),
+                1690932203
+            ) AS next_sip_timestamp,
+            bid_price,
+            ask_price,
+            bid_size,
+            ask_size,
+            bid_exchange,
+            ask_exchange,
+            data_date
+        FROM {raw_schema}.staging_quotes_raw q
+;
 
 """).fetchdf()
 print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
 # result.to_csv(sys.stdout, index=False)
+
 '''
+select distinct data_date, option_ticker, sip_timestamp - 1_000_000 timestamp_gte, sip_timestamp + 1_000_000 timestamp_lte
+from {raw_schema}.all_options_trades_data
+where 1=1
+and trade_value >= 3000   
+and option_ticker = 'O:AAPL230623C00182500'
+and data_date = '2023-06-22'
+
+;select data_date, option_ticker, min(sip_timestamp), max(sip_timestamp)
+from {prep_schema}.filtered_short_term_otm_options_trades
+group by 1,2
+having min(sip_timestamp) <> max(sip_timestamp)
+limit 10                
+
 try:
     result = con.execute("DESCRIBE raw_data.all_trades_data").fetchall()
     print("Columns in raw_data.all_trades_data:")

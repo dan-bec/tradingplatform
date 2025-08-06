@@ -1,0 +1,6 @@
+[default]
+output = csv
+region = us-west-2
+[profile bullseye-batch-submitter]
+region = us-east-1
+output = csv

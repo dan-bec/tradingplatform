@@ -23,6 +23,9 @@ S3_ENDPOINT = "https://files.polygon.io"  # Polygon S3-compatible endpoint
 BUCKET_NAME = "flatfiles"  # Polygon bucket name
 DATASERVICES_PATH = SHARED_DATA_PATH / "DataService.cs"
 
+MAX_RETRIES = 3  # Number of retry attempts for timeouts
+TIMEOUT_SECONDS = 60  # Increased timeout duration
+
 POLYGON_DAILY = "daily"
 POLYGON_TRADES = "trades"
 POLYGON_QUOTES = "quotes"
