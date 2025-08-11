@@ -6,16 +6,13 @@ WORKDIR /app
 COPY process_polygon.py .
 
 # Install dependencies
-RUN pip install --no-cache-dir boto3
+RUN pip install --no-cache-dir boto3 requests
 
-# Set environment variables (defaults, can be overridden in ECS task definition)
-ENV POLYGON_ENDPOINT=https://files.polygon.io
-ENV POLYGON_BUCKET=flatfiles
+# Set environment variables (defaults, can be overridden in Batch job)
+ENV POLYGON_API_ENDPOINT=https://api.polygon.io
 ENV TARGET_S3_BUCKET=bullseye-cap-polygon-data
-ENV MAX_CHUNK_SIZE_BYTES=2147483648
-ENV CHECK_INTERVAL_LINES=1000
+ENV MAX_CHUNK_SIZE_BYTES=4294967296
 ENV AWS_DEFAULT_REGION=us-east-1
-ENV NUM_WORKERS=4  
 
-# Command to run the script, expecting DATE and NUM_WORKERS as env vars
-CMD ["sh", "-c", "python process_polygon.py --date $DATE --num-workers $NUM_WORKERS"]
+# Command to run the script, expecting DATE and CHUNK_INDEX
+CMD ["sh", "-c", "python process_polygon.py --date $DATE --chunk-index $CHUNK_INDEX"]

@@ -9,127 +9,136 @@ from boto3.s3.transfer import TransferConfig
 import argparse
 import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from botocore.exceptions import ClientError
+import requests
+import time
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Config
-POLYGON_ENDPOINT = os.getenv('POLYGON_ENDPOINT', 'https://files.polygon.io')
-POLYGON_BUCKET = os.getenv('POLYGON_BUCKET', 'flatfiles')
+POLYGON_API_ENDPOINT = os.getenv('POLYGON_API_ENDPOINT', 'https://api.polygon.io')
 TARGET_S3_BUCKET = os.getenv('TARGET_S3_BUCKET', 'bullseye-cap-polygon-data')
-MAX_CHUNK_SIZE_BYTES = int(os.getenv('MAX_CHUNK_SIZE_BYTES', 4 * 1024 * 1024 * 1024))  # 4 GB
-CHECK_INTERVAL_LINES = int(os.getenv('CHECK_INTERVAL_LINES', 1000))
+MAX_CHUNK_SIZE_BYTES = int(os.getenv('MAX_CHUNK_SIZE_BYTES', 4 * 1024 * 1024 * 1024))  # 4 GB (for safety, not used)
 
-# Polygon passes
-PASSES = [
-    {"prefix": "us_options_opra/trades_v1", "s3_folder": "options/trades"},
-    {"prefix": "us_options_opra/quotes_v1", "s3_folder": "options/quotes"}
-]
+def fetch_quotes(ticker, date_str, timestamp_gte, timestamp_lte, api_key):
+    """Fetch quotes for a ticker in a time window, return as CSV string."""
+    url = f"{POLYGON_API_ENDPOINT}/v3/quotes/{ticker}"
+    params = {
+        'timestamp.gte': str(timestamp_gte),
+        'timestamp.lte': str(timestamp_lte),
+        'limit': 50000,  # Adjustable; max 50,000
+        'order': 'asc',
+        'sort': 'sip_timestamp',
+        'apiKey': api_key
+    }
+    headers = {'Accept-Encoding': 'gzip'}
+    
+    quotes = []
+    for attempt in range(3):
+        try:
+            while url:
+                response = requests.get(url, params=params, headers=headers)
+                response.raise_for_status()
+                data = response.json()
+                quotes.extend(data.get('results', []))
+                url = data.get('next_url')
+                if url:
+                    params = None
+                logging.info(f"Fetched {len(data.get('results', []))} quotes for {ticker}")
+            break
+        except requests.RequestException as e:
+            if attempt == 2:
+                logging.error(f"Failed to fetch quotes for {ticker}: {e}")
+                raise
+            logging.warning(f"Retry {attempt+1} for {ticker}: {e}")
+            time.sleep(2 ** attempt)
+    
+    # Convert to CSV
+    if not quotes:
+        return None
+    csv_buffer = io.StringIO()
+    csv_buffer.write("ticker,bid_exchange,bid_price,bid_size,ask_exchange,ask_price,ask_size,sip_timestamp\n")
+    for quote in quotes:
+        csv_buffer.write(f"{quote['ticker']},{quote.get('bid_exchange', '')},{quote.get('bid_price', '')},{quote.get('bid_size', '')},{quote.get('ask_exchange', '')},{quote.get('ask_price', '')},{quote.get('ask_size', '')},{quote.get('sip_timestamp', '')}\n")
+    return csv_buffer.getvalue()
 
-def date_folder_exists(s3_folder, target_s3, date_str):
-    response = target_s3.list_objects_v2(Bucket=TARGET_S3_BUCKET, Prefix=f"{s3_folder}/{date_str}/", MaxKeys=1)
-    return 'Contents' in response
-
-def process_file(prefix, s3_folder, date_str, polygon_s3, target_s3, num_workers):
-    gz_key = f"{prefix}/{date_str[:4]}/{date_str[5:7]}/{date_str}.csv.gz"
-    if date_folder_exists(s3_folder, target_s3, date_str):
-        print(f"Skipping {gz_key}")
-        return
-
+def process_chunk(chunk_index, date_str, target_s3, api_keys):
+    """Process a chunk of compressed intervals, write one .csv.gz per API call."""
+    transfer_config = TransferConfig(
+        multipart_threshold=1024*1024*1024,
+        max_concurrency=8,  # Fixed for 4 vCPUs
+        num_download_attempts=5,
+        max_io_queue=10000
+    )
+    
+    # Load chunk from S3
+    s3_key = f"options/quotes/{date_str}/compressed_chunk_{chunk_index}.json"
     try:
-        # Get file metadata
-        logging.info(f"Processing {gz_key}")
-        head = polygon_s3.head_object(Bucket=POLYGON_BUCKET, Key=gz_key)
-        file_size = head['ContentLength']
-        print(f"{gz_key} size: {file_size / (1024*1024):.2f} MB")
-
-        # Stream download
-        transfer_config = TransferConfig(
-            multipart_threshold=1024*1024*1024,  # 1 GB
-            max_concurrency=num_workers * 2,  # 2x threads per vCPU
-            num_download_attempts=5,
-            max_io_queue=10000
-        )
-        response = polygon_s3.get_object(Bucket=POLYGON_BUCKET, Key=gz_key)
-        gz_stream = response['Body']
-
-        # Stream decompress, chunk, and upload
-        with gzip.open(gz_stream, 'rt') as input_file:
-            header = input_file.readline()
-            if not header:
-                print(f"Empty file {gz_key}, skipping")
-                return
-            
-            chunk_id = 0
-            line_count = 0
-            while True:
-                chunk_buffer = io.BytesIO()
-                with gzip.GzipFile(fileobj=chunk_buffer, mode='wb') as chunk_gz:
-                    chunk_gz.write(header.encode('utf-8'))
-                    lines_written = 0
-                    for line in input_file:
-                        chunk_gz.write(line.encode('utf-8'))
-                        lines_written += 1
-                        line_count += 1
-                        if lines_written % CHECK_INTERVAL_LINES == 0:
-                            chunk_gz.flush()
-                            if chunk_buffer.tell() > MAX_CHUNK_SIZE_BYTES * 0.9:
-                                break
-                    if lines_written == 0:
-                        break
-                
-                chunk_buffer.seek(0)
-                chunk_size = chunk_buffer.getbuffer().nbytes
-                if chunk_size == 0:
-                    break
-                
-                part_key = f"{s3_folder}/{date_str}/part_{chunk_id:04d}.csv.gz"
-                target_s3.upload_fileobj(
-                    chunk_buffer,
-                    Bucket=TARGET_S3_BUCKET,
-                    Key=part_key,
-                    Config=transfer_config
-                )
-                print(f"Uploaded chunk {chunk_id} ({chunk_size / (1024*1024):.2f} MB) to s3://{TARGET_S3_BUCKET}/{part_key}")
-                logging.info(f"Processed {gz_key} into {chunk_id} chunks")
-                chunk_id += 1
-            
-            print(f"Processed {gz_key} into {chunk_id} chunks")
-
-    except polygon_s3.exceptions.ClientError as e:
-        if e.response['Error']['Code'] == '404':
-            print(f"Skipping {gz_key}: Not found on Polygon")
-        else:
-            raise
-    except Exception as e:
-        print(f"Error processing {gz_key}: {e}")
-        logging.error(f"Error processing {gz_key}: {e}", exc_info=True)
+        response = target_s3.get_object(Bucket=TARGET_S3_BUCKET, Key=s3_key)
+        intervals = json.loads(response['Body'].read().decode('utf-8'))
+        print(f"Loaded {len(intervals)} intervals from s3://{TARGET_S3_BUCKET}/{s3_key}")
+    except ClientError as e:
+        logging.error(f"Failed to load chunk {chunk_index}: {e}")
         raise
 
-def main(date_str, num_workers):
-    logging.info(f"Starting processing for date: {date_str} with {num_workers} workers")
+    # Process intervals in parallel
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        futures = []
+        for i, interval in enumerate(intervals):
+            ticker = interval['ticker']
+            gte = interval['timestamp_gte']
+            lte = interval['timestamp_lte']
+            api_key = api_keys[i % len(api_keys)]  # Rotate keys
+            futures.append(executor.submit(fetch_quotes, ticker, date_str, gte, lte, api_key))
+        
+        for i, future in enumerate(as_completed(futures)):
+            try:
+                csv_data = future.result()
+                if csv_data:
+                    interval = intervals[i]
+                    ticker = interval['ticker']
+                    gte = interval['timestamp_gte']
+                    lte = interval['timestamp_lte']
+                    part_key = f"options/quotes/{date_str}/ticker_{ticker}_gte_{gte}_lte_{lte}.csv.gz"
+                    csv_buffer = io.BytesIO()
+                    with gzip.GzipFile(fileobj=csv_buffer, mode='wb') as gz:
+                        gz.write(csv_data.encode('utf-8'))
+                    csv_buffer.seek(0)
+                    for attempt in range(3):
+                        try:
+                            target_s3.upload_fileobj(
+                                csv_buffer,
+                                Bucket=TARGET_S3_BUCKET,
+                                Key=part_key,
+                                Config=transfer_config
+                            )
+                            print(f"Uploaded {part_key} to s3://{TARGET_S3_BUCKET}/{part_key}")
+                            break
+                        except ClientError as e:
+                            if attempt == 2:
+                                raise
+                            logging.warning(f"Retry {attempt+1} for {part_key} upload: {e}")
+                            time.sleep(2 ** attempt)
+            except Exception as e:
+                logging.error(f"Error processing interval {i}: {e}")
+                raise
+
+def main(date_str, chunk_index):
+    logging.info(f"Starting processing for date: {date_str}, chunk_index: {chunk_index}")
     # Fetch secrets
     session = boto3.Session()
     secrets_client = session.client('secretsmanager', region_name=os.getenv('AWS_DEFAULT_REGION', 'us-east-1'))
     response = secrets_client.get_secret_value(SecretId='polygon-credentials')
     secret_dict = json.loads(response['SecretString'])
-    POLYGON_ACCESS_KEY = secret_dict['access_key']
-    POLYGON_SECRET_KEY = secret_dict['secret_key']
-
-    polygon_s3 = boto3.client('s3', endpoint_url=POLYGON_ENDPOINT, aws_access_key_id=POLYGON_ACCESS_KEY,
-                              aws_secret_access_key=POLYGON_SECRET_KEY, config=Config(signature_version='s3v4', retries={'max_attempts': 5}))
-
+    api_keys = [secret_dict['api_key']]  # Add more keys: ['api_key1', 'api_key2']
+    
     target_s3 = session.client('s3')
-
-    # Process files in parallel (quotes is heavy, trades light)
-    with ThreadPoolExecutor(max_workers=2) as executor:
-        futures = [executor.submit(process_file, pass_config['prefix'], pass_config['s3_folder'], date_str, polygon_s3, target_s3, num_workers)
-                   for pass_config in PASSES]
-        for future in as_completed(futures):
-            future.result()  # Wait and handle errors
+    
+    process_chunk(chunk_index, date_str, target_s3, api_keys)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--date", required=True, help="Date (YYYY-MM-DD)")
-    parser.add_argument("--num-workers", type=int, default=4, help="Number of worker threads for downloads")
+    parser.add_argument("--chunk-index", type=int, required=True, help="Index of the chunk to process")
     args = parser.parse_args()
-    main(args.date, args.num_workers)
+    main(args.date, args.chunk_index)

@@ -293,7 +293,6 @@ def main(batch_size):
                 WHERE data_date = '{data_date}'
             ) q ON t.option_ticker = q.option_ticker
             WHERE t.data_date = '{data_date}' 
-                AND t.trade_value >= {ub_config.MIN_TRADE_VALUE}
                 AND q.option_ticker IS NULL 
             ORDER BY t.option_ticker ASC
         """).fetchall()

@@ -22,8 +22,12 @@ con = duckdb.connect(str(full_db_path))
 
 # Get unique rows from query
 result = con.execute(f"""
-drop table {raw_schema}.staging_quotes;
-drop table {raw_schema}.option_quotes;
+        SELECT DISTINCT t.option_ticker, 
+                       t.sip_timestamp - 30_000_000_000 AS timestamp_gte, 
+                       t.sip_timestamp + 30_000_000_000 AS timestamp_lte
+        FROM {raw_schema}.all_options_trades_data t
+        WHERE t.data_date = '{data_date}' 
+        ORDER BY t.option_ticker ASC
                  
 """).fetchdf()
 # print(tabulate(result, headers='keys', tablefmt='psql')) # type: ignore
