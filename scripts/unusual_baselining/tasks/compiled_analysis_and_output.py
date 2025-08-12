@@ -205,6 +205,21 @@ def main(itm_threshold,number_of_bins):
     shutil.copy(all_trades_output, latest_dir / all_trades_output.name)
     print(f"All options trades above baseline written to {latest_dir}/{all_trades_output.name}")
 
+    # Output {project}_percentiles files and baseline file
+    recent_trades_output = Path(f"{compiled_dir}/4_recent_trades_above_baseline.csv")
+    con.execute(f"""
+        COPY (
+            SELECT *
+            FROM {compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100}
+            WHERE trade_volume_bin_rank < {number_of_bins}
+            AND data_date >= (current_date - INTERVAL 14 DAY)
+            ORDER BY security
+        ) TO '{recent_trades_output}' (HEADER, DELIMITER ',')
+    """)
+    print(f"Recent options trades above baseline written to {recent_trades_output}")
+    shutil.copy(recent_trades_output, latest_dir / recent_trades_output.name)
+    print(f"Recent options trades above baseline written to {latest_dir}/{recent_trades_output.name}")
+
     ### SEGMENTED OUTPUTS ###
 
     # Create segmented outputs

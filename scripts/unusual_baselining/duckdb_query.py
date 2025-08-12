@@ -29,23 +29,8 @@ con = duckdb.connect(str(full_db_path))
 
 # Get unique rows from query
 result = con.execute(f"""
-                     
-        INSERT INTO {raw_schema}.staging_quotes_window
-        SELECT 
-            option_ticker,
-            sip_timestamp,
-            COALESCE(
-                LEAD(sip_timestamp) OVER (PARTITION BY data_date, option_ticker ORDER BY sip_timestamp),
-                1690932203
-            ) AS next_sip_timestamp,
-            bid_price,
-            ask_price,
-            bid_size,
-            ask_size,
-            bid_exchange,
-            ask_exchange,
-            data_date
-        FROM {raw_schema}.staging_quotes_raw q
+
+                     select (current_date - INTERVAL 14 DAY)
 ;
 
 """).fetchdf()
