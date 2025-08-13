@@ -15,7 +15,7 @@ import scripts.raw_data.config as config
 import boto3
 from botocore.config import Config
 import duckdb
-from datetime import datetime, timedelta, time
+from datetime import datetime, timedelta, time as dt_time, date
 import time
 import os
 import gc
@@ -76,7 +76,7 @@ def date_to_end_of_day_timestamp(date_input):
         date_obj = date_input
     else:
         raise ValueError("Input must be a datetime.date object or string in 'YYYY-MM-DD' format")
-    end_of_day = datetime.combine(date_obj, time(23, 59, 59))
+    end_of_day = datetime.combine(date_obj, dt_time(23, 59, 59))
     return int(end_of_day.timestamp())
 
 def process_date(date):
@@ -89,11 +89,10 @@ def process_date(date):
     end_timestamp = date_to_end_of_day_timestamp(date)    
     print(end_timestamp)
 
-    sys.exit()
-
     # Define the local file path in options_quotes_dir
     local_file = options_quotes_dir / f"{date_str}.csv.gz"
     
+    con = None
     try:
         # Download the quotes file from S3
         s3.download_file(bucket_name, s3_key, str(local_file))
@@ -104,7 +103,7 @@ def process_date(date):
 
         # Set up DuckDB connection
         con = duckdb.connect(str(full_db_path))
-        
+
         # Create a staging table for the quotes data
         con.execute(f"""
         CREATE TABLE IF NOT EXISTS {raw_schema}.staging_quotes_raw (
@@ -140,77 +139,114 @@ def process_date(date):
         # Trigger garbage collection
         gc.collect()
 
-        # Create a staging table for the quotes data
-        con.execute(f"""
-        CREATE TABLE IF NOT EXISTS {raw_schema}.staging_quotes_window (
-            option_ticker VARCHAR,
-            sip_timestamp BIGINT,
-            next_sip_timestamp BIGINT,
-            bid_price DOUBLE,
-            ask_price DOUBLE,
-            bid_size INT,
-            ask_size INT,
-            bid_exchange INT,
-            ask_exchange INT,
-            data_date DATE
-        )
-        """)
-        
-        # Load the downloaded file into the staging table
-        con.execute(f"""
-        INSERT INTO {raw_schema}.staging_quotes_window
-        SELECT 
-            option_ticker,
-            sip_timestamp,
-            COALESCE(
-                LEAD(sip_timestamp) OVER (PARTITION BY data_date, option_ticker ORDER BY sip_timestamp),
-                {end_timestamp}
-            ) AS next_sip_timestamp,
-            bid_price,
-            ask_price,
-            bid_size,
-            ask_size,
-            bid_exchange,
-            ask_exchange,
-            data_date
-        FROM {raw_schema}.staging_quotes_raw q
-        """)
-        print(f"Loaded {raw_schema}.staging_quotes_raw into {raw_schema}.staging_quotes_window")
+        # Get list of unique option_tickers from all_options_trades_data for this date
+        tickers = con.execute(f"""
+        SELECT DISTINCT option_ticker 
+        FROM {raw_schema}.all_options_trades_data 
+        WHERE data_date = CAST('{date_str}' AS DATE)
+        ORDER BY option_ticker
+        """).fetchall()
 
-        # Drop the staging table
+        for ticker_tuple in tickers:
+            ticker = ticker_tuple[0]
+            print(f"Processing option_ticker: {ticker}")
+
+            # Create a staging table for the quotes window
+            con.execute(f"""
+            CREATE TABLE IF NOT EXISTS {raw_schema}.staging_quotes_window (
+                option_ticker VARCHAR,
+                sip_timestamp BIGINT,
+                next_sip_timestamp BIGINT,
+                bid_price DOUBLE,
+                ask_price DOUBLE,
+                bid_size INT,
+                ask_size INT,
+                bid_exchange INT,
+                ask_exchange INT,
+                data_date DATE
+            )
+            """)
+            
+            # Load data for this ticker into the staging window table
+            con.execute(f"""
+            INSERT INTO {raw_schema}.staging_quotes_window
+            SELECT 
+                option_ticker,
+                sip_timestamp,
+                COALESCE(
+                    LEAD(sip_timestamp) OVER (PARTITION BY data_date, option_ticker ORDER BY sip_timestamp),
+                    {end_timestamp}
+                ) AS next_sip_timestamp,
+                bid_price,
+                ask_price,
+                bid_size,
+                ask_size,
+                bid_exchange,
+                ask_exchange,
+                data_date
+            FROM {raw_schema}.staging_quotes_raw
+            WHERE option_ticker = '{ticker}'
+            """)
+            print(f"Loaded data for {ticker} into {raw_schema}.staging_quotes_window")
+
+            # Trigger garbage collection
+            gc.collect()
+          
+            # Create the final table if it doesn't exist
+            con.execute(f"""
+            CREATE TABLE IF NOT EXISTS {raw_schema}.option_quotes (
+                data_date DATE,
+                option_ticker VARCHAR,
+                sip_timestamp BIGINT,
+                next_sip_timestamp BIGINT,
+                bid_price DOUBLE,
+                ask_price DOUBLE,
+                bid_size INT,
+                ask_size INT,
+                bid_exchange INT,
+                ask_exchange INT
+            )
+            """)
+            
+            # Join with trades data and insert into final table
+            con.execute(f"""
+            INSERT INTO {raw_schema}.option_quotes
+            SELECT DISTINCT
+                q.data_date,
+                q.option_ticker,
+                q.sip_timestamp,
+                q.next_sip_timestamp,
+                q.bid_price,
+                q.ask_price,
+                q.bid_size,
+                q.ask_size,
+                q.bid_exchange,
+                q.ask_exchange
+            FROM {raw_schema}.staging_quotes_window q
+            JOIN {raw_schema}.all_options_trades_data ot
+                ON q.data_date = ot.data_date
+                AND q.option_ticker = ot.option_ticker
+                AND ot.sip_timestamp BETWEEN q.sip_timestamp AND q.next_sip_timestamp
+            """)
+            print(f"Inserted data for {ticker} into {raw_schema}.option_quotes")
+            
+            # Drop the staging window table
+            con.execute(f"DROP TABLE {raw_schema}.staging_quotes_window")
+            print(f"Dropped {raw_schema}.staging_quotes_window")
+
+            # Trigger garbage collection
+            gc.collect()
+
+        # After processing all tickers, drop the raw staging table
         con.execute(f"DROP TABLE {raw_schema}.staging_quotes_raw")
-        print(f"DROP TABLE {raw_schema}.staging_quotes_raw SUCCESSFUL")
+        print(f"Dropped {raw_schema}.staging_quotes_raw")
 
-        # Trigger garbage collection
-        gc.collect()
-      
-        # Join with trades data and insert into final table
-        con.execute(f"""
-        INSERT INTO {raw_schema}.option_quotes
-        SELECT DISTINCT
-            q.data_date,
-            q.option_ticker,
-            q.sip_timestamp,
-            q.next_sip_timestamp,
-            q.bid_price,
-            q.ask_price,
-            q.bid_size,
-            q.ask_size,
-            q.bid_exchange,
-            q.ask_exchange
-        FROM {raw_schema}.staging_quotes_window q
-        JOIN {raw_schema}.all_options_trades_data ot
-            ON q.data_date = ot.data_date
-            AND q.option_ticker = ot.option_ticker
-            AND ot.sip_timestamp between q.sip_timestamp and q.next_timestamp
-        """)
-        print(f"Loaded {raw_schema}.staging_quotes_window into {raw_schema}.option_quotes")
-        
-        # Drop the staging table
-        con.execute(f"DROP TABLE {raw_schema}.staging_quotes_window")
-        print(f"Processed data for {date_str}")
+        print(f"Processed all data for {date_str}")
 
-        con.close()
+        # Delete the local file only after successful processing
+        if local_file.exists():
+            os.remove(local_file)
+            print(f"Deleted {local_file}")
  
     except s3.exceptions.ClientError as e:
         if e.response['Error']['Code'] == '404':
@@ -220,36 +256,14 @@ def process_date(date):
     except Exception as e:
         print(f"Error processing {date_str}: {e}")
     finally:
-        # Clean up the downloaded file
-        if local_file.exists():
-            os.remove(local_file)
-            print(f"Deleted {local_file}")
+        if con:
+            con.close()
 
 def main():
     # Capture and print start time
     start_time = time.time()
     print(f"!!{FILE_NAME}!! Start time: {start_time:.2f} seconds")
 
-    # Set up DuckDB connection
-    con = duckdb.connect(str(full_db_path))
-
-    # Create the final table if it doesn't exist
-    con.execute(f"""
-    CREATE TABLE IF NOT EXISTS {raw_schema}.option_quotes (
-        data_date DATE,
-        option_ticker VARCHAR,
-        sip_timestamp BIGINT,
-        next_sip_timestamp BIGINT,
-        bid_price DOUBLE,
-        ask_price DOUBLE,
-        bid_size INT,
-        ask_size INT,
-        bid_exchange INT,
-        ask_exchange INT
-    )
-    """)
-
-    con.close()
 
     """Main function to process all dates in the range that are not already in the database."""
     all_dates = generate_date_list(start_date, end_date)

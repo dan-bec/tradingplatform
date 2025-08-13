@@ -213,6 +213,7 @@ def main(itm_threshold,number_of_bins):
             FROM {compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100}
             WHERE trade_volume_bin_rank < {number_of_bins}
             AND data_date >= (current_date - INTERVAL 14 DAY)
+            AND expiration > current_date
             ORDER BY security
         ) TO '{recent_trades_output}' (HEADER, DELIMITER ',')
     """)
