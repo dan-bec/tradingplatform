@@ -30,7 +30,10 @@ con = duckdb.connect(str(full_db_path))
 # Get unique rows from query
 result = con.execute(f"""
 
-                     select (current_date - INTERVAL 14 DAY)
+                     select data_date, security, option_ticker, expiration, trade_value
+                     from {compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100}
+                     where security = 'CMG'
+                     and data_date > '2025-08-01'
 ;
 
 """).fetchdf()

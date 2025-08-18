@@ -18,6 +18,7 @@ import pandas as pd
 import numpy as np
 from collections import defaultdict
 import shutil
+from datetime import datetime
 
 ### SETTINGS ###
 projects_path = config.PROJECTS_PATH
@@ -205,14 +206,15 @@ def main(itm_threshold,number_of_bins):
     shutil.copy(all_trades_output, latest_dir / all_trades_output.name)
     print(f"All options trades above baseline written to {latest_dir}/{all_trades_output.name}")
 
+    current_date = datetime.now().strftime('%Y%m%d')
     # Output {project}_percentiles files and baseline file
-    recent_trades_output = Path(f"{compiled_dir}/4_recent_trades_above_baseline.csv")
+    recent_trades_output = Path(f"{compiled_dir}/4_recent_trades_above_baseline_{current_date}.csv")
     con.execute(f"""
         COPY (
             SELECT *
             FROM {compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100}
             WHERE trade_volume_bin_rank < {number_of_bins}
-            AND data_date >= (current_date - INTERVAL 14 DAY)
+            AND data_date >= (current_date - INTERVAL 7 DAY)
             AND expiration > current_date
             ORDER BY security
         ) TO '{recent_trades_output}' (HEADER, DELIMITER ',')

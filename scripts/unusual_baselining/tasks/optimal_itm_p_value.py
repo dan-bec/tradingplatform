@@ -125,7 +125,7 @@ def main(itm_threshold):
         
         for i in range(len(filtered_group)):
             current = filtered_group.iloc[i]
-            if current['total_count'] < 5:
+            if current['total_count'] <= 10:
                 continue
             elif current['itm_pct'] < itm_threshold:
                 if i == 0:
