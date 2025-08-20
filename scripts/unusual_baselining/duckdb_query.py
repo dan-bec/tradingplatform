@@ -29,11 +29,16 @@ con = duckdb.connect(str(full_db_path))
 
 # Get unique rows from query
 result = con.execute(f"""
-
-                     select data_date, security, option_ticker, expiration, trade_value
+/*
+                     select data_date, security, option_ticker, expiration, strike_price, trade_value, trade_value_category, option_condition_name
                      from {compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100}
-                     where security = 'CMG'
-                     and data_date > '2025-08-01'
+                     where security = 'LZB'
+                     and data_date between '2025-07-01' and '2025-09-03'
+;
+*/
+select security , trade_volume_bin, trade_volume_bin_rank, cluster, trade_value_category, max_trade_value, min_trade_value
+from {compiled_schema}.all_securities_trade_value_category_{itm_threshold_100}
+where security = 'LZB'
 ;
 
 """).fetchdf()
