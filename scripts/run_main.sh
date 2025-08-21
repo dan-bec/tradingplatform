@@ -4,19 +4,19 @@
 cd /Volumes/T7-2TB/GitHub/tradingplatform/
 
 # Stash any uncommitted changes
-git stash
+# git stash
 
 # Fetch the latest from origin
-git fetch origin
+# git fetch origin
 
 # Checkout the remote main branch (detached HEAD)
-git checkout origin/main
+# git checkout origin/main
 
 # Run the Python script with provided arguments
-python3 scripts/main.py "$@"
+python3 scripts/main.py
 
 # Checkout the data-features branch
-git checkout data-features
+# git checkout data-features
 
 # Apply stashed changes if any
-git stash pop
+# git stash pop
