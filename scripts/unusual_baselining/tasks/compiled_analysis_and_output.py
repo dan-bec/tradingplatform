@@ -191,7 +191,7 @@ def main(itm_threshold,number_of_bins):
     """)
     print(f"Created and Loaded {compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100} db table")
     print(f"!!!ROWS IN {compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100}!!!:", con.execute(f"SELECT COUNT(*) FROM {compiled_schema}.all_options_trades_above_baseline_{itm_threshold_100}").fetchone()[0]) # type: ignore
-
+    '''
     # Output {project}_percentiles files and baseline file
     all_trades_output = Path(f"{compiled_dir}/3_all_trades_above_baseline.csv")
     con.execute(f"""
@@ -205,7 +205,7 @@ def main(itm_threshold,number_of_bins):
     print(f"All options trades above baseline written to {all_trades_output}")
     shutil.copy(all_trades_output, latest_dir / all_trades_output.name)
     print(f"All options trades above baseline written to {latest_dir}/{all_trades_output.name}")
-
+    '''
     current_date = datetime.now().strftime('%Y%m%d')
     # Output {project}_percentiles files and baseline file
     recent_trades_output = Path(f"{compiled_dir}/4_recent_trades_above_baseline_{current_date}.csv")
